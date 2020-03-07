@@ -1,28 +1,22 @@
-# translation of R.po to Italian
+# R Italian translation
 # This file is distributed under the same license as the R package.
 # Copyright (C) 2006 The R Foundation.
-# Daniele Medri <daniele.medri@libero.it>, 2005-2006.
-# Stefano M. Iacus <Stefano.Iacus@R-project.org>, 2005.
-# Stefano Calza <calza@med.unibs.it>, 2005
-# Stefano Pagnotta <pagnotta@unisannio.it>, 2005
-# Marcello Chiodi <chiodi@unipa.it>, 2005
-# Angelo Mineo <mineoeli@unipa.it>, 2005
-# Stefano M. Iacus <Stefano.Iacus@R-project.org>, 2006.
-#
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: R\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-29 07:06-0700\n"
-"PO-Revision-Date: 2006-01-16 09:11+0100\n"
-"Last-Translator: Daniele Medri <daniele.medri2@unibo.it>\n"
+"PO-Revision-Date: 2020-03-07 18:17+0100\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: src/appl/optim.c:60
 #, fuzzy
@@ -69,9 +63,8 @@ msgid "L-BFGS-B needs finite values of 'fn'"
 msgstr "L-BFGS-B necessita valori finiti di 'fn'"
 
 #: src/appl/optim.c:741
-#, fuzzy
 msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
-msgstr "REPORT deve esser > 0 (method = \"BFGS\")"
+msgstr "trace, REPORT dovrebbe essere >= 0 (method = \"SANN\")"
 
 #: src/appl/pretty.c:113
 msgid "Internal(pretty()): very small range.. corrected"
@@ -95,9 +88,9 @@ msgid "R_HOME not set"
 msgstr "R_HOME non impostata"
 
 #: src/gnuwin32/extra.c:68
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' not found"
-msgstr " non trovato"
+msgstr "'%s' non trovato"
 
 #: src/gnuwin32/extra.c:70
 #, fuzzy, c-format
@@ -107,17 +100,17 @@ msgstr "orario di modifica del file non disponibile su uqesta sistema"
 #: src/gnuwin32/extra.c:73
 #, c-format
 msgid "access to '%s' denied"
-msgstr ""
+msgstr "accesso vietato in '%s'"
 
 #: src/gnuwin32/extra.c:74
 #, c-format
 msgid "problem in displaying '%s'"
-msgstr ""
+msgstr "problema nella visualizzazione di '%s'"
 
 #: src/gnuwin32/extra.c:99
-#, fuzzy, c-format
+#, c-format
 msgid "'%ls' not found"
-msgstr " non trovato"
+msgstr "'%ls' non trovato"
 
 #: src/gnuwin32/extra.c:101
 #, fuzzy, c-format
@@ -127,12 +120,12 @@ msgstr "orario di modifica del file non disponibile su uqesta sistema"
 #: src/gnuwin32/extra.c:104
 #, c-format
 msgid "access to '%ls' denied"
-msgstr ""
+msgstr "accesso a '%ls' vietato"
 
 #: src/gnuwin32/extra.c:105
 #, c-format
 msgid "problem in displaying '%ls'"
-msgstr ""
+msgstr "problema durante la visualizzazione di '%ls'"
 
 #: src/gnuwin32/extra.c:116 src/gnuwin32/extra.c:158 src/gnuwin32/extra.c:348
 #: src/gnuwin32/extra.c:593 src/gnuwin32/extra.c:618
@@ -323,7 +316,7 @@ msgstr ""
 #: src/gnuwin32/run.c:439
 #, c-format
 msgid "Exit code was %d"
-msgstr ""
+msgstr "Il codice di uscita era %d"
 
 #: src/gnuwin32/run.c:472
 msgid "Insufficient memory (rpipeOpen)"
@@ -360,7 +353,7 @@ msgstr "il terzo parametro deve essere una stringa di caratteri"
 #: src/gnuwin32/sys-win32.c:286 src/unix/sys-unix.c:748 src/unix/sys-unix.c:783
 #, c-format
 msgid "command '%s' timed out after %ds"
-msgstr ""
+msgstr "il commando '%s' è scaduto dopo %ds"
 
 #: src/gnuwin32/sys-win32.c:289 src/unix/sys-unix.c:641
 #, c-format
@@ -394,9 +387,9 @@ msgid "encoding '%s' is not recognised"
 msgstr "encoding '%s' non riconosciuto"
 
 #: src/gnuwin32/system.c:341 src/unix/sys-std.c:954
-#, fuzzy, c-format
+#, c-format
 msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
-msgstr "<ERRORE: input non valido per questo encoding> "
+msgstr "<ERRORE: ricodifica fallita da '%s'>\n"
 
 #: src/gnuwin32/system.c:563 src/gnuwin32/system.c:1084
 #: src/gnuwin32/system.c:1096 src/main/connections.c:716
@@ -502,51 +495,44 @@ msgid "object of type '%s' is not subsettable"
 msgstr "questo oggetto non è indicizzabile"
 
 #: src/main/CommandLineArgs.c:171
-#, fuzzy
 msgid "WARNING: no value given for --encoding"
-msgstr "ATTENZIONE: nessun valore specificato per --encoding\n"
+msgstr "ATTENZIONE: nessun valore dato per --encoding"
 
 #: src/main/CommandLineArgs.c:196
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: option '%s' no longer supported"
-msgstr "ATTENZIONE: l'opzione %s non è più supportata\n"
+msgstr "ATTENZIONE: l'opzione '%s' non è più supportata"
 
 #: src/main/CommandLineArgs.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: no value given for '%s'"
-msgstr "ATTENZIONE: nessun valore specificato per %s\n"
+msgstr "ATTENZIONE: nessun valore specificato per '%s'"
 
 #: src/main/CommandLineArgs.c:217
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: '%s' value is invalid: ignored"
-msgstr "ATTENZIONE: il valore %s non è valido: verrà ignorato\n"
+msgstr "ATTENZIONE: il valore '%s' non è valido: sarà ignorato"
 
 #: src/main/CommandLineArgs.c:221
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: %s: too large and ignored"
-msgstr "ATTENZIONE: %s=%lu'%c': tropo grande e quindi ingorato\n"
+msgstr "ATTENZIONE: %s: tropo grande: ignorato"
 
 #: src/main/CommandLineArgs.c:235
-#, fuzzy
 msgid "WARNING: no value given for '--max-ppsize'"
-msgstr "ATTENZIONE: nessun valore specificato per --max-ppsize\n"
+msgstr "ATTENZIONE: nessun valore specificato per '--max-ppsize'"
 
 #: src/main/CommandLineArgs.c:240
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is negative: ignored"
-msgstr "ATTENZIONE: il valore di -max-ppsize è negativo: verrà ignorato\n"
+msgstr "ATTENZIONE: il valore '--max-ppsize' è negativo: ignorato"
 
 #: src/main/CommandLineArgs.c:242
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is too small: ignored"
-msgstr ""
-"ATTENZIONE: il valore di -max-ppsize è troppo piccolo: verrà ignorato\n"
+msgstr "ATTENZIONE: il valore di '--max-ppsize' è troppo piccolo: ignorato"
 
 #: src/main/CommandLineArgs.c:244
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is too large: ignored"
-msgstr ""
-"ATTENZIONE: il valore di '-max-ppsize' è troppo grande: verrà ignorato\n"
+msgstr "ATTENZIONE: il valore di '--max-ppsize' è troppo grande: ignorato"
 
 #: src/main/RNG.c:177
 #, c-format
@@ -677,7 +663,7 @@ msgstr "non è possibile allocare memoria per 'path'"
 #: src/main/Rdynload.c:659
 #, c-format
 msgid "DLLname '%s' is too long"
-msgstr "nome DLL '%s' troppo lungo"
+msgstr "Il nome DLL '%s' è troppo lungo"
 
 #: src/main/Rdynload.c:687
 msgid "could not allocate space for 'name'"
@@ -713,9 +699,9 @@ msgid "must pass package name or DllInfo reference"
 msgstr "specificare nome pacchetto o una referenza a DllInfo"
 
 #: src/main/Rdynload.c:1263
-#, fuzzy, c-format
+#, c-format
 msgid "unimplemented type %d in 'createRSymbolObject'"
-msgstr "Tipo %d non implementato in createRSymbolObject"
+msgstr "tipo %d non implementato in 'createRSymbolObject'"
 
 #: src/main/Rdynload.c:1345 src/main/Rdynload.c:1441
 msgid "R_getRegisteredRoutines() expects a DllInfo reference"
@@ -890,9 +876,8 @@ msgid "NaNs produced"
 msgstr "Si è prodotto un NaN"
 
 #: src/main/arithmetic.c:43
-#, fuzzy
 msgid "non-numeric argument to mathematical function"
-msgstr "Argomento non numerico in una funzione matematica"
+msgstr "argomento non-numerico per una funzione matematica"
 
 #: src/main/arithmetic.c:186
 msgid "probable complete loss of accuracy in modulus"
@@ -900,7 +885,7 @@ msgstr "possibile perdita totale di precisione in modulo"
 
 #: src/main/arithmetic.c:299
 msgid "NAs produced by integer overflow"
-msgstr "si è prodotto un NA per overflow di interi"
+msgstr "Valori NA prodotti da overflow di interi"
 
 #: src/main/arithmetic.c:498
 msgid "operator needs one or two arguments"
@@ -1197,7 +1182,7 @@ msgstr "tentativo di impostare un attributo 'comment' non ammissibile"
 
 #: src/main/attrib.c:529
 msgid "adding class \"factor\" to an invalid object"
-msgstr ""
+msgstr "conversione in classe \"factor\" di un oggetto non valido"
 
 #: src/main/attrib.c:560
 msgid "attempt to set invalid 'class' attribute"
@@ -1281,7 +1266,7 @@ msgstr ""
 #: src/main/attrib.c:1280
 #, c-format
 msgid "factor level [%d] is duplicated"
-msgstr ""
+msgstr "il livello factor [%d] è duplicato"
 
 #: src/main/attrib.c:1310
 #, fuzzy
@@ -1311,7 +1296,7 @@ msgstr "deve essere specificato solo un attributo 'name'"
 #: src/main/subscript.c:248 src/main/subset.c:1272 src/main/subset.c:1325
 #, c-format
 msgid "partial match of '%s' to '%s'"
-msgstr ""
+msgstr "confronto parziale di '%s' con '%s'"
 
 #: src/main/attrib.c:1552
 #, fuzzy, c-format
@@ -1518,18 +1503,17 @@ msgid "cannot set length of non-(vector or list)"
 msgstr "impossibile impostare lunghezza di un oggetto non vector"
 
 #: src/main/builtin.c:834 src/main/character.c:544 src/main/coerce.c:2888
-#, fuzzy
 msgid "invalid value"
-msgstr "valore '%s' non valido"
+msgstr "valore non valido"
 
 #: src/main/builtin.c:836
 msgid "length of NULL cannot be changed"
 msgstr ""
 
 #: src/main/builtin.c:946 src/main/envir.c:2115 src/main/envir.c:2123
-#, fuzzy, c-format
+#, c-format
 msgid "wrong length for '%s' argument"
-msgstr "lunghezza sbagliata dell'argomento 'mode'"
+msgstr "lunghezza sbagliata per l'argomento '%s'"
 
 #: src/main/builtin.c:976 src/main/coerce.c:2593 src/main/coerce.c:2636
 #: src/main/eval.c:628 src/main/eval.c:758 src/main/eval.c:2854
@@ -1545,12 +1529,11 @@ msgstr ""
 
 #: src/main/builtin.c:1031
 msgid "'EXPR' is missing"
-msgstr ""
+msgstr "'EXPR' assente"
 
 #: src/main/builtin.c:1035 src/main/eval.c:7217
-#, fuzzy
 msgid "EXPR must be a length 1 vector"
-msgstr "switch: EXPR deve restituire un vettore di lunghezza 1"
+msgstr "EXPR dev'essere un vettore di lunghezza 1"
 
 #: src/main/builtin.c:1038 src/main/eval.c:7220
 #, c-format
@@ -1558,6 +1541,8 @@ msgid ""
 "EXPR is a \"factor\", treated as integer.\n"
 " Consider using '%s' instead."
 msgstr ""
+"EXPR è un \"factor\", trattato come intero.\n"
+" Considera come alternativa l'utilizzo di '%s'."
 
 #: src/main/builtin.c:1095 src/main/eval.c:7230 src/main/eval.c:7259
 msgid "'switch' with no alternatives"
@@ -1579,9 +1564,9 @@ msgstr "strstrim() necessita di un vettore di caratteri"
 #: src/main/character.c:150 src/main/character.c:165 src/main/character.c:175
 #: src/main/character.c:208 src/main/character.c:286 src/main/character.c:477
 #: src/main/character.c:482
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string, %s"
-msgstr "stringa mulibyte %d non valida"
+msgstr "stringa multibyte non valida, %s"
 
 #: src/main/character.c:159
 #, c-format
@@ -1598,14 +1583,12 @@ msgid "extracting substrings from a non-character object"
 msgstr "estraggo una sottostringa da un oggetto che non è di tipo character"
 
 #: src/main/character.c:329 src/main/character.c:541
-#, fuzzy
 msgid "invalid substring arguments"
-msgstr "argomento stringa non valido"
+msgstr "argomenti sottostringa non validi"
 
 #: src/main/character.c:369
-#, fuzzy
 msgid "non-character object(s)"
-msgstr "nomi non di tipo character"
+msgstr "oggetti non a caratteri"
 
 #: src/main/character.c:536
 msgid "replacing substrings in a non-character object"
@@ -1686,12 +1669,11 @@ msgstr "si applica solo a liste e vettori"
 
 #: src/main/coerce.c:77 src/main/errors.c:1268
 msgid "NAs introduced by coercion"
-msgstr "si è prodotto un NA per coercizione"
+msgstr "NA introdotti per coercizione"
 
 #: src/main/coerce.c:79
-#, fuzzy
 msgid "NAs introduced by coercion to integer range"
-msgstr "si è prodotto un NA per coercizione"
+msgstr "NA introdotto per coercizione in un intervallo di interi"
 
 #: src/main/coerce.c:81 src/main/errors.c:1270
 msgid "imaginary parts discarded in coercion"
@@ -1723,7 +1705,7 @@ msgstr "oggetto (list) non può essere converito in '%s'"
 
 #: src/main/coerce.c:1192 src/main/coerce.c:1523
 msgid "no method for coercing this S4 class to a vector"
-msgstr ""
+msgstr "nessun metodo per la coercizione di questa classe S4 in vettore"
 
 #: src/main/coerce.c:1255
 msgid "environments cannot be coerced to other types"
@@ -1737,7 +1719,7 @@ msgstr "tentativo di ingrandire un non vettore"
 
 #: src/main/coerce.c:1418 src/main/coerce.c:1428
 msgid "malformed factor"
-msgstr ""
+msgstr "factor malformato"
 
 #: src/main/coerce.c:1571
 msgid "list argument expected"
@@ -1761,7 +1743,7 @@ msgstr "argomento di lunghezza 0 non valido"
 
 #: src/main/coerce.c:1643
 msgid "as.call(<character string>)  not yet implemented"
-msgstr ""
+msgstr "as.call(<character string>)  non ancora implementato"
 
 #: src/main/coerce.c:1646
 msgid "invalid argument list"
@@ -1781,13 +1763,13 @@ msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() applicato a una non-(lista o vettore)"
 
 #: src/main/coerce.c:2324 src/main/coerce.c:2381 src/main/coerce.c:2455
-#, fuzzy, c-format
+#, c-format
 msgid "default method not implemented for type '%s'"
-msgstr "tipo '%s' non implementato in '%s'\n"
+msgstr "metodo predefinito non implementato per il tipo tipo '%s'"
 
 #: src/main/coerce.c:2477
 msgid "'name' is missing"
-msgstr ""
+msgstr "'name' assente"
 
 #: src/main/coerce.c:2484
 msgid "first argument must be a character string"
@@ -1901,7 +1883,7 @@ msgstr "connessione non valida"
 #: src/main/connections.c:204
 #, c-format
 msgid "closing unused connection %d (%s)\n"
-msgstr ""
+msgstr "chiusura della connessione non utilizzata %d (%s)\n"
 
 #: src/main/connections.c:229 src/main/serialize.c:1655
 #: src/main/serialize.c:1678 src/main/sysutils.c:644 src/main/sysutils.c:861
@@ -2129,7 +2111,7 @@ msgstr ""
 
 #: src/main/connections.c:2300 src/modules/X11/devX11.c:3389
 msgid "memory allocation to copy clipboard failed"
-msgstr "allocazione memoria appunti fallita"
+msgstr "allocazione della memoria fallita durante la copia dalla clipboard"
 
 #: src/main/connections.c:2305 src/modules/X11/devX11.c:3368
 #: src/modules/X11/devX11.c:3373
@@ -2138,17 +2120,15 @@ msgstr "la clipboard non può essere aperta o non contiene testo"
 
 #: src/main/connections.c:2316
 msgid "memory allocation to open clipboard failed"
-msgstr "allocazione memoria per aprire gli appunti fallita"
+msgstr "allocazione della memoria fallita durante l'apertura della clipboard"
 
 #: src/main/connections.c:2345
-#, fuzzy
 msgid "unable to open the clipboard"
-msgstr "Non è possibile aprire gli appunti"
+msgstr "non è possibile aprire la clipboard"
 
 #: src/main/connections.c:2349
-#, fuzzy
 msgid "unable to write to the clipboard"
-msgstr "Impossibile scrivere negli appunti"
+msgstr "non è possibile scrivere nella clipboard"
 
 #: src/main/connections.c:2389
 msgid "attempt to seek outside the range of the clipboard"
@@ -2265,14 +2245,13 @@ msgid "unknown 'rw' value"
 msgstr "valore 'rw' ignoto"
 
 #: src/main/connections.c:3520
-#, fuzzy, c-format
+#, c-format
 msgid "Problem closing connection:  %s"
-msgstr "problema nello scrivere sulla connessione"
+msgstr "Problema riscontrato durante la chiusura della connessione: %s"
 
 #: src/main/connections.c:3522
-#, fuzzy
 msgid "Problem closing connection"
-msgstr "problema nello scrivere sulla connessione"
+msgstr "Problema riscontrato durante la chiusura della connessione"
 
 #: src/main/connections.c:3592
 msgid "cannot close standard connections"
@@ -2295,19 +2274,18 @@ msgid "connection is not open"
 msgstr "connessione non aperta"
 
 #: src/main/connections.c:3720 src/main/connections.c:3733
-#, fuzzy, c-format
+#, c-format
 msgid "line longer than buffer size %lu"
-msgstr "Linea più lunga della dimensione del buffer"
+msgstr "la lunghezza della linea eccede la dimensione del buffer %lu"
 
 #: src/main/connections.c:3751
-#, fuzzy, c-format
+#, c-format
 msgid "Error writing to connection:  %s"
-msgstr "errore di scrittura sulla connessione"
+msgstr "Errore di scrittura sulla connessione: %s"
 
 #: src/main/connections.c:3753
-#, fuzzy
 msgid "Error writing to connection"
-msgstr "errore di scrittura sulla connessione"
+msgstr "Errore di scrittura sulla connessione"
 
 #: src/main/connections.c:3812 src/main/connections.c:3814
 #: src/main/connections.c:4096 src/main/connections.c:4667
@@ -2478,9 +2456,8 @@ msgid ""
 msgstr ""
 
 #: src/main/connections.c:5413
-#, fuzzy
 msgid "URL scheme unsupported by this method"
-msgstr "nls() non è supportato in questa piattaforma"
+msgstr "Schema URL non supportato da questo metodo"
 
 #: src/main/connections.c:5510
 msgid "file stream does not have gzip magic number"
@@ -2554,7 +2531,7 @@ msgstr "non è una connessione socket"
 
 #: src/main/connections.c:6250
 msgid "unknown compression, assuming none"
-msgstr ""
+msgstr "compressione sconosciuta, non viene considerata"
 
 #: src/main/connections.c:6368 src/main/connections.c:6372
 #: src/main/connections.c:6379
@@ -2576,9 +2553,8 @@ msgid "target context is not on the stack"
 msgstr "il contesto obiettivo non è nello stack"
 
 #: src/main/context.c:376
-#, fuzzy
 msgid "NA argument is invalid"
-msgstr "l'argomento non è un modello valido"
+msgstr "L'argomento NA non è valido"
 
 #: src/main/context.c:384 src/main/context.c:399 src/main/context.c:482
 #: src/main/context.c:494 src/main/context.c:505 src/main/context.c:517
@@ -2621,9 +2597,8 @@ msgid "internal error in 'do_sys'"
 msgstr "errore interno in 'do_sys'"
 
 #: src/main/cum.c:48
-#, fuzzy
 msgid "integer overflow in 'cumsum'; use 'cumsum(as.numeric(.))'"
-msgstr "Overflow di interi in sum(.); usare sum(as.numeric(.))"
+msgstr "overflow di interi in 'cumsum'; utilizza 'cumsum(as.numeric(.))'"
 
 #: src/main/cum.c:175
 #, fuzzy
@@ -2708,6 +2683,7 @@ msgstr ""
 #: src/main/debug.c:180 src/main/debug.c:187
 msgid "R was not compiled with support for memory profiling"
 msgstr ""
+"R non è stato compilato con il supporto per la profilazione della memoria"
 
 #: src/main/deparse.c:174
 #, fuzzy
@@ -2723,9 +2699,8 @@ msgid "deparse may be not be source()able in R < 2.7.0"
 msgstr ""
 
 #: src/main/deparse.c:373 src/main/deparse.c:418 src/main/source.c:206
-#, fuzzy
 msgid "'file' must be a character string or connection"
-msgstr "il primo argomento deve essere una stringa di caratteri o una funzione"
+msgstr "'file' deve essere una stringa di caratteri o una connessione"
 
 #: src/main/deparse.c:397 src/main/deparse.c:493 src/main/deparse.c:499
 msgid "wrote too few characters"
@@ -2736,9 +2711,8 @@ msgid "character arguments expected"
 msgstr "sono attesi argomenti di tipo character"
 
 #: src/main/deparse.c:423
-#, fuzzy
 msgid "zero-length argument"
-msgstr "argomento di lunghezza zero"
+msgstr "argomento a lunghezza zero"
 
 #: src/main/deparse.c:430
 #, fuzzy
@@ -2750,16 +2724,15 @@ msgstr "'gap' deve essere un intero non negativo"
 #: src/main/saveload.c:2020 src/main/saveload.c:2355 src/main/serialize.c:3066
 #, c-format
 msgid "object '%s' not found"
-msgstr "oggetto \"%s\" non trovato"
+msgstr "oggetto '%s' not trovato"
 
 #: src/main/deparse.c:1809
 msgid "badly formed function expression"
 msgstr "l'espressione della funzione è costruita male"
 
 #: src/main/devices.c:44
-#, fuzzy
 msgid "the base graphics system is not registered"
-msgstr "troppi sistemi grafici registrati"
+msgstr "il sistema grafico base non è registrato"
 
 #: src/main/devices.c:166 src/main/devices.c:174
 msgid "no active or default device"
@@ -2784,7 +2757,7 @@ msgstr "Premi <Invio> per vedere il prossimo grafico: "
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
-msgstr "valore NULL come indirizzo del simbolo"
+msgstr "Valore NULL passato come indirizzo simbolo"
 
 #: src/main/dotcode.c:148
 #, c-format
@@ -2792,9 +2765,9 @@ msgid "Unimplemented type %d in createRSymbolObject"
 msgstr "Tipo %d non implementato in createRSymbolObject"
 
 #: src/main/dotcode.c:162 src/main/dotcode.c:260
-#, fuzzy, c-format
+#, c-format
 msgid "symbol '%s' is too long"
-msgstr "nome DLL '%s' troppo lungo"
+msgstr "il simbolo '%s' è troppo lungo"
 
 #: src/main/dotcode.c:174
 #, fuzzy
@@ -2809,7 +2782,7 @@ msgstr "troppi argomenti nella chiamata di funzione esterna"
 
 #: src/main/dotcode.c:236
 msgid "PACKAGE = \"\" is invalid"
-msgstr ""
+msgstr "PACKAGE = \"\" non è valido"
 
 #: src/main/dotcode.c:292 src/main/dotcode.c:297 src/main/dotcode.c:302
 #: src/main/dotcode.c:307
@@ -2835,15 +2808,15 @@ msgstr "DUP usato più volte"
 
 #: src/main/dotcode.c:376
 msgid "DLL name is too long"
-msgstr "nome DLL troppo lungo"
+msgstr "Il nome DLL è troppo lungo"
 
 #: src/main/dotcode.c:421
 msgid "PACKAGE argument must be a single character string"
-msgstr "l'argomento PACKAGE deve essere una stringa character"
+msgstr "L'argomento PACKAGE dev'essere una stringa di soli caratteri"
 
 #: src/main/dotcode.c:427
 msgid "PACKAGE argument is too long"
-msgstr "argomento PACKAGE è troppo lungo"
+msgstr "Argomento PACKAGE troppo lungo"
 
 #: src/main/dotcode.c:492
 msgid "no arguments supplied"
@@ -2855,7 +2828,7 @@ msgstr "troppi argomenti"
 
 #: src/main/dotcode.c:530 src/main/dotcode.c:1232 src/main/dotcode.c:1457
 msgid "'.NAME' is missing"
-msgstr ""
+msgstr "'.NAME' assente"
 
 #: src/main/dotcode.c:539 src/main/dotcode.c:1247 src/main/dotcode.c:1478
 #, fuzzy, c-format
@@ -2875,9 +2848,9 @@ msgid "NULL value for DLLInfoReference when looking for DLL"
 msgstr "valore NULL per DLLInfoReference mentre cercavo la DLL"
 
 #: src/main/dotcode.c:1517
-#, fuzzy, c-format
+#, c-format
 msgid "wrong type for argument %d in call to %s"
-msgstr "Tipo argomento %d non valido nella chiamata a %s"
+msgstr "tipo errato per l'argomento %d nella chiamata a %s"
 
 #: src/main/dotcode.c:1546
 #, fuzzy, c-format
@@ -2929,14 +2902,14 @@ msgid "mode '%s' is not supported in call_R"
 msgstr "modalità '%s' non supportata in call_R"
 
 #: src/main/dounzip.c:172
-#, fuzzy, c-format
+#, c-format
 msgid " not overwriting file '%s"
-msgstr "impossibile aprire il file '%s'"
+msgstr "nessuna sovrascrittura per il file '%s"
 
 #: src/main/dounzip.c:257
-#, fuzzy, c-format
+#, c-format
 msgid "zip file '%s' cannot be opened"
-msgstr "le routine lapack non pososno essere caricate"
+msgstr "il file zip '%s' non può essere aperto"
 
 #: src/main/dounzip.c:313
 msgid "invalid zip name argument"
@@ -2947,14 +2920,12 @@ msgid "zip path is too long"
 msgstr "percorso file zip troppo lungo"
 
 #: src/main/dounzip.c:333
-#, fuzzy
 msgid "'exdir' is too long"
-msgstr "'destination' è troppo lungo"
+msgstr "'exdir' è troppo lungo"
 
 #: src/main/dounzip.c:336
-#, fuzzy
 msgid "'exdir' does not exist"
-msgstr "il menu non esiste"
+msgstr "'exdir' non esiste"
 
 #: src/main/dounzip.c:364
 msgid "requested file not found in the zip file"
@@ -2966,7 +2937,7 @@ msgstr "archivio zip danneggiato"
 
 #: src/main/dounzip.c:370
 msgid "CRC error in zip file"
-msgstr "error CRC nel file zip"
+msgstr "Errore CRC nel file zip"
 
 #: src/main/dounzip.c:377
 msgid "write error in extracting from zip file"
@@ -3043,7 +3014,7 @@ msgstr "'title' deve essere una stringa"
 #: src/main/edit.c:159
 #, c-format
 msgid "unable to run editor '%s'"
-msgstr "Impossibile aprire file '%s'"
+msgstr "non è possibile eseguire l'editor '%s'"
 
 #: src/main/edit.c:161
 msgid "editor ran but returned error status"
@@ -3113,14 +3084,12 @@ msgid "path rendering is not implemented for this device"
 msgstr "gc.time() non è implementata su questo sistema"
 
 #: src/main/engine.c:1406
-#, fuzzy
 msgid "Invalid graphics path"
-msgstr "Stato grafico non valido"
+msgstr "Percorso grafico non valido"
 
 #: src/main/engine.c:1425
-#, fuzzy
 msgid "raster rendering is not implemented for this device"
-msgstr "Sys.sleep non è implementata su questo sistema"
+msgstr "il raster rendering non è implementato per questo dispositivo"
 
 #: src/main/engine.c:1449
 #, fuzzy
@@ -3167,14 +3136,12 @@ msgid " .. GEPretty(.): new *up = %g > %g = x2"
 msgstr " .. GEPretty(.): nuovo *up = %g > %g = x2"
 
 #: src/main/engine.c:2888
-#, fuzzy
 msgid "display list redraw incomplete"
-msgstr "Aggiornamento del grafico incompleto"
+msgstr ""
 
 #: src/main/engine.c:2892
-#, fuzzy
 msgid "invalid display list"
-msgstr "argomento di tipo list non valido"
+msgstr "lista display non valida"
 
 #: src/main/engine.c:3004
 #, c-format
@@ -3260,11 +3227,11 @@ msgid "indexing '...' with non-positive index %d"
 msgstr ""
 
 #: src/main/envir.c:1375
-#, fuzzy, c-format
+#, c-format
 msgid "the ... list does not contain any elements"
 msgid_plural "the ... list does not contain %d elements"
-msgstr[0] "La lista ... non contiene %d elementi"
-msgstr[1] "La lista ... non contiene %d elementi"
+msgstr[0] "la lista ... non contiene alcun elemento"
+msgstr[1] "la lista ... non contiene %d elementi"
 
 #: src/main/envir.c:1378
 #, c-format
@@ -3347,9 +3314,8 @@ msgid "second argument must be an environment"
 msgstr "il secondo argomento deve essere un environment"
 
 #: src/main/envir.c:2257
-#, fuzzy
 msgid "invalid use of 'missing'"
-msgstr "uso di 'missing' non valido"
+msgstr "utilizzo non valido di 'missing'"
 
 #: src/main/envir.c:2283
 #, fuzzy
@@ -3357,9 +3323,8 @@ msgid "'missing' can only be used for arguments"
 msgstr "missing si può usare solo per gli argomenti"
 
 #: src/main/envir.c:2369
-#, fuzzy
 msgid "'pos' must be an integer"
-msgstr "'a' e 'b' devono essere finiti"
+msgstr "'pos' dev'essere un intero"
 
 #: src/main/envir.c:2383
 #, fuzzy
@@ -3397,9 +3362,8 @@ msgid "using 'as.environment(NULL)' is defunct"
 msgstr ""
 
 #: src/main/envir.c:3147
-#, fuzzy
 msgid "S4 object does not extend class \"environment\""
-msgstr "l'oggetto sostitutivo non è un environment"
+msgstr "L'oggetto S4 non estende la classe \"environment\""
 
 #: src/main/envir.c:3162
 #, fuzzy
@@ -3454,12 +3418,10 @@ msgid "bad namespace name"
 msgstr "nome namespace non valido"
 
 #: src/main/envir.c:3598
-#, fuzzy
 msgid "namespace already registered"
 msgstr "namespace già registrato"
 
 #: src/main/envir.c:3610
-#, fuzzy
 msgid "namespace not registered"
 msgstr "namespace non registrato"
 
@@ -3481,9 +3443,9 @@ msgid "exported symbol '%s' has no value"
 msgstr "il simbolo esportato '%s' non ha un valore"
 
 #: src/main/envir.c:3864
-#, fuzzy, c-format
+#, c-format
 msgid "unknown encoding: %d"
-msgstr "codifica '%s' non supportata"
+msgstr "codifica sconosciuta: %d"
 
 #: src/main/envir.c:3884
 #, c-format
@@ -3496,7 +3458,7 @@ msgstr "interrupt sospesi; segnale ignorato"
 
 #: src/main/errors.c:276
 msgid "[... truncated]"
-msgstr ""
+msgstr "[... troncato]"
 
 #: src/main/errors.c:348
 msgid "invalid option \"warning.expression\""
@@ -3508,46 +3470,47 @@ msgid "(converted from warning) %s"
 msgstr "(contertito da avviso) %s"
 
 #: src/main/errors.c:387
-#, fuzzy
 msgid "Warning:"
-msgstr "Avviso: "
+msgstr "Avvertimento:"
 
 #: src/main/errors.c:389
-#, fuzzy, c-format
+#, c-format
 msgid "Warning in %s :"
-msgstr "Avviso in %s : "
+msgstr "Avvertimento in %s:"
 
 #: src/main/errors.c:398 src/main/errors.c:412 src/main/errors.c:747
 msgid "Calls:"
-msgstr ""
+msgstr "Chiamate:"
 
 #: src/main/errors.c:459 src/main/errors.c:478 src/main/errors.c:653
 msgid "Lost warning messages\n"
 msgstr "Alcuni messaggi di avviso perduti\n"
 
 #: src/main/errors.c:490
-#, fuzzy
 msgid "Warning message:"
 msgid_plural "Warning messages:"
-msgstr[0] "Alcuni messaggi di avviso perduti\n"
-msgstr[1] "Alcuni messaggi di avviso perduti\n"
+msgstr[0] "Messaggio di avvertimento:"
+msgstr[1] "Messaggi di avvertimento:"
 
 #: src/main/errors.c:500 src/main/errors.c:528
 #, c-format
 msgid "In %s :"
-msgstr ""
+msgstr "In %s :"
 
 #: src/main/errors.c:553
-#, fuzzy, c-format
+#, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
-msgstr[0] "Ci sono %d avvisi (usare warnings() per leggerli)\n"
-msgstr[1] "Ci sono %d avvisi (usare warnings() per leggerli)\n"
+msgstr[0] "C'è stato %d avvertimento (utilizza warnings() per visualizzarlo)"
+msgstr[1] ""
+"Ci sono stati %d avvertimenti (utilizza warnings() per visualizzarli)"
 
 #: src/main/errors.c:558
-#, fuzzy, c-format
+#, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
-msgstr "Ci sono 50 o più avvisi (usare warnings() per leggere i primi 50)\n"
+msgstr ""
+"Ci sono %d o più avvertimenti (utilizza warnings() per visualizzare i primi "
+"%d)"
 
 #: src/main/errors.c:644
 msgid "Error during wrapup: "
@@ -3560,12 +3523,12 @@ msgstr "Errore in "
 #: src/main/errors.c:691 src/main/errors.c:698
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr ""
+msgstr "Errore in %s (da %s) : "
 
 #: src/main/errors.c:700
-#, fuzzy, c-format
+#, c-format
 msgid "Error in %s : "
-msgstr "Errore in "
+msgstr "Errore in %s : "
 
 #: src/main/errors.c:720 src/main/errors.c:726
 #, c-format
@@ -3582,9 +3545,9 @@ msgstr "opzione \"error\" non valida\n"
 
 #: src/main/errors.c:1087 src/main/errors.c:1089 src/main/options.c:371
 #: src/main/unique.c:1701
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a character string"
-msgstr "'sep' deve essere una stringa di tipo character"
+msgstr "'%s' dev'essere una stringa di caratteri"
 
 #: src/main/errors.c:1190
 msgid " [invalid string in stop(.)]"
@@ -3669,9 +3632,8 @@ msgid "not in a try context"
 msgstr "non è in un contesto di 'try'"
 
 #: src/main/errors.c:1951
-#, fuzzy
 msgid "error message must be a character string"
-msgstr "'msg1' deve essere una stringa di tipo character"
+msgstr "il messaggio di errore dev'essere una stringa di caratteri"
 
 #: src/main/eval.c:366
 #, c-format
@@ -3716,12 +3678,12 @@ msgstr "tentativo di applicare una non-funzione"
 #: src/main/eval.c:778
 #, c-format
 msgid "%s at %s#%d: "
-msgstr ""
+msgstr "%s in %s#%d: "
 
 #: src/main/eval.c:1827 src/main/eval.c:2859
-#, fuzzy, c-format
+#, c-format
 msgid "argument %d is empty"
-msgstr "l'argomento %d non è di tipo vector"
+msgstr "l'argomento %d è vuoto"
 
 #: src/main/eval.c:1883
 #, c-format
@@ -3800,7 +3762,7 @@ msgstr "il membro di sinistra dell'assegnazione (do_set) non è valido"
 #: src/main/eval.c:2873
 #, c-format
 msgid "'%s' is missing"
-msgstr ""
+msgstr "'%s' assente"
 
 #: src/main/eval.c:3051
 msgid "invalid formal argument list for \"function\""
@@ -3851,9 +3813,8 @@ msgid "integer stack overflow"
 msgstr "overflow dello stack interi"
 
 #: src/main/eval.c:4834
-#, fuzzy
 msgid "bad opcode"
-msgstr "Opcode errato"
+msgstr "opcode errato"
 
 #: src/main/eval.c:5826
 #, fuzzy, c-format
@@ -3975,9 +3936,8 @@ msgid "'%s' events not supported in this device"
 msgstr "nls() non è supportato in questa piattaforma"
 
 #: src/main/gevents.c:69
-#, fuzzy
 msgid "internal error"
-msgstr "errore interno in 'do_sys'"
+msgstr "errore interno"
 
 #: src/main/gevents.c:76
 #, fuzzy
@@ -4046,9 +4006,9 @@ msgid "unexpected numeric constant"
 msgstr "argomento non numerico"
 
 #: src/main/gram.y:1917
-#, fuzzy, c-format
+#, c-format
 msgid "unexpected symbol"
-msgstr "necessaria formula"
+msgstr "simbolo inatteso"
 
 #: src/main/gram.y:1920
 #, fuzzy, c-format
@@ -4061,14 +4021,14 @@ msgid "unexpected end of line"
 msgstr "necessaria formula"
 
 #: src/main/gram.y:1926 src/main/gram.y:1934
-#, fuzzy, c-format
+#, c-format
 msgid "unexpected %s"
-msgstr "necessaria formula"
+msgstr "%s inatteso"
 
 #: src/main/gram.y:1946
-#, fuzzy, c-format
+#, c-format
 msgid "repeated formal argument '%s' on line %d"
-msgstr "Argomento formale ripetuto"
+msgstr "ripetuto argomento formale '%s' alla linea %d"
 
 #: src/main/gram.y:2156
 #, c-format
@@ -4291,9 +4251,8 @@ msgid "LAPACK routines cannot be accessed in module"
 msgstr "Non è possibile accedere alle funzioni del modulo X11"
 
 #: src/main/lapack.c:53
-#, fuzzy
 msgid "LAPACK routines cannot be loaded"
-msgstr "le routine socket non possono essere caricate"
+msgstr "Le routine LAPACK non possono essere caricate"
 
 #: src/main/logic.c:79
 #, fuzzy
@@ -4317,7 +4276,7 @@ msgstr "tipo 'y' non valido in 'x %s y'"
 
 #: src/main/logic.c:367
 msgid "Unary operator `!' called with two arguments"
-msgstr "l'operatore `!' è stato usato con due argomenti"
+msgstr "L'operatore unario `!' è stato utilizzato con due argomenti"
 
 #: src/main/logic.c:475
 #, c-format
@@ -4329,18 +4288,16 @@ msgid "dummy - do not translate"
 msgstr ""
 
 #: src/main/main.c:329
-#, fuzzy
 msgid "error during cleanup\n"
-msgstr "Errore durante wrapup: "
+msgstr "errore durante la pulizia\n"
 
 #: src/main/main.c:336
 msgid "Execution halted\n"
 msgstr "Esecuzione interrotta\n"
 
 #: src/main/main.c:505
-#, fuzzy
 msgid "Error: segfault from C stack overflow\n"
-msgstr "overflow dello stack interi"
+msgstr "Errore: segfault da overflow dello stack C\n"
 
 #: src/main/main.c:911
 msgid "unable to open the base package\n"
@@ -4356,9 +4313,8 @@ msgid "During startup - "
 msgstr "Durante l'avvio - "
 
 #: src/main/main.c:1059
-#, fuzzy
 msgid "unable to initialize the JIT\n"
-msgstr "impossibile aprire file in lettura"
+msgstr "non è possibile inizializzare il JIT\n"
 
 #: src/main/main.c:1328
 msgid "cannot quit from browser"
@@ -4439,11 +4395,11 @@ msgid "partial argument match of '%s' to '%s'"
 msgstr ""
 
 #: src/main/match.c:391
-#, fuzzy, c-format
+#, c-format
 msgid "unused argument %s"
 msgid_plural "unused arguments %s"
-msgstr[0] "argomento(i) non usato (%s ...)"
-msgstr[1] "argomento(i) non usato (%s ...)"
+msgstr[0] "argomento non utilizzato %s"
+msgstr[1] "argomenti non utilizzati %s"
 
 #: src/main/memory.c:1269
 msgid "can only weakly reference/finalize reference objects"
@@ -4586,9 +4542,8 @@ msgid "bad value"
 msgstr "valore sbagliato"
 
 #: src/main/memory.c:3989
-#, fuzzy
 msgid "memory profiling is not available on this system"
-msgstr "Il profiling di R non è disponibile su questo sistema"
+msgstr "la profilazione della memoria non è disponibile su questo sistema"
 
 #: src/main/memory.c:4052
 #, fuzzy, c-format
@@ -4703,7 +4658,7 @@ msgstr "valore non valido per .Method"
 
 #: src/main/objects.c:793
 msgid "Incompatible methods ignored"
-msgstr "metodi incompatibili ignorati"
+msgstr "Ignorati metodi non compatibili"
 
 #: src/main/objects.c:850 src/main/objects.c:857
 msgid "no method to invoke"
@@ -4899,9 +4854,8 @@ msgid "\"par.ask.default\" has been replaced by \"device.ask.default\""
 msgstr ""
 
 #: src/main/options.c:696
-#, fuzzy
 msgid "OpenMP SIMD is not supported in this build of R"
-msgstr "nls() non è supportato in questa piattaforma"
+msgstr "OpenMP SIMD non è supportato in questa build di R"
 
 #: src/main/options.c:738
 msgid "invalid argument"
@@ -4935,7 +4889,7 @@ msgstr "'dec' deve un singolo carattere"
 
 #: src/main/paste.c:579
 msgid "Impossible mode ( x )"
-msgstr "modalità ( x ) impossbile"
+msgstr "Modalità ( x ) non possibile"
 
 #: src/main/paste.c:663
 msgid "atomic vector arguments only"
@@ -5057,9 +5011,9 @@ msgid "internal out-of-memory condition"
 msgstr ""
 
 #: src/main/platform.c:1695 src/main/sysutils.c:1897
-#, fuzzy, c-format
+#, c-format
 msgid "read error on '%s'"
-msgstr "errore di lettura"
+msgstr "errore di lettura su '%s'"
 
 #: src/main/platform.c:1795
 msgid "setting 'LC_NUMERIC' may cause R to function strangely"
@@ -5085,19 +5039,19 @@ msgid "cannot create dir '%s', reason '%s'"
 msgstr "impossibile creare fifo '%s' perché '%s'"
 
 #: src/main/platform.c:2230
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' too long"
-msgstr "nome DLL '%s' troppo lungo"
+msgstr "'%s' troppo lungo"
 
 #: src/main/platform.c:2261
-#, fuzzy, c-format
+#, c-format
 msgid "'%ls' already exists"
-msgstr "'%s' già esistente"
+msgstr "'%ls' già esistente"
 
 #: src/main/platform.c:2263 src/main/platform.c:2269
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create dir '%ls', reason '%s'"
-msgstr "impossibile creare fifo '%s' perché '%s'"
+msgstr "non è possibile creare la directory '%ls', motivo '%s'"
 
 #: src/main/platform.c:2303 src/main/platform.c:2532
 msgid "too deep nesting"
@@ -5193,9 +5147,8 @@ msgid "invalid group specification"
 msgstr "specificazione font non valida"
 
 #: src/main/plotmath.c:2053
-#, fuzzy
 msgid "group is incomplete"
-msgstr "Aggiornamento del grafico incompleto"
+msgstr "il gruppo è incompleto"
 
 #: src/main/plotmath.c:3181
 #, fuzzy
@@ -5293,11 +5246,11 @@ msgstr "argomenti non validi"
 #: src/main/random.c:95 src/main/random.c:112 src/main/random.c:178
 #: src/main/random.c:204 src/main/random.c:277 src/main/random.c:291
 msgid "NAs produced"
-msgstr "generati NA"
+msgstr "Generati valori NA"
 
 #: src/main/random.c:438
 msgid "NA in probability vector"
-msgstr "valori NA in un vettore di probabilità"
+msgstr "Valori NA in un vettore di probabilità"
 
 #: src/main/random.c:440
 #, fuzzy
@@ -5608,12 +5561,12 @@ msgstr "il primo argomento deve essere un nome file"
 #: src/main/saveload.c:2150 src/main/saveload.c:2176 src/main/serialize.c:905
 #: src/main/serialize.c:942 src/main/serialize.c:980
 msgid "XDR write failed"
-msgstr "scrittura XDR non avvenuta"
+msgstr "Scrittura XDR fallita"
 
 #: src/main/saveload.c:2163 src/main/saveload.c:2188 src/main/serialize.c:1470
 #: src/main/serialize.c:1506 src/main/serialize.c:1544
 msgid "XDR read failed"
-msgstr "lettura XDR non avvenuta"
+msgstr "Lettura XDR fallita"
 
 #: src/main/saveload.c:2199
 #, fuzzy, c-format
@@ -5732,7 +5685,7 @@ msgstr[1] "l'espressione numerica ha %d elementi: solo il primo è utilizzato"
 
 #: src/main/seq.c:169
 msgid "NA/NaN argument"
-msgstr "argomento NA/NaN"
+msgstr "Argomento NA/NaN"
 
 #: src/main/seq.c:351
 #, fuzzy, c-format
@@ -6033,7 +5986,7 @@ msgstr "indice %d fuori limite"
 
 #: src/main/sort.c:696 src/main/sort.c:709
 msgid "NA index"
-msgstr "indice NA"
+msgstr "Indice NA"
 
 #: src/main/sort.c:698 src/main/sort.c:711
 #, c-format
@@ -6055,7 +6008,7 @@ msgstr "ties.method non valid in rank() [non dovrebbe mai accadere]"
 
 #: src/main/source.c:220
 msgid "coercion of 'text' to character was unsuccessful"
-msgstr ""
+msgstr "la coercizione di 'text' in caratteri è fallita"
 
 #: src/main/source.c:236
 #, fuzzy, c-format
@@ -6071,9 +6024,8 @@ msgid "second argument must be a factor"
 msgstr "il secondo argomento deve essere di tipo factor"
 
 #: src/main/split.c:46
-#, fuzzy
 msgid "group length is 0 but data length > 0"
-msgstr "La lunghezza di gruppo è 0 ma i dati hanno lunghezza > 0"
+msgstr "la lunghezza del gruppo è 0 ma i dati hanno lunghezza > 0"
 
 #: src/main/split.c:48
 msgid "data length is not a multiple of split variable"
@@ -6394,9 +6346,8 @@ msgid "invalid 'type' (%s) of argument"
 msgstr "argomento 'mode' non valido"
 
 #: src/main/summary.c:116
-#, fuzzy
 msgid "integer overflow - use sum(as.numeric(.))"
-msgstr "Overflow di interi in sum(.); usare sum(as.numeric(.))"
+msgstr "overflow di interi - utilizza sum(as.numeric(.))"
 
 #: src/main/summary.c:661
 #, c-format
@@ -6424,19 +6375,16 @@ msgid "no non-missing arguments to max; returning -Inf"
 msgstr "argomenti non finiti in max; restituisco -Inf"
 
 #: src/main/summary.c:1096
-#, fuzzy
 msgid "argument to 'which' is not logical"
-msgstr "l'argomento di 'logarithm' deve essere logico"
+msgstr "l'argomento in 'which' non è logico"
 
 #: src/main/summary.c:1141
-#, fuzzy
 msgid "no arguments"
-msgstr "argomenti insufficienti"
+msgstr "nessun argomento"
 
 #: src/main/summary.c:1152 src/main/summary.c:1169
-#, fuzzy
 msgid "invalid input type"
-msgstr "line type non valido"
+msgstr "tipo in ingresso non valido"
 
 #: src/main/summary.c:1186
 #, fuzzy
@@ -6454,28 +6402,25 @@ msgstr ""
 
 #: src/main/sysutils.c:177 src/main/sysutils.c:858 src/main/sysutils.c:873
 #: src/main/sysutils.c:1020
-#, fuzzy, c-format
+#, c-format
 msgid "unsupported conversion from '%s' in codepage %d"
-msgstr "conversione non supportata"
+msgstr "conversione non supportata da '%s' nel codepage %d"
 
 #: src/main/sysutils.c:186
-#, fuzzy
 msgid "file name conversion problem -- name too long?"
-msgstr "nome del file troppo lungo"
+msgstr "problema di conversione -- nome file troppo lungo?"
 
 #: src/main/sysutils.c:187
-#, fuzzy
 msgid "file name conversion problem"
-msgstr "nome del file troppo lungo"
+msgstr "problema di conversione nome file"
 
 #: src/main/sysutils.c:261
 msgid "invalid filename pattern"
 msgstr "pattern nome file non valido"
 
 #: src/main/sysutils.c:265
-#, fuzzy
 msgid "invalid file extension"
-msgstr "Espressione regolare non valida"
+msgstr "estensione del file non valida"
 
 #: src/main/sysutils.c:267
 msgid "no 'pattern'"
@@ -6490,9 +6435,9 @@ msgid "no 'fileext'"
 msgstr ""
 
 #: src/main/sysutils.c:341 src/unix/sys-unix.c:615
-#, fuzzy, c-format
+#, c-format
 msgid "system call failed: %s"
-msgstr "posizionamento non riuscito su %s"
+msgstr "chiamata di sistema fallita: %s"
 
 #: src/main/sysutils.c:370 src/main/sysutils.c:373 src/main/sysutils.c:464
 #: src/main/sysutils.c:466 src/main/sysutils.c:502
@@ -6500,23 +6445,20 @@ msgid "wrong type for argument"
 msgstr "tipo errato per l'argomento"
 
 #: src/main/sysutils.c:468
-#, fuzzy
 msgid "wrong length for argument"
-msgstr "lunghezza sbagliata dell'argomento 'mode'"
+msgstr "lunghezza sbagliata per l'argomento"
 
 #: src/main/sysutils.c:489
-#, fuzzy
 msgid "'Sys.setenv' is not available on this system"
-msgstr "'putenv' non disponibile su questo sistema"
+msgstr "'Sys.setenv' non è disponibile su questo sistema"
 
 #: src/main/sysutils.c:533
 msgid "this system cannot unset environment variables: setting to \"\""
 msgstr ""
 
 #: src/main/sysutils.c:544
-#, fuzzy
 msgid "'Sys.unsetenv' is not available on this system"
-msgstr "'putenv' non disponibile su questo sistema"
+msgstr "'Sys.unsetenv' non è disponibile su questo sistema"
 
 #: src/main/sysutils.c:641
 #, fuzzy, c-format
@@ -6576,9 +6518,8 @@ msgid "cannot allocate 'R_TempDir'"
 msgstr "non è possibile allocare memoria per R_TempDir"
 
 #: src/main/sysutils.c:1730
-#, fuzzy
 msgid "temporary name too long"
-msgstr "nome del file troppo lungo"
+msgstr "nome temporaneo troppo lungo"
 
 #: src/main/sysutils.c:1745
 msgid "cannot find unused tempfile name"
@@ -6724,9 +6665,8 @@ msgid "number of rows in the result exceeds maximum vector length"
 msgstr ""
 
 #: src/main/util.c:763
-#, fuzzy
 msgid "missing value is invalid"
-msgstr "valori nulli nei parametri"
+msgstr "valore nullo non valido"
 
 #: src/main/util.c:772 src/main/util.c:779
 msgid "cannot change working directory"
@@ -6786,9 +6726,8 @@ msgid "all arguments must be named"
 msgstr "gli attributi devono avere un nome"
 
 #: src/main/util.c:2142
-#, fuzzy
 msgid "ICU is not supported on this build"
-msgstr "nls() non è supportato in questa piattaforma"
+msgstr "ICU non è supportato in questa build di R"
 
 #: src/main/util.c:2209
 #, fuzzy
@@ -6805,9 +6744,8 @@ msgid "'eps.correct' must be 0, 1, or 2"
 msgstr ""
 
 #: src/main/util.c:2388
-#, fuzzy
 msgid "'x' must be a vector"
-msgstr "'x' deve essere un vettore di tipo character"
+msgstr "'x' dev'essere un vettore"
 
 #: src/main/version.c:37
 msgid ""
@@ -6865,9 +6803,8 @@ msgid "there must be at least four control points"
 msgstr "deve esserci un primo argomento"
 
 #: src/main/xspline.c:534
-#, fuzzy
 msgid "There must be at least three control points"
-msgstr "deve esserci un primo argomento"
+msgstr "Devono esserci almeno tre punti di controllo"
 
 #: src/modules/X11/dataentry.c:1874 src/modules/X11/devX11.c:1248
 #, c-format
@@ -6967,9 +6904,8 @@ msgid "could not open JPEG file '%s'"
 msgstr "impossibile aprire il file JPEG '%s'"
 
 #: src/modules/X11/devX11.c:1381
-#, fuzzy
 msgid "no tiff support in this version of R"
-msgstr "supporto png non disponibile in questa versione di R"
+msgstr "supporto tiff non disponibile in questa versione di R"
 
 #: src/modules/X11/devX11.c:1389
 #, fuzzy
@@ -6982,9 +6918,9 @@ msgid "filename too long in bmp() call"
 msgstr "nome file troppo lungo in png()"
 
 #: src/modules/X11/devX11.c:1405
-#, fuzzy, c-format
+#, c-format
 msgid "could not open BMP file '%s'"
-msgstr "impossibile aprire il file PNG '%s'"
+msgstr "non è possibile aprire il file BMP '%s'"
 
 #: src/modules/X11/devX11.c:1435
 #, c-format
@@ -7035,19 +6971,18 @@ msgid "invalid use of %d < 0 in '%s'"
 msgstr "valore non valido per 'n'"
 
 #: src/modules/X11/devX11.c:1955
-#, fuzzy, c-format
+#, c-format
 msgid "could not open file '%s'"
-msgstr "impossibile aprire il file PNG '%s'"
+msgstr "non è possibile aprire il file '%s'"
 
 #: src/modules/X11/devX11.c:2185
-#, fuzzy, c-format
+#, c-format
 msgid "%s not available for this device"
-msgstr "'truncation' non disponibile per questa connessione"
+msgstr "%s non è disponibile su questo dispositivo"
 
 #: src/modules/X11/devX11.c:2330
-#, fuzzy
 msgid "Unable to create XImage"
-msgstr "impossibile creare una pixmap"
+msgstr "Non è possibile creare una XImage"
 
 #: src/modules/X11/devX11.c:2529
 msgid "attempt to use the locator after dev.hold()"
@@ -7071,9 +7006,8 @@ msgid "unknown X11 color/colour model -- using monochrome"
 msgstr "modello colre X11 sconosciuto -- si utilizza quello monocromatico"
 
 #: src/modules/X11/devX11.c:3263
-#, fuzzy
 msgid "no plot on device to save"
-msgstr "nessuna history displonibile da salvare"
+msgstr "nessun plot attivo da salvare"
 
 #: src/modules/X11/devX11.c:3265
 #, fuzzy
@@ -7086,18 +7020,17 @@ msgid "cannot open file '%s'"
 msgstr "impossibile aprire il file '%s'"
 
 #: src/modules/X11/devX11.c:3291
-#, fuzzy
 msgid "savePlot() is not supported on this build"
-msgstr "nls() non è supportato in questa piattaforma"
+msgstr "savePlot() non è supportato in questa build"
 
 #: src/modules/X11/devX11.c:3331
 msgid "unable to contact X11 display"
 msgstr "impossibile contattare un display X11"
 
 #: src/modules/X11/devX11.c:3380
-#, fuzzy, c-format
+#, c-format
 msgid "clipboard cannot be read (error code %d)"
-msgstr "la clipboard non può essere aperta o non contiene testo"
+msgstr "la clipboard non può essere letta (errore codice %d)"
 
 #: src/modules/X11/devX11.c:3416
 msgid "cannot allocate memory for X11Routines structure"
@@ -7134,9 +7067,9 @@ msgid "Download progress"
 msgstr "Progressione caricamento"
 
 #: src/modules/internet/internet.c:505
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open URL '%s', reason '%s'"
-msgstr "impossibile aprire il file '%s' perché '%s'"
+msgstr "non è possibile aprire URL '%s', motivo '%s'"
 
 #: src/modules/internet/internet.c:512 src/modules/internet/internet.c:539
 #: src/modules/internet/internet.c:665
@@ -7177,7 +7110,7 @@ msgstr "InternetOpenUrl non riuscita: '%s'"
 #: src/modules/internet/libcurl.c:218
 #, c-format
 msgid "URL '%s': status was '%s'"
-msgstr ""
+msgstr "URL '%s': lo status era '%s'"
 
 #: src/modules/internet/libcurl.c:295
 #, fuzzy
@@ -7185,9 +7118,9 @@ msgid "curlGetHeaders is not supported on this platform"
 msgstr "nls() non è supportato in questa piattaforma"
 
 #: src/modules/internet/libcurl.c:304 src/modules/internet/libcurl.c:307
-#, fuzzy, c-format
+#, c-format
 msgid "invalid %s argument"
-msgstr "argomento '%s' non valido"
+msgstr "argomento %s non valido"
 
 #: src/modules/internet/libcurl.c:327 src/modules/internet/libcurl.c:329
 #, c-format
@@ -7197,9 +7130,9 @@ msgid ""
 msgstr ""
 
 #: src/modules/internet/libcurl.c:469
-#, fuzzy
 msgid "download.file(method = \"libcurl\") is not supported on this platform"
-msgstr "nls() non è supportato in questa piattaforma"
+msgstr ""
+"download.file(method = \"libcurl\") non è supportato da questa piattaforma"
 
 #: src/modules/internet/libcurl.c:485
 #, fuzzy
@@ -7207,19 +7140,18 @@ msgid "lengths of 'url' and 'destfile' must match"
 msgstr "le lunghezze dei nomi di import e export devono conincidere"
 
 #: src/modules/internet/libcurl.c:532
-#, fuzzy, c-format
+#, c-format
 msgid "URL %s: cannot open destfile '%s', reason '%s'"
-msgstr "impossibile aprire il file '%s' perché '%s'"
+msgstr ""
+"URL %s: non è possibile aprire il file di destinazione '%s', motivo '%s'"
 
 #: src/modules/internet/libcurl.c:666
-#, fuzzy
 msgid "cannot download any files"
-msgstr "impossibile aprire il file '%s'"
+msgstr "non è possibile scaricare alcun file"
 
 #: src/modules/internet/libcurl.c:667
-#, fuzzy
 msgid "some files were not downloaded"
-msgstr "il file di restore potrebbe essere vuoto - nessun dato caricato"
+msgstr "alcuni file non sono stati scaricati"
 
 #: src/modules/internet/libcurl.c:672
 #, c-format
@@ -7227,19 +7159,17 @@ msgid "download from '%s' failed"
 msgstr ""
 
 #: src/modules/internet/libcurl.c:809
-#, fuzzy
 msgid "cannot read from connection"
-msgstr "non posso leggere da questa connessione"
+msgstr "non è possibile leggere dalla connessione"
 
 #: src/modules/internet/libcurl.c:847
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open the connection to '%s'"
-msgstr "non posso aprire questa connessione"
+msgstr "non è possibile aprire la connessione a '%s'"
 
 #: src/modules/internet/libcurl.c:914
-#, fuzzy
 msgid "url(method = \"libcurl\") is not supported on this platform"
-msgstr "nls() non è supportato in questa piattaforma"
+msgstr "url(method = \"libcurl\") non è supportato su questa piattaforma"
 
 #: src/modules/internet/nanoftp.c:383
 msgid "removing FTP proxy info"
@@ -7293,9 +7223,9 @@ msgid "using HTTP proxy '%s'"
 msgstr "uso proxy HTTP '%s'"
 
 #: src/modules/internet/nanohttp.c:1121
-#, fuzzy, c-format
+#, c-format
 msgid "unable to resolve '%s'"
-msgstr "impossibile identificare '%s'."
+msgstr "non è possibile risolvere '%s'."
 
 #: src/modules/internet/nanohttp.c:1158
 #, c-format
@@ -7366,9 +7296,8 @@ msgstr "'x' deve essere una matrice quadrata di tipo numeric"
 
 #: src/modules/lapack/Lapack.c:340 src/modules/lapack/Lapack.c:370
 #: src/modules/lapack/Lapack.c:419
-#, fuzzy
 msgid "'A' must be a numeric matrix"
-msgstr "'a' deve essere una matrice di tipo numeric"
+msgstr "'A' deve essere una matrice di tipo numeric"
 
 #: src/modules/lapack/Lapack.c:342
 #, fuzzy
@@ -7398,9 +7327,8 @@ msgstr "codice errore %d nella routine Lapack '%s'"
 
 #: src/modules/lapack/Lapack.c:429 src/modules/lapack/Lapack.c:461
 #: src/modules/lapack/Lapack.c:519
-#, fuzzy
 msgid "'A' must be a *square* matrix"
-msgstr "'a' deve essere una matrice quadrata"
+msgstr "'A' dev'essere una matrice quadrata"
 
 #: src/modules/lapack/Lapack.c:443
 #, fuzzy, c-format
@@ -7408,9 +7336,8 @@ msgid "error [%d] from Lapack 'dtrcon()'"
 msgstr "codice errore %d nella routine Lapack '%s'"
 
 #: src/modules/lapack/Lapack.c:458 src/modules/lapack/Lapack.c:515
-#, fuzzy
 msgid "'A' must be a complex matrix"
-msgstr "'a' deve essere una matrice di tipo complex"
+msgstr "'A' dev'essere una matrice complessa"
 
 #: src/modules/lapack/Lapack.c:480 src/modules/lapack/Lapack.c:487
 #, fuzzy, c-format
@@ -7623,19 +7550,19 @@ msgid "'k' (%.2f) must be integer, rounded to %.0f"
 msgstr ""
 
 #: src/nmath/nmath.h:156
-#, fuzzy, c-format
+#, c-format
 msgid "argument out of domain in '%s'\n"
-msgstr "valore fuori limite in 'perm'"
+msgstr "argomento fuori dominio in '%s'\n"
 
 #: src/nmath/nmath.h:159
-#, fuzzy, c-format
+#, c-format
 msgid "value out of range in '%s'\n"
-msgstr "valore fuori limite in 'perm'"
+msgstr "valore fuori intervallo da '%s'\n"
 
 #: src/nmath/nmath.h:162
-#, fuzzy, c-format
+#, c-format
 msgid "convergence failed in '%s'\n"
-msgstr "apertura non riuscita su %s"
+msgstr "convergenza fallita in '%s'\n"
 
 #: src/nmath/nmath.h:165
 #, c-format
@@ -7697,7 +7624,7 @@ msgstr "Non è possibile accedere alle funzioni del modulo X11"
 
 #: src/unix/X11.c:78 src/unix/X11.c:90 src/unix/X11.c:102 src/unix/X11.c:113
 msgid "X11 module cannot be loaded"
-msgstr "il modulo X11 non può essere caricato"
+msgstr "Il modulo X11 non può essere caricato"
 
 #: src/unix/X11.c:144 src/unix/X11.c:150 src/unix/X11.c:156 src/unix/X11.c:162
 msgid "X11 is not available"
@@ -7735,7 +7662,7 @@ msgstr ""
 
 #: src/unix/dynload.c:237
 msgid "cannot get working directory!"
-msgstr "impossibile ottenere la directory di lavoro"
+msgstr "non è possibile ottenere la directory di lavoro!"
 
 #: src/unix/sys-std.c:127
 msgid "interrupt handler must not return"
@@ -7750,24 +7677,23 @@ msgstr ""
 "readline.Si prega di riportare l'errore usando bug.report()"
 
 #: src/unix/sys-std.c:1189 src/unix/sys-std.c:1358
-#, fuzzy, c-format
+#, c-format
 msgid "problem in saving the history file '%s'"
-msgstr "è sorto un problema nel lanciare l'editor %s"
+msgstr "riscontrato problema salvando il file cronologia '%s'"
 
 #: src/unix/sys-std.c:1265
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot open file '%s': %s\n"
 "\n"
 msgstr ""
-"impossibile aprire il file '%s'\n"
+"Non è possibile aprire il file '%s': %s\n"
 "\n"
 
 #: src/unix/sys-std.c:1273 src/unix/sys-unix.c:743 src/unix/sys-unix.c:780
 #: src/unix/system.c:545
-#, fuzzy
 msgid "error in running command"
-msgstr "errore interno in 'unz'"
+msgstr "errore durante l'esecuzione del comando"
 
 #: src/unix/sys-std.c:1329 src/unix/sys-std.c:1352
 msgid "'file' argument is too long"
@@ -7787,9 +7713,8 @@ msgid "no history available to save"
 msgstr "nessuna history displonibile da salvare"
 
 #: src/unix/sys-std.c:1380
-#, fuzzy
 msgid "invalid timestamp"
-msgstr "'tag' non valido"
+msgstr "timestamp non valido"
 
 #: src/unix/sys-unix.c:638
 #, c-format
@@ -7801,9 +7726,8 @@ msgid "non-empty character argument expected"
 msgstr "richiesti argomenti di tipo character non vuoti"
 
 #: src/unix/sys-unix.c:656
-#, fuzzy
 msgid "'intern' must be logical and not NA"
-msgstr "'ascii' deve essere di tipo logico"
+msgstr "'intern' dev'essere logico e non NA"
 
 #: src/unix/sys-unix.c:700
 #, fuzzy, c-format
@@ -7816,9 +7740,9 @@ msgid "line %d may be truncated in call to system(, intern = TRUE)"
 msgstr ""
 
 #: src/unix/sys-unix.c:741
-#, fuzzy, c-format
+#, c-format
 msgid "error in running command: '%s'"
-msgstr "errore interno in 'unz'"
+msgstr "errore durante l'esecuzione del comando: '%s'"
 
 #: src/unix/sys-unix.c:859
 msgid "Sys.info() is not implemented on this system"
@@ -7847,495 +7771,3 @@ msgstr "impostazione del profile timer non riuscita"
 #: src/unix/system.c:535
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "ATTENZIONE: Verrà editato solo il primo file della lista"
-
-#~ msgid "non-conformable time-series"
-#~ msgstr "Serie storiche non compatibili"
-
-#~ msgid "binary operation on non-conformable arrays"
-#~ msgstr "operazione binaria su array non conformi"
-
-#~ msgid "non-conformable time series"
-#~ msgstr "serie storiche non compatibili"
-
-#, fuzzy
-#~ msgid "incorrect type for second argument"
-#~ msgstr "rep() tipo del secondo argomento non valido"
-
-#, fuzzy
-#~ msgid "'from' must be finite"
-#~ msgstr "'a' e 'b' devono essere finiti"
-
-#, fuzzy
-#~ msgid "'to' must be finite"
-#~ msgstr "'a' e 'b' devono essere finiti"
-
-#, fuzzy
-#~ msgid "'by' must be finite"
-#~ msgstr "'a' e 'b' devono essere finiti"
-
-#, fuzzy
-#~ msgid "URL '%s': status was '%d %s'"
-#~ msgstr "apertura non riuscita: stato HTTP '%d %s'"
-
-#, fuzzy
-#~ msgid "cannot open connection"
-#~ msgstr "non posso aprire questa connessione"
-
-#, fuzzy
-#~ msgid "'what' must be a character string or a function"
-#~ msgstr ""
-#~ "il primo argomento deve essere una stringa di caratteri o una funzione"
-
-#~ msgid "sockets are not available on this system"
-#~ msgstr "i socket non sono disponibili su questo sistema"
-
-#~ msgid "no function to restart"
-#~ msgstr "nessuna funzione da far ripartire"
-
-#, fuzzy
-#~ msgid "argument must be a closure"
-#~ msgstr "il secondo argomento deve essere una funzione"
-
-#~ msgid "'hostname' must be a character vector of length 1"
-#~ msgstr "'hostname' deve essere una stringa di tipo character"
-
-#~ msgid "nsl() was unable to resolve host '%s'"
-#~ msgstr "nls() non riesce a identificare l'host '%s'"
-
-#, fuzzy
-#~ msgid "unknown format returned by C function 'gethostbyname'"
-#~ msgstr "formato sconosciuto resituito da gethostbyname"
-
-#~ msgid "nsl() is not supported on this platform"
-#~ msgstr "nls() non è supportato in questa piattaforma"
-
-#~ msgid "too large a range of values in 'x'"
-#~ msgstr "range dei valori di 'x' troppo grande"
-
-#~ msgid "non-numeric argument"
-#~ msgstr "argomento non numerico"
-
-#~ msgid "unsupported URL scheme"
-#~ msgstr "schema URL non supportato"
-
-#~ msgid "'dimnames' must be a list"
-#~ msgstr "'dimnames' deve essere di tipo list"
-
-#, fuzzy
-#~ msgid "'args' must be a list"
-#~ msgstr "'dimnames' deve essere di tipo list"
-
-#~ msgid "binary operations require two arguments"
-#~ msgstr "operazioni binarie richiedono due argomenti"
-
-#~ msgid "opened URL\n"
-#~ msgstr "URL aperto\n"
-
-#, fuzzy
-#~ msgid "internet routines were already initialized"
-#~ msgstr "le routine internet non possono essere caricate"
-
-#~ msgid "'msg1' must be a character string"
-#~ msgstr "'msg1' deve essere una stringa di tipo character"
-
-#~ msgid "'msg2' must be a character string"
-#~ msgstr "'msg2' deve essere una stringa di tipo character"
-
-#~ msgid "argument 'code' must be a character string"
-#~ msgstr "l'argomento 'code' deve essere una stringa di tipo character"
-
-#, fuzzy
-#~ msgid "argument 'type' must be a character string"
-#~ msgstr "l'argomento 'code' deve essere una stringa di tipo character"
-
-#~ msgid "InternetOpenUrl timed out"
-#~ msgstr "InternetOpenUrl fuori tempo massimo"
-
-#~ msgid "Internet read timed out"
-#~ msgstr "Lettura da Internet fuori tempo massimo"
-
-#~ msgid "vfont routines cannot be accessed in module"
-#~ msgstr "le routine vfont non sono accessibili al modulo"
-
-#~ msgid "Hershey fonts cannot be loaded"
-#~ msgstr "font Hershey non caricati"
-
-#, fuzzy
-#~ msgid "invalid generic function in 'usemethod'"
-#~ msgstr "funzione generica non valida per 'usemethod'"
-
-#, fuzzy
-#~ msgid "'UseMethod' called from outside a function"
-#~ msgstr "'NextMethod' chiamato al di fuori di una chiusura"
-
-#~ msgid "first argument must be a generic name"
-#~ msgstr "il primo argomento deve essere un nome generico"
-
-#~ msgid ""
-#~ "explicit request not to duplicate arguments in call to '%s', but argument "
-#~ "%d is of the wrong type (%d != %d)"
-#~ msgstr ""
-#~ "richiesta esplicita di non duplicare gli argomenti nella chiamata a '%s', "
-#~ "ma l'argomento %d è di tipo sbagliato (%d != %d)"
-
-#~ msgid "character variables must be duplicated in .C/.Fortran"
-#~ msgstr ""
-#~ "le variabili di tipo character devono essere duplicate in .C/.Fortran"
-
-#~ msgid "call name too long in '%s'"
-#~ msgstr "nome chiamata troppo lungo in '%s'"
-
-#~ msgid "generic name too long in '%s'"
-#~ msgstr "nome generico troppo lungo in '%s'"
-
-#~ msgid "method name too long in '%s'"
-#~ msgstr "nome metodo troppo lungo in '%s'"
-
-#~ msgid "%d arguments passed to 'log' which requires 1 or 2"
-#~ msgstr "%d argomenti passati a 'log' che ne richiede 1 o 2"
-
-#, fuzzy
-#~ msgid ""
-#~ "Warning in %s :\n"
-#~ "  %s\n"
-#~ msgstr "Avviso in %s : "
-
-#, fuzzy
-#~ msgid "symbol"
-#~ msgstr "non è un simbolo"
-
-#~ msgid "negative value in 'x'"
-#~ msgstr "valore negativo in 'x'"
-
-#~ msgid "'jobu' and 'jobv' must be character strings"
-#~ msgstr "'jobu' e 'jobv' devono essere stringhe di tipo carattere"
-
-#~ msgid ""
-#~ "bad target context--should NEVER happen;\n"
-#~ "please bug.report() [R_run_onexits]"
-#~ msgstr ""
-#~ "contesto target errato--NON dovrebbe mai accadere;\n"
-#~ "si prega di usare bug.report() [R_run_onexits]"
-
-#~ msgid "invalid assignment left-hand side"
-#~ msgstr "assegnazione non valida membro di sinistra"
-
-#, fuzzy
-#~ msgid "\"%s\" is not an existing slot in an object of class \"%s\""
-#~ msgstr "nessuno slot di nome \"%s\" per questo oggetto di classe \"%s\""
-
-#~ msgid "R_CompiledFileName: buffer too small"
-#~ msgstr "R_CompiledFileName: buffer troppo piccolo"
-
-#~ msgid ".C(..): Width cannot be zero"
-#~ msgstr ".C(..): La larghezza non può essere zero"
-
-#~ msgid ".C(..): 'type' must be \"integer\" for  \"d\"-format"
-#~ msgstr ".C(..): 'type' deve essere \"integer\" per il formato \"d\""
-
-#~ msgid ".C(..): 'type' must be \"real\" for this format"
-#~ msgstr ".C(..): 'type' deve essere \"real\" per questo formato"
-
-#, fuzzy
-#~ msgid "'names' is not a character string"
-#~ msgstr "'msg1' deve essere una stringa di tipo character"
-
-#~ msgid "bad hsv to rgb color conversion"
-#~ msgstr "conversione da hsv a rgb non corretta"
-
-#~ msgid "unknown palette (need >= 2 colors)"
-#~ msgstr "palette ignota (necessari >= 2 colori)"
-
-#~ msgid "maximum number of colors exceeded"
-#~ msgstr "numero massimo di colori superato"
-
-#~ msgid "invalid RGB specification"
-#~ msgstr "specificazione RGB non corretta"
-
-#, fuzzy
-#~ msgid "invalid color name '%s'"
-#~ msgstr "nome colore non valido"
-
-#, fuzzy
-#~ msgid "invalid color specification '%s'"
-#~ msgstr "specificazione colore non valida"
-
-#, fuzzy
-#~ msgid "invalid color specification"
-#~ msgstr "specificazione colore non valida"
-
-#~ msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
-#~ msgstr "rcont2 [%d,%d]: exp underflow a 0; algoritmo interrotto"
-
-#~ msgid "no R-to-C converter found corresponding to identifier"
-#~ msgstr "nessun convertitore R-to-C associato a questo identificatore"
-
-#, fuzzy
-#~ msgid "invalid USE.NAMES value"
-#~ msgstr "valore '%s' non valido"
-
-#~ msgid "... used in an incorrect context"
-#~ msgstr "...usato in un contesto sbagliato"
-
-#~ msgid "NAOK used more than once"
-#~ msgstr "NAOK usato più volte"
-
-#~ msgid "PACKAGE used more than once"
-#~ msgstr "PACKAGE usato più volte"
-
-#~ msgid "Invalid graphics state"
-#~ msgstr "Stato grafico non valido"
-
-#~ msgid "invalid mode to pass to Fortran (arg %d)"
-#~ msgstr "modalità non valida da passare al Fortran (arg %d)"
-
-#~ msgid "invalid function in call_R"
-#~ msgstr "funzione non valida in call_R"
-
-#~ msgid "invalid argument count in call_R"
-#~ msgstr "numero di argomenti non valido in call_R"
-
-#~ msgid "invalid return value count in call_R"
-#~ msgstr "numero di valori restituiti non valido in call_R"
-
-#~ msgid "can't use R profiling while byte code profiling"
-#~ msgstr "non posso usare il profiling di R mentre è in atto quello byte code"
-
-#, fuzzy
-#~ msgid "bad switch names"
-#~ msgstr "nome file sbagliato"
-
-#, fuzzy
-#~ msgid "constBuf must be a generic vector"
-#~ msgstr "code deve essere un vettore generico"
-
-#, fuzzy
-#~ msgid "bad constCount value"
-#~ msgstr "nessun valore di contour"
-
-#~ msgid "lapack routines cannot be accessed in module"
-#~ msgstr "le routine lapack non sono accessibili dal modulo"
-
-#~ msgid "lapack routines cannot be loaded"
-#~ msgstr "le routine lapack non pososno essere caricate"
-
-#~ msgid "'UseMethod' called from outside a closure"
-#~ msgstr "'UseMethod' chiamato al di fuori di una chiusura"
-
-#, fuzzy
-#~ msgid "invalid `which' in TeX"
-#~ msgstr "specificazione 'which' non valida"
-
-#~ msgid "internal error in do_random1"
-#~ msgstr "errore interno in do_random1"
-
-#~ msgid "internal error in do_random2"
-#~ msgstr "errore interno in do_random2"
-
-#~ msgid "internal error in do_random3"
-#~ msgstr "errore interno in do_random3"
-
-#, fuzzy
-#~ msgid "%s%d:%d: %s"
-#~ msgstr ""
-#~ "errore di sintassi in\n"
-#~ "%d: %s"
-
-#, fuzzy
-#~ msgid ""
-#~ "%s%d:%d: %s\n"
-#~ "%d: %s\n"
-#~ "%*s"
-#~ msgstr ""
-#~ "errore di sintassi in\n"
-#~ "%d: %s\n"
-#~ "%d: %s"
-
-#, fuzzy
-#~ msgid ""
-#~ "%s%d:%d: %s\n"
-#~ "%d: %s\n"
-#~ "%d: %s\n"
-#~ "%*s"
-#~ msgstr ""
-#~ "errore di sintassi in\n"
-#~ "%d: %s\n"
-#~ "%d: %s"
-
-#, fuzzy
-#~ msgid ""
-#~ "%s in:\n"
-#~ "\"%s\n"
-#~ "%s\""
-#~ msgstr ""
-#~ "errore di sintassi in:\n"
-#~ "\"%s\n"
-#~ "%s\""
-
-#~ msgid "cannot mkdir R_TempDir"
-#~ msgstr "non è possibile creare R_TempDir"
-
-#~ msgid "csduplicated not called on a STRSXP"
-#~ msgstr "csduplicated non chiamato su un STRSXP"
-
-#~ msgid "color intensity %g, not in [0,1]"
-#~ msgstr "l'intensità di colore %g, non compresa in [0,1]"
-
-#~ msgid "color intensity %d, not in 0:255"
-#~ msgstr "l'intensità di colore %d, non compresa in 0:255"
-
-#~ msgid "alpha level %g, not in [0,1]"
-#~ msgstr "livello alfa %g, non compreso in [0,1]"
-
-#~ msgid "alpha level %d, not in 0:255"
-#~ msgstr "livello alfa %d, non compreso in 0:255"
-
-#, fuzzy
-#~ msgid "invalid hsv color"
-#~ msgstr "clore hlc non valido"
-
-#~ msgid "invalid hcl color"
-#~ msgstr "clore hlc non valido"
-
-#, fuzzy
-#~ msgid "invalid 'names' vector"
-#~ msgstr "vettore 'names' non valido"
-
-#~ msgid "invalid gray level, must be in [0,1]."
-#~ msgstr "livello di grigio non valido, deve essere compreso in [0,1]."
-
-#~ msgid "rgb is not a matrix (internally)"
-#~ msgstr "rgb non è una matrice (internamente)"
-
-#~ msgid "rgb must have 3 rows (internally)"
-#~ msgstr "rgb deve avere 3 righe (internamente)"
-
-#, fuzzy
-#~ msgid "invalid bind address specification"
-#~ msgstr "specificazione del nome file non valida"
-
-#~ msgid "'outFile' must be a single file"
-#~ msgstr "'outFile' deve essere un file singolo"
-
-#, fuzzy
-#~ msgid "'fmt' must be length 1"
-#~ msgstr "'which' deve essere di lunghezza 1"
-
-#~ msgid "unknown type"
-#~ msgstr "type sconosciuto"
-
-#~ msgid "Menu functions can only be used in the GUI"
-#~ msgstr "Le funzioni Menu possono essere utilizzate solo nella GUI"
-
-#~ msgid "unable to retrieve items for %s (%s)"
-#~ msgstr "impossibile ottenere voci menu per %s (%s)"
-
-#~ msgid "unable to add menu (%s)"
-#~ msgstr "impossibile aggiungere menu (%s)"
-
-#~ msgid "unable to add menu item (%s)"
-#~ msgstr "impossibile aggiungere voce menu (%s)"
-
-#~ msgid "menu does not exist"
-#~ msgstr "il menu non esiste"
-
-#~ msgid "unable to delete menu item (%s)"
-#~ msgstr "impossibile eliminare la voce menu (%s)"
-
-#~ msgid "'savehistory' can only be used in Rgui and Rterm"
-#~ msgstr "'savehistory' può essere utilizzata solo in Rgui e Rterm"
-
-#~ msgid "'loadhistory' can only be used in Rgui and Rterm"
-#~ msgstr "'loadhistory' può essere utilizzata solo in Rgui e Rterm"
-
-#, fuzzy
-#~ msgid "Select one or more"
-#~ msgstr "Selezione: "
-
-#, fuzzy
-#~ msgid "Select one"
-#~ msgstr "Selezione: "
-
-#, fuzzy
-#~ msgid "argument must be a character vector or a raw vector"
-#~ msgstr "l'argomento deve essere un vettore character di lunghezza 1"
-
-#~ msgid "'default' must be a character string"
-#~ msgstr "'default' deve essere una stringa di tipo character"
-
-#~ msgid "'default' is overlong"
-#~ msgstr "'default' è troppo lungo"
-
-#~ msgid "'caption' must be a character string"
-#~ msgstr "'caption' deve essere una stringa di tipo character"
-
-#~ msgid "'multi' must be a logical value"
-#~ msgstr "'multi' deve essere un valore logico/booleano"
-
-#~ msgid "'filterindex' must be an integer value"
-#~ msgstr "'filterindex' deve essere un valore intero"
-
-#~ msgid "'title' must be a character string"
-#~ msgstr "'title' deve essere una stringa di tipo character"
-
-#, fuzzy
-#~ msgid "'%s' element %d is not a window handle"
-#~ msgstr "'%s' non è una chiamata valida"
-
-#, fuzzy
-#~ msgid "Registry key '%ls' not found"
-#~ msgstr "oggetto \"%s\" non trovato"
-
-#~ msgid "string terminated by newline or EOF"
-#~ msgstr "stringa terminata con un 'a capo' o EOF"
-
-#~ msgid "the first argument must be of mode character"
-#~ msgstr "il primo argomento deve essere in modalità carattere"
-
-#~ msgid "Selection: "
-#~ msgstr "Selezione: "
-
-#, fuzzy
-#~ msgid "cannot allocate buffer in 'readTableHead'"
-#~ msgstr "impossibile allocare il buffer in readTableHead"
-
-#~ msgid "\\ followed by EOF"
-#~ msgstr "\\ seguito da EOF (End Of File)"
-
-#~ msgid "incomplete final line found by readTableHeader on '%s'"
-#~ msgstr "riga finale incompleta trovata da readTableHeader in '%s'"
-
-#~ msgid "'file' is not a connection"
-#~ msgstr "'file' non è una connessione"
-
-#~ msgid "corrupt data frame -- length of column %d does not not match nrows"
-#~ msgstr ""
-#~ "data frame danneggiato - la lunghezza della colonna %d non coincide con "
-#~ "nrows"
-
-#~ msgid "corrupt matrix -- dims not not match length"
-#~ msgstr "matrice danneggiata - le dimensioni non concordano con la lunghezza"
-
-#~ msgid "NA's in .C(\"bincode\",... NAOK=FALSE)"
-#~ msgstr "valori di NA in .C(\"bincode\",... NAOK=FALSE)"
-
-#~ msgid "NA's in .C(\"bincount\",... NAOK=FALSE)"
-#~ msgstr "valori di NA .C(\"bincount\",... NAOK=FALSE)"
-
-#~ msgid "non-numeric matrix in rowsum(): this cannot happen"
-#~ msgstr ""
-#~ "matrice di tipo differente da numeric in rowsum(): questo non deve "
-#~ "accadere"
-
-#~ msgid "'method' must be a character string"
-#~ msgstr "'method' deve essere una stringa di tipo character"
-
-#~ msgid "no dyn.load support in this R version"
-#~ msgstr "supporto librerie dinamiche non disponibile in questa versione di R"
-
-#~ msgid "vector size cannot be negative"
-#~ msgstr "la dimensione del vettore non può essere negativa"
-
-#, fuzzy
-#~ msgid "long vectors are not supported for index.return"
-#~ msgstr "symlink non supportati su questa piattaforma"
