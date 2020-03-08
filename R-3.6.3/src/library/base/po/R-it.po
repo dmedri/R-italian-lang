@@ -1,21 +1,22 @@
-# Italian translations for R base package
-# Copyright (C) 2005 The R Foundation for Statistical Computing
+# R Italian translation
+# Copyright (C) The R Foundation
 # This file is distributed under the same license as the R package.
-# Stefano M. Iacus <Stefano.Iacus@R-Project.org>, 2005.
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2020-03-07 10:18\n"
-"PO-Revision-Date: 2005-02-16 08:34\n"
-"Last-Translator: Stefano M. Iacus <Stefano.Iacus@R-project.org>\n"
+"PO-Revision-Date: 2020-03-08 21:29+0100\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
 
 msgid "'%s' is defunct."
 msgstr "'%s' è disattivata"
@@ -76,35 +77,30 @@ msgstr "'normal.kind' deve essere una stringa di caratteri di lunghezza 1"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' non è una scelta valida"
-
 #, fuzzy
 msgid "'sample.kind' must be a character string of length 1"
 msgstr "'normal.kind' deve essere una stringa di caratteri di lunghezza 1"
 
 msgid "malformed version string"
 msgstr "versione stringa mal composta"
-
+:
 msgid "target is %s, current is %s"
 msgstr ""
 
-#, fuzzy
 msgid "'tolerance' should be numeric"
-msgstr "'x' deve essere numerico"
+msgstr "'tolerance' dev'essere numeric"
 
-#, fuzzy
 msgid "'scale' should be numeric or NULL"
-msgstr "'arg' deve essere uno tra"
+msgstr "'scale' dev'essere numeric o NULL"
 
-#, fuzzy
 msgid "'%s' must be logical"
-msgstr "'subset' deve essere di tipo logico"
+msgstr "'%s' dev'essere logical"
 
 msgid "dim(X) must have a positive length"
 msgstr "dim(X) deve avere lunghezza positiva"
 
-#, fuzzy
 msgid "'X' must have named dimnames"
-msgstr "'input' deve avere lunghezza 1"
+msgstr "'X' deve avere dimensioni con nomi"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
 msgstr ""
@@ -112,9 +108,8 @@ msgstr ""
 msgid "'MARGIN' does not match dim(X)"
 msgstr ""
 
-#, fuzzy
 msgid "'dim' cannot be of length 0"
-msgstr "'to' deve avere  lunghezza 1"
+msgstr "'dim' non può essere di lunghezza 0"
 
 msgid "'dim' specifies too large an array"
 msgstr "'dim' specifica un array troppo esteso"
@@ -122,13 +117,11 @@ msgstr "'dim' specifica un array troppo esteso"
 msgid "incorrect value for 'MARGIN'"
 msgstr "valore non corretto per 'MARGIN'"
 
-#, fuzzy
 msgid "dim(x) must have a positive length"
-msgstr "dim(X) deve avere lunghezza positiva"
+msgstr "dim(X) dev'essere di lunghezza positiva"
 
-#, fuzzy
 msgid "'x' must have named dimnames"
-msgstr "'input' deve avere lunghezza 1"
+msgstr "'x' deve avere dimensioni con nomi"
 
 #, fuzzy
 msgid "'pos=1' is not possible and has been warned about for years"
@@ -137,17 +130,15 @@ msgstr "*** 'pos=1' non va bene; userò 'pos=2 per ora."
 msgid "file '%s' not found"
 msgstr "file '%s' non trovato"
 
-#, fuzzy
 msgid "invalid 'name' argument"
-msgstr "argomento 'category' non valido"
+msgstr "argomento 'name' non valido"
 
-#, fuzzy
 msgid "package %s is required by %s, which may no longer work correctly"
-msgstr "il pacchetto '%s' è stato creato con R versione %s"
+msgstr ""
+"pacchetto %s richiesto da %s, che potrebbe non funzionare più correttamente"
 
-#, fuzzy
 msgid "package %s is required by %s so will not be detached"
-msgstr "pacchetto '%s' richiesto da '%s' ma non trovato"
+msgstr "pacchetto %s richiesto da %s perciò non sarà disattivato"
 
 msgid ""
 "%s failed in %s() for '%s', details:\n"
@@ -159,9 +150,8 @@ msgstr ""
 msgid "%s namespace cannot be unloaded:"
 msgstr "namespace '%s' caricato"
 
-#, fuzzy
 msgid "%s converted to character string"
-msgstr "'file' deve essere NULL, una connessione o una stringa di caratteri"
+msgstr "%s convertito a stringa di caratteri"
 
 #, fuzzy
 msgid "replaced regular expression pattern '[' by  '\\\\['"
@@ -339,11 +329,9 @@ msgstr "richiede 0, 1 o due indici"
 msgid ""
 "missing values are not allowed in subscripted assignments of data frames"
 msgstr ""
-"i valori missing non sono ammissibili cone indici in assegnazioni di data "
-"frame"
 
 msgid "non-existent rows not allowed"
-msgstr "righe non esistenti non ammissibili"
+msgstr "righe non-esistenti inammissibili"
 
 #, fuzzy
 msgid "column name \"\" cannot match any column"
@@ -374,7 +362,7 @@ msgstr ""
 
 msgid "invalid list argument: all variables should have the same length"
 msgstr ""
-"argomento list non valido: tutte le variabili devono avere la stessa "
+"argomento list non valido: tutte le variabili dovrebbero avere la medesima "
 "lunghezza"
 
 msgid "<0 rows> (or 0-length row.names)"
@@ -402,7 +390,7 @@ msgid "only defined on a data frame with all numeric variables"
 msgstr "è definita solo per data frame con variabili tutte numeric o complex"
 
 msgid "character string is not in a standard unambiguous format"
-msgstr "la stringa di caratteri non è in formato ambiguo e non standard"
+msgstr "la stringa di caratteri non è in un formato standard"
 
 #, fuzzy
 msgid "'origin' must be supplied"
@@ -437,33 +425,33 @@ msgid "%s not defined for \"Date\" objects"
 msgstr "non definito per oggetti di tipo Date"
 
 msgid "'from' must be specified"
-msgstr "si deve specificare 'from'"
+msgstr "'from' dev'essere specificato"
 
 #, fuzzy
 msgid "'from' must be a \"Date\" object"
 msgstr "'from' deve essere un oggetto di tipo Date"
 
 msgid "'from' must be of length 1"
-msgstr "'from' deve avere lunghezza 1"
+msgstr "'from' dev'essere di lunghezza 1"
 
 #, fuzzy
 msgid "'to' must be a \"Date\" object"
 msgstr "'to' deve essere un oggetto di tipo Date"
 
 msgid "'to' must be of length 1"
-msgstr "'to' deve avere  lunghezza 1"
+msgstr "'to' dev'essere di lunghezza 1"
 
 msgid "'length.out' must be of length 1"
-msgstr "'lenght.out' deve avere lunghezza 1"
+msgstr "'lenght.out' dev'essere di lunghezza 1"
 
 msgid ""
 "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
 msgstr ""
-"si devono specificare esattamente due tra 'to', 'by' e 'length.out' / 'along."
+"devono essere specificati esattamente due 'to', 'by' e 'length.out' / 'along."
 "with'"
 
 msgid "'by' must be of length 1"
-msgstr "'by' deve essere di lunghezza 1"
+msgstr "'by' dev'essere di lunghezza 1"
 
 msgid "invalid 'by' string"
 msgstr "stringa 'by' non valida"
@@ -478,13 +466,13 @@ msgid "'by' is NA"
 msgstr "'by' è NA"
 
 msgid "'x' must be a date-time object"
-msgstr "'x' deve essere un oggetto date-time"
+msgstr "'x' dev'essere un oggetto date-time"
 
 msgid "invalid specification of 'breaks'"
 msgstr "specificazione non valida dei 'breaks'"
 
 msgid "'origin' must be of length one"
-msgstr "'origin' deve avere lunghezza 1"
+msgstr "'origin' dev'essere di lunghezza 1"
 
 msgid "'lag' and 'differences' must be integers >= 1"
 msgstr "'lag' e 'differences' devono essere interi >= 1"
@@ -564,7 +552,7 @@ msgid "no Olson database found"
 msgstr "non trovato"
 
 msgid "'file' must be a character string or connection"
-msgstr "'file' deve essere una string di caratteri o una connessione"
+msgstr "'file' dev'essere una stringa di caratteri o una connessione"
 
 msgid ""
 "Invalid DCF format.\n"
@@ -590,7 +578,7 @@ msgid "failed to load methods package for handling signature"
 msgstr ""
 
 msgid "'x' must be a square matrix"
-msgstr "'x' deve essere una matrice quadrata"
+msgstr "'x' dev'essere una matrice quadrata"
 
 #, fuzzy
 msgid "'determinant' not currently defined for complex matrices"
@@ -604,7 +592,7 @@ msgid "'x' is an array, but not one-dimensional."
 msgstr "il primo argomento è un array, ma non una matrice"
 
 msgid "only matrix diagonals can be replaced"
-msgstr "si possono sostituire solo le diagonali della matrice"
+msgstr "solo le diagonali della matrice possono essere sostituite"
 
 msgid "replacement diagonal has wrong length"
 msgstr "la diagonale sostitutiva ha lunghezza sbagliata"
@@ -623,7 +611,7 @@ msgid "No DLL currently loaded with name or path %s"
 msgstr "Nessuna DLL attualmente caricata con questo nome e path"
 
 msgid "multiple DLLs match '%s'. Using '%s'"
-msgstr "più di una DLL è simile a '%s'. Userò '%s'"
+msgstr "più di una DLL è simile a '%s'. Si utilizzerà '%s'"
 
 #, fuzzy
 msgid "must specify DLL via a %s object. See getLoadedDLLs()"
@@ -639,8 +627,8 @@ msgstr ""
 msgid ""
 "looking for DLL for native routine call, but no DLLs in namespace of call"
 msgstr ""
-"cerco la DDL per la routine di 'call' residente, ma nessuna DLL presente nel "
-"namespace di 'call'"
+"in cerca di DDL per la chiamata alla routine native, ma nessuna DLL è "
+"presente nel namespace di chiamata"
 
 msgid "0 x 0 matrix"
 msgstr "matrice 0 x 0"
@@ -657,22 +645,21 @@ msgid "invalid 'labels'; length %d should be 1 or %d"
 msgstr "'labels' non valide; lunghezza %d dovrebbe essere 1 o %d"
 
 msgid "number of levels differs"
-msgstr "il numero dei livelli è differente"
+msgstr "il numero dei livelli differisce"
 
 #, fuzzy
 msgid "%s not meaningful for factors"
 msgstr "senza senso per variabili factor"
 
 msgid "level sets of factors are different"
-msgstr ""
-"gli insiemi dei levels delle due variabili factor differiscono tra loro"
+msgstr "gli insiemi dei livelli per i factor differiscono"
 
 #, fuzzy
 msgid "invalid factor level, NA generated"
 msgstr "livello non valido in factor, sono stati generati degli NA"
 
 msgid "'%s' is not meaningful for ordered factors"
-msgstr "'%s' è senza senso per le variabili qualitative ordinali"
+msgstr "'%s' è senza senso per factor ordinabili"
 
 #, fuzzy
 msgid "'%s' not defined for ordered factors"
@@ -701,10 +688,10 @@ msgid "cannot overwrite a non-directory with a directory"
 msgstr ""
 
 msgid "file can not be copied both 'from' and 'to'"
-msgstr "il file non può essere copiato sia da 'from' che su 'to'"
+msgstr "il file non può essere copiato ne da 'from' ne da 'to'"
 
 msgid "no files to link from"
-msgstr "nessun file cui collegarsi"
+msgstr "nessun file da cui collegarsi"
 
 msgid "no files/directory to link to"
 msgstr "nessun file/directory da collegare"
@@ -714,7 +701,7 @@ msgid "no files to link to"
 msgstr "nessun file cui collegarsi"
 
 msgid "'package' must be of length 1"
-msgstr "'package' deve avere lunghezza 1"
+msgstr "'package' dev'essere di lunghezza 1"
 
 #, fuzzy
 msgid "no file found"
@@ -754,23 +741,23 @@ msgid "'flag' should contain only characters from [0+- #'I]"
 msgstr "'flag' può contenre solo '0+- #'"
 
 msgid "'mode' must be \"double\" (\"real\"), \"integer\" or \"character\""
-msgstr "'mode' deve essere \"double\" (\"real\"), \"integer\" o \"character\""
+msgstr "'mode' dev'essere \"double\" (\"real\"), \"integer\" o \"character\""
 
 msgid "coercing argument to \"character\" for format=\"s\""
-msgstr "trasformo l'argomento in \"character\" in format=\"s\""
+msgstr "coercizione argomento da \"character\" a format=\"s\""
 
 msgid "'format' must be one of {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
 msgstr ""
-"'format' deve essere uno tra {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
+"'format' dev'essere uno tra {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
 
 msgid "'digits' reduced to %d"
 msgstr ""
 
 msgid "corrupt data frame: columns will be truncated or padded with NAs"
-msgstr "data frame corrotto: le colonne verranno accorciate o riempite con NA"
+msgstr "data frame corrotto: le colonne saranno troncate o riempite con NA"
 
 msgid "'zero.print' has length > 1"
-msgstr "'zero.print' deve avere lunghezza > 1"
+msgstr "'zero.print' ha lunghezza > 1"
 
 msgid "'zero.print' must be character, logical or NULL"
 msgstr ""
@@ -788,7 +775,7 @@ msgid "'input.d.mark' has no characters"
 msgstr "'input' e 'target' devono essere vettori di caratteri"
 
 msgid "'subset' must be logical"
-msgstr "'subset' deve essere di tipo logico"
+msgstr "'subset' dev'essere logical"
 
 #, fuzzy
 msgid "value for %s not found"
@@ -803,7 +790,7 @@ msgid "match distance components must be non-negative"
 msgstr "le componenti di 'max.distance' devono essere non negative"
 
 msgid "unknown match distance components ignored"
-msgstr "le componenti sconosciute della distanza verranno ignorate"
+msgstr "ignorate le componenti sconosciute della distanza"
 
 #, fuzzy
 msgid "unknown cost components ignored"
@@ -944,7 +931,7 @@ msgid "no packages found"
 msgstr "nessun pacchetto trovato"
 
 msgid "R packages available"
-msgstr "Pacchetti di R disponibili"
+msgstr "Pacchetti R disponibili"
 
 msgid "DLL %s not found: maybe not installed for this architecture?"
 msgstr ""
@@ -962,7 +949,7 @@ msgid "shared object '%s' already loaded"
 msgstr "libreria condivisa '%s' già caricata"
 
 msgid "now dyn.load(\"%s\") ..."
-msgstr "eseguo dyn.load(\"%s\") ..."
+msgstr "dyn.load(\"%s\") ..."
 
 #, fuzzy
 msgid "no DLL was specified"
@@ -989,10 +976,10 @@ msgid "shared object '%s' not found"
 msgstr "%s non trovato"
 
 msgid "now dyn.unload(\"%s\") ..."
-msgstr "eseguo dyn.unload(\"%s\") ..."
+msgstr "dyn.unload(\"%s\") ..."
 
 msgid "Loading required package: %s"
-msgstr "Carico il pacchetto richiesto: %s"
+msgstr "Caricamento del pacchetto richiesto: %s"
 
 msgid "none of the packages are loaded"
 msgstr "nessuno dei pacchetti è stato caricato"
@@ -1041,19 +1028,19 @@ msgid "empty (zero-byte) input file"
 msgstr ""
 
 msgid "input has been corrupted, with LF replaced by CR"
-msgstr "l'input è stato danneggiato, LF sostituiti da CR"
+msgstr "l'input è corrotto, con LF sostituito da CR"
 
 msgid "bad 'file' argument"
-msgstr "argomento 'file' sbagliato"
+msgstr "argomento 'file' errato"
 
 msgid "'file' must be specified"
-msgstr "'file' deve essere specificato"
+msgstr "'file' dev'essere specificato"
 
 msgid "nothing specified to be save()d"
 msgstr ""
 
 msgid "'file' must be non-empty string"
-msgstr "'file' deve essere una stringa non vuota"
+msgstr "'file' dev'essere una stringa non vuota"
 
 #, fuzzy
 msgid "'compress' must be logical or character"
@@ -1063,10 +1050,10 @@ msgid "'compress = \"%s\"' is invalid"
 msgstr ""
 
 msgid "bad file argument"
-msgstr "argomento file non corretto"
+msgstr "argomento file errato"
 
 msgid "can only save to a binary connection"
-msgstr "posso salvare solo su connessioni di tipo binario"
+msgstr "si può salvare solo su connessione binaria"
 
 #, fuzzy
 msgid "image could not be renamed and is left in %s"
@@ -1110,10 +1097,10 @@ msgid "'arg' should be one of %s"
 msgstr "'arg' deve essere uno tra"
 
 msgid "there is more than one match in 'match.arg'"
-msgstr "c'è più di un 'match' in 'match.arg'"
+msgstr "c'è più di una corrispondenza in 'match.arg'"
 
 msgid "no match"
-msgstr "nessun match"
+msgstr "nessuna corrispondenza"
 
 msgid "'input' must have length 1"
 msgstr "'input' deve avere lunghezza 1"
@@ -1122,7 +1109,7 @@ msgid "'input' and 'target' must be character vectors"
 msgstr "'input' e 'target' devono essere vettori di caratteri"
 
 msgid "'%s' is not a function, character or symbol"
-msgstr "'%s' non è un oggetto function, character o symbol:"
+msgstr "'%s' non è una funzione, un character o un symbol:"
 
 msgid "found non-function '%s'"
 msgstr "trovata una non-function '%s'"
@@ -1137,20 +1124,20 @@ msgstr ""
 "tentativo di impostare colnames per un oggetto con meno di due dimensioni"
 
 msgid "argument is not numeric or logical: returning NA"
-msgstr "l'argomento non è numerico o logico: restituisco NA"
+msgstr "l'argomento non è numeric o logic: restituito NA"
 
 #, fuzzy
 msgid "'trim' must be numeric of length one"
 msgstr "'origin' deve avere lunghezza 1"
 
 msgid "trimmed means are not defined for complex data"
-msgstr "le medie troncate non sono definite per dati complex"
+msgstr "le medie troncate non sono definite per dati complessi"
 
 msgid "'by' must match numbers of columns"
-msgstr "'by' deve essere compatibile col numero di colonne"
+msgstr "'by' deve corrispondere ai numeri di colonne"
 
 msgid "'by' must match number of columns"
-msgstr "'by' deve essere compatibile col numero di colonne"
+msgstr "'by' deve corrispondere al numero di colonne"
 
 #, fuzzy
 msgid "'by' must specify one or more columns as numbers, names or logical"
@@ -1160,7 +1147,7 @@ msgid "long vectors are not supported"
 msgstr ""
 
 msgid "'by.x' and 'by.y' specify different numbers of columns"
-msgstr "'by.x' e 'by.y' specificano numeri di colonne differenti"
+msgstr "'by.x' e 'by.y' indicano numeri di colonne differenti"
 
 msgid "'incomparables' is supported only for merging on a single column"
 msgstr ""
@@ -1322,7 +1309,7 @@ msgid "replacing previous import by %s when loading %s"
 msgstr ""
 
 msgid "invalid import target"
-msgstr "destinazione per importazione non valida"
+msgstr "obiettivo di importazione non valido"
 
 msgid "found methods to import for function %s but not the generic itself"
 msgstr ""
@@ -1360,7 +1347,7 @@ msgid "duplicate symbol names %s in useDynLib(\"%s\")"
 msgstr "nomi importati doppi"
 
 msgid "bad 'S3method' directive: %s"
-msgstr "direttiva S3method sbagliata: %s"
+msgstr "direttiva 'S3method' errata: %s"
 
 msgid "unknown namespace directive: %s"
 msgstr "direttiva namespace sconosciuta:i %s"
@@ -1370,7 +1357,7 @@ msgid "S3 method %s was declared but not found"
 msgstr "metodo S3 %s dichiarato in NAMESPACE ma non trovato"
 
 msgid "bad method"
-msgstr "metodo non corretto"
+msgstr "metodo errato"
 
 msgid "object '%s' not found whilst loading namespace '%s'"
 msgstr "oggetto '%s' non trovato durante il caricamento del namespace '%s'"
@@ -1386,7 +1373,7 @@ msgid "'%s' is not implemented yet"
 msgstr "'%s' non ancora implementato"
 
 msgid "argument '%s' is not used (yet)"
-msgstr "argomento '%s' non (ancora) usato"
+msgstr "argomento '%s' (ancora) inutilizzato"
 
 #, fuzzy
 msgid "'x' cannot be coerced to class \"octmode\""
@@ -1415,7 +1402,7 @@ msgid "too large a matrix for LINPACK"
 msgstr ""
 
 msgid "first argument must be a QR decomposition"
-msgstr "il primo argomento deve essere una decomposizione QR"
+msgstr "il primo argomento dev'essere una decomposizione QR"
 
 msgid "invalid nrow(qr$qr)"
 msgstr ""
@@ -1444,7 +1431,7 @@ msgid "invalid NCOL(y)"
 msgstr ""
 
 msgid "not implemented for complex 'qr'"
-msgstr "implementato per 'qr' complex"
+msgstr "non implementato per 'qr' complesso"
 
 msgid "not supported for LAPACK QR"
 msgstr "non supportato per LAPACK QR"
@@ -1453,9 +1440,7 @@ msgid "'k' is too large"
 msgstr "'k' è troppo grande"
 
 msgid "need larger value of 'ncol' as pivoting occurred"
-msgstr ""
-"c'è bisogno di un valore più grande di 'ncol' poiché si utilizzato il "
-"pivoting"
+msgstr "serve un valore più grande di 'ncol' quando si verifica il pivot"
 
 msgid "invalid NCOL(R)"
 msgstr ""
@@ -1465,7 +1450,7 @@ msgid "'x' must be a vector of an atomic type"
 msgstr "'x' deve essere un vettore"
 
 msgid "invalid 'rle' structure"
-msgstr "'struttura 'rle' non valida"
+msgstr "struttura 'rle' non valida"
 
 #, fuzzy
 msgid "... must contain names or character strings"
@@ -1481,11 +1466,10 @@ msgid "not a data frame"
 msgstr "non è un data frame"
 
 msgid "length of 'center' must equal the number of columns of 'x'"
-msgstr ""
-"la lunghezza di 'center' deve essere uguale al numero di colonne di 'x'"
+msgstr "la lunghezza di 'center' deve eguagliare il numero di colonne di 'x'"
 
 msgid "length of 'scale' must equal the number of columns of 'x'"
-msgstr "la lunghezza di 'scale' deve essere uguale al numero di colonne di 'x'"
+msgstr "la lunghezza di 'scale' deve eguagliare il numero di colonne di 'x'"
 
 msgid "either specify 'nmax' or 'n', but not both."
 msgstr "si specifichi 'nmax' o 'n', ma non entrambi"
@@ -1513,7 +1497,7 @@ msgid "wrong sign in 'by' argument"
 msgstr "segno sgbagliato nell'argomento 'by'"
 
 msgid "'by' argument is much too small"
-msgstr "l'argomento 'by' è veramente troppo piccolo"
+msgstr "l'argomento 'by' è troppo piccolo"
 
 #, fuzzy
 msgid "'length.out' must be a non-negative number"
@@ -1530,16 +1514,16 @@ msgid "'compress' is ignored unless 'file' is a file name"
 msgstr ""
 
 msgid "'connection' must be a connection"
-msgstr "'connection' deve essere una connessione"
+msgstr "'connection' dev'essere una connessione"
 
 msgid "'file' must be NULL or an already open connection"
-msgstr "'file' deve essere NULL o una connessione già aperta"
+msgstr "'file' dev'essere NULL o una connessione già aperta"
 
 msgid "cannot split the message connection"
-msgstr "non possono suddividere la conessione messaggio"
+msgstr "non è possibile dividere la connessione messaggio"
 
 msgid "'file' must be NULL, a connection or a character string"
-msgstr "'file' deve essere NULL, una connessione o una stringa di caratteri"
+msgstr "'file' dev'essere NULL, una connessione o una stringa di caratteri"
 
 msgid "this is the \"qr\" method for the generic function solve()"
 msgstr "questo è il metodo \"qr\" per la funzione generica solve()"
@@ -1548,10 +1532,10 @@ msgid "singular matrix 'a' in 'solve'"
 msgstr "matrice singolare 'a' in solve"
 
 msgid "only square matrices can be inverted"
-msgstr "solo le matrici quadrate si possono invertire"
+msgstr "solo le matrici quadrate possono essere invertite"
 
 msgid "solve.default called with a \"qr\" object: use 'qr.solve'"
-msgstr "solve.default è stato usato con un oggetto \"qr\": usare 'qr.solve'"
+msgstr "solve.default chiamato con un oggetto \"qr\": utilizza 'qr.solve'"
 
 msgid "singular matrix 'a' in solve"
 msgstr "matrice singolare 'a' in solve"
@@ -1565,22 +1549,22 @@ msgid "'partial' sorting not supported by radix method"
 msgstr ""
 
 msgid "'index.return' only for non-factors"
-msgstr "'index.return' solo per oggetti non factor"
+msgstr "'index.return' solo per non-factor"
 
 msgid "'x' must be atomic"
-msgstr "'x' deve essere atomico"
+msgstr "'x' dev'essere atomico"
 
 msgid "'index.return' only for 'na.last = NA'"
 msgstr "'index.return' solo per 'na.last = NA'"
 
 msgid "unsupported options for partial sorting"
-msgstr "opzione non supportata nel sort parziale"
+msgstr "opzioni non supportate nell'ordinamento parziale"
 
 msgid "non-finite 'partial'"
 msgstr "'partial' non finito"
 
 msgid "argument lengths differ"
-msgstr "la lunghezza degli argomenti differisce"
+msgstr "argomenti di lunghezza differente"
 
 msgid ""
 "'x' must be atomic for 'sort.list'\n"
@@ -1595,13 +1579,13 @@ msgid "'local' must be TRUE, FALSE or an environment"
 msgstr ""
 
 msgid "'echo' must be logical"
-msgstr "'echo' deve essere di tpo logico"
+msgstr "'echo' dev'essere di tipo logical"
 
 msgid "'verbose' is TRUE, 'echo' not; ... coercing 'echo <- TRUE'"
-msgstr "'verbose' è TRUE, echo no; ... impongo 'echo <- TRUE'"
+msgstr "'verbose' è TRUE, echo no; ... coercizione 'echo <- TRUE'"
 
 msgid "unable to find a plausible encoding"
-msgstr "non posso trovare un encoding plausibile"
+msgstr "non è possibile trovare una codifica adeguata"
 
 msgid "encoding = \"%s\" chosen"
 msgstr ""
@@ -1652,7 +1636,7 @@ msgid "incorrect value for 'x'"
 msgstr "valore non corretto per 'x'"
 
 msgid "'x' and 'y' must have the same length"
-msgstr "'x' e 'y' devono avere la stessa lunghezza"
+msgstr "'x' e 'y' devono avere la medesima lunghezza"
 
 msgid "probably wrong encoding in names(.) of column"
 msgstr ""
@@ -1673,7 +1657,7 @@ msgid "nothing to tabulate"
 msgstr "nulla da tabulare"
 
 msgid "all arguments must have the same length"
-msgstr "tutti gli argomenti devono avere la stessa lunghezza"
+msgstr "tutti gli argomenti devono avere la medesima lunghezza"
 
 msgid "attempt to make a table with >= 2^31 elements"
 msgstr ""
@@ -1694,7 +1678,7 @@ msgid "'x' is not an array"
 msgstr "'x' non è un array"
 
 msgid "'bin' must be numeric or a factor"
-msgstr "'bin' deve essere numeric o factor"
+msgstr "'bin' dev'essere numeric o un factor"
 
 #, fuzzy
 msgid "invalid value of %s"
@@ -1712,14 +1696,14 @@ msgid "total number of levels >= 2^31"
 msgstr "il numero dei livelli è differente"
 
 msgid "handler must be a function"
-msgstr "handler deve essere una funzione"
+msgstr "il gestore dev'essere una funzione"
 
 #, fuzzy
 msgid "'which' must be of length 1"
 msgstr "'to' deve avere  lunghezza 1"
 
 msgid "no such element '%s'"
-msgstr "non trovo l'elemento '%s'"
+msgstr "nessun elemento '%s'"
 
 #, fuzzy
 msgid "invalid 'which' argument"
@@ -1750,7 +1734,7 @@ msgid "elapsed"
 msgstr ""
 
 msgid "'width' must be positive"
-msgstr "'width' deve essere positiva"
+msgstr "'width' dev'essere positiva"
 
 msgid "No traceback available"
 msgstr "Nessun traceback disponibile"
@@ -1984,17 +1968,15 @@ msgid_plural "there are no packages called"
 msgstr[0] "non c'è alcun pacchetto chiamato '%s'"
 msgstr[1] "non c'è alcun pacchetto chiamato '%s'"
 
-#, fuzzy
 msgid "object %s not found"
 msgid_plural "objects %s not found"
-msgstr[0] "%s non trovato"
-msgstr[1] "%s non trovato"
+msgstr[0] "oggetto %s non trovato"
+msgstr[1] "oggetti %s non trovati"
 
-#, fuzzy
 msgid "'by' must specify a uniquely valid column"
 msgid_plural "'by' must specify uniquely valid columns"
-msgstr[0] "'by' deve specificare colonne(a) valide"
-msgstr[1] "'by' deve specificare colonne(a) valide"
+msgstr[0] "'by' deve specificare unicamente una colonna valida"
+msgstr[1] "'by' deve specificare unicamente colonne valide"
 
 msgid ""
 "Function found when exporting methods from the namespace %s which is not S4 "
@@ -2043,260 +2025,21 @@ msgid_plural "S3 methods %s were declared in NAMESPACE but not found"
 msgstr[0] "metodo S3 %s dichiarato in NAMESPACE ma non trovato"
 msgstr[1] "metodi S3 %s dichiarati in NAMESPACE ma non trovati"
 
-#, fuzzy
 msgid "%s is not TRUE"
 msgid_plural "%s are not all TRUE"
-msgstr[0] "non è"
-msgstr[1] "non è"
+msgstr[0] "%s non è TRUE"
+msgstr[1] "%s non sono tutti TRUE"
 
 msgid "Warning message:\n"
 msgid_plural "Warning messages:\n"
 msgstr[0] "Messaggio di avvertimento:\n"
 msgstr[1] "Messaggi di avvertimento:\n"
 
-#, fuzzy
 msgid ""
 "In %s :\n"
 " extra argument %s will be disregarded"
 msgid_plural ""
 "In %s :\n"
 " extra arguments %s will be disregarded"
-msgstr[0] "l'argomento drop verrà ignorato"
-msgstr[1] "l'argomento drop verrà ignorato"
-
-#, fuzzy
-#~ msgid "Partial match of '%s' to '%s' in data frame"
-#~ msgstr "variabile non numerica nel data frame:"
-
-#, fuzzy
-#~ msgid "'object' must be a list"
-#~ msgstr "'subset' deve essere di tipo logico"
-
-#~ msgid "*** Note that 'pos=1' will give an error in the future"
-#~ msgstr "*** Si noti che 'pos=1' produrrà un errore in seguito"
-
-#~ msgid "'%s' is not a \"date\" object"
-#~ msgstr "'%s' non è un oggetto \"date\""
-
-#~ msgid "'%s' is not a \"dates\" object"
-#~ msgstr "'%s' non è un oggetto \"dates\""
-
-#~ msgid "incorrect values of 'indent' and 'width'"
-#~ msgstr "valori non corretti per 'indent' e 'width'"
-
-#~ msgid "'vec' contains NAs"
-#~ msgstr "'vec' contiene NA"
-
-#, fuzzy
-#~ msgid "method = \"radix\" is only for integer 'x'"
-#~ msgstr "method=\"radix\" è solo per 'x' interi"
-
-#, fuzzy
-#~ msgid "re-exports %s not exported by %s"
-#~ msgstr "l'oggetto %s non è esportato da 'namespace:%s'"
-
-#, fuzzy
-#~ msgid "cannot be unloaded."
-#~ msgstr "namespace '%s' caricato"
-
-#, fuzzy
-#~ msgid "package %s %s was found, but %s %s is required by %s"
-#~ msgstr "pacchetto '%s' non trovato, ma %s %s è richiesto da '%s'"
-
-#, fuzzy
-#~ msgid "package %s %s is loaded, but %s %s is required by %s"
-#~ msgstr "pacchetto '%s' %s caricato, ma %s %s richiesto da '%s'"
-
-#~ msgid "wrong argument"
-#~ msgstr "argomento sbagliato"
-
-#~ msgid "'nu' must be 0, nrow(x) or ncol(x)"
-#~ msgstr "'nu' deve essere 0, nrow(x) o ncol(x)"
-
-#~ msgid "'nv' must be 0, nrow(x) or ncol(x)"
-#~ msgstr "'nv' deve essere 0, nrow(x) o ncol(x)"
-
-#~ msgid "too many 'S3method' directives"
-#~ msgstr "troppe direttive 'S3method'"
-
-#~ msgid "non-square matrix in 'chol'"
-#~ msgstr "matrice non quadrata in 'chol'"
-
-#~ msgid "non-matrix argument to 'chol'"
-#~ msgstr "argomento di 'chol' deve essere una matrice"
-
-#~ msgid "matrix not positive definite"
-#~ msgstr "matrice non definita positiva"
-
-#~ msgid "non-positive definite matrix in 'chol'"
-#~ msgstr "matrice non definita positiva in 'chol'"
-
-#~ msgid "non-numeric argument to 'chol2inv'"
-#~ msgstr "argomento non numeric in 'chol2inv'"
-
-#~ msgid "invalid 'size' argument in 'chol2inv'"
-#~ msgstr "argomento size non valido in 'chol2inv'"
-
-#~ msgid "singular matrix in 'chol2inv'"
-#~ msgstr "matrice singolare in 'chol2inv'"
-
-#, fuzzy
-#~ msgid "'%s' returned code %d in 'eigen'"
-#~ msgstr "'rs' ha restituito codice %d in 'eigen'"
-
-#~ msgid "'nv' must be 0 or ncol(x)"
-#~ msgstr "'nv' deve essere 0 o ncol(x)"
-
-#, fuzzy
-#~ msgid "error %d in LINPACK subroutine 'dsvdc'"
-#~ msgstr "errore %d in 'dsvdc'"
-
-#, fuzzy
-#~ msgid "found an S4 version of %s so it has not been imported correctly"
-#~ msgstr ""
-#~ "trovata una versione S4 di '%s' quindi non è stato importato correttamente"
-
-#, fuzzy
-#~ msgid "T used instead of TRUE"
-#~ msgstr "non è"
-
-#, fuzzy
-#~ msgid "have been removed from the search path"
-#~ msgstr "'%s' non trovato nel percorso di ricerca, uso pos = 2"
-
-#~ msgid "0 extent dimensions"
-#~ msgstr "dimensioni nulle"
-
-#, fuzzy
-#~ msgid "Buggy version of Kinderman-Ramage generator used"
-#~ msgstr ""
-#~ "Stai usando una versione non funzionante del generatore di Kinderman-"
-#~ "Ramage."
-
-#, fuzzy
-#~ msgid "Buggy version of Kinderman-Ramage generator is not allowed"
-#~ msgstr ""
-#~ "Stai usando una versione non funzionante del generatore di Kinderman-"
-#~ "Ramage."
-
-#~ msgid "you cannot be serious"
-#~ msgstr "stai scherzando?"
-
-#~ msgid "RHS must be list"
-#~ msgstr "il membro di destra (RHS) deve essere di tipo list"
-
-#~ msgid "labels/breaks length conflict"
-#~ msgstr "lunghezze di labels e breaks differenti"
-
-#~ msgid "--> row.names NOT used"
-#~ msgstr "--> row.names NON verrà usato"
-
-#~ msgid "'ch' returned code %d in 'eigen'"
-#~ msgstr "'ch' ha restituito codice %d in 'eigen'"
-
-#~ msgid "'cg' returned code %d in 'eigen'"
-#~ msgstr "'cg' ha restituito codice %d in 'eigen'"
-
-#~ msgid "'rg' returned code %d in 'eigen'"
-#~ msgstr "'rg' ha restituito codice %d in 'eigen'"
-
-#~ msgid "invalid factor level, NAs generated"
-#~ msgstr "livello non valido in factor, sono stati generati degli NA"
-
-#~ msgid "'subset' must evaluate to logical"
-#~ msgstr "'subset' deve lavorare su espressioni logiche"
-
-#~ msgid "doc"
-#~ msgstr "doc"
-
-#~ msgid "'by' must specify valid column(s)"
-#~ msgstr "'by' deve specificare colonne(a) valide"
-
-#, fuzzy
-#~ msgid "%s not defined for numeric_version objects"
-#~ msgstr "non definito per oggetti package_version"
-
-#~ msgid "unary"
-#~ msgstr "unario"
-
-#~ msgid "MARGIN ="
-#~ msgstr "MARGIN ="
-
-#~ msgid "value for '"
-#~ msgstr "valore per '"
-
-#~ msgid "' not found"
-#~ msgstr "' non trovato"
-
-#, fuzzy
-#~ msgid "namespace"
-#~ msgstr "non è un namespace"
-
-#~ msgid "not found"
-#~ msgstr "non trovato"
-
-#~ msgid "non-numeric argument to 'chol'"
-#~ msgstr "argomento non numerico per 'chol'"
-
-#~ msgid "do not know how to convert '%s' to class \"POSIXlt\""
-#~ msgstr "non so come convertire '%s' in classe \"POSIXlt\""
-
-#, fuzzy
-#~ msgid "do not know how to convert '%s' to class \"POSIXct\""
-#~ msgstr "non so come convertire '%s' in classe \"POSIXlt\""
-
-#~ msgid "invalid 'n' value"
-#~ msgstr "valore 'n' non valido"
-
-#~ msgid "'shrink.sml' must be numeric > 0"
-#~ msgstr "'shrink.sml' deve essere numeric > 0"
-
-#~ msgid "'min.n' must be non-negative integer <= n"
-#~ msgstr "'min.n' deve essere un intero non negativo <= n"
-
-#~ msgid "'high.u.bias' must be non-negative numeric"
-#~ msgstr "'high.u.bias' deve essere numeric non negativo"
-
-#~ msgid "'u5.bias' must be non-negative numeric"
-#~ msgstr "'u5.bias' deve essere numeric non negativo"
-
-#~ msgid "'eps.correct' must be 0, 1, or 2"
-#~ msgstr "'eps.correct' deve essere 0, 1, o 2"
-
-#, fuzzy
-#~ msgid "'b' must be compatible with 'a'"
-#~ msgstr "'by' deve essere di lunghezza 1"
-
-#~ msgid "invalid argument values in 'backsolve'"
-#~ msgstr "parametri non valid in 'backsolve'"
-
-#, fuzzy
-#~ msgid "invalid value of ncol(x)"
-#~ msgstr "valore 'n' non valido"
-
-#~ msgid "singular matrix in 'backsolve'. First zero in diagonal [%d]"
-#~ msgstr "matrice singolare in backsolve. Primo zero sulla diagonale [%d]"
-
-#, fuzzy
-#~ msgid "invalid value of nrow(x)"
-#~ msgstr "valore 'n' non valido"
-
-#, fuzzy
-#~ msgid "invalid value of length(x)"
-#~ msgstr "valore 'n' non valido"
-
-#, fuzzy
-#~ msgid "invalid value of length(breaks)"
-#~ msgstr "valore 'n' non valido"
-
-#, fuzzy
-#~ msgid "invalid length(x)"
-#~ msgstr "valore 'n' non valido"
-
-#, fuzzy
-#~ msgid "invalid length(vec)"
-#~ msgstr "valore 'n' non valido"
-
-#, fuzzy
-#~ msgid "invalid value of length(bin)"
-#~ msgstr "valore 'n' non valido"
+msgstr[0] ""
+msgstr[1] ""
