@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2020-03-07 10:18\n"
-"PO-Revision-Date: 2020-03-09 16:47+0100\n"
+"PO-Revision-Date: 2020-03-09 18:08+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Poedit 2.2.1\n"
 
 msgid "'%s' is defunct."
-msgstr "'%s' è defunto."
+msgstr "'%s' è rimossa."
 
 msgid "Use '%s' instead."
 msgstr "Usare '%s' al suo posto."
@@ -519,6 +519,10 @@ msgid ""
 "Offending lines start with:\n"
 "%s"
 msgstr ""
+"Formato DCF non valido.\n"
+"Le linee regolari devono avere una tag.\n"
+"Le linee di apertura iniziano con:\n"
+"%s"
 
 msgid ""
 "Invalid DCF format.\n"
@@ -526,6 +530,10 @@ msgid ""
 "Offending lines start with:\n"
 "%s"
 msgstr ""
+"Formato DCF non valido.\n"
+"Le linee seguenti non devono iniziare un record.\n"
+"Le linee di apertura iniziano con:\n"
+"%s"
 
 msgid "failed to load the methods package for debugging by signature"
 msgstr ""
@@ -670,7 +678,7 @@ msgid "Found no format() method for class \"%s\""
 msgstr "Metodo format() non trovato per la classe \"%s\""
 
 msgid "class of 'x' was discarded"
-msgstr ""
+msgstr "la classe di 'x' è stata scartata"
 
 msgid "'flag' must be a string, i.e., of length 1"
 msgstr "'flag' dev'essere una stringa, es. di lunghezza 1"
@@ -777,10 +785,10 @@ msgstr ""
 msgid "package %s has not been installed properly"
 msgstr "il pacchetto %s non è stato installato correttamente"
 
-#, fuzzy
 msgid "package %s was built before R 3.0.0: please re-install it"
 msgstr ""
-"il pacchetto '%s' è stato creato prima di R 2.0.0: si prega di re-installarlo"
+"il pacchetto %s è stato creato prima di R 3.0.0: per piacere, va re-"
+"installato"
 
 msgid "This is R %s, package %s needs %s %s"
 msgstr "Questo è R %s, il pacchetto %s richiede %s %s"
@@ -833,15 +841,15 @@ msgstr ""
 "Pacchetto %s versione %s non può essere scaricato:\n"
 " %s"
 
-#, fuzzy
 msgid ""
 "package or namespace load failed for %s%s:\n"
 " %s"
-msgstr "caricamento pacchetto/namespace fallito per '%s'"
+msgstr ""
+"caricamento pacchetto o namespace fallito per %s%s:\n"
+" %s"
 
-#, fuzzy
 msgid "package %s does not have a namespace and should be re-installed"
-msgstr "il pacchetto '%s' non ha un namespace"
+msgstr "il pacchetto %s non ha un namespace e dovrebbe essere re-installato"
 
 msgid "package %s already present in search()"
 msgstr "pacchetto %s già presente in search()"
@@ -989,7 +997,7 @@ msgid "FUN"
 msgstr "FUN"
 
 msgid "may not have argument(s) named"
-msgstr ""
+msgstr "potrebbe non avere argomenti denominati"
 
 msgid "'arg' must be NULL or a character vector"
 msgstr "'arg' dev'essere NULL o vettore di caratteri"
@@ -1021,14 +1029,12 @@ msgstr "'%s' non è una function, un character o un symbol"
 msgid "found non-function '%s'"
 msgstr "trovata una non-function '%s'"
 
-#, fuzzy
 msgid "attempt to set 'rownames' on an object with no dimensions"
-msgstr "tentativo di impostare rownames per un oggetto senza dimensioni"
+msgstr "tentata configurazione di 'rownames' su un oggetto senza dimensioni"
 
-#, fuzzy
 msgid "attempt to set 'colnames' on an object with less than two dimensions"
 msgstr ""
-"tentativo di impostare colnames per un oggetto con meno di due dimensioni"
+"tentata configurazione di 'colnames' su un oggetto con meno di due dimensioni"
 
 msgid "argument is not numeric or logical: returning NA"
 msgstr "l'argomento non è numeric o logic: restituito NA"
@@ -1045,9 +1051,9 @@ msgstr "'by' deve corrispondere ai numeri di colonne"
 msgid "'by' must match number of columns"
 msgstr "'by' deve corrispondere al numero di colonne"
 
-#, fuzzy
 msgid "'by' must specify one or more columns as numbers, names or logical"
-msgstr "'by' deve specificare la colonna(e)"
+msgstr ""
+"'by' deve specificare una o più colonne come numero, nomi o valori logical"
 
 msgid "long vectors are not supported"
 msgstr "vettori long non supportati"
@@ -1081,9 +1087,8 @@ msgstr ""
 msgid "'%s' is not an exported object from 'namespace:%s'"
 msgstr "'%s' non è un oggetto esportato dal 'namespace:%s'"
 
-#, fuzzy
 msgid "namespace is already attached"
-msgstr "il namespace è già agganciato"
+msgstr "namespace già agganciato"
 
 msgid ""
 "not found in namespace %s: \n"
@@ -1191,20 +1196,17 @@ msgstr "in '%s', metodi da esportare specificati, ma nessuno definito: %s"
 msgid "Loading required namespace: %s"
 msgstr "Caricamento dei namespace richiesti: %s"
 
-#, fuzzy
 msgid "not loading a namespace"
-msgstr "non sto caricando un namespace"
+msgstr "un namespace non viene caricato"
 
-#, fuzzy
 msgid "namespace %s is imported by %s so cannot be unloaded"
-msgstr "namespace '%s' caricato"
+msgstr "il namespace %s è importato da %s perciò non può essere scaricato"
 
 msgid "not a namespace"
 msgstr "non è un namespace"
 
-#, fuzzy
 msgid "operation not allowed on base namespace"
-msgstr "operazione non permessa sul namespace base"
+msgstr "operazione vietata sul namespace base"
 
 msgid "duplicate import names %s"
 msgstr "nomi import %s duplicati"
@@ -1244,17 +1246,14 @@ msgstr "esportazioni non definite: %s"
 msgid "unable to re-encode some lines in NAMESPACE file"
 msgstr "il pacchetto '%s' non ha il file NAMESPACE"
 
-#, fuzzy
 msgid "package %s has no 'NAMESPACE' file"
-msgstr "il pacchetto '%s' non ha il file NAMESPACE"
+msgstr "il pacchetto %s non ha il file 'NAMESPACE'"
 
-#, fuzzy
 msgid "empty name in directive '%s' in 'NAMESPACE' file"
-msgstr "il pacchetto '%s' non ha il file NAMESPACE"
+msgstr "nome vuoto nella direttiva '%s' nel file 'NAMESPACE'"
 
-#, fuzzy
 msgid "duplicate symbol names %s in useDynLib(\"%s\")"
-msgstr "nomi importati doppi"
+msgstr "nomi dei simboli duplicati %s in useDynLib(\"%s\")"
 
 msgid "bad 'S3method' directive: %s"
 msgstr "direttiva 'S3method' errata: %s"
@@ -1603,9 +1602,8 @@ msgstr "'which' dev'essere di tipo character o numeric"
 msgid "Removing %s"
 msgstr "Rimozione di %s"
 
-#, fuzzy
 msgid "Registering 'evaluate' as low-level callback"
-msgstr "Registering lavora come callback di basso livello"
+msgstr "Registrando 'evaluate' come chiamata di basso livello"
 
 msgid "Timing stopped at:"
 msgstr ""
@@ -1625,16 +1623,14 @@ msgstr "'width' dev'essere positiva"
 msgid "No traceback available"
 msgstr "Nessun traceback disponibile"
 
-#, fuzzy
 msgid "invalid version specification %s"
-msgstr "versione specificata non valida"
+msgstr "versione specificata %s non valida"
 
 msgid "invalid 'value'"
 msgstr "'value' non valido"
 
-#, fuzzy
 msgid "unary '%s' not defined for \"numeric_version\" objects"
-msgstr "non definito per oggetti package_version"
+msgstr "l'operatore unario '%s' non è definito per oggetti \"numeric_version\""
 
 msgid "'%s' not defined for \"numeric_version\" objects"
 msgstr "'%s' non definito per oggetti \"numeric_version\""
@@ -1659,6 +1655,8 @@ msgid ""
 "arguments 'show.output.on.console', 'minimized' and 'invisible' are for "
 "Windows only"
 msgstr ""
+"gli argomenti 'show.output.on.console', 'minimized' e 'invisible' sono solo "
+"per Windows"
 
 msgid "'intern' must be TRUE or FALSE"
 msgstr "'intern' dev'essere TRUE o FALSE"
@@ -1777,17 +1775,15 @@ msgid_plural "invalid 'row.names', length %d for a data frame with %d rows"
 msgstr[0] "'row.names' non valido, lunghezza %d per un data frame con %d righe"
 msgstr[1] "'row.names' non valido, lunghezza %d per un data frame con %d righe"
 
-#, fuzzy
 msgid "supplied %d row name for %d rows"
 msgid_plural "supplied %d row names for %d rows"
-msgstr[0] "specificati %d nomi di rica per %d righe"
-msgstr[1] "specificati %d nomi di rica per %d righe"
+msgstr[0] "specificato %d nome di rica per %d righe"
+msgstr[1] "specificati %d nomi di riga per %d righe"
 
-#, fuzzy
 msgid "replacement has %d row, data has %d"
 msgid_plural "replacement has %d rows, data has %d"
-msgstr[0] "dati sostitutivi con %d righe, i dati ne hanno %d"
-msgstr[1] "dati sostitutivi con %d righe, i dati ne hanno %d"
+msgstr[0] "sostituzione con %d riga, dati con %d"
+msgstr[1] "sostituzione con %d righe, dati con %d"
 
 msgid "replacement has %d item, need %d"
 msgid_plural "replacement has %d items, need %d"
@@ -1821,10 +1817,9 @@ msgid_plural "%d rows in value to replace %d rows"
 msgstr[0] "%d righe in 'value' per sostituire %d righe"
 msgstr[1] "%d righe in 'value' per sostituire %d righe"
 
-#, fuzzy
 msgid "replacement data has %d row to replace %d rows"
 msgid_plural "replacement data has %d rows to replace %d rows"
-msgstr[0] "dati sostitutivi con %d righe per rimpiazzarne %d"
+msgstr[0] "dati sostitutivi con %d riga per rimpiazzarne %d"
 msgstr[1] "dati sostitutivi con %d righe per rimpiazzarne %d"
 
 #, fuzzy
@@ -1848,11 +1843,10 @@ msgid_plural "packages %s are not loaded"
 msgstr[0] "pacchetto %s non caricato"
 msgstr[1] "pacchetti %s non caricati"
 
-#, fuzzy
 msgid "there is no package called"
 msgid_plural "there are no packages called"
-msgstr[0] "non c'è alcun pacchetto chiamato '%s'"
-msgstr[1] "non c'è alcun pacchetto chiamato '%s'"
+msgstr[0] "non c'è alcun pacchetto chiamato"
+msgstr[1] "non ci sono pacchetto chiamati"
 
 msgid "object %s not found"
 msgid_plural "objects %s not found"
@@ -1894,7 +1888,6 @@ msgid_plural "classes %s are not exported by 'namespace:%s'"
 msgstr[0] "l'oggetto %s non è esportato da 'namespace:%s'"
 msgstr[1] "gli oggetti %s non sono esportati da 'namespace:%s'"
 
-#, fuzzy
 msgid "object %s is not exported by 'namespace:%s'"
 msgid_plural "objects %s are not exported by 'namespace:%s'"
 msgstr[0] "l'oggetto %s non è esportato da 'namespace:%s'"
