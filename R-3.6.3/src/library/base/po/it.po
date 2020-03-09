@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-29 07:06-0700\n"
-"PO-Revision-Date: 2020-03-08 19:38+0100\n"
+"PO-Revision-Date: 2020-03-09 18:10+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -1394,7 +1394,7 @@ msgstr "dimensione troppo grande per il vettore indicato"
 #: src/main/objects.c:241 src/main/objects.c:249 src/main/saveload.c:2112
 #: src/main/saveload.c:2409 src/main/serialize.c:3048
 msgid "use of NULL environment is defunct"
-msgstr "l'utilizzo dell'ambiente NULL è deprecato"
+msgstr "l'utilizzo dell'ambiente NULL è rimosso"
 
 #: src/main/builtin.c:257 src/main/builtin.c:272
 msgid "argument is not a function"
@@ -3284,7 +3284,7 @@ msgstr "nessun termine chiamato \"%s\" nella lista di ricerca"
 
 #: src/main/envir.c:3141
 msgid "using 'as.environment(NULL)' is defunct"
-msgstr "l'utilizzo di 'as.environment(NULL)' è defunto"
+msgstr "l'utilizzo di 'as.environment(NULL)' è rimosso"
 
 #: src/main/envir.c:3147
 msgid "S4 object does not extend class \"environment\""
