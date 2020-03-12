@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2018-03-29 07:06\n"
-"PO-Revision-Date: 2005-04-17 16:57+0200\n"
-"Last-Translator: stefano iacus <>\n"
+"PO-Revision-Date: 2020-03-12 17:42+0100\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #, fuzzy
 msgid "Checking %s"
@@ -33,22 +34,22 @@ msgid "neither code nor data objects found"
 msgstr "non trovati codice o oggetti di tipo data"
 
 msgid "Undocumented code objects:"
-msgstr ""
+msgstr "Oggetti  codice  non documentati:"
 
 msgid "Undocumented data sets:"
-msgstr ""
+msgstr "Dataset non documentati:"
 
 msgid "Undocumented S4 classes:"
-msgstr ""
+msgstr "Classi S4 non documentate:"
 
 msgid "Undocumented S4 methods:"
-msgstr ""
+msgstr "Metodi S4 non documentati:"
 
 msgid "Prototyped non-primitives:"
-msgstr ""
+msgstr "Prototipazione di non-primitive:"
 
 msgid "Undocumented %s:"
-msgstr ""
+msgstr "Non documentato %s:"
 
 msgid "directory '%s' does not contain R code"
 msgstr "ls directory '%s' non contiene codice R"
@@ -66,10 +67,10 @@ msgid "Data with usage in documentation object '%s' but not in code:"
 msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
 
 msgid "Argument names in code not in docs:"
-msgstr ""
+msgstr "Nomi argomenti nel codice e non nella documentazione:"
 
 msgid "Argument names in docs not in code:"
-msgstr ""
+msgstr "Nomi argomenti nella documentazione e non nel codice:"
 
 msgid "Mismatches in argument names (first 3):"
 msgstr ""
@@ -88,17 +89,17 @@ msgid "Codoc mismatches from documentation object '%s':"
 msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
 
 msgid "Code: %s"
-msgstr ""
+msgstr "Codice: %s"
 
 msgid "Docs: %s"
-msgstr ""
+msgstr "Documentazione: %s"
 
 #, fuzzy
 msgid "S4 class codoc mismatches from documentation object '%s':"
 msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
 
 msgid "Slots for class '%s'"
-msgstr ""
+msgstr "Slot per la classe '%s'"
 
 #, fuzzy
 msgid "Data codoc mismatches from documentation object '%s':"
@@ -142,11 +143,12 @@ msgstr "specificare 'package', 'dir' o 'file'"
 msgid "file '%s' does not exist"
 msgstr "il file '%s' non esiste"
 
-#, fuzzy
 msgid ""
 "parse error in file '%s':\n"
 "%s"
-msgstr "errore analisi file '%s'"
+msgstr ""
+"errore di elaborazione nel file '%s':\n"
+"%s"
 
 msgid "declared S3 method '%s' not found"
 msgstr "il metodo S3 '%s' è dichiarato ma non trovato"
@@ -163,10 +165,10 @@ msgid "parse error in examples from file '%s':"
 msgstr "errore di analisi negli esempi del file '%s'"
 
 msgid "File '%s':"
-msgstr ""
+msgstr "File '%s':"
 
 msgid "found T/F in %s"
-msgstr ""
+msgstr "trovati T/F in %s"
 
 #, fuzzy
 msgid "The package 'dir' argument must be of length 1"
@@ -174,41 +176,45 @@ msgstr "argomento 'package' deve avere lunghezza 1"
 
 msgid "package name '%s' seems invalid; using directory name '%s' instead"
 msgstr ""
+"il nome pacchetto '%s' non sembra valido; come alternativa si utilizza il "
+"nome directory '%s'"
 
 msgid ""
 "Vignette dependencies (%s entries) must be contained in the DESCRIPTION "
 "Depends/Suggests/Imports entries."
 msgstr ""
+"Le dipendenze delle vignette (%s voci) devono essere contenute nei campi "
+"Depends/Suggests/Imports del file DESCRIPTION."
 
 msgid "Malformed package name"
-msgstr ""
+msgstr "Nome pacchetto malformato"
 
 msgid "Unknown encoding"
-msgstr ""
+msgstr "Codifica sconosciuta"
 
 msgid "Fields with non-ASCII tags:"
-msgstr ""
+msgstr "Campi con tag non-ASCII:"
 
 msgid "All field tags must be ASCII."
-msgstr ""
+msgstr "Tutte le tag del campo devono essere ASCII."
 
 msgid "Fields with non-ASCII values:"
-msgstr ""
+msgstr "I campi con valori non-ASCII:"
 
 msgid "These fields must have ASCII values."
-msgstr ""
+msgstr "Questi campi devono avere valori ASCII."
 
 msgid "Malformed package version."
-msgstr ""
+msgstr "Versione pacchetto malformata."
 
 msgid "Malformed maintainer field."
-msgstr ""
+msgstr "Campo maintainer malformato."
 
 msgid "Malformed Depends or Suggests or Imports or Enhances field."
-msgstr ""
+msgstr "Campo Depends o Suggests o Imports o Enhances malformato."
 
 msgid "Offending entries:"
-msgstr ""
+msgstr "Voci offensive:"
 
 msgid ""
 "Entries must be names of packages optionally followed by '<=' or '>=', white "
@@ -219,7 +225,7 @@ msgid "Entries with infeasible comparison operator:"
 msgstr ""
 
 msgid "Only operators '<=' and '>=' are possible."
-msgstr ""
+msgstr "Sono possibili solo gli operatori '<=' e '>='."
 
 msgid "Entries with infeasible version number:"
 msgstr ""
@@ -230,14 +236,14 @@ msgid ""
 msgstr ""
 
 msgid "Invalid VignetteBuilder field."
-msgstr ""
+msgstr "Campo VignetteBuilder non valido."
 
 msgid ""
 "This field must contain one or more packages (and no version requirement)."
 msgstr ""
 
 msgid "Invalid Priority field."
-msgstr ""
+msgstr "Campo Priority non valido."
 
 msgid ""
 "Packages with priorities 'base' or 'recommended' or 'defunct-base' must "
@@ -301,7 +307,7 @@ msgid "Standardized license specification:"
 msgstr ""
 
 msgid "Deprecated license: %s"
-msgstr ""
+msgstr "Licenza deprecata: %s"
 
 msgid "Invalid license file pointers: %s"
 msgstr ""
@@ -331,13 +337,13 @@ msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
 msgstr ""
 
 msgid "File %s:"
-msgstr ""
+msgstr "File %s:"
 
 msgid "%s has wrong argument list %s"
-msgstr ""
+msgstr "%s ha una lista di argomenti sbagliata %s"
 
 msgid "%s calls:"
-msgstr ""
+msgstr "%s chiamate:"
 
 msgid ""
 "Package startup functions should have two arguments with names starting with "
@@ -371,13 +377,13 @@ msgid "unable to write code files"
 msgstr "impossibile scrivere file codice"
 
 msgid "package 'methods' is used but not declared"
-msgstr ""
+msgstr "il pacchetto 'methods' è utilizzato ma non dichiarato"
 
 msgid "'::' or ':::' imports not declared from:"
-msgstr ""
+msgstr "importazioni '::' o ':::' non dichiarate da:"
 
 msgid "'::' or ':::' import not declared from: %s"
-msgstr ""
+msgstr "importazione '::' o ':::' non dichiarata da: %s"
 
 msgid "'library' or 'require' calls not declared from:"
 msgstr ""
@@ -487,13 +493,11 @@ msgstr ""
 msgid "Rd object required"
 msgstr ""
 
-#, fuzzy
 msgid "missing/empty %s field in '%s'"
-msgstr "campo \\name mancante/vuoto in '%s'"
+msgstr "campo vuoto/mancante %s in '%s'"
 
-#, fuzzy
 msgid "Rd files must have a non-empty %s."
-msgstr "I file Rd devono avere \\name non vuoto."
+msgstr "I file Rd devono avere un non-vuoto %s."
 
 msgid "See chapter 'Writing R documentation' in manual 'Writing R Extensions'."
 msgstr ""
@@ -510,9 +514,8 @@ msgid "argument 'outFile' must be a character string or connection"
 msgstr ""
 "l'argomento 'outFile' deve essere una stringa carattere o una connessione"
 
-#, fuzzy
 msgid "you must specify 'dir' or 'files'"
-msgstr "specificare 'package', 'dir' o 'file'"
+msgstr "specificare 'dir' o 'file'"
 
 msgid "cannot deal with Rd objects with missing/empty names"
 msgstr "non posso lavorare con oggetti Rd con nomi mancanti/vuoti"
@@ -589,9 +592,8 @@ msgid ""
 "%s: %s"
 msgstr ""
 
-#, fuzzy
 msgid "unable to create temp directory %s"
-msgstr "impossibile creare directory temporanea"
+msgstr "non è possibile creare la directory temporanea %s"
 
 msgid "Vignette '%s' is non-ASCII but has no declared encoding"
 msgstr ""
@@ -618,9 +620,8 @@ msgid ""
 "%s"
 msgstr ""
 
-#, fuzzy
 msgid "running 'make' failed"
-msgstr "esecuzione di make fallita"
+msgstr "esecuzione di 'make' fallita"
 
 msgid "file '%s' not found"
 msgstr "file '%s' non trovato"
@@ -666,9 +667,8 @@ msgstr ""
 msgid "Cannot change the %s engine or use an engine of that name"
 msgstr ""
 
-#, fuzzy
 msgid "vignette builder '%s' not found"
-msgstr "file '%s' non trovato"
+msgstr "vignette builder '%s' non trovato"
 
 msgid "Invalid DESCRIPTION file"
 msgstr "file DESCRIPTION non valido"
@@ -705,9 +705,8 @@ msgstr "impossibile copiare INDEX su"
 msgid "cannot create directory '%s'"
 msgstr "impossibile creare directory '%s'"
 
-#, fuzzy
 msgid "processing %s"
-msgstr "analizzo '%s'"
+msgstr "Elaborazione di %s"
 
 msgid ""
 "running %s on vignette '%s' failed with message:\n"
@@ -731,9 +730,8 @@ msgstr ""
 msgid "ERROR: this R is version %s, required is R %s %s"
 msgstr ""
 
-#, fuzzy
 msgid "loading failed"
-msgstr "esecuzione di make fallita"
+msgstr "caricamento fallito"
 
 msgid "assertConditon: Successfully caught a condition"
 msgstr ""
@@ -795,7 +793,7 @@ msgid "cannot link from %s"
 msgstr "impossibile leggere directory '%s'"
 
 msgid "-l option without value"
-msgstr ""
+msgstr "-l opzione senza valore"
 
 msgid "configuration files are not supported as from R 2.12.0"
 msgstr ""
@@ -830,7 +828,7 @@ msgid "checking %s ..."
 msgstr ""
 
 msgid "wrong class"
-msgstr ""
+msgstr "classe sbagliata"
 
 msgid "non-ASCII input in a CITATION file without a declared encoding"
 msgstr ""
@@ -931,7 +929,7 @@ msgid "no DLL was created"
 msgstr "il file '%s' non è stato creato"
 
 msgid "package %s successfully unpacked and MD5 sums checked"
-msgstr ""
+msgstr "pacchetto %s aperto con successo con controllo somme MD5"
 
 msgid ""
 "R include directory is empty -- perhaps need to install R-devel.rpm or "
@@ -962,7 +960,7 @@ msgid "invalid package"
 msgstr ""
 
 msgid "ERROR: no packages specified"
-msgstr ""
+msgstr "ERRORE: nessuno pacchetto specificato"
 
 #, fuzzy
 msgid "ERROR: cannot cd to directory %s"
@@ -1198,7 +1196,7 @@ msgid "results differ from reference results"
 msgstr ""
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #, fuzzy
 msgid "no examples found for package %s"
