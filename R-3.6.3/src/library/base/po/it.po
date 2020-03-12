@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-29 07:06-0700\n"
-"PO-Revision-Date: 2020-03-09 18:10+0100\n"
+"PO-Revision-Date: 2020-03-12 21:22+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -23,9 +23,9 @@ msgid "non-finite value supplied by 'optim'"
 msgstr "valore non finito fornito da 'optim'"
 
 #: src/appl/optim.c:67
-#, fuzzy, c-format
+#, c-format
 msgid "candidate point in 'optim' evaluated to length %d not %d"
-msgstr "il punto candidato in optim ha lunghezza %d e non %d"
+msgstr "il punto candidato 'optim' ha lunghezza %d e non %d"
 
 #: src/appl/optim.c:136
 msgid "REPORT must be > 0 (method = \"BFGS\")"
@@ -675,11 +675,13 @@ msgid "shared object '%s' was not loaded"
 msgstr "l'oggetto condiviso '%s' non è stato caricato"
 
 #: src/main/Rdynload.c:1043
-#, fuzzy, c-format
+#, c-format
 msgid "cannot allocate memory for registered native symbol (%d byte)"
 msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
-msgstr[0] "non è possibile allocare memoria per la struttura InternetRoutines"
-msgstr[1] "non è possibile allocare memoria per la struttura InternetRoutines"
+msgstr[0] ""
+"non è possibile allocare memoria per simboli nativi registrati (%d byte)"
+msgstr[1] ""
+"non è possibile allocare memoria per simboli nativi registrati (%d byte)"
 
 #: src/main/Rdynload.c:1166 src/main/Rdynload.c:1389
 msgid "must pass package name or DllInfo reference"
@@ -930,11 +932,11 @@ msgid "unimplemented real function of %d numeric arguments"
 msgstr "funzione reale di %d argomenti numerici non implementata"
 
 #: src/main/arithmetic.c:1623
-#, fuzzy, c-format
+#, c-format
 msgid "%d argument passed to '%s' which requires 1 or 2 arguments"
 msgid_plural "%d arguments passed to '%s'which requires 1 or 2 arguments"
-msgstr[0] "%d argomenti passati a 'log' che ne richiede 1 o 2"
-msgstr[1] "%d argomenti passati a 'log' che ne richiede 1 o 2"
+msgstr[0] "%d argomento passato a '%s' dove vengono richiesti 1 o 2 argomenti"
+msgstr[1] "%d argomenti passati a '%s' dove vengono richiesti 1 o 2 argomenti"
 
 #: src/main/arithmetic.c:1642
 msgid "invalid second argument of length 0"
@@ -1022,9 +1024,8 @@ msgid "negative extents to 3D array"
 msgstr "limite negativo per matrix"
 
 #: src/main/array.c:245
-#, fuzzy
 msgid "'alloc3Darray': too many elements specified"
-msgstr "allocMatrix: troppi elementi specificati"
+msgstr "'alloc3Darray': troppi elementi specificati"
 
 #: src/main/array.c:270
 msgid "'allocArray': too many elements specified by 'dims'"
@@ -1041,9 +1042,8 @@ msgid "a matrix-like object is required as argument to '%s'"
 msgstr "un oggetto matrice è richiesto come argomento per '%s'"
 
 #: src/main/array.c:1240
-#, fuzzy
 msgid "requires numeric/complex matrix/vector arguments"
-msgstr "richiesti argomenti numerici per matrix/vector"
+msgstr "richiesti argomenti numeric/complex matrix/vector"
 
 #: src/main/array.c:1350 src/main/array.c:1354 src/main/array.c:1358
 msgid "non-conformable arguments"
@@ -1164,18 +1164,18 @@ msgid "attempt to set invalid 'class' attribute"
 msgstr "tentativo di assegnazione di un attributo 'class' non ammissibile"
 
 #: src/main/attrib.c:888
-#, fuzzy, c-format
+#, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
-msgstr "nessuno slot di nome \"%s\" per questo oggetto di classe \"%s\""
+msgstr "utilizzo non valido di names()<- su un oggetto S4 di classe '%s'"
 
 #: src/main/attrib.c:931
 msgid "incompatible 'names' argument"
 msgstr "argomento 'names' incompatibile"
 
 #: src/main/attrib.c:982
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) to set 'names' attribute"
-msgstr "tipo non valido per assegnare l'attributo 'names'"
+msgstr "tipo non valido (%s) per impostare l'attributo 'names'"
 
 #: src/main/attrib.c:1058
 msgid "'dimnames' applied to non-array"
@@ -1192,9 +1192,9 @@ msgid "length of 'dimnames' [%d] must match that of 'dims' [%d]"
 msgstr "la lunghezza di 'dimnames' [%d] non coincide con quella di 'dims' [%d]"
 
 #: src/main/attrib.c:1100
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) for 'dimnames' (must be a vector)"
-msgstr "tipo non valido per 'dimnames' (dev'essere di tipo vector)"
+msgstr "tipo non valido (%s) per 'dimnames' (dev'essere un vettore)"
 
 #: src/main/attrib.c:1103
 #, c-format
@@ -1258,9 +1258,8 @@ msgid "'which' must be of mode character"
 msgstr "'which' dev'essere di tipo character"
 
 #: src/main/attrib.c:1422
-#, fuzzy
 msgid "exactly one attribute 'which' must be given"
-msgstr "dev'essere specificato solo un attributo 'name'"
+msgstr "solo un attributo può essere passato a 'which'"
 
 #: src/main/attrib.c:1483 src/main/attrib.c:1506 src/main/subscript.c:244
 #: src/main/subscript.c:248 src/main/subset.c:1272 src/main/subset.c:1325
@@ -1269,9 +1268,9 @@ msgid "partial match of '%s' to '%s'"
 msgstr "confronto parziale di '%s' con '%s'"
 
 #: src/main/attrib.c:1552
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type '%s' for slot name"
-msgstr "typo o lunghezza non ammissibile per il nome dello slot"
+msgstr "tipo non valido '%s' per nome slot"
 
 #: src/main/attrib.c:1595
 msgid "'name' must be non-null character string"
@@ -1292,15 +1291,13 @@ msgid "no slot of name \"%s\" for this object of class \"%s\""
 msgstr "nessuno slot di nome \"%s\" per questo oggetto di classe \"%s\""
 
 #: src/main/attrib.c:1782
-#, fuzzy
 msgid "attempt to set slot on NULL object"
-msgstr "tentativo di impostare un attributo a NULL"
+msgstr "tentata impostazione slot su un oggetto NULL"
 
 #: src/main/attrib.c:1823
-#, fuzzy
 msgid "formal classes cannot be used without the 'methods' package"
 msgstr ""
-"classi formali non possono essere utilizzati senza il pacchetto methods"
+"le classi formali non possono essere utilizzati senza il pacchetto 'methods'"
 
 #: src/main/attrib.c:1835
 #, c-format
@@ -1649,9 +1646,9 @@ msgid "invalid data of mode '%s' (too short)"
 msgstr "dato in modalità '%s' non valido (troppo corto)"
 
 #: src/main/coerce.c:1028
-#, fuzzy, c-format
+#, c-format
 msgid "'pairlist' object cannot be coerced to type '%s'"
-msgstr "l'oggetto 'pairlist' non può essere convertito in '%s'"
+msgstr "coercizione oggetto 'pairlist' non possibile nel tipo '%s'"
 
 #: src/main/coerce.c:1147
 #, c-format
@@ -3176,9 +3173,8 @@ msgid "could not find function \"%s\""
 msgstr "non trovo la funzione \"%s\""
 
 #: src/main/envir.c:1528
-#, fuzzy
 msgid "cannot assign values in the empty environment"
-msgstr "non posso rompere i legami nell'environment base"
+msgstr "non si possono assegnare valori in un ambiente vuoto"
 
 #: src/main/envir.c:1534 src/main/envir.c:1664
 msgid "cannot assign variables to this database"
@@ -3194,9 +3190,8 @@ msgid "only the first element is used as variable name"
 msgstr "solo il primo elemento è utilizzato come nome di variabile"
 
 #: src/main/envir.c:1809
-#, fuzzy
 msgid "first argument must be a named list"
-msgstr "il primo parametro dev'essere di tipo list"
+msgstr "il primo argomento dev'essere una lista"
 
 #: src/main/envir.c:1814
 #, fuzzy
@@ -3204,9 +3199,8 @@ msgid "names(x) must be a character vector of the same length as x"
 msgstr "'hostname' dev'essere una stringa di tipo character"
 
 #: src/main/envir.c:1817
-#, fuzzy
 msgid "'envir' argument must be an environment"
-msgstr "l'argomento 'env' dev'essere un environment"
+msgstr "l'argomento 'envir' dev'essere un ambiente"
 
 #: src/main/envir.c:1846
 msgid "cannot remove variables from base namespace"
@@ -3225,9 +3219,9 @@ msgid "cannot remove variables from this database"
 msgstr "non è possibile rimuovere le variabili da questo database"
 
 #: src/main/envir.c:2019
-#, fuzzy, c-format
+#, c-format
 msgid "object '%s' of mode '%s' was not found"
-msgstr "variabile \"%s\" in modalità \"%s\" non trovata"
+msgstr "oggetto '%s' in modalità '%s' non trovato"
 
 #: src/main/envir.c:2101
 #, c-format
@@ -3243,23 +3237,20 @@ msgid "invalid use of 'missing'"
 msgstr "utilizzo non valido di 'missing'"
 
 #: src/main/envir.c:2283
-#, fuzzy
 msgid "'missing' can only be used for arguments"
-msgstr "missing si può usare solo per gli argomenti"
+msgstr "'missing' può essere unicamente usato per gli argomenti"
 
 #: src/main/envir.c:2369
 msgid "'pos' must be an integer"
 msgstr "'pos' dev'essere un numero integer"
 
 #: src/main/envir.c:2383
-#, fuzzy
 msgid "all elements of a list must be named"
-msgstr "attach: tutti gli elementi devono avere un nome"
+msgstr "tutti gli elementi di una lista devono essere denominati"
 
 #: src/main/envir.c:2406
-#, fuzzy
 msgid "'attach' only works for lists, data frames and environments"
-msgstr "attach funziona solo per liste e data frames"
+msgstr "'attach' funziona unicamente per liste, data frame e ambienti"
 
 #: src/main/envir.c:2489
 msgid "detaching \"package:base\" is not allowed"
@@ -3291,7 +3282,6 @@ msgid "S4 object does not extend class \"environment\""
 msgstr "L'oggetto S4 non estende la classe \"environment\""
 
 #: src/main/envir.c:3162
-#, fuzzy
 msgid "invalid object for 'as.environment'"
 msgstr "oggetto non valido per 'as.environment'"
 
@@ -3693,9 +3683,9 @@ msgid "invalid formal argument list for \"function\""
 msgstr "argomento formale list non valido per \"function\""
 
 #: src/main/eval.c:3109 src/main/eval.c:3140 src/main/eval.c:3145
-#, fuzzy, c-format
+#, c-format
 msgid "invalid '%s' argument of type '%s'"
-msgstr "argomento '%s' non valido"
+msgstr "argomento '%s' non valido di tipo '%s'"
 
 #: src/main/eval.c:3137
 msgid "numeric 'envir' arg not of length one"
@@ -3724,9 +3714,9 @@ msgid "dispatch error in group dispatch"
 msgstr "errore nel dispatch"
 
 #: src/main/eval.c:4197
-#, fuzzy, c-format
+#, c-format
 msgid "\"%s\" is not a %s function"
-msgstr "'%s' non è una funzione"
+msgstr "\"%s\" non è una funzione %s"
 
 #: src/main/eval.c:4734
 msgid "node stack overflow"
@@ -4611,10 +4601,9 @@ msgid ""
 msgstr "standardGeneric chiamato senza un dispatch abilitato (sarà ignorato)"
 
 #: src/main/objects.c:1257
-#, fuzzy
 msgid "argument to 'standardGeneric' must be a non-empty character string"
 msgstr ""
-"l'argomento di standardGeneric dev'essere una stringa di tipo character non "
+"l'argomento per 'standardGeneric' dev'essere una stringa di caratteri non "
 "vuota"
 
 #: src/main/objects.c:1262
@@ -4651,7 +4640,7 @@ msgstr ""
 #: src/main/objects.c:1446
 #, c-format
 msgid "object returned as generic function \"%s\" does not appear to be one"
-msgstr ""
+msgstr "l'oggetto restituito come funzione generica \"%s\" non sembra esserlo"
 
 #: src/main/objects.c:1551
 msgid "invalid primitive operation given for dispatch"
@@ -4695,7 +4684,7 @@ msgstr ""
 #: src/main/objects.c:1786
 #, c-format
 msgid "object of class \"%s\" does not correspond to a valid S3 object"
-msgstr ""
+msgstr "l'oggetto di classe \"%s\" non corrisponde ad un valido oggetto S3"
 
 #: src/main/options.c:125 src/main/options.c:186
 msgid "corrupted options list"
@@ -4719,19 +4708,18 @@ msgid "invalid value for \"device.ask.default\", using FALSE"
 msgstr "valore non valido per \"device.ask.default\", utilizzato FALSE"
 
 #: src/main/options.c:448
-#, fuzzy
 msgid "list argument has no valid names"
-msgstr "l'argomento non è un modello valido"
+msgstr "l'argomento lista non validi nomi"
 
 #: src/main/options.c:477
-#, fuzzy, c-format
+#, c-format
 msgid "invalid 'width' parameter, allowed %d...%d"
-msgstr "parametro 'trans' non valido"
+msgstr "parametro 'width' non valido, ammesso %d...%d"
 
 #: src/main/options.c:488
-#, fuzzy, c-format
+#, c-format
 msgid "invalid 'digits' parameter, allowed %d...%d"
-msgstr "parametro 'trans' non valido"
+msgstr "parametro 'digits' non valido, ammesso %d...%d"
 
 #: src/main/options.c:495
 #, c-format
@@ -4758,7 +4746,7 @@ msgstr "'OutDec' dev'essere una stringa di un carattere"
 
 #: src/main/options.c:665 src/main/options.c:741
 msgid "\"par.ask.default\" has been replaced by \"device.ask.default\""
-msgstr ""
+msgstr "\"par.ask.default\" è stato rimpiazzato da \"device.ask.default\""
 
 #: src/main/options.c:696
 msgid "OpenMP SIMD is not supported in this build of R"
@@ -5048,9 +5036,8 @@ msgid "group is incomplete"
 msgstr "il gruppo è incompleto"
 
 #: src/main/plotmath.c:3181
-#, fuzzy
 msgid "Metric information not available for this family/device"
-msgstr "'truncation' non disponibile per questa connessione"
+msgstr "Informazioni metriche non disponibili per questa famiglia/dispositivo"
 
 #: src/main/print.c:143 src/main/print.c:251
 msgid "invalid 'na.print' specification"
@@ -6016,9 +6003,8 @@ msgstr "NA non si possono usare in indici di assegnazione"
 
 #: src/main/subassign.c:679 src/main/subassign.c:974 src/main/subassign.c:1199
 #: src/main/subassign.c:1808
-#, fuzzy
 msgid "replacement has length zero"
-msgstr "l'argomento ha lunghezza zero"
+msgstr "la sostituzione ha lunghezza zero"
 
 #: src/main/subassign.c:681 src/main/subassign.c:976 src/main/subassign.c:1201
 msgid "number of items to replace is not a multiple of replacement length"
@@ -6114,13 +6100,13 @@ msgstr "Trasformo il membro di sinistra in una lista"
 #: src/main/subscript.c:208
 #, c-format
 msgid "attempt to select less than one element in %s"
-msgstr ""
+msgstr "si tenta di selezionare meno di un elemento in %s"
 
 #: src/main/subscript.c:63 src/main/subscript.c:78 src/main/subscript.c:182
 #: src/main/subscript.c:212 src/main/subscript.c:305
-#, fuzzy, c-format
+#, c-format
 msgid "attempt to select more than one element in %s"
-msgstr "tentativo di selezionare più di un elemnto"
+msgstr "si tenta di selezionare più di un elemento in %s"
 
 #: src/main/subscript.c:150 src/main/subscript.c:278 src/main/subscript.c:933
 #: src/main/subscript.c:1016 src/main/subset.c:1173
@@ -6317,6 +6303,8 @@ msgstr "'Sys.setenv' non è disponibile su questo sistema"
 #: src/main/sysutils.c:533
 msgid "this system cannot unset environment variables: setting to \"\""
 msgstr ""
+"questo sistema non può cancellare le variabili di ambiente: saranno "
+"impostate come \"\""
 
 #: src/main/sysutils.c:544
 msgid "'Sys.unsetenv' is not available on this system"
@@ -6492,7 +6480,7 @@ msgstr[1] "%d argomenti passati a '%s', richiesti %d"
 #: src/main/util.c:496
 #, c-format
 msgid "supplied argument name '%s' does not match '%s'"
-msgstr ""
+msgstr "il nome argomento indicato '%s' non combacia con '%s'"
 
 #: src/main/util.c:506
 #, c-format
@@ -6777,6 +6765,7 @@ msgstr "non è possibile aprire la connessione con il display X11 '%s'"
 #: src/modules/X11/devX11.c:1445
 msgid "ignoring 'display' argument as an X11 device is already open"
 msgstr ""
+"l'argomento 'display' viene ignorato perché un dispositivo X11 è già aperto"
 
 #: src/modules/X11/devX11.c:1451
 msgid "cairo-based types may only work correctly on TrueColor visuals"
