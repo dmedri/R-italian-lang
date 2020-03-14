@@ -15,6 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 #: Srunmed.c:54
 msgid "bandwidth/span of running medians is larger than n"
@@ -88,7 +90,7 @@ msgstr "dimensioni incompatibili"
 
 #: cov.c:698 cov.c:739 cov.c:772
 msgid "no complete element pairs"
-msgstr ""
+msgstr "nessuna coppia di elementi completa"
 
 #: cov.c:711
 msgid "invalid 'use' (computational method)"
@@ -104,7 +106,7 @@ msgstr "la deviazione standard è zero"
 
 #: deriv.c:158
 msgid "invalid form in unary minus check"
-msgstr ""
+msgstr "modulo non valido nel controllo unario meno"
 
 #: deriv.c:682
 #, c-format
@@ -185,6 +187,10 @@ msgid ""
 "  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
 "Try increasing the size of the workspace and possibly 'mult'"
 msgstr ""
+"FEXACT errore 6.  LDKEY=%d è troppo piccolo per questo problema,\n"
+"  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
+"Prova ad incrementare la dimensione dell'area di lavoro e possibilmente "
+"'mult'"
 
 #: fexact.c:1035
 #, c-format
@@ -336,9 +342,9 @@ msgid "invalid type (%s) for variable '%s'"
 msgstr "tipo non valido (%s) per la variabile '%s'"
 
 #: model.c:161
-#, fuzzy, c-format
+#, c-format
 msgid "variable lengths differ (found for '%s')"
-msgstr "la lunghezza delle variabili differisce"
+msgstr "le lunghezze variabili differiscono (trovato per '%s')"
 
 #: model.c:215
 msgid "invalid result from na.action"
@@ -358,9 +364,9 @@ msgid "do not know how many cases"
 msgstr "numero di casi sconosciuto"
 
 #: model.c:417
-#, fuzzy, c-format
+#, c-format
 msgid "variable lengths differ (found for variable %d)"
-msgstr "la lunghezza delle variabili differisce"
+msgstr "le lunghezze variabili differiscono (trovato per %d)"
 
 #: model.c:421 model.c:428
 #, c-format
@@ -396,9 +402,9 @@ msgid "complex variables are not currently allowed in model matrices"
 msgstr ""
 
 #: model.c:662
-#, fuzzy, c-format
+#, c-format
 msgid "variables of type '%s' are not allowed in model matrices"
-msgstr "valori negativi non ammessi come indici di matrice"
+msgstr "variabili di tipo '%s' non sono ammesse nelle matrici del modello"
 
 #: model.c:884
 msgid "invalid formula in 'update'"
@@ -409,9 +415,8 @@ msgid "formula expected"
 msgstr "necessaria formula"
 
 #: model.c:1050
-#, fuzzy
 msgid "invalid term in model formula"
-msgstr "valore di lag.max non valido"
+msgstr "termine non valido nella formula del modello"
 
 #: model.c:1125
 msgid "invalid model formula"
@@ -439,9 +444,8 @@ msgid "argument is not a valid model"
 msgstr "l'argomento non è un modello valido"
 
 #: model.c:1691
-#, fuzzy
 msgid "'specials' must be NULL or a character vector"
-msgstr "'path' deve essere un vettore di tipo character"
+msgstr "'specials' dev'essere NULL o un vettore di caratteri"
 
 #: model.c:1703
 msgid "'data' argument is of the wrong type"
@@ -460,9 +464,8 @@ msgid "Argument m must be numeric"
 msgstr "L'argomento m dev'essere numeric"
 
 #: monoSpl.c:72
-#, fuzzy
 msgid "length(m) must be at least two"
-msgstr "m deve essere di tipo list"
+msgstr "length(m) dev'essere almeno due"
 
 #: monoSpl.c:74
 msgid "Argument Sx must be numeric vector one shorter than m[]"
@@ -600,9 +603,8 @@ msgid "'xmin' not less than 'xmax'"
 msgstr "'xmin' non è minore di 'xmax'"
 
 #: optimize.c:315
-#, fuzzy
 msgid "-Inf replaced by maximally negative value"
-msgstr "NA/Inf sostituito da valore massimo positivo"
+msgstr "-Inf sostituito da un valore massimo negativo"
 
 #: optimize.c:328
 msgid "invalid function value in 'zeroin'"
