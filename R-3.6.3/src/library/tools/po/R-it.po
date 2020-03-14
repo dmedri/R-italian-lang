@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R 2.3.0\n"
+"Project-Id-Version: R 3.6.3\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2018-03-29 07:06\n"
-"PO-Revision-Date: 2020-03-12 18:26+0100\n"
+"PO-Revision-Date: 2020-03-14 09:56+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -78,14 +78,16 @@ msgstr "Nomi argomenti nella documentazione e non nel codice:"
 msgid "Mismatches in argument names (first 3):"
 msgstr ""
 
+#, fuzzy
 msgid "Mismatches in argument names:"
-msgstr ""
+msgstr "argomento 'names' incompatibile"
 
 msgid "Mismatches in argument default values (first 3):"
 msgstr ""
 
+#, fuzzy
 msgid "Mismatches in argument default values:"
-msgstr ""
+msgstr "argomento non specificato e senza un valore predefinito"
 
 #, fuzzy
 msgid "Codoc mismatches from documentation object '%s':"
@@ -219,6 +221,8 @@ msgid ""
 "Entries must be names of packages optionally followed by '<=' or '>=', white "
 "space, and a valid version number in parentheses."
 msgstr ""
+"Le voci devono essere nomi di pacchetti opzionalmente seguiti da '<=' or "
+"'>=', spazi bianchi e un valido numero di versione tra parentesi."
 
 msgid "Entries with infeasible comparison operator:"
 msgstr ""
@@ -226,8 +230,9 @@ msgstr ""
 msgid "Only operators '<=' and '>=' are possible."
 msgstr "Sono possibili solo gli operatori '<=' e '>='."
 
+#, fuzzy
 msgid "Entries with infeasible version number:"
-msgstr ""
+msgstr "numero errato di righe nella tabella"
 
 msgid ""
 "Version numbers must be sequences of at least two non-negative integers, "
@@ -240,6 +245,8 @@ msgstr "Campo VignetteBuilder non valido."
 msgid ""
 "This field must contain one or more packages (and no version requirement)."
 msgstr ""
+"Questo campo deve contenere uno o più pacchetti (e nessuna richiesta "
+"versione)."
 
 msgid "Invalid Priority field."
 msgstr "Campo Priority non valido."
@@ -248,6 +255,8 @@ msgid ""
 "Packages with priorities 'base' or 'recommended' or 'defunct-base' must "
 "already be known to R."
 msgstr ""
+"I pacchetti con priorità 'base' o 'recommended' o 'defunct-base' devono "
+"essere già noti a R."
 
 msgid "Malformed Title field: should not end in a period."
 msgstr "Campo Title malformato: non dovrebbe finire in una frase."
@@ -266,30 +275,33 @@ msgid "Malformed Authors@R field:"
 msgstr "Campo Authors@R malformato:"
 
 msgid "Cannot extract Author field from Authors@R field:"
-msgstr ""
+msgstr "Non è possibile estrarre il campo Author dal campo Authors@R:"
 
 msgid "Authors@R field gives no person with name and roles."
-msgstr ""
+msgstr "Il campo Authors@R non indica alcuna persona con nome e ruolo."
 
 msgid "Authors@R field gives persons with no name:"
-msgstr ""
+msgstr "Il campo Authors@R indica una persona senza nome:"
 
 msgid "Authors@R field gives persons with no role:"
-msgstr ""
+msgstr "Il campo Authors@R indica persone senza ruolo:"
 
 msgid "Authors@R field gives no person with name and author role"
 msgstr ""
+"Il campo Authors@R non indica alcuna persona con nome e ruolo dell'autore"
 
 msgid "Cannot extract Maintainer field from Authors@R field:"
-msgstr ""
+msgstr "Non è possibile estrarre il campo Maintainer dal campo Authors@R:"
 
 msgid "Authors@R field gives more than one person with maintainer role:"
-msgstr ""
+msgstr "Il campo Authors@R indica più persone con il ruolo di maintainer:"
 
 msgid ""
 "Authors@R field gives no person with maintainer role, valid email address "
 "and non-empty name."
 msgstr ""
+"Il campo Authors@R non indica alcuna persona con il ruolo di maintainer, "
+"email valida e nome."
 
 msgid "Encoding '%s' is not portable"
 msgstr "La codifica '%s' non è portabile"
@@ -300,17 +312,22 @@ msgstr "Codifica sconosciuta con dati non-ASCII"
 msgid "Non-standard license specification:"
 msgstr "Specificazione licenza non-standard:"
 
+#, fuzzy
 msgid "Standardizable: %s"
 msgstr ""
+"%s e %s sono ineguali:\n"
+"  %s"
 
+#, fuzzy
 msgid "Standardized license specification:"
-msgstr ""
+msgstr "Specificazione licenza non-standard:"
 
 msgid "Deprecated license: %s"
 msgstr "Licenza deprecata: %s"
 
+#, fuzzy
 msgid "Invalid license file pointers: %s"
-msgstr ""
+msgstr "associazione file a '%s' non disponibile o non valida"
 
 msgid "License components with restrictions not permitted:"
 msgstr ""
@@ -318,23 +335,29 @@ msgstr ""
 msgid "License components which are templates and need '+ file LICENSE':"
 msgstr ""
 
+#, fuzzy
 msgid "Non-portable flags in variable '%s':"
-msgstr ""
+msgstr "variabili non numeriche nel data frame:"
 
 msgid "Variables overriding user/site settings:"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "package %s exists but was not installed under R >= 2.10.0 so xrefs cannot be "
 "checked"
 msgstr ""
+"il pacchetto %s esiste ma non è installato sotto R >= 2.10.0 perciò la guida "
+"non è accessibile"
 
 #, fuzzy
 msgid "Missing link or links in documentation object '%s':"
 msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
 
+#, fuzzy
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
 msgstr ""
+"Vedi sezione 'The DESCRIPTION file' nel manuale 'Writing R Extensions'."
 
 msgid "File %s:"
 msgstr "File %s:"
@@ -384,17 +407,21 @@ msgstr "importazioni '::' o ':::' non dichiarate da:"
 msgid "'::' or ':::' import not declared from: %s"
 msgstr "importazione '::' o ':::' non dichiarata da: %s"
 
+#, fuzzy
 msgid "'library' or 'require' calls not declared from:"
-msgstr ""
+msgstr "chiamate 'data(package=)' non dichiarate da:"
 
+#, fuzzy
 msgid "'library' or 'require' call not declared from: %s"
-msgstr ""
+msgstr "chiamata 'data(package=)' non dichiarata da: %s"
 
+#, fuzzy
 msgid "'loadNamespace' or 'requireNamespace' calls not declared from:"
-msgstr ""
+msgstr "chiamate 'data(package=)' non dichiarate da:"
 
+#, fuzzy
 msgid "'loadNamespace' or 'requireNamespace' call not declared from: %s"
-msgstr ""
+msgstr "chiamata 'data(package=)' non dichiarata da: %s"
 
 msgid "'library' or 'require' calls to packages already attached by Depends:"
 msgstr ""
@@ -409,11 +436,13 @@ msgstr ""
 msgid "'library' or 'require' call to %s in package code."
 msgstr ""
 
+#, fuzzy
 msgid "Namespaces in Imports field not imported from:"
-msgstr ""
+msgstr "Namespace non disponibili importati da chiamate ':::':"
 
+#, fuzzy
 msgid "Namespace in Imports field not imported from: %s"
-msgstr ""
+msgstr "Namespace non disponibili importati da una chiamata ':::': %s"
 
 msgid "Packages in Depends field not imported from:"
 msgstr ""
@@ -465,7 +494,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Rd files with duplicated name '%s':"
-msgstr "I file Rd devono avere \\title non vuoto."
+msgstr "File Rd con alias duplicati '%s':"
 
 msgid "Rd files with duplicated alias '%s':"
 msgstr "File Rd con alias duplicati '%s':"
@@ -520,7 +549,7 @@ msgstr "non posso lavorare con oggetti Rd con nomi mancanti/vuoti"
 
 #, fuzzy
 msgid "No help on %s found in RdDB %s"
-msgstr "non può essere usato per il pacchetto 'base'"
+msgstr "Nessuna guida trovata per il pacchetto %s"
 
 msgid "'macros' must be TRUE or must specify existing macros"
 msgstr ""
@@ -530,13 +559,14 @@ msgstr ""
 
 #, fuzzy
 msgid "Rd macro package '%s' is not installed."
-msgstr "pacchetto '%s' non trovato"
+msgstr "il pacchetto %s è in uso e non sarà installato"
 
 msgid "No Rd macros in package '%s'."
 msgstr "Nessuna macro Rd nel pacchetto '%s'."
 
+#, fuzzy
 msgid "more than one \\examples section, using the first"
-msgstr ""
+msgstr "trovata più di una specificazione di sintassi, si utilizzerà la prima"
 
 msgid "Converting Rd files to LaTeX ..."
 msgstr "Conversione file Rd in LaTeX ..."
@@ -559,14 +589,16 @@ msgstr "nessun 'type' specificato"
 msgid "'type' must be one of 'txt', 'html', 'latex' or 'example'"
 msgstr ""
 
+#, fuzzy
 msgid "current working directory cannot be ascertained"
-msgstr ""
+msgstr "non è possibile ottenere la directory di lavoro"
 
 msgid "no inputs"
 msgstr "nessun input"
 
+#, fuzzy
 msgid "Error in running tools::texi2pdf()"
-msgstr ""
+msgstr "errore durante l'esecuzione del comando: '%s'"
 
 msgid "invalid value for '%s' : %s"
 msgstr "valore non valido per '%s' : %s"
@@ -574,8 +606,9 @@ msgstr "valore non valido per '%s' : %s"
 msgid "Only one Rd section per %s is supported."
 msgstr ""
 
+#, fuzzy
 msgid "DESCRIPTION file is for package '%s', not '%s'"
-msgstr ""
+msgstr "Il file DESCRIPTION del pacchetto '%s' è corrotto"
 
 msgid "Vignette product %s does not have a known filename extension (%s)"
 msgstr ""
@@ -607,15 +640,21 @@ msgid ""
 "risking overwriting each others output files"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "processing vignette '%s' failed with diagnostics:\n"
 "%s"
 msgstr ""
+"L'esecuzione di aspell è fallita con la seguente diagnostica:\n"
+"%s"
 
+#, fuzzy
 msgid ""
 "tangling vignette '%s' failed with diagnostics:\n"
 "%s"
 msgstr ""
+"L'esecuzione di aspell è fallita con la seguente diagnostica:\n"
+"%s"
 
 msgid "running 'make' failed"
 msgstr "esecuzione di 'make' fallita"
@@ -632,8 +671,9 @@ msgstr ""
 msgid "argument 'vignette' must be of length 1"
 msgstr "l'argomento 'vignette' deve avere lunghezza 1"
 
+#, fuzzy
 msgid "Vignette engine package not specified"
-msgstr ""
+msgstr "l'ambiente specificato non è un pacchetto"
 
 msgid "Unsupported engine name"
 msgstr "Nome engine non supportato"
@@ -643,7 +683,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Vignette engine %s is not registered"
-msgstr "il file '%s' non esiste"
+msgstr "vignette builder '%s' non trovato"
 
 msgid "Vignette engine %s is not registered by any of the packages %s"
 msgstr ""
@@ -654,12 +694,11 @@ msgstr "il name space non deve essere caricato."
 
 #, fuzzy
 msgid "Argument %s must be a function and not %s"
-msgstr "l'argomento '%s' deve essere una stringa carattere o una connessione"
+msgstr "l'argomento non dev'essere una funzione"
 
 #, fuzzy
 msgid "Argument %s must be a character vector or NULL and not %s"
-msgstr ""
-"argomento 'file' deve essere una stringa di caratteri o una connessione"
+msgstr "l'opzione %s dev'essere un vettore di caratteri di lunghezza 1 o NULL"
 
 msgid "Cannot change the %s engine or use an engine of that name"
 msgstr ""
@@ -689,8 +728,9 @@ msgstr "file duplicati nel campo '%s':"
 msgid "files in '%s' field missing from '%s':"
 msgstr "i file nel campo '%s' mancano da '%s':"
 
+#, fuzzy
 msgid "files in '%s' missing from '%s' field:"
-msgstr ""
+msgstr "i file nel campo '%s' mancano da '%s':"
 
 msgid "unable to create '%s'"
 msgstr "impossibile creare '%s'"
@@ -704,10 +744,13 @@ msgstr "impossibile creare directory '%s'"
 msgid "processing %s"
 msgstr "elaborazione di %s"
 
+#, fuzzy
 msgid ""
 "running %s on vignette '%s' failed with message:\n"
 "%s"
 msgstr ""
+"L'esecuzione di aspell è fallita con la seguente diagnostica:\n"
+"%s"
 
 msgid ""
 "compiling TeX file %s failed with message:\n"
@@ -717,14 +760,16 @@ msgstr ""
 msgid "cannot copy '%s' to '%s'"
 msgstr "impossibile copiare '%s' su '%s'"
 
+#, fuzzy
 msgid "WARNING: malformed 'Depends' field in 'DESCRIPTION'"
-msgstr ""
+msgstr "Campo Depends o Suggests o Imports o Enhances malformato."
 
 msgid "ERROR: this R is version %s, package '%s' requires R %s %s"
 msgstr ""
 
+#, fuzzy
 msgid "ERROR: this R is version %s, required is R %s %s"
-msgstr ""
+msgstr "il pacchetto %s è stato creato con R versione %s"
 
 msgid "loading failed"
 msgstr "caricamento fallito"
@@ -732,23 +777,28 @@ msgstr "caricamento fallito"
 msgid "assertConditon: Successfully caught a condition"
 msgstr ""
 
+#, fuzzy
 msgid "Got %s in evaluating %s; wanted %s"
-msgstr ""
+msgstr "scan() richiede '%s', invece risulta '%s'"
 
+#, fuzzy
 msgid "Failed to get %s in evaluating %s"
-msgstr ""
+msgstr "'CreateProcess' non è riuscito ad eseguire '%s'"
 
+#, fuzzy
 msgid "Failed to get error in evaluating %s"
-msgstr ""
+msgstr "l'esecuzione di '%s' è fallita con codice errore %d"
 
+#, fuzzy
 msgid "Asserted error: %s"
-msgstr ""
+msgstr "Errore in %s (da %s) : "
 
 msgid "Got warning in evaluating %s, but also an error"
 msgstr ""
 
+#, fuzzy
 msgid "Asserted warning: %s"
-msgstr ""
+msgstr "Avvertimento in %s:"
 
 msgid "Changes require specified 'style'"
 msgstr ""
@@ -785,7 +835,7 @@ msgstr ""
 
 #, fuzzy
 msgid "cannot link from %s"
-msgstr "impossibile leggere directory '%s'"
+msgstr "non è possibile fare un link '%ls' a '%ls', motivo '%s'"
 
 msgid "-l option without value"
 msgstr "-l opzione senza valore"
@@ -848,18 +898,18 @@ msgstr "non può essere usato per il pacchetto 'base'"
 
 #, fuzzy
 msgid "No package index found for package %s"
-msgstr "non può essere usato per il pacchetto 'base'"
+msgstr "l'indice dati per il pacchetto %s non è valido e sarà ignorato"
 
 #, fuzzy
 msgid "No package named %s could be found"
-msgstr "il name space non deve essere caricato."
+msgstr "pacchetto %s richiesto da %s non è stato trovato"
 
 msgid "No help found for package %s"
 msgstr "Nessuna guida trovata per il pacchetto %s"
 
 #, fuzzy
 msgid "Link %s in package %s could not be located"
-msgstr "il name space non deve essere caricato."
+msgstr "il pacchetto %s non può essere caricato"
 
 msgid "No docs found for package %s"
 msgstr "Nessun documento trovato per il pacchetto %s"
@@ -904,8 +954,9 @@ msgstr "stato di uscita di .install_packages()"
 msgid "error reading file '%s'"
 msgstr "errore durante la lettura del file '%s'"
 
+#, fuzzy
 msgid "this seems to be a bundle -- and they are defunct"
-msgstr ""
+msgstr "l'utilizzo dell'ambiente NULL è rimosso"
 
 msgid ""
 "'cleanup' exists but is not executable -- see the 'R Installation and "
@@ -937,11 +988,11 @@ msgstr "directory 'data' vuota"
 
 #, fuzzy
 msgid "cannot create unique directory for build"
-msgstr "impossibile creare directory '%s'"
+msgstr "non è possibile creare la directory '%s'"
 
 #, fuzzy
 msgid "cannot create temporary directory"
-msgstr "impossibile creare directory '%s'"
+msgstr "non è possibile creare una directory temporanea %s"
 
 msgid "ERROR: '--merge-multiarch' applies only to a single tarball"
 msgstr ""
@@ -954,10 +1005,11 @@ msgstr "ERRORE: nessuno pacchetto specificato"
 
 #, fuzzy
 msgid "ERROR: cannot cd to directory %s"
-msgstr "impossibile creare directory '%s'"
+msgstr "ERRORE: non è possibile spostarsi in una directory"
 
+#, fuzzy
 msgid "ERROR: no permission to install to directory"
-msgstr ""
+msgstr "ERRORE: non ci sono i permessi per rimuovere dalla directory"
 
 msgid "building a fake installation is disallowed"
 msgstr ""
@@ -988,7 +1040,7 @@ msgstr "non esiste un pacchetto chiamato '%s'"
 
 #, fuzzy
 msgid "namespace must not be already loaded"
-msgstr "il name space non deve essere caricato."
+msgstr "DLL %s caricata"
 
 msgid "all packages should have a NAMESPACE"
 msgstr "tutti i pacchetti dovrebbero avere un NAMESPACE"
@@ -1031,10 +1083,11 @@ msgstr ""
 msgid "Could not extract news from the following text chunks:"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Chunk %s:\n"
 "%s"
-msgstr ""
+msgstr "riferimento al pezzo %s mancante"
 
 msgid "Cannot extract version info from the following section titles:"
 msgstr ""
@@ -1064,30 +1117,34 @@ msgstr ""
 
 #, fuzzy
 msgid "%s must be a character string or a file/raw connection"
-msgstr ""
-"argomento 'file' deve essere una stringa di caratteri o una connessione"
+msgstr "'file' deve essere una stringa di caratteri o una connessione"
 
 msgid "PDF header not found"
 msgstr "Intestazione PDF non trovata"
 
 #, fuzzy
 msgid "EOF marker not found"
-msgstr "pacchetto '%s' non trovato"
+msgstr "\\ seguito da EOF"
 
+#, fuzzy
 msgid "cannot find 'startxref' keyword"
-msgstr ""
+msgstr "non è stato possibile trovare un nome tempfile non ancora utilizzato"
 
+#, fuzzy
 msgid "cannot find xref table"
-msgstr ""
+msgstr "coercizione in tabella non possibile"
 
+#, fuzzy
 msgid "cannot read xref table"
-msgstr ""
+msgstr "coercizione in tabella non possibile"
 
+#, fuzzy
 msgid "attempting to select less than one element"
-msgstr ""
+msgstr "si tenta di selezionare meno di un elemento in %s"
 
+#, fuzzy
 msgid "attempting to select more than one element"
-msgstr ""
+msgstr "si tenta di selezionare più di un elemento in %s"
 
 msgid "looking at %s"
 msgstr "cercando %s"
@@ -1101,19 +1158,19 @@ msgstr ""
 
 #, fuzzy
 msgid "cannot read name object"
-msgstr "impossibile leggere codice sorgente del pacchetto"
+msgstr "non posso leggere da questa connessione"
 
 #, fuzzy
 msgid "cannot read array object"
-msgstr "impossibile creare directory '%s'"
+msgstr "non è possibile leggere dalla connessione"
 
 #, fuzzy
 msgid "cannot read dictionary object"
-msgstr "impossibile creare directory '%s'"
+msgstr "non è possibile leggere dalla connessione"
 
 #, fuzzy
 msgid "cannot read stream object"
-msgstr "impossibile creare directory '%s'"
+msgstr "non è possibile leggere dalla connessione"
 
 msgid "cannot read indirect reference object"
 msgstr ""
@@ -1129,23 +1186,27 @@ msgstr ""
 
 #, fuzzy
 msgid "cannot read stream data"
-msgstr "impossibile creare directory '%s'"
+msgstr "si è verificato un errore in lettura di un intero in formato xdr"
 
 msgid "invalid index in object stream lookup"
 msgstr ""
 
 #, fuzzy
 msgid "expanding %s"
-msgstr "analizzo '%s'"
+msgstr ""
+"%s e %s sono ineguali:\n"
+"  %s"
 
 msgid "unsupported filter %s"
 msgstr "filtro %s non supportato"
 
+#, fuzzy
 msgid "unsupported %s predictor %d"
-msgstr ""
+msgstr "conversione non supportata da '%s' nel codepage %d"
 
+#, fuzzy
 msgid "unsupported PNG filter %d"
-msgstr ""
+msgstr "filtro %s non supportato"
 
 msgid "argument '%s' must be a character string or connection"
 msgstr "l'argomento '%s' deve essere una stringa carattere o una connessione"
@@ -1153,21 +1214,24 @@ msgstr "l'argomento '%s' deve essere una stringa carattere o una connessione"
 msgid "unimplemented encoding"
 msgstr "codifica non implementata"
 
+#, fuzzy
 msgid "this requires 'objdump.exe' to be on the PATH"
-msgstr ""
+msgstr "non è possibile allocare memoria per 'path'"
 
+#, fuzzy
 msgid "this requires 'nm' to be on the PATH"
-msgstr ""
+msgstr "non è possibile allocare memoria per 'path'"
 
+#, fuzzy
 msgid "Found %s, possibly from %s"
-msgstr ""
+msgstr "%s$%s() non trovato"
 
 msgid "no native symbols were extracted"
 msgstr ""
 
 #, fuzzy
 msgid "testing '%s' failed"
-msgstr "esecuzione di make fallita"
+msgstr "Verifica esempi per il pacchetto %s"
 
 msgid "Testing examples for package %s"
 msgstr "Verifica esempi per il pacchetto %s"
@@ -1189,10 +1253,11 @@ msgstr "OK"
 
 #, fuzzy
 msgid "no examples found for package %s"
-msgstr "non può essere usato per il pacchetto 'base'"
+msgstr "Verifica esempi per il pacchetto %s"
 
+#, fuzzy
 msgid "Running specific tests for package %s"
-msgstr ""
+msgstr "Eseguendo vignette per il pacchetto %s"
 
 msgid "Running %s"
 msgstr "Eseguendo '%s'"
@@ -1203,8 +1268,9 @@ msgstr "Eseguendo vignette per il pacchetto %s"
 msgid "Comparing %s to %s ..."
 msgstr "Comparando %s a %s ..."
 
+#, fuzzy
 msgid "no parsed files found"
-msgstr ""
+msgstr "nessun file sorgente trovato"
 
 msgid "FAILED"
 msgstr "FALLITO"
@@ -1215,8 +1281,9 @@ msgstr ""
 msgid "running tests of random deviate generation -- fails occasionally"
 msgstr ""
 
+#, fuzzy
 msgid "unknown header specification"
-msgstr ""
+msgstr "Intestazione PDF non trovata"
 
 msgid "argument 'pkg' must be of length 1"
 msgstr "l'argomento 'pkg' deve avere lunghezza 1"
@@ -1239,7 +1306,7 @@ msgstr "R CMD build fallito"
 
 #, fuzzy
 msgid "'x' must be a single character string"
-msgstr "l'argomento 'txt' deve essere una stringa carattere"
+msgstr "'unzip' dev'essere una stringa di caratteri singola"
 
 msgid "test '%s' is not available"
 msgstr "il test '%s' non è disponibile"
@@ -1258,25 +1325,26 @@ msgstr "Esecuzione di 'texi2dvi' su '%s' fallita."
 
 #, fuzzy
 msgid "running 'texi2dvi' on '%s' failed"
-msgstr "esecuzione texi2dvi su '%s' fallita"
+msgstr "Esecuzione di 'texi2dvi' su '%s' fallita."
 
 #, fuzzy
 msgid "unable to run '%s' on '%s'"
-msgstr "impossibile eseguire bibtext su '%s'"
+msgstr "non è possibile eseguire l'editor '%s'"
 
 #, fuzzy
 msgid "unable to run %s on '%s'"
-msgstr "impossibile eseguire bibtext su '%s'"
+msgstr "non è possibile eseguire l'editor '%s'"
 
 #, fuzzy
 msgid "cannot coerce %s to logical"
-msgstr "impossibile copiare '%s' su '%s'"
+msgstr "coercizione di classe %s in data.frame non possibile"
 
 msgid "File 'DESCRIPTION' is missing."
 msgstr "Il file 'DESCRIPTION' è mancante."
 
+#, fuzzy
 msgid "Files 'DESCRIPTION' and 'DESCRIPTION.in' are missing."
-msgstr ""
+msgstr "Il file 'DESCRIPTION' è mancante."
 
 msgid "invalid package layout"
 msgstr "layout pacchetto non valido"
@@ -1287,27 +1355,28 @@ msgstr "il fil e'%s' non è in formato DCF valido"
 msgid "contains a blank line"
 msgstr "contiene una linea vuota"
 
+#, fuzzy
 msgid "Unknown encoding with non-ASCII data: converting to ASCII"
-msgstr ""
+msgstr "Codifica sconosciuta con dati non-ASCII"
 
 #, fuzzy
 msgid "cannot source package code:"
-msgstr "impossibile leggere codice sorgente del pacchetto"
+msgstr "installazione pacchetto sorgenti %s"
 
 msgid "Call sequence:"
 msgstr "Successione delle chiamate:"
 
 #, fuzzy
 msgid "'text' must be a character vector"
-msgstr "l'argomento 'x' deve essere un vettore carattere"
+msgstr "'text' dev'essere una stringa di caratteri"
 
 msgid "parsing '%s'"
 msgstr "analizzo '%s'"
 
 msgid "Obsolete package %s in Rd xrefs"
 msgid_plural "Obsolete packages %s in Rd xrefs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pacchetto %s obsoleto in Rd xrefs"
+msgstr[1] "Pacchetti %s obsoleti in Rd xrefs"
 
 msgid "Package unavailable to check Rd xrefs: %s"
 msgid_plural "Packages unavailable to check Rd xrefs: %s"
@@ -1316,8 +1385,8 @@ msgstr[1] ""
 
 msgid "Unknown package %s in Rd xrefs"
 msgid_plural "Unknown packages %s in Rd xrefs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pacchetto %s sconosciuto in Rd xrefs"
+msgstr[1] "Pacchetti %s sconosciuti in Rd xrefs"
 
 msgid "Note: found %d marked Latin-1 string"
 msgid_plural "Note: found %d marked Latin-1 strings"
@@ -1391,25 +1460,27 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#, fuzzy
 msgid "Found the deprecated function:"
 msgid_plural "Found the deprecated functions:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "funzione '%s' non trovata"
+msgstr[1] "'%s' è deprecato."
 
 msgid "Found the defunct/removed function:"
 msgid_plural "Found the defunct/removed functions:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Trovata la funzione rimossa/defunct:"
+msgstr[1] "Trovate le funzioni rimosse/defunct:"
 
+#, fuzzy
 msgid "Found the platform-specific device:"
 msgid_plural "Found the platform-specific devices:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "'which' non è stato trovato su questa piattaforma"
+msgstr[1] "'which' non è stato trovato su questa piattaforma"
 
 msgid "Generic without any methods in %s: %s"
 msgid_plural "Generics without any methods in %s: %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Generica senza metodi in %s: %s"
+msgstr[1] "Generiche senza metodi in %s: %s"
 
 #, fuzzy
 msgid ""
@@ -1437,10 +1508,13 @@ msgid_plural "Required fields missing or empty:"
 msgstr[0] "Campo richiesto mancante o vuoto:"
 msgstr[1] "Campi richiesti mancanti o vuoti:"
 
+#, fuzzy
 msgid "Help on topic '%s' was found in the following package:"
 msgid_plural "Help on topic '%s' was found in the following packages:"
 msgstr[0] ""
+"La guida per l'argomento %s non è stata trovata nei seguenti pacchetti:"
 msgstr[1] ""
+"La guida per l'argomento %s non è stata trovata nei seguenti pacchetti:"
 
 #, fuzzy
 msgid "object %s is created by more than one data call"
@@ -1448,10 +1522,11 @@ msgid_plural "objects %s are created by more than one data call"
 msgstr[0] "creati da più di una chiamata data"
 msgstr[1] "creati da più di una chiamata data"
 
+#, fuzzy
 msgid "%d of the package tests failed"
 msgid_plural "%d of the package tests failed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "scaricamento pacchetto %s fallito"
+msgstr[1] "scaricamento pacchetto %s fallito"
 
 msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
