@@ -15,15 +15,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 msgid "must have at least 'ord' knots"
 msgstr ""
 
 msgid "length of 'derivs' is larger than length of 'x'"
-msgstr ""
+msgstr "la lunghezza di 'derivs' è più grande della lunghezza di 'x'"
 
 msgid "empty 'derivs'"
-msgstr ""
+msgstr "'derivs' vuoto"
 
 msgid "'ord' must be positive integer, at most the number of knots"
 msgstr ""
@@ -38,22 +40,22 @@ msgid "%s needs package 'Matrix' correctly installed"
 msgstr ""
 
 msgid "values of 'x' must be distinct"
-msgstr ""
+msgstr "i valori di 'x' devono essere distinti"
 
 msgid "must have at least 'ord'=%d points"
 msgstr ""
 
 msgid "'formula' must be of the form \"y ~ x\""
-msgstr ""
+msgstr "'formula' dev'essere nella forma \"y ~ x\""
 
 msgid "lengths of 'x' and 'y' must match"
-msgstr ""
+msgstr "le lunghezze di 'x' e 'y' devono coincidere"
 
 msgid "values of 'x' must be strictly increasing"
-msgstr ""
+msgstr "i valori di 'x' devono essere strettamente crescenti"
 
 msgid "'ord' must be >= 2"
-msgstr ""
+msgstr "'ord' dev'essere >= 2"
 
 msgid "the range of 'x' values exceeds one period"
 msgstr ""
@@ -62,25 +64,25 @@ msgid "knot positions must be non-decreasing"
 msgstr ""
 
 msgid "lengths of 'x' and 'y' must be the same"
-msgstr ""
+msgstr "le lunghezze di 'x' e 'y' devono essere le medesime"
 
 msgid "'deriv' must be between 0 and %d"
-msgstr ""
+msgstr "'deriv' dev'essere tra 0 e %d"
 
 msgid "knot positions must be strictly increasing"
 msgstr ""
 
 msgid "currently implemented only for cubic splines"
-msgstr ""
+msgstr "attualmente implementate solo per splines cubiche"
 
 msgid "spline must be monotone"
-msgstr ""
+msgstr "spline dev'essere monotona"
 
 msgid "'degree' must be integer >= 1"
-msgstr ""
+msgstr "'degree' dev'essere un intero >= 1"
 
 msgid "'df' was too small; have used %d"
-msgstr ""
+msgstr "'df' era troppo piccolo; è stato usato %d"
 
 msgid "some 'x' values beyond boundary knots may cause ill-conditioned bases"
 msgstr ""
