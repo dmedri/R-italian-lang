@@ -15,25 +15,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 #: fork.c:181
 #, c-format
 msgid "unable to terminate child process: %s"
-msgstr ""
+msgstr "non è possibile terminare il processo figlio: %s"
 
 #: fork.c:208
 #, c-format
 msgid "unable to terminate child: %s"
-msgstr ""
+msgstr "non è possibile terminare il figlio: %s"
 
 #: fork.c:287 fork.c:556
 msgid "memory allocation error"
-msgstr ""
+msgstr "errore di allocazione memoria"
 
 #: fork.c:337 fork.c:341 fork.c:345
 #, c-format
 msgid "invalid '%s' argument"
-msgstr ""
+msgstr "argomento '%s' non valido"
 
 #: fork.c:401
 msgid ""
@@ -43,12 +45,12 @@ msgstr ""
 
 #: fork.c:490 fork.c:493
 msgid "unable to create a pipe"
-msgstr ""
+msgstr "non è possibile creare un pipe"
 
 #: fork.c:515
 #, c-format
 msgid "unable to fork, possible reason: %s"
-msgstr ""
+msgstr "non è possibile fare un fork, possibile ragione: %s"
 
 #: fork.c:683
 msgid "only children can send data to the master process"
@@ -73,11 +75,11 @@ msgstr ""
 #: fork.c:722
 #, c-format
 msgid "child %d does not exist"
-msgstr ""
+msgstr "il figlio %d non esiste"
 
 #: fork.c:728
 msgid "write error"
-msgstr ""
+msgstr "errore di scrittura"
 
 #: fork.c:781
 #, c-format
@@ -87,11 +89,11 @@ msgstr ""
 #: fork.c:848 fork.c:971
 #, c-format
 msgid "error '%s' in select"
-msgstr ""
+msgstr "errore '%s' nella selezione"
 
 #: fork.c:1062
 msgid "'mckill' failed"
-msgstr ""
+msgstr "'mckill' fallito"
 
 #: fork.c:1072
 msgid "'mcexit' can only be used in a child process"
@@ -99,7 +101,7 @@ msgstr ""
 
 #: fork.c:1094
 msgid "'mcexit' failed"
-msgstr ""
+msgstr "'mcexit' fallito"
 
 #: fork.c:1123 fork.c:1132
 msgid "invalid CPU affinity specification"
