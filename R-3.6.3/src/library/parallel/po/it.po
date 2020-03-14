@@ -42,6 +42,8 @@ msgid ""
 "Error while shutting down parallel: unable to terminate some child "
 "processes\n"
 msgstr ""
+"Errore durante la chiusura di parallel: non è possibile terminare "
+"alcuni processi figli\n"
 
 #: fork.c:490 fork.c:493
 msgid "unable to create a pipe"
@@ -54,23 +56,26 @@ msgstr "non è possibile fare un fork, possibile ragione: %s"
 
 #: fork.c:683
 msgid "only children can send data to the master process"
-msgstr ""
+msgstr "solo i figli possono inviare dati al processo master"
 
 #: fork.c:685
 msgid "there is no pipe to the master process"
-msgstr ""
+msgstr "non c'è alcun pipe nel processo master"
 
 #: fork.c:687
 msgid "content to send must be RAW, use serialize() if needed"
 msgstr ""
+"il contenuto da inviare dev'essere RAW, utilizza serialize() se "
+"necessario"
 
 #: fork.c:696 fork.c:704 fork.c:1080
 msgid "write error, closing pipe to the master"
-msgstr ""
+msgstr "errore di scrittura, chiudendo un pipe al master"
 
 #: fork.c:714
 msgid "only the master process can send data to a child process"
 msgstr ""
+"solo il processo master può inviare dati ad un processo figlio"
 
 #: fork.c:722
 #, c-format
@@ -84,7 +89,7 @@ msgstr "errore di scrittura"
 #: fork.c:781
 #, c-format
 msgid "cannot wait for child %d as it does not exist"
-msgstr ""
+msgstr "non aspettiamo il figlio %d perché non esiste"
 
 #: fork.c:848 fork.c:971
 #, c-format
@@ -97,7 +102,7 @@ msgstr "'mckill' fallito"
 
 #: fork.c:1072
 msgid "'mcexit' can only be used in a child process"
-msgstr ""
+msgstr "'mcexit' può essere unicamente usata in un processo figlio"
 
 #: fork.c:1094
 msgid "'mcexit' failed"
@@ -105,12 +110,13 @@ msgstr "'mcexit' fallito"
 
 #: fork.c:1123 fork.c:1132
 msgid "invalid CPU affinity specification"
-msgstr ""
+msgstr "specificazione CPU affinity non valida"
 
 #: fork.c:1143
 msgid "requested CPU set is too large for this system"
 msgstr ""
+"l'insieme delle CPU richieste è troppo grande per questo sistema"
 
 #: fork.c:1166
 msgid "retrieving CPU affinity set failed"
-msgstr ""
+msgstr "recupero insieme CPU affinity non avvenuto"
