@@ -14,6 +14,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 #, fuzzy
 msgid "models are not all fitted to the same number of observations"
@@ -48,9 +51,8 @@ msgstr ""
 "sono necessari almeno 3 periodi per poter calcolare valori stagionali "
 "iniziali"
 
-#, fuzzy
 msgid "invalid length(x)"
-msgstr "lunghezza dei membri non valida"
+msgstr "length(x) non valida"
 
 msgid "optimization difficulties: %s"
 msgstr ""
@@ -94,13 +96,11 @@ msgstr "'which' non ha specificato factor"
 msgid "'which' specified some non-factors which will be dropped"
 msgstr "'which' ha specificato alcuni non-factor che verranno eliminati"
 
-#, fuzzy
 msgid "'sampleT' and 'nser' must be integer"
-msgstr "'k' e 'h' deve essere scalari"
+msgstr "'sampleT' e 'nser' devono essere interi"
 
-#, fuzzy
 msgid "'lag.max' must be at least 0"
-msgstr "'lag.max' deve essere almeno 1"
+msgstr "'lag.max' dev'essere almeno 0"
 
 msgid "'lag.max' must be at least 1"
 msgstr "'lag.max' deve essere almeno 1"
@@ -156,9 +156,8 @@ msgid "AIC is -infinity for this model, so 'step' cannot proceed"
 msgstr ""
 "l'AIC non è definito per questo modello, quindi 'step' non può procedere"
 
-#, fuzzy
 msgid "'A' must be an array or table"
-msgstr "'x' deve essere una matrice o un data frame"
+msgstr "'A' dev'essere un array o una tabella"
 
 msgid ""
 "length of FUN, %d,\n"
@@ -167,14 +166,12 @@ msgstr ""
 "lunghezza di FUN, %d,\n"
 " non coincide con la lunghezza delle marginali, %d"
 
-#, fuzzy
 msgid "no rows to aggregate"
-msgstr "nessun modello da confrontare"
+msgstr "nessuna riga per l'aggregazione"
 
 msgid "'by' must be a list"
 msgstr "'by' deve essere di tipo list"
 
-#, fuzzy
 msgid "arguments must have same length"
 msgstr "gli argomenti devono avere la stessa lunghezza"
 
@@ -301,16 +298,14 @@ msgstr "'x' e 'g' devono avere la stessa lunghezza"
 msgid "'order.max' must be >= 1"
 msgstr "'order.max' deve essere >= 1"
 
-#, fuzzy
 msgid "'order.max' must be < 'n.obs'"
-msgstr "'order.max' deve essere >= 1"
+msgstr "'order.max' dev'essere < 'n.obs'"
 
 msgid "zero-variance series"
 msgstr ""
 
-#, fuzzy
 msgid "'n.ahead' must be at least 1"
-msgstr "'lag.max' deve essere almeno 1"
+msgstr "'n.ahead' dev'essere almeno 1"
 
 msgid "number of series in 'object' and 'newdata' do not match"
 msgstr "numero di serie in 'object' e 'newdata' non conformi"
@@ -324,9 +319,8 @@ msgstr "MLE implementato solo per serie unidimensionali"
 msgid "'order.max' must be >= 0"
 msgstr "'order.max' deve essere >= 0"
 
-#, fuzzy
 msgid "'order.max' must be < 'n.used'"
-msgstr "'order.max' deve essere >= 1"
+msgstr "'order.max' dev'essere < 'n.used'"
 
 msgid "'order' must be a non-negative numeric vector of length 3"
 msgstr "'order' deve essere un vettore numerico non negativo di lunghezza 3"
@@ -359,9 +353,8 @@ msgstr "parte AR non stazionaria"
 msgid "non-stationary seasonal AR part"
 msgstr "parte stagionale AR non stazionaria"
 
-#, fuzzy
 msgid "possible convergence problem: optim gave code = %d"
-msgstr "probabile errore di convergenza: optim ha restituito codice="
+msgstr "possibile errore di convergenza: optim ha restituito codice = %d"
 
 msgid "non-stationary AR part from CSS"
 msgstr "parte AR non stazionaria da CSS"
@@ -378,13 +371,11 @@ msgstr "la parte MA del modello non è invertibile"
 msgid "seasonal MA part of model is not invertible"
 msgstr "la parte stagionale MA del modello non è invertibile"
 
-#, fuzzy
 msgid "NAs in '%s'"
-msgstr "valori NA in 'x'"
+msgstr "valori NA in '%s'"
 
-#, fuzzy
 msgid "invalid 'SSinit'"
-msgstr "'x' non valida"
+msgstr "'SSinit' non valido"
 
 msgid "converting non-invertible initial MA values"
 msgstr "conversione di valori iniziali MA non invertibili"
@@ -408,9 +399,8 @@ msgstr "servono almeno 2 punti"
 msgid "invalid 'x'"
 msgstr "'x' non valida"
 
-#, fuzzy
 msgid "invalid 'nb'"
-msgstr "'x' non valida"
+msgstr "'nb' non valido"
 
 msgid "no solution in the specified range of bandwidths"
 msgstr "non ci sono soluzioni nel range di badwidth specificato"
@@ -516,9 +506,8 @@ msgid "distances must be result of 'dist' or a square matrix"
 msgstr ""
 "le distanze devono essere il risultato di 'dist' o una matrice quadrata"
 
-#, fuzzy
 msgid "invalid value of %s"
-msgstr "argomento 'omit' non valido"
+msgstr "valore di %s non valido"
 
 msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr "'k' deve essere in {1, 2, ..  n - 1}"
@@ -1327,13 +1316,11 @@ msgstr "il numero di centri dei cluster deve essere tra 1 e nrow(x)"
 msgid "Quick-TRANSfer stage steps exceeded maximum (= %d)"
 msgstr ""
 
-#, fuzzy
 msgid "invalid nrow(x)"
-msgstr "'x' non valida"
+msgstr "nrow(x) non valido"
 
-#, fuzzy
 msgid "invalid ncol(x)"
-msgstr "'x' non valida"
+msgstr "ncol(x) non valido"
 
 msgid "'centers' must be a number or a matrix"
 msgstr "'centers' deve essere un numero o una matrice"
@@ -1687,7 +1674,7 @@ msgid "reformulate"
 msgstr ""
 
 msgid "deprecatedWarning"
-msgstr ""
+msgstr "deprecatedWarning"
 
 #, fuzzy
 msgid "'termobj' must be a object of class %s"
