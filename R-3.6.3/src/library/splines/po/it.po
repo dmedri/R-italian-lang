@@ -15,17 +15,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 #: splines.c:154
 msgid "'ord' must be a positive integer"
-msgstr ""
+msgstr "'ord' dev'essere un intero positivo"
 
 #: splines.c:222
 #, c-format
 msgid "derivs = %d >= ord = %d, but should be in {0,..,ord-1}"
-msgstr ""
+msgstr "derivs = %d >= ord = %d, ma dovrebbe essere in {0,..,ord-1}"
 
 #: splines.c:225
 #, c-format
 msgid "derivs[%d] = %d >= ord = %d, but should be in {0,..,ord-1}"
-msgstr ""
+msgstr "derivs[%d] = %d >= ord = %d, ma dovrebbe essere in {0,..,ord-1}"
