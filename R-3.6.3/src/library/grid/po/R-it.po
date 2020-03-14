@@ -11,7 +11,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plurals=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language: it\n"
+"X-Generator: Poedit 2.2.1\n"
 
 msgid "invalid 'at' location in 'axis'"
 msgstr ""
@@ -41,22 +45,22 @@ msgid "'arrow' must be an arrow object or NULL"
 msgstr ""
 
 msgid "how did we get here?"
-msgstr ""
+msgstr "come siamo arrivati qui?"
 
 msgid "must start new page if showing leaves separately"
 msgstr ""
 
 msgid "invalid 'edit' information"
-msgstr ""
+msgstr "informazioni 'edit' non valide"
 
 msgid "'gEditList' can only contain 'gEdit' objects"
 msgstr ""
 
 msgid "invalid 'frame'"
-msgstr ""
+msgstr "'frame' non valido"
 
 msgid "invalid 'grob'"
-msgstr ""
+msgstr "'grob' non valido"
 
 msgid "invalid 'row' and/or 'col' (no such cell in frame layout)"
 msgstr ""
@@ -65,13 +69,13 @@ msgid "'col' can only be a range of existing columns"
 msgstr ""
 
 msgid "invalid 'col' specification"
-msgstr ""
+msgstr "specificazione 'col' non valida"
 
 msgid "'row' can only be a range of existing rows"
 msgstr ""
 
 msgid "invalid 'row' specification"
-msgstr ""
+msgstr "specificazione 'row' non valida"
 
 msgid "cannot specify more than one of 'side=[\"left\", \"right\"]', 'col', 'col.before', or 'col.after'"
 msgstr ""
@@ -80,10 +84,10 @@ msgid "must specify exactly one of 'side=[\"top\", \"bottom\"]', 'row', 'row.bef
 msgstr ""
 
 msgid "invalid 'n'"
-msgstr ""
+msgstr "'n' non valido"
 
 msgid "invalid 'f'"
-msgstr ""
+msgstr "'f' non valido"
 
 msgid "'gpar' element '%s' must not be length 0"
 msgstr ""
@@ -98,16 +102,16 @@ msgid "invalid 'linemitre' value"
 msgstr ""
 
 msgid "invalid 'alpha' value"
-msgstr ""
+msgstr "valore 'alpha' non valido"
 
 msgid "must specify only one of 'font' and 'fontface'"
 msgstr ""
 
 msgid "invalid fontface"
-msgstr ""
+msgstr "carattere non valido"
 
 msgid "argument must be a 'gpar' object"
-msgstr ""
+msgstr "l'argomento dev'essere un oggetto 'gpar'"
 
 msgid "must specify only valid 'gpar' names"
 msgstr ""
@@ -158,13 +162,13 @@ msgid "invalid 'grob' argument"
 msgstr ""
 
 msgid "invalid 'vp' slot"
-msgstr ""
+msgstr "slot 'vp' non valido"
 
 msgid "invalid 'gp' slot"
-msgstr ""
+msgstr "slot 'gp' non valido"
 
 msgid "invalid 'grob' class"
-msgstr ""
+msgstr "classe 'grob' non valida"
 
 msgid "a 'grob' path must contain at least one 'grob' name"
 msgstr ""
@@ -188,16 +192,16 @@ msgid "it is only valid to get 'children' from a \"gTree\""
 msgstr ""
 
 msgid "invalid \"gTree\" class"
-msgstr ""
+msgstr "classe 'gTree' non valida"
 
 msgid "'allDevices' not yet implemented"
 msgstr ""
 
 msgid "invalid 'gPath'"
-msgstr ""
+msgstr "'gPath' non valido"
 
 msgid "invalid 'grep' value"
-msgstr ""
+msgstr "valore 'grep' non valido"
 
 msgid "it is only valid to get a child from a \"gTree\""
 msgstr ""
@@ -221,7 +225,7 @@ msgid "it is only valid to add a child to a \"gTree\""
 msgstr ""
 
 msgid "'gPath' (%s) not found"
-msgstr ""
+msgstr "'gPath' (%s) non trovato"
 
 msgid "it is only valid to remove a child from a \"gTree\""
 msgstr ""
@@ -233,19 +237,19 @@ msgid "it is invalid to directly edit the 'children' or 'childrenOrder' slot"
 msgstr ""
 
 msgid "invalid 'result'"
-msgstr ""
+msgstr "'result' non valido"
 
 msgid "the new 'grob' must have the same name as the old 'grob'"
 msgstr ""
 
 msgid "slot '%s' not found"
-msgstr ""
+msgstr "slot '%s' non trovato"
 
 msgid "gPath (%s) not found"
-msgstr ""
+msgstr "gPath (%s) non trovato"
 
 msgid "grob '%s' not found"
-msgstr ""
+msgstr "grob '%s' non trovato"
 
 msgid "Invalid force target"
 msgstr ""
@@ -257,7 +261,7 @@ msgid "can only reorder 'children' for a \"gTree\""
 msgstr ""
 
 msgid "Invalid 'order'"
-msgstr ""
+msgstr "'order' non valido"
 
 msgid "'l' must be a layout"
 msgstr ""
@@ -275,43 +279,43 @@ msgid "'nrow' must be >= 1"
 msgstr ""
 
 msgid "'ncol' must be >= 1"
-msgstr ""
+msgstr "'ncol' dev'essere >= 1"
 
 msgid "nrow * ncol < #{legend labels}"
-msgstr ""
+msgstr "nrow * ncol < #{etichette legenda}"
 
 msgid "invalid justification"
-msgstr ""
+msgstr "giustificazione non valida"
 
 msgid "invalid horizontal justification"
-msgstr ""
+msgstr "giustificazione orizzontale non valida"
 
 msgid "invalid vertical justification"
-msgstr ""
+msgstr "giustificazione verticale non valida"
 
 msgid "'respect' must be logical or an 'nrow' by 'ncol' matrix"
 msgstr ""
 
 msgid "invalid 'print' argument"
-msgstr ""
+msgstr "argomento 'print' non valido"
 
 msgid "invalid object in 'listing'"
-msgstr ""
+msgstr "oggetto in 'listing' non valido"
 
 msgid "invalid listing"
 msgstr ""
 
 msgid "invalid 'listing'"
-msgstr ""
+msgstr "'listing' non valido"
 
 msgid "invalid 'origin'"
-msgstr ""
+msgstr "'origin' non valido"
 
 msgid "'length' must be a 'unit' object"
-msgstr ""
+msgstr "'length' dev'essere un oggetto 'unit'"
 
 msgid "invalid 'ends' or 'type' argument"
-msgstr ""
+msgstr "argomento 'ends' o 'type' non valido"
 
 msgid "'x' and 'y' must be units"
 msgstr ""
@@ -320,7 +324,7 @@ msgid "'x' and 'y' must have length 1"
 msgstr ""
 
 msgid "invalid 'arrow' argument"
-msgstr ""
+msgstr "argomento 'arrow' non valido"
 
 msgid "it is invalid to specify both 'id' and 'id.lengths'"
 msgstr ""
@@ -341,13 +345,13 @@ msgid "'x' and 'y' must be units or NULL"
 msgstr ""
 
 msgid "corrupt 'arrows' object"
-msgstr ""
+msgstr "oggetto 'arrows' corrotto"
 
 msgid "'x' and 'y' and 'pathId.lengths' must specify same overall length"
 msgstr ""
 
 msgid "x and y must be units"
-msgstr ""
+msgstr "x e y devono essere unità"
 
 msgid "must have exactly 4 control points"
 msgstr ""
@@ -449,16 +453,16 @@ msgid "invalid 'unit' object"
 msgstr ""
 
 msgid "invalid 'theta'"
-msgstr ""
+msgstr "'theta' non valido"
 
 msgid "'range' must be numeric"
-msgstr ""
+msgstr "'range' dev'essere numerico"
 
 msgid "invalid 'gp' value"
-msgstr ""
+msgstr "valore 'gp' non valido"
 
 msgid "invalid 'clip' value"
-msgstr ""
+msgstr "valore 'clip' non valido"
 
 msgid "invalid 'xscale' in viewport"
 msgstr ""
@@ -499,12 +503,12 @@ msgstr ""
 msgid "shutting down all devices when unloading 'grid' namespace"
 msgstr ""
 
-msgid        "invalid grob name"
+msgid "invalid grob name"
 msgid_plural "invalid grob names"
-msgstr[0]    ""
-msgstr[1]    ""
+msgstr[0] ""
+msgstr[1] ""
 
-msgid        "invalid viewport name"
+msgid "invalid viewport name"
 msgid_plural "invalid viewport names"
-msgstr[0]    ""
-msgstr[1]    ""
+msgstr[0] "nome viewport non valido"
+msgstr[1] "nomi viewport non validi"
