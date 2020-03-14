@@ -1,16 +1,14 @@
-# R Italian translation of RGui.po
+# R Italian translation 
 # This file is distributed under the same license as the R package.
 # Copyright (C) The R Foundation.
 # Daniele Medri <dmedri@gmail.com>, 2005-2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: RGui\n"
+"Project-Id-Version: RGui 3.6.3\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2018-03-29 07:06-0700\n"
-"PO-Revision-Date: 2020-03-08 20:00+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
-"Language-Team: Italian <it@li.org>\n"
+"Language-Team: Italian\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
