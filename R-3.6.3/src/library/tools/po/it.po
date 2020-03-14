@@ -6,7 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tools 3.6.3\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-29 07:06-0700\n"
+"PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian\n"
 "Language: it\n"
@@ -18,7 +20,7 @@ msgstr ""
 
 #: Rmd5.c:36
 msgid "argument 'files' must be character"
-msgstr "argomento 'files' deve essere di tipo chararcter"
+msgstr "l'argomento 'files' deve essere di tipo character"
 
 #: Rmd5.c:50
 #, c-format
@@ -28,7 +30,7 @@ msgstr "md5 fallito sul file '%s'"
 #: getfmts.c:61
 #, c-format
 msgid "only %d arguments are allowed"
-msgstr "sono concessi solo %d argomenti"
+msgstr "sono ammessi solo %d argomenti"
 
 #: getfmts.c:66
 msgid "'fmt' is not a character vector"
@@ -41,7 +43,7 @@ msgstr "'fmt' dev'essere di lunghezza 1"
 #: getfmts.c:75
 #, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "la lunghezza di 'fmt' eccede la lunghezza massima %d"
+msgstr "la lunghezza di 'fmt' eccede la lunghezza massima del formato %d"
 
 #: getfmts.c:96
 #, c-format
@@ -104,7 +106,7 @@ msgstr "Non è possibile trovare la macro %s"
 #: gramRd.c:3958
 #, c-format
 msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
-msgstr "Fine inattesa dell'input (in %c stringa virgolettata aperta in %s:%d:%d)"
+msgstr "Fine inattesa dell'input (nella %c stringa virgolettata aperta in %s:%d:%d)"
 
 #: gramRd.c:4400
 msgid "cannot open the connection"
