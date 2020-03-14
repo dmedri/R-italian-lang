@@ -15,6 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 msgid "Checking %s"
 msgstr "Controllando %s"
@@ -76,21 +78,18 @@ msgstr "Nomi argomenti nella documentazione e non nel codice:"
 msgid "Mismatches in argument names (first 3):"
 msgstr "Mancata corrispondenza nei nomi degli argomenti (primi 3):"
 
-#, fuzzy
 msgid "Mismatches in argument names:"
-msgstr "argomento 'names' incompatibile"
+msgstr "Mancata corrispondenza nei nomi degli argomenti:"
 
 msgid "Mismatches in argument default values (first 3):"
 msgstr ""
 "Mancata corrispondenza nei valori predefiniti degli argomenti (primi 3):"
 
-#, fuzzy
 msgid "Mismatches in argument default values:"
-msgstr "argomento non specificato e senza un valore predefinito"
+msgstr "Mancata corrispondenza nei valori predefiniti degli argomenti:"
 
-#, fuzzy
 msgid "Codoc mismatches from documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Il codoc non corrisponde all'oggetto della documentazione '%s':"
 
 msgid "Code: %s"
 msgstr "Codice: %s"
@@ -98,16 +97,14 @@ msgstr "Codice: %s"
 msgid "Docs: %s"
 msgstr "Documentazione: %s"
 
-#, fuzzy
 msgid "S4 class codoc mismatches from documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Il codoc di classe S4 non corrisponde all'oggetto documentazione '%s':"
 
 msgid "Slots for class '%s'"
 msgstr "Slot per la classe '%s'"
 
-#, fuzzy
 msgid "Data codoc mismatches from documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Il data codoc non corrisponde all'oggetto documentazione '%s':"
 
 msgid "Variables in data frame '%s'"
 msgstr "Variabili nel data frame '%s'"
@@ -115,21 +112,17 @@ msgstr "Variabili nel data frame '%s'"
 msgid "Undocumented arguments in documentation object '%s'"
 msgstr "Argomenti non documentati nell'oggetto documentazione '%s'"
 
-#, fuzzy
 msgid "Duplicated \\argument entries in documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Voci \argument duplicate nell'oggetto documentazione '%s':"
 
-#, fuzzy
 msgid "Documented arguments not in \\usage in documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Argomenti documentati non in \\usage nell'oggetto documentazione '%s':"
 
-#, fuzzy
 msgid "Objects in \\usage without \\alias in documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Oggetti in \\usage senza \alias nell'oggetto documentazione '%s':"
 
-#, fuzzy
 msgid "Assignments in \\usage in documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Assegnazioni in \\usage nell'oggetto documentazione '%s':"
 
 msgid "Bad \\usage lines found in documentation object '%s':"
 msgstr "Linee \\usage trovate nell'oggetto documentazione '%s':"
@@ -221,14 +214,13 @@ msgstr ""
 "'>=', spazi bianchi e un valido numero di versione tra parentesi."
 
 msgid "Entries with infeasible comparison operator:"
-msgstr ""
+msgstr "Voci con operatore di confronto impraticabili:"
 
 msgid "Only operators '<=' and '>=' are possible."
 msgstr "Sono possibili solo gli operatori '<=' e '>='."
 
-#, fuzzy
 msgid "Entries with infeasible version number:"
-msgstr "numero errato di righe nella tabella"
+msgstr "Voci con numero di versione impossibile:"
 
 msgid ""
 "Version numbers must be sequences of at least two non-negative integers, "
@@ -310,22 +302,17 @@ msgstr "Codifica sconosciuta con dati non-ASCII"
 msgid "Non-standard license specification:"
 msgstr "Specificazione licenza non-standard:"
 
-#, fuzzy
 msgid "Standardizable: %s"
-msgstr ""
-"%s e %s sono ineguali:\n"
-"  %s"
+msgstr "Standardizzabile:%s"
 
-#, fuzzy
 msgid "Standardized license specification:"
-msgstr "Specificazione licenza non-standard:"
+msgstr "Specificazione licenza standardizzabile:"
 
 msgid "Deprecated license: %s"
 msgstr "Licenza deprecata: %s"
 
-#, fuzzy
 msgid "Invalid license file pointers: %s"
-msgstr "associazione file a '%s' non disponibile o non valida"
+msgstr "Puntatori al file di licenza non validi: %s"
 
 msgid "License components with restrictions not permitted:"
 msgstr ""
@@ -333,29 +320,24 @@ msgstr ""
 msgid "License components which are templates and need '+ file LICENSE':"
 msgstr ""
 
-#, fuzzy
 msgid "Non-portable flags in variable '%s':"
-msgstr "variabili non numeriche nel data frame:"
+msgstr "Flag non portatili nella variabile '%s':"
 
 msgid "Variables overriding user/site settings:"
 msgstr "Le variabili sovrastano le impostazioni utente/sito:"
 
-#, fuzzy
 msgid ""
 "package %s exists but was not installed under R >= 2.10.0 so xrefs cannot be "
 "checked"
 msgstr ""
-"il pacchetto %s esiste ma non è installato sotto R >= 2.10.0 perciò la guida "
-"non è accessibile"
+"il pacchetto %s esiste ma non è installato sotto R >= 2.10.0 perciò xrefs "
+"non possono essere controllati"
 
-#, fuzzy
 msgid "Missing link or links in documentation object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Collegamenti mancanti nell'oggetto documentazione '%s':"
 
-#, fuzzy
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
-msgstr ""
-"Vedi sezione 'The DESCRIPTION file' nel manuale 'Writing R Extensions'."
+msgstr "Vedi sezione 'Cross-references' nel manuale 'Writing R Extensions'."
 
 msgid "File %s:"
 msgstr "File %s:"
@@ -499,9 +481,8 @@ msgstr "File Rd con nomi duplicati '%s':"
 msgid "Rd files with duplicated alias '%s':"
 msgstr "File Rd con alias duplicati '%s':"
 
-#, fuzzy
 msgid "Argument items with no description in Rd object '%s':"
-msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
+msgstr "Elementi dell'argomento senza descrizione nell'oggetto Rd '%s':"
 
 msgid "Auto-generated content requiring editing in Rd object '%s':"
 msgstr "Il contenuto auto-generato richiede la modifica nell'oggetto Rd '%s':"
@@ -562,16 +543,14 @@ msgid "Macro file %s should only contain Rd macro definitions and comments"
 msgstr ""
 "Il file macro %s dovrebbe contenere solo definizioni macro e commenti Rd"
 
-#, fuzzy
 msgid "Rd macro package '%s' is not installed."
-msgstr "il pacchetto %s è in uso e non sarà installato"
+msgstr "Il pacchetto macro Rd '%s' non è installato."
 
 msgid "No Rd macros in package '%s'."
 msgstr "Nessuna macro Rd nel pacchetto '%s'."
 
-#, fuzzy
 msgid "more than one \\examples section, using the first"
-msgstr "trovata più di una specificazione di sintassi, si utilizzerà la prima"
+msgstr "più di una sezione \\examples, si utilizzerà la prima"
 
 msgid "Converting Rd files to LaTeX ..."
 msgstr "Conversione file Rd in LaTeX ..."
@@ -594,15 +573,14 @@ msgstr "nessun 'type' specificato"
 msgid "'type' must be one of 'txt', 'html', 'latex' or 'example'"
 msgstr "'type' dev'essere uno di 'txt', 'html', 'latex' o 'example'"
 
-#, fuzzy
 msgid "current working directory cannot be ascertained"
-msgstr "non è possibile ottenere la directory di lavoro"
+msgstr "la directory di lavoro corrente non può essere accertata"
 
 msgid "no inputs"
 msgstr "nessun input"
 
 msgid "Error in running tools::texi2pdf()"
-msgstr "errore durante l'esecuzione di tools::texi2pdf()"
+msgstr "Errore durante l'esecuzione di tools::texi2pdf()"
 
 msgid "invalid value for '%s' : %s"
 msgstr "valore non valido per '%s' : %s"
@@ -650,20 +628,18 @@ msgstr ""
 "Rilevati file sorgenti della vignette (%s) con nomi condivisi (%s) e quindi "
 "rischiando di sovrascrivere i rispettivi file di output"
 
-#, fuzzy
 msgid ""
 "processing vignette '%s' failed with diagnostics:\n"
 "%s"
 msgstr ""
-"L'esecuzione di aspell è fallita con la seguente diagnostica:\n"
+"elaborazione vignetta '%s' non riuscita con diagnostica:\n"
 "%s"
 
-#, fuzzy
 msgid ""
 "tangling vignette '%s' failed with diagnostics:\n"
 "%s"
 msgstr ""
-"L'esecuzione di aspell è fallita con la seguente diagnostica:\n"
+"vignetta aggrovigliata '%s' non riuscita con diagnostica:\n"
 "%s"
 
 msgid "running 'make' failed"
@@ -674,6 +650,8 @@ msgstr "file '%s' non trovato"
 
 msgid "vignette filename '%s' does not match any of the '%s' filename patterns"
 msgstr ""
+"il nome file vignetta '%s' non corrisponde a nessuno dei modelli di nome "
+"file '%s'"
 
 msgid "In '%s' vignettes '%s' and '%s' have the same vignette name"
 msgstr ""
@@ -681,9 +659,8 @@ msgstr ""
 msgid "argument 'vignette' must be of length 1"
 msgstr "l'argomento 'vignette' deve avere lunghezza 1"
 
-#, fuzzy
 msgid "Vignette engine package not specified"
-msgstr "l'ambiente specificato non è un pacchetto"
+msgstr "Pacchetto engine vignetta non specificato"
 
 msgid "Unsupported engine name"
 msgstr "Nome engine non supportato"
@@ -749,12 +726,11 @@ msgstr "impossibile creare directory '%s'"
 msgid "processing %s"
 msgstr "elaborazione di %s"
 
-#, fuzzy
 msgid ""
 "running %s on vignette '%s' failed with message:\n"
 "%s"
 msgstr ""
-"L'esecuzione di aspell è fallita con la seguente diagnostica:\n"
+"l'esecuzione di %s sulla vignetta '%s' è fallita con messaggio:\n"
 "%s"
 
 msgid ""
@@ -786,19 +762,17 @@ msgstr ""
 msgid "Got %s in evaluating %s; wanted %s"
 msgstr "Rilevato %s nella valutazione di %s; richiesto %s"
 
-#, fuzzy
 msgid "Failed to get %s in evaluating %s"
-msgstr "'CreateProcess' non è riuscito ad eseguire '%s'"
+msgstr "Ricezione di %s fallita mentre si valutava %s"
 
-#, fuzzy
 msgid "Failed to get error in evaluating %s"
-msgstr "l'esecuzione di '%s' è fallita con codice errore %d"
+msgstr "Errore durante la valutazione di %s"
 
 msgid "Asserted error: %s"
 msgstr "Errore: %s"
 
 msgid "Got warning in evaluating %s, but also an error"
-msgstr ""
+msgstr "Ricevuto un avvertimento valutando %s, ma anche un errore"
 
 msgid "Asserted warning: %s"
 msgstr "Avvertimento: %s"
@@ -822,7 +796,7 @@ msgid ","
 msgstr ","
 
 msgid "ignored as vignettes have been rebuilt."
-msgstr ""
+msgstr "ignorata perché le vignette sono state ricreate."
 
 msgid "Run R CMD build with --no-build-vignettes to prevent rebuilding."
 msgstr ""
@@ -951,9 +925,8 @@ msgstr "stato di uscita di .install_packages()"
 msgid "error reading file '%s'"
 msgstr "errore durante la lettura del file '%s'"
 
-#, fuzzy
 msgid "this seems to be a bundle -- and they are defunct"
-msgstr "l'utilizzo dell'ambiente NULL è rimosso"
+msgstr "questo sembra un bundle -- e sono rimossi"
 
 msgid ""
 "'cleanup' exists but is not executable -- see the 'R Installation and "
@@ -1033,7 +1006,7 @@ msgid "there is no package called '%s'"
 msgstr "non esiste un pacchetto chiamato '%s'"
 
 msgid "namespace must not be already loaded"
-msgstr "Il namespace dovrebbe essere già caricato"
+msgstr "il namespace dovrebbe essere già caricato"
 
 msgid "all packages should have a NAMESPACE"
 msgstr "tutti i pacchetti dovrebbero avere un NAMESPACE"
@@ -1318,9 +1291,8 @@ msgstr "il fil e'%s' non è in formato DCF valido"
 msgid "contains a blank line"
 msgstr "contiene una linea vuota"
 
-#, fuzzy
 msgid "Unknown encoding with non-ASCII data: converting to ASCII"
-msgstr "Codifica sconosciuta con dati non-ASCII"
+msgstr "Codifica sconosciuta con dati non-ASCII: conversione in ASCII"
 
 msgid "cannot source package code:"
 msgstr "non è possibile eseguire il codice del pacchetto:"
@@ -1366,7 +1338,7 @@ msgstr[1] ""
 
 msgid "Warning in file %s:"
 msgid_plural "Warnings in file %s:"
-msgstr[0] "Avvertimento nel file '%s':"
+msgstr[0] "Avvertimento nel file %s:"
 msgstr[1] "Avvertimenti nei file %s:"
 
 msgid "Found possibly global 'T' or 'F' in the following function:"
@@ -1441,21 +1413,23 @@ msgid_plural "Generics without any methods in %s: %s"
 msgstr[0] "Generica senza metodi in %s: %s"
 msgstr[1] "Generiche senza metodi in %s: %s"
 
-#, fuzzy
 msgid ""
 "missing/empty \\name field in Rd file\n"
 "%s"
 msgid_plural ""
 "missing/empty \\name field in Rd files\n"
 "%s"
-msgstr[0] "campo \\name mancante/vuoto nei file Rd"
-msgstr[1] "campo \\name mancante/vuoto nei file Rd"
+msgstr[0] ""
+"campo \\name mancante/vuoto nel file Rd\n"
+"%s"
+msgstr[1] ""
+"campo \\name mancante/vuoto nei file Rd\n"
+"%s"
 
-#, fuzzy
 msgid "unable to re-encode %s line %s"
 msgid_plural "unable to re-encode %s lines %s"
-msgstr[0] "impossibile creare '%s'"
-msgstr[1] "impossibile creare '%s'"
+msgstr[0] "non è possibile ricodificare %s linea %s"
+msgstr[1] "non è possibile ricodificare %s linee %s"
 
 msgid " file\n"
 msgid_plural " files\n"
@@ -1467,210 +1441,24 @@ msgid_plural "Required fields missing or empty:"
 msgstr[0] "Campo richiesto mancante o vuoto:"
 msgstr[1] "Campi richiesti mancanti o vuoti:"
 
-#, fuzzy
 msgid "Help on topic '%s' was found in the following package:"
 msgid_plural "Help on topic '%s' was found in the following packages:"
 msgstr[0] ""
-"La guida per l'argomento %s non è stata trovata nei seguenti pacchetti:"
+"La guida per l'argomento '%s' non è stata trovata nel seguente pacchetto:"
 msgstr[1] ""
-"La guida per l'argomento %s non è stata trovata nei seguenti pacchetti:"
+"La guida per l'argomento '%s' non è stata trovata nei seguenti pacchetti:"
 
-#, fuzzy
 msgid "object %s is created by more than one data call"
 msgid_plural "objects %s are created by more than one data call"
-msgstr[0] "creati da più di una chiamata data"
-msgstr[1] "creati da più di una chiamata data"
+msgstr[0] "l'oggetto%s viene creato da più di una chiamata dati"
+msgstr[1] "gli oggetti%s sono creati da più di una chiamata dati"
 
-#, fuzzy
 msgid "%d of the package tests failed"
 msgid_plural "%d of the package tests failed"
-msgstr[0] "scaricamento pacchetto %s fallito"
-msgstr[1] "scaricamento pacchetto %s fallito"
+msgstr[0] "%d dei test del pacchetto è fallito"
+msgstr[1] "%d dei test del pacchetto sono falliti"
 
 msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] "Voce BibTeX corrispondente:"
 msgstr[1] "Voci BibTeX corrispondenti:"
-
-#~ msgid "argument 'file' must be a character string or connection"
-#~ msgstr ""
-#~ "argomento 'file' deve essere una stringa di caratteri o una connessione"
-
-#, fuzzy
-#~ msgid "Failed to locate the"
-#~ msgstr "impossibile creare"
-
-#, fuzzy
-#~ msgid "Located more than one"
-#~ msgstr "non più di una corrispondenza"
-
-#, fuzzy
-#~ msgid "None of packages"
-#~ msgstr "non può essere usato per il pacchetto 'base'"
-
-#, fuzzy
-#~ msgid "do not match"
-#~ msgstr "il file '%s' non esiste"
-
-#, fuzzy
-#~ msgid "Cannot change the"
-#~ msgstr "impossibile leggere codice sorgente del pacchetto"
-
-#, fuzzy
-#~ msgid "'file' must be a character string or connection"
-#~ msgstr ""
-#~ "argomento 'file' deve essere una stringa di caratteri o una connessione"
-
-#, fuzzy
-#~ msgid "not found"
-#~ msgstr "file '%s' non trovato"
-
-#, fuzzy
-#~ msgid "package must be loaded"
-#~ msgstr "il name space non deve essere caricato."
-
-#, fuzzy
-#~ msgid "DESCRIPTION"
-#~ msgstr "file DESCRIPTION non valido"
-
-#, fuzzy
-#~ msgid "processing"
-#~ msgstr "analizzo '%s'"
-
-#, fuzzy
-#~ msgid "package directory"
-#~ msgstr "impossibile creare directory '%s'"
-
-#, fuzzy
-#~ msgid "running 'zip' failed"
-#~ msgstr "esecuzione di make fallita"
-
-#, fuzzy
-#~ msgid "packaged installation of"
-#~ msgstr "il pacchetto non contiene codice R"
-
-#, fuzzy
-#~ msgid "running 'src/Makefile.win' ..."
-#~ msgstr "esecuzione di make fallita"
-
-#, fuzzy
-#~ msgid "ERROR: failed to create lock directory"
-#~ msgstr "impossibile creare directory temporanea"
-
-#, fuzzy
-#~ msgid "running code in"
-#~ msgstr "esecuzione di make fallita"
-
-#, fuzzy
-#~ msgid "running msgmerge failed"
-#~ msgstr "esecuzione di make fallita"
-
-#, fuzzy
-#~ msgid "running msginit failed"
-#~ msgstr "esecuzione di make fallita"
-
-#, fuzzy
-#~ msgid "running msgconv failed"
-#~ msgstr "esecuzione di make fallita"
-
-#, fuzzy
-#~ msgid "running xgettext failed"
-#~ msgstr "esecuzione di make fallita"
-
-#, fuzzy
-#~ msgid "cannot update HTML package index"
-#~ msgstr "impossibile leggere codice sorgente del pacchetto"
-
-#, fuzzy
-#~ msgid "cannot create HTML package index"
-#~ msgstr "impossibile leggere codice sorgente del pacchetto"
-
-#, fuzzy
-#~ msgid "... done"
-#~ msgstr "fatto"
-
-#, fuzzy
-#~ msgid "Suspect link(s) in documentation object '%s':"
-#~ msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
-
-#, fuzzy
-#~ msgid "No package of named %s could be found"
-#~ msgstr "il name space non deve essere caricato."
-
-#, fuzzy
-#~ msgid "Rd files with syntax errors:"
-#~ msgstr "Trovati errori di sintassi Rd"
-
-#, fuzzy
-#~ msgid "Following section '%s'"
-#~ msgstr "sezione '%s' non conclusa"
-
-#, fuzzy
-#~ msgid "Rd files with invalid non-ASCII metadata:"
-#~ msgstr "I file Rd devono avere \\title non vuoto."
-
-#, fuzzy
-#~ msgid "Rd files with non-ASCII section titles:"
-#~ msgstr "I file Rd devono avere \\title non vuoto."
-
-#, fuzzy
-#~ msgid "Rd files with missing or empty '\\title':"
-#~ msgstr "I file Rd devono avere \\title non vuoto."
-
-#, fuzzy
-#~ msgid "Rd files with unknown sections:"
-#~ msgstr "I file Rd devono avere \\title non vuoto."
-
-#~ msgid "directory '%s' does not contain Rd sources"
-#~ msgstr "la directory '%s' non contiene sorgenti Rd"
-
-#~ msgid "Package Rd sources were installed without preserving Rd file names."
-#~ msgstr ""
-#~ "I sorgenti Rd del pacchetto sono stati installati senza mantenere i nomi "
-#~ "originali dei file Rd."
-
-#~ msgid "Please reinstall using a current version of R."
-#~ msgstr "Si prega di reinstallare usando una versione corrente di R."
-
-#, fuzzy
-#~ msgid "*** error on file"
-#~ msgstr "errore analisi file '%s'"
-
-#~ msgid "argument 'lines' must be a character vector"
-#~ msgstr "argomento 'lines' deve essere un vettore carattere"
-
-#, fuzzy
-#~ msgid "encoding '%s' is not portable"
-#~ msgstr "il test '%s' non è disponibile"
-
-#~ msgid "unterminated section '%s'"
-#~ msgstr "sezione '%s' non conclusa"
-
-#~ msgid "incomplete section 'section{%s}'"
-#~ msgstr "sezione 'section{%s}' incompleta"
-
-#~ msgid "unterminated section 'section{%s}'"
-#~ msgstr "sezione 'section{%s}' non conclusa"
-
-#~ msgid "unmatched \\item name in '\\item{%s'"
-#~ msgstr "nome \\item non coincidente in ''\\item{%s'"
-
-#~ msgid "no \\item description for item '%s'"
-#~ msgstr "manca la descrizione dell'\\item per l'elemento '%s'"
-
-#~ msgid "unmatched \\item description for item '%s'"
-#~ msgstr "descrizione \\item non coincidente per l'elemento '%s'"
-
-#, fuzzy
-#~ msgid "unclosed \\link"
-#~ msgstr "\\dontrun non chiusa"
-
-#, fuzzy
-#~ msgid "unclosed \\%s"
-#~ msgstr "\\dontrun non chiusa"
-
-#~ msgid "Rd syntax errors found"
-#~ msgstr "Trovati errori di sintassi Rd"
-
-#~ msgid "Syntax error in documentation object '%s':"
-#~ msgstr "Errore di sintassi nella documentazione dell'oggetto '%s':"
