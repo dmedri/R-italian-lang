@@ -15,6 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -2031,10 +2033,10 @@ msgid "allocation of overflow buffer for bzfile failed"
 msgstr "allocazione di un buffer overflow per bzfile fallita"
 
 #: src/main/connections.c:1847
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "file '%s' has trailing content that appears not to be compressed by bzip2"
-msgstr "il file '%s' sembra non essere compresso con bzip2"
+msgstr "il file '%s' ha un contenuto che sembra non compresso con bzip2"
 
 #: src/main/connections.c:1893 src/main/connections.c:1897
 #: src/main/connections.c:1904 src/main/connections.c:1922
@@ -2117,9 +2119,8 @@ msgid "attempting to add too many elements to raw vector"
 msgstr "tentativo di aggiunta di molti elementi ad un vettore raw"
 
 #: src/main/connections.c:2777
-#, fuzzy
 msgid "attempt to seek outside the range of the raw connection"
-msgstr "tentativo di ricerca al di fuori della clipboard"
+msgstr "tentativo di ricerca al di fuori della connessione raw"
 
 #: src/main/connections.c:2788 src/main/connections.c:2792
 #: src/main/connections.c:2799 src/main/connections.c:2826
@@ -2328,7 +2329,7 @@ msgstr "input UTF-8 non valido in readChar()"
 
 #: src/main/connections.c:4695
 msgid "can only read in bytes in a non-UTF-8 MBCS locale"
-msgstr ""
+msgstr "si può leggere in byte in una localizzazione non-UTF-8 MBCS"
 
 #: src/main/connections.c:4767
 msgid "'object' is too short"
@@ -2600,7 +2601,7 @@ msgstr "l'argomento non dev'essere una funzione"
 
 #: src/main/debug.c:142
 msgid "cannot trace NULL"
-msgstr ""
+msgstr "non è possibile fare un trace di NULL"
 
 #: src/main/debug.c:146
 msgid "'tracemem' is not useful for promise and environment objects"
@@ -3071,6 +3072,8 @@ msgid ""
 "snapshot recorded with different graphics engine version (pre 11 - this is "
 "version %d)"
 msgstr ""
+"snapshot registrata con differenti versioni di engine grafici (pre 11 - "
+"questa è la versione %d)"
 
 #: src/main/engine.c:3008
 #, c-format
@@ -3078,6 +3081,8 @@ msgid ""
 "snapshot recorded with different graphics engine version (%d - this is "
 "version %d)"
 msgstr ""
+"snapshot registrata con differenti versioni di engine grafici (%d - questa è "
+"la versione %d)"
 
 #: src/main/engine.c:3087
 msgid "'expr' argument must be an expression"
@@ -3139,9 +3144,9 @@ msgid "cannot remove bindings from a locked environment"
 msgstr "non posso rimuovere i legami da un environment bloccato"
 
 #: src/main/envir.c:1215
-#, fuzzy, c-format
+#, c-format
 msgid "argument to '%s' is not an environment"
-msgstr "l'argomento non è un environment"
+msgstr "l'argomento per '%s' non è un ambiente"
 
 #: src/main/envir.c:1366
 #, c-format
@@ -3637,9 +3642,8 @@ msgid "invalid for() loop sequence"
 msgstr "sequenza ciclo for() non corretta"
 
 #: src/main/eval.c:2416
-#, fuzzy
 msgid "multi-argument returns are not permitted"
-msgstr "return multi-argomento sono deprecati"
+msgstr "l'invio di argomenti multipli non sono permessi"
 
 #: src/main/eval.c:2463
 msgid "invalid (NULL) left side of assignment"
@@ -3952,9 +3956,9 @@ msgid "integer literal %s contains unnecessary decimal point"
 msgstr ""
 
 #: src/main/gram.y:2203
-#, fuzzy, c-format
+#, c-format
 msgid "unable to allocate buffer for long string at line %d"
-msgstr "non è possibile allocare memoria (in GEregister)"
+msgstr "non è possibile allocare un buffer stringhe long alla linea %d"
 
 #: src/main/gram.y:2342 src/main/gram.y:2365 src/main/gram.y:2402
 #: src/main/gram.y:2438
@@ -4065,7 +4069,7 @@ msgid ""
 msgstr ""
 "Errore di compilazione del pattern PCRE\n"
 "\t'%s'\n"
-"\tat '%s'\n"
+"\tsu '%s'\n"
 
 #: src/main/grep.c:527
 #, c-format
@@ -4298,7 +4302,7 @@ msgstr "l'argomento %d si associa a più argomenti formali"
 #: src/main/match.c:281
 #, c-format
 msgid "partial argument match of '%s' to '%s'"
-msgstr ""
+msgstr "confronto argomento parziale di '%s' con '%s'"
 
 #: src/main/match.c:391
 #, c-format
@@ -4513,6 +4517,7 @@ msgstr "'UseMethod' usata in modo non appropriato"
 #, c-format
 msgid "no applicable method for '%s' applied to an object of class \"%s\""
 msgstr ""
+"nessun metodo applicabile per '%s' usato su un oggetto di classe \"%s\""
 
 #: src/main/objects.c:673
 msgid "'NextMethod' called from outside a function"
@@ -4674,10 +4679,9 @@ msgid "C level NEW macro called with null class definition pointer"
 msgstr ""
 
 #: src/main/objects.c:1701
-#, fuzzy, c-format
+#, c-format
 msgid "trying to generate an object from a virtual class (\"%s\")"
-msgstr ""
-"provo a generare un oggetto in C a partire dalla classe virtuale (\"%s\")"
+msgstr "provo a generare un oggetto da una classe virtuale (\"%s\")"
 
 #: src/main/objects.c:1786
 #, c-format
@@ -4689,9 +4693,8 @@ msgid "corrupted options list"
 msgstr "lista opzioni corrotta"
 
 #: src/main/options.c:135
-#, fuzzy
 msgid "invalid printing width, used 80"
-msgstr "match stringa parziale non valido"
+msgstr "larghezza di stampa non valida, utilizzati 80 caratteri"
 
 #: src/main/options.c:146
 msgid "invalid printing digits, used 7"
@@ -5520,7 +5523,7 @@ msgstr "simbolo di quote impostato non valido"
 
 #: src/main/scan.c:988
 msgid "embedded nul(s) found in input"
-msgstr ""
+msgstr "embedded nul trovati in input"
 
 #: src/main/seq.c:49
 msgid "unequal factor lengths"
@@ -5698,6 +5701,8 @@ msgid ""
 "negative serialized vector length:\n"
 "perhaps long vector from 64-bit version of R?"
 msgstr ""
+"lunghezza vettoriale serializzata negativa:\n"
+"forse un vettore long dalla versione a 64 bit di R?"
 
 #: src/main/serialize.c:1946
 msgid "this version of R cannot read class references"
@@ -5711,6 +5716,7 @@ msgstr "questa versione non può leggere riferimenti a funzioni generiche"
 #, c-format
 msgid "ReadItem: unknown type %i, perhaps written by later version of R"
 msgstr ""
+"ReadItem: tipo %i sconosciuto, forse creato con una versione successiva di R"
 
 #: src/main/serialize.c:2136
 #, c-format
@@ -5907,9 +5913,9 @@ msgid "arguments cannot be recycled to the same length"
 msgstr "gli argomenti non possono essere riutilizzati alla stessa lunghezza"
 
 #: src/main/sprintf.c:153 src/main/sprintf.c:260
-#, fuzzy, c-format
+#, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "lunghezza 'fmt' eccede la lunghezza massima del buffer %d"
+msgstr "la lunghezza 'fmt' eccede la lunghezza massima del formato %d"
 
 #: src/main/sprintf.c:172
 #, c-format
@@ -5929,6 +5935,7 @@ msgstr "argomenti insufficienti"
 #: src/main/sprintf.c:221
 msgid "at most one asterisk '*' is supported in each conversion specification"
 msgstr ""
+"almeno un asterisco '*' è supportato in ogni specificazione di conversione"
 
 #: src/main/sprintf.c:231
 msgid "argument for '*' conversion specification must be a number"
@@ -6119,7 +6126,7 @@ msgstr "errore interno nell'uso dell'indicizzazione ricorsiva"
 #: src/main/subscript.c:256
 #, c-format
 msgid "further partial match of '%s' to '%s'"
-msgstr ""
+msgstr "confronto parziale di '%s' con '%s'"
 
 #: src/main/subscript.c:303
 #, c-format
@@ -6600,9 +6607,9 @@ msgid ""
 "'citation()' on how to cite R or R packages in publications.\n"
 "\n"
 msgstr ""
-"R è un progetto di collaborazione con molti contributi esterni.\n"
+"R è un progetto collaborativo con molti contributi esterni.\n"
 "Scrivi 'contributors()' per maggiori informazioni e 'citation()'\n"
-"per sapere come citare R o i pacchetti di R nelle pubblicazioni.\n"
+"per sapere come citare R o i pacchetti nelle pubblicazioni.\n"
 "\n"
 
 #: src/main/version.c:43
