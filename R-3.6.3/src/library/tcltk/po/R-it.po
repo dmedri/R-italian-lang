@@ -14,6 +14,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.1\n"
 
 msgid "cannot handle object of mode '%s'"
 msgstr "impossibile gestire oggetti inmodalità '%s'"
@@ -28,77 +31,76 @@ msgid "Tcl package '%s' not found"
 msgstr "Pacchetto Tcl '%s' non trovato"
 
 msgid "The tkGUI is not available under Windows"
-msgstr ""
+msgstr "La tkGUI non è disponibile su Windows"
 
 msgid "File"
-msgstr ""
+msgstr "File"
 
 msgid "Demos"
-msgstr ""
+msgstr "Demo"
 
 msgid "Packages"
-msgstr ""
+msgstr "Pacchetti"
 
 msgid "Help"
-msgstr ""
+msgstr "Aiuto"
 
 msgid "Source R code"
-msgstr ""
+msgstr "Codice sorgente R"
 
 msgid "Quit"
-msgstr ""
+msgstr "Esci"
 
 msgid "Save workspace"
-msgstr ""
+msgstr "Salva workspace"
 
 msgid "Don't save workspace"
-msgstr ""
+msgstr "Non salvare il workspace"
 
 msgid "t test"
-msgstr ""
+msgstr "test t"
 
 msgid "Density"
-msgstr ""
+msgstr "Densità"
 
 msgid "Interactive linear fitting"
-msgstr ""
+msgstr "Linear fitting interattivo"
 
 msgid "R FAQ"
-msgstr ""
+msgstr "R FAQ"
 
 msgid "Load"
-msgstr ""
+msgstr "Carica"
 
 msgid "Go get them!"
-msgstr ""
+msgstr "Vai a prenderli!"
 
 msgid "Load packages"
-msgstr ""
+msgstr "Carica pacchetti"
 
 msgid "Install packages from CRAN"
-msgstr ""
+msgstr "Installa pacchetti da CRAN"
 
 msgid "Help topic:"
-msgstr ""
+msgstr "Argomento guida:"
 
 msgid "Manuals in PDF format"
-msgstr ""
+msgstr "Manuali in formato PDF"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Cancella"
 
 msgid "'pb' is not from class %s"
-msgstr ""
+msgstr "'pb' non è della classe %s"
 
 msgid "'filters' must be a 2-column character matrix"
-msgstr ""
+msgstr "'filters' dev'essere una matrice di caratteri a 2 colonne"
 
-#, fuzzy
 msgid "Tcl/Tk support is not available on this system"
-msgstr "I file di supporto a Tcl/Tk non sono stati installati"
+msgstr "Il supporto Tcl/tk non è disponibile su questo sistema"
 
 msgid "Tcl/Tk support files were not installed"
 msgstr "I file di supporto a Tcl/Tk non sono stati installati"
