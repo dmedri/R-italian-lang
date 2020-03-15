@@ -15,6 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 msgid "'%s' is defunct."
 msgstr "'%s' è rimossa."
@@ -634,7 +636,7 @@ msgid "more 'from' files than 'to' files"
 msgstr "ci sono più file 'from' che file 'to'"
 
 msgid "'recursive' will be ignored as 'to' is not a single existing directory"
-msgstr ""
+msgstr "'recursive' sarà ignorato perché 'to' non è una directory esistente"
 
 msgid "cannot overwrite a non-directory with a directory"
 msgstr "non è possibile sovrascrivere con una directory qualcosa che non lo è"
@@ -735,13 +737,11 @@ msgstr "le componenti di 'max.distance' devono essere non negative"
 msgid "unknown match distance components ignored"
 msgstr "ignorate le componenti sconosciute della distanza"
 
-#, fuzzy
 msgid "unknown cost components ignored"
-msgstr "le componenti sconosciute della distanza verranno ignorate"
+msgstr "le componenti di costo sconosciuti saranno ignorate"
 
-#, fuzzy
 msgid "cost components must be non-negative"
-msgstr "le componenti di 'max.distance' devono essere non negative"
+msgstr "le componenti di costo devono essere non negative"
 
 msgid "%s and %s must have the same length"
 msgstr "%s e %s devono avere la medesima lunghezza"
@@ -749,21 +749,20 @@ msgstr "%s e %s devono avere la medesima lunghezza"
 msgid "need non-overlapping matches for %s"
 msgstr ""
 
-#, fuzzy
 msgid "missing replacement values are not allowed"
-msgstr "'row.names' mancanti non sono permesse"
+msgstr "i valori di sostituzione mancanti non sono ammessi"
 
 msgid "must have replacement values for matches"
-msgstr ""
+msgstr "deve avere valori di sostituzione per i confronti"
 
 msgid "value does not provide any replacement values"
-msgstr ""
+msgstr "il valore non fornisce alcun valore di sostituzione"
 
 msgid "must have replacements for non-matches"
-msgstr ""
+msgstr "deve avere sostituzioni per i non-confronti"
 
 msgid "must have replacements for matches"
-msgstr ""
+msgstr "deve avere sostituzioni per i confronti"
 
 msgid "No factors specified"
 msgstr "Nessun factor specificato"
@@ -778,7 +777,7 @@ msgid "unknown conflict policy: %s"
 msgstr ""
 
 msgid "only one of 'include.only' and 'exclude' can be used"
-msgstr ""
+msgstr "solo uno di 'include.only' e 'exclude' possono essere utilizzati"
 
 msgid "package %s has not been installed properly"
 msgstr "il pacchetto %s non è stato installato correttamente"
@@ -814,7 +813,7 @@ msgid "Attaching package: %s"
 msgstr "Caricamento pacchetto: %s"
 
 msgid "'verbose' and 'quietly' are both true; being verbose then .."
-msgstr ""
+msgstr "'verbose' e 'quietly' sono entrambi true; si opta per la verbosità .."
 
 msgid "invalid package name"
 msgstr "nome pacchetto non valido"
@@ -828,9 +827,8 @@ msgstr "nessuna struttura di libreria in 'lib.loc'"
 msgid "%s is not a valid installed package"
 msgstr "%s non è un valido pacchetto installato"
 
-#, fuzzy
 msgid "%s not found on search path, using pos = 2"
-msgstr "'%s' non trovato nel percorso di ricerca, uso pos = 2"
+msgstr "%s non trovato nel percorso di ricerca, si utilizza pos = 2"
 
 msgid ""
 "Package %s version %s cannot be unloaded:\n"
@@ -914,12 +912,9 @@ msgstr ""
 "pacchetto %s trovato più volte, sarà utilizzato il primo da\n"
 "  %s"
 
-#, fuzzy
 msgid ""
 "Further information is available in the following vignettes in directory %s:"
-msgstr ""
-"Maggiori informazioni si trovano nelle vignette nella seguente directory "
-"'%s':"
+msgstr "Maggiori informazioni si trovano nelle seguenti directory vignette %s:"
 
 msgid "Description:"
 msgstr "Descrizione:"
@@ -937,7 +932,7 @@ msgid "package %s required by %s could not be found"
 msgstr "pacchetto %s richiesto da %s non è stato trovato"
 
 msgid "version %s of %s masked by %s in %s"
-msgstr ""
+msgstr "versione %s di %s mascherata da %s in %s"
 
 msgid "package %s could not be loaded"
 msgstr "il pacchetto %s non può essere caricato"
@@ -1809,11 +1804,10 @@ msgid_plural "replacement element %d has %d rows to replace %d rows"
 msgstr[0] "l'elemento sostitutivo %d ha %d righe per rimpiazzarne %d"
 msgstr[1] "l'elemento sostitutivo %d ha %d righe per rimpiazzarne %d"
 
-#, fuzzy
 msgid "%d row in value to replace %d rows"
 msgid_plural "%d rows in value to replace %d rows"
-msgstr[0] "%d righe in 'value' per sostituire %d righe"
-msgstr[1] "%d righe in 'value' per sostituire %d righe"
+msgstr[0] "%d riga in value per sostituire %d righe"
+msgstr[1] "%d righe in value per sostituire %d righe"
 
 msgid "replacement data has %d row to replace %d rows"
 msgid_plural "replacement data has %d rows to replace %d rows"
@@ -1880,22 +1874,20 @@ msgstr[0] ""
 msgstr[1] ""
 "oggetti  'methods' richiesti non trovati nel environment/pacchetto '%s': %s"
 
-#, fuzzy
 msgid "class %s is not exported by 'namespace:%s'"
 msgid_plural "classes %s are not exported by 'namespace:%s'"
-msgstr[0] "l'oggetto %s non è esportato da 'namespace:%s'"
-msgstr[1] "gli oggetti %s non sono esportati da 'namespace:%s'"
+msgstr[0] "la classe %s non è esportata da 'namespace:%s'"
+msgstr[1] "le classi %s non sono esportate da 'namespace:%s'"
 
 msgid "object %s is not exported by 'namespace:%s'"
 msgid_plural "objects %s are not exported by 'namespace:%s'"
 msgstr[0] "l'oggetto %s non è esportato da 'namespace:%s'"
 msgstr[1] "gli oggetti %s non sono esportati da 'namespace:%s'"
 
-#, fuzzy
 msgid "previous export '%s' is being replaced"
 msgid_plural "previous exports '%s' are being replaced"
-msgstr[0] "export precedente %s sta per essere sostituito"
-msgstr[1] "export precedenti %s stanno per essere sostituiti"
+msgstr[0] "l'esportazione precedente '%s' è stata sostituita"
+msgstr[1] "le esportazioni precedenti '%s' sono stata sostituite"
 
 msgid "S3 method %s was declared in NAMESPACE but not found"
 msgid_plural "S3 methods %s were declared in NAMESPACE but not found"
