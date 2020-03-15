@@ -18,43 +18,43 @@ msgstr ""
 "X-Generator: Poedit 2.2.1\n"
 
 msgid "invalid 'at' location in 'axis'"
-msgstr ""
+msgstr "posizione 'at' non valida in 'axis'"
 
 msgid "invalid to specify axis labels when 'at' is NULL"
-msgstr ""
+msgstr "non ha senso specificare le etichette degli assi quando 'at' è NULL"
 
 msgid "'labels' and 'at' locations must have same length"
-msgstr ""
+msgstr "le posizioni 'labels' e 'at' devono avere la medesima lunghezza"
 
 msgid "logical 'label' supplied of length 0"
-msgstr ""
+msgstr "'label' logica fornita di lunghezza 0"
 
 msgid "end points must not be identical"
-msgstr ""
+msgstr "i punti finali non devono essere identici"
 
 msgid "'x1', 'y1', 'x2', and 'y2' must be units"
-msgstr ""
+msgstr "'x1', 'y1', 'x2' e 'y2' devono essere unità"
 
 msgid "'shape' must be between -1 and 1"
-msgstr ""
+msgstr "'shape' dev'essere tra -1 e 1"
 
 msgid "'squareShape' must be between -1 and 1"
-msgstr ""
+msgstr "'squareShape' dev'essere tra -1 e 1"
 
 msgid "'arrow' must be an arrow object or NULL"
-msgstr ""
+msgstr "'arrow' dev'essere un oggetto arrow o NULL"
 
 msgid "how did we get here?"
 msgstr "come siamo arrivati qui?"
 
 msgid "must start new page if showing leaves separately"
-msgstr ""
+msgstr "bisogna avviare una nuova pagina se si mostrano le foglie separatamente"
 
 msgid "invalid 'edit' information"
 msgstr "informazioni 'edit' non valide"
 
 msgid "'gEditList' can only contain 'gEdit' objects"
-msgstr ""
+msgstr "'gEditList' può contenere unicamente oggetti 'gEdit'"
 
 msgid "invalid 'frame'"
 msgstr "'frame' non valido"
@@ -63,25 +63,25 @@ msgid "invalid 'grob'"
 msgstr "'grob' non valido"
 
 msgid "invalid 'row' and/or 'col' (no such cell in frame layout)"
-msgstr ""
+msgstr "'row' e/o 'col' non valide (nessuna cella nel layout del frame)"
 
 msgid "'col' can only be a range of existing columns"
-msgstr ""
+msgstr "'col' può essere unicamente un intervallo di colonne esistenti"
 
 msgid "invalid 'col' specification"
 msgstr "specificazione 'col' non valida"
 
 msgid "'row' can only be a range of existing rows"
-msgstr ""
+msgstr "'row' può essere unicamente un intervallo di righe esistenti"
 
 msgid "invalid 'row' specification"
 msgstr "specificazione 'row' non valida"
 
 msgid "cannot specify more than one of 'side=[\"left\", \"right\"]', 'col', 'col.before', or 'col.after'"
-msgstr ""
+msgstr "non si possono specificare più di un 'side=[\"left\", \"right\"]', 'col', 'col.before', o 'col.after'"
 
 msgid "must specify exactly one of 'side=[\"top\", \"bottom\"]', 'row', 'row.before', or 'row.after'"
-msgstr ""
+msgstr "bisogna specificare esattamente uno di 'side=[\"top\", \"bottom\"]', 'row', 'row.before', o 'row.after'"
 
 msgid "invalid 'n'"
 msgstr "'n' non valido"
@@ -90,22 +90,22 @@ msgid "invalid 'f'"
 msgstr "'f' non valido"
 
 msgid "'gpar' element '%s' must not be length 0"
-msgstr ""
+msgstr "l'elemento 'gpar' '%s' dev'essere di lunghezza 0"
 
 msgid "mixture of missing and non-missing values for %s"
-msgstr ""
+msgstr "miscela di valori mancanti e non per %s"
 
 msgid "'gamma' 'gpar' element is defunct"
-msgstr ""
+msgstr "l'elemento 'gamma' 'gpar' è rimosso"
 
 msgid "invalid 'linemitre' value"
-msgstr ""
+msgstr "valore 'linemitre' non valido"
 
 msgid "invalid 'alpha' value"
 msgstr "valore 'alpha' non valido"
 
 msgid "must specify only one of 'font' and 'fontface'"
-msgstr ""
+msgstr "bisogna specificare solo un 'font' e 'fontface'"
 
 msgid "invalid fontface"
 msgstr "carattere non valido"
@@ -114,13 +114,13 @@ msgid "argument must be a 'gpar' object"
 msgstr "l'argomento dev'essere un oggetto 'gpar'"
 
 msgid "must specify only valid 'gpar' names"
-msgstr ""
+msgstr "bisogna specificare solo un valido nome 'gpar'"
 
 msgid "invalid display list element"
-msgstr ""
+msgstr "elemento lista display non valido"
 
 msgid "one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE')"
-msgstr ""
+msgstr "uno o più grobs sovrascritti (la presa NON sarà affidabile; utilizza 'wrap.grobs = TRUE')"
 
 msgid "viewport overwritten (grab MAY not be faithful)"
 msgstr ""
@@ -132,7 +132,7 @@ msgid "only valid to push viewports"
 msgstr ""
 
 msgid "must specify at least one viewport"
-msgstr ""
+msgstr "bisogna specificare almeno un viewport"
 
 msgid "Down viewport failed to record on display list"
 msgstr ""
@@ -141,25 +141,25 @@ msgid "Down viewport incorrectly recorded on display list"
 msgstr ""
 
 msgid "must pop at least one viewport"
-msgstr ""
+msgstr "bisogna alzare almeno un viewport"
 
 msgid "must navigate up at least one viewport"
-msgstr ""
+msgstr "bisogna restare almeno in una viewport"
 
 msgid "Invalid number of generations"
-msgstr ""
+msgstr "numero di generazioni non valido"
 
 msgid "invalid object inserted on the display list"
-msgstr ""
+msgstr "oggetto non valido inserito nella lista display"
 
 msgid "invalid modification of the display list"
 msgstr ""
 
 msgid "'expr' must return a grob or gList"
-msgstr ""
+msgstr "'expr' deve restituire un grob o un gList"
 
 msgid "invalid 'grob' argument"
-msgstr ""
+msgstr "argomento 'grob' non valido"
 
 msgid "invalid 'vp' slot"
 msgstr "slot 'vp' non valido"
@@ -174,19 +174,19 @@ msgid "a 'grob' path must contain at least one 'grob' name"
 msgstr ""
 
 msgid "unable to coerce to \"gList\""
-msgstr ""
+msgstr "non è possibile la coercizione in \"gList\""
 
 msgid "only 'grobs' allowed in \"gList\""
-msgstr ""
+msgstr "sono ammessi solo \"grobs\" in \"gList\""
 
 msgid "invalid element to add to \"gList\""
-msgstr ""
+msgstr "elemento non valido da aggiungere a \"gList\""
 
 msgid "can only set 'children' for a \"gTree\""
-msgstr ""
+msgstr "si può impostare unicamente 'children' per un \"gTree\""
 
 msgid "'children' must be a \"gList\""
-msgstr ""
+msgstr "'children' dev'essere una \"gList\""
 
 msgid "it is only valid to get 'children' from a \"gTree\""
 msgstr ""
@@ -195,7 +195,7 @@ msgid "invalid \"gTree\" class"
 msgstr "classe 'gTree' non valida"
 
 msgid "'allDevices' not yet implemented"
-msgstr ""
+msgstr "'allDevices' non ancora implementato"
 
 msgid "invalid 'gPath'"
 msgstr "'gPath' non valido"
@@ -264,7 +264,7 @@ msgid "Invalid 'order'"
 msgstr "'order' non valido"
 
 msgid "'l' must be a layout"
-msgstr ""
+msgstr "'l' dev'essere un layout"
 
 msgid "'pch' and 'labels' not the same length"
 msgstr ""
@@ -276,7 +276,7 @@ msgid "'vgap' must be single unit"
 msgstr ""
 
 msgid "'nrow' must be >= 1"
-msgstr ""
+msgstr "'nrow' dev'essere >= 1"
 
 msgid "'ncol' must be >= 1"
 msgstr "'ncol' dev'essere >= 1"
@@ -318,10 +318,10 @@ msgid "invalid 'ends' or 'type' argument"
 msgstr "argomento 'ends' o 'type' non valido"
 
 msgid "'x' and 'y' must be units"
-msgstr ""
+msgstr "'x' e 'y' devono essere unità"
 
 msgid "'x' and 'y' must have length 1"
-msgstr ""
+msgstr "'x' e 'y' devono avere lunghezza 1"
 
 msgid "invalid 'arrow' argument"
 msgstr "argomento 'arrow' non valido"
@@ -366,13 +366,13 @@ msgid "'x', 'y', 'width', and 'height' must be units"
 msgstr ""
 
 msgid "invalid 'rot' value"
-msgstr ""
+msgstr "valore 'rot' non valido"
 
 msgid "zero-length 'pch'"
-msgstr ""
+msgstr "'pch' con lunghezza zero"
 
 msgid "'x', 'y' and 'size' must be units"
-msgstr ""
+msgstr "'x', 'y' e 'size' devono essere unità"
 
 msgid "'x' and 'y' must be 'unit' objects and have the same length"
 msgstr ""
@@ -396,7 +396,7 @@ msgid "'x' argument must be a unit object"
 msgstr ""
 
 msgid "invalid 'axis' or 'type'"
-msgstr ""
+msgstr "'axis' o 'type' non valido"
 
 msgid "no string supplied for 'strwidth/height' unit"
 msgstr ""
@@ -450,7 +450,7 @@ msgid "it is invalid to combine 'unit' objects with other types"
 msgstr ""
 
 msgid "invalid 'unit' object"
-msgstr ""
+msgstr "oggetto 'unit' non valido"
 
 msgid "invalid 'theta'"
 msgstr "'theta' non valido"
@@ -465,28 +465,28 @@ msgid "invalid 'clip' value"
 msgstr "valore 'clip' non valido"
 
 msgid "invalid 'xscale' in viewport"
-msgstr ""
+msgstr "'xscale' non valido nel viewport"
 
 msgid "invalid 'yscale' in viewport"
-msgstr ""
+msgstr "'yscale' non valido nel viewport"
 
 msgid "invalid 'angle' in viewport"
-msgstr ""
+msgstr "'angle' non valido nel viewport"
 
 msgid "invalid 'layout' in viewport"
-msgstr ""
+msgstr "'layout' non valido nel viewport"
 
 msgid "invalid 'layout.pos.row' in viewport"
-msgstr ""
+msgstr "'layout.pos.row' non valido nel viewport"
 
 msgid "invalid 'layout.pos.col' in viewport"
-msgstr ""
+msgstr "'layout.pos.col' non valido nel viewport"
 
 msgid "only viewports allowed in 'vpList'"
-msgstr ""
+msgstr "solo i viewport sono ammessi in 'vpList'"
 
 msgid "only viewports allowed in 'vpStack'"
-msgstr ""
+msgstr "solo i viewport sono ammessi in 'vpStack'"
 
 msgid "'parent' must be a viewport and 'children' must be a 'vpList' in 'vpTree'"
 msgstr ""
@@ -495,18 +495,18 @@ msgid "a viewport path must contain at least one viewport name"
 msgstr ""
 
 msgid "must specify at least one of 'x' or 'xscale'"
-msgstr ""
+msgstr "bisogna specificare almeno uno di 'x' o 'xscale'"
 
 msgid "must specify at least one of 'y' or 'yscale'"
-msgstr ""
+msgstr "bisogna specificare almeno uno di 'y' o 'yscale'"
 
 msgid "shutting down all devices when unloading 'grid' namespace"
 msgstr ""
 
 msgid "invalid grob name"
 msgid_plural "invalid grob names"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "nome grob non valido"
+msgstr[1] "nomi grob non validi"
 
 msgid "invalid viewport name"
 msgid_plural "invalid viewport names"
