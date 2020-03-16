@@ -50,7 +50,7 @@ msgid "incorrect 'col': must be length 2"
 msgstr "'col' non valido: dev'essere di lunghezza 2"
 
 msgid "only for 1-D table"
-msgstr ""
+msgstr "solo per una tabella 1-D"
 
 msgid "'side' must be in {1:4}"
 msgstr "'side' dev'essere in {1:4}"
@@ -72,9 +72,11 @@ msgstr "'height' dev'essere un vettore o una matrice"
 
 msgid "Cannot use shading lines in bars when log scale is used"
 msgstr ""
+"Non è possibile utilizzare le linee ombreggiate nelle barre quando si usa la "
+"scala logaritmica"
 
 msgid "log scale error: at least one 'height + offset' value <= 0"
-msgstr ""
+msgstr "errore scala logaritmica: almeno un valore 'height + offset' <=0"
 
 msgid "log scale error: 'xlim' <= 0"
 msgstr "errore log scale: 'xlim' <= 0"
