@@ -19,7 +19,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 
 msgid "must have at least 'ord' knots"
-msgstr ""
+msgstr "bisogna avere almeno nodi 'ord'"
 
 msgid "length of 'derivs' is larger than length of 'x'"
 msgstr "la lunghezza di 'derivs' è più grande della lunghezza di 'x'"
@@ -28,22 +28,22 @@ msgid "empty 'derivs'"
 msgstr "'derivs' vuoto"
 
 msgid "'ord' must be positive integer, at most the number of knots"
-msgstr ""
+msgstr "'ord' dev'essere un intero positivo, al massimo il numero dei nodi"
 
 msgid "need at least %s (=%d) knots"
-msgstr ""
+msgstr "richiesti almeno %s (=%d) nodi"
 
 msgid "the 'x' data must be in the range %g to %g unless you set '%s'"
-msgstr ""
+msgstr "i dati 'x' devono essere nell'intervallo %g a %g finché non imposti '%s'"
 
 msgid "%s needs package 'Matrix' correctly installed"
-msgstr ""
+msgstr "%s richiede il pacchetto 'Matrix' correttamente installato"
 
 msgid "values of 'x' must be distinct"
 msgstr "i valori di 'x' devono essere distinti"
 
 msgid "must have at least 'ord'=%d points"
-msgstr ""
+msgstr "devi avere almeno 'ord'=%d punti"
 
 msgid "'formula' must be of the form \"y ~ x\""
 msgstr "'formula' dev'essere nella forma \"y ~ x\""
@@ -58,10 +58,10 @@ msgid "'ord' must be >= 2"
 msgstr "'ord' dev'essere >= 2"
 
 msgid "the range of 'x' values exceeds one period"
-msgstr ""
+msgstr "l'intervallo dei valori di 'x' eccede un periodo"
 
 msgid "knot positions must be non-decreasing"
-msgstr ""
+msgstr "le posizioni dei nodi devono essere non-decrescenti"
 
 msgid "lengths of 'x' and 'y' must be the same"
 msgstr "le lunghezze di 'x' e 'y' devono essere le medesime"
@@ -70,7 +70,7 @@ msgid "'deriv' must be between 0 and %d"
 msgstr "'deriv' dev'essere tra 0 e %d"
 
 msgid "knot positions must be strictly increasing"
-msgstr ""
+msgstr "le posizioni dei nodi devono essere strettamente crescenti"
 
 msgid "currently implemented only for cubic splines"
 msgstr "attualmente implementate solo per splines cubiche"
@@ -85,4 +85,4 @@ msgid "'df' was too small; have used %d"
 msgstr "'df' era troppo piccolo; è stato usato %d"
 
 msgid "some 'x' values beyond boundary knots may cause ill-conditioned bases"
-msgstr ""
+msgstr "alcuni valori 'x' oltre i nodi di confine potrebbero causare basi mal condizionate"
