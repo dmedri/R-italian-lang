@@ -14,6 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 #: src/gnuwin32/console.c:1170 src/gnuwin32/console.c:1212
 msgid "Not enough memory"
@@ -48,7 +50,7 @@ msgstr "Salva selezione su"
 
 #: src/gnuwin32/console.c:2138
 msgid "Save console contents to"
-msgstr "Salva contenuto console su"
+msgstr "Salva contenuto in console su"
 
 #: src/gnuwin32/console.c:2237
 msgid "Scrolling.\n"
