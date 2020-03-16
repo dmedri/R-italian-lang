@@ -15,6 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 #: io.c:329 io.c:333 io.c:343 io.c:574 io.c:774 io.c:827 io.c:840 io.c:844
 #: io.c:850 io.c:851 io.c:1097 io.c:1098 io.c:1100 io.c:1101 io.c:1102
@@ -29,7 +31,7 @@ msgstr "argomento '%s' non valido"
 
 #: io.c:352 io.c:837
 msgid "invalid quote symbol set"
-msgstr "simbolo di quote impostato non valido"
+msgstr "simbolo di citazione non valido"
 
 #: io.c:364 io.c:860 io.c:1085
 msgid "cannot open the connection"
@@ -159,7 +161,7 @@ msgstr "tipo sconosciuto"
 #: windows/dialogs.c:213 windows/dialogs.c:237 windows/dialogs.c:275
 #: windows/dialogs.c:310
 msgid "menu functions can only be used in the GUI"
-msgstr "le funzioni menu possono solo essere usate nellal GUI"
+msgstr "le funzioni menu possono solo essere usate nella GUI"
 
 #: windows/dialogs.c:245
 #, c-format

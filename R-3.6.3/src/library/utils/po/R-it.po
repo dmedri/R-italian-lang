@@ -15,6 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 
 msgid ""
 "RShowDoc() should be used with a character string argument specifying\n"
@@ -196,7 +198,7 @@ msgid "%s should be one of %s"
 msgstr "%s dev'essere uno di %s"
 
 msgid "Argument '%s' is deprecated; rather set '%s' instead."
-msgstr "L'argomento '%s' è deprecato; come alternativa si usi '%s'."
+msgstr "L'argomento '%s' è deprecato; come alternativa si utilizzi '%s'."
 
 msgid "A BibTeX entry for LaTeX users is"
 msgstr "Una voce BibTeX per gli utenti LaTeX è"
@@ -626,7 +628,7 @@ msgid "--- Please select a CRAN mirror for use in this session ---"
 msgstr "--- Per piacere, seleziona un mirror CRAN per la sessione ---"
 
 msgid "trying to use CRAN without setting a mirror"
-msgstr "utilizzo di CRAN senza impostare un mirror"
+msgstr "utilizzo di CRAN senza un mirror impostato"
 
 msgid "'download.file()' error code '%d'"
 msgstr "'download.file()' codice errore '%d'"
