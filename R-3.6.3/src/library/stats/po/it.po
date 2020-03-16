@@ -53,7 +53,7 @@ msgstr "il lag massimo supportato è 350"
 #: bandwidths.c:126
 #, c-format
 msgid "non-finite x[%d] in bandwidth calculation"
-msgstr ""
+msgstr "x[%d] non-finito nel calcolo della larghezza di banda"
 
 #: complete_cases.c:26
 #, c-format
@@ -62,7 +62,7 @@ msgstr "argomento con 'type' (%s) non valido"
 
 #: complete_cases.c:120
 msgid "no input has determined the number of cases"
-msgstr ""
+msgstr "nessun input ha determinato il numero di casi"
 
 #: complete_cases.c:223
 msgid "not all arguments have the same length"
@@ -173,7 +173,7 @@ msgstr "L'argomento %s dev'essere un vettore numerico non vuoto"
 #, c-format
 msgid "argument %s must be a numeric vector of length 1 or length %d"
 msgstr ""
-"L'argomento %s dev'essere un vettore numerico di lunghezza 1 o lunghezza %d"
+"l'argomento %s dev'essere un vettore numerico di lunghezza 1 o lunghezza %d"
 
 #: fexact.c:273
 #, c-format
@@ -195,7 +195,7 @@ msgstr ""
 #: fexact.c:1035
 #, c-format
 msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
-msgstr ""
+msgstr "Bug in fexact3, it[i=%d]=%d: chiave negativa %d (kyy=%d)\n"
 
 #: fexact.c:1064
 #, c-format
@@ -204,6 +204,9 @@ msgid ""
 "  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'"
 msgstr ""
+"FEXACT errore 30.  La lunghezza dello stack eccede in f3xact,\n"
+"  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
+"Incremente l'area di lavoro o considera l'utilizzo di 'simulate.p.value=TRUE'"
 
 #: fexact.c:1399
 #, c-format
@@ -211,6 +214,9 @@ msgid ""
 "FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
 "Try increasing the size of the workspace."
 msgstr ""
+"FEXACT errore 6 (f5xact).  LDKEY=%d è troppo piccolo per questo problema: "
+"kval=%d.\n"
+"Prova ad incrementare la dimensione dell'area di lavoro."
 
 #: fexact.c:1412
 #, c-format
@@ -219,6 +225,10 @@ msgid ""
 "  (kval=%d, itop-ldstp=%d).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'."
 msgstr ""
+"FEXACT errore 7(%s). LDSTP=%d è troppo piccolo per questo problema,\n"
+"  (kval=%d, itop-ldstp=%d).\n"
+"Incrementa l'area di lavoro o considera l'utilizzo di 'simulate.p."
+"value=TRUE'."
 
 #: fexact.c:1449
 #, c-format
@@ -227,6 +237,9 @@ msgid ""
 "  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'"
 msgstr ""
+"FEXACT errore 7(%s). LDSTP=%d è troppo piccolo per questo problema,\n"
+"  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
+"Incrementa l'area di lavoro o considera l'utilizzo di 'simulate.p.value=TRUE'"
 
 #: fourier.c:66 fourier.c:161
 msgid "non-numeric argument"
@@ -285,7 +298,7 @@ msgstr "l'algoritmo non converge"
 
 #: loglin.c:375
 msgid "incorrect specification of 'table' or 'start'"
-msgstr ""
+msgstr "specificazione incorretta di 'table' o 'start'"
 
 #: lowess.c:292
 msgid "'f' must be finite and > 0"
@@ -309,11 +322,11 @@ msgstr "Matrice singolare in ldet"
 
 #: mAR.c:700
 msgid "Invalid vmethod"
-msgstr "metodo non valido"
+msgstr "Vmethod non valido"
 
 #: mAR.c:836
 msgid "Burg's algorithm failed to find partial correlation"
-msgstr "l'alrgoritmo di Burg non è riuscito a trovare correlazione parziale"
+msgstr "L'algoritmo di Burg non è riuscito a trovare una correlazione parziale"
 
 #: model.c:97
 msgid "invalid variables"
@@ -381,12 +394,12 @@ msgstr ""
 #: model.c:560
 #, c-format
 msgid "term %d would require %.0g columns"
-msgstr ""
+msgstr "il termine %d richiede %.0g colonne"
 
 #: model.c:564
 #, c-format
 msgid "matrix would require %.0g columns"
-msgstr ""
+msgstr "la matrice richiede %.0g colonne"
 
 #: model.c:575
 #, c-format
@@ -400,6 +413,8 @@ msgstr "i nomi dei termini saranno troncati"
 #: model.c:638
 msgid "complex variables are not currently allowed in model matrices"
 msgstr ""
+"le variabili complesse non sono attualmente consentite nelle matrici del "
+"modello"
 
 #: model.c:662
 #, c-format
@@ -469,7 +484,7 @@ msgstr "length(m) dev'essere almeno due"
 
 #: monoSpl.c:74
 msgid "Argument Sx must be numeric vector one shorter than m[]"
-msgstr ""
+msgstr "L'argomento Sx dev'essere un vettore numerico di uno più corto di m[]"
 
 #: nls.c:99
 msgid "'control' must be a list"
@@ -517,7 +532,7 @@ msgstr "'rho' deve essere un environment"
 
 #: nls.c:299
 msgid "'dir' is not a numeric vector of the correct length"
-msgstr ""
+msgstr "'dir' non è un vettore numerico della lunghezza giusta"
 
 #: nls.c:313 nls.c:347
 msgid "Missing value or an infinity produced when evaluating the model"
@@ -630,6 +645,8 @@ msgstr "valore della funzione non valido nell'ottimizzatore 'nlm'"
 #: optimize.c:566 optimize.c:581
 msgid "function value caching for optimization is seriously confused"
 msgstr ""
+"il caching del valore della funzione per l'ottimizzazione è seriamente "
+"confuso"
 
 #: optimize.c:596
 msgid "numeric parameter expected"
@@ -782,7 +799,7 @@ msgstr "Rf_divset: alg = %d dev'essere 1, 2, 3, o 4"
 
 #: port.c:149
 msgid "port algorithms 3 or higher are not supported"
-msgstr ""
+msgstr "gli algoritmi di porta 3 o successivi non sono supportati"
 
 #: port.c:313
 #, c-format
@@ -807,12 +824,13 @@ msgstr "'d' dev'essere un vettore numerico non vuoto"
 
 #: port.c:384
 msgid "When Hessian defined must also have gradient defined"
-msgstr ""
+msgstr "Quando Hessian è definito lo dev'essere anche il gradiente"
 
 #: port.c:387
 #, c-format
 msgid "environment 'rho' must contain a numeric vector '.par' of length %d"
 msgstr ""
+"l'ambiente 'rho' deve contenere un vettore numerico '.par' di lunghezza %d"
 
 #: port.c:401
 msgid "'lower' and 'upper' must be numeric vectors"
@@ -820,7 +838,7 @@ msgstr "'lower' e 'upper' devono essere vettori numerici"
 
 #: port.c:460
 msgid "'getElement' applies only to named lists"
-msgstr ""
+msgstr "'getElement' si applica solo a liste denominate"
 
 #: port.c:481
 #, c-format
@@ -836,10 +854,12 @@ msgstr "'gradient' dev'essere una matrice numerica di dimensioni (%d,%d)"
 #, c-format
 msgid "fcn produced mode %d, length %d - wanted mode %d, length %d"
 msgstr ""
+"fcn ha prodotto la modalità %d, lunghezza %d - richiesta modalità %d, "
+"lunghezza %d"
 
 #: port.c:528
 msgid "invalid type for eval_check_store"
-msgstr ""
+msgstr "tipo non valido per eval_check_store"
 
 #: port.c:549
 msgid "m must be a list"
@@ -855,15 +875,15 @@ msgstr "inconsistenti gradi di libertà e dimensione"
 
 #: rWishart.c:86
 msgid "'scal' must be a square, real matrix"
-msgstr ""
+msgstr "'scal' dev'essere una matrice reale quadrata"
 
 #: rWishart.c:98
 msgid "'scal' matrix is not positive-definite"
-msgstr ""
+msgstr "la matrice 'scal' non è positivamente definita"
 
 #: random.c:53 random.c:128 random.c:200 random.c:284
 msgid "NAs produced"
-msgstr "generati NA"
+msgstr "Generati NA"
 
 #: random.c:60 random.c:66 random.c:72 random.c:90 random.c:161 random.c:242
 #: random.c:376
@@ -893,12 +913,12 @@ msgstr "secondo argomento 'size' non valido"
 #: rcont.c:83
 #, c-format
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
-msgstr ""
+msgstr "rcont2 [%d,%d]: exp underflow su 0; errore dell'algoritmo"
 
 #: smooth.c:107
 #, c-format
 msgid "invalid end-rule for running median of 3: %d"
-msgstr ""
+msgstr "regola finale non valida per calcolare la mediana di 3: %d"
 
 #: starma.c:364
 #, c-format
