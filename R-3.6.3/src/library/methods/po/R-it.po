@@ -753,11 +753,15 @@ msgid ""
 "All %s names must be nonempty in:\n"
 "(%s)"
 msgstr ""
+"Tutti i %s nomi devono essere non-vuoti in:\n"
+"(%s)"
 
 msgid ""
 "All %s names must be distinct in:\n"
 "(%s)"
 msgstr ""
+"Tutti i %s nomi devono essere distinti in:\n"
+"(%s)"
 
 msgid "argument %s must be a list or a character vector; got an object of class %s"
 msgstr ""
@@ -781,7 +785,7 @@ msgid "trying to set an 'as' relation from %s to itself"
 msgstr ""
 
 msgid "class %s is not defined in this environment"
-msgstr ""
+msgstr "la classe %s non è definita in questo ambiente"
 
 msgid "class %s is a class union: 'coerce' relations to a class union are not meaningful"
 msgstr ""
@@ -801,16 +805,16 @@ msgid "ambiguous object (length != 1) to coerce to \"name\""
 msgstr ""
 
 msgid "undefined 'coerce' method"
-msgstr ""
+msgstr "metodo 'coerce' non definito"
 
 msgid "methods currently exist for coercing from %s to %s; they will be replaced."
 msgstr ""
 
 msgid "Function must be an S4 generic"
-msgstr ""
+msgstr "La funzione dev'essere un S4 generico"
 
 msgid "method is not being debugged"
-msgstr ""
+msgstr "il metodo non è a punto (debugged)"
 
 msgid "object %s not found"
 msgstr "oggetto %s non trovato"
@@ -819,16 +823,16 @@ msgid "object %s not changed (it is not consistent with the current definition o
 msgstr ""
 
 msgid "no definition for the class of %s (class %s) found"
-msgstr ""
+msgstr "non è stata trovata alcuna definizione per la classe di %s (classe %s)"
 
 msgid "object %s not changed (it does not appear to be from a version of R earlier than 1.8.0)"
 msgstr ""
 
 msgid "'class1' must be the name of a class or a class definition"
-msgstr ""
+msgstr "'class1' dev'essere il nome di una classe o una definizione di classe"
 
 msgid "'class2' must be the name of a class or a class definition"
-msgstr ""
+msgstr "'class2' dev'essere il nome di una classe o una definizione di classe"
 
 msgid "class %s has no visible definition from package or environment %s"
 msgstr ""
@@ -843,7 +847,7 @@ msgid "class %s is defined (with package slot %s) but no metadata object found t
 msgstr ""
 
 msgid "class %s cannot extend class %s"
-msgstr ""
+msgstr "la classe %s non può estendere la classe %s"
 
 msgid "both classes must be defined"
 msgstr "entrambe le classi devono essere definite"
@@ -918,7 +922,7 @@ msgid "argument 'signatures' must be a character matrix whose rows are method si
 msgstr ""
 
 msgid "not allowed to have test==TRUE and an S4Class definition"
-msgstr ""
+msgstr "non è ammesso avere test==TRUE e una definizione S4Class"
 
 msgid "argument 'S4Class' must be a class definition: got an object of class %s"
 msgstr ""
@@ -930,7 +934,7 @@ msgid "the S3 class of the prototype, \"%s\", is undefined; only allowed when th
 msgstr ""
 
 msgid "restoring definition of class %s"
-msgstr ""
+msgstr "ripristino della definizione di classe %s"
 
 msgid "slot %s: class %s should extend class %s"
 msgstr ""
@@ -939,7 +943,7 @@ msgid "invalid S4 class corresponding to S3 class: slots in  S4 version must ext
 msgstr ""
 
 msgid "explicit coercion of old-style class (%s) is not defined"
-msgstr ""
+msgstr "l'esplicita coercizione di una classe (%s) vecchio-stile non è definita"
 
 msgid "explicit replacement not defined for as(x, \"%s\") <- value for old-style class %s"
 msgstr ""
@@ -963,7 +967,7 @@ msgid "no definition of class %s found"
 msgstr "nessuna definizione trovata per la classe %s"
 
 msgid "multiple definitions of %s found; using the one on %s"
-msgstr ""
+msgstr "trovate multiple definizioni di %s; si utilizza quello su %s"
 
 msgid "%s is not a valid field or method name for reference class %s"
 msgstr ""
@@ -972,7 +976,7 @@ msgid "a call to superClass() is in the method %s but there is no superclass def
 msgstr ""
 
 msgid "methods declared in usingMethods() but not found: %s"
-msgstr ""
+msgstr "metodi dichiarati in usingMethods() ma non trovati: %s"
 
 msgid "%s is not a reference class"
 msgstr ""
@@ -990,10 +994,10 @@ msgid "the class of field %s in the object is not compatible with the desired cl
 msgstr ""
 
 msgid "%s is not a defined class in this environment"
-msgstr ""
+msgstr "%s non è una classe ridefinita in questo ambiente"
 
 msgid "invalid 'Class' argument:  should be a single string"
-msgstr ""
+msgstr "argomento 'Class' non valido:  dovrebbe essere una stringa singola"
 
 msgid "%s is not one of the reference super classes for this object"
 msgstr ""
@@ -1002,13 +1006,13 @@ msgid "direct calls to callSuper() are invalid:  should only be called from anot
 msgstr ""
 
 msgid "%s is not a field in this class"
-msgstr ""
+msgstr "%s non è un campo in questa classe"
 
 msgid "Methods not found: %s"
 msgstr "Metodi non trovati: %s"
 
 msgid "the definition of class %s in package %s is locked, methods may not be redefined"
-msgstr ""
+msgstr "la definizione della classe %s nel pacchetto %s è bloccata, i metodi potrebbero non essere ridefiniti"
 
 msgid "arguments to methods() must be named, or one named list"
 msgstr ""
@@ -1079,7 +1083,7 @@ msgid "arguments must all be character string names of fields"
 msgstr ""
 
 msgid "field %s is already locked"
-msgstr ""
+msgstr "il campo %s è già bloccato"
 
 msgid "field %s of class %s has a non-default binding and cannot be locked"
 msgstr ""
@@ -1097,7 +1101,7 @@ msgid "invalid 'ignore' argument; should be a class definition or a character ve
 msgstr ""
 
 msgid "An object of class %s"
-msgstr ""
+msgstr "Un oggetto di classe %s"
 
 msgid "invalid call to 'classLabel': expected a name or a class definition, got an object of class %s"
 msgstr ""
@@ -1209,8 +1213,8 @@ msgstr ""
 
 msgid "no definition for class %s"
 msgid_plural "no definition for classes %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "nessuna definizione per la classe %s"
+msgstr[1] "nessuna definizione per le classi %s"
 
 msgid "in the method signature for function %s invalid argument name in the signature: %s"
 msgid_plural "in the method signature for function %s invalid argument names in the signature: %s"
