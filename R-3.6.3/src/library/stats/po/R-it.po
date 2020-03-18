@@ -1368,6 +1368,8 @@ msgid ""
 "lm object does not have a proper 'qr' component.\n"
 " Rank zero or should not have used lm(.., qr=FALSE)."
 msgstr ""
+"L'oggetto lm non ha un componente 'qr' corretto.\n"
+"  Rango zero o non avrebbe dovuto usare lm (.., qr = FALSE)."
 
 msgid "simulate() is not yet implemented for multivariate lm()"
 msgstr "simulate() non è ancora implementato per un lm() multivariato"
@@ -1597,9 +1599,8 @@ msgstr "eff.aovlist: contrasti non ortogonali forniranno una risposta errata"
 msgid "cannot create a formula from a zero-column data frame"
 msgstr "non è possibile creare una formula da una colonna-zero del data frame"
 
-#, fuzzy
 msgid "no terms component nor attribute"
-msgstr "manca compoenente terms"
+msgstr "nessuna componente termini o attributo"
 
 msgid "'termlabels' must be a character vector of length at least one"
 msgstr "'termlabels' dev'essere un vettore di caratteri almeno di lunghezza 1"
@@ -1607,6 +1608,8 @@ msgstr "'termlabels' dev'essere un vettore di caratteri almeno di lunghezza 1"
 msgid ""
 "Unparseable 'response' \"%s\"; use is deprecated.  Use as.name(.) or `..`!"
 msgstr ""
+"'response' \"%s\" non analizzabile; l'utilizzo è deprecato.  Si utilizzi as."
+"name(.) o `..`!"
 
 msgid "reformulate"
 msgstr "riformulazione"
@@ -1701,7 +1704,7 @@ msgid "'control' argument must be a named list"
 msgstr "l'argomento 'control' dev'essere una lista denominata"
 
 msgid "logical 'hessian' argument not allowed.  See documentation."
-msgstr ""
+msgstr "argomento 'hessian' logico non ammesso.  Si veda la documentazione."
 
 msgid "'params' has wrong length"
 msgstr "'parms' ha lunghezza sbagliata"
@@ -1724,10 +1727,9 @@ msgstr "impossibile riconoscere nome parametro"
 msgid "levels truncated to positive values only"
 msgstr "livelli limitati ai solo valori positivi"
 
-#, fuzzy
 msgid "setVarying : 'vary' length must match length of parameters"
 msgstr ""
-"setVarying: la lunghezza di vary deve coincidere con quella dei parametri"
+"setVarying : la lunghezza di 'vary' deve coincidere con quella dei parametri"
 
 msgid "singular gradient matrix at initial parameter estimates"
 msgstr "matrice gradiente singolare per le stime iniziali dei parametri"
@@ -1751,7 +1753,7 @@ msgid "argument 'na.action' will be ignored"
 msgstr "l'argomento 'na.action' sarà ignorato"
 
 msgid "upper and lower bounds ignored unless algorithm = \"port\""
-msgstr ""
+msgstr "limite superiore e inferiore ignorati con algorithm = \"port\""
 
 msgid "cannot calculate REML log-likelihood for \"nls\" objects"
 msgstr "impossibile calcolare REML log-verosimiglianza per oggetti \"nls\""
@@ -1774,9 +1776,9 @@ msgstr "è richiesta una formula su due lati"
 msgid "not enough groups"
 msgstr "gruppi insufficienti"
 
-#, fuzzy
 msgid "bounds can only be used with method L-BFGS-B (or Brent)"
-msgstr "bounds si può usare solo con il metodo L-BFGS-B"
+msgstr ""
+"i limiti possono essere utilizzati solo con il metodo L-BFGS-B (o Brent)"
 
 msgid "unknown names in control:"
 msgstr "nomi sconosciuti in controllo:"
@@ -1787,19 +1789,18 @@ msgstr "leggere la documentazione di 'trace' più attentamente"
 msgid "'trace != 0' needs 'REPORT >= 1'"
 msgstr "'trace != 0' richiede 'REPORT >= 1'"
 
-#, fuzzy
 msgid ""
 "method L-BFGS-B uses 'factr' (and 'pgtol') instead of 'reltol' and 'abstol'"
 msgstr ""
-"il metodo L-BFGS-B usea 'fact' (e 'pgtol') al posto di 'reltol' e 'abstol'"
+"il metodo L-BFGS-B utilizza 'fact' (e 'pgtol') al posto di 'reltol' e "
+"'abstol'"
 
-#, fuzzy
 msgid ""
 "one-dimensional optimization by Nelder-Mead is unreliable:\n"
 "use \"Brent\" or optimize() directly"
 msgstr ""
-"ottimizzazione uni-dimensionale di Nelder-Mead non attendibile: usare "
-"optimize"
+"l'ottimizzazione ad una dimensione di Nelder-Mead non è affidabile:\n"
+"utilizzare \"Brent\" o direttamente optimize()"
 
 msgid "method = \"Brent\" is only available for one-dimensional optimization"
 msgstr ""
@@ -1931,7 +1932,7 @@ msgid "'princomp' can only be used with more units than variables"
 msgstr "'princomp' si può usare solo quando ci sono più unità che variabili"
 
 msgid "cannot use 'cor = TRUE' with a constant variable"
-msgstr ""
+msgstr "non è possibile utilizzare 'cor = TRUE' con una variabile costante"
 
 msgid "covariance matrix is not non-negative definite"
 msgstr "la matrice di covarianza non è definita non-negativa"
@@ -2027,7 +2028,7 @@ msgid "some constant variables (%s) are really varying"
 msgstr "alcune variabili 'constant' (%s) sono in realtà 'varying'"
 
 msgid "no 'reshapeWide' attribute, must specify 'varying'"
-msgstr ""
+msgstr "nessun attributo 'reshapeWide', deve specificare 'varying'"
 
 msgid "'varying' must be nonempty list or vector"
 msgstr "'varying' dev'essere una lista o un vettore non-vuoto"
@@ -2040,6 +2041,8 @@ msgid ""
 "length of 'varying' must be the product of length of 'v.names' and length of "
 "'times'"
 msgstr ""
+"la lunghezza di 'varying' dev'essere il prodotto della lunghezza di 'v."
+"names' e la lunghezza di 'times'"
 
 msgid "'k' must be positive"
 msgstr "'k' dev'essere positivo"
@@ -2075,7 +2078,7 @@ msgid "invalid 'endrule' argument"
 msgstr "argomento 'endrule' non valido"
 
 msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
-msgstr ""
+msgstr ".nknots.smspl() è ora esportato; utilizzalo al posto di n.knots()"
 
 msgid "invalid 'control.spar'"
 msgstr "'control.spar' non valido"
@@ -2115,12 +2118,15 @@ msgstr "Il numerico 'all.knots' dev'essere strettamente crescente"
 
 msgid "'all.knots' is vector of knots; 'nknots' specification is disregarded"
 msgstr ""
+"'all.knots' è un vettore di nodi; la specificazione di 'nknots' è ignorata"
 
 msgid "numeric 'all.knots' must cover [0,1] (= the transformed data-range)"
 msgstr ""
+"il numerico 'all.knots' deve coprire [0,1] (= l'intervallo dei dati "
+"trasformati)"
 
 msgid "'all.knots' is TRUE; 'nknots' specification is disregarded"
-msgstr ""
+msgstr "'all.knots' è TRUE; la specificazione di 'nknots' è ignorata"
 
 msgid "'nknots' must be numeric (in {1,..,n})"
 msgstr "'nknots' dev'essere numerico (in {1,..,n})"
@@ -2402,11 +2408,11 @@ msgstr "osservazioni 'x' (finite) insufficienti"
 msgid "requested conf.level not achievable"
 msgstr "livello di conf.level richiesto non raggiungibile"
 
-#, fuzzy
 msgid ""
 "cannot compute confidence interval when all observations are zero or tied"
 msgstr ""
-"impossibile calcolar eintervalli di confidenza esatti in presenza di zeri"
+"non è possibile calcolare l'intervallo di confidenza quando tutte le "
+"osservazioni sono zero o hanno lo stesso valore (tied)"
 
 msgid "cannot compute exact confidence interval with ties"
 msgstr ""
@@ -2422,10 +2428,10 @@ msgstr ""
 msgid "Requested conf.level not achievable"
 msgstr "Livello di conf.level richiesto non raggiungibile"
 
-#, fuzzy
 msgid "cannot compute confidence interval when all observations are tied"
 msgstr ""
-"impossibile calcolar eintervalli di confidenza esatti in presenza di zeri"
+"non è possibile calcolare l'intervallo di confidenza quando tutte le "
+"osservazioni hanno lo stesso valore (tied)"
 
 msgid "must supply either 'formula' or 'data'"
 msgstr "bisogna indicare 'formula' o 'data'"
