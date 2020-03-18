@@ -50,7 +50,7 @@ msgid "invalid length(x)"
 msgstr "length(x) non valida"
 
 msgid "optimization difficulties: %s"
-msgstr ""
+msgstr "difficoltà di ottimizzazione: %s"
 
 msgid "optimization failure"
 msgstr "ottimizzazione fallita"
@@ -76,9 +76,10 @@ msgstr "il primo valore della serie storica non deve essere mancante"
 msgid "all parameters were fixed"
 msgstr "specificati tutti i parametri"
 
-#, fuzzy
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
-msgstr "probabile errore di convergenza: optim ha restituito codice="
+msgstr ""
+"possibile problema di convergenza: 'optim' ha restituito codice=%d e "
+"messaggio %s"
 
 msgid "no factors in the fitted model"
 msgstr "nessun factor nel modello stimato"
@@ -99,7 +100,7 @@ msgid "'lag.max' must be at least 1"
 msgstr "'lag.max' deve essere almeno 1"
 
 msgid "NAs in 'x'"
-msgstr "valori NA in 'x'"
+msgstr "Valori NA in 'x'"
 
 msgid "x$lag must have at least 1 column"
 msgstr "x$lag deve avere almeno 1 colonna"
@@ -124,9 +125,11 @@ msgstr "il numero di righe in uso è cambiato: elimino i missing value?"
 
 msgid "attempting model selection on an essentially perfect fit is nonsense"
 msgstr ""
+"tentare la selezione del modello su un adattamento essenzialmente perfetto "
+"non ha senso"
 
 msgid "F test assumes quasi%s family"
-msgstr "il test F assume una famiglia quasi%s"
+msgstr "Il test F assume una famiglia quasi%s"
 
 msgid "no 'add1' method implemented for \"mlm\" models"
 msgstr "nessun metodo 'add1' implementato per modelli \"mlm\""
@@ -138,16 +141,14 @@ msgid "no 'drop1' method for \"mlm\" models"
 msgstr "nessun metodo 'drop1' per modelli \"mlm\""
 
 msgid "F test assumes 'quasi%s' family"
-msgstr "il test F assume una famiglia 'quasi%s'"
+msgstr "Il test F assume una famiglia 'quasi%s'"
 
 msgid "AIC is not defined for this model, so 'step' cannot proceed"
 msgstr ""
-"l'AIC non è definito per questo modello, quindi 'step' non può procedere"
+"L'AIC non è definito per questo modello, quindi 'step' non può procedere"
 
-#, fuzzy
 msgid "AIC is -infinity for this model, so 'step' cannot proceed"
-msgstr ""
-"l'AIC non è definito per questo modello, quindi 'step' non può procedere"
+msgstr "L'AIC è infinito per questo modello, perciò 'step' non può procedere"
 
 msgid "'A' must be an array or table"
 msgstr "'A' dev'essere un array o una tabella"
@@ -229,10 +230,10 @@ msgid "grouping factor must have exactly 2 levels"
 msgstr "la variabile di gruppo deve avere esattamente 2 livelli"
 
 msgid "weights are not supported in a multistratum aov() fit"
-msgstr ""
+msgstr "i pesi non sono supportati in un adattamento multistratum aov()"
 
 msgid "Error() model is singular"
-msgstr "modello Error() singolare"
+msgstr "Il modello Error() è singolare"
 
 msgid "the 'split' argument must be a list"
 msgstr "l'argomento 'split' deve essere di tipo list"
@@ -260,7 +261,7 @@ msgid "'object' does not include an error 'qr' component"
 msgstr "'object' non contiene una componente di errore 'qr'"
 
 msgid "Refitting model to allow projection"
-msgstr ""
+msgstr "Modello di refitting per consentire la proiezione"
 
 msgid "columns of 'contrast.obj' must define a contrast(sum to zero)"
 msgstr ""
@@ -268,6 +269,7 @@ msgstr ""
 
 msgid "'ties' is not \"ordered\", a function, or list(<string>, <function>)"
 msgstr ""
+"'ties' non è \"ordinato\", una funzione o una lista (<stringa>, <funzione>)"
 
 msgid "collapsing to unique 'x' values"
 msgstr "si riduce a valori unici di 'x'"
@@ -284,9 +286,8 @@ msgstr "zero non-NA punti"
 msgid "'approx' requires n >= 1"
 msgstr "'approx' richiede n >= 1"
 
-#, fuzzy
 msgid "NAs in 'x' must be the same row-wise"
-msgstr "'x' e 'g' devono avere la stessa lunghezza"
+msgstr "Le NA in 'x' devono essere uguali per riga"
 
 msgid "'order.max' must be >= 1"
 msgstr "'order.max' deve essere >= 1"
@@ -295,7 +296,7 @@ msgid "'order.max' must be < 'n.obs'"
 msgstr "'order.max' dev'essere < 'n.obs'"
 
 msgid "zero-variance series"
-msgstr ""
+msgstr "serie a varianza zero"
 
 msgid "'n.ahead' must be at least 1"
 msgstr "'n.ahead' dev'essere almeno 1"
@@ -359,13 +360,13 @@ msgid "'xreg' and 'newxreg' have different numbers of columns"
 msgstr "'xreg' e 'newxreg' hanno un numero differente di colonne"
 
 msgid "MA part of model is not invertible"
-msgstr "la parte MA del modello non è invertibile"
+msgstr "La parte MA del modello non è invertibile"
 
 msgid "seasonal MA part of model is not invertible"
 msgstr "la parte stagionale MA del modello non è invertibile"
 
 msgid "NAs in '%s'"
-msgstr "valori NA in '%s'"
+msgstr "Valori NA in '%s'"
 
 msgid "invalid 'SSinit'"
 msgstr "'SSinit' non valido"
@@ -381,7 +382,7 @@ msgid "'xreg' is collinear"
 msgstr "'xreg' è collineare"
 
 msgid "NAs present: setting 'delta' to -1"
-msgstr "trovati NA: imposto 'delta' a -1"
+msgstr "Presenti valori NA: si imposta 'delta' a -1"
 
 msgid "transformed ARMA parameters were fixed"
 msgstr "i parametri ARMA trasformati già fissati"
@@ -399,7 +400,7 @@ msgid "no solution in the specified range of bandwidths"
 msgstr "non ci sono soluzioni nel range di badwidth specificato"
 
 msgid "increasing bw.SJ() search interval (%d) to [%.4g,%.4g]"
-msgstr ""
+msgstr "incrementando l'intervallo di ricerca bw.SJ() (%d) a [%.4g,%.4g]"
 
 msgid "minimum occurred at one end of the range"
 msgstr "minimo realizzato in uno degli estremi del range"
@@ -416,9 +417,8 @@ msgstr "tutte le osservazioni sono nello stesso gruppo"
 msgid "there must be at least 2 observations in each group"
 msgstr "devono esserci almeno 2 osservazioni in ogni gruppo"
 
-#, fuzzy
 msgid "'formula' should be of the form response ~ group"
-msgstr "formula '%s' deve essere della forma '~expr'"
+msgstr "la 'formula' dovrebbe essere nella forma risposta ~ gruppo"
 
 msgid "'x' must be nonnegative and integer"
 msgstr "'x' deve essere un intero non negativo"
@@ -481,19 +481,19 @@ msgid "probabilities must be non-negative."
 msgstr "le probabilità devono essere non negative."
 
 msgid "probabilities must sum to 1."
-msgstr "le probabilità devono sommare a 1"
+msgstr "le probabilità devono avere somma 1."
 
 msgid "Chi-squared approximation may be incorrect"
 msgstr "L'approssimazione al Chi-quadrato potrebbe essere inesatta"
 
 msgid "NA values not allowed in 'd'"
-msgstr "valori NA non ammessi in 'd'"
+msgstr "I valori NA non sono ammessi in 'd'"
 
 msgid "eig=TRUE is disregarded when list.=FALSE"
-msgstr ""
+msgstr "eig=TRUE è ignorato quando list.=FALSE"
 
 msgid "x.ret=TRUE is disregarded when list.=FALSE"
-msgstr ""
+msgstr "x.ret=TRUE è ignorato quando list.=FALSE"
 
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr ""
@@ -505,26 +505,24 @@ msgstr "valore di %s non valido"
 msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr "'k' deve essere in {1, 2, ..  n - 1}"
 
-#, fuzzy
 msgid "only %d of the first %d eigenvalues are > 0"
-msgstr "alcuni dei primi %d autovalori sono < 0"
+msgstr "solo %d dei primi %d eigenvalues (vedi. autovalori) sono > 0"
 
 msgid "package 'MASS' must be installed"
 msgstr "il pacchetto 'MASS' dev'essere installato"
 
-#, fuzzy
 msgid "initial value is not in the interior of the feasible region"
-msgstr "valore iniziale non ammissimibile"
+msgstr ""
+"il valore iniziale non è interno della regione fattibile (feasible region)"
 
-#, fuzzy
 msgid "Barrier algorithm ran out of iterations and did not converge"
-msgstr "l'algoritmo non converge"
+msgstr "L'algoritmo di Barrier ha esaurito le iterazioni e non converge"
 
 msgid "Objective function increased at outer iteration %d"
-msgstr ""
+msgstr "Funzione obiettivo aumentata all'iterazione esterna %d"
 
 msgid "Objective function decreased at outer iteration %d"
-msgstr ""
+msgstr "Funzione obiettivo diminuita all'iterazione esterna %d"
 
 msgid "contrasts not defined for %d degrees of freedom"
 msgstr "contrasti non definiti per %d gradi di libertà"
@@ -548,9 +546,8 @@ msgstr "'degree' deve essere almeno 1"
 msgid "missing values are not allowed in 'poly'"
 msgstr "valori mancanti non ammessi in 'poly'"
 
-#, fuzzy
 msgid "'degree' must be less than number of unique points"
-msgstr "'degree' deve essere inferiore al numero di punti"
+msgstr "'degree' dev'essere inferiore al numero di punti unici"
 
 msgid "must supply one or more vectors"
 msgstr "fornire uno o più vettori"
@@ -558,9 +555,8 @@ msgstr "fornire uno o più vettori"
 msgid "arguments must have the same length"
 msgstr "gli argomenti devono avere la stessa lunghezza"
 
-#, fuzzy
 msgid "wrong number of columns in new data:"
-msgstr "numero di colonne sbagliate in 'x'"
+msgstr "numero sbagliato di colonne nei dati nuovi:"
 
 msgid "contrasts apply only to factors"
 msgstr "i contrasti si applicano solo a variabili factor"
@@ -579,7 +575,7 @@ msgid "numeric contrasts or contrast name expected"
 msgstr "richiesti contrasti numerici o nomi contrasto"
 
 msgid "%s needs package 'Matrix' correctly installed"
-msgstr ""
+msgstr "%s richiede il pacchetto 'Matrix' correttamente installato"
 
 msgid "not enough degrees of freedom to define contrasts"
 msgstr "numero di gradi di libertà insufficiente per definire i contrasti"
@@ -609,7 +605,7 @@ msgid "'V' is not a square numeric matrix"
 msgstr "'V' non è una matrice quadrata numerica"
 
 msgid "diag(.) had 0 or NA entries; non-finite result is doubtful"
-msgstr ""
+msgstr "diag(.) ha 0 o voci NA; un risultato non-finito è incerto"
 
 msgid "'x' must be a numeric vector"
 msgstr "'x' dev'essere un vettore numerico"
@@ -644,18 +640,14 @@ msgstr "i peisi devono essere non-negativi e non tutti nulli"
 msgid "length of 'center' must equal the number of columns in 'x'"
 msgstr "la lunghezza di 'center' deve essere pari al numero di colonne di 'x'"
 
-#, fuzzy
 msgid "invalid 'tree' ('merge' component)"
-msgstr "'tree' non valido (componente merge)"
+msgstr "'tree' non valido (componente 'merge')"
 
 msgid "either 'k' or 'h' must be specified"
 msgstr "o 'k' o 'h' devono essere specificati"
 
-#, fuzzy
 msgid "the 'height' component of 'tree' is not sorted (increasingly)"
-msgstr ""
-"la componente 'height' di 'tree' non è ordinata\n"
-"(in modo crescente); prova ad usare prima as.hclust()"
+msgstr "la componente 'height' di 'tree' non è ordinato (crescente)"
 
 msgid "elements of 'k' must be between 1 and %d"
 msgstr "gli elementi di 'k' devono essere tra 1 e %d"
@@ -664,6 +656,8 @@ msgid ""
 "dendrogram entries must be 1,2,..,%d (in any order), to be coercible to "
 "\"hclust\""
 msgstr ""
+"le voci del dendrogramma devono essere 1, 2, ..., %d (in qualsiasi ordine), "
+"per essere coercibile in \"hclust\""
 
 msgid "dendrogram node with non-positive #{branches}"
 msgstr "nodo del dendrogramma con #{branches} non positivi"
@@ -687,7 +681,7 @@ msgid "dendrogram non-leaf node with non-positive #{branches}"
 msgstr "nodo non terminale del dendrogramma con #{branches} non positivi"
 
 msgid "'height' must be at least %g, the maximal height of its components"
-msgstr ""
+msgstr "'height' dev'essere almeno %g, la massima altezza dei suoi componenti"
 
 msgid "'X' is not a dendrogram"
 msgstr "'X' non è un dendrogramma"
@@ -736,7 +730,7 @@ msgid "'weights' must not be negative"
 msgstr "'weights' non dev'essere negativo"
 
 msgid "sum(weights) != 1  -- will not get true density"
-msgstr ""
+msgstr "sum(weights) != 1  -- non otterrà la vera densità"
 
 msgid "need at least 2 points to select a bandwidth automatically"
 msgstr "necessari almeno 2 punti per selezionare il bandwidth automatico"
@@ -789,9 +783,8 @@ msgstr "specifica 'rate' o 'scale' ma non entrambi"
 msgid "x[] and prob[] must be equal length vectors."
 msgstr "x[] e prob[] devono essere vettore della stessa lunghezza."
 
-#, fuzzy
 msgid "probabilities must be finite, non-negative and not all 0"
-msgstr "le probabilità devono essere non negative."
+msgstr "le probabilità devono essere finite, non-negative e non tutte 0"
 
 msgid "'x' must be non-negative"
 msgstr "'x' deve essere non negativo"
@@ -807,6 +800,7 @@ msgstr "alcuni termini saranno NA a causa della limitazione del metodo"
 
 msgid "multivariate case with missing coefficients is not yet implemented"
 msgstr ""
+"il caso multivariato con coefficienti mancanti non è ancora implementato"
 
 msgid "'x' must have 1 or more non-missing values"
 msgstr "'x' deve avere 1 o più valori non mancanti"
@@ -844,45 +838,39 @@ msgstr "argomento 'lambda' non valido"
 msgid "%s link not recognised"
 msgstr "%s link non riconosciuto"
 
-#, fuzzy
 msgid "link \"%s\" not available for poisson family; available links are %s"
 msgstr ""
-"link \"%s\" non disponibile per la famiglia poisson; i link disponibili sono "
-"\"identity\", \"log\" e \"sqrt\""
+"il link \"%s\" non è disponibile per la famiglia poisson; quelli disponibili "
+"sono %s"
 
-#, fuzzy
 msgid "negative values not allowed for the 'Poisson' family"
-msgstr "valori negativi non ammissibili per la famiglia Poisson"
+msgstr "i valori negativi non sono ammissibili per la famiglia 'Poisson'"
 
 msgid "ignoring prior weights"
-msgstr ""
+msgstr "ignorando i pesi precedenti"
 
-#, fuzzy
 msgid ""
 "link \"%s\" not available for quasipoisson family; available links are %s"
 msgstr ""
-"link \"%s\" non disponibile per la famiglia quasipoisson; i link disponibili "
-"sono \"identity\", \"log\" e \"sqrt\""
+"il link \"%s\" non è disponibile per la famiglia quasipoisson; quelli "
+"disponibili sono %s"
 
-#, fuzzy
 msgid "negative values not allowed for the 'quasiPoisson' family"
-msgstr "valori negativi non ammissibili per la famiglia quasiPoisson"
+msgstr "i valori negativi non sono ammessi per la famiglia 'quasiPoisson'"
 
-#, fuzzy
 msgid "link \"%s\" not available for gaussian family; available links are %s"
 msgstr ""
-"link \"%s\" non disponibile per la famiglia gaussian, i link disponibili "
-"sono \"inverse\", \"log\" e \"identity\""
+"il link \"%s\" non è disponibile per la famiglia gaussian; quelli "
+"disponibili sono %s"
 
 msgid "cannot find valid starting values: please specify some"
 msgstr ""
 "non riesco a trovare valori iniziali validi: si prega di specificarne alcuni"
 
-#, fuzzy
 msgid "link \"%s\" not available for binomial family; available links are %s"
 msgstr ""
-"link \"%s\" non disponibile per la famiglia poisson; i link disponibili sono "
-"\"identity\", \"log\" e \"sqrt\""
+"il link \"%s\" non è disponibile per la famiglia binomial; quelli "
+"disponibili sono %s"
 
 msgid "y values must be 0 <= y <= 1"
 msgstr "i valori di y devono essere 0 <= y <= 1"
@@ -893,64 +881,60 @@ msgstr "#successi non interi nel modello glm binomiale!"
 msgid "non-integer counts in a binomial glm!"
 msgstr "frequenze non intere nel modello glm binomiale!"
 
-#, fuzzy
 msgid ""
 "for the 'binomial' family, y must be a vector of 0 and 1's\n"
 "or a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
 msgstr ""
-"o una matrice di 2 colonne dove la prima colonna contiene il numero di "
-"successi e la seconda colonna il numero di insuccessi"
+"per la famiglia 'binomial', y dev'essere un vettore di 0 e 1\n"
+"o una matrice con 2 colonne dove la prima raccoglie il numero di successi, "
+"la seconda i fallimenti"
 
 msgid "cannot simulate from non-integer prior.weights"
-msgstr ""
+msgstr "non è possibile simulare da prior.weights non-interi"
 
-#, fuzzy
 msgid ""
 "link \"%s\" not available for quasibinomial family; available links are %s"
 msgstr ""
-"link \"%s\" non disponibile per la famiglia quasipoisson; i link disponibili "
-"sono \"identity\", \"log\" e \"sqrt\""
+"il link \"%s\" non è disponibile per la famiglia quasibinomial; quelli "
+"disponibili sono %s"
 
-#, fuzzy
 msgid ""
 "for the 'quasibinomial' family, y must be a vector of 0 and 1's\n"
 "or a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
 msgstr ""
-"o una matrice di 2 colonne dove la prima colonna contiene il numero di "
-"successi e la seconda colonna il numero di insuccessi"
+"per la famiglia 'quasibinomial', y dev'essere un vettore di 0 e 1\n"
+"o una matrice con 2 colonne dove la prima raccoglie il numero di successi, "
+"la seconda i fallimenti"
 
-#, fuzzy
 msgid "link \"%s\" not available for gamma family; available links are %s"
 msgstr ""
-"link \"%s\" non disponibile per la famiglia gamma, i link disponibili sono "
-"\"inverse\", \"\"log\" e \"identity\""
+"il link \"%s\" non è disponibile per la famiglia gamma; quelli disponibili "
+"sono %s"
 
-#, fuzzy
 msgid "non-positive values not allowed for the 'gamma' family"
-msgstr "valori non positivi non sono ammessi per la famiglia gamma"
+msgstr "i valori non-positivi non sono ammessi per la famiglia 'gamma'"
 
 msgid "using weights as shape parameters"
-msgstr ""
+msgstr "si utilizzano pesi coma parametri di forma"
 
-#, fuzzy
 msgid ""
 "link \"%s\" not available for inverse.gaussian family; available links are %s"
 msgstr ""
-"link \"%s\" non disponibile per la famiglia gaussian, i link disponibili "
-"sono \"inverse\", \"log\" e \"identity\""
+"il link \"%s\" non è disponibile per la famiglia gaussian; quelli "
+"disponibili sono %s"
 
-#, fuzzy
 msgid "positive values only are allowed for the 'inverse.gaussian' family"
-msgstr "sono ammessi solo valori positivi per la famiglia gaussiana inversa"
+msgstr "sono i valori positivi sono ammessi per la famiglia 'inverse.gaussian'"
 
-#, fuzzy
 msgid ""
 "need CRAN package 'SuppDists' for simulation from the 'inverse.gaussian' "
 "family"
-msgstr "sono ammessi solo valori positivi per la famiglia gaussiana inversa"
+msgstr ""
+"richiesto il pacchetto CRAN 'SuppDists' per la simulazione dalla famiglia "
+"'inverse.gaussian'"
 
 msgid "using weights as inverse variances"
-msgstr ""
+msgstr "si utilizzano pesi come varianze inverse"
 
 msgid ""
 "'variance' \"%s\" is invalid: possible values are \"mu(1-mu)\", \"mu\", "
@@ -972,10 +956,10 @@ msgid "argument 'sides' must be 1 or 2"
 msgstr "l'argomento 'sides' deve essere 1 o 2"
 
 msgid "'circular' must be logical and not NA"
-msgstr ""
+msgstr "'circular' dev'essere logico e non NA"
 
 msgid "length of 'init' must equal length of 'filter'"
-msgstr "la lunghezza di 'init' deve essere uguale a quella di 'filter' "
+msgstr "la lunghezza di 'init' deve eguagliare la lunghezza di 'filter'"
 
 msgid "'x' must have at least 2 rows and columns"
 msgstr "'x' deve avere almeno 2 righe e colonne"
@@ -983,9 +967,8 @@ msgstr "'x' deve avere almeno 2 righe e colonne"
 msgid "'x' has entries too large to be integer"
 msgstr "'x' contiene elementi troppo grandi per essere utilizzati con integer"
 
-#, fuzzy
 msgid "'x' has been rounded to integer: %s"
-msgstr "'x' arrotondata a integer:"
+msgstr "'x' è stata arrotondata all'intero: %s"
 
 msgid "if 'x' is not a matrix, 'y' must be given"
 msgstr "se 'x' non è una matrice, si deve specificare 'y'"
@@ -1000,16 +983,16 @@ msgid "'or' must be a single number between 0 and Inf"
 msgstr "'or' deve essere un solo numero tra 0 e Inf"
 
 msgid "need 2 or more non-zero row marginals"
-msgstr ""
+msgstr "richieste 2 o più righe marginali non-zero"
 
 msgid "need 2 or more non-zero column marginals"
-msgstr ""
+msgstr "richieste 2 o più colonne marginali non-zero"
 
 msgid "names(hybridPars) should be NULL or be identical to the default's"
-msgstr ""
+msgstr "names(hybridPars) dovrebbero essere NULL o identici ai predefiniti"
 
 msgid "'hybrid' is ignored for a 2 x 2 table"
-msgstr ""
+msgstr "'hybrid' è ignorato per una tabella 2 x 2"
 
 msgid "all groups must contain data"
 msgstr "tutti i gruppi devono contenere dati"
@@ -1044,9 +1027,8 @@ msgstr "specificazione di 'col.vars' non corretta"
 msgid "interactions are not allowed"
 msgstr "le interazioni non sono ammesse"
 
-#, fuzzy
 msgid "'formula' has '.' in both left and right hand sides"
-msgstr "'formula' contiene '.' sia nel membro di destra che di sinistra"
+msgstr "'formula' contiene '.' su entrambi i lati"
 
 msgid "incorrect variable names in rhs of formula"
 msgstr "nomi variabili non validi nella membro di destra della formula"
@@ -1091,6 +1073,8 @@ msgstr ""
 msgid ""
 "fitting to calculate the null deviance did not converge -- increase 'maxit'?"
 msgstr ""
+"l'adattamento per il calcolo della deviazione nulla non converge - "
+"incrementare 'maxit'?"
 
 msgid "value of 'epsilon' must be > 0"
 msgstr "il valore di 'epsilon' deve essere > 0"
@@ -1122,13 +1106,11 @@ msgstr "0 in V(mu)"
 msgid "NAs in d(mu)/d(eta)"
 msgstr "NA in d(mu)/d(eta)"
 
-#, fuzzy
 msgid "no observations informative at iteration %d"
-msgstr "nessuna osservazione informativa nell'iterazione"
+msgstr "nessuna osservazione informativa nell'iterazione %d"
 
-#, fuzzy
 msgid "non-finite coefficients at iteration %d"
-msgstr "coefficienti non finiti nell'iterazione"
+msgstr "coefficienti non finiti nell'iterazione %d"
 
 msgid "singular fit encountered"
 msgstr "stima singolare"
@@ -1154,17 +1136,15 @@ msgstr "ciclo interno 2; impossibile correggere ampiezza del passo"
 msgid "glm.fit: algorithm did not converge"
 msgstr "glm.fit: l'algoritmo non converge"
 
-#, fuzzy
 msgid "glm.fit: algorithm stopped at boundary value"
-msgstr "algoritmo arrestato sui valori della frontiera"
+msgstr "glm.fit: l'algoritmo si è fermato sui valori limite"
 
-#, fuzzy
 msgid "glm.fit: fitted probabilities numerically 0 or 1 occurred"
-msgstr "probabilitàstimate numericamente pari a 0 o 1"
+msgstr ""
+"glm.fit: si sono verificate probabilità stimate numericamente pari a 0 o 1"
 
-#, fuzzy
 msgid "glm.fit: fitted rates numerically 0 occurred"
-msgstr "si è verificato che i tassi stimati sono numericamente pari a 0"
+msgstr "glm.fit: si sono verificati tassi stimati numericamente pari a 0"
 
 msgid "the following arguments to 'anova.glm' are invalid and dropped:"
 msgstr "gli argomenti seguenti di 'anova.glm' sono sbagliati o ignorati:"
@@ -1178,9 +1158,10 @@ msgstr "utilizzare il test F con una famiglia '%s' è inappropriato"
 msgid "using F test with a fixed dispersion is inappropriate"
 msgstr "utilizzare il test F con una dispersione fissa è inappropriato"
 
-#, fuzzy
 msgid "models with response %s removed because response differs from model 1"
-msgstr "eliminato perché la risposta è diversa da quella del modello 1"
+msgstr ""
+"i modelli con risposta %s sono stati rimossi perché la risposta differisce "
+"dal modello 1"
 
 msgid "models were not all fitted to the same size of dataset"
 msgstr "i modelli sono stati stimati per differenti ampiezze campaionarie"
@@ -1213,9 +1194,8 @@ msgstr "si devono avere n >= 2 oggetti per una cluster"
 msgid "invalid length of members"
 msgstr "lunghezza dei membri non valida"
 
-#, fuzzy
 msgid "argument 'x' cannot be coerced to class %s"
-msgstr "l'argomento 'x' non può essere trasformato di classe \"hclust\""
+msgstr "l'argomento 'x' non può essere convertito in classe %s"
 
 msgid "Consider providing an as.hclust.%s() method"
 msgstr "Sarebbe opportuno definire un metodo as.hclust.%s()"
@@ -1290,7 +1270,7 @@ msgid "number of cluster centres must lie between 1 and nrow(x)"
 msgstr "il numero di centri dei cluster deve essere tra 1 e nrow(x)"
 
 msgid "Quick-TRANSfer stage steps exceeded maximum (= %d)"
-msgstr ""
+msgstr "I passi della fase Quick-TRANSfer hanno superato il massimo (= %d)"
 
 msgid "invalid nrow(x)"
 msgstr "nrow(x) non valido"
@@ -1317,10 +1297,11 @@ msgid "must have same number of columns in 'x' and 'centers'"
 msgstr "'x' e 'centers' devono avere lo stesso numero di colonne"
 
 msgid "'x' is a list, so ignoring argument 'g'"
-msgstr ""
+msgstr "'x' è una lista, perciò si ignorerà l'argomento 'g'"
 
 msgid "some elements of 'x' are not numeric and will be coerced to numeric"
 msgstr ""
+"alcuni elementi di 'x' non sono numerici e saranno convertiti in numerici"
 
 msgid "not enough 'x' data"
 msgstr "dati 'x' insufficienti"
@@ -1329,22 +1310,23 @@ msgid "not enough 'y' data"
 msgstr "dati 'y' insufficienti"
 
 msgid "p-value will be approximate in the presence of ties"
-msgstr ""
+msgstr "il p-value sarà approssimativo in presenza di legami"
 
-#, fuzzy
 msgid "'y' must be numeric or a function or a string naming a valid function"
-msgstr "'y' deve essere numerico o una stringa contente un nome di funzione"
+msgstr ""
+"'y' deve essere numerico o una funzione o una stringa indicante una funzione "
+"valida"
 
 msgid "ties should not be present for the Kolmogorov-Smirnov test"
 msgstr ""
+"i legami non dovrebbero essere presenti per il test di Kolmogorov-Smirnov"
 
-#, fuzzy
 msgid ""
 "numeric y must be supplied.\n"
 "For density estimation use density()"
 msgstr ""
-"si deve specificare y.\n"
-"Per la stima di densità usare density()"
+"dev'essere fornita una variabile numerica y.\n"
+"Per la stima della densità si utilizzi density()"
 
 msgid "'k' is not an integer"
 msgstr "'k' non è intero"
@@ -1368,12 +1350,11 @@ msgstr "dimensioni incompatibili"
 msgid "missing or negative weights not allowed"
 msgstr "non sono ammessi pesi negativi o mancanti"
 
-#, fuzzy
 msgid "invalid 'lm' object:  no 'terms' component"
-msgstr "oggetto 'lm' non valido: mancano le componenti 'terms' e 'qr'"
+msgstr "oggetto 'lm' non valido:  nessuna componente 'terms'"
 
 msgid "calling summary.lm(<fake-lm-object>) ..."
-msgstr ""
+msgstr "chiamata summary.lm(<fake-lm-object>) ..."
 
 msgid "residual degrees of freedom in object suggest this is not an \"lm\" fit"
 msgstr ""
@@ -1388,22 +1369,20 @@ msgid ""
 " Rank zero or should not have used lm(.., qr=FALSE)."
 msgstr ""
 
-#, fuzzy
 msgid "simulate() is not yet implemented for multivariate lm()"
-msgstr "'se.fit' non ancora implementato per modelli multidimensionali"
+msgstr "simulate() non è ancora implementato per un lm() multivariato"
 
-#, fuzzy
 msgid "family '%s' not implemented"
-msgstr "tipo '%s' non ancora implementato"
+msgstr "famiglia '%s' non implementata"
 
 msgid "calling anova.lm(<fake-lm-object>) ..."
-msgstr ""
+msgstr "chiamata anova.lm(<fake-lm-object>) ..."
 
 msgid "ANOVA F-tests on an essentially perfect fit are unreliable"
 msgstr ""
 
 msgid "calling predict.lm(<fake-lm-object>) ..."
-msgstr ""
+msgstr "chiamata predict.lm(<fake-lm-object>) ..."
 
 msgid "prediction from a rank-deficient fit may be misleading"
 msgstr "previsione da una stima non a rango pieno può essere non corretta"
@@ -1419,9 +1398,8 @@ msgstr ""
 msgid "Assuming constant prediction variance even though model fit is weighted"
 msgstr ""
 
-#, fuzzy
 msgid "'weights' as formula should be one-sided"
-msgstr "'x' deve essere non negativo"
+msgstr "'weights' come formula dovrebbe essere su un lato"
 
 msgid "'object' has no 'effects' component"
 msgstr "'object' non ha la componente 'effects'"
@@ -1451,13 +1429,13 @@ msgid "invalid 'control' argument"
 msgstr "argomento 'control' non valido"
 
 msgid "invalid NCOL(X)"
-msgstr "NCOL(X) non valido"
+msgstr "non valido NCOL(X)"
 
 msgid "only 1-4 predictors are allowed"
 msgstr "permessi solo 1-4 predittori"
 
 msgid "invalid NROW(X)"
-msgstr "NROW(X) non valido"
+msgstr "non valido NROW(X)"
 
 msgid "invalid 'y'"
 msgstr "'y' non valida"
@@ -1483,9 +1461,8 @@ msgstr "argomento 'cell' non valido"
 msgid "invalid argument 'degree'"
 msgstr "argomento 'degree' non valido"
 
-#, fuzzy
 msgid "iterTrace = %d is not obeyed since iterations = %d"
-msgstr "non ci sono abbastanza osservazioni finite"
+msgstr "iterTrace =%d non viene rispettato perché le iterazioni =%d"
 
 msgid "first argument must be a \"loess\" object"
 msgstr "il primo argomento deve essere un oggetto \"loess\""
@@ -1496,18 +1473,17 @@ msgstr "nessun modello da confrontare"
 msgid "extra arguments discarded"
 msgstr "argometni extra ignorati"
 
-#, fuzzy
 msgid "'logLik.lm' does not support multiple responses"
-msgstr "'proj' non implementata per risposte multiple"
+msgstr "'logLik.lm' non supporta risposte multiple"
 
 msgid "no \"nobs\" attribute is available"
-msgstr ""
+msgstr "non è disponibile alcune attributo \"nobs\""
 
 msgid "no 'nobs' method is available"
 msgstr "nessun metodo 'nobs' disponibile"
 
 msgid "'margin' must contain names or numbers corresponding to 'table'"
-msgstr ""
+msgstr "'margin' deve contenere nomi o numeri corrispondenti a 'table'"
 
 msgid "'start' and 'table' must be same length"
 msgstr "'start' e 'table' devono avere la stessa lunghezza"
@@ -1593,11 +1569,10 @@ msgid "'cterms' argument must match terms in model object"
 msgstr "l'argomento 'cterms' deve far coincidre 'terms' nell'oggetto model"
 
 msgid "Design is unbalanced - use se.contrast() for se's"
-msgstr "Il disegno è non bilanciato - usare se.contrast() per gli s.e."
+msgstr "Il disegno è non bilanciato - si utilizzi se.contrast() per gli se"
 
-#, fuzzy
 msgid "design is unbalanced so cannot proceed"
-msgstr "Il disegno è non bilanciato - usare se.contrast() per gli s.e."
+msgstr "il design è sbilanciato, quindi non può procedere"
 
 msgid ""
 "Standard error information not returned as design is unbalanced. \n"
@@ -1613,23 +1588,21 @@ msgstr "SE per il tipo '%s' non ancora implementati"
 msgid "na.action must be a function"
 msgstr "na.action deve essere una funzione"
 
-#, fuzzy
 msgid "non-factors ignored: %s"
-msgstr "variabili non-factor ignorate:"
+msgstr "non-fattori ignorati: %s"
 
 msgid "eff.aovlist: non-orthogonal contrasts would give an incorrect answer"
 msgstr "eff.aovlist: contrasti non ortogonali forniranno una risposta errata"
 
 msgid "cannot create a formula from a zero-column data frame"
-msgstr ""
+msgstr "non è possibile creare una formula da una colonna-zero del data frame"
 
 #, fuzzy
 msgid "no terms component nor attribute"
 msgstr "manca compoenente terms"
 
-#, fuzzy
 msgid "'termlabels' must be a character vector of length at least one"
-msgstr "'ColSideColors' deve essere un vettore carattere di lunghezza ncol(x)"
+msgstr "'termlabels' dev'essere un vettore di caratteri almeno di lunghezza 1"
 
 msgid ""
 "Unparseable 'response' \"%s\"; use is deprecated.  Use as.name(.) or `..`!"
@@ -1644,16 +1617,14 @@ msgstr "deprecatedWarning"
 msgid "'termobj' must be a object of class %s"
 msgstr "'termobj' dev'essere un oggetto di classe %s"
 
-#, fuzzy
 msgid "variable '%s' was fitted with type \"%s\" but type \"%s\" was supplied"
 msgstr ""
-"variabile '%s' stimata con classe \"%s\" ma è stata specificata la classe "
-"\"%s\""
+"la variabile '%s' è stata stimata con tipo \"%s\" ma il tipo \"%s\" era "
+"stato fornito"
 
-#, fuzzy
 msgid "variables %s were specified with different types from the fit"
 msgstr ""
-"le variabili %s sono state specificate diversamente dal modello stimato"
+"le variabili %s sono state specificate con tipi differenti dall'adattamento"
 
 msgid "'data' must be a data.frame, not a matrix or an array"
 msgstr "'data' deve essere un data.frame, non una matrice o un array"
@@ -1667,19 +1638,18 @@ msgstr "'offset' dev'essere numerico"
 msgid "model frame and formula mismatch in model.matrix()"
 msgstr "model frame e formula non coincidono in model.matrix()"
 
-#, fuzzy
 msgid "non-list contrasts argument ignored"
-msgstr "argomento 'contrasts.arg' non valido"
+msgstr "argomento contrasti non-lista ignorato"
 
-#, fuzzy
 msgid "'contrasts.arg' argument must be named"
-msgstr "l'argomento 'split' deve essere di tipo list"
+msgstr "l'argomento 'contrasts.arg' dev'essere denominato"
 
 msgid "variable '%s' is absent, its contrast will be ignored"
 msgstr "variabile '%s' assente, i suoi contrasti saranno ignorati"
 
 msgid "using type = \"numeric\" with a factor response will be ignored"
 msgstr ""
+"l'utilizzo di type = \"numeric\" con una risposta fattore sarà ignorata"
 
 msgid "invalid response type"
 msgstr "tipo risposta non valido"
@@ -1699,9 +1669,8 @@ msgstr "argomento 'omit' non valido"
 msgid "'print.level' must be in {0,1,2}"
 msgstr "'print-level' deve essere in {0,1,2}"
 
-#, fuzzy
 msgid "'interval' must be a vector of length 2"
-msgstr "'margins' deve essere un vettore numerico di lunghezza 2"
+msgstr "'interval' dev'essere un vettore di lunghezza 2"
 
 msgid "lower < upper  is not fulfilled"
 msgstr "lower < upper non rispettato"
@@ -1712,13 +1681,11 @@ msgstr "f.lower = f(lower) è NA"
 msgid "f.upper = f(upper) is NA"
 msgstr "f.upper = f(upper) è NA"
 
-#, fuzzy
 msgid "invalid 'extendInt'; please report"
-msgstr "argomento 'data' non valido"
+msgstr "'extendInt' non valido; per piacere, segnalalo"
 
-#, fuzzy
 msgid "no sign change found in %d iterations"
-msgstr "non converge in %d iterazioni"
+msgstr "nessun cambio di segno in %d iterazioni"
 
 msgid ""
 "did not succeed extending the interval endpoints for f(lower) * f(upper) <= 0"
@@ -1727,13 +1694,11 @@ msgstr ""
 msgid "f() values at end points not of opposite sign"
 msgstr "i valori di f() negli estremi hanno segno opposto"
 
-#, fuzzy
 msgid "convergence problem in zero finding:"
-msgstr "probabile errore di convergenza: optim ha restituito codice="
+msgstr "problema di convergenza nella ricerca zero:"
 
-#, fuzzy
 msgid "'control' argument must be a named list"
-msgstr "l'argomento 'split' deve essere di tipo list"
+msgstr "l'argomento 'control' dev'essere una lista denominata"
 
 msgid "logical 'hessian' argument not allowed.  See documentation."
 msgstr ""
@@ -1741,9 +1706,8 @@ msgstr ""
 msgid "'params' has wrong length"
 msgstr "'parms' ha lunghezza sbagliata"
 
-#, fuzzy
 msgid "'varying' must be in seq_along(pars)"
-msgstr "'varying' deve essere in 1:length(pars)"
+msgstr "'varying' dev'essere in seq_along(pars)"
 
 msgid "'varying' has wrong length"
 msgstr "'varying' di lughezza sbagliata"
@@ -1768,19 +1732,17 @@ msgstr ""
 msgid "singular gradient matrix at initial parameter estimates"
 msgstr "matrice gradiente singolare per le stime iniziali dei parametri"
 
-#, fuzzy
 msgid "'data' must be a list or an environment"
-msgstr "'newdata' deve essere una matrice o un data frame"
+msgstr "'data' dev'essere una lista o un ambiente"
 
 msgid "no starting values specified"
 msgstr "nessun valore iniziale specificato"
 
 msgid "parameters without starting value in 'data': %s"
-msgstr ""
+msgstr "parametri senza valore iniziale in 'data': %s"
 
-#, fuzzy
 msgid "no parameters to fit"
-msgstr "specificati tutti i parametri"
+msgstr "nessun parametro per l'adattamento"
 
 msgid "argument 'subset' will be ignored"
 msgstr "l'argomento 'subset' sarà ignorato"
@@ -1807,7 +1769,7 @@ msgid "'%s' cannot be of mode '%s'"
 msgstr "'%s' non può essere in modalità '%s'"
 
 msgid "a two-sided formula is required"
-msgstr ""
+msgstr "è richiesta una formula su due lati"
 
 msgid "not enough groups"
 msgstr "gruppi insufficienti"
@@ -1816,9 +1778,8 @@ msgstr "gruppi insufficienti"
 msgid "bounds can only be used with method L-BFGS-B (or Brent)"
 msgstr "bounds si può usare solo con il metodo L-BFGS-B"
 
-#, fuzzy
 msgid "unknown names in control:"
-msgstr "nome kernel sconosciuto"
+msgstr "nomi sconosciuti in controllo:"
 
 msgid "read the documentation for 'trace' more carefully"
 msgstr "leggere la documentazione di 'trace' più attentamente"
@@ -1842,6 +1803,7 @@ msgstr ""
 
 msgid "method = \"Brent\" is only available for one-dimensional optimization"
 msgstr ""
+"method = \"Brent\" è disponibile solo per l'ottimizzazione uni-dimensionale"
 
 msgid "'lower' and 'upper' must be finite values"
 msgstr "'lower' e 'upper' devono essere valori finiti"
@@ -1877,13 +1839,11 @@ msgid ""
 " and there are no factor predictors; no plot no. 5"
 msgstr ""
 
-#, fuzzy
 msgid "'x' and 'T' have incompatible length"
-msgstr "'x' e 'g' devono avere la stessa lunghezza"
+msgstr "'x' e 'T' hanno lunghezze incompatibili"
 
-#, fuzzy
 msgid "'x' must be finite, nonnegative, and integer"
-msgstr "'x' deve essere un intero non negativo"
+msgstr "'x' dev'essere finito, non negativo e intero"
 
 msgid "'T' must be nonnegative"
 msgstr "'T' non deve essere negativo"
@@ -1894,9 +1854,8 @@ msgstr "dati insufficienti"
 msgid "the case k > 2 is unimplemented"
 msgstr "il caso k > 2 non è implementato"
 
-#, fuzzy
 msgid "'r' must be a single positive number"
-msgstr "'ratio' deve essere un numero positivo"
+msgstr "'r' dev'essere un singolo numero positivo"
 
 msgid ""
 "exactly one of 'n', 'delta', 'sd', 'power', and 'sig.level' must be NULL"
@@ -2031,32 +1990,26 @@ msgstr "argomento 'r' non valido"
 msgid "invalid argument 'c'"
 msgstr "argomento 'c' non valido"
 
-#, fuzzy
 msgid "arguments 'r' and 'c' must have the same sums"
-msgstr "gli argomenti devono avere la stessa lunghezza"
+msgstr "gli argomenti 'r' e 'c' devono avere le medesime somme"
 
-#, fuzzy
 msgid "'relevel' only for (unordered) factors"
-msgstr "'relevel' solo per variabili factor"
+msgstr "'relevel' solo per fattori (non ordinati)"
 
-#, fuzzy
 msgid "'relevel' only for unordered factors"
-msgstr "'relevel' solo per variabili factor"
+msgstr "'relevel' solo per fattori non ordinati"
 
-#, fuzzy
 msgid "'ref' must be of length one"
-msgstr "'acf' deve avere lunghezza due o più"
+msgstr "'ref' dev'essere di lunghezza 1"
 
 msgid "'ref' must be an existing level"
 msgstr "'ref' deve essere un livello esistente"
 
-#, fuzzy
 msgid "ref = %d must be in 1L:%d"
-msgstr "ref = %d deve essere in 1:%d"
+msgstr "ref = %d dev'essere in 1L:%d"
 
-#, fuzzy
 msgid "'sep' must be a character string"
-msgstr "'file' deve essere una stringa di caratteri o una connessione"
+msgstr "'sep' dev'essere una stringa di caratteri"
 
 msgid "failed to guess time-varying variables from their names"
 msgstr ""
@@ -2065,10 +2018,10 @@ msgid "'varying' arguments must be the same length"
 msgstr "gli argomenti 'varying' devono avere la stessa lunghezza"
 
 msgid "'lengths(varying)' must all match 'length(times)'"
-msgstr ""
+msgstr "'lengths(varying)' devono corrispondere tutte a 'length(times)'"
 
 msgid "there are records with missing times, which will be dropped."
-msgstr "ci sono record con 'times' mancanti, saranno ignorati"
+msgstr "ci sono record con 'times' mancanti, i quali saranno ignorati."
 
 msgid "some constant variables (%s) are really varying"
 msgstr "alcune variabili 'constant' (%s) sono in realtà 'varying'"
@@ -2076,32 +2029,26 @@ msgstr "alcune variabili 'constant' (%s) sono in realtà 'varying'"
 msgid "no 'reshapeWide' attribute, must specify 'varying'"
 msgstr ""
 
-#, fuzzy
 msgid "'varying' must be nonempty list or vector"
-msgstr "'varying' deve essere di tipo logical, integer o character"
+msgstr "'varying' dev'essere una lista o un vettore non-vuoto"
 
-#, fuzzy
 msgid "length of 'v.names' does not evenly divide length of 'varying'"
 msgstr ""
-"lunghezza di FUN, %d,\n"
-" non coincide con la lunghezza delle marginali, %d"
+"la lunghezza di 'v.names' non divide uniformemente la lunghezza di 'varying'"
 
 msgid ""
 "length of 'varying' must be the product of length of 'v.names' and length of "
 "'times'"
 msgstr ""
 
-#, fuzzy
 msgid "'k' must be positive"
-msgstr "'iter.max' deve essere positivo"
+msgstr "'k' dev'essere positivo"
 
-#, fuzzy
 msgid "'k' must be odd!  Changing 'k' to %d"
-msgstr "'k' deve essere dispari! Cambio 'k' in"
+msgstr "'k' deve essere dispari!  Cambio di 'k' in %d"
 
-#, fuzzy
 msgid "'k' is bigger than 'n'!  Changing 'k' to %d"
-msgstr "'k' deve essere più grande di 'n'! Cambio 'k' in"
+msgstr "'k' è più grande di 'n'!  Cambio di 'k' in %d"
 
 msgid "bandwidth 'k' must be >= 1 and odd!"
 msgstr "bandwidth 'k' deve essere >= 1 e dispari!"
@@ -2124,9 +2071,8 @@ msgstr "tentativo di allisciare valori non numerici"
 msgid "attempt to smooth NA values"
 msgstr "tentativo di allisciare valori NA"
 
-#, fuzzy
 msgid "invalid 'endrule' argument"
-msgstr "argomento 'data' non valido"
+msgstr "argomento 'endrule' non valido"
 
 msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
 msgstr ""
@@ -2134,13 +2080,11 @@ msgstr ""
 msgid "invalid 'control.spar'"
 msgstr "'control.spar' non valido"
 
-#, fuzzy
 msgid "missing or infinite values in inputs are not allowed"
-msgstr "non sono ammessi pesi negativi o mancanti"
+msgstr "non sono ammessi valori mancanti o infiniti nell'input"
 
-#, fuzzy
 msgid "invalid number of points"
-msgstr "numero di predittori sbagliato"
+msgstr "numero di punti non valido"
 
 msgid "lengths of 'x' and 'w' must match"
 msgstr "le lunghezze di 'x' e 'w' devono coincidere"
@@ -2151,13 +2095,11 @@ msgstr "tutti i pensi dovrebbero essere non negativi"
 msgid "some weights should be positive"
 msgstr "alcuni pesi dovrebbero essere positivi"
 
-#, fuzzy
 msgid "'tol' must be strictly positive and finite"
-msgstr "'ratio' deve essere un numero positivo"
+msgstr "'tol' dev'essere strettamente positivo e finito"
 
-#, fuzzy
 msgid "invalid 'keep.stuff'"
-msgstr "'method' non valido:"
+msgstr "'keep.stuff' non valido"
 
 msgid "need at least four unique 'x' values"
 msgstr "necessari almeno quattro valori distinti 'x'"
@@ -2165,13 +2107,11 @@ msgstr "necessari almeno quattro valori distinti 'x'"
 msgid "'cv' must not be NA when 'df' is specified"
 msgstr "'cv' dev'essere NA quando 'df' è specificato"
 
-#, fuzzy
 msgid "cross-validation with non-unique 'x' values seems doubtful"
-msgstr "crossvalidation per valori non unici di 'x' sembra essere dubbia"
+msgstr "cross-validation con valori di 'x' non-unici sembra dubbia"
 
-#, fuzzy
 msgid "Numeric 'all.knots' must be strictly increasing"
-msgstr "'ratio' deve essere un numero positivo"
+msgstr "Il numerico 'all.knots' dev'essere strettamente crescente"
 
 msgid "'all.knots' is vector of knots; 'nknots' specification is disregarded"
 msgstr ""
@@ -2182,27 +2122,24 @@ msgstr ""
 msgid "'all.knots' is TRUE; 'nknots' specification is disregarded"
 msgstr ""
 
-#, fuzzy
 msgid "'nknots' must be numeric (in {1,..,n})"
-msgstr "'knots' deve essere numeric <= n"
+msgstr "'nknots' dev'essere numerico (in {1,..,n})"
 
-#, fuzzy
 msgid "'nknots' must be at least 1"
-msgstr "'lag.max' deve essere almeno 1"
+msgstr "'nknots' dev'essere almeno 1"
 
 msgid "cannot use more inner knots than unique 'x' values"
 msgstr "non posso usare più nodi interni che valori unici di 'x'"
 
 msgid "must not specify both 'spar' and 'lambda'"
-msgstr ""
+msgstr "non bisogna specifica 'spar' e 'lambda'"
 
-#, fuzzy
 msgid "'spar' must be of length 1"
-msgstr "'acf' deve avere lunghezza due o più"
+msgstr "'spar' dev'essere di lunghezza 1"
 
-#, fuzzy
 msgid "not using invalid df; must have 1 < df <= n := #{unique x} ="
-msgstr "si deve fornire 1 < df <= n, n = #{x distrinti} ="
+msgstr ""
+"non si utilizzano df non validi; deve avere 1 < df <= n := #{unique x} ="
 
 msgid "NA lev[]; probably smoothing parameter 'spar' way too large!"
 msgstr "NA lev[]; probabilmente il parametro di smothh 'spar' è troppo grande!"
@@ -2211,33 +2148,31 @@ msgid "setting df = 1  __use with care!__"
 msgstr "uso df = 1 __usare con molta cautela!__"
 
 msgid "need result of smooth.spline(keep.data = TRUE)"
-msgstr ""
+msgstr "richiesto il risultato di smooth.spline(keep.data = TRUE)"
 
-#, fuzzy
 msgid "type = \"partial\" is not yet implemented"
-msgstr "SE per il tipo '%s' non ancora implementati"
+msgstr "type = \"partial\" non è ancora implementato"
 
 msgid "not a valid \"smooth.spline\" object"
 msgstr "oggetto \"smooth.spline\" non valido"
 
 msgid "'span' must be between 0 and 1."
-msgstr "'span' deve essere tra 0 e 1"
+msgstr "'span' dev'essere tra 0 e 1."
 
 msgid "'y' must be numeric vector"
 msgstr "'y' deve essere un vettore numerico"
 
 msgid "number of observations in 'x' and 'y' must match."
-msgstr "il numero di osservazioni in 'x' e 'y' deve coincidere"
+msgstr "il numero di osservazioni in 'x' e 'y' deve coincidere."
 
 msgid "number of weights must match number of observations."
-msgstr "il numero di pesi deve coincidere col numero di osservazioni"
+msgstr "il numero di pesi deve coincidere col numero di osservazioni."
 
 msgid "'x' must be between 0 and 1 for periodic smooth"
 msgstr "'x' deve essere tra 0 e 1 per smooth periodici"
 
-#, fuzzy
 msgid "no finite observations"
-msgstr "non ci sono abbastanza osservazioni finite"
+msgstr "nessuna osservazione finita"
 
 msgid "'p' must be between 0 and 0.5"
 msgstr "'p' deve essere tra 0 e 0.5"
@@ -2259,25 +2194,22 @@ msgid "spline: first and last y values differ - using y[1] for both"
 msgstr ""
 "spline: il primo e l'ultimo valore di y sono diversi - uso y[1] per entrambi"
 
-#, fuzzy
 msgid "'y' must be increasing or decreasing"
-msgstr "'vec' deve essere ordinata in modo non-decrescente"
+msgstr "'y' dev'essere crescente o decrescente"
 
-#, fuzzy
 msgid "'spline' requires n >= 1"
-msgstr "'approx' richiede n >= 1"
+msgstr "'spline' richiede n >= 1"
 
-#, fuzzy
 msgid "spline: first and last y values differ - using y[1L] for both"
 msgstr ""
-"spline: il primo e l'ultimo valore di y sono diversi - uso y[1] per entrambi"
+"spline: il primo e l'ultimo valore di y differiscono - si utilizza y[1L] per "
+"entrambi"
 
-#, fuzzy
 msgid "'deriv' must be between 0 and 3"
-msgstr "'p' deve essere tra 0 e 0.5"
+msgstr "'deriv' dev'essere tra 0 e 3"
 
 msgid "'x' must be *strictly* increasing (non - NA)"
-msgstr ""
+msgstr "'x' dev'essere strettamente crescente (non - NA)"
 
 msgid "stepfun: 'x' must be ordered increasingly"
 msgstr "stepfun: 'x' deve essere ordinato in ordine crescente"
@@ -2297,9 +2229,8 @@ msgstr "non è una funzione a gradini valida"
 msgid "'plot.stepfun' called with wrong type of argument 'x'"
 msgstr "'plot.stepfun' chiamata con argomento 'x' di tipo sbagliato"
 
-#, fuzzy
 msgid "%s must be 0 or 1"
-msgstr "deve essere 0 o 1"
+msgstr "%s dev'essere 0 o 1"
 
 msgid "only univariate series are allowed"
 msgstr "ammesse solo serie unidimensionali"
@@ -2374,10 +2305,10 @@ msgid "time series contains internal NAs"
 msgstr "serie storica contenente valori interni NA"
 
 msgid "series is corrupt, with no 'tsp' attribute"
-msgstr ""
+msgstr "la serie è corrotta, senza attributo 'tsp'"
 
 msgid "series is corrupt: length %d with 'tsp' implying %d"
-msgstr ""
+msgstr "la serie è corrotta: la lunghezza %d con 'tsp' implica %d"
 
 msgid "cannot plot more than 10 series as \"multiple\""
 msgstr "non posso disegnare più di 10 serie in \"multiple\""
@@ -2392,9 +2323,8 @@ msgid "'frequency' and 'deltat' are both supplied and are inconsistent"
 msgstr ""
 "'frequency' e 'deltat' sono stati specificati entrambi ma non consistenti"
 
-#, fuzzy
 msgid "'frequency' not changed"
-msgstr "Frequency non cambiata"
+msgstr "'frequency' non cambiata"
 
 msgid "bad value for 'start'"
 msgstr "valore sbagliato per 'start'"
@@ -2430,16 +2360,14 @@ msgstr ""
 "il numero di valori specificati per la sostituzione non sono un "
 "sottomultiplo del numero di valori che devono essere sostituiti"
 
-#, fuzzy
 msgid "only replacement of elements is allowed"
-msgstr "indicati troppo valori da sostituire"
+msgstr "solo la sostituzione degli elementi è ammessa"
 
 msgid "'model' must be list"
 msgstr "'model' deve essere di tipo list"
 
-#, fuzzy
 msgid "'n' must be strictly positive"
-msgstr "'ratio' deve essere un numero positivo"
+msgstr "'n' dev'essere strettamente positivo"
 
 msgid "'ar' part of model is not stationary"
 msgstr "la parte 'ar' del modello non è stazionaria"
@@ -2472,7 +2400,7 @@ msgid "not enough (finite) 'x' observations"
 msgstr "osservazioni 'x' (finite) insufficienti"
 
 msgid "requested conf.level not achievable"
-msgstr ""
+msgstr "livello di conf.level richiesto non raggiungibile"
 
 #, fuzzy
 msgid ""
@@ -2492,20 +2420,18 @@ msgstr ""
 "impossibile calcolar eintervalli di confidenza esatti in presenza di zeri"
 
 msgid "Requested conf.level not achievable"
-msgstr ""
+msgstr "Livello di conf.level richiesto non raggiungibile"
 
 #, fuzzy
 msgid "cannot compute confidence interval when all observations are tied"
 msgstr ""
 "impossibile calcolar eintervalli di confidenza esatti in presenza di zeri"
 
-#, fuzzy
 msgid "must supply either 'formula' or 'data'"
-msgstr "fornire uno o più vettori"
+msgstr "bisogna indicare 'formula' o 'data'"
 
-#, fuzzy
 msgid "%s applies only to two-way tables"
-msgstr "PCA si applica solo a variabili numeriche"
+msgstr "%s si applica solo su tabelle a due vie"
 
 msgid "too few distinct input values to fit an asymptotic regression model"
 msgstr ""
@@ -2564,167 +2490,145 @@ msgstr ""
 "tutti i valori di 'x' devono essere non-negativi per stimar eun modello di "
 "crescita Weibull"
 
-#, fuzzy
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
-msgstr[0] "uso le %d/%d righe da una stima combinata"
-msgstr[1] "uso le %d/%d righe da una stima combinata"
+msgstr[0] "utilizzo la riga %d/%d da una stima combinata"
+msgstr[1] "utilizzo le righe %d/%d da una stima combinata"
 
-#, fuzzy
 msgid "lower scope has term %s not included in model"
 msgid_plural "lower scope has terms %s not included in model"
-msgstr[0] "scope inferiore non incluso nel modello"
-msgstr[1] "scope inferiore non incluso nel modello"
+msgstr[0] "il campo inferiore ha %s termine non incluso nel modello"
+msgstr[1] "il campo inferiore ha %s termini non inclusi nel modello"
 
-#, fuzzy
 msgid "upper scope has term %s not included in model"
 msgid_plural "upper scope has terms %s not included in model"
-msgstr[0] "scope inferiore non incluso nel modello"
-msgstr[1] "scope inferiore non incluso nel modello"
+msgstr[0] "il campo superiore ha %s termine non incluso nel modello"
+msgstr[1] "il campo superiore ha %s termini non inclusi nel modello"
 
 msgid "there are %d Error terms: only 1 is allowed"
 msgid_plural "there are %d Error terms: only 1 is allowed"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "c'è %d termine Error: solo 1 è ammesso"
+msgstr[1] "ci sono %d termini Error: solo 1 è ammesso"
 
-#, fuzzy
 msgid "unknown name %s in the 'split' list"
 msgid_plural "unknown names %s in the 'split' list"
-msgstr[0] "nome(i) sconosciuti nella lista 'split'"
-msgstr[1] "nome(i) sconosciuti nella lista 'split'"
+msgstr[0] "%s nome sconosciuto nella lista 'split'"
+msgstr[1] "%s nomi sconosciuti nella lista 'split'"
 
-#, fuzzy
 msgid "extra argument %s is not of class \"%s\""
 msgid_plural "extra arguments %s are not of class \"%s\"s"
-msgstr[0] "argometni extra ignorati"
-msgstr[1] "argometni extra ignorati"
+msgstr[0] "l'argomento extra %s non è di classe \"%s\""
+msgstr[1] "gli argomenti extra %s non sono di classe \"%s\""
 
-#, fuzzy
 msgid "%d factor is too many for %d variables"
 msgid_plural "%d factors are too many for %d variables"
-msgstr[0] "%d variabili factor sono troppe per %d variabili"
-msgstr[1] "%d variabili factor sono troppe per %d variabili"
+msgstr[0] "%d fattore è troppo per %d variabili"
+msgstr[1] "%d fattori sono troppi per %d variabili"
 
-#, fuzzy
 msgid "'start' must have %d row"
 msgid_plural "'start' must have %d rows"
-msgstr[0] "'start' deve avere %d righe"
+msgstr[0] "'start' deve avere %d riga"
 msgstr[1] "'start' deve avere %d righe"
 
-#, fuzzy
 msgid "unable to optimize from this starting value"
 msgid_plural "unable to optimize from these starting values"
-msgstr[0] "impossibile ottimizzare partendo da questi valori"
-msgstr[1] "impossibile ottimizzare partendo da questi valori"
+msgstr[0] "ottimizzazione non possibile partendo da questo valore"
+msgstr[1] "ottimizzazione non possibile partendo da questi valori"
 
-#, fuzzy
 msgid "'init' must have %d column"
 msgid_plural "'init' must have 1 or %d columns"
-msgstr[0] "'init'; deve avere 1 o %d colonne"
-msgstr[1] "'init'; deve avere 1 o %d colonne"
+msgstr[0] "'init' deve avere %d colonna"
+msgstr[1] "'init' deve avere 1 o %d colonne"
 
-#, fuzzy
 msgid "X matrix has rank %d, but only %d observation"
 msgid_plural "X matrix has rank %d, but only %d observations"
-msgstr[0] "la matrice X ha rango %d, ma solo %d osservazioni"
-msgstr[1] "la matrice X ha rango %d, ma solo %d osservazioni"
+msgstr[0] "La matrice X ha rango %d, ma solo %d osservazione"
+msgstr[1] "La matrice X ha rango %d, ma solo %d osservazioni"
 
-#, fuzzy
 msgid "did not converge in %d iteration"
 msgid_plural "did not converge in %d iterations"
-msgstr[0] "non converge in %d iterazioni"
+msgstr[0] "non converge in %d iterazione"
 msgstr[1] "non converge in %d iterazioni"
 
-#, fuzzy
 msgid "%d missing value deleted"
 msgid_plural "%d missing values deleted"
-msgstr[0] "eliminati %d valori mancanti"
+msgstr[0] "eliminato %d valore mancante"
 msgstr[1] "eliminati %d valori mancanti"
 
-#, fuzzy
 msgid "'X' matrix has %d case (row)"
 msgid_plural "'X' matrix has %d cases (rows)"
-msgstr[0] "la matrice 'X' ha %d risposte, 'Y' ha %d risposte"
-msgstr[1] "la matrice 'X' ha %d risposte, 'Y' ha %d risposte"
+msgstr[0] "la matrice 'X' ha %d caso (riga)"
+msgstr[1] "la matrice 'X' ha %d casi (righe)"
 
 msgid "'Y' has %d case (row)"
 msgid_plural "'Y' has %d cases (rows)"
 msgstr[0] "'Y' ha %d caso (row)"
 msgstr[1] "'Y' ha %d casi (rows)"
 
-#, fuzzy
 msgid "only %d case"
 msgid_plural "only %d cases"
-msgstr[0] "%d risposte, ma solo %d variabili"
-msgstr[1] "%d risposte, ma solo %d variabili"
+msgstr[0] "solo %d caso"
+msgstr[1] "solo %d casi"
 
-#, fuzzy
 msgid "but %d variable"
 msgid_plural "but %d variables"
-msgstr[0] "%d risposte, ma solo %d variabili"
-msgstr[1] "%d risposte, ma solo %d variabili"
+msgstr[0] "ma %d variabile"
+msgstr[1] "ma %d variabili"
 
-#, fuzzy
 msgid "medpolish() did not converge in %d iteration"
 msgid_plural "medpolish() did not converge in %d iterations"
-msgstr[0] "medpolish() non converge in %d iterazioni"
+msgstr[0] "medpolish() non converge in %d iterazione"
 msgstr[1] "medpolish() non converge in %d iterazioni"
 
-#, fuzzy
 msgid "'newdata' had %d row"
 msgid_plural "'newdata' had %d rows"
-msgstr[0] "'start' deve avere %d righe"
-msgstr[1] "'start' deve avere %d righe"
+msgstr[0] "'newdata' ha %d riga"
+msgstr[1] "'newdata' ha %d righe"
 
-#, fuzzy
 msgid "but variable found had %d row"
 msgid_plural "but variables found have %d rows"
-msgstr[0] "'newdata' ha %d righe ma la variabilie(i) trovate hanno %d righe"
-msgstr[1] "'newdata' ha %d righe ma la variabilie(i) trovate hanno %d righe"
+msgstr[0] "ma la variabile trovata ha %d riga"
+msgstr[1] "ma la variabile trovata ha %d righe"
 
-#, fuzzy
 msgid "factor %s has new level %s"
 msgid_plural "factor %s has new levels %s"
-msgstr[0] "variabile factor '%s' ha nuovi livelli %s"
-msgstr[1] "variabile factor '%s' ha nuovi livelli %s"
+msgstr[0] "il fattore %s ha %s nuovo livello"
+msgstr[1] "il fattore %s ha %s nuovi livelli"
 
 msgid "%d observation deleted due to missingness"
 msgid_plural "%d observations deleted due to missingness"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d osservazione eliminata a causa di valori mancanti"
+msgstr[1] "%d osservazioni eliminate a causa di valori mancanti"
 
-#, fuzzy
 msgid "_NOT_ converged in %d iteration"
 msgid_plural "_NOT_ converged in %d iterations"
-msgstr[0] "non converge in %d iterazioni"
-msgstr[1] "non converge in %d iterazioni"
+msgstr[0] "_NON_ convergente in %d iterazione"
+msgstr[1] "_NON_ convergente in %d iterazioni"
 
 msgid "unrecognized control element named %s ignored"
 msgid_plural "unrecognized control elements named %s ignored"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "elemento di controllo denominato %s non riconosciuto"
+msgstr[1] "elementi di controllo denominati %s non riconosciuti"
 
-#, fuzzy
 msgid "fitting parameter %s without any variables"
 msgid_plural "fitting parameters %s without any variables"
-msgstr[0] "specificati tutti i parametri"
-msgstr[1] "specificati tutti i parametri"
+msgstr[0] "adattamento del parametro%s senza alcuna variabile"
+msgstr[1] "adattamento dei parametri %s senza alcuna variabile"
 
 msgid "parameter %s does not occur in the model formula"
 msgid_plural "parameters %s do not occur in the model formula"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "il parametro %s non si verifica nella formula del modello"
+msgstr[1] "i parametri %s non si verificano nella formula del modello"
 
-#, fuzzy
 msgid "%d observation with NA, NaN or Inf deleted"
 msgid_plural "%d observations with NAs, NaNs and/or Infs deleted"
-msgstr[0] "osservazioni con NA, NaN e/o Inf eliminate"
-msgstr[1] "osservazioni con NA, NaN e/o Inf eliminate"
+msgstr[0] "%d osservazione con NA, NaN o Inf eliminato"
+msgstr[1] "%d osservazioni con NA, NaN o Inf eliminati"
 
 msgid "'start.innov' is too short: need %d point"
 msgid_plural "'start.innov' is too short: need %d points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "'start.innov' è troppo corto: richiesto %d punto"
+msgstr[1] "'start.innov' è troppo corto: richiesti %d punti"
 
 #~ msgid "all group levels must be finite"
 #~ msgstr "tutti i livelli di gruppo devono essere finiti"
