@@ -22,151 +22,157 @@ msgid "OOPS: something wrong with '.OldClassesPrototypes[[%d]]'"
 msgstr "OOPS: qualcosa è andato storto con '.OldClassesPrototypes[[%d]]'"
 
 msgid "unnamed argument to initialize() for S3 class must have a class definition; %s does not"
-msgstr ""
+msgstr "l'argomento non denominato per initialize() di una classe S3 deve avere una definizione di classe; %s non lo fa"
 
 msgid "unnamed argument must extend either the S3 class or the class of the data part; not true of class %s"
-msgstr ""
+msgstr "l'argomento senza nome deve estendere la classe S3 o la classe della parte dati; non vero per la classe%s"
 
 msgid "class %s does not have an S3 data part, and so is of type \"S4\"; no S3 equivalent"
-msgstr ""
+msgstr "la classe %s non ha una parte dati S3, quindi è di tipo \"S4\"; nessun equivalente S3"
 
 msgid "class %s is VIRTUAL; not meaningful to create an S4 object from this class"
-msgstr ""
+msgstr "la classe %s è VIRTUALE; non è significativo creare un oggetto S4 da questa classe"
 
 msgid "object must be a valid data part for class %s; not true of type %s"
-msgstr ""
+msgstr "l'oggetto dev'essere una valida parte di dati per la classe %s; non è vero per il tipo %s"
 
 msgid "cannot specify matrix() arguments when specifying '.Data'"
-msgstr ""
+msgstr "non è possibile specificare gli argomenti matrix() specificando '.Data'"
 
 msgid "cannot specify array() arguments when specifying '.Data'"
-msgstr ""
+msgstr "non è possibile specificare gli argomenti array() specificando '.Data'"
 
 msgid "cannot have more than one unnamed argument as environment"
-msgstr ""
+msgstr "non è possibile avere più di un argomento senza nome come ambiente"
 
 msgid "unnamed argument to new() must be an environment for the new object"
-msgstr ""
+msgstr "l'argomento senza nome di new() dev'essere un ambiente per il nuovo oggetto"
 
 msgid "methods may not be defined for primitive function %s in this version of R"
-msgstr ""
+msgstr "i metodi non possono essere definiti per la funzione primitiva %s in questa versione di R"
 
 msgid "S3Part() is only defined for classes set up by setOldCLass(), basic classes or subclasses of these:  not true of class %s"
-msgstr ""
+msgstr "S3Part() è unicamente definito per le classi impostate da setOldCLass(), classi di base o sottoclassi di queste:  non è vero per la classe %s"
 
 msgid "the 'S3Class' argument must be a superclass of %s:  not true of class %s"
-msgstr ""
+msgstr "l'argomento 'S3Class' dev'essere una superclasse di %s: non è vero per la classe %s"
 
 msgid "replacement value must extend class %s, got %s"
-msgstr ""
+msgstr "il valore di sostituzione deve estendere la classe %s, si è ottenuto %s"
 
 msgid "replacement value must be of class %s, got one of class %s"
-msgstr ""
+msgstr "il valore di sostituzione deve essere una classe %s, se ne è ottenuto uno di classe %s"
 
 msgid "no 'replace' method was defined for 'as(x, \"%s\") <- value' for class %s"
-msgstr ""
+msgstr "nessun metodo 'replace' è stato definito per 'as (x, \"%s\") <- value' per la classe %s"
 
 msgid "the 'coerce' argument to 'setIs' should be a function of one argument, got an object of class %s"
-msgstr ""
+msgstr "l'argomento 'coerce' in 'setIs' dovrebbe essere una funzione con un argomento, si è ottenuto un oggetto della classe %s"
 
 msgid "the computation: 'as(object,\"%s\") <- value' is valid when object has class %s only if 'is(value, \"%s\")' is TRUE ('class(value)' was %s)"
-msgstr ""
+msgstr "la computazione: 'as(object, \"%s\") <- value' valida quando l'oggetto ha la classe %s solo se 'is(value, \"%s\")' è TRUE ('classe (value)' era %s )"
 
 msgid "there is no automatic definition for 'as(object, \"%s\") <- value' when object has class %s and no 'replace' argument was supplied; replacement will be an error"
-msgstr ""
+msgstr "non esiste una definizione automatica per 'as (object, \"% s\") <- value' quando l'oggetto ha la classe %s e non è stato fornito alcun argomento 'replace'; la sostituzione darà un errore"
 
 msgid "the 'replace' argument to setIs() should be a function of 2 or 3 arguments, got an object of class %s"
-msgstr ""
+msgstr "l'argomento 'replace' di setIs() dovrebbe essere una funzione di 2 o 3 argomenti, si è ottenuto un oggetto della classe %s"
 
 msgid "the member classes must be defined: not true of %s"
-msgstr ""
+msgstr "le classi membro devono essere definite: non è vero per %s"
 
 msgid "unable to create union class:  could not set members %s"
-msgstr ""
+msgstr "non è possibile creare la classe union:  non è possibile impostare i membri %s"
 
 msgid ""
 "methods:::bind_activation() is defunct;\n"
 " rather provide methods for cbind2() / rbind2()"
 msgstr ""
+"methods:::bind_activation() è rimossa;\n"
+"  meglio fornire metodi per cbind2() / rbind2()"
 
 msgid "invalid argument 'name': %s"
 msgstr "argomento 'name' non valido: %s"
 
 msgid "%s dispatches internally;  methods can be defined, but the generic function is implicit, and cannot be changed."
-msgstr ""
+msgstr "%s con dispatch interni;  i metodi possono essere definiti, ma la funzione generica è implicita, e non può essere modificata."
 
 msgid "if the 'def' argument is supplied, it must be a function that calls standardGeneric(\"%s\") or is the default"
-msgstr ""
+msgstr "se viene fornito l'argomento 'def', bisogna essere una funzione che chiama standardGeneric (\"%s\") o è la predefinita"
 
 msgid "must supply a function skeleton for %s, explicitly or via an existing function"
-msgstr ""
+msgstr "bisogna fornire uno skeleton di funzione per %s, esplicitamente o tramite una funzione esistente"
 
 msgid ""
 "Creating a generic function for %s from %s in %s\n"
 "    (from the saved implicit definition)"
 msgstr ""
+"Creazione di una funzione generica per %s da %s in %s\n"
+"    (dalla definizione implicita salvata)"
 
 msgid "Creating a new generic function for %s in %s"
-msgstr ""
+msgstr "Creazione una nuova generica funzione per %s in %s"
 
 msgid ""
 "no generic version of %s on package %s is allowed;\n"
 "   a new generic will be assigned for %s"
 msgstr ""
+"non è ammessa alcuna versione generica di %s nel pacchetto %s;\n"
+"   una nuova generica sarà assegnata per %s"
 
 msgid "function %s appears to be a generic function, but with generic name %s"
-msgstr ""
+msgstr "la funzione %s sembra essere una funzione generica, ma con il nome generico %s"
 
 msgid "generic function %s not found for removal"
-msgstr ""
+msgstr "la funzione generica %s non è stata trovata per la rimozione"
 
 msgid "a function for argument 'f' must be a generic function"
-msgstr ""
+msgstr "una funzione per l'argomento 'f' dev'essere una funzione generica"
 
 msgid "the environment %s is locked; cannot assign methods for function %s"
-msgstr ""
+msgstr "l'ambiente %s è bloccato; non è possibile assegnare metodi per la funzione %s"
 
 msgid "the 'where' environment (%s) is a locked namespace; cannot assign methods there"
-msgstr ""
+msgstr "l'ambiente 'where' (%s) è un namespace bloccato; non è possibile assegnarli metodi"
 
 msgid "Copying the generic function %s to environment %s, because the previous version was in a sealed namespace (%s)"
-msgstr ""
+msgstr "Copia della funzione generica %s nell'ambiente %s, perché la versione precedente era in un namespace protetto (%s)"
 
 msgid "no existing definition for function %s"
 msgstr "nessuna definizione esistente per la funzione %s"
 
 msgid "Creating a generic function from function %s in %s"
-msgstr ""
+msgstr "Creazione di una funzione generica dalla funzione %s in %s"
 
 msgid "Creating a generic function for %s from package %s in %s"
-msgstr ""
+msgstr "Creazione di una funzione generica per %s dal pacchetto %s in %s"
 
 msgid "the method for function %s and signature %s is sealed and cannot be re-defined"
-msgstr ""
+msgstr "il metodo per la funzione %s e la firma %s è protetto e non può essere ridefinito"
 
 msgid "For function %s, signature %s: argument in method definition changed from (%s) to (%s)"
-msgstr ""
+msgstr "Per la funzione %s, firma %s: l'argomento nella definizione del metodo è stato modificato da (%s) a (%s)"
 
 msgid "primitive functions cannot be methods; they must be enclosed in a regular function"
-msgstr ""
+msgstr "le funzioni primitive non possono essere metodi; devono essere racchiusi in una normale funzione"
 
 msgid "invalid method definition: expected a function, got an object of class %s"
-msgstr ""
+msgstr "definizione del metodo non valida: prevista una funzione, si è ottenuto un oggetto della classe %s"
 
 msgid "function supplied as argument 'f' must be a generic"
-msgstr ""
+msgstr "la funzione fornita come argomento 'f' dev'essere generica"
 
 msgid "no generic function %s found"
 msgstr "non è stata trovata alcuna funzione generica %s"
 
 msgid "no method found for function %s and signature %s"
-msgstr ""
+msgstr "nessun metodo trovato per la funzione %s e firma %s"
 
 msgid "no environment or package corresponding to argument where=%s"
-msgstr ""
+msgstr "nessun ambiente o pacchetto corrispondente all'argomento where =%s"
 
 msgid "no generic function found for '%s'"
-msgstr ""
+msgstr "non è stata trovata alcuna funzione generica per '%s'"
 
 msgid "no method found for function '%s' and signature %s"
 msgstr "nessun metodo trovato per la funzione %s e firma %s"
@@ -178,51 +184,53 @@ msgid ""
 "argument 'signature' is not meaningful with the current implementation and is ignored \n"
 "(extract a subset of the methods list instead)"
 msgstr ""
+"l'argomento 'signature' non è significativo con l'implementazione corrente ed è ignorato\n"
+"(piuttosto si estragga un sottoinsieme dall'elenco dei metodi)"
 
 msgid "no method for %s matches class %s"
-msgstr ""
+msgstr "nessun metodo per %s corrisponde alla classe %s"
 
 msgid "no method found for signature %s"
-msgstr ""
+msgstr "nessun metodo trovato per la firma %s"
 
 msgid "%s has no methods defined"
 msgstr "%s non ha metodi definiti"
 
 msgid "bad class specified for element %d (should be a single character string)"
-msgstr ""
+msgstr "classe errata specificata per l'elemento%d (dovrebbe essere una singola stringa di caratteri)"
 
 msgid "first argument should be the names of one of more generic functions (got object of class %s)"
-msgstr ""
+msgstr "il primo argomento dovrebbe essere il nome di una o più funzioni generiche (si è ottenuto un oggetto della classe %s)"
 
 msgid "must supply 'generic.function' or 'class'"
-msgstr ""
+msgstr "bisogna fornire 'generic.function' o \"class\""
 
 msgid "%s is not an S4 generic function in %s; methods not removed"
-msgstr ""
+msgstr "%s non è una generica funzione S4 in %s; metodi non rimossi"
 
 msgid "cannot remove methods for %s in locked environment/package %s"
-msgstr ""
+msgstr "non è possibile rimuovere i metodi per %s in un ambiente/pacchetto bloccato %s"
 
 msgid "Restoring default function definition of %s"
-msgstr ""
+msgstr "Ripristino della definizione predefinita di funzione per %s"
 
 msgid "error in updating S4 generic function %s; the function definition is not an S4 generic function (class %s)"
-msgstr ""
+msgstr "errore durante l'aggiornamento della funzione generica S4 %s; la definizione della funzione non è una funzione generica S4 (classe%s)"
 
 msgid "Function %s is already a group generic; no change"
-msgstr ""
+msgstr "La funzione %s è già un gruppo generico; nessun cambiamento"
 
 msgid "Function %s is a group generic; do not call it directly"
-msgstr ""
+msgstr "La funzione %s è un gruppo generico; non chiamatelo direttamente"
 
 msgid "callGeneric() must be called from within a method body"
-msgstr ""
+msgstr "callGeneric() dev'essere chiamato all'interno del corpo di un metodo"
 
 msgid "expected a non-empty character string for argument name"
-msgstr ""
+msgstr "prevista una stringa di caratteri non-vuota per il nome dell'argomento"
 
 msgid "generic function supplied was not created for %s"
-msgstr ""
+msgstr "la funzione generica fornita non è stata creata per %s"
 
 msgid "%s is a primitive function; its generic form cannot be redefined"
 msgstr ""
