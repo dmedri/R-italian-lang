@@ -717,40 +717,40 @@ msgid "invalid class %s object"
 msgstr "oggetto classe %s non valido"
 
 msgid "validity method must be NULL or a function of one argument"
-msgstr ""
+msgstr "il metodo di validità dev'essere NULL o una funzione di un argomento"
 
 msgid "class %s not found on %s; 'resetClass' will have no effect"
-msgstr ""
+msgstr "la classe %s non è stata trovata su %s; 'resetClass' non avrà alcun effetto"
 
 msgid "argument 'classDef' must be a string or a class representation; got an object of class %s"
 msgstr "l'argomento 'classDef' dev'essere una stringa o una rappresentazione di classe; si è ottenuto un oggetto di classe %s"
 
 msgid "class %s is sealed; 'resetClass' will have no effect"
-msgstr ""
+msgstr "la classe %s è protetta; 'resetClass' non avrà alcun effetto"
 
 msgid "cannot use object of class %s in new():  class %s does not extend that class"
-msgstr ""
+msgstr "non è possibile utilizzare l'oggetto della classe %s in new(): la classe %s non la estende"
 
 msgid "duplicated slot names: %s"
 msgstr "nomi slot duplicati: %s"
 
 msgid "class %s is defined, with package %s, but no corresponding metadata object was found (not exported?)"
-msgstr ""
+msgstr "la classe %s è definita, con il pacchetto %s, ma non è stato trovato alcun oggetto metadata corrispondente (non esportato?)"
 
 msgid "no definition of %s to use for %s"
 msgstr "nessuna definizione di %s da usare per %s"
 
 msgid "class definition cannot extend more than one of these data types: %s"
-msgstr ""
+msgstr "la definizione della classe non può estendere più di uno di questi tipi di dati: %s"
 
 msgid "abnormal type %s is not supported as a superclass of a class definition"
-msgstr ""
+msgstr "il tipo anomalo %s non è supportato come superclasse di una definizione di classe"
 
 msgid "multiple class definitions for %s from packages: %s; picking the first"
-msgstr ""
+msgstr "definizioni multiple di classi per %s dai pacchetti: %s; si utilizza il primo"
 
 msgid "no package name supplied and no class definition found for %s"
-msgstr ""
+msgstr "non si è fornito alcun nome pacchetto e non è stata trovata alcuna definizione di classe per %s"
 
 msgid "argument 'classDef' must be a class definition or the name of a class"
 msgstr "l'argomento 'classDef' dev'essere una definizione di classe o il nome di una classe"
@@ -881,40 +881,41 @@ msgstr "oggetto non valido nella tabella meta dei metodi per %s, etichetta %s, c
 msgid "invalid mlist element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
 msgstr "elemento mlist non valido per la firma %s al livello %d (dovrebbe essere MethodDefinition o .Primitive, con classe %s)"
 
-#, fuzzy
 msgid "bad method object stored in method table, class %s"
-msgstr "oggetto errato trovato come metodo (classe %s)"
+msgstr "oggetto metodo errato archiviato nella tabella metodi, classe %s"
 
-#, fuzzy
 msgid "invalid object in methods table (%s), expected a method, got an object of class %s"
-msgstr "definizione del metodo non valida: prevista una funzione, si è ottenuto un oggetto della classe %s"
+msgstr "oggetto non valido nella tabella metodi (%s), atteso un metodo, si è ottenuto un oggetto della classe %s"
 
 msgid "invalid or unset methods table in generic function %s"
-msgstr ""
+msgstr "tabella metodi non valida o non impostata nella funzione generica %s"
 
 msgid "trying to find a methods table in a non-generic function"
-msgstr ""
+msgstr "cercando di trovare una tabella metodi in una funzione non-generica"
 
 msgid "the \"ambiguousMethodSelection\" option should be a function to be called as the condition action; got an object of class %s"
-msgstr ""
+msgstr "l'opzione \"ambiguousMethodSelection\" dovrebbe essere una funzione da chiamare come azione condizionale; si è ottenuto un oggetto della classe %s"
 
 msgid "No simply inherited methods found for function %s; using non-simple method"
-msgstr ""
+msgstr "Non sono stati trovati metodi semplici ereditati per la funzione %s; si utilizza un metodo non-semplice"
 
 msgid ""
 "Note: method with signature %s chosen for function %s,\n"
 " target signature %s.\n"
 " %s would also be valid"
 msgstr ""
+"Nota: metodo con firma %s scelto per la funzione %s,\n"
+"  firma target %s.\n"
+"  %s sarebbe anche valido"
 
 msgid "unable to find an inherited method for function %s for signature %s"
-msgstr ""
+msgstr "non è possibile trovare un metodo ereditato per la funzione %s per la firma %s"
 
 msgid "failed to find expected group generic function:"
-msgstr ""
+msgstr "non è possibile trovare la funzione generica prevista del gruppo:"
 
 msgid "invalid group generic function in search for inherited method (class %s)"
-msgstr ""
+msgstr "funzione generica di gruppo non valida nella ricerca del metodo ereditato (classe %s)"
 
 msgid "invalid methods table request"
 msgstr "richiesta alla tabella metodi non valida"
@@ -928,9 +929,8 @@ msgstr ""
 msgid "no methods table for generic %s from package %s in package %s"
 msgstr "nessuna tabella metodi per la generica %s dal pacchetto %s nel pacchetto %s"
 
-#, fuzzy
 msgid "undefined classes (%s) will be ignored for argument '%s'"
-msgstr "l'argomento '%s = \"%s\"' sarà ignorato"
+msgstr "le classi non definite (%s) saranno ignorate per l'argomento '%s'"
 
 msgid "argument 'signatures' must be a character matrix whose rows are method signatures"
 msgstr ""
@@ -1051,9 +1051,8 @@ msgstr ""
 msgid "the 'contains' argument should be the names of superclasses:  got an element of class %s"
 msgstr ""
 
-#, fuzzy
 msgid "no definition found for inherited class: %s"
-msgstr "non è stata trovata alcuna definizione per la classe di %s (classe %s)"
+msgstr "nessuna definizione trovata per la classe ereditata:%s"
 
 msgid "a single class name is needed for field %s, got a character vector of length %d"
 msgstr ""
@@ -1067,13 +1066,11 @@ msgstr ""
 msgid "code for methods in class %s was not checked for suspicious field assignments (recommended package %s not available?)"
 msgstr ""
 
-#, fuzzy
 msgid "class %s is defined but is not a reference class"
-msgstr "%s non è una classe ridefinita in questo ambiente"
+msgstr "la classe %s è definita ma non è una di riferimento"
 
-#, fuzzy
 msgid "class must be a reference class representation or a character string; got an object of class %s"
-msgstr "l'argomento %s dev'essere una funzione generica o una singola stringa di caratteri; si è ottenuto un oggetto della classe %s"
+msgstr "la classe dev'essere una rappresentazione di classe riferimento o una stringa di caratteri; si è ottenuto un oggetto di classe %s"
 
 msgid "not a reference class: %s"
 msgstr "non un riferimento di classe: %s"
@@ -1132,20 +1129,17 @@ msgstr "%s non è un metodo per la classe di riferimento %s"
 msgid "argument 'what' should be the name of a function"
 msgstr ""
 
-#, fuzzy
 msgid "tracing the internal function %s is not allowed"
-msgstr "nome funzione interna \"%s\" non riconosciuto"
+msgstr "non è ammesso fare il tracing della funzione interna %s"
 
 msgid "no function definition for %s found"
 msgstr "nessuna definizione di funzione trovata per %s"
 
-#, fuzzy
 msgid "cannot untrace method for %s; no method defined for this signature: %s"
-msgstr "nessun metodo definito per la funzione %s e firma %s"
+msgstr "non è possibile annullare il tracing del metodo per %s; nessun metodo definito per questa firma: %s"
 
-#, fuzzy
 msgid "the method for %s for this signature was not being traced"
-msgstr "nessun metodo trovato per la funzione %s e firma %s"
+msgstr "il metodo per %s per questa firma non è stato tracciato"
 
 msgid "making a traced version of a special; arguments may be altered"
 msgstr ""
@@ -1202,10 +1196,10 @@ msgid "New functions are not currently inserted (not untraceable): %s"
 msgstr ""
 
 msgid "Modified functions inserted through trace(): %s"
-msgstr ""
+msgstr "Inserite funzioni modificate tramite trace():%s"
 
 msgid "%s() is not a generic function in the target environment -- methods will not be inserted"
-msgstr ""
+msgstr "%s () non è una funzione generica nell'ambiente di destinazione -- i metodi non saranno inseriti"
 
 msgid "Methods inserted for function %s(): %s"
 msgstr "Metodi inseriti per la funzione %s(): %s"
@@ -1214,10 +1208,10 @@ msgid "no definition for object %s found in tracing environment"
 msgstr "nessuna definizione per l'oggetto %s trovato nell'ambiente di tracing"
 
 msgid "multiple generics match pattern, using table %s"
-msgstr ""
+msgstr "modello di corrispondenza per generici multipli, si utilizza la tabella %s"
 
 msgid "does not seem to be a method table for generic %s in tracing environment"
-msgstr ""
+msgstr "non sembra essere una tabella metodi per %s generico nell'ambiente di tracing"
 
 msgid "no method in methods table for %s for signature %s"
 msgstr "nessun metodo nella tabella per %s con firma %s"
@@ -1226,10 +1220,10 @@ msgid "unloading 'methods' package ..."
 msgstr "scaricamento pacchetto 'methods' ..."
 
 msgid "apparently bad method or class metadata in saved environment;"
-msgstr ""
+msgstr "metodo apparentemente errato o metadati di classe nell'ambiente salvato;"
 
 msgid "move the file or remove the class/method"
-msgstr ""
+msgstr "sposta il file o rimuovi la classe/metodo"
 
 msgid "no definition for class %s"
 msgid_plural "no definition for classes %s"
@@ -1278,42 +1272,46 @@ msgid_plural ""
 "multiple definitions of class %s visible (%s); using the definition\n"
 "   in package %s for %s"
 msgstr[0] ""
+"definizione multipla visibile della classe %s (% s); si utilizza la definizione\n"
+"    nel pacchetto%s per %s"
 msgstr[1] ""
+"definizioni multiple visibili della classe %s (% s); si utilizza la definizione\n"
+"    nel pacchetto%s per %s"
 
 msgid "class %s is missing slot from class %s (%s), and no coerce method was supplied"
 msgid_plural "class %s is missing slots from class %s (%s), and no coerce method was supplied"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Nella classe %s manca lo slot della classe %s (%s) e non è stato fornito alcun metodo di coercizione"
+msgstr[1] "Nella classe %s mancano gli slot della classe %s (%s) e non è stato fornito alcun metodo di coercizione"
 
 msgid "slot in class %s must extend corresponding slot in class %s: fails for %s"
 msgid_plural "slots in class %s must extend corresponding slots in class %s: fails for %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "lo slot nella classe %s deve estendere quello corrispondente nella classe %s: non funziona per %s"
+msgstr[1] "gli slot nella classe %s devono estendere quelli corrispondenti nella classe %s: non funziona per %s"
 
 msgid "found %d equally good next method"
 msgid_plural "found %d equally good next methods"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "trovato %d metodo next ugualmente buono"
+msgstr[1] "trovati %d metodi next ugualmente buoni"
 
 msgid "Selecting %d method of minimum distance"
 msgid_plural "Selecting %d methods of minimum distance"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Selezione di %d metodo di distanza minima"
+msgstr[1] "Selezione di %d metodi di distanza minima"
 
 msgid "Selecting %d non-group method"
 msgid_plural "Selecting %d non-group methods"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Selezione di %d metodo non-gruppo"
+msgstr[1] "Selezione di %d metodi non-gruppo"
 
 msgid "Selecting %d partially exact-matching method"
 msgid_plural "Selecting %d partially exact-matching methods"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Selezione di %s metodo di corrispondenza parzialmente esatta"
+msgstr[1] "Selezione di %s metodi di corrispondenza parzialmente esatta"
 
 msgid "Choosing method %s from %d ambiguous possibility"
 msgid_plural "Choosing method %s from %d ambiguous possibilities"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Scelta del metodo %s da %d possibilità ambigua"
+msgstr[1] "Scelta del metodo %s da %d possibilità ambigue"
 
 msgid "no definition of class %s in the specified position, %s, definition on : %s"
 msgid_plural "no definition of class %s in the specified position, %s, definitions on : %s"
