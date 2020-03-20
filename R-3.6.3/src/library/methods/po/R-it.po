@@ -921,10 +921,10 @@ msgid "invalid methods table request"
 msgstr "richiesta alla tabella metodi non valida"
 
 msgid "trying to check signature length of group generic '%s', but it is not a group generic"
-msgstr ""
+msgstr "cercando di controllare la lunghezza della firma del gruppo generico '%s', ma non è un gruppo generico"
 
 msgid "trying to check signature length of generic '%s', but it is not a generic function: i = %d, funs = %s, gnames = %s"
-msgstr ""
+msgstr "cercando di controllare la lunghezza della firma del generico '%s', ma non è una funzione generica: i =%d, funs =%s, gnames =%s"
 
 msgid "no methods table for generic %s from package %s in package %s"
 msgstr "nessuna tabella metodi per la generica %s dal pacchetto %s nel pacchetto %s"
@@ -933,19 +933,19 @@ msgid "undefined classes (%s) will be ignored for argument '%s'"
 msgstr "le classi non definite (%s) saranno ignorate per l'argomento '%s'"
 
 msgid "argument 'signatures' must be a character matrix whose rows are method signatures"
-msgstr ""
+msgstr "l'argomento 'signatures' dev'essere una matrice di caratteri le cui righe sono firme del metodo"
 
 msgid "not allowed to have test==TRUE and an S4Class definition"
 msgstr "non è ammesso avere test==TRUE e una definizione S4Class"
 
 msgid "argument 'S4Class' must be a class definition: got an object of class %s"
-msgstr ""
+msgstr "l'argomento 'S4Class' dev'essere una definizione di classe: si è ottenuto un oggetto della classe %s"
 
 msgid "inconsistent old-style class information for %s; the class is defined but does not extend %s and is not valid as the data part"
-msgstr ""
+msgstr "informazioni incoerenti sulla classe vecchio-stile per %s; la classe è definita ma non estende %s e non è valida come parte dati"
 
 msgid "the S3 class of the prototype, \"%s\", is undefined; only allowed when this is the S3 class being registered (\"%s\")"
-msgstr ""
+msgstr "la classe S3 del prototipo, \"%s\", non è definita; è ammessa solo quando questa è la classe S3 registrata (\"%s\")"
 
 msgid "restoring definition of class %s"
 msgstr "ripristino della definizione di classe %s"
@@ -954,25 +954,25 @@ msgid "slot %s: class %s should extend class %s"
 msgstr "slot %s: la classe %s dovrebbe estendere la classe %s"
 
 msgid "invalid S4 class corresponding to S3 class: slots in  S4 version must extend corresponding slots in S3 version: fails for %s"
-msgstr ""
+msgstr "classe S4 non valida corrispondente alla classe S3: gli slot nella versione S4 devono estendere gli slot corrispondenti nella versione S3: non è possibile per %s"
 
 msgid "explicit coercion of old-style class (%s) is not defined"
 msgstr "l'esplicita coercizione di una classe (%s) vecchio-stile non è definita"
 
 msgid "explicit replacement not defined for as(x, \"%s\") <- value for old-style class %s"
-msgstr ""
+msgstr "sostituzione esplicita non definita per as(x, \"%s\") <- value per la classe vecchio-stile %s"
 
 msgid "argument 'Classes' must be a vector of two classes; got an argument of length %d"
-msgstr ""
+msgstr "l'argomento 'Classes' dev'essere un vettore di due classi; si è ottenuto un argomento di lunghezza %d"
 
 msgid "inconsistent old-style class information for %s (maybe mixing old and new classes?)"
-msgstr ""
+msgstr "informazioni incoerenti sulle classi vecchio-stile per %s (forse mischiando vecchie e nuove classi?)"
 
 msgid "'S3Class' only defined for extensions of %s or classes with a data part:  not true of class %s"
-msgstr ""
+msgstr "'S3Class' definito solo per estensioni di %s o classi con una parte dati:  non è vero per la classe %s"
 
 msgid "'S3Class' can only assign to S4 objects that extend \"oldClass\"; not true of class %s"
-msgstr ""
+msgstr "'S3Class' può assegnare solo agli oggetti S4 che estendono \"oldClass\"; non è vero per la classe %s"
 
 msgid "Created a package name, %s, when none found"
 msgstr "Creato un nome pacchetto,%s, quando non ne è stato trovato alcuno"
@@ -984,28 +984,28 @@ msgid "multiple definitions of %s found; using the one on %s"
 msgstr "trovate multiple definizioni di %s; si utilizza quello su %s"
 
 msgid "%s is not a valid field or method name for reference class %s"
-msgstr ""
+msgstr "%s non è un valido campo o nome metodo per la classe riferimento %s"
 
 msgid "a call to superClass() is in the method %s but there is no superclass definition of this method for class %s"
-msgstr ""
+msgstr "una chiamata a superClass() nel metodo %s ma non esiste una definizione di superclasse di questo metodo per la classe %s"
 
 msgid "methods declared in usingMethods() but not found: %s"
 msgstr "metodi dichiarati in usingMethods() ma non trovati: %s"
 
 msgid "%s is not a reference class"
-msgstr "%s non è una classe di riferimento"
+msgstr "%s non è una classe riferimento"
 
 msgid "%s is not a field in class %s"
 msgstr "%s non è un campo nella classe %s"
 
 msgid "unnamed arguments to $new() must be objects from a reference class; got an object of class %s"
-msgstr ""
+msgstr "gli argomenti senza nome di $new() devono essere oggetti di una classe riferimento; si è ottenuto un oggetto della classe %s"
 
 msgid "%s is not a valid field or method name for this class"
-msgstr ""
+msgstr "%s non è un valido campo o un nome metodo per questa classe"
 
 msgid "the class of field %s in the object is not compatible with the desired class %s in the target"
-msgstr ""
+msgstr "la classe del campo %s nell'oggetto non è compatibile con la classe desiderata %s nella destinazione"
 
 msgid "%s is not a defined class in this environment"
 msgstr "%s non è una classe ridefinita in questo ambiente"
@@ -1014,10 +1014,10 @@ msgid "invalid 'Class' argument:  should be a single string"
 msgstr "argomento 'Class' non valido:  dovrebbe essere una stringa singola"
 
 msgid "%s is not one of the reference super classes for this object"
-msgstr ""
+msgstr "%s non è una delle superclassi riferimento per questo oggetto"
 
 msgid "direct calls to callSuper() are invalid:  should only be called from another method"
-msgstr ""
+msgstr "le chiamate dirette a callSuper() non sono valide: devono essere chiamate solo da un altro metodo"
 
 msgid "%s is not a field in this class"
 msgstr "%s non è un campo in questa classe"
@@ -1029,45 +1029,47 @@ msgid "the definition of class %s in package %s is locked, methods may not be re
 msgstr "la definizione della classe %s nel pacchetto %s è bloccata, i metodi potrebbero non essere ridefiniti"
 
 msgid "arguments to methods() must be named, or one named list"
-msgstr ""
+msgstr "gli argomenti di method() devono essere denominati o una lista nomi"
 
 msgid ""
 "topic %s is not a method name in class %s\n"
 "The class definition follows"
 msgstr ""
+"argomento %s non è un nome metodo nella classe %s\n"
+"Segue la definizione della classe"
 
 msgid "the definition of class %s in package %s is locked so fields may not be modified"
-msgstr ""
+msgstr "la definizione della classe %s nel pacchetto %s è bloccata, perciò i campi potrebbero non essere modificabili"
 
 msgid "the overriding class (\"%s\") of field %s is not a subclass of the existing field definition (\"%s\")"
-msgstr ""
+msgstr "la classe dominante (\"%s\") del campo %s non è una sottoclasse della definizione di campo esistente (\"%s\")"
 
 msgid "invalid assignment for reference class field %s, should be from class %s or a subclass (was class %s)"
-msgstr ""
+msgstr "l'assegnazione non valida per il campo della classe riferimento %s, dovrebbe appartenere alla classe %s o a una sottoclasse (era la classe %s)"
 
 msgid "invalid replacement: reference class field %s is read-only"
-msgstr ""
+msgstr "sostituzione non valida: il campo della classe di riferimento %s è di sola lettura"
 
 msgid "the 'contains' argument should be the names of superclasses:  got an element of class %s"
-msgstr ""
+msgstr "l'argomento 'contains' dovrebbe essere il nome delle superclassi: si è ottenuto un elemento della classe %s"
 
 msgid "no definition found for inherited class: %s"
 msgstr "nessuna definizione trovata per la classe ereditata:%s"
 
 msgid "a single class name is needed for field %s, got a character vector of length %d"
-msgstr ""
+msgstr "è necessario un singolo nome di classe per il campo %s, si è ottenuto un vettore di caratteri di lunghezza %d"
 
 msgid "class %s for field %s is not defined"
 msgstr "la classe %s per il campo %s non è definita"
 
 msgid "field %s was supplied as an object of class %s; must be a class name or a binding function"
-msgstr ""
+msgstr "il campo %s è stato passato come oggetto della classe %s; dev'essere un nome di classe o una funzione di binding"
 
 msgid "code for methods in class %s was not checked for suspicious field assignments (recommended package %s not available?)"
-msgstr ""
+msgstr "il codice per i metodi nella classe %s non è stato verificato per assegnazioni di campo sospette (il pacchetto consigliato %s non è disponibile?)"
 
 msgid "class %s is defined but is not a reference class"
-msgstr "la classe %s è definita ma non è una di riferimento"
+msgstr "la classe %s è definita ma non è una riferimento"
 
 msgid "class must be a reference class representation or a character string; got an object of class %s"
 msgstr "la classe dev'essere una rappresentazione di classe riferimento o una stringa di caratteri; si è ottenuto un oggetto di classe %s"
@@ -1094,13 +1096,13 @@ msgid ""
 msgstr ""
 
 msgid "arguments must all be character string names of fields"
-msgstr ""
+msgstr "gli argomenti devono essere tutti nomi di stringhe di caratteri dei campi"
 
 msgid "field %s is already locked"
 msgstr "il campo %s è già bloccato"
 
 msgid "field %s of class %s has a non-default binding and cannot be locked"
-msgstr ""
+msgstr "il campo %s della classe %s ha un binding non-predefinito e non può essere bloccato"
 
 msgid "Reference superclasses must come from the same package for the environment to be defined:  got %s and %s"
 msgstr ""
@@ -1124,7 +1126,7 @@ msgid "argument 'signature' is not meaningful for tracing reference methods"
 msgstr ""
 
 msgid "%s is not a method for reference class %s"
-msgstr "%s non è un metodo per la classe di riferimento %s"
+msgstr "%s non è un metodo per la classe riferimento %s"
 
 msgid "argument 'what' should be the name of a function"
 msgstr ""
