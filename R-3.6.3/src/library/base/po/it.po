@@ -1504,7 +1504,7 @@ msgid ""
 " Consider using '%s' instead."
 msgstr ""
 "EXPR è un \"factor\", trattato come intero.\n"
-" Considera come alternativa l'utilizzo di '%s'."
+" Si consideri l'utilizzo alternativo di '%s'."
 
 #: src/main/builtin.c:1095 src/main/eval.c:7230 src/main/eval.c:7259
 msgid "'switch' with no alternatives"
@@ -2442,8 +2442,8 @@ msgstr "è possibile usare soltanto connessioni binarie in scrittura o lettura"
 #: src/main/connections.c:5768
 msgid "using a text-mode 'file' connection may not work correctly"
 msgstr ""
-"usando una connessione ad un file in modalità testo potrebbe non funzionare "
-"correttamente"
+"l'utilizzo di una connessione 'file' in modalità testo potrebbe non "
+"funzionare correttamente"
 
 #: src/main/connections.c:5771
 msgid ""
@@ -2622,7 +2622,7 @@ msgstr ""
 
 #: src/main/deparse.c:174
 msgid "invalid 'cutoff' value for 'deparse', using default"
-msgstr "'cutoff' non valido per 'deparse', utilizzo del valore predefinito"
+msgstr "'cutoff' non valido per 'deparse', si utilizza il valore predefinito"
 
 #: src/main/deparse.c:276
 msgid "deparse may be incomplete"
@@ -7053,7 +7053,7 @@ msgstr "rimozione informazioni sul proxy FTP"
 #: src/modules/internet/nanoftp.c:385
 #, c-format
 msgid "using FTP proxy '%s'"
-msgstr "utilizzo proxy FTP '%s'"
+msgstr "si utilizza il proxy FTP '%s'"
 
 #: src/modules/internet/nanoftp.c:822
 msgid "cannot resolve host"
@@ -7095,7 +7095,7 @@ msgstr "rimozione informazioni sul proxy HTTP"
 #: src/modules/internet/nanohttp.c:442
 #, c-format
 msgid "using HTTP proxy '%s'"
-msgstr "utilizzo proxy HTTP '%s'"
+msgstr "si utilizza il proxy HTTP '%s'"
 
 #: src/modules/internet/nanohttp.c:1121
 #, c-format
@@ -7556,7 +7556,7 @@ msgid ""
 "report using bug.report()"
 msgstr ""
 "Si è verificata una circostanza inattesa nell'annidamento di input readline. "
-"Per piacere, riportate il problema usando bug.report()"
+"Per piacere, riportate il problema utilizzando bug.report()"
 
 #: src/unix/sys-std.c:1189 src/unix/sys-std.c:1358
 #, c-format
@@ -7640,14 +7640,12 @@ msgstr "AVVERTIMENTO: --gui o -g senza valore vengono ignorate"
 #: src/unix/system.c:366
 #, c-format
 msgid "WARNING: unknown gui '%s', using X11\n"
-msgstr ""
-"AVVERTIMENTO: interfaccia grafica '%s' sconosciuta, si utilizzerà X11\n"
+msgstr "AVVERTIMENTO: interfaccia grafica '%s' sconosciuta, si utilizza X11\n"
 
 #: src/unix/system.c:369
 #, c-format
 msgid "WARNING: unknown gui '%s', using none\n"
-msgstr ""
-"AVVERTIMENTO: interfaccia grafica '%s' sconosciuta, non si utilizzerà\n"
+msgstr "AVVERTIMENTO: interfaccia grafica '%s' sconosciuta, si utilizza none\n"
 
 #: src/unix/system.c:454
 msgid "creating temporary file for '-e' failed"
