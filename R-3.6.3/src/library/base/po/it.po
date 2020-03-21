@@ -269,7 +269,7 @@ msgstr "non è possibile ridurre il limite di memoria: ignorato"
 
 #: src/gnuwin32/extra.c:446 src/gnuwin32/extra.c:547 src/main/util.c:960
 msgid "'path' must be a character vector"
-msgstr "'path' dev'essere un vettore di tipo character"
+msgstr "'path' dev'essere un vettore di caratteri"
 
 #: src/gnuwin32/extra.c:595 src/gnuwin32/extra.c:597 src/gnuwin32/extra.c:620
 #: src/gnuwin32/extra.c:622 src/gnuwin32/extra.c:657 src/main/gevents.c:63
@@ -1558,7 +1558,7 @@ msgstr "sostituzione sottostringhe in un oggetto non-character"
 
 #: src/main/character.c:804
 msgid "the first argument must be a character vector"
-msgstr "il primo argomento dev'essere una vettore di caratteri"
+msgstr "il primo argomento dev'essere un vettore di caratteri"
 
 #: src/main/character.c:841
 msgid "abbreviate used with non-ASCII chars"
@@ -1614,7 +1614,7 @@ msgstr "stringa input multibyte %d non valida"
 
 #: src/main/character.c:1542
 msgid "strtrim() requires a character vector"
-msgstr "strstrim() necessita di un vettore di caratteri"
+msgstr "strstrim() richiede di un vettore di caratteri"
 
 #: src/main/coerce.c:32
 msgid "invalid 'mode' argument"
@@ -6552,7 +6552,7 @@ msgstr "non è possibile cambiare la directory di lavoro"
 #: src/main/util.c:915 src/main/util.c:1053 src/main/util.c:1112
 #: src/main/util.c:1135
 msgid "a character vector argument expected"
-msgstr "atteso un argomento con vettore di caratteri"
+msgstr "atteso un vettore di caratteri come argomento"
 
 #: src/main/util.c:806 src/main/util.c:840 src/main/util.c:882
 #: src/main/util.c:923
