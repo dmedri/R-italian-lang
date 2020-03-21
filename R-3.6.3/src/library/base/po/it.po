@@ -1153,7 +1153,7 @@ msgstr "non è possibile attribuire 'tsp' a vettori di lunghezza nulla"
 
 #: src/main/attrib.c:480
 msgid "attempt to set invalid 'comment' attribute"
-msgstr "tentativo di impostare un attributo 'comment' non ammissibile"
+msgstr "tentata impostazione dell'attributo 'comment' non valida"
 
 #: src/main/attrib.c:529
 msgid "adding class \"factor\" to an invalid object"
@@ -1161,7 +1161,7 @@ msgstr "conversione in classe \"factor\" di un oggetto non valido"
 
 #: src/main/attrib.c:560
 msgid "attempt to set invalid 'class' attribute"
-msgstr "tentativo di assegnazione di un attributo 'class' non ammissibile"
+msgstr "tentata impostazione di un attributo 'class' non valida"
 
 #: src/main/attrib.c:888
 #, c-format
@@ -1278,7 +1278,7 @@ msgstr "'name' dev'essere una stringa di caratter non-nulla"
 
 #: src/main/attrib.c:1720 src/main/attrib.c:1791 src/main/attrib.c:1828
 msgid "invalid type or length for slot name"
-msgstr "typo o lunghezza non ammissibile per il nome dello slot"
+msgstr "typo o lunghezza non valido per il nome dello slot"
 
 #: src/main/attrib.c:1754
 #, c-format
@@ -1703,7 +1703,7 @@ msgstr "as.call(<character string>)  non ancora implementato"
 
 #: src/main/coerce.c:1646
 msgid "invalid argument list"
-msgstr "argomento di tipo list non valido"
+msgstr "lista argomento non valida"
 
 #: src/main/coerce.c:1957
 msgid "type \"single\" unimplemented in R"
