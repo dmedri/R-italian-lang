@@ -1004,7 +1004,7 @@ msgid "failed to copy %s to %s"
 msgstr "copia di %s in %s fallita"
 
 msgid "unsupported entry type"
-msgstr "tip di voce non supportata"
+msgstr "tipo di voce non supportata"
 
 msgid "file '%s' not found"
 msgstr "file '%s' non trovato"
