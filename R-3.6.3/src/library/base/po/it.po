@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
-msgstr "valore non finito fornito da 'optim'"
+msgstr "'optim' ha passato un valore non finito"
 
 #: src/appl/optim.c:67
 #, c-format
@@ -540,8 +540,7 @@ msgstr "'user_unif_rand' non presente nella tabella di caricamento"
 #: src/main/RNG.c:310
 msgid "cannot read seeds unless 'user_unif_nseed' is supplied"
 msgstr ""
-"non è possibile leggere i semi casuali finché non viene indicato "
-"'user_unif_nseed'"
+"non è possibile leggere i semi casuali finché non si passa 'user_unif_nseed'"
 
 #: src/main/RNG.c:315
 msgid "seed length must be in 0...625; ignored"
@@ -577,7 +576,7 @@ msgstr ""
 #: src/main/RNG.c:381
 msgid "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
 msgstr ""
-"'.Random.seed[1] = 5' ma senza generatore indicato dall'utente, per questo "
+"'.Random.seed[1] = 5' ma senza generatore passato dall'utente, per questo "
 "viene ignorato"
 
 #: src/main/RNG.c:386
@@ -603,7 +602,7 @@ msgstr "'user_norm_rand' non presente nella tavola di caricamento"
 
 #: src/main/RNG.c:534
 msgid "supplied seed is not a valid integer"
-msgstr "il seme specificato non è un numero intero valido"
+msgstr "il seme passato non è un numero intero valido"
 
 #: src/main/Rdynload.c:198
 #, c-format
@@ -2753,7 +2752,7 @@ msgstr "Argomento PACKAGE troppo lungo"
 
 #: src/main/dotcode.c:492
 msgid "no arguments supplied"
-msgstr "nessun argomento specificato"
+msgstr "non è stato passato alcun argomento"
 
 #: src/main/dotcode.c:493 src/main/seq.c:988
 msgid "too many arguments"
@@ -4690,7 +4689,7 @@ msgid ""
 "supplied"
 msgstr ""
 "è stata impostata la funzione primitiva \"%s\" per i metodi ma non è stata "
-"fornita alcuna funzione generica"
+"passata alcuna funzione generica"
 
 #: src/main/objects.c:1626
 msgid "C level MAKE_CLASS macro called with NULL string pointer"
@@ -6104,7 +6103,7 @@ msgstr "argomenti errati in sotto-assegnamenti di ambiente"
 
 #: src/main/subassign.c:1810
 msgid "more elements supplied than there are to replace"
-msgstr "indicati più elementi di quelli da sostituire"
+msgstr "passati più elementi di quelli da sostituire"
 
 #: src/main/subassign.c:1812
 msgid "[[ ]] with missing subscript"
@@ -6516,7 +6515,7 @@ msgstr[1] "%d argomenti passati a '%s', richiesti %d"
 #: src/main/util.c:496
 #, c-format
 msgid "supplied argument name '%s' does not match '%s'"
-msgstr "il nome argomento indicato '%s' non combacia con '%s'"
+msgstr "il nome argomento passato '%s' non combacia con '%s'"
 
 #: src/main/util.c:506
 #, c-format
