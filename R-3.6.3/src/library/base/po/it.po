@@ -2503,7 +2503,7 @@ msgstr "non così tanti frame nello stack"
 
 #: src/main/context.c:416
 msgid "only positive values of 'n' are allowed"
-msgstr "sono permessi valori di 'n' positivi"
+msgstr "sono ammessi valori di 'n' positivi"
 
 #: src/main/context.c:555
 msgid "number of contexts must be positive"
@@ -3258,7 +3258,7 @@ msgstr "'attach' funziona unicamente per liste, data frame e ambienti"
 
 #: src/main/envir.c:2489
 msgid "detaching \"package:base\" is not allowed"
-msgstr "il detach di \"package:base\" non è permesso"
+msgstr "il detach di \"package:base\" non è ammesso"
 
 #: src/main/envir.c:2834 src/main/envir.c:2916
 msgid "argument must be an environment"
@@ -3967,7 +3967,7 @@ msgstr "non è possibile allocare un buffer stringhe long alla linea %d"
 #: src/main/gram.y:2438
 #, c-format
 msgid "nul character not allowed (line %d)"
-msgstr "nul character non consentito (linea %d)"
+msgstr "nul character non ammesso (linea %d)"
 
 #: src/main/gram.y:2358
 #, c-format
@@ -4382,7 +4382,7 @@ msgstr "il vettore è troppo grande"
 
 #: src/main/memory.c:2567
 msgid "negative length vectors are not allowed"
-msgstr "vettori di lunghezza negativa non ammessi"
+msgstr "non sono ammessi vettori di lunghezza negativa"
 
 #: src/main/memory.c:2593 src/main/memory.c:2605 src/main/memory.c:2617
 #: src/main/memory.c:2631
@@ -6367,7 +6367,7 @@ msgstr "'%s' dev'essere chiamato su un CHARSXP"
 
 #: src/main/sysutils.c:827 src/main/sysutils.c:1009 src/main/sysutils.c:1091
 msgid "translating strings with \"bytes\" encoding is not allowed"
-msgstr "la traduzione di stringhe con codifica \"bytes\" non è permessa"
+msgstr "non è ammessa la traduzione di stringhe con codifica \"bytes\""
 
 #: src/main/sysutils.c:840
 msgid "internal error: no translation needed"
