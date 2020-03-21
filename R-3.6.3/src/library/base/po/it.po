@@ -1189,7 +1189,8 @@ msgstr "'%s' dev'essere una lista"
 #: src/main/attrib.c:1066 src/main/attrib.c:1094
 #, c-format
 msgid "length of 'dimnames' [%d] must match that of 'dims' [%d]"
-msgstr "la lunghezza di 'dimnames' [%d] non coincide con quella di 'dims' [%d]"
+msgstr ""
+"la lunghezza di 'dimnames' [%d] non corrisponde con quella di 'dims' [%d]"
 
 #: src/main/attrib.c:1100
 #, c-format
@@ -1232,7 +1233,7 @@ msgstr "le dimensioni non corrispondono con la lunghezza dell'oggetto"
 #: src/main/attrib.c:1205
 #, c-format
 msgid "dims [product %d] do not match the length of object [%d]"
-msgstr "dims [product %d] non combacia con la lunghezza dell'oggetto [%d]"
+msgstr "dims [product %d] non corrisponde con la lunghezza dell'oggetto [%d]"
 
 #: src/main/attrib.c:1280
 #, c-format
@@ -1354,12 +1355,12 @@ msgstr "non è possibile creare una matrice dal tipo '%s'"
 #: src/main/bind.c:1232
 #, c-format
 msgid "number of rows of matrices must match (see arg %d)"
-msgstr "il numero di righe delle matrici deve coincidere (si veda arg %d)"
+msgstr "il numero di righe delle matrici deve corrispondere (si veda arg %d)"
 
 #: src/main/bind.c:1489
 #, c-format
 msgid "number of columns of matrices must match (see arg %d)"
-msgstr "il numero di colonne delle matrici deve coincidere (si veda arg %d)"
+msgstr "il numero di colonne delle matrici deve corrispondere (si veda arg %d)"
 
 #: src/main/builtin.c:43
 msgid "vector size cannot be NA"
@@ -3351,7 +3352,7 @@ msgstr "argomento di esportazione ambiente errato"
 
 #: src/main/envir.c:3675
 msgid "length of import and export names must match"
-msgstr "le lunghezze dei nomi di import e export devono coincidere"
+msgstr "le lunghezze dei nomi di import e export devono corrispondere"
 
 #: src/main/envir.c:3698
 #, c-format
@@ -3493,7 +3494,7 @@ msgstr "tipo argomento non valido"
 
 #: src/main/errors.c:1256
 msgid "time-series/vector length mismatch"
-msgstr "lunghezza serie storica/vettore non concordante"
+msgstr "lunghezza serie storica/vettore non corrispondente"
 
 #: src/main/errors.c:1257
 msgid "incompatible arguments"
@@ -3753,7 +3754,7 @@ msgstr "versione bytecode troppo nuova"
 
 #: src/main/eval.c:6279
 msgid "byte code version mismatch"
-msgstr "versione bytecode non coincidente"
+msgstr "versione bytecode non coincide"
 
 #: src/main/eval.c:6473
 msgid "invalid sequence argument in for loop"
