@@ -2974,7 +2974,7 @@ msgstr ""
 
 #: src/main/engine.c:40
 msgid "Graphics API version mismatch"
-msgstr "Versioni API grafiche discordanti"
+msgstr "Le versioni delle API grafiche non corrispondono"
 
 #: src/main/engine.c:113 src/main/engine.c:118 src/main/engine.c:182
 msgid "unable to allocate memory (in GEregister)"
@@ -3531,7 +3531,7 @@ msgstr "il messaggio di errore non è una stringa"
 #: src/main/errors.c:1807
 msgid "handler or restart stack mismatch in old restart"
 msgstr ""
-"il gestore o il riavvio dello stack non combinano con il riavvio precedente"
+"il gestore o il riavvio dello stack non corrisponde nel riavvio precedente"
 
 #: src/main/errors.c:1833 src/main/errors.c:1849
 msgid "bad error message"
@@ -3742,7 +3742,7 @@ msgstr "tipo %s non valido in 'x %s y'"
 
 #: src/main/eval.c:6231
 msgid "bytecode version mismatch; using eval"
-msgstr "versione bytecode non corretta; si utilizza eval"
+msgstr "versione bytecode non corrispondente; si utilizza eval"
 
 #: src/main/eval.c:6237
 msgid "bytecode version is too old"
@@ -3754,7 +3754,7 @@ msgstr "versione bytecode troppo nuova"
 
 #: src/main/eval.c:6279
 msgid "byte code version mismatch"
-msgstr "versione bytecode non coincide"
+msgstr "versione bytecode non corrispondente"
 
 #: src/main/eval.c:6473
 msgid "invalid sequence argument in for loop"
@@ -5295,7 +5295,7 @@ msgstr "tipo SEXP errato nel file dei dati"
 
 #: src/main/saveload.c:591
 msgid "mismatch on types"
-msgstr "disaccordo sui tipi"
+msgstr "mancata corrispondenza sui tipi"
 
 #: src/main/saveload.c:612 src/main/saveload.c:1275 src/main/serialize.c:1886
 #, c-format
