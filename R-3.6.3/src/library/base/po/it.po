@@ -5649,7 +5649,7 @@ msgstr "formato input sconosciuto"
 
 #: src/main/serialize.c:618
 msgid "input format does not match specified format"
-msgstr "il formato di input non coincide con quello specificato"
+msgstr "il formato di input non corrisponde con quello specificato"
 
 #: src/main/serialize.c:831
 msgid "no restore method available"
@@ -6515,7 +6515,7 @@ msgstr[1] "%d argomenti passati a '%s', richiesti %d"
 #: src/main/util.c:496
 #, c-format
 msgid "supplied argument name '%s' does not match '%s'"
-msgstr "il nome argomento passato '%s' non combacia con '%s'"
+msgstr "il nome argomento passato '%s' non corrisponde con '%s'"
 
 #: src/main/util.c:506
 #, c-format
