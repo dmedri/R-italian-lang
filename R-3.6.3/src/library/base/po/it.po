@@ -1064,7 +1064,7 @@ msgstr "'perm' è di lunghezza errata %d (!= %d)"
 
 #: src/main/array.c:1711 src/main/array.c:1714
 msgid "'a' does not have named dimnames"
-msgstr "'a' non ha i nomi delle dimensioni definiti"
+msgstr "'a' non ha nomi dimensioni definiti"
 
 #: src/main/array.c:1721
 #, c-format
@@ -1245,7 +1245,7 @@ msgstr "gli attributi devono essere una lista o NULL"
 
 #: src/main/attrib.c:1315
 msgid "attributes must be named"
-msgstr "gli attributi devono avere un nome"
+msgstr "gli attributi devono essere nominati"
 
 #: src/main/attrib.c:1319
 #, c-format
@@ -3194,7 +3194,7 @@ msgstr "solo il primo elemento è utilizzato come nome di variabile"
 
 #: src/main/envir.c:1809
 msgid "first argument must be a named list"
-msgstr "il primo argomento dev'essere una lista"
+msgstr "il primo argomento dev'essere una lista nominata"
 
 #: src/main/envir.c:1814
 msgid "names(x) must be a character vector of the same length as x"
@@ -3249,7 +3249,7 @@ msgstr "'pos' dev'essere un numero intero"
 
 #: src/main/envir.c:2383
 msgid "all elements of a list must be named"
-msgstr "tutti gli elementi di una lista devono essere denominati"
+msgstr "tutti gli elementi di una lista devono essere nominati"
 
 #: src/main/envir.c:2406
 msgid "'attach' only works for lists, data frames and environments"
@@ -3778,7 +3778,7 @@ msgstr "offset 'switch' numerico errato"
 
 #: src/main/eval.c:7233
 msgid "numeric EXPR required for 'switch' without named alternatives"
-msgstr "un EXPR numerico richiede uno 'switch' senza alternative denominate"
+msgstr "un EXPR numerico richiede uno 'switch' senza alternative nominate"
 
 #: src/main/eval.c:7237
 msgid "bad character 'switch' offsets"
@@ -5434,7 +5434,7 @@ msgstr "il primo argomento dev'essere una vettore di caratteri"
 
 #: src/main/saveload.c:2054
 msgid "not a valid named list"
-msgstr "lista denominata non valida"
+msgstr "lista nominata non valida"
 
 #: src/main/saveload.c:2061 src/main/saveload.c:2082
 #, c-format
@@ -6595,7 +6595,7 @@ msgstr "perdita di accuratezza nella conversione da \"%s\" a numerico"
 
 #: src/main/util.c:2020
 msgid "all arguments must be named"
-msgstr "tutti gli attributi devono essere denominati"
+msgstr "tutti gli attributi devono essere nominati"
 
 #: src/main/util.c:2142
 msgid "ICU is not supported on this build"
