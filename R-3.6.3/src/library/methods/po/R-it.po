@@ -465,7 +465,7 @@ msgid "%s is not eligible to be the data part of another class (must be a basic 
 msgstr "%s non è eligibile come parte dati di un'altra classe (dev'essere una classe base o una classe virtuale senza slot)"
 
 msgid "prototype is a list with named elements (could be ambiguous):  better to use function prototype() to avoid trouble."
-msgstr "prototype è una lista con elementi denominati (potrebbe essere ambiguo): meglio utilizzare la funzione prototype() per evitare problemi."
+msgstr "prototype è una lista con elementi nominati (potrebbe essere ambiguo): meglio utilizzare la funzione prototype() per evitare problemi."
 
 msgid "the '%s' list for class %s, includes an undefined class %s"
 msgstr "la lista '%s' per la classe %s, include una classe non definita %s"
@@ -1029,7 +1029,7 @@ msgid "the definition of class %s in package %s is locked, methods may not be re
 msgstr "la definizione della classe %s nel pacchetto %s è bloccata, i metodi potrebbero non essere ridefiniti"
 
 msgid "arguments to methods() must be named, or one named list"
-msgstr "gli argomenti di method() devono essere denominati o una lista nomi"
+msgstr "gli argomenti di method() devono essere nominati o una lista nomi"
 
 msgid ""
 "topic %s is not a method name in class %s\n"
@@ -1082,18 +1082,27 @@ msgid ""
 "    %s\n"
 " Did you mean to use \"<<-\"? ( in method %s for class %s)"
 msgstr ""
+"l'assegnazione locale al nome campo non cambierà il campo:\n"
+"     %s\n"
+"  Intendevi usare \"<< -\"? (nel metodo %s per la classe %s)"
 
 msgid ""
 "non-local assignment to non-field names (possibly misspelled?)\n"
 "    %s\n"
 "( in method %s for class %s)"
 msgstr ""
+"assegnazione non-locale a nomi non-campo (probabilmente errata?)\n"
+"     %s\n"
+"(nel metodo %s per la classe %s)"
 
 msgid ""
 "non-local assignment to method names is not allowed\n"
 "    %s\n"
 "( in method %s for class %s)"
 msgstr ""
+"l'assegnazione non-locale ai nomi dei metodi non è consentita\n"
+"     %s\n"
+"(nel metodo %s per la classe %s)"
 
 msgid "arguments must all be character string names of fields"
 msgstr "gli argomenti devono essere tutti nomi di stringhe di caratteri dei campi"
@@ -1105,31 +1114,31 @@ msgid "field %s of class %s has a non-default binding and cannot be locked"
 msgstr "il campo %s della classe %s ha un binding non-predefinito e non può essere bloccato"
 
 msgid "Reference superclasses must come from the same package for the environment to be defined:  got %s and %s"
-msgstr ""
+msgstr "Le superclassi di riferimento devono provenire dallo stesso pacchetto per l'ambiente da definire:  si è ottenuto%s e %s"
 
 msgid "Class %s is not a subclass of %s; functional semantics not defined for this class"
-msgstr ""
+msgstr "La classe %s non è una sottoclasse di %s; semantica funzionale non definita per questa classe"
 
 msgid "Could not find local object in supplied environment"
-msgstr ""
+msgstr "Non è possibile trovare l'oggetto locale nell'ambiente fornito"
 
 msgid "invalid 'ignore' argument; should be a class definition or a character vector, got an object of class %s"
-msgstr ""
+msgstr "argomento 'ignore' non valido; dovrebbe essere una definizione di classe o un vettore di caratteri, si è ottenuto un oggetto di classe %s"
 
 msgid "An object of class %s"
 msgstr "Un oggetto di classe %s"
 
 msgid "invalid call to 'classLabel': expected a name or a class definition, got an object of class %s"
-msgstr ""
+msgstr "chiamata non valida a 'classLabel': previsto un nome o una definizione di classe, si è ottenuto un oggetto di classe %s"
 
 msgid "argument 'signature' is not meaningful for tracing reference methods"
-msgstr ""
+msgstr "l'argomento 'signature' non è significativo per il tracing dei metodi riferimento"
 
 msgid "%s is not a method for reference class %s"
 msgstr "%s non è un metodo per la classe riferimento %s"
 
 msgid "argument 'what' should be the name of a function"
-msgstr ""
+msgstr "argomento 'what' dovrebbe essere il nome di una funzione"
 
 msgid "tracing the internal function %s is not allowed"
 msgstr "non è ammesso fare il tracing della funzione interna %s"
@@ -1144,58 +1153,58 @@ msgid "the method for %s for this signature was not being traced"
 msgstr "il metodo per %s per questa firma non è stato tracciato"
 
 msgid "making a traced version of a special; arguments may be altered"
-msgstr ""
+msgstr "fare una versione tracciata di uno speciale; gli argomenti potrebbero essere alterati"
 
 msgid "the editing in trace() can only change the body of the function; got an object of class %s"
-msgstr ""
+msgstr "la modifica in trace() può solo cambiare il corpo della funzione; si è ottenuto un oggetto della classe %s"
 
 msgid "the editing in trace() can only change the body of the function, not the arguments or defaults"
-msgstr ""
+msgstr "la modifica in trace() può solo cambiare il corpo della funzione, non gli argomenti o i valori predefiniti"
 
 msgid "cannot use 'at' argument without a trace expression"
-msgstr ""
+msgstr "non è possibile utilizzare l'argomento 'at' senza un'espressione di traccia"
 
 msgid "cannot use 'at' argument unless the function body has the form '{ ... }'"
-msgstr ""
+msgstr "non si può utilizzare l'argomento 'at' a meno che il corpo della funzione non abbia la forma '{...}'"
 
 msgid "assigning over the binding of symbol %s in environment/package %s"
-msgstr ""
+msgstr "assegnando sul binding del simbolo %s nell'ambiente/pacchetto %s"
 
 msgid "setting a method over the binding of symbol %s in environment/package %s"
-msgstr ""
+msgstr "impostando un metodo sul binding del simbolo %s nell'ambiente/pacchetto %s"
 
 msgid "Environment of class %s is locked; using global environment for new class"
-msgstr ""
+msgstr "L'ambiente della classe %s è bloccato; si utilizza l'ambiente globale per la nuova classe"
 
 msgid "none of the objects in the source code could be found:  need to attach or specify the package"
-msgstr ""
+msgstr "non è stato trovato alcun oggetto presente nel codice sorgente:  è necessario allegare o specificare il pacchetto"
 
 msgid "objects found in multiple packages: using %s and ignoring %s"
-msgstr ""
+msgstr "oggetti trovati in più pacchetti: usando%s e ignorando %s"
 
 msgid "package %s is not attached and no namespace found for it"
 msgstr "il pacchetto %s non è attaccato e non è stato trovato il suo namespace"
 
 msgid "invalid 'source' argument: expected file names or a connection but got an object of class %s"
-msgstr ""
+msgstr "argomento 'source' non valido: erano attesi nomi file o una connessione, ma si è ottenuto un oggetto della classe %s"
 
 msgid "cannot find an environment corresponding to package name '%s\""
-msgstr ""
+msgstr "non è possibile trovare un ambiente corrispondente al nome del pacchetto '%s\""
 
 msgid "supplied package, %s, differs from package inferred from source, %s"
-msgstr ""
+msgstr "il pacchetto fornito,%s, differisce dal pacchetto dedotto dalla fonte, %s"
 
 msgid "cannot insert these (not found in source): %s"
 msgstr "non è possibile inserire questi (non trovati nelle sorgenti): %s"
 
 msgid "cannot insert methods for these functions (methods table not found in source): %s"
-msgstr ""
+msgstr "non è possibile inserire metodi per queste funzioni (tabella metodi non trovata nei sorgenti): %s"
 
 msgid "Non-function objects are not currently inserted (not traceable): %s"
-msgstr ""
+msgstr "Gli oggetti non-funzioni non sono attualmente inseriti (non tracciabili): %s"
 
 msgid "New functions are not currently inserted (not untraceable): %s"
-msgstr ""
+msgstr "Nuove funzioni non sono attualmente inserite (non rintracciabili): %s"
 
 msgid "Modified functions inserted through trace(): %s"
 msgstr "Inserite funzioni modificate tramite trace():%s"
@@ -1239,13 +1248,13 @@ msgstr[1] "nella firma del metodo per la funzione %s nomi argomento non validi n
 
 msgid "Reported %d ambiguous selection out of %d for function %s\n"
 msgid_plural "Reported %d ambiguous selections out of %d for function %s\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Segnalata %d selezione ambigua su %d per funzione %s\n"
+msgstr[1] "Segnalate %d selezioni ambigue su %d per funzione %s\n"
 
 msgid "named elements of prototype do not correspond to slot name: %s"
 msgid_plural "named elements of prototype do not correspond to slot names: %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "gli elementi nominati del prototipo non corrispondono al nome dello slot: %s"
+msgstr[1] "gli elementi nominati del prototipo non corrispondono ai nomi degli slot: %s"
 
 msgid "non-argument found in the signature: %s"
 msgid_plural "non-arguments found in the signature: %s"
@@ -1254,8 +1263,8 @@ msgstr[1] "trovati non-argomenti nella firma: %s"
 
 msgid "the formal argument of the generic function for %s (%s) differs from that of the non-generic to be used as the default (%s)"
 msgid_plural "the formal arguments of the generic function for %s (%s) differ from those of the non-generic to be used as the default (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "l'argomento formale della funzione generica per %s (%s) differisce da quello del non-generico da utilizzare come predefinito (%s)"
+msgstr[1] "l'argomento formale della funzione generica per %s (%s) differisce da quelli dei non-generici da utilizzare come predefinito (%s)"
 
 msgid "duplicated slot name: %s"
 msgid_plural "duplicated slot names: %s"
