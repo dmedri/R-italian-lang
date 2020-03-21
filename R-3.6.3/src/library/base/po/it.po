@@ -435,7 +435,7 @@ msgstr "l'opzione '%s' richiede un argomento"
 #: src/gnuwin32/system.c:1105
 #, c-format
 msgid "option '%s' requires a non-empty argument"
-msgstr "l'opzione '%s' richiede un argomento non-vuoto"
+msgstr "l'opzione '%s' richiede un argomento non vuoto"
 
 #: src/gnuwin32/system.c:1113 src/unix/system.c:428
 #, c-format
