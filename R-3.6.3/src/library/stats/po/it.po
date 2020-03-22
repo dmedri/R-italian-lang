@@ -28,7 +28,7 @@ msgstr "probabilità esterne a [0,1] in qansari()"
 
 #: approx.c:113
 msgid "approx(): invalid f value"
-msgstr "approx(): valore non valido"
+msgstr "approx(): valore f non valido"
 
 #: approx.c:116
 msgid "approx(): invalid interpolation method"
@@ -58,7 +58,7 @@ msgstr "x[%d] non-finito nel calcolo della larghezza di banda"
 #: complete_cases.c:26
 #, c-format
 msgid "invalid 'type' (%s) of argument"
-msgstr "argomento con 'type' (%s) non valido"
+msgstr "argomento 'type' (%s) non valido"
 
 #: complete_cases.c:120
 msgid "no input has determined the number of cases"
@@ -641,7 +641,7 @@ msgstr "valore non finito passato da 'nlm'"
 
 #: optimize.c:555
 msgid "invalid function value in 'nlm' optimizer"
-msgstr "valore della funzione non valido nell'ottimizzatore 'nlm'"
+msgstr "valore della funzione non valido per l'ottimizzatore 'nlm'"
 
 #: optimize.c:566 optimize.c:581
 msgid "function value caching for optimization is seriously confused"
