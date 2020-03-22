@@ -230,7 +230,7 @@ msgid "lengths of 'breaks' and 'labels' differ"
 msgstr "la lunghezza di 'breaks' e 'labels' differisce"
 
 msgid "invalid 'row.names' length"
-msgstr "lunghezza di 'row.names' non ammissibile"
+msgstr "lunghezza di 'row.names' non valida"
 
 msgid "invalid 'make.names'"
 msgstr "'make.names' non valido"
@@ -242,7 +242,7 @@ msgid "missing values in 'row.names' are not allowed"
 msgstr "non sono ammessi valori mancanti in 'row.names'"
 
 msgid "invalid 'dimnames' given for data frame"
-msgstr "'dimnames' fornita per i ldata frame non valida"
+msgstr "'dimnames' passata per il data frame non valida"
 
 msgid "cannot coerce class %s to a data.frame"
 msgstr "coercizione di classe %s in data.frame non possibile"
@@ -347,7 +347,7 @@ msgstr "il numero di colonne degli argomenti non corrisponde"
 
 msgid "invalid list argument: all variables should have the same length"
 msgstr ""
-"argomento list non valido: tutte le variabili dovrebbero avere la medesima "
+"argomento lista non valido: tutte le variabili dovrebbero avere la medesima "
 "lunghezza"
 
 msgid "<0 rows> (or 0-length row.names)"
@@ -563,7 +563,7 @@ msgid "replacement diagonal has wrong length"
 msgstr "la diagonale sostitutiva ha lunghezza sbagliata"
 
 msgid "MARGIN = %s is invalid for dim = %s"
-msgstr "MARGIN = %s non è valido per dim = %s"
+msgstr "MARGIN = %s non valido per dim = %s"
 
 msgid "must pass a package name, %s or %s object"
 msgstr "bisogna passare un nome pacchetto, %s o un oggetto %s"
@@ -1069,7 +1069,7 @@ msgstr ""
 "possibile caricare il namespace 'methods'"
 
 msgid "invalid to change the storage mode of a factor"
-msgstr "cambio della modalità di archiviazione di un factor non valida"
+msgstr "cambio della modalità di archiviazione di un fattore non valido"
 
 msgid ""
 "namespace %s is not available and has been replaced\n"
