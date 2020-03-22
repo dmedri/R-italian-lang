@@ -207,17 +207,17 @@ msgstr "non abbastanza osservazioni in 'y'"
 
 msgid "samples differ in location: cannot compute confidence set, returning NA"
 msgstr ""
-"i campioni differiscono in posizione: non possono calcolare gli insiemi di "
-"confidenza, restituisco NA"
+"i campioni differiscono in posizione: non si possono calcolare gli insiemi "
+"di confidenza, si ritorna NA"
 
 msgid "cannot compute confidence set, returning NA"
-msgstr "impossibile calcolare insiemi di confidenza, restituisco NA"
+msgstr "non è possibile calcolare gli insiemi di confidenza, si ritorna NA"
 
 msgid "cannot compute asymptotic confidence set or estimator"
 msgstr "impossibile calcolare insiemi di confidenza asintotici o lo stimatore"
 
 msgid "cannot compute estimate, returning NA"
-msgstr "impossibile calcolare la stima, restituisco NA"
+msgstr "non è possibile calcolare la stima, si ritorna NA"
 
 msgid "cannot compute exact p-value with ties"
 msgstr "impossibile calcolare p-value esatto in presenza di ties"
@@ -1595,7 +1595,7 @@ msgid ""
 "Standard error information not returned as design is unbalanced. \n"
 "Standard errors can be obtained through 'se.contrast'."
 msgstr ""
-"Informazione sullo standard error non fornita poiché il disegno non era "
+"Informazione sullo standard error non ritornata poiché il disegno non era "
 "bilanciato. \n"
 "Si possono ottenere gli standard error attraverso 'se.contrast'."
 
