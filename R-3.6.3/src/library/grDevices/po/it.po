@@ -424,7 +424,7 @@ msgstr "tipo pagina '%s' non valido (xfig)"
 #: devPS.c:4873
 #, c-format
 msgid "xfig(%s, onefile=FALSE) will only return the last plot"
-msgstr "xfig(%s, onefile=FALSE) restituirà solo l'ultimo grafico"
+msgstr "xfig(%s, onefile=FALSE) ritornerà solo l'ultimo grafico"
 
 #: devPS.c:4998
 msgid "empty file name"
