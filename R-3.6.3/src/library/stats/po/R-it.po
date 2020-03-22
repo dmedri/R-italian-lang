@@ -158,7 +158,7 @@ msgid ""
 " does not match the length of the margins, %d"
 msgstr ""
 "lunghezza di FUN, %d,\n"
-" non corrisponde con la lunghezza delle marginali, %d"
+" non corrispondente con la lunghezza delle marginali, %d"
 
 msgid "no rows to aggregate"
 msgstr "nessuna riga per l'aggregazione"
