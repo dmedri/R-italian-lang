@@ -262,7 +262,7 @@ msgstr "registrazione codifica del dispositivo fallita"
 
 #: devPS.c:2585
 msgid "object '.ps.prolog' is not a character vector"
-msgstr "l'oggetto '.ps.prolog' non un vettore di caratteri"
+msgstr "l'oggetto '.ps.prolog' non è un vettore di caratteri"
 
 #: devPS.c:2660 devPS.c:6453 devWindows.c:801
 msgid "invalid line end"
