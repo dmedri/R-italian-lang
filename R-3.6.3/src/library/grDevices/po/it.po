@@ -116,7 +116,7 @@ msgstr "specificazione colore \"%s\" non valida"
 
 #: colors.c:1482
 msgid "supplied color is neither numeric nor character"
-msgstr "il colore indicato non è ne di tipo numeric ne character"
+msgstr "il colore passato non è ne di tipo numeric ne character"
 
 #: colors.c:1486
 #, c-format
@@ -396,7 +396,7 @@ msgstr "a corto di colori in xfig()"
 #: devPS.c:4644
 #, c-format
 msgid "unimplemented line texture %08x: using Dash-double-dotted"
-msgstr "'line texture' %08x non implementata: uso Dash-double-dotted"
+msgstr "'line texture' %08x non implementata: si utilizza Dash-double-dotted"
 
 #: devPS.c:4710
 #, c-format
