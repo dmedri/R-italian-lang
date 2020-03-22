@@ -26,14 +26,14 @@ msgid "empty model supplied"
 msgstr "specificato modello vuoto"
 
 msgid "'acf' must be of length two or more"
-msgstr "'acf' deve avere lunghezza due o più"
+msgstr "'acf' dev'essere di lunghezza due o più"
 
 msgid "object not interpretable as a factor"
 msgstr "oggetto non interpretabile come factor"
 
 msgid "cannot fit models without level ('alpha' must not be 0 or FALSE)"
 msgstr ""
-"non è possibile stimare i modelli senza livelli ('alpha' non deve essere 0 o "
+"non è possibile stimare i modelli senza livelli ('alpha' non dev'essere 0 o "
 "FALSE)"
 
 msgid "'alpha', 'beta' and 'gamma' must be within the unit interval"
@@ -68,10 +68,10 @@ msgid "only implemented for univariate time series"
 msgstr "implementato solo per serie storiche unidimensionali"
 
 msgid "'x' must be numeric"
-msgstr "'x' deve essere numeric"
+msgstr "'x' dev'essere numerico"
 
 msgid "the first value of the time series must not be missing"
-msgstr "il primo valore della serie storica non deve essere mancante"
+msgstr "il primo valore della serie storica non dev'essere mancante"
 
 msgid "all parameters were fixed"
 msgstr "specificati tutti i parametri"
@@ -97,7 +97,7 @@ msgid "'lag.max' must be at least 0"
 msgstr "'lag.max' dev'essere almeno 0"
 
 msgid "'lag.max' must be at least 1"
-msgstr "'lag.max' deve essere almeno 1"
+msgstr "'lag.max' dev'essere almeno 1"
 
 msgid "NAs in 'x'"
 msgstr "Valori NA in 'x'"
@@ -164,7 +164,7 @@ msgid "no rows to aggregate"
 msgstr "nessuna riga per l'aggregazione"
 
 msgid "'by' must be a list"
-msgstr "'by' deve essere di tipo list"
+msgstr "'by' dev'essere una lista"
 
 msgid "arguments must have same length"
 msgstr "gli argomenti devono avere la stessa lunghezza"
@@ -179,7 +179,7 @@ msgid "cannot change frequency from %g to %g"
 msgstr "impossibile cambiare la frequenza fa %g a %g"
 
 msgid "'x' must be coefficient matrix/data frame"
-msgstr "'x' deve essere una matrice/data frame di coefficienti"
+msgstr "'x' dev'essere una matrice coefficient/data frame"
 
 msgid "option \"show.coef.Pvalues\" is invalid: assuming TRUE"
 msgstr "opzione \"show.coef.Pvalues\" non valida: assumo TRUE"
@@ -197,7 +197,7 @@ msgid "'anova' object must have colnames"
 msgstr "l'oggetto 'anova' deve avere colnames"
 
 msgid "'conf.level' must be a single number between 0 and 1"
-msgstr "'conf.level' deve essere un numero tra 0 e 1"
+msgstr "'conf.level' dev'essere un numero tra 0 e 1"
 
 msgid "not enough 'x' observations"
 msgstr "non ci sono abbstanza osservazioni in 'x'"
@@ -236,7 +236,7 @@ msgid "Error() model is singular"
 msgstr "Il modello Error() è singolare"
 
 msgid "the 'split' argument must be a list"
-msgstr "l'argomento 'split' deve essere di tipo list"
+msgstr "l'argomento 'split' dev'essere una lista"
 
 msgid "'coef' must define a contrast, i.e., sum to 0"
 msgstr "'coef' deve definire un contrasto, e.g., sommare a 0"
@@ -245,7 +245,7 @@ msgid "'coef' must have same length as 'contrast.obj'"
 msgstr "'coef' deve avere la stessa lunghezza di 'contrast.obj'"
 
 msgid "each element of '%s' must be logical"
-msgstr "ogni elemento di '%s' deve essere di tipo logico"
+msgstr "ogni elemento di '%s' dev'essere logico"
 
 msgid "the contrast defined is empty (has no TRUE elements)"
 msgstr "il contrasto definito è vuoto (non ha elementi TRUE)"
@@ -290,7 +290,7 @@ msgid "NAs in 'x' must be the same row-wise"
 msgstr "Le NA in 'x' devono essere uguali per riga"
 
 msgid "'order.max' must be >= 1"
-msgstr "'order.max' deve essere >= 1"
+msgstr "'order.max' dev'essere >= 1"
 
 msgid "'order.max' must be < 'n.obs'"
 msgstr "'order.max' dev'essere < 'n.obs'"
@@ -311,20 +311,20 @@ msgid "MLE only implemented for univariate series"
 msgstr "MLE implementato solo per serie unidimensionali"
 
 msgid "'order.max' must be >= 0"
-msgstr "'order.max' deve essere >= 0"
+msgstr "'order.max' dev'essere >= 0"
 
 msgid "'order.max' must be < 'n.used'"
 msgstr "'order.max' dev'essere < 'n.used'"
 
 msgid "'order' must be a non-negative numeric vector of length 3"
-msgstr "'order' deve essere un vettore numerico non negativo di lunghezza 3"
+msgstr "'order' dev'essere un vettore numerico non negativo di lunghezza 3"
 
 msgid "'seasonal' must be a list with component 'order'"
-msgstr "'seasonal' deve essere di tipo list con componente 'order'"
+msgstr "'seasonal' dev'essere una lista con componente 'order'"
 
 msgid "'seasonal$order' must be a non-negative numeric vector of length 3"
 msgstr ""
-"'seasonal$order' deve essere un vettore numerico non negativo di lunghezza 3"
+"'seasonal$order' dev'essere un vettore numerico non negativo di lunghezza 3"
 
 msgid "lengths of 'x' and 'xreg' do not match"
 msgstr "lunghezze di 'x' e 'xreg' non coincidenti"
@@ -406,7 +406,7 @@ msgid "minimum occurred at one end of the range"
 msgstr "minimo realizzato in uno degli estremi del range"
 
 msgid "'x' must be a list with at least 2 elements"
-msgstr "'x' deve essere di tipo list con almeno 2 elementi"
+msgstr "'x' dev'essere una lista con almeno 2 elementi"
 
 msgid "'x' and 'g' must have the same length"
 msgstr "'x' e 'g' devono avere la stessa lunghezza"
@@ -421,19 +421,19 @@ msgid "'formula' should be of the form response ~ group"
 msgstr "la 'formula' dovrebbe essere nella forma risposta ~ gruppo"
 
 msgid "'x' must be nonnegative and integer"
-msgstr "'x' deve essere un intero non negativo"
+msgstr "'x' dev'essere un intero non negativo"
 
 msgid "'n' must be a positive integer >= 'x'"
-msgstr "'n' deve essere un intero positivo >= 'x'"
+msgstr "'n' dev'essere un intero positivo >= 'x'"
 
 msgid "incorrect length of 'x'"
 msgstr "lunghezza di 'x' sbagliata"
 
 msgid "'p' must be a single number between 0 and 1"
-msgstr "'p' deve essere un singolo numero tra 0 e 1"
+msgstr "'p' dev'essere un singolo numero tra 0 e 1"
 
 msgid "length of choices must be 2"
-msgstr "la lunghezza di choices deve essere 2"
+msgstr "la lunghezza di choices dev'essere 2"
 
 msgid "object '%s' has no scores"
 msgstr "l'oggetto '%s' non ha punteggi (scores)"
@@ -466,7 +466,7 @@ msgid "all entries of 'x' must be nonnegative and finite"
 msgstr "tutti i termini di 'x' devono essere non negativi e finiti"
 
 msgid "at least one entry of 'x' must be positive"
-msgstr "almeno un elemento di 'x' deve essere positivo"
+msgstr "almeno un elemento di 'x' dev'essere positivo"
 
 msgid "cannot compute simulated p-value with zero marginals"
 msgstr "impossibile calcolare p-value simulati con marginali nulle"
@@ -503,7 +503,7 @@ msgid "invalid value of %s"
 msgstr "valore di %s non valido"
 
 msgid "'k' must be in {1, 2, ..  n - 1}"
-msgstr "'k' deve essere in {1, 2, ..  n - 1}"
+msgstr "'k' dev'essere in {1, 2, ..  n - 1}"
 
 msgid "only %d of the first %d eigenvalues are > 0"
 msgstr "solo %d dei primi %d eigenvalues (vedi. autovalori) sono > 0"
@@ -541,7 +541,7 @@ msgid "'scores' must all be different numbers"
 msgstr "'scores' devono essere numeri tutti diversi"
 
 msgid "'degree' must be at least 1"
-msgstr "'degree' deve essere almeno 1"
+msgstr "'degree' dev'essere almeno 1"
 
 msgid "missing values are not allowed in 'poly'"
 msgstr "valori mancanti non ammessi in 'poly'"
@@ -590,7 +590,7 @@ msgid "supply both 'x' and 'y' or a matrix-like 'x'"
 msgstr "fornire sia 'x' che 'y' o una 'x' in forma matriciale"
 
 msgid "'y' must be numeric"
-msgstr "'y' deve essere numerica"
+msgstr "'y' dev'essere numerica"
 
 msgid "'x' is empty"
 msgstr "'x' è vuota"
@@ -626,19 +626,19 @@ msgid "invalid formula"
 msgstr "formula sbagliata"
 
 msgid "'x' must be a matrix or a data frame"
-msgstr "'x' deve essere una matrice o un data frame"
+msgstr "'x' dev'essere una matrice o un data frame"
 
 msgid "'x' must contain finite values only"
 msgstr "'x' deve contenere solo valori finiti"
 
 msgid "length of 'wt' must equal the number of rows in 'x'"
-msgstr "la lunghezza di 'wt' deve essere pari al numero di righe di 'x'"
+msgstr "la lunghezza di 'wt' dev'essere pari al numero di righe di 'x'"
 
 msgid "weights must be non-negative and not all zero"
-msgstr "i peisi devono essere non-negativi e non tutti nulli"
+msgstr "i pesi devono essere non-negativi e non tutti zero"
 
 msgid "length of 'center' must equal the number of columns in 'x'"
-msgstr "la lunghezza di 'center' deve essere pari al numero di colonne di 'x'"
+msgstr "la lunghezza di 'center' dev'essere pari al numero di colonne di 'x'"
 
 msgid "invalid 'tree' ('merge' component)"
 msgstr "'tree' non valido (componente 'merge')"
@@ -687,13 +687,13 @@ msgid "'X' is not a dendrogram"
 msgstr "'X' non è un dendrogramma"
 
 msgid "'x' must be a numeric matrix"
-msgstr "'x' deve essere una matrice numerica"
+msgstr "'x' dev'essere una matrice numerica"
 
 msgid "'x' must have at least 2 rows and 2 columns"
 msgstr "'x' deve avere almeno 2 righe e 2 colonne"
 
 msgid "'margins' must be a numeric vector of length 2"
-msgstr "'margins' deve essere un vettore numerico di lunghezza 2"
+msgstr "'margins' dev'essere un vettore numerico di lunghezza 2"
 
 msgid "row dendrogram ordering gave index of wrong length"
 msgstr ""
@@ -709,13 +709,15 @@ msgstr ""
 "sbagliata"
 
 msgid "'ColSideColors' must be a character vector of length ncol(x)"
-msgstr "'ColSideColors' deve essere un vettore carattere di lunghezza ncol(x)"
+msgstr ""
+"'ColSideColors' dev'essere un vettore di caratteri di lunghezza ncol(x)"
 
 msgid "'RowSideColors' must be a character vector of length nrow(x)"
-msgstr "'RowSideColors' deve essere un vettore carattere di lunghezza nrow(x)"
+msgstr ""
+"'RowSideColors' dev'essere un vettore di caratteri di lunghezza nrow(x)"
 
 msgid "argument 'x' must be numeric"
-msgstr "l'argomento 'x' deve essere numerico"
+msgstr "l'argomento 'x' dev'essere numerico"
 
 msgid "'x' contains missing values"
 msgstr "'x' contiene valori mancanti"
@@ -781,13 +783,13 @@ msgid "specify 'rate' or 'scale' but not both"
 msgstr "specifica 'rate' o 'scale' ma non entrambi"
 
 msgid "x[] and prob[] must be equal length vectors."
-msgstr "x[] e prob[] devono essere vettore della stessa lunghezza."
+msgstr "x[] e prob[] devono essere dei vettore della medesima lunghezza."
 
 msgid "probabilities must be finite, non-negative and not all 0"
 msgstr "le probabilità devono essere finite, non-negative e non tutte 0"
 
 msgid "'x' must be non-negative"
-msgstr "'x' deve essere non negativo"
+msgstr "'x' dev'essere non negativo"
 
 msgid "size != sum(x), i.e. one is wrong"
 msgstr "size != sum(x), e.g. una delle due è sbagliata"
@@ -953,7 +955,7 @@ msgid "'filter' is longer than time series"
 msgstr "'filter' più lungo della serie storica"
 
 msgid "argument 'sides' must be 1 or 2"
-msgstr "l'argomento 'sides' deve essere 1 o 2"
+msgstr "l'argomento 'sides' dev'essere 1 o 2"
 
 msgid "'circular' must be logical and not NA"
 msgstr "'circular' dev'essere logico e non NA"
@@ -971,16 +973,16 @@ msgid "'x' has been rounded to integer: %s"
 msgstr "'x' è stata arrotondata all'intero: %s"
 
 msgid "if 'x' is not a matrix, 'y' must be given"
-msgstr "se 'x' non è una matrice, si deve specificare 'y'"
+msgstr "se 'x' non è una matrice, 'y' dev'essere data"
 
 msgid "'mult' must be integer >= 2, typically = 30"
-msgstr "'mult' deve essere un intero >= 2, normalmente = 30"
+msgstr "'mult' dev'essere un intero >= 2, normalmente = 30"
 
 msgid "alternative must be \"two.sided\", \"less\" or \"greater\""
-msgstr "l'alternativa deve essere \"two.sided\", \"less\" o \"greater\""
+msgstr "l'alternativa dev'essere \"two.sided\", \"less\" o \"greater\""
 
 msgid "'or' must be a single number between 0 and Inf"
-msgstr "'or' deve essere un solo numero tra 0 e Inf"
+msgstr "'or' dev'essere un solo numero tra 0 e Inf"
 
 msgid "need 2 or more non-zero row marginals"
 msgstr "richieste 2 o più righe marginali non-zero"
@@ -1040,13 +1042,13 @@ msgid "cannot use dots in formula with given data"
 msgstr "non di può usare il punto '.' nella formula per i dati specificati"
 
 msgid "'x' must be an \"ftable\" object"
-msgstr "'x' deve essere un oggetto \"ftable\""
+msgstr "'x' dev'essere un oggetto \"ftable\""
 
 msgid "wrong method"
 msgstr "metodo sbagliato"
 
 msgid "'file' must be a character string or connection"
-msgstr "'file' deve essere una stringa di caratteri o una connessione"
+msgstr "'file' dev'essere una stringa di caratteri o una connessione"
 
 msgid "'row.var.names' missing"
 msgstr "'row.var.names' mancante"
@@ -1077,10 +1079,10 @@ msgstr ""
 "incrementare 'maxit'?"
 
 msgid "value of 'epsilon' must be > 0"
-msgstr "il valore di 'epsilon' deve essere > 0"
+msgstr "il valore di 'epsilon' dev'essere > 0"
 
 msgid "maximum number of iterations must be > 0"
-msgstr "il numero massimo d iterazioni deve essere > 0"
+msgstr "il numero massimo d iterazioni dev'essere > 0"
 
 msgid "'family' argument seems not to be a valid family object"
 msgstr "l'argomento 'family' non sembra essere un oggetto family valido"
@@ -1204,13 +1206,13 @@ msgid "need dendrograms where all leaves have labels"
 msgstr "servono dendrogrammi dove tutti i nodi terminali hanno etichetta"
 
 msgid "'k' and 'h' must be a scalar"
-msgstr "'k' e 'h' deve essere scalari"
+msgstr "'k' e 'h' devono essere scalari"
 
 msgid "specify exactly one of 'k' and 'h'"
 msgstr "specificare esattamente uno tra 'k' e 'h'"
 
 msgid "k must be between 2 and %d"
-msgstr "k deve essere tra 2 e %d"
+msgstr "k dev'essere tra 2 e %d"
 
 msgid "specify exactly one of 'which' and 'x'"
 msgstr "specificare uno solo tra 'which' e 'x'"
@@ -1243,7 +1245,7 @@ msgid "unknown named kernel"
 msgstr "nome kernel sconosciuto"
 
 msgid "'coef' must be a vector"
-msgstr "'coef' deve essere un vettore"
+msgstr "'coef' dev'essere un vettore"
 
 msgid "'coef' does not have the correct length"
 msgstr "'coef' non ha la lunghezza corretta"
@@ -1267,7 +1269,7 @@ msgid "empty cluster: try a better set of initial centers"
 msgstr "cluster vuoto: provare con un insieme di centri iniziali migliore"
 
 msgid "number of cluster centres must lie between 1 and nrow(x)"
-msgstr "il numero di centri dei cluster deve essere tra 1 e nrow(x)"
+msgstr "il numero di centri dei cluster dev'essere tra 1 e nrow(x)"
 
 msgid "Quick-TRANSfer stage steps exceeded maximum (= %d)"
 msgstr "I passi della fase Quick-TRANSfer hanno superato il massimo (= %d)"
@@ -1279,7 +1281,7 @@ msgid "invalid ncol(x)"
 msgstr "ncol(x) non valido"
 
 msgid "'centers' must be a number or a matrix"
-msgstr "'centers' deve essere un numero o una matrice"
+msgstr "'centers' dev'essere un numero o una matrice"
 
 msgid "more cluster centers than distinct data points."
 msgstr "più cluster che punti distinti."
@@ -1291,7 +1293,7 @@ msgid "more cluster centers than data points"
 msgstr "più cluster che dati"
 
 msgid "'iter.max' must be positive"
-msgstr "'iter.max' deve essere positivo"
+msgstr "'iter.max' dev'essere positivo"
 
 msgid "must have same number of columns in 'x' and 'centers'"
 msgstr "'x' e 'centers' devono avere lo stesso numero di colonne"
@@ -1314,7 +1316,7 @@ msgstr "il p-value sarà approssimativo in presenza di legami"
 
 msgid "'y' must be numeric or a function or a string naming a valid function"
 msgstr ""
-"'y' deve essere numerico o una funzione o una stringa indicante una funzione "
+"'y' dev'essere numerico o una funzione o una stringa indicante una funzione "
 "valida"
 
 msgid "ties should not be present for the Kolmogorov-Smirnov test"
@@ -1339,7 +1341,7 @@ msgstr ""
 "numero di offset pari a %d, dovrebbe essere %d (numero di osservazioni)"
 
 msgid "'x' must be a matrix"
-msgstr "'x' deve essere una matrice"
+msgstr "'x' dev'essere una matrice"
 
 msgid "0 (non-NA) cases"
 msgstr "0 casi (non-NA)"
@@ -1431,7 +1433,7 @@ msgid "predictors must all be numeric"
 msgstr "i predittori devono essere tutti numerici"
 
 msgid "'degree' must be 0, 1 or 2"
-msgstr "'degree' deve essere 0, 1 o 2"
+msgstr "'degree' dev'essere 0, 1 o 2"
 
 msgid "both 'span' and 'enp.target' specified: 'span' will be used"
 msgstr "specificati sia 'span' che 'enp.target': verrà usato 'span'"
@@ -1480,7 +1482,7 @@ msgid "iterTrace = %d is not obeyed since iterations = %d"
 msgstr "iterTrace =%d non viene rispettato perché le iterazioni =%d"
 
 msgid "first argument must be a \"loess\" object"
-msgstr "il primo argomento deve essere un oggetto \"loess\""
+msgstr "il primo argomento dev'essere un oggetto \"loess\""
 
 msgid "no models to compare"
 msgstr "nessun modello da confrontare"
@@ -1504,7 +1506,7 @@ msgid "'start' and 'table' must be same length"
 msgstr "'start' e 'table' devono avere la stessa lunghezza"
 
 msgid "number of weights = %d should equal %d (number of responses)"
-msgstr "il numero dei pesi =%d deve essere pari a %d (numero di risposte)"
+msgstr "il numero dei pesi =%d dev'essere pari a %d (numero di risposte)"
 
 msgid "'X' matrix was collinear"
 msgstr "la matrice 'X' è collineare"
@@ -1539,7 +1541,7 @@ msgid "each dimension in table must be >= 2"
 msgstr "tutte le dimensioni di table devono essere >= 2"
 
 msgid "'x' must be a 3-dimensional array"
-msgstr "'x' deve essere un array tri-dimensionale"
+msgstr "'x' dev'essere un array tri-dimensionale"
 
 msgid "if 'x' is not an array, 'y' must be given"
 msgstr "se 'x' non è un array,, si deve specificare 'y'"
@@ -1551,10 +1553,10 @@ msgid "'x', 'y', and 'z' must have the same length"
 msgstr "'z', 'y' e 'z' devono avere la stessa lunghezza"
 
 msgid "sample size in each stratum must be > 1"
-msgstr "l'ampiezza campionaria in ciascun strato deve essere > 1"
+msgstr "l'ampiezza campionaria in ciascun strato dev'essere > 1"
 
 msgid "'x' must be square with at least two rows and columns"
-msgstr "'x' deve essere quadrata con almeno due righe e colonne"
+msgstr "'x' dev'essere quadrata con almeno due righe e colonne"
 
 msgid "'x' and 'y' must have the same number of levels (minimum 2)"
 msgstr "'x' e 'y' deovono avere lo stesso numero di livelli (minimo 2)"
@@ -1601,7 +1603,7 @@ msgid "SEs for type '%s' are not yet implemented"
 msgstr "SE per il tipo '%s' non ancora implementati"
 
 msgid "na.action must be a function"
-msgstr "na.action deve essere una funzione"
+msgstr "na.action dev'essere una funzione"
 
 msgid "non-factors ignored: %s"
 msgstr "non-fattori ignorati: %s"
@@ -1643,7 +1645,7 @@ msgstr ""
 "le variabili %s sono state specificate con tipi differenti dall'adattamento"
 
 msgid "'data' must be a data.frame, not a matrix or an array"
-msgstr "'data' deve essere un data.frame, non una matrice o un array"
+msgstr "'data' dev'essere un data.frame, non una matrice o un array"
 
 msgid "variable '%s' is not a factor"
 msgstr "la variabile '%s' non è di tipo factor"
@@ -1683,7 +1685,7 @@ msgid "invalid argument 'omit'"
 msgstr "argomento 'omit' non valido"
 
 msgid "'print.level' must be in {0,1,2}"
-msgstr "'print-level' deve essere in {0,1,2}"
+msgstr "'print-level' dev'essere in {0,1,2}"
 
 msgid "'interval' must be a vector of length 2"
 msgstr "'interval' dev'essere un vettore di lunghezza 2"
@@ -1731,7 +1733,7 @@ msgid "'varying' has wrong length"
 msgstr "'varying' di lughezza sbagliata"
 
 msgid "'varying' must be logical, integer or character"
-msgstr "'varying' deve essere di tipo logical, integer o character"
+msgstr "'varying' dev'essere di tipo logical, integer o character"
 
 msgid "invalid argument to 'getProfile'"
 msgstr "argomento non valido in 'getProfile'"
@@ -1780,7 +1782,7 @@ msgid "'anova' is only defined for sequences of \"nls\" objects"
 msgstr "'anova' definita solo per successioni di oggetti \"nls\""
 
 msgid "formula '%s' must be of the form '~expr'"
-msgstr "formula '%s' deve essere della forma '~expr'"
+msgstr "formula '%s' dev'essere della forma '~expr'"
 
 msgid "'%s' cannot be of mode '%s'"
 msgstr "'%s' non può essere in modalità '%s'"
@@ -1850,7 +1852,7 @@ msgid "'which' must be in 1:6"
 msgstr "'which' dev'essere in 1:6"
 
 msgid "'id.n' must be in {1,..,%d}"
-msgstr "'id.n' deve essere in {1,..,%d}"
+msgstr "'id.n' dev'essere in {1,..,%d}"
 
 msgid ""
 "hat values (leverages) are all = %s\n"
@@ -1866,7 +1868,7 @@ msgid "'x' must be finite, nonnegative, and integer"
 msgstr "'x' dev'essere finito, non negativo e intero"
 
 msgid "'T' must be nonnegative"
-msgstr "'T' non deve essere negativo"
+msgstr "'T' non dev'essere negativo"
 
 msgid "not enough data"
 msgstr "dati insufficienti"
@@ -1880,13 +1882,13 @@ msgstr "'r' dev'essere un singolo numero positivo"
 msgid ""
 "exactly one of 'n', 'delta', 'sd', 'power', and 'sig.level' must be NULL"
 msgstr ""
-"solo uno tra 'n', 'delta', 'sd', 'power', e 'sig.level' deve essere NULL"
+"solo uno tra 'n', 'delta', 'sd', 'power', e 'sig.level' dev'essere NULL"
 
 msgid "'sig.level' must be numeric in [0, 1]"
-msgstr "'sig.level' deve essere numerico in [0, 1]"
+msgstr "'sig.level' dev'essere numerico in [0, 1]"
 
 msgid "exactly one of 'n', 'p1', 'p2', 'power', and 'sig.level' must be NULL"
-msgstr "solo uno tra 'n', 'p1', 'p2', 'power', e 'sig.level' deve essere NULL"
+msgstr "solo uno tra 'n', 'p1', 'p2', 'power', e 'sig.level' dev'essere NULL"
 
 msgid "No p1 in [0, p2] can be found to achieve the desired power"
 msgstr ""
@@ -1906,13 +1908,13 @@ msgid ""
 "level' must be NULL"
 msgstr ""
 "solo uno tra 'groups', 'n', 'between.var', 'within.var', 'power', e 'sig."
-"level' deve essere NULL"
+"level' dev'essere NULL"
 
 msgid "number of groups must be at least 2"
-msgstr "il numero dei gruppi deve essere almeno 2"
+msgstr "il numero dei gruppi dev'essere almeno 2"
 
 msgid "number of observations in each group must be at least 2"
-msgstr "numero di osservazioni in ciascun gruppo deve essere almeno 2"
+msgstr "numero di osservazioni in ciascun gruppo dev'essere almeno 2"
 
 msgid "'nterms' is missing with no default"
 msgstr "'nterms' mancante senza valore di default"
@@ -1937,7 +1939,7 @@ msgid "no scores are available: refit with 'retx=TRUE'"
 msgstr "score non disponibili: ristimare con 'retx=TRUE'"
 
 msgid "'newdata' must be a matrix or data frame"
-msgstr "'newdata' deve essere una matrice o un data frame"
+msgstr "'newdata' dev'essere una matrice o un data frame"
 
 msgid ""
 "'newdata' does not have named columns matching one or more of the original "
@@ -2028,7 +2030,7 @@ msgid "'ref' must be of length one"
 msgstr "'ref' dev'essere di lunghezza 1"
 
 msgid "'ref' must be an existing level"
-msgstr "'ref' deve essere un livello esistente"
+msgstr "'ref' dev'essere un livello esistente"
 
 msgid "ref = %d must be in 1L:%d"
 msgstr "ref = %d dev'essere in 1L:%d"
@@ -2074,13 +2076,13 @@ msgid "'k' must be positive"
 msgstr "'k' dev'essere positivo"
 
 msgid "'k' must be odd!  Changing 'k' to %d"
-msgstr "'k' deve essere dispari!  Cambio di 'k' in %d"
+msgstr "'k' dev'essere dispari!  Cambio di 'k' in %d"
 
 msgid "'k' is bigger than 'n'!  Changing 'k' to %d"
 msgstr "'k' è più grande di 'n'!  Cambio di 'k' in %d"
 
 msgid "bandwidth 'k' must be >= 1 and odd!"
-msgstr "bandwidth 'k' deve essere >= 1 e dispari!"
+msgstr "bandwidth 'k' dev'essere >= 1 e dispari!"
 
 msgid "argument 'object' has an impossible length"
 msgstr "argomento 'object' ha una lunghezza impossibile"
@@ -2089,7 +2091,7 @@ msgid "no 'getInitial' method found for \"%s\" objects"
 msgstr "non è stato trovato il metodo 'getInitial' per gli oggetti \"%s\""
 
 msgid "sample size must be between 3 and 5000"
-msgstr "l'ampiezza campionaria deve essere tra 3 e 5000"
+msgstr "l'ampiezza campionaria dev'essere tra 3 e 5000"
 
 msgid "all 'x' values are identical"
 msgstr "tutti i valori di 'x' sono uguali"
@@ -2192,7 +2194,7 @@ msgid "'span' must be between 0 and 1."
 msgstr "'span' dev'essere tra 0 e 1."
 
 msgid "'y' must be numeric vector"
-msgstr "'y' deve essere un vettore numerico"
+msgstr "'y' dev'essere un vettore numerico"
 
 msgid "number of observations in 'x' and 'y' must match."
 msgstr "il numero di osservazioni in 'x' e 'y' deve coincidere."
@@ -2201,20 +2203,19 @@ msgid "number of weights must match number of observations."
 msgstr "il numero di pesi deve coincidere col numero di osservazioni."
 
 msgid "'x' must be between 0 and 1 for periodic smooth"
-msgstr "'x' deve essere tra 0 e 1 per smooth periodici"
+msgstr "'x' dev'essere tra 0 e 1 per smooth periodici"
 
 msgid "no finite observations"
 msgstr "nessuna osservazione finita"
 
 msgid "'p' must be between 0 and 0.5"
-msgstr "'p' deve essere tra 0 e 0.5"
+msgstr "'p' dev'essere tra 0 e 0.5"
 
 msgid "length of 'p' must be 1 or equal the number of columns of 'x'"
-msgstr ""
-"la lunghezza dei 'p' deve essere 1 o uguale al numero di colonne di 'x'"
+msgstr "la lunghezza dei 'p' dev'essere 1 o uguale al numero di colonne di 'x'"
 
 msgid "'x' must be a time series or an ar() fit"
-msgstr "'x' deve essere una serie storica o un ar() stimato"
+msgstr "'x' dev'essere una serie storica o un ar() stimato"
 
 msgid "must specify 'spans' or a valid kernel"
 msgstr "specificare 'spans' o un kernel valido"
@@ -2244,13 +2245,13 @@ msgid "'x' must be *strictly* increasing (non - NA)"
 msgstr "'x' dev'essere strettamente crescente (non - NA)"
 
 msgid "stepfun: 'x' must be ordered increasingly"
-msgstr "stepfun: 'x' deve essere ordinato in ordine crescente"
+msgstr "stepfun: 'x' dev'essere ordinato in ordine crescente"
 
 msgid "'x' must have length >= 1"
 msgstr "'x' deve avere lunghezza >= 1"
 
 msgid "'y' must be one longer than 'x'"
-msgstr "'y' deve essere più lungo di 'x' di una unità"
+msgstr "'y' dev'essere più lungo di 'x' di una unità"
 
 msgid "no 'as.stepfun' method available for 'x'"
 msgstr "nessun metodo 'as.stepfun' disponibile per 'x'"
@@ -2280,16 +2281,16 @@ msgid "'cutpoints' must be unique, but are ="
 msgstr "'cutpoints' devono essere distinti, ma sono="
 
 msgid "'x' must be between -1 and 1"
-msgstr "'x' deve essere tra -1 e 1"
+msgstr "'x' dev'essere tra -1 e 1"
 
 msgid "'x' must be between %s and %s"
-msgstr "'x' deve essere tra %s e %s"
+msgstr "'x' dev'essere tra %s e %s"
 
 msgid "number of 'cutpoints' must be one less than number of symbols"
-msgstr "il numero di 'cutpoints' deve essere inferiore al numero di simboli"
+msgstr "il numero di 'cutpoints' dev'essere inferiore al numero di simboli"
 
 msgid "number of 'cutpoints' must be one more than number of symbols"
-msgstr "il numero di 'cutpoints' deve essere uno più di quello dei simboli"
+msgstr "il numero di 'cutpoints' dev'essere uno più di quello dei simboli"
 
 msgid "must have 2 'symbols' for logical 'x' argument"
 msgstr "deve avere 2 'symbols' se l'argomento 'x' è logical"
@@ -2298,7 +2299,7 @@ msgid "invalid 'abbr.colnames'"
 msgstr "'abbr.colnames' non valida"
 
 msgid "'mu' must be a single number"
-msgstr "'mu' deve essere un solo numero"
+msgstr "'mu' dev'essere un solo numero"
 
 msgid "'y' is missing for paired test"
 msgstr "'y' mancante nel test per dati appaiati"
@@ -2307,7 +2308,7 @@ msgid "data are essentially constant"
 msgstr "i dati sono praticamente costanti"
 
 msgid "'main' must be TRUE, FALSE, NULL or character (vector)."
-msgstr "'main' deve essere TRUE, FALSE, NULL o un (vettore) character."
+msgstr "'main' dev'essere TRUE, FALSE, NULL o un (vettore) character."
 
 msgid "x is not a vector or univariate time series"
 msgstr "'x' non è un vettore o una serie storica"
@@ -2396,7 +2397,7 @@ msgid "only replacement of elements is allowed"
 msgstr "solo la sostituzione degli elementi è ammessa"
 
 msgid "'model' must be list"
-msgstr "'model' deve essere di tipo list"
+msgstr "'model' dev'essere di tipo list"
 
 msgid "'n' must be strictly positive"
 msgstr "'n' dev'essere strettamente positivo"
@@ -2405,10 +2406,10 @@ msgid "'ar' part of model is not stationary"
 msgstr "la parte 'ar' del modello non è stazionaria"
 
 msgid "burn-in 'n.start' must be as long as 'ar + ma'"
-msgstr "valori di burn-in 'n.start' deve essere lungo quanto 'ar + ma'"
+msgstr "valori di burn-in 'n.start' dev'essere lungo quanto 'ar + ma'"
 
 msgid "'model$order' must be of length 3"
-msgstr "'model$order' deve essere di lunghezza 3"
+msgstr "'model$order' dev'essere di lunghezza 3"
 
 msgid "inconsistent specification of 'ar' order"
 msgstr "specificazione dell'ordine di 'ar' inconsistente"
@@ -2417,13 +2418,13 @@ msgid "inconsistent specification of 'ma' order"
 msgstr "specificazione dell'ordine 'ma' inconsistente"
 
 msgid "number of differences must be a positive integer"
-msgstr "il numero di 'differences' deve essere un intero positivo"
+msgstr "il numero di 'differences' dev'essere un intero positivo"
 
 msgid "need an object with call component"
 msgstr "necessario un oggetto con una componente call"
 
 msgid "'ratio' must be a single positive number"
-msgstr "'ratio' deve essere un numero positivo"
+msgstr "'ratio' dev'essere un numero positivo"
 
 msgid "'x' and 'w' must have the same length"
 msgstr "'x' e 'w' devono avere la stessa lunghezza"
@@ -2492,8 +2493,8 @@ msgstr "troppo pochi valori distinti in input per stimare una biesponenziale"
 
 msgid "must have length of response = length of second argument to 'SSfol'"
 msgstr ""
-"deve essere lunghezza della risposta = lunghezza del secondo argomento di "
-"'SSfol'"
+"bisogna avere la lunghezza della risposta = lunghezza del secondo argomento "
+"di 'SSfol'"
 
 msgid "must have at least 4 observations to fit an 'SSfol' model"
 msgstr "necessarie almeno 4 osservazioni per stimare un modello 'SSfol'"
