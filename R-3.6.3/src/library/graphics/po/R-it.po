@@ -180,7 +180,7 @@ msgid "Must specify 'breaks' in hist(<POSIXt>)"
 msgstr "Devi specificare 'breaks' in hist(<POSIXt>)"
 
 msgid "invalid specification of 'breaks'"
-msgstr "specificazine di 'breaks' non valida"
+msgstr "specificazione di 'breaks' non valida"
 
 msgid "Must specify 'breaks' in hist(<Date>)"
 msgstr "Devi specificare 'breaks' in hist(<Date>)"
@@ -269,7 +269,7 @@ msgid "'z' must be numeric or logical"
 msgstr "'z' dev'essere numerico o logico"
 
 msgid "invalid z limits"
-msgstr "limits di z non validi"
+msgstr "limiti di z non validi"
 
 msgid "must have one more break than colour"
 msgstr "deve avere un break in più di colour"
