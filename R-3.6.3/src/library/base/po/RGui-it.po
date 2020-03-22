@@ -1049,7 +1049,8 @@ msgstr "Metafile avanzati"
 #: src/library/grDevices/src/devWindows.c:1007
 #: src/library/grDevices/src/devWindows.c:3455
 msgid "file path selected is too long: only 512 bytes are allowed"
-msgstr "il percorso file indicato è troppo lungo: ammessi solo 512 caratteri"
+msgstr ""
+"il percorso file scelto è troppo lungo: sono ammessi solo 512 caratteri"
 
 #: src/library/grDevices/src/devWindows.c:1218
 msgid "No plot to replace!"
