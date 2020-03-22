@@ -677,7 +677,7 @@ msgstr ""
 "L'engine delle vignette %s non è registrato da nessuno dei pacchetti %s"
 
 msgid "Engine name %s and package %s do not match"
-msgstr "Il nome dell'engine %s e il pacchetto %s non combaciano"
+msgstr "Il nome dell'engine %s e il pacchetto %s non corrispondono"
 
 msgid "Argument %s must be a function and not %s"
 msgstr "L'argomento %s dev'essere una funzione e non %s"
@@ -991,7 +991,7 @@ msgid "ERROR: no permission to install to directory"
 msgstr "ERRORE: non ci sono i permessi per installare nella directory"
 
 msgid "building a fake installation is disallowed"
-msgstr "non è permesso avviare una installazione fake"
+msgstr "non è ammesso avviare una installazione fake"
 
 msgid "C++17 standard requested but CXX17 is not defined"
 msgstr "C++17 standard richiesto ma CXX17 non definito"
@@ -1024,7 +1024,7 @@ msgid "all packages should have a NAMESPACE"
 msgstr "tutti i pacchetti dovrebbero avere un NAMESPACE"
 
 msgid "package seems to be using lazy loading for data already"
-msgstr "il pacchetto sembra già utilizzare il lazy loading per i dati"
+msgstr "il pacchetto sembra utilizzare il lazy loading per i dati"
 
 msgid "source list must have names for all elements"
 msgstr "la lista sorgente deve avere i nomi per tutti gli elementi"
@@ -1039,7 +1039,7 @@ msgid "package contains no R code"
 msgstr "il pacchetto non contiene codice R"
 
 msgid "package seems to be using lazy loading already"
-msgstr "il pacchetto sembra usare già il lazy loading"
+msgstr "il pacchetto sembra utilizzare il lazy loading"
 
 msgid ""
 "Cannot process chunk/lines:\n"
@@ -1056,11 +1056,12 @@ msgstr "File NEWS non trovato"
 
 msgid "No news found in given file using old-style R-like format."
 msgstr ""
-"Nessuna novità trovata nel dato file usando il formato vecchio-stile di R."
+"Nessuna novità trovata nel dato file utilizzando il formato vecchio-stile di "
+"R."
 
 msgid "No news found in given file using package default format."
 msgstr ""
-"Nessuna novità trovata nel dato file usando il formato predefinito del "
+"Nessuna novità trovata nel dato file utilizzando il formato predefinito del "
 "pacchetto."
 
 msgid "Could not extract news from the following text chunks:"
