@@ -99,7 +99,7 @@ msgstr ""
 #: graphics.c:3154
 #, c-format
 msgid "invalid par(\"bty\") = '%c'; no box() drawn"
-msgstr "par(\"bty\") = '%c' non valido; no disegno il box()"
+msgstr "par(\"bty\") = '%c' non valido; nessun box() disegnato"
 
 #: graphics.c:3171
 msgid "invalid argument to GBox"
@@ -116,7 +116,7 @@ msgstr "il parametro grafico 'family' ha una lunghezza massima di 200 byte"
 #: par.c:160
 #, c-format
 msgid "invalid value specified for graphical parameter \"%s\""
-msgstr "valore non valido specificato per il parametro grafico \"%s\""
+msgstr "specificato valore non valido per il parametro grafico \"%s\""
 
 #: par.c:167
 #, c-format
@@ -195,7 +195,7 @@ msgstr "simbolo grafico non valido"
 
 #: plot.c:217
 msgid "invalid font specification"
-msgstr "specificazione font non valida"
+msgstr "specificazione del carattere non valida"
 
 #: plot.c:276 plot.c:290 plot.c:481 plot.c:486 plot.c:2112 plot.c:2119
 #: plot.c:3141 plot.c:3143 plot.c:3145 plot.c:3300 plot3d.c:1163 plot3d.c:1167
@@ -229,7 +229,7 @@ msgstr "specificazione \"log=\" dev'essere di tipo character"
 #: plot.c:503
 #, c-format
 msgid "invalid \"log=%s\" specification"
-msgstr "specificazione  \"log=%s\" non valida"
+msgstr "specificazione \"log=%s\" non valida"
 
 #: plot.c:518
 msgid "NAs not allowed in 'xlim'"
@@ -306,12 +306,12 @@ msgstr "tipo lpot '%s' verrà troncato al primo carattere"
 
 #: plot.c:1331 plot.c:3002
 msgid "invalid plot type"
-msgstr "tipo grafico non valido"
+msgstr "tipo plot non valido"
 
 #: plot.c:1533
 #, c-format
 msgid "invalid plot type '%c'"
-msgstr "tipo grafico '%c' non valido"
+msgstr "tipo plot '%c' non valido"
 
 #: plot.c:1576
 msgid "invalid first argument"
@@ -341,15 +341,15 @@ msgstr "Raster vuoto"
 
 #: plot.c:1914
 msgid "invalid arrow head length"
-msgstr "lunghezza punta della freccia non valida"
+msgstr "lunghezza non valida per la punta della freccia"
 
 #: plot.c:1919
 msgid "invalid arrow head angle"
-msgstr "angolazione della punta-freccia non valida"
+msgstr "angolazione della punta della freccia non valida"
 
 #: plot.c:1924
 msgid "invalid arrow head specification"
-msgstr "specificazione della punta-freccia non valida"
+msgstr "specificazione non valida per la punta della freccia"
 
 #: plot.c:2158
 msgid "no coordinates were supplied"
@@ -403,15 +403,15 @@ msgstr "unità non valide"
 
 #: plot.c:3469 plot.c:3576
 msgid "invalid dendrogram input"
-msgstr "dengrogramma in input non valido"
+msgstr "dendrogramma in input non valido"
 
 #: plot.c:3633
 msgid "invalid symbol parameter vector"
-msgstr "vettore parametro simbolo non valido"
+msgstr "simbolo non valido per il vettore parametro"
 
 #: plot.c:3656
 msgid "invalid symbol coordinates"
-msgstr "coordinate simbolo non valide"
+msgstr "simbolo coordinate non valido"
 
 #: plot.c:3664
 msgid "x/y/parameter length mismatch"
@@ -419,27 +419,27 @@ msgstr "lunghezze x/y/parametro discordanti"
 
 #: plot.c:3683
 msgid "invalid circles data"
-msgstr "dati cerchi non validi"
+msgstr "cerchi dati non validi"
 
 #: plot.c:3685 plot.c:3706 plot.c:3731 plot.c:3761
 msgid "invalid symbol parameter"
-msgstr "parametro 'symbol' non valido"
+msgstr "simbolo non valido per il parametro"
 
 #: plot.c:3704
 msgid "invalid squares data"
-msgstr "dati quadrati non validi"
+msgstr "dati dei quadrati non validi"
 
 #: plot.c:3729
 msgid "invalid rectangles data (need 2 columns)"
-msgstr "dati rettangoli non validi (richieste 2 colonne)"
+msgstr "dati dei rettangoli non validi (richieste 2 colonne)"
 
 #: plot.c:3759
 msgid "invalid stars data"
-msgstr "dati 'stars' non validi"
+msgstr "dati delle stelle non validi"
 
 #: plot.c:3801
 msgid "invalid thermometers data (need 3 or 4 columns)"
-msgstr "dati termometri non validi (richieste 3 o 4 colonne)"
+msgstr "dati dei termometri non validi (richieste 3 o 4 colonne)"
 
 #: plot.c:3804
 #, c-format
@@ -457,7 +457,7 @@ msgstr "'thermometers[, 1:2]' non valido"
 
 #: plot.c:3849
 msgid "invalid 'boxplots' data (need 5 columns)"
-msgstr "dati 'boxplots' non validi (richiedono 5 colonne)"
+msgstr "dati 'boxplots' non validi (richieste 5 colonne)"
 
 #: plot.c:3858
 msgid "'boxplots[, 5]' outside [0,1] -- may look funny"
@@ -465,7 +465,7 @@ msgstr "'boxplots[, 5]' fuori da [0,1] -- potrebbe sembrare divertente"
 
 #: plot.c:3860
 msgid "invalid 'boxplots[, 1:4]'"
-msgstr "'boxplots[,1:4]' non validi"
+msgstr "'boxplots[,1:4]' non valido"
 
 #: plot.c:3906
 msgid "invalid symbol type"
@@ -490,7 +490,7 @@ msgstr "nessun valore di contour"
 
 #: plot3d.c:255
 msgid "invalid x / y values or limits"
-msgstr "valori o limit di x / y non validi"
+msgstr "valori o limiti di x / y non validi"
 
 #: plot3d.c:257
 msgid "invalid contour levels: must be strictly increasing"
@@ -506,15 +506,15 @@ msgstr "gli argomenti sono troppo pochi"
 
 #: plot3d.c:1112
 msgid "invalid 'x' limits"
-msgstr "limiti 'x' non validi"
+msgstr "limiti di 'x' non validi"
 
 #: plot3d.c:1114
 msgid "invalid 'y' limits"
-msgstr "limiti 'y' non validi"
+msgstr "limiti di 'y' non validi"
 
 #: plot3d.c:1116
 msgid "invalid 'z' limits"
-msgstr "limiti 'z' non validi"
+msgstr "limiti di 'z' non validi"
 
 #: plot3d.c:1137
 msgid "'xlab' must be a character vector of length 1"
@@ -530,7 +530,7 @@ msgstr "'zlab' dev'essere un vettore di caratteri di lunghezza 1"
 
 #: plot3d.c:1161
 msgid "invalid viewing parameters"
-msgstr "paremetri visuale non validi"
+msgstr "visualizzazione parametri non valida"
 
 #: plot3d.c:1179 plot3d.c:1183
 #, c-format
@@ -560,7 +560,7 @@ msgstr "necessari valori di 'y' crescenti"
 
 #: plot3d.c:1953
 msgid "invalid NA contour values"
-msgstr "valori di contour NA non validi"
+msgstr "valori di contorno NA non validi"
 
 #: plot3d.c:1965
 msgid "all z values are equal"
