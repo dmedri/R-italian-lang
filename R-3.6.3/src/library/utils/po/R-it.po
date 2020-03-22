@@ -153,7 +153,7 @@ msgid "Package %s: DESCRIPTION file not found"
 msgstr "Pacchetto %s: file DESCRIPTION non trovato"
 
 msgid "'file' must be NULL, a character string or a connection"
-msgstr "'file' dev'essere NULL, una stringa di caratter o una connessione"
+msgstr "'file' dev'essere NULL, una stringa di caratteri o una connessione"
 
 msgid "bad argument"
 msgstr "argomento errato"
@@ -607,7 +607,7 @@ msgid "metadata of %s is corrupt"
 msgstr "i metadati di %s sono corrotti"
 
 msgid "'priority' must be character or NULL"
-msgstr "'priority' dev'essere character o NULL"
+msgstr "'priority' dev'essere di tipo character o NULL"
 
 msgid "Updating HTML index of packages in '.Library'"
 msgstr "Aggiornamento indice HTML dei pacchetti in '.Library'"
@@ -649,7 +649,7 @@ msgid "--- Please select repositories for use in this session ---"
 msgstr "--- Per piacere, seleziona i repository per la sessione ---"
 
 msgid "%s must be supplied"
-msgstr "%s dev'essere indicato"
+msgstr "%s dev'essere passato"
 
 msgid "every package depends on at least one other"
 msgstr "qualsiasi pacchetto dipende almeno da un altro"
@@ -1095,7 +1095,7 @@ msgid "'url' must be a length-one character vector"
 msgstr "'url' dev'essere un vettore di caratteri di lunghezza uno"
 
 msgid "'headers' must have names and must not be NA"
-msgstr "'headers' deve avere nomi e non deve essere NA"
+msgstr "'headers' deve avere nomi e non dev'essere NA"
 
 msgid "'destfile' must be a length-one character vector"
 msgstr "'destfile' dev'essere un vettore di caratteri di lunghezza uno"
