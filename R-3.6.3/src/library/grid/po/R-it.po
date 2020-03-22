@@ -216,7 +216,7 @@ msgid "it is only valid to set a 'grob' as child of a \"gTree\""
 msgstr "è solo valido per impostare un 'grob' come figlio di un \"gTree\""
 
 msgid "New 'grob' name (%s) does not match 'gPath' (%s)"
-msgstr "Il nuovo nome 'grob' (%s) non combacia con 'gPath' (%s)"
+msgstr "Il nuovo nome 'grob' (%s) non corrisponde con 'gPath' (%s)"
 
 msgid "it is only valid to add a 'grob' to a \"gTree\""
 msgstr "è solo valido aggiungere un 'grob' ad un \"gTree\""
