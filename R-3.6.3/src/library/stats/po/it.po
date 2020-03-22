@@ -740,7 +740,7 @@ msgid ""
 msgstr ""
 "O x è un minimo locale approssimato della funzione,\n"
 "o la funzione è 'troppo' non lineare per questo algoritmo,\n"
-"o steptol è troppo grande.\n"
+"o lo steptol è troppo grande.\n"
 
 #: optimize.c:680
 msgid "Iteration limit exceeded.  Algorithm failed.\n"
