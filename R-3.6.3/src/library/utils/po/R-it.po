@@ -634,7 +634,7 @@ msgid "'download.file()' error code '%d'"
 msgstr "'download.file()' codice errore '%d'"
 
 msgid "failed to download mirrors file (%s); using local file '%s'"
-msgstr "scaricamento fallito del file mirror (%s); si utilizza il file locale '%s'"
+msgstr "scaricamento fallito del file mirrors (%s); si utilizza il file locale '%s'"
 
 msgid "cannot choose a"
 msgstr "non è possibile selezionare un"
@@ -905,7 +905,7 @@ msgid "'host' must be character of length 1"
 msgstr "'host' dev'essere un carattere di lunghezza 1"
 
 msgid "can only receive calls on local machine"
-msgstr "ricezione chiamate solo sulla macchina locale"
+msgstr "si possono solo ricevere chiamate sulla macchina locale"
 
 msgid "socket not established"
 msgstr "socket non stabilito"
