@@ -415,7 +415,7 @@ msgstr "coordinate simbolo non valide"
 
 #: plot.c:3664
 msgid "x/y/parameter length mismatch"
-msgstr "lunghezze parametro x/y discordanti"
+msgstr "lunghezze x/y/parametro discordanti"
 
 #: plot.c:3683
 msgid "invalid circles data"
@@ -482,7 +482,7 @@ msgstr "valori di 'x' o 'y' insufficienti"
 
 #: plot3d.c:185 plot3d.c:1932
 msgid "dimension mismatch"
-msgstr "dimensione non compatibile"
+msgstr "dimensione discordante"
 
 #: plot3d.c:193 plot3d.c:1935
 msgid "no contour values"
