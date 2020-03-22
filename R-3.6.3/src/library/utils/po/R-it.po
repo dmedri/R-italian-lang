@@ -186,7 +186,7 @@ msgid "all arguments must be of class %s"
 msgstr "tutti gli argomenti devono essere della classe %s"
 
 msgid "all fields have to be named"
-msgstr "tutti i campi devono essere denominati"
+msgstr "tutti i campi devono essere nominati"
 
 msgid "%s has to be one of %s"
 msgstr "%s dev'essere uno di %s"
@@ -248,7 +248,7 @@ msgid "data set %s not found"
 msgstr "il dataset %s non è stato trovato"
 
 msgid "an object named %s already exists and will not be overwritten"
-msgstr "un oggetto denominato %s esiste già e non sarà sovrascritto"
+msgstr "un oggetto nominato %s esiste già e non sarà sovrascritto"
 
 msgid "only 'html = TRUE' is supported on this platform"
 msgstr "solo 'html = TRUE' è supportato su questa piattaforma"
