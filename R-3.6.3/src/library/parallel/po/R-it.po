@@ -31,7 +31,7 @@ msgid "dim(X) must have a positive length"
 msgstr "dim(X) deve avere una lunghezza positiva"
 
 msgid "'X' must have named dimnames"
-msgstr "'X' deve avere dimensioni con nomi"
+msgstr "'X' deve avere nomi dimensioni nominate"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
 msgstr "non tutti gli elementi di 'MARGIN' sono nomi di dimensioni"
