@@ -882,7 +882,7 @@ msgid "No package index found for package %s"
 msgstr "Nessun indice pacchetto trovato per il pacchetto %s"
 
 msgid "No package named %s could be found"
-msgstr "Non è possibile trovare il pacchetto denominato %s"
+msgstr "Non è possibile trovare il pacchetto nominato %s"
 
 msgid "No help found for package %s"
 msgstr "Nessuna guida trovata per il pacchetto %s"
