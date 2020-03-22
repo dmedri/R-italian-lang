@@ -284,7 +284,7 @@ msgstr "richiede modalità SDI"
 #: src/gnuwin32/extra.c:651 src/main/gevents.c:60 src/main/gevents.c:99
 #: src/main/gevents.c:102
 msgid "invalid graphical device number"
-msgstr "numero di dispositivo non valido"
+msgstr "numero del dispositivo grafico non valido"
 
 #: src/gnuwin32/extra.c:661
 msgid "bad device"
@@ -401,7 +401,7 @@ msgstr "file.show(): il file %s non esiste\n"
 #: src/gnuwin32/system.c:996
 #, c-format
 msgid "WARNING: R_MAX_MEM_SIZE value is invalid: ignored\n"
-msgstr "AVVERTIMENTO: il valore R_MAX_MEM_SIZE non è valido: ignorato\n"
+msgstr "AVVERTIMENTO: valore R_MAX_MEM_SIZE non valido: ignorato\n"
 
 #: src/gnuwin32/system.c:1037
 msgid "WARNING: no max-mem-size given\n"
@@ -410,7 +410,7 @@ msgstr "AVVERTIMENTO: nessun max-mem-size\n"
 #: src/gnuwin32/system.c:1044
 #, c-format
 msgid "WARNING: --max-mem-size value is invalid: ignored\n"
-msgstr "AVVERTIMENTO: valore non valido di --max-mem-size: ignorato\n"
+msgstr "AVVERTIMENTO: valore di --max-mem-size non valido: ignorato\n"
 
 #: src/gnuwin32/system.c:1047
 #, c-format
@@ -500,7 +500,7 @@ msgstr "AVVERTIMENTO: nessun valore specificato per '%s'"
 #: src/main/CommandLineArgs.c:217
 #, c-format
 msgid "WARNING: '%s' value is invalid: ignored"
-msgstr "AVVERTIMENTO: il valore '%s' non è valido: ignorato"
+msgstr "AVVERTIMENTO: valore '%s' non valido: ignorato"
 
 #: src/main/CommandLineArgs.c:221
 #, c-format
@@ -1055,7 +1055,7 @@ msgstr "l'argomento non è una matrice"
 
 #: src/main/array.c:1692
 msgid "invalid first argument, must be an array"
-msgstr "primo argomento non valido, dev'essere di tipo array"
+msgstr "primo argomento non valido, dev'essere un array"
 
 #: src/main/array.c:1706
 #, c-format
@@ -1216,7 +1216,7 @@ msgstr "secondo argomento non valido"
 
 #: src/main/attrib.c:1191
 msgid "length-0 dimension vector is invalid"
-msgstr "un vettore con lunghezza 0 non è valido"
+msgstr "vettore con lunghezza 0 non valido"
 
 #: src/main/attrib.c:1196
 msgid "the dims contain missing values"
@@ -1270,7 +1270,7 @@ msgstr "confronto parziale di '%s' con '%s'"
 #: src/main/attrib.c:1552
 #, c-format
 msgid "invalid type '%s' for slot name"
-msgstr "tipo non valido '%s' per nome slot"
+msgstr "tipo '%s' non valido per il nome slot"
 
 #: src/main/attrib.c:1595
 msgid "'name' must be non-null character string"
@@ -1278,7 +1278,7 @@ msgstr "'name' dev'essere una stringa di caratter non-nulla"
 
 #: src/main/attrib.c:1720 src/main/attrib.c:1791 src/main/attrib.c:1828
 msgid "invalid type or length for slot name"
-msgstr "typo o lunghezza non valido per il nome dello slot"
+msgstr "tipo non valido o lunghezza per il nome dello slot"
 
 #: src/main/attrib.c:1754
 #, c-format
@@ -1643,7 +1643,7 @@ msgstr "valori fuori range trattati come 0 durante la conversione"
 #: src/main/coerce.c:420
 #, c-format
 msgid "invalid data of mode '%s' (too short)"
-msgstr "dato in modalità '%s' non valido (troppo corto)"
+msgstr "data in modalità '%s' non valida (troppo corto)"
 
 #: src/main/coerce.c:1028
 #, c-format
@@ -1745,7 +1745,7 @@ msgstr "'envir' dev'essere un environment"
 
 #: src/main/coerce.c:2686
 msgid "invalid environment specified"
-msgstr "environment specificato non valido"
+msgstr "specificato ambiente non valido"
 
 #: src/main/coerce.c:2752
 msgid "Setting class(x) to NULL;   result will no longer be an S4 object"
@@ -1788,8 +1788,8 @@ msgid ""
 "invalid to set the class to matrix unless the dimension attribute is of "
 "length 2 (was %d)"
 msgstr ""
-"non è possibile impostare la classe a matrix  se l'attributo dimensione non "
-"ha lunghezza 2 (era %d)"
+"non è possibile impostare la classe a matrix finché l'attributo dimensione "
+"non ha lunghezza 2 (era %d)"
 
 #: src/main/coerce.c:2839
 msgid ""
@@ -2494,7 +2494,7 @@ msgstr "il contesto obiettivo non è nello stack"
 
 #: src/main/context.c:376
 msgid "NA argument is invalid"
-msgstr "L'argomento NA non è valido"
+msgstr "Argomento NA non valido"
 
 #: src/main/context.c:384 src/main/context.c:399 src/main/context.c:482
 #: src/main/context.c:494 src/main/context.c:505 src/main/context.c:517
@@ -2674,7 +2674,7 @@ msgstr "nessun dispositivo attivo o predefinito"
 #: src/main/devices.c:176
 msgid "no active device and default getOption(\"device\") is invalid"
 msgstr ""
-"nessun dispositivo attivo e predefinito getOption(\"device\") non è valido"
+"nessun dispositivo attivo e getOption(\"device\") predefinito non valido"
 
 #: src/main/devices.c:390 src/main/devices.c:452
 msgid "too many open devices"
@@ -2715,7 +2715,7 @@ msgstr "troppi argomenti nella chiamata di funzione esterna"
 
 #: src/main/dotcode.c:236
 msgid "PACKAGE = \"\" is invalid"
-msgstr "PACKAGE = \"\" non è valido"
+msgstr "PACKAGE = \"\" non valido"
 
 #: src/main/dotcode.c:292 src/main/dotcode.c:297 src/main/dotcode.c:302
 #: src/main/dotcode.c:307
@@ -2996,7 +2996,7 @@ msgstr "fine linea non valido"
 #: src/main/engine.c:508 src/main/engine.c:513 src/main/engine.c:521
 #: src/main/engine.c:528 src/main/engine.c:542 src/modules/X11/devX11.c:1177
 msgid "invalid line join"
-msgstr "unione linea non valido"
+msgstr "unione linea non valida"
 
 #: src/main/engine.c:761 src/main/engine.c:865 src/main/engine.c:1098
 #: src/main/engine.c:1205 src/main/engine.c:1328 src/main/engine.c:1392
@@ -3110,15 +3110,15 @@ msgstr "cifre esadecimali non valide in 'color' o 'lty'"
 
 #: src/main/engine.c:3257
 msgid "invalid line type: must be length 2, 4, 6 or 8"
-msgstr "line type non valido: deve avere lunghezza 2, 4, 6 o 8"
+msgstr "tipo linea non valido: dev'essere di lunghezza 2, 4, 6 o 8"
 
 #: src/main/engine.c:3261
 msgid "invalid line type: zeroes are not allowed"
-msgstr "line type non valido: zeri non ammessi"
+msgstr "tipo linea non valido: zeri non ammessi"
 
 #: src/main/engine.c:3270 src/main/engine.c:3278 src/main/engine.c:3285
 msgid "invalid line type"
-msgstr "line type non valido"
+msgstr "tipo linea non valido"
 
 #: src/main/envir.c:121 src/main/envir.c:133
 #, c-format
@@ -3677,7 +3677,7 @@ msgstr "funzione non ammissibile nell'assegnazione complessa"
 
 #: src/main/eval.c:2790
 msgid "invalid (do_set) left-hand side to assignment"
-msgstr "il membro di sinistra dell'assegnazione (do_set) non è valido"
+msgstr "membro di sinistra dell'assegnazione (do_set) non valido"
 
 #: src/main/eval.c:2873
 #, c-format
@@ -4118,15 +4118,15 @@ msgstr ""
 
 #: src/main/grep.c:1772
 msgid "'pattern' is invalid UTF-8"
-msgstr "'pattern' non è valido UTF-8"
+msgstr "'pattern' UTF-8 non valido"
 
 #: src/main/grep.c:1774
 msgid "'replacement' is invalid UTF-8"
-msgstr "'replacement' non è valido UTF-8"
+msgstr "'replacement' UTF-8 non valido"
 
 #: src/main/grep.c:1778
 msgid "'pattern' is invalid in this locale"
-msgstr "'pattern' non valido in questa localizzazione"
+msgstr "'pattern' non valido con questa localizzazione"
 
 #: src/main/grep.c:1781
 msgid "'replacement' is invalid in this locale"
@@ -4654,8 +4654,8 @@ msgid ""
 "invalid primitive methods code (\"%s\"): should be \"clear\", \"reset\", "
 "\"set\", or \"suppress\""
 msgstr ""
-"codice metodo primitiva (\"%s\") non valido : dovrebbe essere \"clear\", "
-"\"reset\", \"set\", o \"suppress\""
+"codice metodi primitivi (\"%s\") non valido : dovrebbe essere \"clear\", "
+"\"reset\", \"set\" o \"suppress\""
 
 #: src/main/objects.c:1369
 msgid "invalid object: must be a primitive function"
@@ -4842,7 +4842,7 @@ msgstr "non è possibile creare il file '%s', motivo '%s'"
 
 #: src/main/platform.c:501 src/main/platform.c:571 src/main/platform.c:657
 msgid "invalid first filename"
-msgstr "il nome del primo file non è valido"
+msgstr "nome del primo file non valido"
 
 #: src/main/platform.c:513
 #, c-format
@@ -4851,7 +4851,7 @@ msgstr "non è possibile rimuovere il file '%s', motivo '%s'"
 
 #: src/main/platform.c:573 src/main/platform.c:659
 msgid "invalid second filename"
-msgstr "il nome del secondo file non è valido"
+msgstr "nome del secondo file non valido"
 
 #: src/main/platform.c:576 src/main/platform.c:662
 msgid "nothing to link"
@@ -5242,7 +5242,7 @@ msgstr "confronto tra questi tipi non implementato"
 
 #: src/main/relop.c:359
 msgid "invalid comparison with complex values"
-msgstr "confronto tra valori complessi non ammissibile"
+msgstr "confronto tra valori complessi non valido"
 
 #: src/main/relop.c:634 src/main/relop.c:679 src/main/relop.c:713
 msgid "'a' and 'b' must have the same type"
@@ -5690,7 +5690,7 @@ msgstr "i nomi in stringhe persistenti non sono ancora supportati"
 #: src/main/serialize.c:1648
 #, c-format
 msgid "deserializing invalid UTF-8 string '%s'"
-msgstr "deserializzazione della stringa UTF-8 '%s' non valida"
+msgstr "de-serializzazione della stringa UTF-8 '%s' non valida"
 
 #: src/main/serialize.c:1668
 #, c-format
@@ -5890,7 +5890,7 @@ msgstr "la lunghezza degli argomenti differisce"
 
 #: src/main/sort.c:1420
 msgid "invalid ties.method for rank() [should never happen]"
-msgstr "ties.method non valid in rank() [non dovrebbe mai accadere]"
+msgstr "ties.method non valido in rank() [non dovrebbe mai accadere]"
 
 #: src/main/source.c:220
 msgid "coercion of 'text' to character was unsuccessful"
@@ -6835,7 +6835,7 @@ msgstr "non è possibile creare una pixmap"
 
 #: src/modules/X11/devX11.c:1755
 msgid "invalid font specification"
-msgstr "specificazione carattere non valida"
+msgstr "specificazione del carattere non valida"
 
 #: src/modules/X11/devX11.c:1795
 msgid "font family not found in X11 font database"
@@ -6844,7 +6844,7 @@ msgstr "famiglia di caratteri non trovata tra quelli disponibili per X11"
 #: src/modules/X11/devX11.c:1834
 #, c-format
 msgid "invalid use of %d < 0 in '%s'"
-msgstr "uso di %d non valido < 0 in '%s'"
+msgstr "utilizzo di %d non valido < 0 in '%s'"
 
 #: src/modules/X11/devX11.c:1955
 #, c-format
