@@ -276,7 +276,7 @@ msgid "'row.names' should specify one of the variables"
 msgstr "'row.names' dovrebbero specificare una o più variabili"
 
 msgid "row names supplied are of the wrong length"
-msgstr "row.names forniti sono di lunghezza sbagliata"
+msgstr "i row.names passati sono di lunghezza sbagliata"
 
 msgid "row names were found from a short variable and have been discarded"
 msgstr ""
@@ -1787,8 +1787,8 @@ msgstr[1] "'row.names' non valido, lunghezza %d per un data frame con %d righe"
 
 msgid "supplied %d row name for %d rows"
 msgid_plural "supplied %d row names for %d rows"
-msgstr[0] "specificato %d nome di rica per %d righe"
-msgstr[1] "specificati %d nomi di riga per %d righe"
+msgstr[0] "passato %d nome di riga per %d righe"
+msgstr[1] "passati %d nomi di riga per %d righe"
 
 msgid "replacement has %d row, data has %d"
 msgid_plural "replacement has %d rows, data has %d"
