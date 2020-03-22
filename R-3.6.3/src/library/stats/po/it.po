@@ -277,7 +277,7 @@ msgstr "'x' non è una matrice"
 #: lm.c:62
 #, c-format
 msgid "dimensions of 'x' (%d,%d) and 'y' (%d) do not match"
-msgstr "le dimensioni di 'x' (%d,%d) e 'y' (%d) non combaciano"
+msgstr "le dimensioni di 'x' (%d,%d) e 'y' (%d) non corrispondono"
 
 #: lm.c:77 lm.c:81
 #, c-format
