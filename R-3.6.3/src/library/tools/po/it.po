@@ -20,7 +20,7 @@ msgstr ""
 
 #: Rmd5.c:36
 msgid "argument 'files' must be character"
-msgstr "l'argomento 'files' deve essere di tipo character"
+msgstr "l'argomento 'files' dev'essere di tipo character"
 
 #: Rmd5.c:50
 #, c-format
