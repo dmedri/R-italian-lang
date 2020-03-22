@@ -1,0 +1,75 @@
+Conventions
+-----------
+
+en: "must be"
+it: "dev'essere"
+
+en: "impossible"
+it: "non è possibile"
+
+it: "impossibile"
+it: "non è possibile"
+
+en: "character vector"
+it: "vettore di caratteri"
+
+en: "requires"
+it: "richiede"
+
+en: "allowed"
+it: "ammesso" / "ammessa" / "ammessi"
+
+en: "supplied"
+it: "passato"
+
+en: "match"
+it: "corrispondere" "corrisponde" "confronto"
+
+en: "mismatch"
+it: "discordante" / "discordanti"
+
+en: "using"
+it: "si utilizza" "utilizzo" "utilizzare"
+
+en: "invalid"
+it: "non valido" "non è possibile"
+
+en: "locale"
+it: "localizzazione"
+
+en: ", reason"
+it: ", motivo"
+
+en: "defunct"
+it: "rimosso" (?)
+
+en: "return"
+it: "ritornare"
+
+en: "returning"
+it: "si ritorna" (?)
+
+en: "does not match"
+it: "non corrisponde"
+
+en: "named"
+it: "nominato" / "nominata" / "nominati"
+
+it: "denominato" "denominati"
+it: "nominato" "nominati"
+
+en: "sealed" (usually on 'methods')
+it: "protetto"
+
+en: ", got"
+it: ", si è ottenuto"
+
+
+
+
+
+
+
+
+
+
