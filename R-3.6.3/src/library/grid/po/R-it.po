@@ -21,7 +21,7 @@ msgid "invalid 'at' location in 'axis'"
 msgstr "posizione 'at' non valida in 'axis'"
 
 msgid "invalid to specify axis labels when 'at' is NULL"
-msgstr "non ha senso specificare le etichette degli assi quando 'at' è NULL"
+msgstr "non è valido specificare le etichette degli assi quando 'at' è NULL"
 
 msgid "'labels' and 'at' locations must have same length"
 msgstr "le posizioni 'labels' e 'at' devono avere la medesima lunghezza"
@@ -51,7 +51,7 @@ msgid "must start new page if showing leaves separately"
 msgstr "bisogna avviare una nuova pagina se si mostrano le foglie separatamente"
 
 msgid "invalid 'edit' information"
-msgstr "informazioni 'edit' non valide"
+msgstr "informazione 'edit' non valida"
 
 msgid "'gEditList' can only contain 'gEdit' objects"
 msgstr "'gEditList' può contenere unicamente oggetti 'gEdit'"
@@ -63,7 +63,7 @@ msgid "invalid 'grob'"
 msgstr "'grob' non valido"
 
 msgid "invalid 'row' and/or 'col' (no such cell in frame layout)"
-msgstr "'row' e/o 'col' non valide (nessuna cella nel layout del frame)"
+msgstr "'row' e/o 'col' non valido (nessuna cella nel layout del frame)"
 
 msgid "'col' can only be a range of existing columns"
 msgstr "'col' può essere unicamente un intervallo di colonne esistenti"
@@ -234,7 +234,7 @@ msgid "it is only valid to edit a child of a \"gTree\""
 msgstr "è solo valido per modificare un figlio di un \"gTree\""
 
 msgid "it is invalid to directly edit the 'children' or 'childrenOrder' slot"
-msgstr "è non valido modificare direttamente il 'children' o lo slot 'childrenOrder'"
+msgstr "non è valido modificare direttamente 'children' o lo slot 'childrenOrder'"
 
 msgid "invalid 'result'"
 msgstr "'result' non valido"
