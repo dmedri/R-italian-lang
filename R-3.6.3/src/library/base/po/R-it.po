@@ -98,7 +98,7 @@ msgid "dim(X) must have a positive length"
 msgstr "dim(X) deve avere lunghezza positiva"
 
 msgid "'X' must have named dimnames"
-msgstr "'X' deve avere dimensioni con nomi"
+msgstr "'X' deve avere nomi dimensioni nominati"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
 msgstr "non tutti gli elementi di 'MARGIN' sono nomi di dimensioni"
@@ -119,7 +119,7 @@ msgid "dim(x) must have a positive length"
 msgstr "dim(X) dev'essere di lunghezza positiva"
 
 msgid "'x' must have named dimnames"
-msgstr "'x' deve avere dimensioni con nomi"
+msgstr "'x' deve avere nomi dimensioni nominati"
 
 msgid "'pos=1' is not possible and has been warned about for years"
 msgstr "'pos=1' non è possibile con avvertimento da anni"
@@ -285,7 +285,7 @@ msgstr ""
 "utlizzabili"
 
 msgid "named arguments other than 'drop' are discouraged"
-msgstr "gli argomenti denominati diversi da 'drop' sono sconsigliati"
+msgstr "gli argomenti nominati differenti da 'drop' sono sconsigliati"
 
 msgid "'drop' argument will be ignored"
 msgstr "argomento 'drop' sarà ignorato"
@@ -294,10 +294,10 @@ msgid "undefined columns selected"
 msgstr "selezionate colonne non definite"
 
 msgid "named arguments other than 'exact' are discouraged"
-msgstr "gli argomenti denominati diversi da 'exact' sono sconsigliati"
+msgstr "gli argomenti nominati differenti da 'exact' sono sconsigliati"
 
 msgid "named arguments are discouraged"
-msgstr "gli argomenti denominati sono sconsigliati"
+msgstr "gli argomenti nominati sono sconsigliati"
 
 msgid "number of items to replace is not a multiple of replacement length"
 msgstr ""
@@ -729,7 +729,7 @@ msgid "value for %s not found"
 msgstr "valore per %s non trovato"
 
 msgid "all arguments must be named"
-msgstr "tutti gli argomenti devono essere denominati"
+msgstr "tutti gli argomenti devono essere nominati"
 
 msgid "match distance components must be non-negative"
 msgstr ""
@@ -990,7 +990,7 @@ msgid "FUN"
 msgstr "FUN"
 
 msgid "may not have argument(s) named"
-msgstr "potrebbe non avere argomenti denominati"
+msgstr "potrebbe non avere argomenti nominati"
 
 msgid "'arg' must be NULL or a character vector"
 msgstr "'arg' dev'essere NULL o vettore di caratteri"
@@ -1519,7 +1519,7 @@ msgid "additional arguments ignored in stop()"
 msgstr "ignorati gli argomenti aggiuntivi in stop()"
 
 msgid "Must use 'exprs' or unnamed expressions, but not both"
-msgstr "Devi usare 'exprs' o espressioni non denominate, ma non entrambi"
+msgstr "Si deve utilizzare 'exprs' o espressioni non nominate, ma non entrambi"
 
 msgid ""
 "%s and %s are not equal:\n"
