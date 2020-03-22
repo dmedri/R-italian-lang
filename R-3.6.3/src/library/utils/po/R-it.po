@@ -758,7 +758,7 @@ msgid "'env' must be an environment"
 msgstr "'env' dev'essere un ambiente"
 
 msgid "no object named '%s' to show"
-msgstr "nessun oggetto '%s' da mostrare"
+msgstr "nessun oggetto nominato '%s' da mostrare"
 
 msgid "'file' must be \"\" or an open connection object"
 msgstr "'file' dev'essere \"\" o un oggetto connessione aperto"
@@ -773,7 +773,7 @@ msgid "cannot determine a usable name"
 msgstr "non è possibile determinare un nome usabile"
 
 msgid "Created file named %s."
-msgstr "Creato file %s."
+msgstr "Creato file con nome %s."
 
 msgid "Edit the file and move it to the appropriate directory."
 msgstr "Modifica il file e spostalo nella directory appropriata."
@@ -1110,7 +1110,7 @@ msgid "download had nonzero exit status"
 msgstr "lo scaricamento ha uno stato di uscita differente da zero"
 
 msgid "'tar' returned non-zero exit code %d"
-msgstr "'tar' ha restituito un codice di uscita %d diverso da zero"
+msgstr "'tar' ha ritornato un codice di uscita %d diverso da zero"
 
 msgid "file %s is not a macOS binary package"
 msgstr "il file %s non è un pacchetto binario macOS"
