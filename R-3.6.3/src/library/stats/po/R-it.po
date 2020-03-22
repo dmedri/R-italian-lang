@@ -182,7 +182,7 @@ msgid "'x' must be coefficient matrix/data frame"
 msgstr "'x' dev'essere una matrice coefficient/data frame"
 
 msgid "option \"show.coef.Pvalues\" is invalid: assuming TRUE"
-msgstr "opzione \"show.coef.Pvalues\" non valida: assumo TRUE"
+msgstr "opzione \"show.coef.Pvalues\" non valida: si assume TRUE"
 
 msgid "'P.values' is TRUE, but 'has.Pvalue' is not"
 msgstr "'P.values' è TRUE, but non 'has.Pvalue'"
@@ -191,7 +191,7 @@ msgid "wrong k / cs.ind"
 msgstr "k / cs.ind sbagliata"
 
 msgid "option \"show.signif.stars\" is invalid: assuming TRUE"
-msgstr "opzione \"show.signif.stars\" non valida: assumo TRUE"
+msgstr "opzione \"show.signif.stars\" non valida: si assume TRUE"
 
 msgid "'anova' object must have colnames"
 msgstr "l'oggetto 'anova' deve avere colnames"
@@ -620,10 +620,10 @@ msgid "Cannot compute exact p-value with ties"
 msgstr "Impossibile calcolare p-value esatti in presenza di ties"
 
 msgid "'formula' missing or invalid"
-msgstr "'formula' mancante o sbagliata"
+msgstr "'formula' mancante o non valida"
 
 msgid "invalid formula"
-msgstr "formula sbagliata"
+msgstr "formula non valida"
 
 msgid "'x' must be a matrix or a data frame"
 msgstr "'x' dev'essere una matrice o un data frame"
@@ -771,7 +771,7 @@ msgid "'x' is not a vector or matrix"
 msgstr "'x' non è un vettore o una matrice"
 
 msgid "invalid distance method"
-msgstr "metodo distanza sbagliato"
+msgstr "metodo distanza non valido"
 
 msgid "ambiguous distance method"
 msgstr "metodo distanza ambiguo"
@@ -1670,7 +1670,7 @@ msgstr ""
 "l'utilizzo di type = \"numeric\" con una risposta fattore sarà ignorata"
 
 msgid "invalid response type"
-msgstr "tipo risposta non valido"
+msgstr "tipo di risposta non valido"
 
 msgid "invalid 'data' argument"
 msgstr "argomento 'data' non valido"
