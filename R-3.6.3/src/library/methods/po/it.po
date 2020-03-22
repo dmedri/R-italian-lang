@@ -147,8 +147,8 @@ msgstr ""
 #, c-format
 msgid "no matching method for function '%s' (argument '%s', with class \"%s\")"
 msgstr ""
-"nessun metodo compatibile per la funzione '%s' (argomento '%s', con classe "
-"\"%s\")"
+"nessun metodo corrispondente per la funzione '%s' (argomento '%s', con "
+"classe \"%s\")"
 
 #: methods_list_dispatch.c:645
 #, c-format
