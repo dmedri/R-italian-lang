@@ -61,7 +61,7 @@ msgid "replacement value must extend class %s, got %s"
 msgstr "il valore di sostituzione deve estendere la classe %s, si è ottenuto %s"
 
 msgid "replacement value must be of class %s, got one of class %s"
-msgstr "il valore di sostituzione deve essere una classe %s, se ne è ottenuto uno di classe %s"
+msgstr "il valore di sostituzione dev'essere una classe %s, si è ottenuto uno di classe %s"
 
 msgid "no 'replace' method was defined for 'as(x, \"%s\") <- value' for class %s"
 msgstr "nessun metodo 'replace' è stato definito per 'as (x, \"%s\") <- value' per la classe %s"
@@ -98,7 +98,7 @@ msgid "%s dispatches internally;  methods can be defined, but the generic functi
 msgstr "%s con dispatch interni;  i metodi possono essere definiti, ma la funzione generica è implicita, e non può essere modificata."
 
 msgid "if the 'def' argument is supplied, it must be a function that calls standardGeneric(\"%s\") or is the default"
-msgstr "se viene fornito l'argomento 'def', bisogna essere una funzione che chiama standardGeneric (\"%s\") o è la predefinita"
+msgstr "se viene fornito l'argomento 'def', dev'essere una funzione che chiama standardGeneric (\"%s\") o la predefinita"
 
 msgid "must supply a function skeleton for %s, explicitly or via an existing function"
 msgstr "bisogna fornire uno skeleton di funzione per %s, esplicitamente o tramite una funzione esistente"
@@ -154,7 +154,7 @@ msgid "For function %s, signature %s: argument in method definition changed from
 msgstr "Per la funzione %s, firma %s: l'argomento nella definizione del metodo è stato modificato da (%s) a (%s)"
 
 msgid "primitive functions cannot be methods; they must be enclosed in a regular function"
-msgstr "le funzioni primitive non possono essere metodi; devono essere racchiusi in una normale funzione"
+msgstr "le funzioni primitive non possono essere metodi; devono essere racchiuse in una normale funzione"
 
 msgid "invalid method definition: expected a function, got an object of class %s"
 msgstr "definizione del metodo non valida: prevista una funzione, si è ottenuto un oggetto della classe %s"
@@ -462,7 +462,7 @@ msgid "The prototype for class %s has undefined slot(s): %s"
 msgstr "Il prototipo per la classe %s ha slot non definiti: %s"
 
 msgid "%s is not eligible to be the data part of another class (must be a basic class or a virtual class with no slots)"
-msgstr "%s non è eligibile come parte dati di un'altra classe (dev'essere una classe base o una classe virtuale senza slot)"
+msgstr "%s non è idonea come parte dati di un'altra classe (dev'essere una classe base o una classe virtuale senza slot)"
 
 msgid "prototype is a list with named elements (could be ambiguous):  better to use function prototype() to avoid trouble."
 msgstr "prototype è una lista con elementi nominati (potrebbe essere ambiguo): meglio utilizzare la funzione prototype() per evitare problemi."
