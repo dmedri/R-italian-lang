@@ -40,7 +40,7 @@ msgid "finite coordinates are needed"
 msgstr "sono richieste coordinate finite"
 
 msgid "'bias' must be positive"
-msgstr "'bias' deve essere positivo"
+msgstr "'bias' dev'essere positivo"
 
 msgid "'alpha' must be false if 'space' is specified"
 msgstr "'alpha' dev'essere falso se 'space' è specificato"
@@ -49,19 +49,19 @@ msgid "at least 3 columns needed"
 msgstr "sono richieste almeno 3 colonne"
 
 msgid "rgb matrix must be numeric"
-msgstr "matrice rgb deve essere numerica"
+msgstr "la matrice rgb dev'essere numerica"
 
 msgid "rgb matrix must have 3 rows"
 msgstr "matrice rgb deve avere 3 righe"
 
 msgid "rgb values must be in [0, maxColorValue]"
-msgstr "valori rgb devono essere in [0, maxColorValue]"
+msgstr "i valori rgb devono essere in [0, maxColorValue]"
 
 msgid "'start' and 'end' must be distinct and in [0, 1]."
-msgstr "'start' e 'end' devo essere distinti e in [0, 1]"
+msgstr "'start' e 'end' devono essere distinti e in [0, 1]"
 
 msgid "'gamma' must be a scalar or 'sRGB'"
-msgstr "'gamma' deve essere uno scalre o 'sRGB'"
+msgstr "'gamma' dev'essere uno scalare o 'sRGB'"
 
 msgid "Color space converter: %s"
 msgstr "Convertitore dello spazio di colore: %s"
@@ -154,7 +154,7 @@ msgid "invalid arguments in '%s' (need named args)"
 msgstr "argomenti non validi in '%s' (devono essere argomenti con nome)"
 
 msgid "'name.opt' must be character, name of an existing list"
-msgstr "'name.opt' deve essere di tipo carattere, nome di una lista esistente"
+msgstr "'name.opt' dev'essere di tipo character, il nome di una lista esistente"
 
 msgid "cannot reset non-existent '%s'"
 msgstr "non posso re-inizializzare '%s' perché non esistente"
@@ -211,7 +211,7 @@ msgid "font %s already in use"
 msgstr "carattere %s già in uso"
 
 msgid "invalid arguments in '%s' (must be font names)"
-msgstr "argomenti non validi in '%s' (deve essere 'font names')"
+msgstr "argomenti non validi in '%s' (devono essere nomi di caratteri)"
 
 msgid "unknown font"
 msgstr "carattere sconosciuto"
@@ -220,7 +220,7 @@ msgid "font encoding mismatch '%s'/'%s'"
 msgstr "la codifica dei caratteri non combacia '%s'/'%s'"
 
 msgid "'file' must be a non-empty character string"
-msgstr "'file' deve essere una stringa carattere non vuota"
+msgstr "'file' dev'essere una stringa di caratteri non vuota"
 
 msgid "GhostScript was not found"
 msgstr "Non è stato trovato GhostScript"
@@ -235,7 +235,7 @@ msgid "failed to add more ticks; 'min.n' too large?"
 msgstr "aggiunta di segni fallita; 'min.n' troppo grande?"
 
 msgid "a raster matrix must be character, or numeric, or logical"
-msgstr "una matrice raster dev'essere character, numerica o logica"
+msgstr "una matrice raster dev'essere di tipo character, numerica o logica"
 
 msgid "a raster array must be numeric"
 msgstr "un array raster dev'essere numerico"
@@ -335,7 +335,7 @@ msgid "invalid 'file'"
 msgstr "'file' non valido"
 
 msgid "invalid Quartz font:  must be 4 strings"
-msgstr "font Quartz non valido: deve essere una stringa di 4"
+msgstr "carattere Quartz non valido: devono essere 4 stringhe"
 
 msgid "invalid arguments in 'quartzFonts' (must be font names)"
 msgstr "argomenti non validi in 'quartzFonts' (devono essere nomi di caratteri)"
@@ -386,10 +386,10 @@ msgid "subscript out of range"
 msgstr "indice fuori range"
 
 msgid "invalid Windows font:  must be a single font family name"
-msgstr "font Windows non valido: deve essere una 'font family name' singola"
+msgstr "carattere Windows non valido: dev'essere il singolo nome di una famiglia di caratteri"
 
 msgid "invalid arguments in 'windowsFonts' (must be font names)"
-msgstr "argomenti non validi in 'windowsFonts' (deve essere 'font names')"
+msgstr "argomenti non validi in 'windowsFonts' (devono essere nomi di caratteri)"
 
 msgid "invalid arguments in 'windowsFonts' (need named args)"
 msgstr "argomenti non validi in 'windowsFonts' (necessita di argomenti con nome)"
