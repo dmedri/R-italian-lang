@@ -549,7 +549,7 @@ msgstr "la variabile '%s' non è numeric"
 
 #: optim.c:82 optim.c:109
 msgid "non-finite value supplied by optim"
-msgstr "valore non finito fornito da optim"
+msgstr "valore non finito passato da optim"
 
 #: optim.c:89
 #, c-format
@@ -635,7 +635,7 @@ msgstr "'maxiter' dev'essere positivo"
 
 #: optimize.c:520
 msgid "non-finite value supplied by 'nlm'"
-msgstr "valore non finito fornito da 'nlm'"
+msgstr "valore non finito passato da 'nlm'"
 
 #: optimize.c:555
 msgid "invalid function value in 'nlm' optimizer"
@@ -766,12 +766,12 @@ msgstr "valori di NA non valido per il parametro"
 #: optimize.c:800
 msgid "hessian supplied is of the wrong length or mode, so ignored"
 msgstr ""
-"l'hessiano fornito è della lunghezza o modalità sbagliata, viene ignorato"
+"l'hessiano passato è della lunghezza o modalità sbagliata, viene ignorato"
 
 #: optimize.c:804
 msgid "gradient supplied is of the wrong length or mode, so ignored"
 msgstr ""
-"il gradiente fornito è della lunghezza o modalità sbagliata, viene ignorato"
+"il gradiente passato è della lunghezza o modalità sbagliata, viene ignorato"
 
 #: pacf.c:87
 msgid "bad Starma struct"
