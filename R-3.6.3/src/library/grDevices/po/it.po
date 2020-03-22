@@ -266,21 +266,21 @@ msgstr "l'oggetto '.ps.prolog' non è un vettore di caratteri"
 
 #: devPS.c:2660 devPS.c:6453 devWindows.c:801
 msgid "invalid line end"
-msgstr "'line end' non valida"
+msgstr "fine linea non valido"
 
 #: devPS.c:2679 devPS.c:6472 devWindows.c:814
 msgid "invalid line join"
-msgstr "'line join' non valida"
+msgstr "linea unione non valida"
 
 #: devPS.c:2687
 msgid "invalid line mitre"
-msgstr "linea mitre non valida"
+msgstr "linea mitra non valida"
 
 #: devPS.c:2896 devPS.c:3801 devPS.c:4249 devPS.c:4276 devPS.c:5288
 #: devPS.c:7807 devPS.c:7852
 #, c-format
 msgid "attempt to use invalid font %d replaced by font 1"
-msgstr "tentativo di usare il font %d non valido sostituito con il font 1"
+msgstr "utilizzo del carattere %d non valido sostituito con il carattere 1"
 
 #: devPS.c:3118 devPS.c:4751 devPS.c:5869
 #, c-format
@@ -316,7 +316,7 @@ msgstr "inizializzazione fallita per caratteri aggiuntivi PostScript"
 
 #: devPS.c:3306
 msgid "invalid foreground/background color (postscript)"
-msgstr "colore foreground/background non valida (postscript)"
+msgstr "colore primo piano/sfondo non valido (postscript)"
 
 #: devPS.c:3311
 msgid "'command' is too long"
@@ -329,7 +329,7 @@ msgstr "'postscript(print.it=TRUE)' utilizzato con un comando vuoto 'print'"
 #: devPS.c:3367
 #, c-format
 msgid "invalid page type '%s' (postscript)"
-msgstr "tipo pagina '%s' non valida (postscript)"
+msgstr "tipo pagina '%s' non valido (postscript)"
 
 #: devPS.c:3481 devPS.c:4601 devWindows.c:2350
 msgid ""
@@ -406,7 +406,7 @@ msgstr ""
 
 #: devPS.c:4782
 msgid "invalid foreground/background color (xfig)"
-msgstr "colore foreground/background non valido (xfig)"
+msgstr "colore primo piano/sfondo non valido (xfig)"
 
 #: devPS.c:4815
 msgid "only Type 1 fonts supported for XFig"
@@ -419,7 +419,7 @@ msgstr "inizializzazione fallita del carattere XFig predefinito"
 #: devPS.c:4865
 #, c-format
 msgid "invalid page type '%s' (xfig)"
-msgstr "typo pagina '%s' non valido (xfig)"
+msgstr "tipo pagina '%s' non valido (xfig)"
 
 #: devPS.c:4873
 #, c-format
@@ -488,7 +488,7 @@ msgstr "tipo foglio '%s' non valido (pdf)"
 
 #: devPS.c:6182
 msgid "invalid foreground/background color (pdf)"
-msgstr "colore foreground/background non valido (pdf)"
+msgstr "colore primo piano/sfondo non valido (pdf)"
 
 #: devPS.c:6301
 msgid "invalid 'alpha' value in PDF"
@@ -623,7 +623,7 @@ msgstr "'%%' non è ammesso nel nome file"
 
 #: devWindows.c:621
 msgid "invalid font specification"
-msgstr "specificazione font non valida"
+msgstr "specificazione del carattere non valida"
 
 #: devWindows.c:660
 msgid "font family not found in Windows font database"
@@ -757,7 +757,7 @@ msgstr "argomento non valido"
 
 #: devices.c:89 devices.c:97 devices.c:105
 msgid "NA argument is invalid"
-msgstr "L'argomento NA non è valido"
+msgstr "argomento NA non valido"
 
 #: qdBitmap.c:79
 #, c-format
