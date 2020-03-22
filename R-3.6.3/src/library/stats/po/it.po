@@ -268,7 +268,7 @@ msgstr "'%s' dev'essere di lunghezza uno"
 
 #: ksmooth.c:69
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
-msgstr "sm.method=\"spline\" permette solo 2500 righe"
+msgstr "sm.method=\"spline\" ammette solo 2500 righe"
 
 #: lm.c:57
 msgid "'x' is not a matrix"
@@ -413,8 +413,7 @@ msgstr "i nomi dei termini saranno troncati"
 #: model.c:638
 msgid "complex variables are not currently allowed in model matrices"
 msgstr ""
-"le variabili complesse non sono attualmente consentite nelle matrici del "
-"modello"
+"le variabili complesse non sono attualmente ammesse nelle matrici del modello"
 
 #: model.c:662
 #, c-format
