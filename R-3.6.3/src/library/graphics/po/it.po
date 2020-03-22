@@ -279,7 +279,7 @@ msgstr "specificato '%s' di lunghezza zero"
 
 #: plot.c:942
 msgid "'labels' is supplied and not 'at'"
-msgstr "'labels' è indicato, ma senza 'at'"
+msgstr "'labels' è passato e non 'at'"
 
 #: plot.c:946
 #, c-format
@@ -353,7 +353,7 @@ msgstr "specificazione della punta-freccia non valida"
 
 #: plot.c:2158
 msgid "no coordinates were supplied"
-msgstr "non sono state fornite coordinate"
+msgstr "nessuna coordinata è stata passata"
 
 #: plot.c:2781
 msgid "invalid a=, b= specification"
