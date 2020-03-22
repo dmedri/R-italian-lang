@@ -49,7 +49,7 @@ msgid "'formula' must be of the form \"y ~ x\""
 msgstr "'formula' dev'essere nella forma \"y ~ x\""
 
 msgid "lengths of 'x' and 'y' must match"
-msgstr "le lunghezze di 'x' e 'y' devono coincidere"
+msgstr "le lunghezze di 'x' e 'y' devono corrispondere"
 
 msgid "values of 'x' must be strictly increasing"
 msgstr "i valori di 'x' devono essere strettamente crescenti"
@@ -82,7 +82,7 @@ msgid "'degree' must be integer >= 1"
 msgstr "'degree' dev'essere un intero >= 1"
 
 msgid "'df' was too small; have used %d"
-msgstr "'df' era troppo piccolo; è stato usato %d"
+msgstr "'df' era troppo piccolo; si è utilizzato %d"
 
 msgid "some 'x' values beyond boundary knots may cause ill-conditioned bases"
 msgstr "alcuni valori 'x' oltre i nodi di confine potrebbero causare basi mal condizionate"
