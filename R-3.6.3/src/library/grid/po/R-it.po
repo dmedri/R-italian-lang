@@ -330,7 +330,7 @@ msgid "it is invalid to specify both 'id' and 'id.lengths'"
 msgstr "non è valido specificare entrambi gli 'id' e 'id.lenghts'"
 
 msgid "'x' and 'y' must be same length"
-msgstr "'x' e 'y' dev'essere della medesima lunghezza"
+msgstr "'x' e 'y' devono essere della medesima lunghezza"
 
 msgid "'x' and 'y' and 'id' must all be same length"
 msgstr "'x' e 'y' e 'id' devono avere la stessa lunghezza"
