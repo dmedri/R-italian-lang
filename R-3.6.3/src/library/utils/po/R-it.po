@@ -456,7 +456,7 @@ msgid "package %s has empty hsearch data - strangely"
 msgstr "il pacchetto %s ha dati hsearch vuoti - stranamento"
 
 msgid "removing all entries with invalid multi-byte character data"
-msgstr "rimozione di tutte le voci con dati carattere multi-byte non validi"
+msgstr "rimozione di tutte le voci con dati non validi di tipo character multi-byte"
 
 msgid "invalid browser name, check options(\"browser\")."
 msgstr "nome browser non valido, controlla options(\"browser\")."
