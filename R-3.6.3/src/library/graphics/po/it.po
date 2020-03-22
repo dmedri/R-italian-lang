@@ -233,7 +233,7 @@ msgstr "specificazione  \"log=%s\" non valida"
 
 #: plot.c:518
 msgid "NAs not allowed in 'xlim'"
-msgstr "NA non permessi in 'xlim'"
+msgstr "NA non ammessi in 'xlim'"
 
 #: plot.c:524
 msgid "need finite 'xlim' values"
