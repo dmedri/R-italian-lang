@@ -671,7 +671,7 @@ msgid "'fun' is not a function"
 msgstr "'fun' non è una funzione"
 
 msgid "using the first element of 'value' of type \"expression\""
-msgstr "utilizzo il primo elemento di 'value' del tipo \"expression\""
+msgstr "si utilizza il primo elemento di 'value' del tipo \"expression\""
 
 msgid "Found no format() method for class \"%s\""
 msgstr "Metodo format() non trovato per la classe \"%s\""
@@ -910,7 +910,7 @@ msgid ""
 "package %s found more than once, using the first from\n"
 "  %s"
 msgstr ""
-"pacchetto %s trovato più volte, sarà utilizzato il primo da\n"
+"pacchetto %s trovato più volte, si utilizza il primo da\n"
 "  %s"
 
 msgid ""
@@ -978,7 +978,7 @@ msgid "Attempting to load the environment %s"
 msgstr "Tentando di caricare l'ambiente %s"
 
 msgid "Specified environment not found: using '.GlobalEnv' instead"
-msgstr "Ambiente specificato non trovato: sarà utilizzato '.GlobalEnv'"
+msgstr "Ambiente specificato non trovato: si utilizza '.GlobalEnv'"
 
 msgid "invalid 'category' argument"
 msgstr "argomento 'category' non valido"
@@ -1298,7 +1298,7 @@ msgid "'x' cannot be coerced to class \"hexmode\""
 msgstr "la coercizione di 'x' nella classe \"hexmode\" non è possibile"
 
 msgid "using ... with FUN = \"*\" is an error"
-msgstr "l'utilizzo di ... con FUN = \"*\" è un errore"
+msgstr "utilizzare ... con FUN = \"*\" è un errore"
 
 msgid "no arguments"
 msgstr "nessun argomento"
