@@ -1660,7 +1660,7 @@ msgid "non-list contrasts argument ignored"
 msgstr "argomento contrasti non-lista ignorato"
 
 msgid "'contrasts.arg' argument must be named"
-msgstr "l'argomento 'contrasts.arg' dev'essere denominato"
+msgstr "l'argomento 'contrasts.arg' dev'essere nominato"
 
 msgid "variable '%s' is absent, its contrast will be ignored"
 msgstr "variabile '%s' assente, i suoi contrasti saranno ignorati"
@@ -1718,7 +1718,7 @@ msgid "convergence problem in zero finding:"
 msgstr "problema di convergenza nella ricerca zero:"
 
 msgid "'control' argument must be a named list"
-msgstr "l'argomento 'control' dev'essere una lista denominata"
+msgstr "l'argomento 'control' dev'essere una lista nominata"
 
 msgid "logical 'hessian' argument not allowed.  See documentation."
 msgstr "argomento 'hessian' logico non ammesso.  Si veda la documentazione."
@@ -2641,8 +2641,8 @@ msgstr[1] "_NON_ convergente in %d iterazioni"
 
 msgid "unrecognized control element named %s ignored"
 msgid_plural "unrecognized control elements named %s ignored"
-msgstr[0] "elemento di controllo denominato %s non riconosciuto"
-msgstr[1] "elementi di controllo denominati %s non riconosciuti"
+msgstr[0] "elemento di controllo nominato %s non riconosciuto"
+msgstr[1] "elementi di controllo nominati %s non riconosciuti"
 
 msgid "fitting parameter %s without any variables"
 msgid_plural "fitting parameters %s without any variables"
