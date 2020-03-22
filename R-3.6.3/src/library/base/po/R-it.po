@@ -236,10 +236,10 @@ msgid "invalid 'make.names'"
 msgstr "'make.names' non valido"
 
 msgid "duplicate 'row.names' are not allowed"
-msgstr "'row.names' duplicate non sono permesse"
+msgstr "'row.names' duplicate non sono ammesse"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr "non sono permessi valori mancanti in 'row.names'"
+msgstr "non sono ammessi valori mancanti in 'row.names'"
 
 msgid "invalid 'dimnames' given for data frame"
 msgstr "'dimnames' fornita per i ldata frame non valida"
@@ -318,7 +318,7 @@ msgstr ""
 "i valori nulli non sono ammessi negli assegnamenti subscripted di data frame"
 
 msgid "non-existent rows not allowed"
-msgstr "righe non-esistenti inammissibili"
+msgstr "righe non-esistenti non ammesse"
 
 msgid "column name \"\" cannot match any column"
 msgstr "il nome colonna \"\" non può essere confrontato con alcuna colonna"
@@ -1206,7 +1206,7 @@ msgid "not a namespace"
 msgstr "non è un namespace"
 
 msgid "operation not allowed on base namespace"
-msgstr "operazione vietata sul namespace base"
+msgstr "operazione non ammessa sul namespace base"
 
 msgid "duplicate import names %s"
 msgstr "nomi import %s duplicati"
