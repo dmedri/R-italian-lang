@@ -91,7 +91,7 @@ msgstr "funzione unit non implementata"
 
 #: unit.c:893 unit.c:1645
 msgid "invalid unit or unit not yet implemented"
-msgstr "unit non valida o non ancora implementata"
+msgstr "unità non valida o non ancora implementata"
 
 #: unit.c:1702 unit.c:1733
 msgid "Viewport has zero dimension(s)"
