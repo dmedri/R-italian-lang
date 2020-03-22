@@ -206,7 +206,8 @@ msgid ""
 msgstr ""
 "FEXACT errore 30.  La lunghezza dello stack eccede in f3xact,\n"
 "  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
-"Incremente l'area di lavoro o considera l'utilizzo di 'simulate.p.value=TRUE'"
+"Si incrementi l'area di lavoro o si consideri l'utilizzo di 'simulate.p."
+"value=TRUE'"
 
 #: fexact.c:1399
 #, c-format
@@ -227,7 +228,7 @@ msgid ""
 msgstr ""
 "FEXACT errore 7(%s). LDSTP=%d è troppo piccolo per questo problema,\n"
 "  (kval=%d, itop-ldstp=%d).\n"
-"Incrementa l'area di lavoro o considera l'utilizzo di 'simulate.p."
+"Si incrementi l'area di lavoro o si consideri l'utilizzo di 'simulate.p."
 "value=TRUE'."
 
 #: fexact.c:1449
@@ -239,7 +240,8 @@ msgid ""
 msgstr ""
 "FEXACT errore 7(%s). LDSTP=%d è troppo piccolo per questo problema,\n"
 "  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
-"Incrementa l'area di lavoro o considera l'utilizzo di 'simulate.p.value=TRUE'"
+"Si incrementi l'area di lavoro o si consideri l'utilizzo di 'simulate.p."
+"value=TRUE'"
 
 #: fourier.c:66 fourier.c:161
 msgid "non-numeric argument"
@@ -447,7 +449,7 @@ msgstr "formula modello non valida in ExtractVars"
 #: model.c:1534
 #, c-format
 msgid "duplicated name '%s' in data frame using '.'"
-msgstr "duplicazione nome '%s' nel data frame nell'usare '.'"
+msgstr "duplicazione nome '%s' nel data frame utilizzando '.'"
 
 #: model.c:1595
 msgid "invalid model formula in EncodeVars"
