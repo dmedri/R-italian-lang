@@ -56,7 +56,7 @@ msgid ""
 "no generic function definition found for '%s' in the supplied environment"
 msgstr ""
 "nessuna definizione di funzione generica trovata per '%s' nell'ambiente "
-"fornito"
+"passato"
 
 #: methods_list_dispatch.c:483
 #, c-format
