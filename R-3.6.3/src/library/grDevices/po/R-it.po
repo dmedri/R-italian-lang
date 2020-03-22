@@ -34,7 +34,7 @@ msgid "no proper 'z' matrix specified"
 msgstr "nessuna matrice 'z' opportuna specificata"
 
 msgid "dimensions of 'x', 'y' and 'z' do not match"
-msgstr "le dimensioni di 'x', 'y' e 'z' non combaciano"
+msgstr "le dimensioni di 'x', 'y' e 'z' non corrispondono"
 
 msgid "finite coordinates are needed"
 msgstr "sono richieste coordinate finite"
@@ -145,7 +145,7 @@ msgid "dev.new(): using postscript(file=\"%s\")"
 msgstr "dev.new(): si utilizza postscript(file=\"%s\")"
 
 msgid "'palette' does not match any given palette"
-msgstr "'palette' non combacia con alcuna data palette"
+msgstr "'palette' non corrisponde ad alcuna delle palette esistenti"
 
 msgid "'palette' is ambiguous"
 msgstr "'palette' è ambiguo"
@@ -217,7 +217,7 @@ msgid "unknown font"
 msgstr "carattere sconosciuto"
 
 msgid "font encoding mismatch '%s'/'%s'"
-msgstr "la codifica dei caratteri non combacia '%s'/'%s'"
+msgstr "codifica dei caratteri non corrispondente '%s'/'%s'"
 
 msgid "'file' must be a non-empty character string"
 msgstr "'file' dev'essere una stringa di caratteri non vuota"
