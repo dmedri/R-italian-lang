@@ -22,7 +22,7 @@ msgid "OOPS: something wrong with '.OldClassesPrototypes[[%d]]'"
 msgstr "OOPS: qualcosa è andato storto con '.OldClassesPrototypes[[%d]]'"
 
 msgid "unnamed argument to initialize() for S3 class must have a class definition; %s does not"
-msgstr "l'argomento non denominato per initialize() di una classe S3 deve avere una definizione di classe; %s non lo fa"
+msgstr "l'argomento non nominato per initialize() di una classe S3 deve avere una definizione di classe; %s non lo fa"
 
 msgid "unnamed argument must extend either the S3 class or the class of the data part; not true of class %s"
 msgstr "l'argomento senza nome deve estendere la classe S3 o la classe della parte dati; non vero per la classe%s"
@@ -43,10 +43,10 @@ msgid "cannot specify array() arguments when specifying '.Data'"
 msgstr "non è possibile specificare gli argomenti array() specificando '.Data'"
 
 msgid "cannot have more than one unnamed argument as environment"
-msgstr "non è possibile avere più di un argomento senza nome come ambiente"
+msgstr "non è possibile avere più di un argomento non nominato come ambiente"
 
 msgid "unnamed argument to new() must be an environment for the new object"
-msgstr "l'argomento senza nome di new() dev'essere un ambiente per il nuovo oggetto"
+msgstr "l'argomento non nominato per new() dev'essere un ambiente per il nuovo oggetto"
 
 msgid "methods may not be defined for primitive function %s in this version of R"
 msgstr "i metodi non possono essere definiti per la funzione primitiva %s in questa versione di R"
@@ -293,7 +293,7 @@ msgid "duplicate element names in 'MethodsList' at level %d: %s"
 msgstr "nomi di elementi duplicati in \"MethodsList\" a livello %d: %s"
 
 msgid "element %d at level %d (class %s) cannot be interpreted as a function or named list"
-msgstr "l'elemento %d al livello %d (classe %s) non può essere interpretato come una funzione o una lista denominata"
+msgstr "l'elemento %d al livello %d (classe %s) non può essere interpretato come una funzione o una lista nominata"
 
 msgid "arguments 'names' and 'signature' must have the same length"
 msgstr "gli argomenti 'names' e 'signature' devono avere la medesima lunghezza"
@@ -314,7 +314,7 @@ msgid "%f is not a valid generic function: methods list was an object of class %
 msgstr "%f non è una funzione generica valida: l'elenco dei metodi era un oggetto della classe %s"
 
 msgid "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
-msgstr "%s dev'essere TRUE, FALSE o un vettore logico denominato di tali valori; si è ottenuto un oggetto della classe %s"
+msgstr "%s dev'essere TRUE, FALSE o un vettore logico nominato di tali valori; si è ottenuto un oggetto della classe %s"
 
 msgid "default method must be a method definition, a primitive or NULL: got an object of class %s"
 msgstr "il metodo predefinito dev'essere una definizione di metodo, una primitiva o NULL: si è ottenuto un oggetto della classe %s"
@@ -693,7 +693,7 @@ msgid "duplicate class names among superclasses: %s"
 msgstr "nomi di classi duplicati tra le superclassi: %s"
 
 msgid "only one data object (unnamed argument to prototype) allowed"
-msgstr "è ammesso solo un oggetto dati (argomento non denominato per il prototipo)"
+msgstr "è ammesso solo un oggetto dati (argomento non nominato per il prototipo)"
 
 msgid "%s is not a defined class"
 msgstr "%s non è una classe definita"
@@ -999,7 +999,7 @@ msgid "%s is not a field in class %s"
 msgstr "%s non è un campo nella classe %s"
 
 msgid "unnamed arguments to $new() must be objects from a reference class; got an object of class %s"
-msgstr "gli argomenti senza nome di $new() devono essere oggetti di una classe riferimento; si è ottenuto un oggetto della classe %s"
+msgstr "gli argomenti non nominati di $new() devono essere oggetti di una classe riferimento; si è ottenuto un oggetto della classe %s"
 
 msgid "%s is not a valid field or method name for this class"
 msgstr "%s non è un valido campo o un nome metodo per questa classe"
