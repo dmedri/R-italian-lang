@@ -551,7 +551,7 @@ msgid "No Rd macros in package '%s'."
 msgstr "Nessuna macro Rd nel pacchetto '%s'."
 
 msgid "more than one \\examples section, using the first"
-msgstr "più di una sezione \\examples, si utilizzerà la prima"
+msgstr "più di una sezione \\examples, si utilizza la prima"
 
 msgid "Converting Rd files to LaTeX ..."
 msgstr "Conversione file Rd in LaTeX ..."
