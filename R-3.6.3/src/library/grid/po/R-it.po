@@ -27,7 +27,7 @@ msgid "'labels' and 'at' locations must have same length"
 msgstr "le posizioni 'labels' e 'at' devono avere la medesima lunghezza"
 
 msgid "logical 'label' supplied of length 0"
-msgstr "'label' logica fornita di lunghezza 0"
+msgstr "'label' logica passata di lunghezza 0"
 
 msgid "end points must not be identical"
 msgstr "i punti finali non devono essere identici"
@@ -399,16 +399,16 @@ msgid "invalid 'axis' or 'type'"
 msgstr "'axis' o 'type' non valido"
 
 msgid "no string supplied for 'strwidth/height' unit"
-msgstr "nessuna stringa fornita per le unità 'strwidth/height'"
+msgstr "nessuna stringa passata per le unità 'strwidth/height'"
 
 msgid "no 'grob' supplied for 'grobwidth/height' unit"
-msgstr "nessun 'grob' fornito per unità 'grobwidth/height'"
+msgstr "nessun 'grob' passato per unità 'grobwidth/height'"
 
 msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
 msgstr "'gPath' deve avere profondità 1 nelle unità 'grobwidth/height'"
 
 msgid "non-NULL value supplied for plain unit"
-msgstr "valore non-NULL fornito per unità normale"
+msgstr "valore non-NULL passato per unità normale"
 
 msgid "operator '%s' not meaningful for units"
 msgstr "l'operatore '%s' non è significativo per le unità"
