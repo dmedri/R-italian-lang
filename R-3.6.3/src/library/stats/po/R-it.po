@@ -158,7 +158,7 @@ msgid ""
 " does not match the length of the margins, %d"
 msgstr ""
 "lunghezza di FUN, %d,\n"
-" non coincide con la lunghezza delle marginali, %d"
+" non corrisponde con la lunghezza delle marginali, %d"
 
 msgid "no rows to aggregate"
 msgstr "nessuna riga per l'aggregazione"
@@ -302,7 +302,7 @@ msgid "'n.ahead' must be at least 1"
 msgstr "'n.ahead' dev'essere almeno 1"
 
 msgid "number of series in 'object' and 'newdata' do not match"
-msgstr "numero di serie in 'object' e 'newdata' non conformi"
+msgstr "numero di serie in 'object' e 'newdata' non corrispondenti"
 
 msgid "'se.fit' not yet implemented for multivariate models"
 msgstr "'se.fit' non ancora implementato per modelli multidimensionali"
@@ -327,7 +327,7 @@ msgstr ""
 "'seasonal$order' dev'essere un vettore numerico non negativo di lunghezza 3"
 
 msgid "lengths of 'x' and 'xreg' do not match"
-msgstr "lunghezze di 'x' e 'xreg' non coincidenti"
+msgstr "lunghezze di 'x' e 'xreg' non corrispondenti"
 
 msgid "wrong length for 'fixed'"
 msgstr "lunghezza errata per 'fixed'"
@@ -946,7 +946,7 @@ msgstr ""
 "\"mu^2\", \"mu^3\" e \"constant\""
 
 msgid "length mismatch in convolution"
-msgstr "lunghezza non corretta in 'convolution'"
+msgstr "lunghezza non corrispondente in 'convolution'"
 
 msgid "missing values in 'filter'"
 msgstr "valori mancanti in 'filter'"
@@ -1423,8 +1423,8 @@ msgstr "model QR matrix non valida"
 
 msgid "non-NA residual length does not match cases used in fitting"
 msgstr ""
-"la lunghezza residua senza NA non corrisponde ai casi utilizzati nel "
-"adattamento"
+"la lunghezza residua senza NA non corrisponde ai casi utilizzati "
+"nell'adattamento"
 
 msgid "too few cases i with h_ii > 0), n < k"
 msgstr "pochi casi i con h_ii > 0), n < k"
@@ -1583,7 +1583,7 @@ msgid "this fit does not inherit from \"lm\""
 msgstr "questo adattamento non eredita da \"lm\""
 
 msgid "'cterms' argument must match terms in model object"
-msgstr "l'argomento 'cterms' deve far coincidre 'terms' nell'oggetto model"
+msgstr "l'argomento 'cterms' deve corrispondere i termini nell'oggetto modello"
 
 msgid "Design is unbalanced - use se.contrast() for se's"
 msgstr "Il disegno è non bilanciato - si utilizzi se.contrast() per gli se"
@@ -1654,7 +1654,7 @@ msgid "'offset' must be numeric"
 msgstr "'offset' dev'essere numerico"
 
 msgid "model frame and formula mismatch in model.matrix()"
-msgstr "model frame e formula non coincidono in model.matrix()"
+msgstr "model frame e formula non corrispondono in model.matrix()"
 
 msgid "non-list contrasts argument ignored"
 msgstr "argomento contrasti non-lista ignorato"
@@ -1746,7 +1746,8 @@ msgstr "livelli limitati ai solo valori positivi"
 
 msgid "setVarying : 'vary' length must match length of parameters"
 msgstr ""
-"setVarying : la lunghezza di 'vary' deve coincidere con quella dei parametri"
+"setVarying : la lunghezza di 'vary' deve corrispondere con quella dei "
+"parametri"
 
 msgid "singular gradient matrix at initial parameter estimates"
 msgstr "matrice gradiente singolare per le stime iniziali dei parametri"
@@ -1923,7 +1924,7 @@ msgid "'ppr' applies only to numerical variables"
 msgstr "'ppr' si applica solo a variabili numeriche"
 
 msgid "mismatched 'x' and 'y'"
-msgstr "'x' e 'y' non coincidenti"
+msgstr "'x' e 'y' non corrispondenti"
 
 msgid "wrong number of columns in 'x'"
 msgstr "numero di colonne sbagliate in 'x'"
@@ -1945,8 +1946,8 @@ msgid ""
 "'newdata' does not have named columns matching one or more of the original "
 "columns"
 msgstr ""
-"'newdata' non ha colonne con nome coincidenti con una o più colonne dei "
-"datioriginari"
+"'newdata' non ha colonne nominate corrispondenti con una o più colonne dei "
+"dati originari"
 
 msgid "'newdata' does not have the correct number of columns"
 msgstr "'newdata' ha un numero di colonne non corretto"
@@ -2118,7 +2119,7 @@ msgid "invalid number of points"
 msgstr "numero di punti non valido"
 
 msgid "lengths of 'x' and 'w' must match"
-msgstr "le lunghezze di 'x' e 'w' devono coincidere"
+msgstr "le lunghezze di 'x' e 'w' devono essere corrispondenti"
 
 msgid "all weights should be non-negative"
 msgstr "tutti i pensi dovrebbero essere non negativi"
@@ -2197,10 +2198,10 @@ msgid "'y' must be numeric vector"
 msgstr "'y' dev'essere un vettore numerico"
 
 msgid "number of observations in 'x' and 'y' must match."
-msgstr "il numero di osservazioni in 'x' e 'y' deve coincidere."
+msgstr "il numero di osservazioni in 'x' e 'y' deve essere corrispondente."
 
 msgid "number of weights must match number of observations."
-msgstr "il numero di pesi deve coincidere col numero di osservazioni."
+msgstr "il numero di pesi deve corrispondere col numero di osservazioni."
 
 msgid "'x' must be between 0 and 1 for periodic smooth"
 msgstr "'x' dev'essere tra 0 e 1 per smooth periodici"
