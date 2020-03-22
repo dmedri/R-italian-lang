@@ -1030,7 +1030,7 @@ msgstr ""
 "tentata configurazione di 'colnames' su un oggetto con meno di due dimensioni"
 
 msgid "argument is not numeric or logical: returning NA"
-msgstr "l'argomento non è numeric o logic: restituito NA"
+msgstr "l'argomento non è numerico o logico: si ritorna NA"
 
 msgid "'trim' must be numeric of length one"
 msgstr "'trim' dev'essere numerico e di lunghezza uno"
