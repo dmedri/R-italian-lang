@@ -224,7 +224,7 @@ msgstr "necessari almeno 3 argomenti"
 
 #: plot.c:492
 msgid "\"log=\" specification must be character"
-msgstr "specificazione \"log=\" deve essere di tipo character"
+msgstr "specificazione \"log=\" dev'essere di tipo character"
 
 #: plot.c:503
 #, c-format
@@ -268,7 +268,7 @@ msgstr "numero asse %d non valido"
 
 #: plot.c:866
 msgid "'hadj' must be of length one"
-msgstr "'hadj' deve essere di lunghezza 1"
+msgstr "'hadj' dev'essere di lunghezza 1"
 
 #: plot.c:873 plot.c:2084 plot.c:2361 plot.c:2367 plot.c:2374 plot.c:2382
 #: plot.c:2389 plot.c:2396 plot.c:2403 plot.c:2410 plot.c:2418 plot.c:2425
@@ -494,7 +494,7 @@ msgstr "valori o limit di x / y non validi"
 
 #: plot3d.c:257
 msgid "invalid contour levels: must be strictly increasing"
-msgstr "curve di livello non valide: devono essre strettamente crescenti"
+msgstr "curve di livello non valide: devono essere strettamente crescenti"
 
 #: plot3d.c:1049 plot3d.c:1062
 msgid "Axis orientation not calculated"
@@ -518,15 +518,15 @@ msgstr "limiti 'z' non validi"
 
 #: plot3d.c:1137
 msgid "'xlab' must be a character vector of length 1"
-msgstr "'xlab' deve essere un vettore character di lunghezza 1"
+msgstr "'xlab' dev'essere un vettore di caratteri di lunghezza 1"
 
 #: plot3d.c:1139
 msgid "'ylab' must be a character vector of length 1"
-msgstr "'ylab' deve essere un vettore character di lunghezza 1"
+msgstr "'ylab' dev'essere un vettore di caratteri di lunghezza 1"
 
 #: plot3d.c:1141
 msgid "'zlab' must be a character vector of length 1"
-msgstr "'zlab' deve essere un vettore character di lunghezza 1"
+msgstr "'zlab' dev'essere un vettore di caratteri di lunghezza 1"
 
 #: plot3d.c:1161
 msgid "invalid viewing parameters"
