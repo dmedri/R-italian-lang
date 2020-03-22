@@ -839,7 +839,7 @@ msgstr "'lower' e 'upper' devono essere vettori numerici"
 
 #: port.c:460
 msgid "'getElement' applies only to named lists"
-msgstr "'getElement' si applica solo a liste denominate"
+msgstr "'getElement' si applica solo a liste nominate"
 
 #: port.c:481
 #, c-format
