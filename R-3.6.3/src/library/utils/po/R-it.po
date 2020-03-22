@@ -1198,8 +1198,8 @@ msgstr[1] "classi scartate dalle colonne %s"
 
 msgid "matched %d object."
 msgid_plural "matched %d objects."
-msgstr[0] "combacia %d oggetto."
-msgstr[1] "combaciano %d oggetti."
+msgstr[0] "corrispondenza per %d oggetto."
+msgstr[1] "corrispondenza per %d oggetti."
 
 msgid "%d error caught in %s: %s"
 msgid_plural "%d times caught the same error in %s: %s"
