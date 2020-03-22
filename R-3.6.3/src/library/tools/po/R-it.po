@@ -707,7 +707,9 @@ msgstr ""
 "versione"
 
 msgid "cannot turn off locale-specific sorting via LC_COLLATE"
-msgstr "non posso disabilitare l'ordinamento tramite locale usando LC_COLLATE"
+msgstr ""
+"non posso disabilitare l'ordinamento specifico della localizzazione tramite "
+"LC_COLLATE"
 
 msgid "duplicated files in '%s' field:"
 msgstr "file duplicati nel campo '%s':"
