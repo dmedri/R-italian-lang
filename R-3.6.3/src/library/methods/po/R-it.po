@@ -495,7 +495,7 @@ msgid "class cannot have both an ordinary and hidden data type"
 msgstr "la classe non può avere sia un tipo di dati ordinario che nascosto"
 
 msgid "a validity method must be a function of one argument, got an object of class %s"
-msgstr "un metodo di validità dev'essere una funzione di un argomento, ha ricevuto un oggetto della classe %s"
+msgstr "un metodo di validità dev'essere una funzione di un argomento, si è ottenuto un oggetto della classe %s"
 
 msgid "unable to find required package %s"
 msgstr "non è possibile trovare il pacchetto richiesto %s"
