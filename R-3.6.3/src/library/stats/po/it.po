@@ -120,7 +120,7 @@ msgstr "l'espressione non dev'essere di tipo '%s'"
 
 #: deriv.c:792
 msgid "variable must be a character string"
-msgstr "la variabile deve essere una stringa character"
+msgstr "la variabile dev'essere una stringa di caratteri"
 
 #: deriv.c:794
 msgid "only the first element is used as variable name"
@@ -476,7 +476,7 @@ msgstr "n dev'essere almeno due"
 
 #: monoSpl.c:69
 msgid "Argument m must be numeric"
-msgstr "L'argomento m dev'essere numeric"
+msgstr "L'argomento m dev'essere numerico"
 
 #: monoSpl.c:72
 msgid "length(m) must be at least two"
@@ -488,11 +488,11 @@ msgstr "L'argomento Sx dev'essere un vettore numerico di uno più corto di m[]"
 
 #: nls.c:99
 msgid "'control' must be a list"
-msgstr "'control' deve essere di tipo list"
+msgstr "'control' deve essere una lista"
 
 #: nls.c:101
 msgid "'m' must be a list"
-msgstr "'m' deve essere di tipo list"
+msgstr "'m' dev'essere una lista"
 
 #: nls.c:107 nls.c:112 nls.c:117 nls.c:122 nls.c:127 nls.c:168 nls.c:173
 #: nls.c:178 nls.c:183 nls.c:188 nls.c:193
@@ -632,7 +632,7 @@ msgstr "Valore NA per '%s' non ammesso"
 
 #: optimize.c:378
 msgid "'maxiter' must be positive"
-msgstr "'maxiter' deve essere positivo"
+msgstr "'maxiter' dev'essere positivo"
 
 #: optimize.c:520
 msgid "non-finite value supplied by 'nlm'"
@@ -816,7 +816,7 @@ msgstr ""
 
 #: port.c:380
 msgid "'rho' must be an environment"
-msgstr "'rho' deve essere un environment"
+msgstr "'rho' dev'essere un ambiente"
 
 #: port.c:382 port.c:548
 msgid "'d' must be a nonempty numeric vector"
@@ -863,7 +863,7 @@ msgstr "tipo non valido per eval_check_store"
 
 #: port.c:549
 msgid "m must be a list"
-msgstr "m deve essere di tipo list"
+msgstr "m dev'essere una lista"
 
 #: port.c:569
 msgid "'lowerb' and 'upperb' must be numeric vectors"
