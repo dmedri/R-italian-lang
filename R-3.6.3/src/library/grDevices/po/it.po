@@ -65,7 +65,7 @@ msgstr "livello alpha %d, non in 0:255"
 
 #: colors.c:113
 msgid "inputs must be finite"
-msgstr "i valori input devono essere finiti"
+msgstr "i valori di input devono essere finiti"
 
 #: colors.c:128
 msgid "bad hsv to rgb color conversion"
@@ -121,7 +121,7 @@ msgstr "il colore indicato non è ne di tipo numeric ne character"
 #: colors.c:1486
 #, c-format
 msgid "numerical color values must be >= 0, found %d"
-msgstr "valori numerici del colore devono essere >= 0, trovato %d"
+msgstr "i valori numerici del colore devono essere >= 0, trovato %d"
 
 #: colors.c:1497
 msgid "invalid argument type"
