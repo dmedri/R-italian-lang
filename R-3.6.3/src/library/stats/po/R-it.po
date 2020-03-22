@@ -2226,7 +2226,8 @@ msgstr "probabilità di copertura oltre [0,1)"
 
 msgid "spline: first and last y values differ - using y[1] for both"
 msgstr ""
-"spline: il primo e l'ultimo valore di y sono diversi - uso y[1] per entrambi"
+"spline: il primo e l'ultimo valore di y sono diversi - si utilizza y[1] per "
+"entrambi"
 
 msgid "'y' must be increasing or decreasing"
 msgstr "'y' dev'essere crescente o decrescente"
