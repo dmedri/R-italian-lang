@@ -23,7 +23,7 @@ msgstr ""
 "i modelli non sono stati stimati per il medesimo numero di osservazioni"
 
 msgid "empty model supplied"
-msgstr "specificato modello vuoto"
+msgstr "passato modello vuoto"
 
 msgid "'acf' must be of length two or more"
 msgstr "'acf' dev'essere di lunghezza due o più"
@@ -814,7 +814,7 @@ msgid "'covmat' is not a valid covariance list"
 msgstr "'covmat' non è una lista di covarianze valida"
 
 msgid "neither 'x' nor 'covmat' supplied"
-msgstr "'x' e 'covmat' non fornite"
+msgstr "'x' e 'covmat' non passati"
 
 msgid "response not allowed in formula"
 msgstr "risposta non ammessa in formula"
@@ -832,7 +832,7 @@ msgid "factor analysis requires at least three variables"
 msgstr "l'analisi fattoriale richiede almeno tre variabili"
 
 msgid "no starting values supplied"
-msgstr "valori iniziali non specificati"
+msgstr "valori iniziali non passati"
 
 msgid "invalid argument 'lambda'"
 msgstr "argomento 'lambda' non valido"
@@ -846,7 +846,7 @@ msgstr ""
 "sono %s"
 
 msgid "negative values not allowed for the 'Poisson' family"
-msgstr "i valori negativi non sono ammissibili per la famiglia 'Poisson'"
+msgstr "i valori negativi non sono ammessi per la famiglia 'Poisson'"
 
 msgid "ignoring prior weights"
 msgstr "ignorando i pesi precedenti"
@@ -1327,7 +1327,7 @@ msgid ""
 "numeric y must be supplied.\n"
 "For density estimation use density()"
 msgstr ""
-"dev'essere fornita una variabile numerica y.\n"
+"dev'essere passata una variabile numerica y.\n"
 "Per la stima della densità si utilizzi density()"
 
 msgid "'k' is not an integer"
@@ -1445,7 +1445,7 @@ msgid "invalid NCOL(X)"
 msgstr "non valido NCOL(X)"
 
 msgid "only 1-4 predictors are allowed"
-msgstr "permessi solo 1-4 predittori"
+msgstr "ammessi solo 1-4 predittori"
 
 msgid "invalid NROW(X)"
 msgstr "non valido NROW(X)"
@@ -1638,7 +1638,7 @@ msgstr "'termobj' dev'essere un oggetto di classe %s"
 msgid "variable '%s' was fitted with type \"%s\" but type \"%s\" was supplied"
 msgstr ""
 "la variabile '%s' è stata stimata con tipo \"%s\" ma il tipo \"%s\" era "
-"stato fornito"
+"passato"
 
 msgid "variables %s were specified with different types from the fit"
 msgstr ""
@@ -1952,7 +1952,7 @@ msgid "'newdata' does not have the correct number of columns"
 msgstr "'newdata' ha un numero di colonne non corretto"
 
 msgid "both 'x' and 'covmat' were supplied: 'x' will be ignored"
-msgstr "specificati sia 'x' che 'covmat': 'x' verrà ignorata"
+msgstr "passati sia 'x' che 'covmat': 'x' verrà ignorata"
 
 msgid "'princomp' can only be used with more units than variables"
 msgstr "'princomp' si può usare solo quando ci sono più unità che variabili"
@@ -2323,7 +2323,7 @@ msgid "'start' cannot be after 'end'"
 msgstr "'start' no può essere dopo 'end'"
 
 msgid "no time series supplied"
-msgstr "nessuna serie storica specificata"
+msgstr "nessuna serie storica passata"
 
 msgid "not all series have the same frequency"
 msgstr "non tutte le serie hanno la stessa frequenza"
@@ -2353,8 +2353,7 @@ msgid "'xy.labels' must be logical or character"
 msgstr "'xy.labels' devono essere logical o character"
 
 msgid "'frequency' and 'deltat' are both supplied and are inconsistent"
-msgstr ""
-"'frequency' e 'deltat' sono stati specificati entrambi ma non consistenti"
+msgstr "'frequency' e 'deltat' sono stati passati entrambi ma non consistenti"
 
 msgid "'frequency' not changed"
 msgstr "'frequency' non cambiata"
@@ -2381,17 +2380,17 @@ msgid "times to be replaced do not match"
 msgstr "'times' da sostituire non corrispondenti"
 
 msgid "no replacement values supplied"
-msgstr "valori da sostituire non specificati"
+msgstr "valori da sostituire non passati"
 
 msgid "too many replacement values supplied"
-msgstr "indicati troppo valori da sostituire"
+msgstr "passati troppi valori da sostituire"
 
 msgid ""
 "number of values supplied is not a sub-multiple of the number of values to "
 "be replaced"
 msgstr ""
-"il numero di valori specificati per la sostituzione non sono un "
-"sottomultiplo del numero di valori che devono essere sostituiti"
+"il numero di valori passati per la sostituzione non sono un sottomultiplo "
+"del numero di valori che devono essere sostituiti"
 
 msgid "only replacement of elements is allowed"
 msgstr "solo la sostituzione degli elementi è ammessa"
