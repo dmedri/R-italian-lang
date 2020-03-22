@@ -189,7 +189,7 @@ msgid "'x' must be a numeric vector or matrix"
 msgstr "'x' dev'essere un vettore numerico o una matrice"
 
 msgid "'x' is neither a vector nor a matrix: using as.numeric(x)"
-msgstr "'x' non è ne un vettore ne una matrice: utilizza as.numeric(x)"
+msgstr "'x' non è ne un vettore ne una matrice: si utilizza as.numeric(x)"
 
 msgid "'x' must be an array"
 msgstr "'x' dev'essere un array"
