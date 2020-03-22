@@ -38,7 +38,7 @@ msgstr ""
 "primo sono ignorati"
 
 msgid "'x' must be a 2-d contingency table"
-msgstr "'x' dev'essere una tabella di contigenza a 2 vie"
+msgstr "'x' dev'essere una tabella di contingenza a 2 vie"
 
 msgid "all entries of 'x' must be nonnegative and finite"
 msgstr "tutti i termini di 'x' devono essere non negativi e finiti"
@@ -168,7 +168,7 @@ msgid "'add' will be ignored as there is no existing plot"
 msgstr "'add' sarà ignorato perché non c'è alcun plot"
 
 msgid "'from' and 'to' must be > 0 with log=\"x\""
-msgstr "'from' e 'to' devono esser >0 con log=\"x\""
+msgstr "'from' e 'to' devono essere > 0 con log=\"x\""
 
 msgid "'expr' did not evaluate to an object of length 'n'"
 msgstr "'expr' non valuterà un oggetto di lunghezza 'n'"
@@ -366,7 +366,7 @@ msgid "surface extends beyond the box"
 msgstr "la superficie si estende oltre il box"
 
 msgid "'x' values must be positive."
-msgstr "i valori di 'x' devono essere positiv"
+msgstr "i valori di 'x' devono essere positivi."
 
 msgid "invalid table 'x'"
 msgstr "table 'x' non valida"
@@ -390,7 +390,7 @@ msgid "'x' must be a data frame"
 msgstr "'x' dev'essere un data frame"
 
 msgid "all columns/components of 'x' must be factors"
-msgstr "tutte le colonne/componenti di 'x' devono essere di tipo factor"
+msgstr "tutte le colonne/componenti di 'x' devono essere fattori"
 
 msgid "some levels of the factors are empty"
 msgstr "alcuni livelli dei factor sono vuoti"
@@ -439,7 +439,7 @@ msgid "'x' must be a matrix or a data frame"
 msgstr "'x' dev'essere una matrice o un data frame"
 
 msgid "data in 'x' must be numeric"
-msgstr "i dati in 'x' devoo essere numeric"
+msgstr "i dati in 'x' devono essere numerici"
 
 msgid "'nrow * ncol' is less than the number of observations"
 msgstr "'nrow * ncol' è inferiore al numero di osservazioni"
