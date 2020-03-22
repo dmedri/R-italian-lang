@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Poedit 2.2.1\n"
 
 msgid "cannot handle object of mode '%s'"
-msgstr "impossibile gestire oggetti inmodalità '%s'"
+msgstr "non è possibile gestire oggetti in modalità '%s'"
 
 msgid "cannot change names on Tcl array"
-msgstr "non posso cambiare i nomi di un array Tcl"
+msgstr "non è possibile cambiare i nomi di un array Tcl"
 
 msgid "cannot set length of Tcl array"
-msgstr "non posso impostare la lunghezza di un array Tcl"
+msgstr "non è possibile impostare la lunghezza di un array Tcl"
 
 msgid "Tcl package '%s' not found"
 msgstr "Pacchetto Tcl '%s' non trovato"
