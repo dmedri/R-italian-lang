@@ -258,7 +258,8 @@ msgid "options(\"stringsAsFactors\") not set to TRUE or FALSE"
 msgstr "options(\"stringsAsFactors\") non impostate in TRUE o FALSE"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
-msgstr "ambiguità nei row names negli elementi di 'data.frame', elemnto %d"
+msgstr ""
+"discordanza nei row names negli argomenti del 'data.frame', elemento %d"
 
 msgid "some row.names duplicated: %s --> row.names NOT used"
 msgstr "alcuni row.names duplicati: %s --> row.names NON usati"
@@ -321,7 +322,7 @@ msgid "non-existent rows not allowed"
 msgstr "righe non-esistenti non ammesse"
 
 msgid "column name \"\" cannot match any column"
-msgstr "il nome colonna \"\" non può essere confrontato con alcuna colonna"
+msgstr "il nome colonna \"\" non corrisponde ad alcuna colonna"
 
 msgid "new columns would leave holes after existing columns"
 msgstr "le nuove colonne lasceranno dei buchi dopo le colonne già esistenti"
@@ -571,7 +572,7 @@ msgid "No DLL currently loaded with name or path %s"
 msgstr "Nessuna DLL caricata con nome o percorso %s"
 
 msgid "multiple DLLs match '%s'. Using '%s'"
-msgstr "più di una DLL è simile a '%s'. Si utilizzerà '%s'"
+msgstr "multiple DLL corrispondono a '%s'. Si utilizzerà '%s'"
 
 msgid "must specify DLL via a %s object. See getLoadedDLLs()"
 msgstr "bisogna specificare la DLL tramite un oggetto %s. Vedi getLoadedDLLs()"
@@ -735,7 +736,7 @@ msgstr ""
 "i componenti della distanza di corrispondenza devono essere non-negativi"
 
 msgid "unknown match distance components ignored"
-msgstr "ignorate le componenti sconosciute della distanza"
+msgstr "ignorate le componenti della distanza di corrispondenza"
 
 msgid "unknown cost components ignored"
 msgstr "le componenti di costo sconosciuti saranno ignorate"
@@ -753,16 +754,16 @@ msgid "missing replacement values are not allowed"
 msgstr "i valori di sostituzione mancanti non sono ammessi"
 
 msgid "must have replacement values for matches"
-msgstr "deve avere valori di sostituzione per i confronti"
+msgstr "deve avere valori di sostituzione per le corrispondenze"
 
 msgid "value does not provide any replacement values"
 msgstr "il valore non fornisce alcun valore di sostituzione"
 
 msgid "must have replacements for non-matches"
-msgstr "deve avere sostituzioni per i non-confronti"
+msgstr "deve avere sostituzioni per le non-corrispondenze"
 
 msgid "must have replacements for matches"
-msgstr "deve avere sostituzioni per i confronti"
+msgstr "deve avere sostituzioni per le corrispondenze"
 
 msgid "No factors specified"
 msgstr "Nessun factor specificato"
@@ -1166,8 +1167,8 @@ msgid ""
 "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in "
 "package %s"
 msgstr ""
-"'exportClassPattern' specificato in 'NAMESPACE' ma non combaciano le classi "
-"nel pacchetto %s"
+"'exportClassPattern' specificato in 'NAMESPACE' ma non corrispondono le "
+"classi nel pacchetto %s"
 
 msgid "in package %s classes %s were specified for export but not defined"
 msgstr ""
