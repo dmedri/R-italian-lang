@@ -25,7 +25,7 @@ msgid "Processing %s ..."
 msgstr "Elaborando %s ..."
 
 msgid "argument 'package' must be of length 1"
-msgstr "argomento 'package' deve avere lunghezza 1"
+msgstr "argomento 'package' dev'essere di lunghezza 1"
 
 msgid "you must specify 'package' or 'dir'"
 msgstr "specificare 'package' o 'dir'"
@@ -526,7 +526,7 @@ msgstr "I file Rd devono avere \\title non vuoto."
 
 msgid "argument 'outFile' must be a character string or connection"
 msgstr ""
-"l'argomento 'outFile' deve essere una stringa carattere o una connessione"
+"l'argomento 'outFile' dev'essere una stringa di caratteri o una connessione"
 
 msgid "you must specify 'dir' or 'files'"
 msgstr "specificare 'dir' o 'file'"
@@ -658,7 +658,7 @@ msgid "In '%s' vignettes '%s' and '%s' have the same vignette name"
 msgstr "In '%s' vignette '%s' e '%s' hanno il medesimo nome"
 
 msgid "argument 'vignette' must be of length 1"
-msgstr "l'argomento 'vignette' deve avere lunghezza 1"
+msgstr "l'argomento 'vignette' dev'essere di lunghezza 1"
 
 msgid "Vignette engine package not specified"
 msgstr "Pacchetto engine vignetta non specificato"
@@ -1030,7 +1030,7 @@ msgid "source list must have names for all elements"
 msgstr "la lista sorgente deve avere i nomi per tutti gli elementi"
 
 msgid "source must be an environment or a list"
-msgstr "il sorgente deve essere un environment o una lista"
+msgstr "il sorgente dev'essere un ambiente o una lista"
 
 msgid "this cannot be used for package 'base'"
 msgstr "non può essere usato per il pacchetto 'base'"
@@ -1190,7 +1190,7 @@ msgid "unsupported PNG filter %d"
 msgstr "filtro PNG %d non supportato"
 
 msgid "argument '%s' must be a character string or connection"
-msgstr "l'argomento '%s' deve essere una stringa carattere o una connessione"
+msgstr "l'argomento '%s' dev'essere una stringa di caratteri o una connessione"
 
 msgid "unimplemented encoding"
 msgstr "codifica non implementata"
@@ -1261,7 +1261,7 @@ msgid "unknown header specification"
 msgstr "specificata un'intestazione sconosciuta"
 
 msgid "argument 'pkg' must be of length 1"
-msgstr "l'argomento 'pkg' deve avere lunghezza 1"
+msgstr "l'argomento 'pkg' dev'essere di lunghezza 1"
 
 msgid "package '%s' was not found"
 msgstr "pacchetto '%s' non trovato"
@@ -1285,7 +1285,7 @@ msgid "test '%s' is not available"
 msgstr "il test '%s' non è disponibile"
 
 msgid "argument 'x' must be a character vector"
-msgstr "l'argomento 'x' deve essere un vettore carattere"
+msgstr "l'argomento 'x' dev'essere un vettore di caratteri"
 
 msgid "argument 'delim' must specify two characters"
 msgstr "l'argomenti 'delim' deve specificare due caratteri"
