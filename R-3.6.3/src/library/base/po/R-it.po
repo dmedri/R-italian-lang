@@ -46,7 +46,7 @@ msgid "deprecatedWarning"
 msgstr "deprecatedWarning"
 
 msgid "argument to 'La.svd' must be numeric or complex"
-msgstr "l'argomento di 'La.svd' deve essere numeric o complex"
+msgstr "l'argomento di 'La.svd' dev'essere numerico o complesso"
 
 msgid "infinite or missing values in 'x'"
 msgstr "valori infiniti o mancanti in 'x'"
@@ -58,15 +58,14 @@ msgid "\"hexNumeric\" and \"digits17\" are mutually exclusive"
 msgstr "\"hexNumeric\" e \"digits17\" sono mutuamente esclusivi"
 
 msgid "second argument must be a list"
-msgstr "il secondo argomento deve essere di tipo list"
+msgstr "il secondo argomento dev'essere una lista"
 
 msgid "'iconvlist' is not available on this system"
 msgstr "'iconvlist' non è disponibile su questo sistema"
 
 msgid "'kind' must be a character string of length 1 (RNG to be used)."
 msgstr ""
-"'kind' deve essere una stringa di caratteri di lunghezza 1 (si deve usare "
-"RNG)"
+"'kind' dev'essere una stringa di caratteri di lunghezza 1 (si utilizza RNG)"
 
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' non è una abbreviazione valida di un RNG"
@@ -172,7 +171,7 @@ msgid "complex matrices not permitted at present"
 msgstr "matrici complesse non ammesse al momento"
 
 msgid "'x' must be an array of at least two dimensions"
-msgstr "'x' deve essere un array con almeno due dimensioni"
+msgstr "'x' dev'essere un array con almeno due dimensioni"
 
 msgid "invalid 'dims'"
 msgstr "'dims' non valido"
@@ -204,7 +203,7 @@ msgstr ""
 "caratteri"
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
-msgstr "'origin' deve essere uno tra 'start', 'current' o 'end'"
+msgstr "'origin' dev'essere uno tra 'start', 'current' o 'end'"
 
 msgid "can only truncate an open connection"
 msgstr "si può troncare solo una connessione aperta"
@@ -219,7 +218,7 @@ msgid "'from' must be raw or character"
 msgstr "'from' dev'essere raw o character"
 
 msgid "'x' must be numeric"
-msgstr "'x' deve essere numerico"
+msgstr "'x' dev'essere numerico"
 
 msgid "invalid number of intervals"
 msgstr "numero di intervalli non valido"
@@ -375,7 +374,7 @@ msgid "character string is not in a standard unambiguous format"
 msgstr "la stringa di caratteri non è in un formato standard"
 
 msgid "'origin' must be supplied"
-msgstr "'origin' dev'essere indicato"
+msgstr "'origin' dev'essere passato"
 
 msgid "do not know how to convert '%s' to class %s"
 msgstr "conversione incerta di '%s' nella classe %s"
@@ -723,7 +722,7 @@ msgid "'input.d.mark' has no characters"
 msgstr "'input.d.mark' non ha caratteri"
 
 msgid "'subset' must be logical"
-msgstr "'subset' dev'essere logical"
+msgstr "'subset' dev'essere logico"
 
 msgid "value for %s not found"
 msgstr "valore per %s non trovato"
@@ -1033,7 +1032,7 @@ msgid "argument is not numeric or logical: returning NA"
 msgstr "l'argomento non è numeric o logic: restituito NA"
 
 msgid "'trim' must be numeric of length one"
-msgstr "'trim' dev'essere di tipo numeric e di lunghezza uno"
+msgstr "'trim' dev'essere numerico e di lunghezza uno"
 
 msgid "trimmed means are not defined for complex data"
 msgstr "le medie troncate non sono definite per dati complessi"
@@ -1473,8 +1472,8 @@ msgid ""
 "'x' must be atomic for 'sort.list'\n"
 "Have you called 'sort' on a list?"
 msgstr ""
-"'x' dev'essere di tipo atomic per 'sort.list'\n"
-"E' stato chiamato 'sort' su una lista?"
+"'x' dev'essere atomico per 'sort.list'\n"
+"Si è chiamato 'sort' su una lista?"
 
 msgid "method = \"quick\" is only for numeric 'x'"
 msgstr "method = \"quick\" è solo per 'x' di tipo numeric"
@@ -1483,7 +1482,7 @@ msgid "'local' must be TRUE, FALSE or an environment"
 msgstr "'local' dev'essere TRUE, FALSE o un ambiente"
 
 msgid "'echo' must be logical"
-msgstr "'echo' dev'essere di tipo logical"
+msgstr "'echo' dev'essere logico"
 
 msgid "'verbose' is TRUE, 'echo' not; ... coercing 'echo <- TRUE'"
 msgstr "'verbose' è TRUE, echo no; ... coercizione 'echo <- TRUE'"
@@ -1582,7 +1581,7 @@ msgid "'x' is not an array"
 msgstr "'x' non è un array"
 
 msgid "'bin' must be numeric or a factor"
-msgstr "'bin' dev'essere numeric o un factor"
+msgstr "'bin' dev'essere numerico o un fattore"
 
 msgid "invalid value of %s"
 msgstr "valore di %s non valido"
@@ -1609,7 +1608,7 @@ msgid "invalid 'which' argument"
 msgstr "argomento 'which' non valido"
 
 msgid "'which' must be character or numeric"
-msgstr "'which' dev'essere di tipo character o numeric"
+msgstr "'which' dev'essere di tipo character o numerico"
 
 msgid "Removing %s"
 msgstr "Rimozione di %s"
