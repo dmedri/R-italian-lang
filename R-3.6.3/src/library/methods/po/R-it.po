@@ -756,7 +756,7 @@ msgid "argument 'classDef' must be a class definition or the name of a class"
 msgstr "l'argomento 'classDef' dev'essere una definizione di classe o il nome di una classe"
 
 msgid "No %s names supplied"
-msgstr "Nessun nome %s indicato"
+msgstr "Nessun %s nome passato"
 
 msgid ""
 "All %s names must be nonempty in:\n"
