@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+REL="R-3.6.3"
+
+grep -r1 "$1" ./$REL/ | more
