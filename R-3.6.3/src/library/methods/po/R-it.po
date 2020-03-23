@@ -73,7 +73,7 @@ msgid "the computation: 'as(object,\"%s\") <- value' is valid when object has cl
 msgstr "la computazione: 'as(object, \"%s\") <- value' valida quando l'oggetto ha la classe %s solo se 'is(value, \"%s\")' è TRUE ('classe (value)' era %s )"
 
 msgid "there is no automatic definition for 'as(object, \"%s\") <- value' when object has class %s and no 'replace' argument was supplied; replacement will be an error"
-msgstr "non esiste una definizione automatica per 'as (object, \"% s\") <- value' quando l'oggetto ha la classe %s e non è stato fornito alcun argomento 'replace'; la sostituzione darà un errore"
+msgstr "non esiste una definizione automatica per 'as (object, \"%s\") <- value' quando l'oggetto ha la classe %s e non è stato fornito alcun argomento 'replace'; la sostituzione darà un errore"
 
 msgid "the 'replace' argument to setIs() should be a function of 2 or 3 arguments, got an object of class %s"
 msgstr "l'argomento 'replace' di setIs() dovrebbe essere una funzione di 2 o 3 argomenti, si è ottenuto un oggetto della classe %s"
@@ -354,7 +354,7 @@ msgid "Use %s instead."
 msgstr "Utilizzare '%s' al suo posto."
 
 msgid "%s, along with other use of the \"MethodsList\" metadata objects, is defunct."
-msgstr "% s, insieme agli altri modi d'uso degli oggetti metadati \"MethodsList\", è deprecato."
+msgstr "%s, insieme agli altri modi d'uso degli oggetti metadati \"MethodsList\", è deprecato."
 
 msgid "In %s: use of \"MethodsList\" metadata objects is defunct."
 msgstr "In %s: l'uso degli oggetti metadati \"MethodsList\" è deprecato."
