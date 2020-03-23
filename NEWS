@@ -1,6 +1,10 @@
 R-italian-lang
 
-v0.4 (03/21/2020) stable
+v0.5 (03/23/2020) "brown bag release"
+ - po.roaster: new check
+ - minor fixes
+
+v0.4 (03/23/2020) stable
  - added TRANSLATORS file with some conventions
  - revisions to fit conventions
  - new find.terms script (to search terms in .po files)
