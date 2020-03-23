@@ -1,3 +1,11 @@
+Rules
+-----
+
+1. Questions: open an issue on github for mistakes or tips
+2. Contributes: fork this repo, apply your changes, request a merge
+3. goto 1
+
+
 Conventions
 -----------
 
@@ -9,6 +17,12 @@ it: "non è possibile"
 
 it: "impossibile"
 it: "non è possibile"
+
+en: ", ignored"
+it: ", ignorato"
+
+en: "restoring"
+it: "ripristino"
 
 en: "character vector"
 it: "vettore di caratteri"
@@ -72,3 +86,9 @@ it: "dispatch"
 
 en: "subscript"
 it: "subscript"
+
+en: "quoted string"
+it: "stringa virgolettata"
+
+en: "vignette" "vignettes"
+it: "vignette"
