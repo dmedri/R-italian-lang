@@ -176,7 +176,7 @@ msgid "'formula' must have both left and right hand sides"
 msgstr "'formula' deve avere sia il membro di destra che quello di sinistra"
 
 msgid "cannot change frequency from %g to %g"
-msgstr "impossibile cambiare la frequenza fa %g a %g"
+msgstr "non è possibile cambiare la frequenza fa %g a %g"
 
 msgid "'x' must be coefficient matrix/data frame"
 msgstr "'x' dev'essere una matrice coefficient/data frame"
@@ -214,17 +214,17 @@ msgid "cannot compute confidence set, returning NA"
 msgstr "non è possibile calcolare gli insiemi di confidenza, si ritorna NA"
 
 msgid "cannot compute asymptotic confidence set or estimator"
-msgstr "impossibile calcolare insiemi di confidenza asintotici o lo stimatore"
+msgstr "non è possibile calcolare insiemi di confidenza asintotici o lo stimatore"
 
 msgid "cannot compute estimate, returning NA"
 msgstr "non è possibile calcolare la stima, si ritorna NA"
 
 msgid "cannot compute exact p-value with ties"
-msgstr "impossibile calcolare p-value esatto in presenza di ties"
+msgstr "non è possibile calcolare p-value esatto in presenza di ties"
 
 msgid "cannot compute exact confidence intervals with ties"
 msgstr ""
-"impossibile calcolare intervalli di confidenza esatti in presenza di ties"
+"non è possibile calcolare intervalli di confidenza esatti in presenza di ties"
 
 msgid "grouping factor must have exactly 2 levels"
 msgstr "la variabile di gruppo deve avere esattamente 2 livelli"
@@ -469,7 +469,7 @@ msgid "at least one entry of 'x' must be positive"
 msgstr "almeno un elemento di 'x' dev'essere positivo"
 
 msgid "cannot compute simulated p-value with zero marginals"
-msgstr "impossibile calcolare p-value simulati con marginali nulle"
+msgstr "non è possibile calcolare p-value simulati con marginali nulle"
 
 msgid "'x' must at least have 2 elements"
 msgstr "'x' deve avere almeno 2 elementi"
@@ -1127,13 +1127,13 @@ msgid "step size truncated due to divergence"
 msgstr "ampiezza del passo ridotta a causa della divergenza"
 
 msgid "inner loop 1; cannot correct step size"
-msgstr "ciclo intero 1; impossibile correggere la ampiezza del passo"
+msgstr "ciclo intero 1; non è possibile correggere l'ampiezza del passo"
 
 msgid "step size truncated: out of bounds"
 msgstr "lunghezza del passo ridotta: fuori limite"
 
 msgid "inner loop 2; cannot correct step size"
-msgstr "ciclo interno 2; impossibile correggere ampiezza del passo"
+msgstr "ciclo interno 2; non è possibile correggere l'ampiezza del passo"
 
 msgid "glm.fit: algorithm did not converge"
 msgstr "glm.fit: l'algoritmo non converge"
@@ -1708,8 +1708,7 @@ msgstr "nessun cambio di segno in %d iterazioni"
 msgid ""
 "did not succeed extending the interval endpoints for f(lower) * f(upper) <= 0"
 msgstr ""
-"non è stato possibile estendere gli endpoint dell'intervallo per f(lower) * "
-"f (upper) <= 0"
+"mancata estensione degli endpoint dell'intervallo per f(lower) * f (upper) <= 0"
 
 msgid "f() values at end points not of opposite sign"
 msgstr "i valori di f() negli estremi hanno segno opposto"
@@ -1739,7 +1738,7 @@ msgid "invalid argument to 'getProfile'"
 msgstr "argomento non valido in 'getProfile'"
 
 msgid "cannot recognize parameter name"
-msgstr "impossibile riconoscere nome parametro"
+msgstr "non è possibile riconoscere nome parametro"
 
 msgid "levels truncated to positive values only"
 msgstr "livelli limitati ai solo valori positivi"
@@ -1774,7 +1773,7 @@ msgid "upper and lower bounds ignored unless algorithm = \"port\""
 msgstr "limite superiore e inferiore ignorati con algorithm = \"port\""
 
 msgid "cannot calculate REML log-likelihood for \"nls\" objects"
-msgstr "impossibile calcolare REML log-verosimiglianza per oggetti \"nls\""
+msgstr "non è possibile calcolare REML log-verosimiglianza per oggetti \"nls\""
 
 msgid "anova is only defined for sequences of \"nls\" objects"
 msgstr "anova definita solo per successioni di oggetti \"nls\""
@@ -2444,14 +2443,14 @@ msgstr ""
 
 msgid "cannot compute exact confidence interval with ties"
 msgstr ""
-"impossibile calcolare intervalli di confidenza esatti in presenza di ties"
+"non è possibile calcolare intervalli di confidenza esatti in presenza di ties"
 
 msgid "cannot compute exact p-value with zeroes"
-msgstr "impossibile calcolare p-valu esatti in presenza di zeri"
+msgstr "non è possibile calcolare p-valu esatti in presenza di zeri"
 
 msgid "cannot compute exact confidence interval with zeroes"
 msgstr ""
-"impossibile calcolar eintervalli di confidenza esatti in presenza di zeri"
+"non è possibile calcolare gli intervalli di confidenza esatti in presenza di zeri"
 
 msgid "Requested conf.level not achievable"
 msgstr "Livello di conf.level richiesto non raggiungibile"
@@ -2474,7 +2473,7 @@ msgstr ""
 
 msgid "cannot fit an asymptotic regression model to these data"
 msgstr ""
-"impossibile stimare un modello di regressione asintotico per questi dati"
+"non è possibile stimare un modello di regressione asintotico per questi dati"
 
 msgid "too few observations to fit an asymptotic regression model"
 msgstr ""
