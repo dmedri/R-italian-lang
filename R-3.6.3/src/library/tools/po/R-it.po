@@ -147,7 +147,7 @@ msgid "declared S3 method '%s' not found"
 msgstr "il metodo S3 '%s' è dichiarato ma non trovato"
 
 msgid "cannot check R code installed as image"
-msgstr "impossibile verificare codice R installato come immagine"
+msgstr "non è possibile verificare il codice R installato come immagine"
 
 msgid "parse error in file '%s':"
 msgstr "errore di elaborazione nel file '%s':"
@@ -220,7 +220,7 @@ msgid "Only operators '<=' and '>=' are possible."
 msgstr "Sono possibili solo gli operatori '<=' e '>='."
 
 msgid "Entries with infeasible version number:"
-msgstr "Voci con numero di versione impossibile:"
+msgstr "Voci con numero di versione impraticabile:"
 
 msgid ""
 "Version numbers must be sequences of at least two non-negative integers, "
@@ -381,10 +381,10 @@ msgid "Package detach functions should not call %s."
 msgstr "Le funzioni di detach del pacchetto non dovrebbero chiamare %s."
 
 msgid "unable to create"
-msgstr "impossibile creare"
+msgstr "non è possibile creare"
 
 msgid "unable to write code files"
-msgstr "impossibile scrivere file codice"
+msgstr "non è possibile scrivere file con codice"
 
 msgid "package 'methods' is used but not declared"
 msgstr "il pacchetto 'methods' è utilizzato ma non dichiarato"
@@ -698,7 +698,7 @@ msgid "*** someone has corrupted the Built field in package '%s' ***"
 msgstr "*** qualcuno ha danneggiato il campo Builr nel pacchetto '%s' ***"
 
 msgid "cannot open directory '%s'"
-msgstr "impossibile leggere directory '%s'"
+msgstr "non è possibile leggere la directory '%s'"
 
 msgid ""
 "WARNING: omitting pointless dependence on 'R' without a version requirement"
@@ -721,13 +721,13 @@ msgid "files in '%s' missing from '%s' field:"
 msgstr "i file nel campo '%s' mancano dal campo '%s':"
 
 msgid "unable to create '%s'"
-msgstr "impossibile creare '%s'"
+msgstr "non è possibile creare '%s'"
 
 msgid "unable to copy INDEX to '%s'"
 msgstr "non è possibile copiare INDEX su '%s'"
 
 msgid "cannot create directory '%s'"
-msgstr "impossibile creare directory '%s'"
+msgstr "non è possibile creare directory '%s'"
 
 msgid "processing %s"
 msgstr "elaborazione di %s"
@@ -747,7 +747,7 @@ msgstr ""
 "%s"
 
 msgid "cannot copy '%s' to '%s'"
-msgstr "impossibile copiare '%s' su '%s'"
+msgstr "non è possibile copiare '%s' su '%s'"
 
 msgid "WARNING: malformed 'Depends' field in 'DESCRIPTION'"
 msgstr "AVVERTIMENTO: campo 'Depends' malformato in 'DESCRIPTION'"
