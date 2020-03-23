@@ -1377,7 +1377,7 @@ msgstr "la dimensione di un vettore non può essere infinita"
 #: src/main/builtin.c:51 src/main/builtin.c:59 src/main/builtin.c:950
 #: src/main/sort.c:1401
 msgid "vector size specified is too large"
-msgstr "dimensione troppo grande per il vettore indicato"
+msgstr "dimensione del vettore specificato troppo grande"
 
 #: src/main/builtin.c:84 src/main/builtin.c:93 src/main/builtin.c:315
 #: src/main/builtin.c:348 src/main/builtin.c:405 src/main/builtin.c:419
