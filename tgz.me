@@ -3,7 +3,7 @@
 REL="R-3.6.3"
 DTM=$(date +"%Y%m%d%H%M")
 TAG=$(git tag | sort -V | tail -1 )
-NAM="R-it-$DTM.tgz"
+NAM="R-it-$DTM-$REL-$TAG.tgz"
 
 if [[ -d $REL ]]; then
 	tar zcvf $NAM \
