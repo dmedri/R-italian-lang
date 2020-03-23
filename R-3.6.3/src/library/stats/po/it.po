@@ -925,12 +925,3 @@ msgstr "regola finale non valida per calcolare la mediana di 3: %d"
 #, c-format
 msgid "missing value in last %d observations"
 msgstr "valori mancanti nelle ultime %d osservazioni"
-
-#~ msgid "allocation error in smooth(*, '3RSR')."
-#~ msgstr "errore allocazione memoria in smooth(*, '3RSR')."
-
-#~ msgid "allocation error in smooth(*, '3RSS')."
-#~ msgstr "errore allocazione memoria in smooth(*, '3RSS')."
-
-#~ msgid "allocation error in smooth(*, '3R')."
-#~ msgstr "errore allocazione memoria in smooth(*, '3R')."
