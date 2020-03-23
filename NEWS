@@ -1,11 +1,18 @@
 R-italian-lang
 
-v0.3 (03/21/2020)
- - all translations completed
+v0.4 (03/21/2020) stable
+ - added TRANSLATORS file with some conventions
+ - revisions to fit conventions
+ - new find.terms script (to search terms in .po files)
+ - new tgz.me script (to create a .tgz archive)
+ - new po.roaster ('prepare' script renamed)
+
+v0.3 (03/21/2020) beta2
+ - translations completed
  - contacted R core team members for the merge
 
-v0.2 (03/18/2020)
- - beta1 almost all translations are ready
+v0.2 (03/18/2020) beta1
+ - almost all labels reviewed
 
 v0.1 (03/07/2020)
  - bulk upload from R 3.6.3 available packages
