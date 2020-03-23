@@ -369,7 +369,7 @@ msgid "'initialize' method returned an object of class %s instead of the require
 msgstr "Il metodo 'initialize' ha restituito un oggetto della classe %s invece della classe richiesta %s"
 
 msgid "%d: target \"%s\": chose \"%s\" (others: %s)"
-msgstr "% d: obiettivo \"%s\": scegli \"%s\" (altri: %s)"
+msgstr "%d: obiettivo \"%s\": scegli \"%s\" (altri: %s)"
 
 msgid "Notes: %s."
 msgstr "Note: %s."
