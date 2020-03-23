@@ -330,7 +330,7 @@ msgid "can only handle vector and factor elements"
 msgstr "può unicamente gestire elementi vector e factor"
 
 msgid "invalid factor levels in '%s'"
-msgstr "livelli fattore in '%d' non validi"
+msgstr "livelli fattore in '%s' non validi"
 
 msgid "added factor levels in '%s'"
 msgstr "aggiunti livelli fattore in '%s'"
