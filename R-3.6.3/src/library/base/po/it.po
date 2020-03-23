@@ -1201,7 +1201,7 @@ msgstr "tipo non valido (%s) per 'dimnames' (dev'essere un vettore)"
 #, c-format
 msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr ""
-"la lunghezza di 'dimnames' [%d] non coincide con l'estensione dell'array"
+"la lunghezza di 'dimnames' [%d] non corrisponde con l'estensione dell'array"
 
 #: src/main/attrib.c:1180 src/main/builtin.c:75 src/main/builtin.c:112
 #: src/main/envir.c:1774 src/main/envir.c:1902 src/main/envir.c:1962
