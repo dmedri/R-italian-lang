@@ -489,7 +489,7 @@ msgstr "L'argomento Sx dev'essere un vettore numerico di uno più corto di m[]"
 
 #: nls.c:99
 msgid "'control' must be a list"
-msgstr "'control' deve essere una lista"
+msgstr "'control' dev'essere una lista"
 
 #: nls.c:101
 msgid "'m' must be a list"
@@ -521,7 +521,7 @@ msgstr "convergente"
 
 #: nls.c:290
 msgid "'theta' should be of type character"
-msgstr "'theta' deve essere di tipo character"
+msgstr "'theta' dev'essere di tipo character"
 
 #: nls.c:292 port.c:376
 msgid "use of NULL environment is defunct"
@@ -529,7 +529,7 @@ msgstr "l'utilizzo dell'ambiente NULL è rimosso"
 
 #: nls.c:296
 msgid "'rho' should be an environment"
-msgstr "'rho' deve essere un environment"
+msgstr "'rho' dev'essere un environment"
 
 #: nls.c:299
 msgid "'dir' is not a numeric vector of the correct length"
