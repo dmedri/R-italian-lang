@@ -29,7 +29,7 @@ msgstr "il punto candidato 'optim' ha lunghezza %d e non %d"
 
 #: src/appl/optim.c:136
 msgid "REPORT must be > 0 (method = \"BFGS\")"
-msgstr "REPORT deve esser > 0 (method = \"BFGS\")"
+msgstr "REPORT dev'essere > 0 (method = \"BFGS\")"
 
 #: src/appl/optim.c:147
 msgid "initial value in 'vmmin' is not finite"
@@ -61,15 +61,15 @@ msgstr "L-BFGS-B necessita valori finiti di 'fn'"
 
 #: src/appl/optim.c:741
 msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
-msgstr "trace, REPORT dovrebbe essere >= 0 (method = \"SANN\")"
+msgstr "trace, REPORT dev'essere >= 0 (method = \"SANN\")"
 
 #: src/appl/pretty.c:113
 msgid "Internal(pretty()): very small range.. corrected"
-msgstr "Internal(pretty()): range troppo piccolo.. corretto"
+msgstr "Internal(pretty()): intervallo troppo piccolo.. corretto"
 
 #: src/appl/pretty.c:116
 msgid "Internal(pretty()): very large range.. corrected"
-msgstr "Internal(pretty()): range troppo ampio.. corretto"
+msgstr "Internal(pretty()): intervallo troppo ampio.. corretto"
 
 #: src/gnuwin32/dynload.c:162
 #, c-format
@@ -261,7 +261,7 @@ msgstr "argomento non corretto"
 
 #: src/gnuwin32/extra.c:316
 msgid "don't be silly!: your machine has a 4Gb address limit"
-msgstr "esagerato: la tua macchina ha un limite massimo di indirizzi di 4Gb"
+msgstr "avvertimento: limite indirizzi a 4Gb sulla tua macchina"
 
 #: src/gnuwin32/extra.c:320
 msgid "cannot decrease memory limit: ignored"
@@ -476,12 +476,12 @@ msgstr ""
 #: src/main/subscript.c:432 src/main/subscript.c:472 src/main/subscript.c:686
 #: src/main/subscript.c:726 src/main/subscript.c:874
 msgid "subscript out of bounds"
-msgstr "indice fuori limite"
+msgstr "subscript fuori limite"
 
 #: src/include/Errormsg.h:28
 #, c-format
 msgid "object of type '%s' is not subsettable"
-msgstr "l'oggetto di tipo '%s' non è suddivisibile"
+msgstr "oggetto di tipo '%s' non suddivisibile"
 
 #: src/main/CommandLineArgs.c:171
 msgid "WARNING: no value given for --encoding"
@@ -505,7 +505,7 @@ msgstr "AVVERTIMENTO: valore '%s' non valido: ignorato"
 #: src/main/CommandLineArgs.c:221
 #, c-format
 msgid "WARNING: %s: too large and ignored"
-msgstr "AVVERTIMENTO: %s: tropo grande: ignorato"
+msgstr "AVVERTIMENTO: %s: troppo grande e ignorato"
 
 #: src/main/CommandLineArgs.c:235
 msgid "WARNING: no value given for '--max-ppsize'"
@@ -545,7 +545,7 @@ msgstr ""
 #: src/main/RNG.c:315
 msgid "seed length must be in 0...625; ignored"
 msgstr ""
-"la lunghezza del seme dev'essere nell'intervallo 0...625: verrà ignorata"
+"la lunghezza del seme dev'essere nell'intervallo 0...625: ignorato"
 
 #: src/main/RNG.c:323
 #, c-format
@@ -560,28 +560,26 @@ msgstr "'.Random.seed' è un argomento mancante senza valori predefiniti"
 #, c-format
 msgid "'.Random.seed' is not an integer vector but of type '%s', so ignored"
 msgstr ""
-"'.Random.seed' anziché essere un vettore di numeri interi è di tipo '%s', "
-"per questo viene ignorato"
+"'.Random.seed' non è un vettore di interi ma di tipo '%s', ignorato"
 
 #: src/main/RNG.c:361
 msgid "'.Random.seed[1]' is not a valid integer, so ignored"
 msgstr ""
-"'.Random.seed[1]' non è un numero intero valido, per questo viene ignorato"
+"'.Random.seed[1]' non è un numero intero valido, ignorato"
 
 #: src/main/RNG.c:367
 msgid "'.Random.seed[1]' is not a valid Normal type, so ignored"
 msgstr ""
-"'.Random.seed[1]' non è un valido tipo Normal, per questo viene ignorato"
+"'.Random.seed[1]' non è un valido tipo Normal, ignorato"
 
 #: src/main/RNG.c:381
 msgid "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
 msgstr ""
-"'.Random.seed[1] = 5' ma senza generatore passato dall'utente, per questo "
-"viene ignorato"
+"'.Random.seed[1] = 5' ma senza generatore passato dall'utente, ignorato"
 
 #: src/main/RNG.c:386
 msgid "'.Random.seed[1]' is not a valid RNG kind so ignored"
-msgstr "'.Random.seed[1]' non è un valido tipo RNG, per questo viene ignorato"
+msgstr "'.Random.seed[1]' non è un valido tipo RNG, ignorato"
 
 #: src/main/RNG.c:414
 msgid "'.Random.seed' has wrong length"
@@ -1446,7 +1444,7 @@ msgstr "specificazione di '%s' non valida"
 
 #: src/main/builtin.c:589
 msgid "non-positive 'fill' argument will be ignored"
-msgstr "l'argumento 'fill' non-positivo sarà ignorato"
+msgstr "l'argumento non-positivo 'fill' sarà ignorato"
 
 #: src/main/builtin.c:663
 #, c-format
@@ -4589,7 +4587,7 @@ msgstr "valore non valido per .Method"
 
 #: src/main/objects.c:793
 msgid "Incompatible methods ignored"
-msgstr "Ignorati metodi non compatibili"
+msgstr "Metodi non compatibili ignorati"
 
 #: src/main/objects.c:850 src/main/objects.c:857
 msgid "no method to invoke"
@@ -4630,7 +4628,7 @@ msgstr "non riesco a trovare una versione generica della funzione \"%s\""
 msgid ""
 "'standardGeneric' called without 'methods' dispatch enabled (will be ignored)"
 msgstr ""
-"chiamata 'standardGeneric' senza dispatch 'methods' attivo (sarà ignorato)"
+"chiamata 'standardGeneric' senza dispatch di 'methods' attivo (sarà ignorato)"
 
 #: src/main/objects.c:1257
 msgid "argument to 'standardGeneric' must be a non-empty character string"
@@ -5187,7 +5185,7 @@ msgid ""
 "all but the first element will be ignored"
 msgstr ""
 "l'argomento dev'essere un vettore di caratteri di lunghezza 1\n"
-" tutti tranne il primo elemento saranno ignorati"
+"saranno ignorati tutti gli elementi eccetto il primo"
 
 #: src/main/raw.c:53 src/main/raw.c:90 src/main/raw.c:113
 msgid "argument 'x' must be a raw vector"
@@ -5657,7 +5655,7 @@ msgstr "nessun metodo di ripristino disponibile"
 
 #: src/main/serialize.c:873
 msgid "names in persistent strings are currently ignored"
-msgstr "i nomi in stringhe persistenti saranno al momento ignorati"
+msgstr "i nomi nelle stringhe persistenti sono al momento ignorati"
 
 #: src/main/serialize.c:1060
 #, c-format
@@ -5906,7 +5904,7 @@ msgstr "il primo argomento dev'essere un vettore"
 
 #: src/main/split.c:41
 msgid "second argument must be a factor"
-msgstr "il secondo argomento dev'essere di tipo factor"
+msgstr "il secondo argomento dev'essere un fattore"
 
 #: src/main/split.c:46
 msgid "group length is 0 but data length > 0"
@@ -5985,7 +5983,7 @@ msgstr "formato non valido '%s'; %s"
 #: src/main/sprintf.c:356
 #, c-format
 msgid "use format %d or %i for logical objects"
-msgstr "utilizzare formato %d o %i per oggetti di tipo logical"
+msgstr "utilizzare formato %d o %i per oggetti logici"
 
 #: src/main/sprintf.c:370
 #, c-format
@@ -7634,7 +7632,7 @@ msgstr "Sys.info() non è implementato su questo sistema"
 #: src/unix/system.c:348
 #, c-format
 msgid "WARNING: --gui or -g without value ignored"
-msgstr "AVVERTIMENTO: --gui o -g senza valore vengono ignorate"
+msgstr "AVVERTIMENTO: --gui o -g senza valore sono ignorate"
 
 #: src/unix/system.c:366
 #, c-format
