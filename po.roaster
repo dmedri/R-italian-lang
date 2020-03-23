@@ -4,7 +4,8 @@ REL="R-3.6.3"
 
 ############# don't change anything below this line ##############
 RCO="$HOME/.roaster"
-RSR="$RCO/src/$REL/src/library"
+RRR="$RCO/src/$REL"
+RSR="$RRR/src/library"
 
 echo -e "This script require an existing ~/.roaster directory."
 echo -e "(informations: https://github.com/dmedri/roaster/)"
@@ -143,4 +144,9 @@ if [[ -d $RCO ]]; then
 
 	# Copy all .mo in the right place
 	cp $RSR/*/inst/po/it/LC_MESSAGES/*.mo $RSR/translations/inst/it/LC_MESSAGES/
+
+	echo -e "\n\nThe ultimate check in your src directory:"
+	echo -e "make update-pkg-po update-RGui\n\n"
+	
+	cd $RRR/po && make update-pkg-po update-RGui
 fi
