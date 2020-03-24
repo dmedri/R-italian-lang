@@ -1321,7 +1321,7 @@ msgid "invalid package layout"
 msgstr "layout pacchetto non valido"
 
 msgid "file '%s' is not in valid DCF format"
-msgstr "il fil e'%s' non è in formato DCF valido"
+msgstr "il file '%s' non è in formato DCF valido"
 
 msgid "contains a blank line"
 msgstr "contiene una linea vuota"
