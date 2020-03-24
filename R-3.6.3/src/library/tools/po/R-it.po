@@ -1129,7 +1129,7 @@ msgid "cannot find 'startxref' keyword"
 msgstr "non è possibile trovare la keyword 'startxref'"
 
 msgid "cannot find xref table"
-msgstr "non è possibile trovare la ltabella xref"
+msgstr "non è possibile trovare la tabella xref"
 
 msgid "cannot read xref table"
 msgstr "non è possibile leggere la tabella xref"
