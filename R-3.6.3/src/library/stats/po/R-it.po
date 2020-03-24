@@ -1648,7 +1648,7 @@ msgid "'data' must be a data.frame, not a matrix or an array"
 msgstr "'data' dev'essere un data.frame, non una matrice o un array"
 
 msgid "variable '%s' is not a factor"
-msgstr "la variabile '%s' non è di tipo factor"
+msgstr "la variabile '%s' non è un fattore"
 
 msgid "'offset' must be numeric"
 msgstr "'offset' dev'essere numerico"
@@ -2397,7 +2397,7 @@ msgid "only replacement of elements is allowed"
 msgstr "solo la sostituzione degli elementi è ammessa"
 
 msgid "'model' must be list"
-msgstr "'model' dev'essere di tipo list"
+msgstr "'model' dev'essere una lista"
 
 msgid "'n' must be strictly positive"
 msgstr "'n' dev'essere strettamente positivo"
