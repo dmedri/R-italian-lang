@@ -6,6 +6,8 @@ REL="R-3.6.3"
 RCO="$HOME/.roaster"
 RRR="$RCO/src/$REL"
 RSR="$RRR/src/library"
+RTR="$RRR/library/translations/it/LC_MESSAGES/"
+RPP="./packages/src/library"
 
 echo -e "This script require an existing ~/.roaster directory."
 echo -e "(informations: https://github.com/dmedri/roaster/)"
@@ -145,8 +147,73 @@ if [[ -d $RCO ]]; then
 	# Copy all .mo in the right place
 	cp $RSR/*/inst/po/it/LC_MESSAGES/*.mo $RSR/translations/inst/it/LC_MESSAGES/
 
-	echo -e "\n\nThe ultimate check in your src directory:"
-	echo -e "make update-pkg-po update-RGui\n\n"
+	#
+	# Packages
+	#
+
+	echo -e "\nExternal packages\n"
+
+	# package 'boot'
+	echo -e "\nboot:"
+	msgfmt -c --statistics -o $RTR/R-boot.mo $RPP/boot/po/R-it.po
 	
-	cd $RRR/po && make update-pkg-po update-RGui
+	# package 'class'
+	echo -e "\nclass"
+	msgfmt -c --statistics -o $RTR/R-class.mo $RPP/class/po/R-it.po
+
+	# package 'cluster'
+	echo -e "\ncluster"
+	msgfmt -c --statistics -o $RTR/cluster.mo $RPP/cluster/po/it.po
+	msgfmt -c --statistics -o $RTR/R-cluster.mo $RPP/cluster/po/R-it.po
+
+	# package 'foreign'
+	echo -e "\nforeign"
+	msgfmt -c --statistics -o $RTR/foreign.mo $RPP/foreign/po/it.po
+	msgfmt -c --statistics -o $RTR/R-foreign.mo $RPP/foreign/po/R-it.po
+
+	# package 'KernSmooth'
+	echo -e "\nKernSmooth"
+	msgfmt -c --statistics -o $RTR/R-KernSmooth.mo $RPP/KernSmooth/po/R-it.po
+
+	# package 'lattice'
+	echo -e "\nlattice"
+	msgfmt -c --statistics -o $RTR/R-lattice.mo $RPP/lattice/po/R-it.po
+
+	# package 'MASS'
+	echo -e "\nMASS"
+	msgfmt -c --statistics -o $RTR/R-MASS.mo $RPP/MASS/po/R-it.po
+
+	# package 'Matrix'
+	echo -e "\nMatrix"
+	msgfmt -c --statistics -o $RTR/Matrix.mo $RPP/Matrix/po/it.po
+	msgfmt -c --statistics -o $RTR/R-Matrix.mo $RPP/Matrix/po/R-it.po
+
+	# package 'mgcv'
+	echo -e "\nmgcv"
+	msgfmt -c --statistics -o $RTR/mgcv.mo $RPP/mgcv/po/it.po
+	msgfmt -c --statistics -o $RTR/R-mgcv.mo $RPP/mgcv/po/R-it.po
+
+	# package 'nlme'
+	echo -e "\nnlme"
+	msgfmt -c --statistics -o $RTR/nlme.mo $RPP/nlme/po/it.po
+	msgfmt -c --statistics -o $RTR/R-nlme.mo $RPP/nlme/po/R-it.po
+
+	# package 'nnet'
+	echo -e "\nnnet"
+	msgfmt -c --statistics -o $RTR/R-nnet.mo $RPP/nnet/po/R-it.po
+
+	# package 'rpart'
+	echo -e "\nrpart"
+	msgfmt -c --statistics -o $RTR/rpart.mo $RPP/rpart/po/it.po
+	msgfmt -c --statistics -o $RTR/R-rpart.mo $RPP/rpart/po/R-it.po
+
+	# package 'spatial'
+	echo -e "\nspatial"
+	msgfmt -c --statistics -o $RTR/R-spatial.mo $RPP/spatial/po/R-it.po
+
+	#
+	# Last check
+	#
+	#cd $RRR/po && make update-pkg-po update-RGui
+
 fi
