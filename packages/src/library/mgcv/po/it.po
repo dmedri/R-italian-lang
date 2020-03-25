@@ -1,0 +1,63 @@
+# R Italian translation                                                                    
+# This file is distributed under the same license as the R package.
+# Copyright (C) The R Foundation.
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mgcv 1.8-29\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+
+msgid ""
+"A term has fewer unique covariate combinations than specified maximum "
+"degrees of freedom"
+msgstr ""
+
+msgid "An out of bound write to matrix has occurred!"
+msgstr ""
+
+msgid "Attempt to invert() non-square matrix"
+msgstr ""
+
+msgid "ERROR in addconQT."
+msgstr ""
+
+msgid "Failed to initialize memory for matrix."
+msgstr ""
+
+msgid "INTEGRITY PROBLEM in the extant matrix list."
+msgstr ""
+
+msgid "Incompatible matrices in matmult."
+msgstr ""
+
+msgid "QPCLS - Rank deficiency in model"
+msgstr ""
+
+msgid "Singular Matrix passed to invert()"
+msgstr ""
+
+msgid "Target matrix too small in mcopy"
+msgstr ""
+
+msgid "You are trying to check matrix integrity without defining RANGECHECK."
+msgstr ""
+
+msgid "You must have 2m>d for a thin plate spline."
+msgstr ""
+
+msgid "magic requires smoothing parameter starting values if L supplied"
+msgstr ""
+
+msgid "magic, the gcv/ubre optimizer, failed to converge after 400 iterations."
+msgstr ""
