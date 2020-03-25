@@ -19,78 +19,78 @@ msgstr ""
 "PO-Revision-Date: \n"
 
 msgid "'scope' is not a subset of term labels"
-msgstr ""
+msgstr "'scope' non è un sottoinsieme di etichette di termini"
 
 msgid "'softmax = TRUE' requires at least two response categories"
-msgstr ""
+msgstr "'softmax = TRUE' richiede almeno due categorie di risposta"
 
 msgid "anova is not implemented for a single \"multinom\" object"
-msgstr ""
+msgstr "anova non è implementato per singolo oggetto 'multinom'"
 
 msgid "dims of 'x' and 'y' must match"
-msgstr ""
+msgstr "le dimensioni di 'x' e 'y' devono corrispondere"
 
 msgid "entropy fit only for logistic units"
-msgstr ""
+msgstr "entropia adatta solo per unità logistiche"
 
 msgid "group %s is empty"
 msgid_plural "groups %s are empty"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "il gruppo %s è vuoto"
+msgstr[1] "i gruppi %s sono vuoti"
 
 msgid "inappropriate fit for class"
-msgstr ""
+msgstr "adattamento inappropriato per la classe"
 
 msgid "incorrect length of 'mask'"
-msgstr ""
+msgstr "lunghezza di 'mask' incorretta"
 
 msgid "invalid weights vector"
-msgstr ""
+msgstr "vettore dei pesi non valido"
 
 msgid "missing values in 'x'"
-msgstr ""
+msgstr "valori mancanti in 'x'"
 
 msgid "missing values in 'y'"
-msgstr ""
+msgstr "valori mancanti in 'y'"
 
 msgid "models were not all fitted to the same size of dataset"
-msgstr ""
+msgstr "i modelli non sono tutti adattati alla medesima dimensione del dataset"
 
 msgid "ncol(offset) is wrong"
-msgstr ""
+msgstr "ncol(offset) sbagliato"
 
 msgid "need two or more classes to fit a multinom model"
-msgstr ""
+msgstr "richiesti due o più classi per adattare un modello multinom"
 
 msgid "no terms in 'scope' for adding to object"
-msgstr ""
+msgstr "nessun termine in 'scope' per l'aggiunta all'oggetto"
 
 msgid "no weights to fit"
-msgstr ""
+msgstr "nessun peso adatto"
 
 msgid "not a \"multinom\" fit"
-msgstr ""
+msgstr "non è un adattamento \"multinom\""
 
 msgid "not a legitimate neural net fit"
-msgstr ""
+msgstr "non è una legittimo adattamento con rete neurale"
 
 msgid "not all objects are of class \"multinom\""
-msgstr ""
+msgstr "non tutti gli oggetti sono di classe \"multinom\""
 
 msgid "nrows of 'x' and 'y' must match"
-msgstr ""
+msgstr "il numero di righe di 'x' e 'y' devono corrispondere"
 
 msgid "number of rows in use has changed: remove missing values?"
-msgstr ""
+msgstr "il numero di righe utilizzate è cambiato: rimuovere i valori mancanti?"
 
 msgid "object not of class \"nnet\""
-msgstr ""
+msgstr "l'oggetto non è di classe \"nnet\""
 
 msgid "some case has no observations"
-msgstr ""
+msgstr "alcuni casi non hanno osservazioni"
 
 msgid "too many (%d) weights"
-msgstr ""
+msgstr "troppi (%d) pesi"
 
 msgid "weights vector of incorrect length"
-msgstr ""
+msgstr "vettore dei pesi di lunghezza incorretta"
