@@ -628,7 +628,7 @@ msgid "--- Please select a CRAN mirror for use in this session ---"
 msgstr "--- Per piacere, seleziona un mirror CRAN per la sessione ---"
 
 msgid "trying to use CRAN without setting a mirror"
-msgstr "utilizzo di CRAN senza un mirror impostato"
+msgstr "CRAN sarà utilizzato senza l'impostazione di un sito mirror"
 
 msgid "'download.file()' error code '%d'"
 msgstr "'download.file()' codice errore '%d'"
