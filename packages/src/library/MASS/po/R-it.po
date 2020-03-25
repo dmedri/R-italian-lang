@@ -23,10 +23,10 @@ msgid ""
 msgstr ""
 
 msgid "\"gradient\" attribute missing"
-msgstr ""
+msgstr "attributo \"gradient\" mancante"
 
 msgid "\"hessian\" attribute missing"
-msgstr ""
+msgstr "attributo \"hessian\" mancante"
 
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
@@ -48,7 +48,7 @@ msgid "'W' is not positive definite"
 msgstr ""
 
 msgid "'X' must be a numeric or complex matrix"
-msgstr ""
+msgstr "'X' dev'essere una matrice numerica o complessa"
 
 msgid "'anova' is not available for PQL fits"
 msgstr ""
@@ -57,43 +57,43 @@ msgid "'breaks' do not cover the data"
 msgstr ""
 
 msgid "'breaks' must be strictly increasing"
-msgstr ""
+msgstr "'breaks' dev'essere strettamente crescente"
 
 msgid "'c' must be at least 1.548 and has been ignored"
 msgstr ""
 
 msgid "'center' is not the right length"
-msgstr ""
+msgstr "'center' non è della lunghezza giusta"
 
 msgid "'coef' must define a contrast, i.e., sum to 0"
-msgstr ""
+msgstr "'coef' deve definire un contrasto, e.g., sommare a 0"
 
 msgid "'coef' must have same length as 'contrast.obj'"
-msgstr ""
+msgstr "'coef' deve avere la stessa lunghezza di 'contrast.obj'"
 
 msgid "'data' has no 'terms' attribute"
-msgstr ""
+msgstr "'data' non ha l'attributo 'terms'"
 
 msgid "'densfun' must be supplied as a function or name"
-msgstr ""
+msgstr "'densfun' dev'essere passato come una funzione o nome"
 
 msgid "'dropterm' not implemented for \"mlm\" fits"
 msgstr ""
 
 msgid "'family' not recognized"
-msgstr ""
+msgstr "'family' non riconosciuta"
 
 msgid "'h' must be strictly positive"
-msgstr ""
+msgstr "'h' dev'essere strettamente positivo"
 
 msgid "'init' method is unknown"
-msgstr ""
+msgstr "il metodo 'init' è sconosciuto"
 
 msgid "'lqs' failed: all the samples were singular"
 msgstr ""
 
 msgid "'method' is unknown"
-msgstr ""
+msgstr "'method' è sconosciuto"
 
 msgid "'nbins' must result in a positive integer"
 msgstr ""
@@ -102,22 +102,22 @@ msgid "'newdata' is not of the right length"
 msgstr ""
 
 msgid "'nu' must exceed 2"
-msgstr ""
+msgstr "'nu' deve eccedere 2"
 
 msgid "'object' has no 'call' component.  Updating not possible"
 msgstr ""
 
 msgid "'prior' is of incorrect length"
-msgstr ""
+msgstr "'prior' è di lunghezza incorretta"
 
 msgid "'ps' must be at least 'p'"
-msgstr ""
+msgstr "'ps' dev'essere almeno 'p'"
 
 msgid "'quantile' must be at least %d"
-msgstr ""
+msgstr "'quantile' dev'essere almeno %d"
 
 msgid "'quantile' must be at most %d"
-msgstr ""
+msgstr "'quantile' dev'essere al massimo %d"
 
 msgid "'rlm' failed to converge in %d steps"
 msgstr ""
@@ -126,16 +126,16 @@ msgid "'start' is not of the correct length"
 msgstr ""
 
 msgid "'start' must be a named list"
-msgstr ""
+msgstr "'start' dev'essere una lista nominata"
 
 msgid "'start' specifies names which are not arguments to 'densfun'"
 msgstr ""
 
 msgid "'theta' must be given"
-msgstr ""
+msgstr "'theta' dev'essere passato"
 
 msgid "'theta' must be specified"
-msgstr ""
+msgstr "'theta' dev'essere specificato"
 
 msgid "'uin' is too large to fit plot in"
 msgstr ""
@@ -150,10 +150,10 @@ msgid "'x' contains missing or infinite values"
 msgstr ""
 
 msgid "'x' has length zero"
-msgstr ""
+msgstr "'x' ha lunghezza zero"
 
 msgid "'x' is not a matrix"
-msgstr ""
+msgstr "'x' non è una matrice"
 
 msgid "'x' is probably collinear"
 msgstr ""
@@ -165,7 +165,7 @@ msgid "'x' must be a non-empty numeric vector"
 msgstr ""
 
 msgid "'y' must be a matrix"
-msgstr ""
+msgstr "'y' dev'essere una matrice"
 
 msgid "0 df terms are changing AIC"
 msgstr ""
@@ -183,7 +183,7 @@ msgid "Exponential values must be >= 0"
 msgstr ""
 
 msgid "F test assumes 'quasi%s' family"
-msgstr ""
+msgstr "Il test F assume una famiglia 'quasi%s'"
 
 msgid "Infs not allowed in 'd'"
 msgstr ""
@@ -268,6 +268,7 @@ msgstr ""
 
 msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
 msgstr ""
+"le colonne di 'contrast.obj' deve definire un contrasto (sommare a zero)"
 
 msgid "data vectors must be the same length"
 msgstr ""
@@ -280,12 +281,13 @@ msgstr ""
 
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr ""
+"le distanze devono essere il risultato di 'dist' o una matrice quadrata"
 
 msgid "down"
 msgstr ""
 
 msgid "each element of '%s' must be logical"
-msgstr ""
+msgstr "ogni elemento di '%s' dev'essere logico"
 
 msgid "empty row or column in table"
 msgstr ""
@@ -294,7 +296,7 @@ msgid "estimate truncated at zero"
 msgstr ""
 
 msgid "extra arguments discarded"
-msgstr ""
+msgstr "argomenti extra ignorati"
 
 msgid "factors in 'newdata' do not match those for 'object'"
 msgstr ""
@@ -310,8 +312,8 @@ msgstr ""
 
 msgid "group %s is empty"
 msgid_plural "groups %s are empty"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "il gruppo %s è vuoto"
+msgstr[1] "i gruppi %s sono vuoti"
 
 msgid "group means are numerically identical"
 msgstr ""
@@ -320,7 +322,7 @@ msgid "higher-way table requested.  Only 2-way allowed"
 msgstr ""
 
 msgid "incompatible arguments"
-msgstr ""
+msgstr "argomenti incompatibili"
 
 msgid "infinite, NA or NaN values in 'x'"
 msgstr ""
@@ -329,7 +331,7 @@ msgid "initial configuration must be complete"
 msgstr ""
 
 msgid "invalid 'prior'"
-msgstr ""
+msgstr "'prior' non valido"
 
 msgid "invalid 'test.vec'"
 msgstr ""
@@ -368,7 +370,7 @@ msgid "length of 'wt' must equal number of observations"
 msgstr ""
 
 msgid "minimum occurred at one end of the range"
-msgstr ""
+msgstr "minimo realizzato in uno degli estremi del range"
 
 msgid "missing or infinite values are not allowed"
 msgstr ""
@@ -384,6 +386,7 @@ msgstr ""
 
 msgid "models were not all fitted to the same size of dataset"
 msgstr ""
+"i modelli non sono tutti adattati alla medesima dimensione del dataset"
 
 msgid "need positive values to fit a log-Normal"
 msgstr ""
@@ -398,7 +401,7 @@ msgid "negative values not allowed for the negative binomial family"
 msgstr ""
 
 msgid "negative weights not allowed"
-msgstr ""
+msgstr "pesi negativi non ammessi"
 
 msgid "no 'addterm' method implemented for \"mlm\" models"
 msgstr ""
@@ -407,13 +410,13 @@ msgid "no positive weights"
 msgstr ""
 
 msgid "no solution in the specified range of bandwidths"
-msgstr ""
+msgstr "non ci sono soluzioni nel range di badwidth specificato"
 
 msgid "no terms in scope"
-msgstr ""
+msgstr "scope senza termini"
 
 msgid "no terms in scope for adding to object"
-msgstr ""
+msgstr "scope senza termini da aggiungere all'oggetto"
 
 msgid "not a \"polr\" object"
 msgstr ""
@@ -432,6 +435,7 @@ msgstr ""
 
 msgid "number of rows in use has changed: remove missing values?"
 msgstr ""
+"il numero di righe utilizzate è cambiato: rimuovere i valori mancanti?"
 
 msgid "object not of class \"lda\""
 msgstr ""
@@ -462,6 +466,8 @@ msgstr ""
 msgid ""
 "profiling has found a better solution, so original fit had not converged"
 msgstr ""
+"la profilazione ha trovato una soluzione migliore, quindi la stima "
+"originale non converge"
 
 msgid "rank = 0: variables are numerically constant"
 msgstr ""
@@ -482,7 +488,7 @@ msgid "response variable must be positive"
 msgstr ""
 
 msgid "scope is not a subset of term labels"
-msgstr ""
+msgstr "scope non è un sottoinsieme delle etichette dei termini"
 
 msgid "some group is too small for 'qda'"
 msgstr ""
@@ -497,7 +503,7 @@ msgid "tests made without re-estimating 'theta'"
 msgstr ""
 
 msgid "the contrast defined is empty (has no TRUE elements)"
-msgstr ""
+msgstr "il contrasto definito è vuoto (non ha elementi TRUE)"
 
 msgid "theta ="
 msgstr ""
@@ -525,8 +531,8 @@ msgstr ""
 
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "utilizzo la riga %d/%d da una stima combinata"
+msgstr[1] "utilizzo le righe %d/%d da una stima combinata"
 
 msgid "variable %s appears to be constant within groups"
 msgid_plural "variables %s appear to be constant within groups"
