@@ -1,0 +1,549 @@
+# This file is distributed under the same license as the R package.
+# Copyright (C) The R Foundation.
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: MASS 7.3-49\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+
+msgid ""
+"\"%s\" link not available for negative binomial family; available links are "
+"\"identity\", \"log\" and \"sqrt\""
+msgstr ""
+
+msgid "\"gradient\" attribute missing"
+msgstr ""
+
+msgid "\"hessian\" attribute missing"
+msgstr ""
+
+msgid "%d missing observation deleted"
+msgid_plural "%d missing observations deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%d row with zero weights not counted"
+msgid_plural "%d rows with zero weights not counted"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%s does not have both 'qr' and 'y' components"
+msgstr ""
+
+msgid "'Sigma' is not positive definite"
+msgstr ""
+
+msgid "'W' is not positive definite"
+msgstr ""
+
+msgid "'X' must be a numeric or complex matrix"
+msgstr ""
+
+msgid "'anova' is not available for PQL fits"
+msgstr ""
+
+msgid "'breaks' do not cover the data"
+msgstr ""
+
+msgid "'breaks' must be strictly increasing"
+msgstr ""
+
+msgid "'c' must be at least 1.548 and has been ignored"
+msgstr ""
+
+msgid "'center' is not the right length"
+msgstr ""
+
+msgid "'coef' must define a contrast, i.e., sum to 0"
+msgstr ""
+
+msgid "'coef' must have same length as 'contrast.obj'"
+msgstr ""
+
+msgid "'data' has no 'terms' attribute"
+msgstr ""
+
+msgid "'densfun' must be supplied as a function or name"
+msgstr ""
+
+msgid "'dropterm' not implemented for \"mlm\" fits"
+msgstr ""
+
+msgid "'family' not recognized"
+msgstr ""
+
+msgid "'h' must be strictly positive"
+msgstr ""
+
+msgid "'init' method is unknown"
+msgstr ""
+
+msgid "'lqs' failed: all the samples were singular"
+msgstr ""
+
+msgid "'method' is unknown"
+msgstr ""
+
+msgid "'nbins' must result in a positive integer"
+msgstr ""
+
+msgid "'newdata' is not of the right length"
+msgstr ""
+
+msgid "'nu' must exceed 2"
+msgstr ""
+
+msgid "'object' has no 'call' component.  Updating not possible"
+msgstr ""
+
+msgid "'prior' is of incorrect length"
+msgstr ""
+
+msgid "'ps' must be at least 'p'"
+msgstr ""
+
+msgid "'quantile' must be at least %d"
+msgstr ""
+
+msgid "'quantile' must be at most %d"
+msgstr ""
+
+msgid "'rlm' failed to converge in %d steps"
+msgstr ""
+
+msgid "'start' is not of the correct length"
+msgstr ""
+
+msgid "'start' must be a named list"
+msgstr ""
+
+msgid "'start' specifies names which are not arguments to 'densfun'"
+msgstr ""
+
+msgid "'theta' must be given"
+msgstr ""
+
+msgid "'theta' must be specified"
+msgstr ""
+
+msgid "'uin' is too large to fit plot in"
+msgstr ""
+
+msgid "'use.start' cannot be used with R's version of 'glm'"
+msgstr ""
+
+msgid "'x' and 'y' must have the same number of rows"
+msgstr ""
+
+msgid "'x' contains missing or infinite values"
+msgstr ""
+
+msgid "'x' has length zero"
+msgstr ""
+
+msgid "'x' is not a matrix"
+msgstr ""
+
+msgid "'x' is probably collinear"
+msgstr ""
+
+msgid "'x' is singular: singular fits are not implemented in 'rlm'"
+msgstr ""
+
+msgid "'x' must be a non-empty numeric vector"
+msgstr ""
+
+msgid "'y' must be a matrix"
+msgstr ""
+
+msgid "0 df terms are changing AIC"
+msgstr ""
+
+msgid "AIC is -infinity for this model, so 'stepAIC' cannot proceed"
+msgstr ""
+
+msgid "AIC is not defined for this model, so 'stepAIC' cannot proceed"
+msgstr ""
+
+msgid "AIC undefined for REML fit"
+msgstr ""
+
+msgid "Exponential values must be >= 0"
+msgstr ""
+
+msgid "F test assumes 'quasi%s' family"
+msgstr ""
+
+msgid "Infs not allowed in 'd'"
+msgstr ""
+
+msgid "Initial estimate: %s"
+msgstr ""
+
+msgid "Initial fit:"
+msgstr ""
+
+msgid "Initial value for 'theta': %f"
+msgstr ""
+
+msgid "Iter. %d Alpha: %s"
+msgstr ""
+
+msgid "Parameter:"
+msgstr ""
+
+msgid "Probable convergence failure"
+msgstr ""
+
+msgid "Re-fitting to get Hessian"
+msgstr ""
+
+msgid "Response variable must be positive after additions"
+msgstr ""
+
+msgid "Waiting for profiling to be done..."
+msgstr ""
+
+msgid "Weibull values must be > 0"
+msgstr ""
+
+msgid "all frequencies are zero"
+msgstr ""
+
+msgid "all variables must be factors"
+msgstr ""
+
+msgid "alternation limit reached"
+msgstr ""
+
+msgid "an initial configuration must be supplied if there are NAs in 'd'"
+msgstr ""
+
+msgid "an initial configuration must be supplied with NA/Infs in 'd'"
+msgstr ""
+
+msgid "an intercept is needed and assumed"
+msgstr ""
+
+msgid "anova is not implemented for a single \"polr\" object"
+msgstr ""
+
+msgid "at least %d cases are needed"
+msgstr ""
+
+msgid "at least 3 distinct 'x' values are needed"
+msgstr ""
+
+msgid "at least one column has IQR 0"
+msgstr ""
+
+msgid "attempt to find suitable starting values failed"
+msgstr ""
+
+msgid "bandwidths must be strictly positive"
+msgstr ""
+
+msgid "biplot is only possible if nf >= 2"
+msgstr ""
+
+msgid "cannot estimate scale: MAD is zero for this sample"
+msgstr ""
+
+msgid "cannot have leave-one-out CV with 'newdata'"
+msgstr ""
+
+msgid "cannot use leave-one-out CV with method %s"
+msgstr ""
+
+msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
+msgstr ""
+
+msgid "data vectors must be the same length"
+msgstr ""
+
+msgid "design appears to be rank-deficient, so dropping some coefs"
+msgstr ""
+
+msgid "dim(W) is not correct"
+msgstr ""
+
+msgid "distances must be result of 'dist' or a square matrix"
+msgstr ""
+
+msgid "down"
+msgstr ""
+
+msgid "each element of '%s' must be logical"
+msgstr ""
+
+msgid "empty row or column in table"
+msgstr ""
+
+msgid "estimate truncated at zero"
+msgstr ""
+
+msgid "extra arguments discarded"
+msgstr ""
+
+msgid "factors in 'newdata' do not match those for 'object'"
+msgstr ""
+
+msgid "formula specifies no response"
+msgstr ""
+
+msgid "frequency table is %d-dimensional"
+msgstr ""
+
+msgid "gamma values must be >= 0"
+msgstr ""
+
+msgid "group %s is empty"
+msgid_plural "groups %s are empty"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "group means are numerically identical"
+msgstr ""
+
+msgid "higher-way table requested.  Only 2-way allowed"
+msgstr ""
+
+msgid "incompatible arguments"
+msgstr ""
+
+msgid "infinite, NA or NaN values in 'x'"
+msgstr ""
+
+msgid "initial configuration must be complete"
+msgstr ""
+
+msgid "invalid 'prior'"
+msgstr ""
+
+msgid "invalid 'test.vec'"
+msgstr ""
+
+msgid "invalid initial configuration"
+msgstr ""
+
+msgid "invalid length(d)"
+msgstr ""
+
+msgid "invalid number of levels"
+msgstr ""
+
+msgid "invalid row(x)"
+msgstr ""
+
+msgid "invalid size"
+msgstr ""
+
+msgid "invalid table specification"
+msgstr ""
+
+msgid "iteration %d"
+msgstr ""
+
+msgid "iteration limit reached"
+msgstr ""
+
+msgid "iteration limit reached near 'x = %f'"
+msgstr ""
+
+msgid "length of 'weights' must equal number of observations"
+msgstr ""
+
+msgid "length of 'wt' must equal number of observations"
+msgstr ""
+
+msgid "minimum occurred at one end of the range"
+msgstr ""
+
+msgid "missing or infinite values are not allowed"
+msgstr ""
+
+msgid "missing or infinite values in 'x'"
+msgstr ""
+
+msgid "missing or infinite values in the data are not allowed"
+msgstr ""
+
+msgid "missing values are not allowed"
+msgstr ""
+
+msgid "models were not all fitted to the same size of dataset"
+msgstr ""
+
+msgid "need positive values to fit a log-Normal"
+msgstr ""
+
+msgid "negative 'weights' value"
+msgstr ""
+
+msgid "negative or non-integer entries in table"
+msgstr ""
+
+msgid "negative values not allowed for the negative binomial family"
+msgstr ""
+
+msgid "negative weights not allowed"
+msgstr ""
+
+msgid "no 'addterm' method implemented for \"mlm\" models"
+msgstr ""
+
+msgid "no positive weights"
+msgstr ""
+
+msgid "no solution in the specified range of bandwidths"
+msgstr ""
+
+msgid "no terms in scope"
+msgstr ""
+
+msgid "no terms in scope for adding to object"
+msgstr ""
+
+msgid "not a \"polr\" object"
+msgstr ""
+
+msgid "not all objects are of class \"negbin\""
+msgstr ""
+
+msgid "not all objects are of class \"polr\""
+msgstr ""
+
+msgid "not enough non-missing data"
+msgstr ""
+
+msgid "nrow(x) and length(grouping) are different"
+msgstr ""
+
+msgid "number of rows in use has changed: remove missing values?"
+msgstr ""
+
+msgid "object not of class \"lda\""
+msgstr ""
+
+msgid "object not of class \"qda\""
+msgstr ""
+
+msgid "only %d set, so all sets will be tried"
+msgid_plural "only %d sets, so all sets will be tried"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "only 'REML = FALSE' is implemented"
+msgstr ""
+
+msgid "only Chi-squared LR tests are implemented"
+msgstr ""
+
+msgid "only finite values are allowed in 'lims'"
+msgstr ""
+
+msgid "optimization failed"
+msgstr ""
+
+msgid "package 'nlme' is essential"
+msgstr ""
+
+msgid ""
+"profiling has found a better solution, so original fit had not converged"
+msgstr ""
+
+msgid "rank = 0: variables are numerically constant"
+msgstr ""
+
+msgid "rank deficiency in group %s"
+msgstr ""
+
+msgid "regression apparently linear"
+msgstr ""
+
+msgid "response must be a factor"
+msgstr ""
+
+msgid "response must have 3 or more levels"
+msgstr ""
+
+msgid "response variable must be positive"
+msgstr ""
+
+msgid "scope is not a subset of term labels"
+msgstr ""
+
+msgid "some group is too small for 'qda'"
+msgstr ""
+
+msgid "some of ... do not match"
+msgstr ""
+
+msgid "supplying pars for the %s distribution is not supported"
+msgstr ""
+
+msgid "tests made without re-estimating 'theta'"
+msgstr ""
+
+msgid "the contrast defined is empty (has no TRUE elements)"
+msgstr ""
+
+msgid "theta ="
+msgstr ""
+
+msgid "theta.ml: iter"
+msgstr ""
+
+msgid "trying + %s"
+msgstr ""
+
+msgid "trying - %s"
+msgstr ""
+
+msgid "uneven breaks with 'prob = FALSE' will give a misleading plot"
+msgstr ""
+
+msgid "unimplemented method: %s"
+msgstr ""
+
+msgid "unsupported distribution"
+msgstr ""
+
+msgid "up"
+msgstr ""
+
+msgid "using the %d/%d row from a combined fit"
+msgid_plural "using the %d/%d rows from a combined fit"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "variable %s appears to be constant within groups"
+msgid_plural "variables %s appear to be constant within groups"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "variable names in 'newdata' do not match those in 'object'"
+msgstr ""
+
+msgid "variables are collinear"
+msgstr ""
+
+msgid "weighted fits are not supported"
+msgstr ""
+
+msgid "wrong number of variables"
+msgstr ""
+
+msgid "zero or negative distance between objects %d and %d"
+msgstr ""
