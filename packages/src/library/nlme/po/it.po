@@ -1,0 +1,58 @@
+# R Italian translation                                                                    
+# This file is distributed under the same license as the R package.
+# Copyright (C) The R Foundation.
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nlme 3.1-138\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+
+msgid "All parameters must be less than 1 in absolute value"
+msgstr ""
+
+msgid "Coefficient matrix not invertible"
+msgstr ""
+
+msgid "First observation on an individual must have a dose"
+msgstr ""
+
+msgid "Haven't written the compound symmetry case for this yet"
+msgstr ""
+
+msgid "Overfitted model!"
+msgstr ""
+
+msgid "Singularity in backsolve at level %ld, block %ld"
+msgstr ""
+
+msgid ""
+"Too many parameters for finite-difference Hessian; npar = %d, nTot = %g."
+msgstr ""
+
+msgid ""
+"Unable to form Cholesky decomposition: the leading minor of order %d is not "
+"pos.def."
+msgstr ""
+
+msgid "Unable to form eigenvalue-eigenvector decomposition [RS(.) ierr = %d]"
+msgstr ""
+
+msgid "Unknown spatial correlation class"
+msgstr ""
+
+msgid "analytic gradient is not available with compound symmetry"
+msgstr ""
+
+msgid "analytic gradient is not available with matrix logarithm"
+msgstr ""
