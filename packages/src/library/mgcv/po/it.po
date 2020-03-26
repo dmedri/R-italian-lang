@@ -22,42 +22,49 @@ msgid ""
 "A term has fewer unique covariate combinations than specified maximum "
 "degrees of freedom"
 msgstr ""
+"Un termine ha meno combinazioni di covariate uniche rispetto ai gradi "
+"massimi di libertà specificati"
 
 msgid "An out of bound write to matrix has occurred!"
-msgstr ""
+msgstr "Si è verificata una scrittura fuori limite per la matrice!"
 
 msgid "Attempt to invert() non-square matrix"
-msgstr ""
+msgstr "Tentato invert() di una matrice non quadrata"
 
 msgid "ERROR in addconQT."
-msgstr ""
+msgstr "ERRORE in addconQT."
 
 msgid "Failed to initialize memory for matrix."
-msgstr ""
+msgstr "Non è possibile inizializzare la memoria per la matrice."
 
 msgid "INTEGRITY PROBLEM in the extant matrix list."
-msgstr ""
+msgstr "PROBLEMA DI INTEGRITA' nell'elenco della matrice esistente."
 
 msgid "Incompatible matrices in matmult."
-msgstr ""
+msgstr "Matrici incompatibili in matmult."
 
 msgid "QPCLS - Rank deficiency in model"
-msgstr ""
+msgstr "QPCLS - Carenza di rango nel modello"
 
 msgid "Singular Matrix passed to invert()"
-msgstr ""
+msgstr "Matrice singolare passata a invert()"
 
 msgid "Target matrix too small in mcopy"
-msgstr ""
+msgstr "Matrice obiettivo troppo piccola in mcopy"
 
 msgid "You are trying to check matrix integrity without defining RANGECHECK."
 msgstr ""
+"Si sta cercando di verificare l'integrità della matrice senza definire "
+"RANGECHECK."
 
 msgid "You must have 2m>d for a thin plate spline."
-msgstr ""
+msgstr "Bisogna avere 2m>d per una spline piatta e sottile."
 
 msgid "magic requires smoothing parameter starting values if L supplied"
 msgstr ""
+"magic richiede lo smoothing dei valori iniziali dei parametri se L è passato"
 
 msgid "magic, the gcv/ubre optimizer, failed to converge after 400 iterations."
 msgstr ""
+"magic, l'ottimizzatore gcv/ubre, non è riuscito a convergere dopo 400 "
+"iterazioni."
