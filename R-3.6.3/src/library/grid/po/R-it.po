@@ -156,7 +156,7 @@ msgid "invalid modification of the display list"
 msgstr "modifica non valida della lista display"
 
 msgid "'expr' must return a grob or gList"
-msgstr "'expr' deve ritornare un grob o un gList"
+msgstr "'expr' deve restituire un grob o un gList"
 
 msgid "invalid 'grob' argument"
 msgstr "argomento 'grob' non valido"
