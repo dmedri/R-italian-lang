@@ -2005,7 +2005,7 @@ msgstr "da dove = \"end\" non è implementato per connessioni a file gz"
 
 #: src/main/connections.c:1674
 msgid "seek on a gzfile connection returned an internal error"
-msgstr "la ricerca su una connessione gzfile ha ritornato un errore interno"
+msgstr "la ricerca su una connessione gzfile ha restituito un errore interno"
 
 #: src/main/connections.c:1708 src/main/connections.c:1712
 #: src/main/connections.c:1719 src/main/connections.c:1737
@@ -2484,7 +2484,7 @@ msgstr "nessun loop per break/next, passaggio al livello radice"
 
 #: src/main/context.c:346
 msgid "no function to return from, jumping to top level"
-msgstr "non vi è alcuna funzione da ritornare, si passa al livello radice"
+msgstr "nessuna funzione a cui restituire, si passa al livello superiore"
 
 #: src/main/context.c:361
 msgid "target context is not on the stack"
@@ -2946,7 +2946,7 @@ msgstr "non è possibile eseguire l'editor '%s'"
 
 #: src/main/edit.c:161
 msgid "editor ran but returned error status"
-msgstr "editor eseguito, ma ritornando un errore di stato"
+msgstr "editor avviato, ma con errore di stato restituito"
 
 #: src/main/edit.c:171
 #, c-format
@@ -3512,7 +3512,7 @@ msgstr "avvertimento sconosciuto (per piacere, segnalatecelo!)"
 
 #: src/main/errors.c:1347
 msgid "No function to return from, jumping to top level"
-msgstr "Nessuna funzione da ritornare, si passa al livello superiore"
+msgstr "Nessuna funzione a cui restituire, si passa al livello superiore"
 
 #: src/main/errors.c:1363
 msgid "top level inconsistency?"
@@ -3645,7 +3645,7 @@ msgstr "sequenza ciclo for() non corretta"
 
 #: src/main/eval.c:2416
 msgid "multi-argument returns are not permitted"
-msgstr "non sono permessi ritorni a più argomenti"
+msgstr "non sono permesse restituizioni a più argomenti"
 
 #: src/main/eval.c:2463
 msgid "invalid (NULL) left side of assignment"
@@ -4111,7 +4111,7 @@ msgstr "espressione regolare '%s' non valida"
 #: src/main/grep.c:1459
 msgid "pattern matches an empty string infinitely, returning first match only"
 msgstr ""
-"il pattern corrisponde sempre ad una stringa vuota, si ritorna solo la prima "
+"il pattern corrisponde sempre ad una stringa vuota, si restituisce solo la prima "
 "corrispondenza"
 
 #: src/main/grep.c:1772
@@ -4142,7 +4142,7 @@ msgstr "stringa del risultato troppo lunga"
 #: src/main/grep.c:2664
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' ha ritornato '%d' "
+msgstr "'pcre_fullinfo' ha restituito '%d' "
 
 #: src/main/identical.c:136
 msgid "ignoring non-pairlist attributes"
@@ -4283,7 +4283,7 @@ msgstr ""
 
 #: src/main/main.c:1632
 msgid "top-level task callback did not return a logical value"
-msgstr "il processo callback di livello superiore ritorna un valore non logico"
+msgstr "il processo callback di livello superiore non ha restituito un valore logico"
 
 #: src/main/mapply.c:58
 msgid "zero-length inputs cannot be mixed with those of non-zero length"
@@ -4452,7 +4452,7 @@ msgstr ""
 
 #: src/main/memory.c:3666
 msgid "not safe to return vector pointer"
-msgstr "non è sicuro ritornare puntatori vettoriali"
+msgstr "non è sicuro restituire un puntatore vettoriale"
 
 #: src/main/memory.c:3677
 #, c-format
@@ -4670,7 +4670,7 @@ msgstr ""
 #: src/main/objects.c:1446
 #, c-format
 msgid "object returned as generic function \"%s\" does not appear to be one"
-msgstr "l'oggetto ritornato come funzione generica \"%s\" non sembra esserlo"
+msgstr "l'oggetto restituito come funzione generica \"%s\" non sembra esserlo"
 
 #: src/main/objects.c:1551
 msgid "invalid primitive operation given for dispatch"
@@ -6246,15 +6246,15 @@ msgstr "Integer overflow - utilizza sum(as.numeric(.))"
 
 #: src/main/summary.c:932
 msgid "no non-missing arguments, returning NA"
-msgstr "nessun argomento non-missing, si ritorna NA"
+msgstr "nessun argomento non-missing, si restituisce NA"
 
 #: src/main/summary.c:935
 msgid "no non-missing arguments to min; returning Inf"
-msgstr "nessun argomento non-missing al minimo; si ritorna Inf"
+msgstr "nessun argomento non-missing al minimo; si restituisce Inf"
 
 #: src/main/summary.c:937
 msgid "no non-missing arguments to max; returning -Inf"
-msgstr "nessun argomento non-missing al massimo; si ritorna -Inf"
+msgstr "nessun argomento non-missing al massimo; si restituisce -Inf"
 
 #: src/main/summary.c:1096
 msgid "argument to 'which' is not logical"
@@ -7545,7 +7545,7 @@ msgstr "non è possibile ottenere la directory di lavoro!"
 
 #: src/unix/sys-std.c:127
 msgid "interrupt handler must not return"
-msgstr "il gestore di interrupt non deve ritornare"
+msgstr "il gestore di interrupt non deve restituire nulla"
 
 #: src/unix/sys-std.c:559
 msgid ""
