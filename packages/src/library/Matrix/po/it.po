@@ -28,7 +28,7 @@ msgid "%s(): structurally rank deficient case: possibly WRONG zeros"
 msgstr ""
 
 msgid "'%s' must be in '%s'"
-msgstr ""
+msgstr "'%s' dev'essere in '%s'"
 
 msgid "'%s' must have string length 1"
 msgstr ""
@@ -687,10 +687,10 @@ msgid "unexpected ctype = %d in dup_mMatrix_as_geMatrix"
 msgstr ""
 
 msgid "unknown 'Rkind'"
-msgstr ""
+msgstr "'Rkind' sconosciuto"
 
 msgid "unknown xtype"
-msgstr ""
+msgstr "xtype sconosciuto"
 
 msgid "unknown xtype in cholmod_sparse object"
 msgstr ""
