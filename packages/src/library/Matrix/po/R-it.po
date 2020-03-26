@@ -19,7 +19,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 
 msgid "%s %s <Matrix> is undefined"
-msgstr ""
+msgstr "%s %s <Matrix> non è definita"
 
 msgid "%s kind not yet implemented"
 msgstr ""
@@ -40,13 +40,13 @@ msgid "'V' is not a *square* matrix"
 msgstr ""
 
 msgid "'V' is not a square matrix"
-msgstr ""
+msgstr "'V' non è una matrice quadrata"
 
 msgid "'boolArith = %d' not yet implemented"
 msgstr ""
 
 msgid "'by' argument is much too small"
-msgstr ""
+msgstr "l'argomento 'by' è troppo piccolo"
 
 msgid "'diagonals' matrix must have %d columns (= length(k) )"
 msgstr ""
