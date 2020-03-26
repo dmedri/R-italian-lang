@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+REL="R-3.6.3"
+
+echo -e "Use: $0 'a label to search'\n"
+
+if [[ ! -z $1 ]]; then
+	grep -r1 "$1" ./$REL/
+	grep -r1 "$1" ./packages/
+fi
