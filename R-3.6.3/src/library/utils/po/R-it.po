@@ -1077,7 +1077,7 @@ msgid "'files' must a character vector specifying one or more filepaths"
 msgstr "'files' dev'essere un vettore di caratteri che specifica uno o più riferimenti"
 
 msgid "cannot find program to open 'mailto:' URIs: reverting to 'method=\"none\"'"
-msgstr "non è possibile trovare il programma per aprire 'mailto:' URI: si ritorna al 'method=\"none\"'"
+msgstr "non è possibile trovare il programma per aprire 'mailto:' URI: si utilizza 'method=\"none\"'"
 
 msgid "Using the browser to open a mailto: URI"
 msgstr "Utilizzo del browser per aprire un mailto: URI"
@@ -1110,7 +1110,7 @@ msgid "download had nonzero exit status"
 msgstr "lo scaricamento ha uno stato di uscita differente da zero"
 
 msgid "'tar' returned non-zero exit code %d"
-msgstr "'tar' ha ritornato un codice di uscita %d diverso da zero"
+msgstr "'tar' ha restituito un codice di uscita %d diverso da zero"
 
 msgid "file %s is not a macOS binary package"
 msgstr "il file %s non è un pacchetto binario macOS"

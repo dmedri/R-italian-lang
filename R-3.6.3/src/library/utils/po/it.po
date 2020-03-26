@@ -148,7 +148,7 @@ msgstr "nls() non è stato in grado di risolvere il nome host '%s'"
 
 #: utils.c:98
 msgid "unknown format returned by 'gethostbyname'"
-msgstr "'gethostbyname' ha ritornato una formato sconosciuto"
+msgstr "'gethostbyname' ha restituito un formato sconosciuto"
 
 #: utils.c:107
 msgid "nsl() is not supported on this platform"
