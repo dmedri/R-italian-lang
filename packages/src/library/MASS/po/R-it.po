@@ -21,6 +21,8 @@ msgid ""
 "\"%s\" link not available for negative binomial family; available links are "
 "\"identity\", \"log\" and \"sqrt\""
 msgstr ""
+"link \"%s\" non disponibile per la famiglia binomiale negativa; i "
+"collegamenti disponibili sono \"identity\", \"log\" e \"sqrt\""
 
 msgid "\"gradient\" attribute missing"
 msgstr "attributo \"gradient\" mancante"
@@ -30,37 +32,37 @@ msgstr "attributo \"hessian\" mancante"
 
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "eliminata %d osservazione mancante"
+msgstr[1] "eliminate %d osservazioni mancanti"
 
 msgid "%d row with zero weights not counted"
 msgid_plural "%d rows with zero weights not counted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d riga con pesi zero non conteggiati"
+msgstr[1] "%d rige con pesi zero non conteggiati"
 
 msgid "%s does not have both 'qr' and 'y' components"
-msgstr ""
+msgstr "%s non ha entrambi le componenti 'qr' e 'y'"
 
 msgid "'Sigma' is not positive definite"
-msgstr ""
+msgstr "'Sigma' non è definito positivo"
 
 msgid "'W' is not positive definite"
-msgstr ""
+msgstr "'W' non è definito positivo"
 
 msgid "'X' must be a numeric or complex matrix"
 msgstr "'X' dev'essere una matrice numerica o complessa"
 
 msgid "'anova' is not available for PQL fits"
-msgstr ""
+msgstr "'anova' non è disponibile per adattamenti PQL"
 
 msgid "'breaks' do not cover the data"
-msgstr ""
+msgstr "'breaks' non copre i dati"
 
 msgid "'breaks' must be strictly increasing"
 msgstr "'breaks' dev'essere strettamente crescente"
 
 msgid "'c' must be at least 1.548 and has been ignored"
-msgstr ""
+msgstr "'c' dev'essere almeno 1.548 ed è stato ignorato"
 
 msgid "'center' is not the right length"
 msgstr "'center' non è della lunghezza giusta"
@@ -78,7 +80,7 @@ msgid "'densfun' must be supplied as a function or name"
 msgstr "'densfun' dev'essere passato come una funzione o nome"
 
 msgid "'dropterm' not implemented for \"mlm\" fits"
-msgstr ""
+msgstr "'dropterm' non implementato per adattamenti \"mlm\""
 
 msgid "'family' not recognized"
 msgstr "'family' non riconosciuta"
@@ -90,22 +92,23 @@ msgid "'init' method is unknown"
 msgstr "il metodo 'init' è sconosciuto"
 
 msgid "'lqs' failed: all the samples were singular"
-msgstr ""
+msgstr "'lqs' fallito: tutti i campioni erano singolari"
 
 msgid "'method' is unknown"
 msgstr "'method' è sconosciuto"
 
 msgid "'nbins' must result in a positive integer"
-msgstr ""
+msgstr "'nbins' dev'essere un numero intero positivo"
 
 msgid "'newdata' is not of the right length"
-msgstr ""
+msgstr "'newdata' non è della lunghezza giusta"
 
 msgid "'nu' must exceed 2"
 msgstr "'nu' deve eccedere 2"
 
 msgid "'object' has no 'call' component.  Updating not possible"
 msgstr ""
+"'object' non ha alcun componente 'call'. L'aggiornamento non è possibile"
 
 msgid "'prior' is of incorrect length"
 msgstr "'prior' è di lunghezza incorretta"
@@ -120,16 +123,16 @@ msgid "'quantile' must be at most %d"
 msgstr "'quantile' dev'essere al massimo %d"
 
 msgid "'rlm' failed to converge in %d steps"
-msgstr ""
+msgstr "'rlm' non è riuscito a convergere in %d passaggi"
 
 msgid "'start' is not of the correct length"
-msgstr ""
+msgstr "'start' non è della lunghezza corretta"
 
 msgid "'start' must be a named list"
 msgstr "'start' dev'essere una lista nominata"
 
 msgid "'start' specifies names which are not arguments to 'densfun'"
-msgstr ""
+msgstr "'start' specifica nomi che non sono argomenti per 'densfun'"
 
 msgid "'theta' must be given"
 msgstr "'theta' dev'essere passato"
@@ -138,13 +141,13 @@ msgid "'theta' must be specified"
 msgstr "'theta' dev'essere specificato"
 
 msgid "'uin' is too large to fit plot in"
-msgstr ""
+msgstr "'uin' è troppo grande per adattarsi al plot"
 
 msgid "'use.start' cannot be used with R's version of 'glm'"
-msgstr ""
+msgstr "'use.start' non può essere utilizzato con la versione R di 'glm'"
 
 msgid "'x' and 'y' must have the same number of rows"
-msgstr ""
+msgstr "'x' e 'y' devono avere lo stesso numero di righe"
 
 msgid "'x' contains missing or infinite values"
 msgstr "'x' contiene valori mancanti o infiniti"
@@ -156,31 +159,34 @@ msgid "'x' is not a matrix"
 msgstr "'x' non è una matrice"
 
 msgid "'x' is probably collinear"
-msgstr ""
+msgstr "'x' è probabilmente collineare"
 
 msgid "'x' is singular: singular fits are not implemented in 'rlm'"
 msgstr ""
+"'x' è singolare: gli adattmenti singolari non sono implementati in 'rlm'"
 
 msgid "'x' must be a non-empty numeric vector"
-msgstr ""
+msgstr "'x' dev'essere un vettore numerico non vuoto"
 
 msgid "'y' must be a matrix"
 msgstr "'y' dev'essere una matrice"
 
 msgid "0 df terms are changing AIC"
-msgstr ""
+msgstr "0 termini df stanno cambiando AIC"
 
 msgid "AIC is -infinity for this model, so 'stepAIC' cannot proceed"
 msgstr ""
+"L'AIC è infinito per questo modello, quindi 'stepAIC' non può procedere"
 
 msgid "AIC is not defined for this model, so 'stepAIC' cannot proceed"
 msgstr ""
+"AIC non è definito per questo modello, quindi 'stepAIC' non può procedere"
 
 msgid "AIC undefined for REML fit"
-msgstr ""
+msgstr "AIC non definito per un adattamento REML"
 
 msgid "Exponential values must be >= 0"
-msgstr ""
+msgstr "I valori esponenziali devono essere >= 0"
 
 msgid "F test assumes 'quasi%s' family"
 msgstr "Il test F assume una famiglia 'quasi%s'"
@@ -189,31 +195,31 @@ msgid "Infs not allowed in 'd'"
 msgstr "Infs non è ammesso in 'd'"
 
 msgid "Initial estimate: %s"
-msgstr ""
+msgstr "Stima iniziale: %s"
 
 msgid "Initial fit:"
-msgstr ""
+msgstr "Adattamento iniziale:"
 
 msgid "Initial value for 'theta': %f"
-msgstr ""
+msgstr "Valore iniziale di 'theta': %f"
 
 msgid "Iter. %d Alpha: %s"
-msgstr ""
+msgstr "Iter. %d Alpha: %s"
 
 msgid "Parameter:"
 msgstr "Parametro:"
 
 msgid "Probable convergence failure"
-msgstr ""
+msgstr "Probabile fallimento di convergenza"
 
 msgid "Re-fitting to get Hessian"
-msgstr ""
+msgstr "Ri-adattamento per ottenere Hessian"
 
 msgid "Response variable must be positive after additions"
-msgstr ""
+msgstr "La variabile di risposta dev'essere positiva dopo le aggiunte"
 
 msgid "Waiting for profiling to be done..."
-msgstr ""
+msgstr "In attesa che venga eseguita la profilazione..."
 
 msgid "Weibull values must be > 0"
 msgstr "I valori Weibull devono essere > 0"
@@ -225,59 +231,61 @@ msgid "all variables must be factors"
 msgstr "tutte le variabili devono essere fattori"
 
 msgid "alternation limit reached"
-msgstr ""
+msgstr "limite di alternanza raggiunto"
 
 msgid "an initial configuration must be supplied if there are NAs in 'd'"
-msgstr ""
+msgstr "una configurazione iniziale dev'essere passata se ci sono NA in 'd'"
 
 msgid "an initial configuration must be supplied with NA/Infs in 'd'"
-msgstr ""
+msgstr "una configurazione iniziale dev'essere passata con NA/Infs in 'd'"
 
 msgid "an intercept is needed and assumed"
-msgstr ""
+msgstr "un'intercetta è necessaria e presunta"
 
 msgid "anova is not implemented for a single \"polr\" object"
-msgstr ""
+msgstr "anova non è implementata per un singolo oggetto \"polr\""
 
 msgid "at least %d cases are needed"
 msgstr "sono richiesti almeno %d casi"
 
 msgid "at least 3 distinct 'x' values are needed"
-msgstr ""
+msgstr "sono necessari almeno 3 valori 'x' distinti"
 
 msgid "at least one column has IQR 0"
 msgstr "almeno una colonna ha IQR 0"
 
 msgid "attempt to find suitable starting values failed"
-msgstr ""
+msgstr "la ricerca di valori iniziali adeguati non è riuscita"
 
 msgid "bandwidths must be strictly positive"
 msgstr "la larghezza di banda dev'essere strettamente positiva"
 
 msgid "biplot is only possible if nf >= 2"
-msgstr ""
+msgstr "il biplot è possibile solo se nf >= 2"
 
 msgid "cannot estimate scale: MAD is zero for this sample"
-msgstr ""
+msgstr "non è possibile stimare la scala: MAD è zero per questo campione"
 
 msgid "cannot have leave-one-out CV with 'newdata'"
-msgstr ""
+msgstr "non è possibile avere una CV leave-one-out con 'newdata'"
 
 msgid "cannot use leave-one-out CV with method %s"
-msgstr ""
+msgstr "non è possibile avere una CV leave-one-out con il metodo %s"
 
 msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
 msgstr ""
 "le colonne di 'contrast.obj' deve definire un contrasto (sommare a zero)"
 
 msgid "data vectors must be the same length"
-msgstr ""
+msgstr "i vettori dati devono essere della medesima lunghezza"
 
 msgid "design appears to be rank-deficient, so dropping some coefs"
 msgstr ""
+"il disegno sembra essere carente di rango, quindi si eliminano alcuni "
+"coefficienti"
 
 msgid "dim(W) is not correct"
-msgstr ""
+msgstr "dim(W) non è corretta"
 
 msgid "distances must be result of 'dist' or a square matrix"
 msgstr ""
@@ -290,7 +298,7 @@ msgid "each element of '%s' must be logical"
 msgstr "ogni elemento di '%s' dev'essere logico"
 
 msgid "empty row or column in table"
-msgstr ""
+msgstr "riga o colonna vuota nella tabella"
 
 msgid "estimate truncated at zero"
 msgstr ""
