@@ -147,7 +147,7 @@ msgid "'x' and 'y' must have the same number of rows"
 msgstr ""
 
 msgid "'x' contains missing or infinite values"
-msgstr ""
+msgstr "'x' contiene valori mancanti o infiniti"
 
 msgid "'x' has length zero"
 msgstr "'x' ha lunghezza zero"
@@ -186,7 +186,7 @@ msgid "F test assumes 'quasi%s' family"
 msgstr "Il test F assume una famiglia 'quasi%s'"
 
 msgid "Infs not allowed in 'd'"
-msgstr ""
+msgstr "Infs non è ammesso in 'd'"
 
 msgid "Initial estimate: %s"
 msgstr ""
@@ -201,7 +201,7 @@ msgid "Iter. %d Alpha: %s"
 msgstr ""
 
 msgid "Parameter:"
-msgstr ""
+msgstr "Parametro:"
 
 msgid "Probable convergence failure"
 msgstr ""
@@ -216,13 +216,13 @@ msgid "Waiting for profiling to be done..."
 msgstr ""
 
 msgid "Weibull values must be > 0"
-msgstr ""
+msgstr "I valori Weibull devono essere > 0"
 
 msgid "all frequencies are zero"
-msgstr ""
+msgstr "tutte le frequenze sono zero"
 
 msgid "all variables must be factors"
-msgstr ""
+msgstr "tutte le variabili devono essere fattori"
 
 msgid "alternation limit reached"
 msgstr ""
@@ -240,19 +240,19 @@ msgid "anova is not implemented for a single \"polr\" object"
 msgstr ""
 
 msgid "at least %d cases are needed"
-msgstr ""
+msgstr "sono richiesti almeno %d casi"
 
 msgid "at least 3 distinct 'x' values are needed"
 msgstr ""
 
 msgid "at least one column has IQR 0"
-msgstr ""
+msgstr "almeno una colonna ha IQR 0"
 
 msgid "attempt to find suitable starting values failed"
 msgstr ""
 
 msgid "bandwidths must be strictly positive"
-msgstr ""
+msgstr "la larghezza di banda dev'essere strettamente positiva"
 
 msgid "biplot is only possible if nf >= 2"
 msgstr ""
@@ -334,7 +334,7 @@ msgid "invalid 'prior'"
 msgstr "'prior' non valido"
 
 msgid "invalid 'test.vec'"
-msgstr ""
+msgstr "'test.vec' non valido"
 
 msgid "invalid initial configuration"
 msgstr ""
