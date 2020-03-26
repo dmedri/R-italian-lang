@@ -19,40 +19,46 @@ msgstr ""
 "PO-Revision-Date: \n"
 
 msgid "All parameters must be less than 1 in absolute value"
-msgstr ""
+msgstr "Tutti i parametri devono essere meno di 1 in valore assoluto"
 
 msgid "Coefficient matrix not invertible"
-msgstr ""
+msgstr "Matrice dei coefficienti non invertibile"
 
 msgid "First observation on an individual must have a dose"
-msgstr ""
+msgstr "La prima osservazione su un individuo deve avere una dose"
 
 msgid "Haven't written the compound symmetry case for this yet"
-msgstr ""
+msgstr "Non ho ancora scritto il caso della simmetria composta per questo"
 
 msgid "Overfitted model!"
-msgstr ""
+msgstr "Modello overfitted!"
 
 msgid "Singularity in backsolve at level %ld, block %ld"
-msgstr ""
+msgstr "Singolarità in backsolve a livello %ld, blocco %ld"
 
 msgid ""
 "Too many parameters for finite-difference Hessian; npar = %d, nTot = %g."
 msgstr ""
+"Troppi parametri per una differenza-finita Hessian; npar = %d, nTot = %g."
 
 msgid ""
 "Unable to form Cholesky decomposition: the leading minor of order %d is not "
 "pos.def."
 msgstr ""
+"Non è possibile formare la decomposizione di Cholesky: il minore principale "
+"dell'ordine %d non è pos.def."
 
 msgid "Unable to form eigenvalue-eigenvector decomposition [RS(.) ierr = %d]"
 msgstr ""
+"Non è possibile formare una decomposizione eigenvalue-eigenvector [RS(.) "
+"ierr = %d]"
 
 msgid "Unknown spatial correlation class"
-msgstr ""
+msgstr "Classe di correlazione spaziale sconosciuta"
 
 msgid "analytic gradient is not available with compound symmetry"
-msgstr ""
+msgstr "il gradiente analitico non è disponibile con simmetria composta"
 
 msgid "analytic gradient is not available with matrix logarithm"
 msgstr ""
+"il gradiente analitico non è disponibile con il logaritmo della matrice"
