@@ -56,10 +56,10 @@ $ ./repo.roaster
 If you're using R in Italian, on all the available platforms, your feedback is
 really welcome. To report us mistakes or better translated sentences, you need to:
 * open an issue on github (look at the header in this page!);
-* fork this repository, apply your changes and ask for a merge.
+* fork this repository, apply your changes and request a merge.
 
 ## Notes for R translators in other languages
 
-This repository could be easy adapted and used for other languages. With
+This repository could be easy adapted/used for other languages. With
 minor settings will be ready to support your work with a new fashion, the
 best choice for this kind of collaborative work. Ask for support.
