@@ -51,15 +51,15 @@ Run:
 $ ./repo.roaster
 ```
 
-## Notes for end-user and developers
+## Notes for (italian) end-users and developers
 
-If you're using R in Italian, on one of the available platforms, and you find
-a mistake or a better formulation, your help is welcome. Two ways for the tasks:
+If you're using R in Italian, on all the available platforms, your feedback is
+really welcome. To report us mistakes or better translated sentences, you need to:
 * open an issue on github (look at the header in this page!);
-* do a fork of this repository, apply your changes and ask for a merge.
+* fork this repository, apply your changes and ask for a merge.
 
 ## Notes for R translators in other languages
 
 This repository could be easy adapted and used for other languages. With
-minor settings will be ready to support your work in a new fashion. The
-best choice for a collaborative work. Ask for support.
+minor settings will be ready to support your work with a new fashion, the
+best choice for this kind of collaborative work. Ask for support.
