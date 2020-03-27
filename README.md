@@ -51,7 +51,15 @@ Run:
 $ ./repo.roaster
 ```
 
-## Notes
+## Notes for end-user and developers
 
-This repository could be easy adapted and used for other languages. Just
-put your .pot/.po file under every '*/po' directory. Ask for help.
+If you're using R in Italian, on one of the available platforms, and you find
+a mistake or a better formulation, your help is welcome. Two ways for the tasks:
+* open an issue on github (look at the header in this page!);
+* do a fork of this repository, apply your changes and ask for a merge.
+
+## Notes for R translators in other languages
+
+This repository could be easy adapted and used for other languages. With
+minor settings will be ready to support your work in a new fashion. The
+best choice for a collaborative work. Ask for support.
