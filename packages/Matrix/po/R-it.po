@@ -25,10 +25,10 @@ msgid "%s kind not yet implemented"
 msgstr "%s kind non ancora implementato"
 
 msgid "'%s()' is not yet implemented for  representation '%s'"
-msgstr ""
+msgstr "'%s()' non è ancora implementato per  la rappresentazione '%s'"
 
 msgid "'%s()' is not yet implemented for element type '%s'"
-msgstr ""
+msgstr "'%s()' non è ancora implementato per il tipo elemento '%s'"
 
 msgid "'A' must be a square matrix"
 msgstr "'A' dev'essere una matrice quadrata"
@@ -58,13 +58,13 @@ msgid "'file' must be a character string or connection"
 msgstr "'file' dev'essere una stringa di caratteri o una connessione"
 
 msgid "'force' must be (coercable to) TRUE or FALSE"
-msgstr ""
+msgstr "'force' dev'essere (coercibile in) TRUE o FALSE"
 
 msgid "'lag' and 'differences' must be integers >= 1"
 msgstr "'lag' e 'differences' devono essere interi >= 1"
 
 msgid "'lwd' must be NULL or non-negative numeric"
-msgstr ""
+msgstr "'lwd' dev'essere NULL o un numerico non negativo"
 
 msgid "'ncol' is not a factor of length(x)"
 msgstr "'ncol' non è un fattore di length(x)"
@@ -73,10 +73,10 @@ msgid "'ncol' must be >= 0"
 msgstr "'ncol' dev'essere >= 0"
 
 msgid "'nearPD()' did not converge in %d iterations"
-msgstr ""
+msgstr "'nearPD()' non converge in %d iterazioni"
 
 msgid "'nrow' and 'ncol' must be the same when 'symmetric' is true"
-msgstr ""
+msgstr "'nrow' e 'ncol' dev'essere uguali quando 'symmetric' è true"
 
 msgid "'nrow' is not a factor of length(x)"
 msgstr "'nrow' non è un fattore di length(x)"
@@ -91,7 +91,7 @@ msgid "'nrow', 'ncol', etc, are disregarded when 'data' is \"Matrix\" already"
 msgstr ""
 
 msgid "'p' must be a non-decreasing vector (0, ...)"
-msgstr ""
+msgstr "'p' dev'essere un vettore non decrescente (0, ...)"
 
 msgid "'times >= 0' is required"
 msgstr "'times >= 0' è richiesto"
@@ -99,6 +99,8 @@ msgstr "'times >= 0' è richiesto"
 msgid ""
 "'update' must be logical or '+' or '-'; 'C' a matrix, and 'L' a \"CHMfactor\""
 msgstr ""
+"'update' dev'essere logico o '+' o '-'; 'C' una matrice, e 'L' un \"CHMfactor"
+"\""
 
 msgid "'x' has invalid data type"
 msgstr "'x' ha un tipo dato non valido"
@@ -113,7 +115,7 @@ msgid "'x' must be \"sparseMatrix\""
 msgstr "'x' dev'essere una \"sparseMatrix\""
 
 msgid "'x' must have length nrow^2 when 'symmetric' is true"
-msgstr ""
+msgstr "'x' deve avere lunghezza nrow^2 quando 'symmetric' è true"
 
 msgid "'x' must inherit from \"sparseVector\""
 msgstr ""
@@ -127,7 +129,7 @@ msgid ""
 msgstr ""
 
 msgid ".M.repl.i.2col(): drop 'matrix' case ..."
-msgstr ""
+msgstr ".M.repl.i.2col(): si elimina il caso 'matrix' ..."
 
 msgid ""
 ".M.sub.i.2col(): 'i' has no integer column number;\n"
@@ -171,7 +173,7 @@ msgid "Cmp.Mat.atomic() should not be called for diagonalMatrix"
 msgstr "Cmp.Mat.atomic() non dovrebbe essere chiamata per diagonalMatrix"
 
 msgid "FIXME: NOT YET FINISHED IMPLEMENTATION"
-msgstr ""
+msgstr "FIXME: IMPLEMENTAZIONE NON ANCORA FINITA"
 
 msgid "Internal bug: nargs()=%d; please report"
 msgstr "Bug interno: nargs()=%d; per piacere riportalo"
@@ -190,31 +192,31 @@ msgid ""
 msgstr ""
 
 msgid "Logic.Mat.atomic() should not be called for diagonalMatrix"
-msgstr ""
+msgstr "Logic.Mat.atomic() non dovrebbe essere chiamato per diagonalMatrix"
 
 msgid "Matrices must have same dimensions in %s"
-msgstr ""
+msgstr "Le matrici devono avere le medesime dimensioni in %s"
 
 msgid "Matrices must have same number of columns in %s"
-msgstr ""
+msgstr "Le matrici devono avere il medesimo numero di colonne in %s"
 
 msgid "Matrices must have same number of rows for arithmetic"
-msgstr ""
+msgstr "Le matrici devono avere il medesimo numero di righe per l'aritmetica"
 
 msgid "Matrices must have same number of rows in %s"
-msgstr ""
+msgstr "Le matrici devono avere il medesimo numero di righe in %s"
 
 msgid "Matrix seems negative semi-definite"
 msgstr ""
 
 msgid "Matrix-internal error in <CsparseM>[i,,d]; please report"
-msgstr ""
+msgstr "Errore interno alla matrice in <CsparseM>[i,,d]; per piacere riportalo"
 
 msgid "Matrix-internal error in <TsparseM>[i,,d]; please report"
-msgstr ""
+msgstr "Errore interno alla matrice in <TsparseM>[i,,d]; per piacere riportalo"
 
 msgid "Matrix-internal error in <sparseM>[i,,d]; please report"
-msgstr ""
+msgstr "Errore interno alla matrice in <sparseM>[i,,d]; per piacere riportalo"
 
 msgid "Must specify 'nrow' when 'symmetric' is true"
 msgstr "Bisogna specificare 'nrow' quando 'symmetric' è true"
@@ -235,6 +237,8 @@ msgid ""
 "Quadratic matrix '%s' (=: A) is not formally\n"
 "\tsymmetric.  Will be treated as\tA A'"
 msgstr ""
+"La matrice quadratica '%s' (=: A) non è formalmente\n"
+"\tsimmetrica.  Sarà trattata come\tA A'"
 
 msgid "RHS 'b' has wrong length"
 msgstr "RHS 'b' ha una lunghezza errata"
@@ -244,15 +248,18 @@ msgstr "RHS 'b' ha un numero errato di righe:"
 
 msgid "RHS 'value' (class %s) matches 'ANY', but must match matrix class %s"
 msgstr ""
+"RHS 'value' (classe %s) corrisponde a 'ANY', ma deve corrispondere ad una "
+"classe di matrice %s"
 
 msgid "[ <character> ] indexing not allowed: forgot a \",\" ?"
 msgstr ""
+"[ <character> ] indicizzazione non ammessa: si è dimenticato un \",\" ?"
 
 msgid "[[ suppressing %d column names %s ... ]]"
 msgstr "[[ suppressing %d column names %s ... ]]"
 
 msgid "[[ suppressing %d column names %s ]]"
-msgstr ""
+msgstr "[[ soppressione di %d nomi colonna %s ]]"
 
 msgid "all(<abIndex>) is not yet implemented"
 msgstr "all(<abIndex>) non è ancora implementato"
@@ -261,6 +268,8 @@ msgid ""
 "as(.,\"dsCMatrix\") is deprecated (since 2008); do use as(., "
 "\"symmetricMatrix\")"
 msgstr ""
+"as(.,\"dsCMatrix\") è deprecato (dal 2008); si utilizzi as(., "
+"\"symmetricMatrix\")"
 
 msgid "c(<abIndex>,..) of different kinds, coercing all to 'rleDiff'"
 msgstr ""
@@ -275,7 +284,7 @@ msgid "cannot coerce non-symmetric \"dgTMatrix\" to \"dsCMatrix\" class"
 msgstr ""
 
 msgid "chol() is undefined for diagonal matrix with negative entries"
-msgstr ""
+msgstr "chol() non è definito per una matrice diagonale con voci negative"
 
 msgid ""
 "coercion from list(i1,...,ik, d) to \"indMatrix\" failed.\n"
