@@ -1,6 +1,6 @@
 # R-italian-lang
 
-R Italian translations
+R Italian translations:
 - Main focus: R release 3.6.3 (latest stable);
 - external CRAN packages.
 
@@ -17,9 +17,10 @@ $ ./repo.search "si utilizza"
 
 ## Clean the repository
 
-It could happen, if you work with `poedit. When you open a session with
-a .po file, it try to export in binary form as a test. The resulting file
-is a .mo file. To clean up your source tree, run the following command:
+It could happen, if you work with some editors (eg. `poedit`). When you open
+a session with a `.po` file, it try to export in binary form as a test. The
+resulting file is a `.mo` file. To clean up your source tree, run the
+following command:
 
 ```
 $ ./repo.clean
@@ -27,11 +28,11 @@ $ ./repo.clean
 
 ## Create archives for the export
 
-At every tag -- and updates -- it could happen to send translations to
+At every tag release -- and updates -- it could happen to send translations to
 different people. One archive for the R Core Team, to be committed in the
 master branch. One archive per-package, to be attached on a mail for
-every active package maintainer. The script will create a directory, `archives`,
-where there'll be all .tgz file, ready for mailing.
+every active package maintainer. The script will create a directory, `archives/`,
+to store all `.tgz` files, ready for mailing.
 
 ```
 $ ./repo.archives
@@ -39,9 +40,12 @@ $ ./repo.archives
 
 ## Prepare your translations for Roaster builds
 
-Do you know already the [Roaster](https://github.com/dmedri/roaster)? This
-script is made to add latest updated translations in the source tree, just
-before any build. It'll do also some validity checks.
+Do you know already the [Roaster](https://github.com/dmedri/roaster)? It's
+a recently new project to support R builds (server, standard, virtualenv). One
+of its supported special case are virtual environments. This script is made to
+add latest updated translations in its source tree, just before any build.
+
+Run:
 
 ```
 $ ./repo.roaster
