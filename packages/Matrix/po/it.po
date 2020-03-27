@@ -20,24 +20,26 @@ msgstr ""
 
 msgid "\"dtrMatrix\" objects in '%*%' must have matching (square) dimension"
 msgstr ""
+"gli oggetti \"dtrMatrix\" in '%*%' devono avere corrispondenti dimensioni "
+"(quadrate)"
 
 msgid "%s = '%s' (back-permuted) is experimental"
-msgstr ""
+msgstr "%s = '%s' (back-permuted) è sperimentale"
 
 msgid "%s(): structurally rank deficient case: possibly WRONG zeros"
-msgstr ""
+msgstr "%s(): caso con rango strutturalmente carente: possibili zero sbagliati"
 
 msgid "'%s' must be in '%s'"
 msgstr "'%s' dev'essere in '%s'"
 
 msgid "'%s' must have string length 1"
-msgstr ""
+msgstr "'%s' deve avere una stringa di lunghezza 1"
 
 msgid "'%s' slot must have length 1"
-msgstr ""
+msgstr "lo slot '%s' deve avere lunghezza 1"
 
 msgid "'Dim' slot has length less than two"
-msgstr ""
+msgstr "lo slot 'Dim' ha lunghezza inferiore a due"
 
 msgid "'data' must be of a vector type"
 msgstr "'data' dev'essere un tipo vettore"
@@ -46,7 +48,7 @@ msgid "'factors' slot must be a named list"
 msgstr "lo slot 'factors' deve essere una lista nominata"
 
 msgid "'s1' and 's2' must be \"character\" vectors"
-msgstr ""
+msgstr "'s1' e 's2' devono essere vettori di caratteri"
 
 msgid "'uplo' must be UPP or LOW"
 msgstr "'uplo' dev'essere UPP o LOW"
@@ -64,7 +66,7 @@ msgid "Argument ij must be 2-column integer matrix"
 msgstr "L'argomento ij dev'essere una matrice di interi con 2 colonne"
 
 msgid "Argument must be numeric-like atomic vector"
-msgstr ""
+msgstr "L'argomento dev'essere un vettore atomico numerico"
 
 msgid "Argument rho must be an environment"
 msgstr "L'argomento rho dev'essere un ambiente"
@@ -73,38 +75,42 @@ msgid "Argument y must be numeric, integer or logical"
 msgstr "L'argomento y dev'essere numerico, intero o logico"
 
 msgid "CHOLMOD factorization was unsuccessful"
-msgstr ""
+msgstr "la fattorizzazione CHOLMOD non è andata a buon fine"
 
 msgid "Cannot coerce to too large *geMatrix with %.0f entries"
 msgstr ""
+"Non è possibile la coercizione su una *geMatrix troppo grande con %.0f voci"
 
 msgid "Cannot factor a matrix with zero extents"
-msgstr ""
+msgstr "Non è possibile fattorizzare una matrice con zero estensioni"
 
 msgid "Cannot solve() for matrices with zero extents"
-msgstr ""
+msgstr "Non è possibile eseguire solve() per matrici con zero estensioni"
 
 msgid ""
 "Cholesky factorization failed; unusually, please report to Matrix-authors"
 msgstr ""
+"Fattorizzazione di Cholesky fallita; insolitamente, per piacere riportatelo "
+"agli autori del pacchetto"
 
 msgid "Cholmod error '%s' at file %s, line %d"
-msgstr ""
+msgstr "Errore cholmod '%s' nel file %s, linea %d"
 
 msgid "Cholmod warning '%s' at file %s, line %d"
-msgstr ""
+msgstr "Avvertimento cholmod '%s' nel file %s, linea %d"
 
 msgid "Csparse_crossprod(): error return from cholmod_aat()"
-msgstr ""
+msgstr "Csparse_crossprod(): errore restituito da cholmod_aat()"
 
 msgid "Csparse_general_to_symmetric(): matrix is not square!"
-msgstr ""
+msgstr "Csparse_general_to_symmetric(): la matrice non è quadrata!"
 
 msgid "Csparse_sort(x): x is not a valid (apart from sorting) CsparseMatrix"
 msgstr ""
+"Csparse_sort(x): x non è una valida (a parte l'ordinamento) CsparseMatrix"
 
 msgid "Csparse_to_nz_pattern(x, tri = NA): 'tri' is taken as TRUE"
-msgstr ""
+msgstr "Csparse_to_nz_pattern(x, tri = NA): 'tri' è preso come TRUE"
 
 msgid "Determinant requires a square matrix"
 msgstr "Il determinante richiede una matrice quadrata"
@@ -116,43 +122,46 @@ msgid "Dim slot must have length 2"
 msgstr "Lo slot dim deve avere lunghezza 2"
 
 msgid "Dimensions of a (%d,%d) and b (%d,%d) do not conform"
-msgstr ""
+msgstr "Dimensioni di a (%d,%d) e b (%d,%d) non conformi"
 
 msgid "Dimensions of system to be solved are inconsistent"
-msgstr ""
+msgstr "Le dimensioni del sistema da risolvere sono inconsistenti"
 
 msgid "Dimensions of x and y are not compatible for %s"
-msgstr ""
+msgstr "Le dimensioni di x e y sono non compatibili per %s"
 
 msgid "Dimnames slot is a list, but not of length 2"
-msgstr ""
+msgstr "Lo slot dimnames è una lista, ma non di lunghezza 2"
 
 msgid "Dimnames slot is not a list"
 msgstr "Lo slot dimnames non è una lista"
 
 msgid "Dimnames[%d] is not a character vector"
-msgstr ""
+msgstr "Dimnames[%d] non è un vettore di caratteri"
 
 msgid "Exact singularity detected during LU decomposition: %s, i=%d."
 msgstr ""
 
 msgid "First call to Lapack routine dgels returned error code %d"
 msgstr ""
+"La prima chiamata alla routine Lapack dgels ha restituito il codice di "
+"errore %d"
 
 msgid "First call to dgeqrf returned error code %d"
-msgstr ""
+msgstr "La prima chiamata a dgeqrf ha restituito il codice di errore %d"
 
 msgid "Impossible Rk_x/Rk_y in Csparse_%s(), please report"
 msgstr ""
+"Non è possibile avere Rk_x/Rk_y in Csparse_%s(), per piacere riportatelo"
 
 msgid "Inappropriate class cl='%s' in Matrix_csn_to_SEXP(S, cl, ..)"
-msgstr ""
+msgstr "Classe inappropriata cl='%s' in Matrix_csn_to_SEXP(S, cl, ..)"
 
 msgid "Inappropriate class cl='%s' in Matrix_css_to_SEXP(S, cl, ..)"
-msgstr ""
+msgstr "Classe inappropriata cl='%s' in Matrix_css_to_SEXP(S, cl, ..)"
 
 msgid "Inconsistent dimensions: np = 0 and nnz = %d"
-msgstr ""
+msgstr "Dimensioni inconsistenti: np = 0 e nnz = %d"
 
 msgid "Incorrect length of 'x' slot"
 msgstr "Lunghezza incorretta dello slot 'x'"
@@ -164,7 +173,7 @@ msgid "Index j must be NULL or integer"
 msgstr "L'indice j dev'essere NULL o intero"
 
 msgid "LU decomposition applies only to square matrices"
-msgstr ""
+msgstr "La decomposizione LU si applica solo alle matrici quadrate"
 
 msgid ""
 "Lapack dgecon(): system computationally singular, reciprocal condition "
@@ -172,22 +181,22 @@ msgid ""
 msgstr ""
 
 msgid "Lapack routine %s returned error code %d"
-msgstr ""
+msgstr "La routine Lapack %s ha restituito il codice di errore %d"
 
 msgid "Lapack routine dgetri: system is exactly singular"
-msgstr ""
+msgstr "Routine Lapack dgetri: il sistema è esattamente singolare"
 
 msgid "Lapack routine dgetrs: system is exactly singular"
-msgstr ""
+msgstr "Routine Lapack dgetrs: il sistema è esattamente singolare"
 
 msgid "Lapack routine dposv returned error code %d"
-msgstr ""
+msgstr "La routine Lapack dposv ha restituito il codice di errore %d"
 
 msgid "Lapack routine dsytrf returned error code %d"
-msgstr ""
+msgstr "La routine Lapack dsytrf ha restituito il codice di errore %d"
 
 msgid "Lapack routine dtrcon returned error code %d"
-msgstr ""
+msgstr "La routine Lapack dtrcon ha restituito il codice di errore %d"
 
 msgid "Lengths of super and pi must be equal"
 msgstr ""
@@ -196,13 +205,13 @@ msgid "Lengths of super and px must be equal"
 msgstr ""
 
 msgid "Lower band %d > upper band %d"
-msgstr ""
+msgstr "Banda inferiore %d > banda superiore %d"
 
 msgid "Matrices are not conformable for multiplication"
 msgstr ""
 
 msgid "Matrix dimension %d x %d (= %g) is too large"
-msgstr ""
+msgstr "Dimensione matrice %d x %d (= %g) è troppo grande"
 
 msgid "Matrix exponential requires square, non-null matrix"
 msgstr ""
@@ -214,7 +223,7 @@ msgid "Matrix namespace not determined correctly"
 msgstr ""
 
 msgid "Matrix object has no 'factors' slot"
-msgstr ""
+msgstr "L'oggetto matrice non ha slot 'factors'"
 
 msgid "Negative value in Dim"
 msgid_plural "Negative values in Dim"
@@ -240,7 +249,7 @@ msgid "Second call to dgeqrf returned error code %d"
 msgstr ""
 
 msgid "Solve requires a square matrix"
-msgstr ""
+msgstr "Solve richiede una matrice quadrata"
 
 msgid "SuiteSparseQR_C_QR returned an error code"
 msgstr ""
@@ -258,13 +267,13 @@ msgid "Unable to initialize cholmod: error code %d"
 msgstr ""
 
 msgid "Unknown error in getGivens"
-msgstr ""
+msgstr "Errore sconosciuto in getGivens"
 
 msgid "X must be a numeric (double precision) matrix"
 msgstr ""
 
 msgid "X must be a real (numeric) matrix"
-msgstr ""
+msgstr "X dev'essere una matrice (numerica) reale"
 
 msgid ""
 "all column indices (slot 'j') must be between 0 and ncol-1 in a TsparseMatrix"
@@ -315,13 +324,13 @@ msgid ""
 msgstr ""
 
 msgid "cholmod_change_factor failed"
-msgstr ""
+msgstr "cholmod_change_factor fallito"
 
 msgid "cholmod_change_factor failed with status %d"
-msgstr ""
+msgstr "cholmod_change_factor fallito con status %d"
 
 msgid "cholmod_drop() failed"
-msgstr ""
+msgstr "cholmod_drop() fallito"
 
 msgid "cholmod_factorize failed: status %d, minor %d from ncol %d"
 msgstr ""
@@ -342,7 +351,7 @@ msgid "cholmod_sort returned an error code"
 msgstr ""
 
 msgid "cholmod_updown() returned %d"
-msgstr ""
+msgstr "cholmod_updown() ha restituito %d"
 
 msgid "cholmod_write_sparse returned error code"
 msgstr ""
@@ -381,7 +390,7 @@ msgid "cs_sqr failed"
 msgstr "cs_sqr fallita"
 
 msgid "csp_eye argument n must be positive"
-msgstr ""
+msgstr "l'argomento csp_eye n dev'essere positivo"
 
 msgid ""
 "data length [%d] is not a sub-multiple or multiple of the number of columns "
@@ -393,10 +402,10 @@ msgid ""
 msgstr ""
 
 msgid "data length exceeds size of matrix"
-msgstr ""
+msgstr "la lunghezza dei dati eccede la dimensione della matrice"
 
 msgid "ddense_to_symmetric(): matrix is not square!"
-msgstr ""
+msgstr "ddense_to_symmetric(): la matrice non è quadrata!"
 
 msgid "dgCMatrix_cholsol requires a 'short, wide' rectangular matrix"
 msgstr ""
@@ -438,7 +447,7 @@ msgid "dgeMatrix_exp: dgetrs returned error code %d"
 msgstr ""
 
 msgid "diag_tC(): invalid 'resultKind'"
-msgstr ""
+msgstr "diag_tC(): 'resultKind' non valido"
 
 msgid "diagonal element %d of Cholesky factor is missing"
 msgstr ""
@@ -474,7 +483,7 @@ msgid "failure to open file \"%s\" for writing"
 msgstr ""
 
 msgid "first element of slot p must be zero"
-msgstr ""
+msgstr "il primo elemento dello slot p dev'essere zero"
 
 msgid "i and j must be integer vectors of the same length"
 msgstr ""
