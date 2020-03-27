@@ -116,6 +116,3 @@ msgstr "'units' dev'essere di lunghezza > 0"
 #: viewport.c:315
 msgid "non-finite location and/or size for viewport"
 msgstr "posizione e/o dimensione della viewport non finita"
-
-#~ msgid "Invalid circle radius (must be non-negative)"
-#~ msgstr "Raggio del cerchio non valido (deve essere non negativo)"

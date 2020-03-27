@@ -418,16 +418,3 @@ msgid "%d z value <= 0 omitted from logarithmic plot"
 msgid_plural "%d z values <= 0 omitted from logarithmic plot"
 msgstr[0] "omesso %d valore di x <= 0 dal grafico su scala logaritmica"
 msgstr[1] "omessi %d valori di x <= 0 dal grafico su scala logaritmica"
-
-#~ msgid "sorry, 'gs' cannot be found"
-#~ msgstr "spiacente, ma non trovo 'gs'"
-
-#, fuzzy
-#~ msgid "loading snapshot from pre-3.0.0 R version"
-#~ msgstr "carico snapshot di una versione di R pre-2.0.0"
-
-#~ msgid "can only print from screen device"
-#~ msgstr "posso stampare solo da dispositivi schermo"
-
-#~ msgid "quartz() device interactivity reduced without an event loop manager"
-#~ msgstr "interattività del device quartz() ridotta senza un manager eventi"

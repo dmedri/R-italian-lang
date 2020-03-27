@@ -500,10 +500,3 @@ msgid "argument %s is not made use of"
 msgid_plural "arguments %s are not made use of"
 msgstr[0] "l'argomento %s non ha fatto uso di"
 msgstr[1] "gli argomenti %s non hanno fatto uso di"
-
-#~ msgid "negative 'counts'. Internal Error in C-code for \"bincount\""
-#~ msgstr "'counts' negativi. Errore interno nel codice C oer \"bincount\""
-
-#, fuzzy
-#~ msgid "explanatory variable should be numeric"
-#~ msgstr "una variabile in 'y' non è numerica"

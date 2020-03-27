@@ -1200,9 +1200,3 @@ msgstr "Aspetto per confermare cambio pagina..."
 #: src/library/grDevices/src/devWindows.c:3791
 msgid "Click or hit ENTER for next page"
 msgstr "Click o premi ENTER per pagina successiva"
-
-#~ msgid "Print...\tCTRL+P"
-#~ msgstr "Stampa...\tCTRL+P"
-
-#~ msgid "invalid device"
-#~ msgstr "dispositivo non valido"
