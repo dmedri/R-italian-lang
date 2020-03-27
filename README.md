@@ -18,9 +18,9 @@ $ ./repo.search "si utilizza"
 ## Clean the repository
 
 It could happen, if you work with some editors (eg. `poedit`). When you open
-a session with a `.po` file, it try to export in binary form as a test. The
-resulting file is a `.mo` file. To clean up your source tree, run the
-following command:
+a session with a `.po` file, it will try to export a binary file as a test. The
+resulting one will be in the same directory with `.mo` extension. To clean up
+your source tree, run the following command:
 
 ```
 $ ./repo.clean
