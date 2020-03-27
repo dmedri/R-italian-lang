@@ -7,19 +7,18 @@ LANG="it"
 DTM=$(date +"%Y%m%d%H%M")
 TAG=$(git tag | sort -V | tail -1 )
 NAME="R-$LANG-$DTM-$TAG.tgz"
-RPP="./packages/src/library"
-OUTR="./archives"
-OUTP="../../../archives"
+RPP="./packages"
+OUT="./archives"
 
 # if not available, create the output directory
-if [ ! -d $OUTR ]; then
-	mkdir $OUTR
+if [ ! -d $OUT ]; then
+	mkdir $OUT
 fi
 
 # R base translations
-echo -e "\n$REL:\n * $OUTR/$NAME"
+echo -e "\n$REL:\n * $OUT/$NAME"
 if [[ -d $REL ]]; then
-	tar zcvf $OUTR/$NAME \
+	tar zcvf $OUT/$NAME \
 		$REL/src/library/base/po/it.po \
 		$REL/src/library/base/po/RGui-it.po \
 		$REL/src/library/base/po/R-it.po \
@@ -50,11 +49,8 @@ fi
 echo -e "\nPackages:"
 cd $RPP
 for i in `ls -d *`; do
-	pkg=$(basename $i)
-	echo -e " * $OUTR/$i-$LANG.tgz"
-	tar zcvf $OUTP/$pkg-$LANG.tgz $i/po/*.po 1>/dev/null
+	echo -e " * $OUT/$i-$LANG.tgz"
+	tar zcvf .$OUT/$i-$LANG.tgz $i/po/*.po 1>/dev/null
 done
 
 echo -e "\nDone.\n"
-
-
