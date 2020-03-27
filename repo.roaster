@@ -7,7 +7,7 @@ RCO="$HOME/.roaster"
 RRR="$RCO/src/$REL"
 RSR="$RRR/src/library"
 RTR="$RRR/library/translations/it/LC_MESSAGES/"
-RPP="./packages/src/library"
+RPP="./packages"
 
 echo -e "This script require an existing ~/.roaster directory."
 echo -e "(informations: https://github.com/dmedri/roaster/)"
