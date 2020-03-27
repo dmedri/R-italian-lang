@@ -6,7 +6,7 @@ REL="R-3.6.3"
 rm -f ./$REL/src/library/*/po/*.mo
 
 # Packages
-rm -f ./packages/src/library/*/po/*.mo
+rm -f ./packages/*/po/*.mo
 
 # Archives
 rm -fr ./archives
