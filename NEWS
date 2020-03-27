@@ -1,21 +1,36 @@
 R-italian-lang
 
+v0.6 (03/27/2020)
+ - new external package: 'class'
+ - new external package: 'rpart'
+ - new external package: 'boot'
+ - new external package: 'cluster'
+ - new external package: 'foreign'
+ - new external package: 'KernSmooth'
+ - new external package: 'lattice'
+ - new external package: 'spatial'
+ - new external package: 'nnet'
+ - new external package: 'mgcv'
+ - new external package: 'nlme'
+ - new external package: 'MASS'
+ - new external package: 'Matrix'
+ - scripts: renamed and reworked
+ - many minor fixes all over
+
 v0.5 (03/23/2020) "brown bag release"
- - po.roaster: new check
  - minor fixes
 
-v0.4 (03/23/2020) stable
+v0.4 (03/23/2020)
  - added TRANSLATORS file with some conventions
  - revisions to fit conventions
  - new find.terms script (to search terms in .po files)
  - new tgz.me script (to create a .tgz archive)
- - new po.roaster ('prepare' script renamed)
+ - new po.roaster script
 
-v0.3 (03/21/2020) beta2
- - translations completed
- - contacted R core team members for the merge
+v0.3 (03/21/2020)
+ - translations completed in branch-3.6 base
 
-v0.2 (03/18/2020) beta1
+v0.2 (03/18/2020)
  - almost all labels reviewed
 
 v0.1 (03/07/2020)
