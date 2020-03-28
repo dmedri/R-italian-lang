@@ -7,7 +7,7 @@ Trellis graphics, with an emphasis on multivariate data. Lattice is sufficient
 for typical graphics needs, and is also flexible enough to handle most 
 nonstandard requirements.
 
-[More infos on CRAN](https://cran.r-project.org/web/packages/lattice/)
+[More infos on CRAN](https://cran.r-project.org/package=lattice)
 ```
 > install.package("lattice")
 ```

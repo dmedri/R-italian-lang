@@ -10,7 +10,7 @@ See Wood (2017) <doi:10.1201/9781315370279> for an overview. Includes a gam()
 function, a wide variety of smoothers, 'JAGS' support and distributions beyond 
 the exponential family. 
 
-[More infos on CRAN](https://cran.r-project.org/web/packages/mgcv/)
+[More infos on CRAN](https://cran.r-project.org/package=mgcv)
 ```
 > install.package("mgcv")
 ```

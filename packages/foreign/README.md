@@ -6,7 +6,7 @@ Reading and writing data stored by some versions of 'Epi Info', 'Minitab',
 'S', 'SAS', 'SPSS', 'Stata', 'Systat', 'Weka', and for reading and writing 
 some 'dBase' files.
 
-[More infos on CRAN](https://cran.r-project.org/web/packages/foreign/)
+[More infos on CRAN](https://cran.r-project.org/package=foreign)
 ```
 > install.package("foreign")
 ```
