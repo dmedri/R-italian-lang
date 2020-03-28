@@ -19,9 +19,7 @@ if [[ -d $RCO ]]; then
 
 	# 'base' package
 	echo -e "\nbase:"
-	cp $REL/src/library/base/po/it.po $RSR/base/po/
-	cp $REL/src/library/base/po/RGui-it.po $RSR/base/po/
-	cp $REL/src/library/base/po/R-it.po $RSR/base/po/
+	cp $REL/src/library/base/po/*.po $RSR/base/po/
 	if [[ ! -d $RSR/base/inst/po/$LANG ]]; then
 		mkdir -p $RSR/base/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -31,7 +29,7 @@ if [[ -d $RCO ]]; then
 
 	# 'compiler' package
 	echo -e "\ncompiler:"
-	cp $REL/src/library/compiler/po/R-it.po $RSR/compiler/po/
+	cp $REL/src/library/compiler/po/*.po $RSR/compiler/po/
 	if [[ ! -d $RSR/compiler/inst/po/$LANG ]]; then
 		mkdir -p $RSR/compiler/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -39,8 +37,7 @@ if [[ -d $RCO ]]; then
 
 	# 'graphics' package
 	echo -e "\ngraphics:"
-	cp $REL/src/library/graphics/po/it.po $RSR/graphics/po/
-	cp $REL/src/library/graphics/po/R-it.po $RSR/graphics/po/
+	cp $REL/src/library/graphics/po/*.po $RSR/graphics/po/
 	if [[ ! -d $RSR/graphics/inst/po/$LANG ]]; then
 		mkdir -p $RSR/graphics/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -49,8 +46,7 @@ if [[ -d $RCO ]]; then
 
 	# 'grDevices' package
 	echo -e "\ngDevices:"
-	cp $REL/src/library/grDevices/po/it.po $RSR/grDevices/po/
-	cp $REL/src/library/grDevices/po/R-it.po $RSR/grDevices/po/
+	cp $REL/src/library/grDevices/po/*.po $RSR/grDevices/po/
 	if [[ ! -d $RSR/grDevices/inst/po/$LANG ]]; then
 		mkdir -p $RSR/grDevices/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -59,18 +55,16 @@ if [[ -d $RCO ]]; then
 
 	# 'grid' package
 	echo -e "\ngrid:"
-	cp $REL/src/library/grid/po/it.po $RSR/grid/po/
-	cp $REL/src/library/grid/po/R-it.po $RSR/grid/po/
+	cp $REL/src/library/grid/po/*.po $RSR/grid/po/
 	if [[ ! -d $RSR/grid/inst/po/$LANG ]]; then
 		mkdir -p $RSR/grid/inst/po/$LANG/LC_MESSAGES
 	fi
 	msgfmt -c --statistics -o $RSR/grid/inst/po/$LANG/LC_MESSAGES/grid.mo $RSR/grid/po/it.po
-	msgfmt -c --statistics -o $RSR/grid/inst/po/$LAnG/LC_MESSAGES/R-grid.mo $RSR/grid/po/R-it.po
+	msgfmt -c --statistics -o $RSR/grid/inst/po/$LANG/LC_MESSAGES/R-grid.mo $RSR/grid/po/R-it.po
 
 	# 'methods' package
 	echo -e "\nmethods:"
-	cp $REL/src/library/methods/po/it.po $RSR/methods/po/
-	cp $REL/src/library/methods/po/R-it.po $RSR/methods/po/
+	cp $REL/src/library/methods/po/*.po $RSR/methods/po/
 	if [[ ! -d $RSR/methods/inst/po/$LANG ]]; then
 		mkdir -p $RSR/methods/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -79,8 +73,7 @@ if [[ -d $RCO ]]; then
 
 	# 'parallel' package
 	echo -e "\nparallel:"
-	cp $REL/src/library/parallel/po/it.po $RSR/parallel/po/
-	cp $REL/src/library/parallel/po/R-it.po $RSR/parallel/po/
+	cp $REL/src/library/parallel/po/*.po $RSR/parallel/po/
 	if [[ ! -d $RSR/parallel/inst/po/$LANG ]]; then
 		mkdir -p $RSR/parallel/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -89,8 +82,7 @@ if [[ -d $RCO ]]; then
 
 	# 'splines' package
 	echo -e "\nsplines:"
-	cp $REL/src/library/splines/po/it.po $RSR/splines/po/
-	cp $REL/src/library/splines/po/R-it.po $RSR/splines/po/
+	cp $REL/src/library/splines/po/*.po $RSR/splines/po/
 	if [[ ! -d $RSR/splines/inst/po/$LANG ]]; then
 		mkdir -p $RSR/splines/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -99,8 +91,7 @@ if [[ -d $RCO ]]; then
 
 	# 'stats' package
 	echo -e "\nstats:"
-	cp $REL/src/library/stats/po/it.po $RSR/stats/po/
-	cp $REL/src/library/stats/po/R-it.po $RSR/stats/po/
+	cp $REL/src/library/stats/po/*.po $RSR/stats/po/
 	if [[ ! -d $RSR/stats/inst/po/$LANG ]]; then
 		mkdir -p $RSR/stats/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -109,7 +100,7 @@ if [[ -d $RCO ]]; then
 
 	# 'stats4' package
 	echo -e "\nstats4:"
-	cp $REL/src/library/stats4/po/R-it.po $RSR/stats4/po/
+	cp $REL/src/library/stats4/po/*.po $RSR/stats4/po/
 	if [[ ! -d $RSR/stats4/inst/po/$LANG ]]; then
 		mkdir -p $RSR/stats4/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -117,8 +108,7 @@ if [[ -d $RCO ]]; then
 
 	# 'tcltk' package
 	echo -e "\ntcltk:"
-	cp $REL/src/library/tcltk/po/it.po $RSR/tcltk/po/
-	cp $REL/src/library/tcltk/po/R-it.po $RSR/tcltk/po/
+	cp $REL/src/library/tcltk/po/*.po $RSR/tcltk/po/
 	if [[ ! -d $RSR/tcltk/inst/po/$LANG ]]; then
 		mkdir -p $RSR/tcltk/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -127,8 +117,7 @@ if [[ -d $RCO ]]; then
 
 	# 'tools' package
 	echo -e "\ntools:"
-	cp $REL/src/library/tools/po/it.po $RSR/tools/po/
-	cp $REL/src/library/tools/po/R-it.po $RSR/tools/po/
+	cp $REL/src/library/tools/po/*.po $RSR/tools/po/
 	if [[ ! -d $RSR/tools/inst/po/$LANG ]]; then
 		mkdir -p $RSR/tools/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -137,8 +126,7 @@ if [[ -d $RCO ]]; then
 
 	# 'utils' package
 	echo -e "\nutils:"
-	cp $REL/src/library/utils/po/it.po $RSR/utils/po/
-	cp $REL/src/library/utils/po/R-it.po $RSR/utils/po/
+	cp $REL/src/library/utils/po/*.po $RSR/utils/po/
 	if [[ ! -d $RSR/utils/inst/po/$LANG ]]; then
 		mkdir -p $RSR/utils/inst/po/$LANG/LC_MESSAGES
 	fi
@@ -146,7 +134,7 @@ if [[ -d $RCO ]]; then
 	msgfmt -c --statistics -o $RSR/utils/inst/po/$LANG/LC_MESSAGES/R-utils.mo $RSR/utils/po/R-it.po
 
 	# Copy all .mo in the right place
-	cp $RSR/*/inst/po/it/LC_MESSAGES/*.mo $RSR/translations/inst/it/LC_MESSAGES/
+	cp $RSR/*/inst/po/$LANG/LC_MESSAGES/*.mo $RSR/translations/inst/$LANG/LC_MESSAGES/
 
 	#
 	# Packages
