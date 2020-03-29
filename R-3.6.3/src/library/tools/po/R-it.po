@@ -113,13 +113,13 @@ msgid "Undocumented arguments in documentation object '%s'"
 msgstr "Argomenti non documentati nell'oggetto documentazione '%s'"
 
 msgid "Duplicated \\argument entries in documentation object '%s':"
-msgstr "Voci \argument duplicate nell'oggetto documentazione '%s':"
+msgstr "Voci argomento duplicate nell'oggetto documentazione '%s':"
 
 msgid "Documented arguments not in \\usage in documentation object '%s':"
 msgstr "Argomenti documentati non in \\usage nell'oggetto documentazione '%s':"
 
 msgid "Objects in \\usage without \\alias in documentation object '%s':"
-msgstr "Oggetti in \\usage senza \alias nell'oggetto documentazione '%s':"
+msgstr "Oggetti in uso senza \\alias nell'oggetto documentazione '%s':"
 
 msgid "Assignments in \\usage in documentation object '%s':"
 msgstr "Assegnazioni in \\usage nell'oggetto documentazione '%s':"
