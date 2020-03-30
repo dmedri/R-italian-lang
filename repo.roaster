@@ -2,11 +2,11 @@
 
 LANG="it"
 
-REL="R-3.6.3"
-#REL="R-4.0.0"
+#REL="R-3.6.3"
+REL="R-4.0.0"
 
-RRR="$HOME/.roaster/src/$REL"
-#RRR="$HOME/.roaster/src/R-DEVEL"
+#RRR="$HOME/.roaster/src/$REL"
+RRR="$HOME/.roaster/src/R-DEVEL"
 # (above path for Roaster with R-DEVEL sources)
 
 ############# don't change anything below this line ##############
@@ -19,7 +19,7 @@ RPP="./packages"
 if [[ -d $RRR ]]; then
 	echo -e "\n---  R base packages   ---"
 	for i in 'base' 'compiler' 'graphics' 'grDevices' 'grid' \
-		'methods' 'splines' 'stats' 'stats4' 'tcltk' \
+		'methods' 'parallel' 'splines' 'stats' 'stats4' 'tcltk' \
 		'tools'; do
 
 		echo -e "\n$i:"
