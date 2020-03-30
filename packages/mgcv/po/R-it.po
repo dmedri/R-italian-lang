@@ -22,7 +22,7 @@ msgid "\"fs\" smooth cannot use a multiply penalized basis (wrong basis in xt)"
 msgstr ""
 
 msgid "\"fs\" terms can not be fixed here"
-msgstr ""
+msgstr "i termini in \"fs\" non possono essere fissati qui"
 
 msgid ""
 "%s link not available for negative binomial family; available links are "
@@ -30,27 +30,29 @@ msgid ""
 msgstr ""
 
 msgid "'family' argument seems not to be a valid family object"
-msgstr ""
+msgstr "l'argomento 'family' non sembra essere un oggetto family valido"
 
 msgid "'theta' must be specified"
-msgstr ""
+msgstr "'theta' dev'essere specificato"
 
 msgid ","
 msgstr ","
 
 msgid "0s in V(mu)"
-msgstr ""
+msgstr "0 in V(mu)"
 
 msgid "1<a<b<2 (strict) required"
 msgstr "1<a<b<2 (strict) richiesto"
 
 msgid "A not square"
-msgstr ""
+msgstr "A non quadrata"
 
 msgid ""
 "A term has fewer unique covariate combinations than specified maximum "
 "degrees of freedom"
 msgstr ""
+"Un termine ha meno combinazioni di covariate uniche rispetto ai gradi "
+"massimi di libertà specificati"
 
 msgid "AR.start must be logical"
 msgstr "AR.start dev'essere logico"
@@ -65,7 +67,7 @@ msgid "Algorithm stopped at boundary value"
 msgstr ""
 
 msgid "An object of length"
-msgstr ""
+msgstr "Un oggetto di lunghezza"
 
 msgid "An object of length %d does not match the required parameter size"
 msgstr ""
@@ -92,7 +94,7 @@ msgid "Can't find valid starting values: please specify some"
 msgstr ""
 
 msgid "Cannot extract the dimensions"
-msgstr ""
+msgstr "Non è possibile estrarre le dimensioni"
 
 msgid "Cannot extract the inverse from an uninitialized object"
 msgstr ""
@@ -107,7 +109,7 @@ msgid "Cannot extract the matrix with uninitialized dimensions"
 msgstr ""
 
 msgid "Deviance = %s Iterations - %d"
-msgstr ""
+msgstr "Devianza = %s Iterazioni - %d"
 
 msgid "Discrete Theta search not available with performance iteration"
 msgstr ""
@@ -207,22 +209,22 @@ msgid "NA values not allowed for the scaled t family"
 msgstr ""
 
 msgid "NA's in min.sp."
-msgstr ""
+msgstr "NA in min.sp."
 
 msgid "NA's in pdTens factor"
-msgstr ""
+msgstr "NA nel fattore pdTens"
 
 msgid "NA's in pdTens matrix"
-msgstr ""
+msgstr "NA nella matrice pdTens"
 
 msgid "NA's in supplied smoothing parameter vector - ignoring."
 msgstr ""
 
 msgid "NAs in V(mu)"
-msgstr ""
+msgstr "NA in V(mu)"
 
 msgid "NAs in d(mu)/d(eta)"
-msgstr ""
+msgstr "NA in d(mu)/d(eta)"
 
 msgid "Nested smooths must be fully random"
 msgstr ""
@@ -322,7 +324,7 @@ msgid "S.scale vector doesn't match S list - please report to maintainer"
 msgstr ""
 
 msgid "S[[%d]] matrix is not +ve definite."
-msgstr ""
+msgstr "La matrice S[[%d]] non è definita +ve."
 
 msgid "Smoothness uncertainty corrected covariance not available"
 msgstr ""
@@ -334,7 +336,7 @@ msgid "Something wrong with auto- penalty construction"
 msgstr ""
 
 msgid "Something wrong with zlim"
-msgstr ""
+msgstr "Qualcosa è andato storto con zlim"
 
 msgid ""
 "Sorry, tensor products of smooths with multiple penalties are not supported."
@@ -356,7 +358,7 @@ msgid "Supplied df below min.df. min.df reset"
 msgstr ""
 
 msgid "Supplied matrix not symmetric"
-msgstr ""
+msgstr "Matrice passata non simmetrica"
 
 msgid "Supplied smoothing parameter vector is too short - ignored."
 msgstr ""
@@ -406,7 +408,7 @@ msgid "`id' linked smooths must have same number of arguments"
 msgstr ""
 
 msgid "`object' is not of class \"gam\""
-msgstr ""
+msgstr "`object' non è della classe \"gam\""
 
 msgid "`rank' has wrong length in `paraPen'"
 msgstr ""
@@ -515,6 +517,7 @@ msgstr ""
 
 msgid "cannot find valid starting values: please specify some"
 msgstr ""
+"non riesco a trovare valori iniziali validi: si prega di specificarne alcuni"
 
 msgid "chunk.size < number of coefficients. Reset to %d"
 msgstr ""
@@ -568,7 +571,7 @@ msgid "does not match the required parameter size"
 msgstr ""
 
 msgid "don't be silly"
-msgstr ""
+msgstr "non essere stupido"
 
 msgid "dropping unidentifiable parametric terms from model"
 msgstr ""
@@ -595,19 +598,19 @@ msgid "factor `by' variables can not be used with matrix arguments."
 msgstr ""
 
 msgid "fam not a family object"
-msgstr ""
+msgstr "fam non è un oggetto famiglia"
 
 msgid "family are not designed for use with gamm!"
-msgstr ""
+msgstr "famiglia non progettata per l'utilizzo con gamm!"
 
 msgid "family not implemented yet"
-msgstr ""
+msgstr "famiglia non ancora implementata"
 
 msgid "family not recognised"
-msgstr ""
+msgstr "famiglia non riconosciuta"
 
 msgid "family not recognized"
-msgstr ""
+msgstr "famiglia non riconosciuta"
 
 msgid "fast REML optimizer reached iteration limit"
 msgstr ""
@@ -756,7 +759,7 @@ msgid "lambda and h should have the same length!"
 msgstr ""
 
 msgid "length of min.sp is wrong."
-msgstr ""
+msgstr "la lunghezza di min.sp è errata."
 
 msgid "length of sp incorrect in t2: ignored"
 msgstr ""
@@ -766,7 +769,7 @@ msgid ""
 msgstr ""
 
 msgid "length(M$w) != length(M$y)"
-msgstr ""
+msgstr "length(M$w) != length(M$y)"
 
 msgid "length(drop.intercept) should be equal to number of model formulas"
 msgstr ""
@@ -830,16 +833,16 @@ msgid "link not recognised"
 msgstr "link non riconosciuto"
 
 msgid "lower bound >= upper bound in call to mono.con()"
-msgstr ""
+msgstr "banda inferiore >= banda superiore nella chiamata a mono.con()"
 
 msgid "m can't be in re"
 msgstr "m non può essere in re"
 
 msgid "m wrong length and ignored."
-msgstr ""
+msgstr "m ha lunghezza errata e viene ignorato."
 
 msgid "maximum number of iterations must be > 0"
-msgstr ""
+msgstr "il numero massimo d iterazioni dev'essere > 0"
 
 msgid "mean, mu, must be non negative"
 msgstr ""
@@ -896,16 +899,16 @@ msgid "names of z and pc must match"
 msgstr ""
 
 msgid "ncol(M$C) != length(M$p)"
-msgstr ""
+msgstr "ncol(M$C) != length(M$p)"
 
 msgid "ncol(M$X) != length(M$p)"
-msgstr ""
+msgstr "ncol(M$X) != length(M$p)"
 
 msgid "need at least one interior knot"
 msgstr ""
 
 msgid "negative values not allowed for the negative binomial family"
-msgstr ""
+msgstr "valori negativi non ammessi per la famiglia binomiale negativa"
 
 msgid "negative values not allowed for the zero inflated Poisson family"
 msgstr ""
@@ -957,7 +960,7 @@ msgid "non-existent terms requested - ignoring"
 msgstr ""
 
 msgid "non-finite coefficients at iteration %d"
-msgstr ""
+msgstr "coefficienti non finiti nell'iterazione %d"
 
 msgid "non-integer binomial denominator: quantiles incorrect"
 msgstr ""
@@ -975,7 +978,7 @@ msgid "not enough finite derivatives"
 msgstr ""
 
 msgid "not enough unique values to find k nearest"
-msgstr ""
+msgstr "non ci sono abbastanza valori unici per trovare il k più vicino"
 
 msgid "not positive definite"
 msgstr "non definito positivo"
@@ -984,13 +987,13 @@ msgid "nothing to do for this model"
 msgstr "niente da fare per questo modello"
 
 msgid "nrow(M$Ain) != length(M$bin)"
-msgstr ""
+msgstr "nrow(M$Ain) != length(M$bin)"
 
 msgid "nrow(M$Ain) != length(M$p)"
-msgstr ""
+msgstr "nrow(M$Ain) != length(M$p)"
 
 msgid "nrow(M$X) != length(M$y)"
-msgstr ""
+msgstr "nrow(M$X) != length(M$y)"
 
 msgid "nthreads must be a positive integer"
 msgstr "nthreads dev'essere un intero positivo"
@@ -1228,7 +1231,7 @@ msgid "te smooths not useable with gamm4: use t2 instead"
 msgstr ""
 
 msgid "test argument ignored"
-msgstr ""
+msgstr "argomento test ignorato"
 
 msgid "the adaptive smooth class is limited to 1 or 2 covariates."
 msgstr ""
@@ -1240,7 +1243,7 @@ msgid "there should be"
 msgstr "dovrebbero essere"
 
 msgid "too few knots"
-msgstr ""
+msgstr "pochi knot"
 
 msgid "type iterms not available for multiple predictor cases"
 msgstr ""
@@ -1276,7 +1279,7 @@ msgid "unknown tensor constraint type"
 msgstr ""
 
 msgid "unrecognised na.action"
-msgstr ""
+msgstr "na.action non riconosciuta"
 
 msgid "unrecognized (vector?) link"
 msgstr ""
@@ -1288,7 +1291,7 @@ msgid "update not positive definite"
 msgstr ""
 
 msgid "value of epsilon must be > 0"
-msgstr ""
+msgstr "il valore di epsilon dev'essere > 0"
 
 msgid "values out of range"
 msgstr "valori fuori intervallo"
@@ -1303,28 +1306,28 @@ msgid "view variables must be one of %s"
 msgstr ""
 
 msgid "w different length from y!"
-msgstr ""
+msgstr "con lunghezza differente da y!"
 
 msgid "weights ignored"
-msgstr ""
+msgstr "pesi ignorati"
 
 msgid "weights must be like glm weights for generalized case"
 msgstr ""
 
 msgid "without a formula"
-msgstr ""
+msgstr "senza una formula"
 
 msgid "x and y must be same length"
 msgstr ""
 
 msgid "x and y not same length"
-msgstr ""
+msgstr "x e y non della stessa lunghezza"
 
 msgid "x is null"
-msgstr ""
+msgstr "x è nullo"
 
 msgid "x out of range"
-msgstr ""
+msgstr "x fuori intervallo"
 
 msgid "xt argument is faulty."
 msgstr ""
