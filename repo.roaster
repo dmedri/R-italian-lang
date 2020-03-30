@@ -1,208 +1,62 @@
 #!/usr/bin/env bash
 
-REL="R-3.6.3"
 LANG="it"
 
+REL="R-3.6.3"
+#REL="R-4.0.0"
+
+RRR="$HOME/.roaster/src/$REL"
+#RRR="$HOME/.roaster/src/R-DEVEL"
+# (above path for Roaster with R-DEVEL sources)
+
 ############# don't change anything below this line ##############
-RCO="$HOME/.roaster"
-RRR="$RCO/src/$REL"
+
+RWD=$(pwd)
 RSR="$RRR/src/library"
 RTR="$RRR/library/translations/it/LC_MESSAGES/"
 RPP="./packages"
 
-echo -e "This script require an existing ~/.roaster directory."
-echo -e "(informations: https://github.com/dmedri/roaster/)"
-echo -e "It will do the required steps to build R w/ latest"
-echo -e "italian translations ready for the masses."
+if [[ -d $RRR ]]; then
+	echo -e "\n---  R base packages   ---"
+	for i in 'base' 'compiler' 'graphics' 'grDevices' 'grid' \
+		'methods' 'splines' 'stats' 'stats4' 'tcltk' \
+		'tools'; do
 
-if [[ -d $RCO ]]; then
-
-	# 'base' package
-	echo -e "\nbase:"
-	cp $REL/src/library/base/po/*.po $RSR/base/po/
-	if [[ ! -d $RSR/base/inst/po/$LANG ]]; then
-		mkdir -p $RSR/base/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/base/inst/po/$LANG/LC_MESSAGES/base.mo $RSR/base/po/it.po
-	msgfmt -c --statistics -o $RSR/base/inst/po/$LANG/LC_MESSAGES/RGui.mo $RSR/base/po/RGui-it.po
-	msgfmt -c --statistics -o $RSR/base/inst/po/$LANG/LC_MESSAGES/R-base.mo $RSR/base/po/R-it.po
-
-	# 'compiler' package
-	echo -e "\ncompiler:"
-	cp $REL/src/library/compiler/po/*.po $RSR/compiler/po/
-	if [[ ! -d $RSR/compiler/inst/po/$LANG ]]; then
-		mkdir -p $RSR/compiler/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/compiler/inst/po/$LANG/LC_MESSAGES/R-compiler.mo $RSR/compiler/po/R-it.po
-
-	# 'graphics' package
-	echo -e "\ngraphics:"
-	cp $REL/src/library/graphics/po/*.po $RSR/graphics/po/
-	if [[ ! -d $RSR/graphics/inst/po/$LANG ]]; then
-		mkdir -p $RSR/graphics/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/graphics/inst/po/$LANG/LC_MESSAGES/graphics.mo $RSR/graphics/po/it.po
-	msgfmt -c --statistics -o $RSR/graphics/inst/po/$LANG/LC_MESSAGES/R-graphics.mo $RSR/graphics/po/R-it.po
-
-	# 'grDevices' package
-	echo -e "\ngDevices:"
-	cp $REL/src/library/grDevices/po/*.po $RSR/grDevices/po/
-	if [[ ! -d $RSR/grDevices/inst/po/$LANG ]]; then
-		mkdir -p $RSR/grDevices/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/grDevices/inst/po/$LANG/LC_MESSAGES/grDevices.mo $RSR/grDevices/po/it.po
-	msgfmt -c --statistics -o $RSR/grDevices/inst/po/$LANG/LC_MESSAGES/R-grDevices.mo $RSR/grDevices/po/R-it.po
-
-	# 'grid' package
-	echo -e "\ngrid:"
-	cp $REL/src/library/grid/po/*.po $RSR/grid/po/
-	if [[ ! -d $RSR/grid/inst/po/$LANG ]]; then
-		mkdir -p $RSR/grid/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/grid/inst/po/$LANG/LC_MESSAGES/grid.mo $RSR/grid/po/it.po
-	msgfmt -c --statistics -o $RSR/grid/inst/po/$LANG/LC_MESSAGES/R-grid.mo $RSR/grid/po/R-it.po
-
-	# 'methods' package
-	echo -e "\nmethods:"
-	cp $REL/src/library/methods/po/*.po $RSR/methods/po/
-	if [[ ! -d $RSR/methods/inst/po/$LANG ]]; then
-		mkdir -p $RSR/methods/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/methods/inst/po/$LANG/LC_MESSAGES/methods.mo $RSR/methods/po/it.po
-	msgfmt -c --statistics -o $RSR/methods/inst/po/$LANG/LC_MESSAGES/R-methods.mo $RSR/methods/po/R-it.po
-
-	# 'parallel' package
-	echo -e "\nparallel:"
-	cp $REL/src/library/parallel/po/*.po $RSR/parallel/po/
-	if [[ ! -d $RSR/parallel/inst/po/$LANG ]]; then
-		mkdir -p $RSR/parallel/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/parallel/inst/po/$LANG/LC_MESSAGES/parallel.mo $RSR/parallel/po/it.po
-	msgfmt -c --statistics -o $RSR/parallel/inst/po/$LANG/LC_MESSAGES/R-parallel.mo $RSR/parallel/po/R-it.po
-
-	# 'splines' package
-	echo -e "\nsplines:"
-	cp $REL/src/library/splines/po/*.po $RSR/splines/po/
-	if [[ ! -d $RSR/splines/inst/po/$LANG ]]; then
-		mkdir -p $RSR/splines/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/splines/inst/po/$LANG/LC_MESSAGES/splines.mo $RSR/splines/po/it.po
-	msgfmt -c --statistics -o $RSR/splines/inst/po/$LANG/LC_MESSAGES/R-splines.mo $RSR/splines/po/R-it.po
-
-	# 'stats' package
-	echo -e "\nstats:"
-	cp $REL/src/library/stats/po/*.po $RSR/stats/po/
-	if [[ ! -d $RSR/stats/inst/po/$LANG ]]; then
-		mkdir -p $RSR/stats/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/stats/inst/po/$LANG/LC_MESSAGES/stats.mo $RSR/stats/po/it.po
-	msgfmt -c --statistics -o $RSR/stats/inst/po/$LANG/LC_MESSAGES/R-stats.mo $RSR/stats/po/R-it.po
-
-	# 'stats4' package
-	echo -e "\nstats4:"
-	cp $REL/src/library/stats4/po/*.po $RSR/stats4/po/
-	if [[ ! -d $RSR/stats4/inst/po/$LANG ]]; then
-		mkdir -p $RSR/stats4/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/stats4/inst/po/$LANG/LC_MESSAGES/R-stats4.mo $RSR/stats4/po/R-it.po
-
-	# 'tcltk' package
-	echo -e "\ntcltk:"
-	cp $REL/src/library/tcltk/po/*.po $RSR/tcltk/po/
-	if [[ ! -d $RSR/tcltk/inst/po/$LANG ]]; then
-		mkdir -p $RSR/tcltk/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/tcltk/inst/po/$LANG/LC_MESSAGES/tcltk.mo $RSR/tcltk/po/it.po
-	msgfmt -c --statistics -o $RSR/tcltk/inst/po/$LANG/LC_MESSAGES/R-tcltk.mo $RSR/tcltk/po/R-it.po
-
-	# 'tools' package
-	echo -e "\ntools:"
-	cp $REL/src/library/tools/po/*.po $RSR/tools/po/
-	if [[ ! -d $RSR/tools/inst/po/$LANG ]]; then
-		mkdir -p $RSR/tools/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/tools/inst/po/$LANG/LC_MESSAGES/tools.mo $RSR/tools/po/it.po
-	msgfmt -c --statistics -o $RSR/tools/inst/po/$LANG/LC_MESSAGES/R-tools.mo $RSR/tools/po/R-it.po
-
-	# 'utils' package
-	echo -e "\nutils:"
-	cp $REL/src/library/utils/po/*.po $RSR/utils/po/
-	if [[ ! -d $RSR/utils/inst/po/$LANG ]]; then
-		mkdir -p $RSR/utils/inst/po/$LANG/LC_MESSAGES
-	fi
-	msgfmt -c --statistics -o $RSR/utils/inst/po/$LANG/LC_MESSAGES/utils.mo $RSR/utils/po/it.po
-	msgfmt -c --statistics -o $RSR/utils/inst/po/$LANG/LC_MESSAGES/R-utils.mo $RSR/utils/po/R-it.po
+		echo -e "\n$i:"
+		cp $REL/src/library/$i/po/*.po $RSR/$i/po/
+		if [[ ! -d $RSR/$i/inst/po/$LANG ]]; then
+			mkdir -p $RSR/$i/inst/po/$LANG/LC_MESSAGES
+		fi
+		if [[ -f $RSR/$i/po/$LANG.po ]]; then msgfmt -c --statistics \
+			-o $RSR/$i/inst/po/$LANG/LC_MESSAGES/$i.mo $RSR/$i/po/$LANG.po
+		fi
+		if [[ -f $RSR/$i/po/RGui-$LANG.po ]]; then msgfmt -c --statistics \
+			-o $RSR/$i/inst/po/$LANG/LC_MESSAGES/RGui.mo $RSR/$i/po/RGui-$LANG.po
+		fi
+		if [[ -f $RSR/$i/po/R-$LANG.po ]]; then msgfmt -c --statistics \
+			-o $RSR/$i/inst/po/$LANG/LC_MESSAGES/R-$i.mo $RSR/$i/po/R-$LANG.po
+		fi	
+	done
 
 	# Copy all .mo in the right place
 	cp $RSR/*/inst/po/$LANG/LC_MESSAGES/*.mo $RSR/translations/inst/$LANG/LC_MESSAGES/
 
-	#
-	# Packages
-	#
+	echo -e "\n--- External Packages ---"
+	cd $RPP
+	for i in `ls -d *`; do
+		echo -e "\n$i"
+		if [[ -f $i/po/$LANG.po ]]; then
+			msgfmt -c --statistics -o $RTR/$i.mo $i/po/$LANG.po
+		fi
+		if [[ -f $i/po/R-$LANG.po ]]; then
+			msgfmt -c --statistics -o $RTR/R-$i.mo $i/po/R-$LANG.po
+		fi
+	done
 
-	echo -e "\nExternal packages\n"
-
-	# package 'boot'
-	echo -e "\nboot:"
-	msgfmt -c --statistics -o $RTR/R-boot.mo $RPP/boot/po/R-it.po
-	
-	# package 'class'
-	echo -e "\nclass"
-	msgfmt -c --statistics -o $RTR/R-class.mo $RPP/class/po/R-it.po
-
-	# package 'cluster'
-	echo -e "\ncluster"
-	msgfmt -c --statistics -o $RTR/cluster.mo $RPP/cluster/po/it.po
-	msgfmt -c --statistics -o $RTR/R-cluster.mo $RPP/cluster/po/R-it.po
-
-	# package 'foreign'
-	echo -e "\nforeign"
-	msgfmt -c --statistics -o $RTR/foreign.mo $RPP/foreign/po/it.po
-	msgfmt -c --statistics -o $RTR/R-foreign.mo $RPP/foreign/po/R-it.po
-
-	# package 'KernSmooth'
-	echo -e "\nKernSmooth"
-	msgfmt -c --statistics -o $RTR/R-KernSmooth.mo $RPP/KernSmooth/po/R-it.po
-
-	# package 'lattice'
-	echo -e "\nlattice"
-	msgfmt -c --statistics -o $RTR/R-lattice.mo $RPP/lattice/po/R-it.po
-
-	# package 'MASS'
-	echo -e "\nMASS"
-	msgfmt -c --statistics -o $RTR/R-MASS.mo $RPP/MASS/po/R-it.po
-
-	# package 'Matrix'
-	echo -e "\nMatrix"
-	msgfmt -c --statistics -o $RTR/Matrix.mo $RPP/Matrix/po/it.po
-	msgfmt -c --statistics -o $RTR/R-Matrix.mo $RPP/Matrix/po/R-it.po
-
-	# package 'mgcv'
-	echo -e "\nmgcv"
-	msgfmt -c --statistics -o $RTR/mgcv.mo $RPP/mgcv/po/it.po
-	msgfmt -c --statistics -o $RTR/R-mgcv.mo $RPP/mgcv/po/R-it.po
-
-	# package 'nlme'
-	echo -e "\nnlme"
-	msgfmt -c --statistics -o $RTR/nlme.mo $RPP/nlme/po/it.po
-	msgfmt -c --statistics -o $RTR/R-nlme.mo $RPP/nlme/po/R-it.po
-
-	# package 'nnet'
-	echo -e "\nnnet"
-	msgfmt -c --statistics -o $RTR/R-nnet.mo $RPP/nnet/po/R-it.po
-
-	# package 'rpart'
-	echo -e "\nrpart"
-	msgfmt -c --statistics -o $RTR/rpart.mo $RPP/rpart/po/it.po
-	msgfmt -c --statistics -o $RTR/R-rpart.mo $RPP/rpart/po/R-it.po
-
-	# package 'spatial'
-	echo -e "\nspatial"
-	msgfmt -c --statistics -o $RTR/R-spatial.mo $RPP/spatial/po/R-it.po
-
-	#
 	# Last check
-	#
-	#cd $RRR/po && make update-pkg-po update-RGui
+	cd $RRR/po && make update-pkg-po update-RGui
 
+else
+	echo -e "This script require an existing ~/.roaster directory."
+	echo -e "(informations: https://github.com/dmedri/roaster/)"
 fi
