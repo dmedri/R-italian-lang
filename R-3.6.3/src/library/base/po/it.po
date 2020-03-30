@@ -5957,7 +5957,7 @@ msgstr "riferimento ad argomento non esistente %d"
 
 #: src/main/sprintf.c:216 src/main/sprintf.c:248
 msgid "too few arguments"
-msgstr "argomenti insuficienti"
+msgstr "pochi argomenti"
 
 #: src/main/sprintf.c:221
 msgid "at most one asterisk '*' is supported in each conversion specification"
