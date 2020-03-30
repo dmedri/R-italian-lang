@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.6.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 13:38+0200\n"
+"POT-Creation-Date: 2020-03-30 19:43+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -1673,7 +1673,6 @@ msgstr "data in modalità '%s' non valida (troppo corto)"
 
 #: src/main/coerce.c:1025 src/main/coerce.c:1147 src/main/coerce.c:1170
 #, c-format
-#| msgid "'pairlist' object cannot be coerced to type '%s'"
 msgid "'%s' object cannot be coerced to type '%s'"
 msgstr "l'oggetto '%s' non può essere convertito nel tipo '%s'"
 
@@ -2369,7 +2368,6 @@ msgid "invalid UTF-8 input in readChar()"
 msgstr "input UTF-8 non valido in readChar()"
 
 #: src/main/connections.c:4691 src/main/connections.c:4701
-#| msgid "translating strings with \"bytes\" encoding is not allowed"
 msgid "truncating string with embedded nuls"
 msgstr "troncamento della stringa con nul integrati"
 
@@ -2644,7 +2642,6 @@ msgid "invalid component [[10]] in \"POSIXlt\" should be 'zone'"
 msgstr "componente [[10]] non valido in \"POSIXlt\" dovrebbe essere 'zone'"
 
 #: src/main/datetime.c:923
-#| msgid "invalid component [[10]] in \"POSIXlt\" should be 'zone'"
 msgid "More than 9 list components in \"POSIXlt\" without timezone"
 msgstr ""
 "Oltre 9 componenti di lista in \"POSIXlt\" senza fuso orario (timezone)"
@@ -3224,8 +3221,6 @@ msgstr "indicizzazione '...' con indice %d non-positivo"
 
 #: src/main/envir.c:1426
 #, c-format
-#| msgid "the ... list does not contain any elements"
-#| msgid_plural "the ... list does not contain %d elements"
 msgid "the ... list contains fewer than %d element"
 msgid_plural "the ... list contains fewer than %d elements"
 msgstr[0] "la lista ... contiene meno di %d elemento"
@@ -4157,10 +4152,6 @@ msgstr "espressione regolare '%s' non valida"
 
 #: src/main/grep.c:347
 #, c-format
-#| msgid ""
-#| "PCRE pattern compilation error\n"
-#| "\t'%s'\n"
-#| "\tat '%s'\n"
 msgid ""
 "PCRE JIT compilation error\n"
 "\t'%s'"
@@ -4230,7 +4221,6 @@ msgstr "stringa del risultato troppo lunga"
 
 #: src/main/grep.c:2900
 #, c-format
-#| msgid "'pcre_fullinfo' returned '%d' "
 msgid "'pcre2_patterninfo' returned '%d' "
 msgstr "'pcre2_patterninfo' ha restituito '%d' "
 
@@ -4849,7 +4839,6 @@ msgstr "l'argomento lista non ha nomi validi"
 
 #: src/main/options.c:530
 #, c-format
-#| msgid "zip file '%s' cannot be opened"
 msgid "option '%s' cannot be deleted"
 msgstr "l'opzione '%s' non può essere eliminata"
 
@@ -5781,7 +5770,6 @@ msgid "'lengths' is not of mode integer"
 msgstr "'lengths' non è in modalità intera"
 
 #: src/main/seq.c:1104
-#| msgid "argument is not of mode character"
 msgid "'from' is not of mode integer"
 msgstr "'from' non è in modalità intera"
 
@@ -5790,17 +5778,14 @@ msgid "'by' is not of mode integer"
 msgstr "'by' non è in modalità intera"
 
 #: src/main/seq.c:1114
-#| msgid "group length is 0 but data length > 0"
 msgid "'from' has length 0, but not 'lengths'"
 msgstr "'from' ha lunghezza 0, ma non 'lengths'"
 
 #: src/main/seq.c:1116
-#| msgid "group length is 0 but data length > 0"
 msgid "'by' has length 0, but not 'lengths'"
 msgstr "'by' ha lunghezza 0, ma non 'lengths'"
 
 #: src/main/seq.c:1123
-#| msgid "'gap' must be non-negative integer"
 msgid "'lengths' must be a vector of non-negative integers"
 msgstr "'lengths' dev'essere un vettore di interi non negativi"
 
@@ -5927,7 +5912,6 @@ msgstr ""
 "ReadItem: tipo %i sconosciuto, forse creato con una versione successiva di R"
 
 #: src/main/serialize.c:2157 src/main/serialize.c:2248
-#| msgid "invalid type or length for slot name"
 msgid "invalid length of encoding name"
 msgstr "nome di codifica con lunghezza non valida"
 
@@ -6149,7 +6133,7 @@ msgstr "riferimento ad argomento non esistente %d"
 
 #: src/main/sprintf.c:216 src/main/sprintf.c:248
 msgid "too few arguments"
-msgstr "argomenti insuficienti"
+msgstr "pochi argomenti"
 
 #: src/main/sprintf.c:221
 msgid "at most one asterisk '*' is supported in each conversion specification"
@@ -6565,7 +6549,6 @@ msgstr "errore interno: nessuna traduzione richiesta"
 
 #: src/main/sysutils.c:969 src/main/sysutils.c:973
 #, c-format
-#| msgid "unable to write to the clipboard"
 msgid "unable to translate '%s' to native encoding"
 msgstr "non è possibile tradurre '%s' ad una codifica nativa"
 
