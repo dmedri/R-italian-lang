@@ -1963,10 +1963,3 @@ msgstr[0] ""
 msgstr[1] ""
 "In %s :\n"
 " gli argomenti extra %s saranno ignorati"
-
-#~ msgid "bad handler specification"
-#~ msgstr "specificazione dell'handler non valida"
-
-#~ msgid "Must use 'exprs' or unnamed expressions, but not both"
-#~ msgstr ""
-#~ "Si deve utilizzare 'exprs' o espressioni non nominate, ma non entrambi"
