@@ -173,6 +173,9 @@ msgid ""
 "\t it is currently defined for sparseMatrix only; consider using chol() "
 "instead"
 msgstr ""
+"Cholesky(A) ha chiamato 'A' della classe \"%s\";\n"
+"\t è attualmente definito solo per sparseMatrix; si consideri l'utilizzo di "
+"chol() come alternativa"
 
 msgid "Class %s is not yet implemented"
 msgstr "La classe %s non è ancora implementata"
@@ -310,10 +313,10 @@ msgstr ""
 "  all'indice massimo i*."
 
 msgid "coercion to \"indMatrix\" only works from integer numeric"
-msgstr ""
+msgstr "la coercizione in \"indMatrix\" funziona solo da interi numerici"
 
 msgid "coercion to \"pMatrix\" only works from integer numeric"
-msgstr ""
+msgstr "la coercizione in \"pMatrix\" funziona solo da interi numerici"
 
 msgid "column indices must be <= ncol(.) which is %d"
 msgstr "gli indici di colonna devono essere <= ncol(.) e sono %d"
@@ -326,9 +329,11 @@ msgstr "diag(.) ha 0 o voci NA; un risultato non-finito è incerto"
 
 msgid "diagonalMatrix in .dense2C() -- should never happen, please report!"
 msgstr ""
+"diagonalMatrix in .dense2C() -- non dovrebbe mai accadere, per piacere, "
+"riportatelo!"
 
 msgid "dim [product %d] do not match the length of object [%d]"
-msgstr ""
+msgstr "dim [product %d] non corrisponde con la lunghezza dell'oggetto [%d]"
 
 msgid "dim(.) value must be numeric of length 2"
 msgstr "il valore di dim(.) dev'essere numerico di lunghezza 2"
@@ -343,6 +348,8 @@ msgid ""
 "dimnames(.) <- NULL:  translated to \n"
 "dimnames(.) <- list(NULL,NULL)  <==>  unname(.)"
 msgstr ""
+"dimnames(.) <- NULL:  tradotto in \n"
+"dimnames(.) <- list(NULL,NULL)  <==>  unname(.)"
 
 msgid "element type '%s' not recognized"
 msgstr "tipo elemento '%s' non riconosciuto"
@@ -351,7 +358,7 @@ msgid "element type 'complex' not yet implemented"
 msgstr "tipo di elemento 'complex' non ancora implementato"
 
 msgid "exactly one of 'i', 'j', or 'p' must be missing from call"
-msgstr ""
+msgstr "uno tra 'i', 'j' o 'p' non deve essere presente nella chiamata"
 
 msgid ""
 "extra argument %s will be disregarded in\n"
@@ -360,7 +367,11 @@ msgid_plural ""
 "extra arguments %s will be disregarded in\n"
 " %s"
 msgstr[0] ""
+"l'argomento extra %s sarà ignorato in\n"
+"  %s"
 msgstr[1] ""
+"gli argomenti extra %s saranno ignorati in\n"
+"  %s"
 
 msgid "file is not a MatrixMarket file"
 msgstr "il file non è un file MatrixMarket"
@@ -369,15 +380,18 @@ msgid ""
 "for symmetric band matrix, only specify upper or lower triangle\n"
 " hence, all k must have the same sign"
 msgstr ""
+"per la matrice di bande simmetriche, specificare solo il triangolo superiore "
+"o inferiore\n"
+"  poi, tutti i k devono avere lo stesso segno"
 
 msgid "general Matrix class not yet implemented for %s"
-msgstr ""
+msgstr "classe generale Matrix non ancora implementata per %s"
 
 msgid "hit a cycle (1) -- stop iterations"
-msgstr ""
+msgstr "fine ciclo (1) - interrompe le iterazioni"
 
 msgid "hit a cycle (2) -- stop iterations"
-msgstr ""
+msgstr "fine ciclo (2) - interrompe le iterazioni"
 
 msgid "i1[1] == 0 ==> C-level verbosity will not happen!"
 msgstr "i1[1] == 0 ==> la verbosità a livello C non accadrà!"
@@ -389,7 +403,7 @@ msgid "in Summary(<ANY>, .): %s(<%s>, <%s>,...)"
 msgstr "in Summary(<ANY>, .): %s(<%s>, <%s>,...)"
 
 msgid "in show(); maybe adjust 'options(max.print= *, width = *)'"
-msgstr ""
+msgstr "in show(); si dovrebbe aggiustare 'options(max.print= *, width = *)'"
 
 msgid "incompatible matrix dimensions"
 msgstr "dimensioni matrice non compatibili"
@@ -400,21 +414,26 @@ msgstr "indice più largo del massimo %d"
 msgid ""
 "index must be numeric, logical or sparseVector for indexing sparseVectors"
 msgstr ""
+"l'indice dev'essere numerico, logico o sparseVector per l'indicizzazione di "
+"sparseVector"
 
 msgid "inefficient coercion (lost triangularity); please report"
 msgstr ""
+"coercizione inefficiente (triangolarità persa); per piacere, segnalatelo"
 
 msgid "inefficient method used for \"- e1\""
 msgstr "utilizzato metodo inefficiente per \"- e1\""
 
 msgid "intermediate 'r' is of type %s"
-msgstr ""
+msgstr "la 'r' intermedia è di tipo %s"
 
 msgid "internal bug in \"Compare\" method (Cmp.Mat.atomic); please report"
 msgstr ""
+"bug interno nel metodo \"Compare\" (Cmp.Mat.atomic); per piacere, riportatelo"
 
 msgid "internal bug in \"Logic\" method (Logic.Mat.atomic); please report"
 msgstr ""
+"bug interno nel metodo \"Logic\" (Logic.Mat.atomic); per piacere, segnalatelo"
 
 msgid "internal bug: matrix 'i' in replTmat(): please report"
 msgstr ""
@@ -552,13 +571,14 @@ msgid "non-square matrix"
 msgstr "matrice non quadrata"
 
 msgid "not a positive definite matrix"
-msgstr ""
+msgstr "non è una matrice definita positiva"
 
 msgid "not a square matrix"
 msgstr "non è una matrice quadrata"
 
 msgid "not a symmetric matrix; consider forceSymmetric() or symmpart()"
 msgstr ""
+"non è una matrice simmetrica; si consideri forceSymmetric() o symmpart()"
 
 msgid "not a triangular matrix"
 msgstr "non è una matrice triangolare"
@@ -582,13 +602,13 @@ msgid "not yet implemented for class %s"
 msgstr "non ancora implementato per la classe %s"
 
 msgid "not yet implemented for matrix with typeof %s"
-msgstr ""
+msgstr "non ancora implementato per matrici con typeof %s"
 
 msgid "not-yet-implemented 'Matrix[<-' method"
-msgstr ""
+msgstr "metodo 'Matrix[<-' non ancora implementato"
 
 msgid "not-yet-implemented coercion to \"TsparseMatrix\""
-msgstr ""
+msgstr "coercizione in \"TsparseMatrix\" non ancora implementato"
 
 msgid ""
 "not-yet-implemented method for %s(<%s>).\n"
@@ -615,7 +635,7 @@ msgid "number of non zeros is smaller than 'nnz' because of duplicated (i,j)s"
 msgstr ""
 
 msgid "number of rows are not compatible for %s"
-msgstr ""
+msgstr "il numero di righe non sono compatibili per %s"
 
 msgid "only 2-dimensional tables can be directly coerced to sparse matrices"
 msgstr ""
@@ -643,7 +663,7 @@ msgid "rankMatrix(x, method='qr'): computing t(x) as nrow(x) < ncol(x)"
 msgstr ""
 
 msgid "rcond(.) via sparse -> dense coercion"
-msgstr ""
+msgstr "rcond (.) con coercizione sparsa -> densa"
 
 msgid "readMM(): column values 'j' are not in 1:nc"
 msgstr "readMM(): i valori della colonna 'j' non sono in 1:nc"
@@ -655,7 +675,7 @@ msgid "replacing \"indMatrix\" entries is not allowed, as rarely sensible"
 msgstr ""
 
 msgid "representation '%s' not recognized"
-msgstr ""
+msgstr "rappresentazione '%s' non riconosciuta"
 
 msgid "resulting x-slot has different type than x's or y's"
 msgstr ""
@@ -664,7 +684,7 @@ msgid "row indices must be <= nrow(.) which is %d"
 msgstr ""
 
 msgid "some arguments are not matrices"
-msgstr ""
+msgstr "alcuni argomenti non sono matrici"
 
 msgid "such indexing must be by logical or 2-column numeric matrix"
 msgstr ""
@@ -736,7 +756,7 @@ msgid "uniDiag=TRUE, not all entries in diagonal coded as 1"
 msgstr ""
 
 msgid "update must be TRUE/FALSE or '+' or '-'"
-msgstr ""
+msgstr "l'aggiornamento dev'essere TRUE/FALSE o '+' o '-'"
 
 msgid "using\t \"old code\" part in  Csparse subassignment"
 msgstr ""
