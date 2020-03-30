@@ -20,7 +20,7 @@ if [[ -d $RRR ]]; then
 	echo -e "\n---  R base packages   ---"
 	for i in 'base' 'compiler' 'graphics' 'grDevices' 'grid' \
 		'methods' 'parallel' 'splines' 'stats' 'stats4' 'tcltk' \
-		'tools'; do
+		'tools' 'utils'; do
 
 		echo -e "\n$i:"
 		cp $REL/src/library/$i/po/*.po $RSR/$i/po/
