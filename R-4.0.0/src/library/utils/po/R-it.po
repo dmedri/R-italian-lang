@@ -414,7 +414,7 @@ msgstr ""
 "%d"
 
 msgid "no method found for %s(., n=%s) and class %s"
-msgstr "nessun metodo trovato per %s(., n=%) e classe %s"
+msgstr "nessun metodo trovato per %s(., n=%s) e classe %s"
 
 msgid ""
 "tail(., addrownums = V) is deprecated.\n"
