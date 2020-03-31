@@ -96,3 +96,12 @@ it: "si rilascia" "si rilasciano"
 
 en: "are dropped"
 it: "sono rilasciati"
+
+en: "statistical smoothing"
+it: "livellamento statistico"
+
+en: "smoothing"
+it: "livellamento"
+
+en: "to smooth"
+it: "livellare"
