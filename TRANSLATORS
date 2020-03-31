@@ -114,3 +114,6 @@ it: "reimpostare"
 
 en: "zero-inflated"
 it: "ad inflazione zero" (see. zero-inflated model)
+
+en: "penalty basis"
+it: "base di penalità"
