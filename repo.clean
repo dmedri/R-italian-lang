@@ -4,9 +4,11 @@ REL="R-3.6.3"
 
 # Branch
 rm -f ./$REL/src/library/*/po/*.mo
+rm -f ./$REL/src/library/*/po/*.pot
 
 # Packages
 rm -f ./packages/*/po/*.mo
+rm -f ./packages/*/po/*.pot
 
 # Archives
 rm -fr ./archives
