@@ -111,3 +111,6 @@ it: "si reimpostano i termini"
 
 en: "reset"
 it: "reimpostare"
+
+en: "zero-inflated"
+it: "ad inflazione zero" (see. zero-inflated model)
