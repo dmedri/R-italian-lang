@@ -60,13 +60,13 @@ msgstr ""
 
 msgid "%s not available for plotting"
 msgid_plural "%s not available for plotting"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s non disponibile per il plotting"
+msgstr[1] "%s non disponibili per il plotting"
 
 msgid "%s not found in data"
 msgid_plural "%s not found in data"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s non trovato nei dati"
+msgstr[1] "%s non trovati nei dati"
 
 msgid "%s not matched"
 msgid_plural "%s not matched"
@@ -757,7 +757,7 @@ msgid "initial values for \"corSymm\" must be between -1 and 1"
 msgstr ""
 
 msgid "initial values for 'varIdent' must be > 0"
-msgstr ""
+msgstr "i valori iniziali per 'varIdent' devono essere > 0"
 
 msgid "initial values must have group names in 'varExp'"
 msgstr ""
@@ -775,15 +775,15 @@ msgid "installed with old R version"
 msgstr "installato con una vecchia versione di R"
 
 msgid "invalid formula for groups"
-msgstr ""
+msgstr "formula non valida per i gruppi"
 
 msgid "length of 'nam' not consistent with dimensions of initial value"
 msgstr ""
 
 msgid "level %s not allowed for %s"
 msgid_plural "levels %s not allowed for %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "livello %s non ammesso per %s"
+msgstr[1] "livelli %s non ammessi per %s"
 
 msgid "level of %s does not match formula %s"
 msgstr ""
@@ -817,7 +817,7 @@ msgid "model formula must be of the form \"resp ~ pred\""
 msgstr ""
 
 msgid "model must be a formula of the form \"resp ~ pred\""
-msgstr ""
+msgstr "il modello dev'essere una formula nella forma \"resp ~ pred\""
 
 msgid "models with \"corStruct\" and/or \"varFunc\" objects not allowed"
 msgstr ""
@@ -888,10 +888,10 @@ msgid "no default method for extracting the square root of a \"pdMat\" object"
 msgstr ""
 
 msgid "no degrees of freedom for estimating std. dev."
-msgstr ""
+msgstr "non ci sono gradi di libertà per la stima della deviazione standard"
 
 msgid "no degrees of freedom specified"
-msgstr ""
+msgstr "gradi di libertà non specificati"
 
 msgid "no effects allowed in right side of formula"
 msgstr ""
@@ -906,7 +906,7 @@ msgid "no model variogram available with 'showModel = TRUE'"
 msgstr ""
 
 msgid "nonexistent group in 'newdata'"
-msgstr ""
+msgstr "gruppo non esistente in 'newdata'"
 
 msgid "nonexistent group names for initial values"
 msgstr ""
@@ -937,7 +937,7 @@ msgid ""
 msgstr ""
 
 msgid "not implemented for \"nlme\" objects"
-msgstr ""
+msgstr "non implementato per oggetti \"nlme\""
 
 msgid "not implemented for multiple levels of nesting"
 msgstr ""
@@ -1015,7 +1015,7 @@ msgid "only single effects allowed in left side of 'form'"
 msgstr ""
 
 msgid "only single level allowed"
-msgstr ""
+msgstr "ammesso solo un singolo livello"
 
 msgid "parameter in \"corCompSymm\" structure must be < 1 in absolute value"
 msgstr ""
@@ -1078,10 +1078,10 @@ msgstr[0] "termine %s non corrispondente"
 msgstr[1] "termini %s non corrispondenti"
 
 msgid "terms can only be integers or characters"
-msgstr ""
+msgstr "i termini possono essere solo di tipo integer o character"
 
 msgid "terms must all have the same denominator DF"
-msgstr ""
+msgstr "i termini devono avere tutti il medesimo denominatore DF"
 
 msgid "undefined collapsing level %s for %s"
 msgstr ""
@@ -1090,7 +1090,7 @@ msgid "undefined display level %s for %s"
 msgstr ""
 
 msgid "undefined group declared in 'subset'"
-msgstr ""
+msgstr "un gruppo non definito è stato dichiarato in 'subset'"
 
 msgid ""
 "unique values of the covariate  for \"corSymm\" objects must be a sequence "
