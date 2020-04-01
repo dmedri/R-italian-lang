@@ -79,13 +79,14 @@ msgstr ""
 "parametro"
 
 msgid "At least three knots required in call to mono.con."
-msgstr ""
+msgstr "Almeno tre knot richiesti nella chiamata a mono.con."
 
 msgid "Basis only handles 1D smooths"
 msgstr "La base gestisce solo livellamenti 1D"
 
 msgid "Can not convert this smooth class to a random effect"
 msgstr ""
+"Non è possibile convertire questa classe di livellamento in random effect"
 
 msgid "Can not have more eigenvalues than nrow(A)"
 msgstr "Non è possibile avere più autovalori (eigenvalue) che nrow(A)"
@@ -121,6 +122,8 @@ msgstr "Devianza = %s Iterazioni - %d"
 
 msgid "Discrete Theta search not available with performance iteration"
 msgstr ""
+"La ricerca del Theta discreto non è disponibile con iterazione delle "
+"prestazioni"
 
 msgid ""
 "Don't know what to do with parametric terms that are not simple numeric or "
@@ -138,12 +141,15 @@ msgstr "Il primo argomento non è in alcun modo una formula!"
 
 msgid "Fitting terminated with step failure - check results carefully"
 msgstr ""
+"Adattamento terminato con errore di passo: controllare attentamente i "
+"risultati"
 
 msgid "H has wrong dimension"
 msgstr "H ha una dimensione errata"
 
 msgid "IRLS regularizing parameter must be a non-negative number."
 msgstr ""
+"Il parametro di regolarizzazione IRLS dev'essere un numero non negativo."
 
 msgid "Invalid fitted means in empty model"
 msgstr "Medie adattate non valide nel modello vuoto"
@@ -153,6 +159,8 @@ msgstr "Predittore lineare non valido nel modello vuoto"
 
 msgid "Iteration limit reached without full convergence - check carefully"
 msgstr ""
+"Limite di iterazione raggiunto senza piena convergenza - controllate "
+"attentamente"
 
 msgid "L has inconsistent dimensions."
 msgstr "L ha dimensioni inconsistenti."
@@ -170,18 +178,24 @@ msgid ""
 "Later terms sharing an `id' can not have more smoothing parameters than the "
 "first such term"
 msgstr ""
+"I termini successivi che condividono un `id 'non possono avere più parametri "
+"di livellamento rispetto al primo di questi termini"
 
 msgid "Length of start should equal"
-msgstr ""
+msgstr "La lunghezza di 'start' dovrebbe essere uguale"
 
 msgid "Length of start should equal %d and correspond to initial coefs for %s"
 msgstr ""
+"La lunghezza di 'start' dovrebbe essere uguale a %d e corrispondere ai "
+"coefficienti iniziali per %s"
 
 msgid "Length of start should equal %d and correspond to initial coefs."
 msgstr ""
+"La lunghezza di 'start' dovrebbe essere uguale a %d e corrispondere ai "
+"coefficienti iniziali."
 
 msgid "M$S and M$off have different lengths"
-msgstr ""
+msgstr "M$S e M$off hanno lunghezze differenti"
 
 msgid "M$S[%d] is too large given M$off[%d]"
 msgstr "M$S[%d] è troppo largo dato M$off[%d]"
@@ -190,7 +204,7 @@ msgid "M$sp has different length to M$S and M$off"
 msgstr "M$sp ha una lunghezza differente da M$S e M$off"
 
 msgid "MRF basis dimension set too high"
-msgstr ""
+msgstr "Dimensione base MRF impostata troppo alta"
 
 msgid "Model can not be updated"
 msgstr "Il modello non può essere aggiornato"
@@ -203,7 +217,7 @@ msgid "Model has more coefficients than data"
 msgstr "Il modello ha più coefficienti che dati"
 
 msgid "Model matrix not full column rank"
-msgstr ""
+msgstr "Matrice del modello non ha rango di colonna completo"
 
 msgid "Model seems to contain no terms"
 msgstr "Il modello sembra non contenere termini"
@@ -216,7 +230,7 @@ msgid "Must supply theta or R to ocat"
 msgstr "Bisogna passare theta o R a ocat"
 
 msgid "NA times supplied for cox.ph prediction"
-msgstr ""
+msgstr "Tempi con NA passati per la previsione di cox.ph"
 
 msgid "NA values not allowed for the scaled t family"
 msgstr "Valori NA non ammessi per la famiglia t in scala"
@@ -231,7 +245,7 @@ msgid "NA's in pdTens matrix"
 msgstr "NA nella matrice pdTens"
 
 msgid "NA's in supplied smoothing parameter vector - ignoring."
-msgstr ""
+msgstr "NA passati nel vettore dei parametri di livellamento - ignorato."
 
 msgid "NAs in V(mu)"
 msgstr "NA in V(mu)"
@@ -240,7 +254,7 @@ msgid "NAs in d(mu)/d(eta)"
 msgstr "NA in d(mu)/d(eta)"
 
 msgid "Nested smooths must be fully random"
-msgstr ""
+msgstr "I livellamenti nidificati devono essere completamente casuali"
 
 msgid "No data supplied to gam.setup"
 msgstr "Nessun dato passato a gam.setup"
@@ -249,13 +263,13 @@ msgid "No data supplied to gamm.setup"
 msgstr "Nessun dato passato a gamm.setup"
 
 msgid "No observations informative at iteration %d"
-msgstr ""
+msgstr "Nessuna osservazione informativa all'iterazione %d"
 
 msgid "No suitable s (i.e. m[2]) try increasing m[1]"
 msgstr "Nessun s adeguato (es. m[2]), si provi ad incrementare m[1]"
 
 msgid "No terms to plot - nothing for plot.gam() to do."
-msgstr ""
+msgstr "Nessun termin per il plot - niente da fare per plot.gam()."
 
 msgid "No variance estimates available"
 msgstr "Nessuna stima di varianza disponibile"
@@ -264,12 +278,14 @@ msgid ""
 "Non finite derivatives. Try decreasing fit tolerance! See `epsilon' in `gam."
 "contol'"
 msgstr ""
+"Derivate non finite. Prova a ridurre la tolleranza di adattamento! Vedi "
+"`epsilon' in `game.control'"
 
 msgid "Non-finite coefficients at iteration"
-msgstr ""
+msgstr "Coefficienti non finiti all'iterazione"
 
 msgid "Non-finite coefficients at iteration %d"
-msgstr ""
+msgstr "Coefficienti non finiti nell'iterazione %d"
 
 msgid ""
 "Non-finite derivatives. Try decreasing fit tolerance! See `epsilon' in `gam."
@@ -286,13 +302,13 @@ msgid "Non-integer response variables are not allowed with ziplss"
 msgstr ""
 
 msgid "Not enough (non-NA) data to do anything meaningful"
-msgstr ""
+msgstr "Dati insufficienti (non NA) per fare qualcosa di significativo"
 
 msgid "Not enough informative observations."
 msgstr "Non ci sono abbastanza osservazioni informative."
 
 msgid "Number of prediction and fit constraints must match"
-msgstr ""
+msgstr "Il numero di vincoli di previsione e adattamento deve corrispondere"
 
 msgid "Only 1<p<=2 supported"
 msgstr "Solo 1<p<=2 supportato"
@@ -319,13 +335,14 @@ msgid ""
 msgstr ""
 
 msgid "Possible divergence detected in fast.REML.fit"
-msgstr ""
+msgstr "Possibile divergenza rilevata in fast.REML.fit"
 
 msgid "Repeated variables as arguments of a smooth are not permitted"
 msgstr ""
+"Le variabili ripetute come argomenti di un livellamento non sono consentite"
 
 msgid "Requires a gam or bam prefit object"
-msgstr ""
+msgstr "Richiede un oggetto pre-adattato gam o bam"
 
 msgid "Reset optimizer to outer/newton"
 msgstr ""
@@ -343,10 +360,10 @@ msgid "Smoothness uncertainty corrected covariance not available"
 msgstr ""
 
 msgid "Something wrong - matrix probably not +ve semi definite"
-msgstr ""
+msgstr "Qualcosa non va - la matrice probabilmente non è +ve semi-definita"
 
 msgid "Something wrong with auto- penalty construction"
-msgstr ""
+msgstr "Qualcosa non va nella costruzione della penalità automatica"
 
 msgid "Something wrong with zlim"
 msgstr "Qualcosa è andato storto con zlim"
@@ -356,7 +373,7 @@ msgid ""
 msgstr ""
 
 msgid "Step halved: new penalized deviance = %g"
-msgstr ""
+msgstr "Passo dimezzato: nuova devianza penalizzata =%g"
 
 msgid "Step size truncated due to divergence"
 msgstr "Dimensione del passo troncata a causa della divergenza"
@@ -447,7 +464,7 @@ msgid "a parametric penalty has wrong dimension"
 msgstr "una penalizzazione parametrica ha dimensione errata"
 
 msgid "absorb.cons must be TRUE for multi-formula models"
-msgstr ""
+msgstr "assorb.cons dev'essere TRUE per i modelli multi-formula"
 
 msgid "algorithm did not converge"
 msgstr "l'algoritmo non converge"
@@ -477,16 +494,18 @@ msgid "argument k of s() should be integer and has been rounded"
 msgstr "l'argomento k di s() dovrebbe essere intero ed è stato arrotondato"
 
 msgid "argument of mrf should be a factor variable"
-msgstr ""
+msgstr "l'argomento di mrf dovrebbe essere una variabile fattore"
 
 msgid "argument pers is deprecated, please use scheme instead"
 msgstr ""
+"l'argomento 'pers' è deprecato, per piacere, si utilizzi 'scheme' in "
+"alternativa"
 
 msgid "arguments of smooth not same dimension"
 msgstr "gli argomenti del livellamento non hanno la medesima dimensione"
 
 msgid "attempt to select non existent basis function"
-msgstr ""
+msgstr "tentata selezione di un'inesistente funzione base"
 
 msgid "attempt to use unsuitable marginal smooth class"
 msgstr ""
@@ -504,10 +523,10 @@ msgid "basis dimension reset to minimum possible"
 msgstr ""
 
 msgid "basis dimension too small for b-spline order"
-msgstr ""
+msgstr "dimensione base troppo piccola per b-spline order"
 
 msgid "basis dimension, k, increased to minimum possible"
-msgstr ""
+msgstr "dimensione base, k, incrementata al minimo possibile"
 
 msgid "basis not usable with reduced te"
 msgstr "base non utilizzabile con un te ridotto"
@@ -541,7 +560,7 @@ msgstr ""
 "non riesco a trovare valori iniziali validi: si prega di specificarne alcuni"
 
 msgid "chunk.size < number of coefficients. Reset to %d"
-msgstr ""
+msgstr "chunk.size < numero di coefficienti. Reimpostata a %d"
 
 msgid "coefficient simulation data is missing"
 msgstr "mancano i dati di simulazione del coefficiente"
@@ -581,6 +600,8 @@ msgstr "le dimensioni di w sono errate."
 
 msgid "discrete method does not use parallel cluster - use nthreads instead"
 msgstr ""
+"il metodo discreto non utilizza il cluster 'parallel' - utilizza nthreads in "
+"alternativa"
 
 msgid "discretization only available with fREML"
 msgstr "discretizzazione disponibile solo con fREML"
@@ -653,7 +674,7 @@ msgid "fs smooths can only have one factor argument"
 msgstr "i livellamenti fs possono avere solo un argomento con un fattore"
 
 msgid "fx length wrong from t2 term: ignored"
-msgstr ""
+msgstr "lunghezza fx errata per il termine t2: ignorata"
 
 msgid "gamm can not fix only some margins of tensor product."
 msgstr ""
