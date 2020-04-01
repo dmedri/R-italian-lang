@@ -19,7 +19,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 
 msgid "\"corStruct\" object must have a \"fixed\" attribute"
-msgstr ""
+msgstr "l'oggetto \"corStruct\" deve avere un attributo \"fixed\""
 
 msgid "\"pdMat\" element must have a formula"
 msgstr "l'elemento \"pdMat\" deve avere una formula"
@@ -41,22 +41,22 @@ msgid "%s and %s must have the same group levels"
 msgstr "%s e %s deve avere i medesimi livelli di gruppo"
 
 msgid "%s can have at most two components"
-msgstr ""
+msgstr "%s può avere al massimo due componenti"
 
 msgid "%s can only be a list or numeric"
 msgstr "%s può essere solamente una lista o un valore numerico"
 
 msgid "%s can only have names \"const\" and \"power\""
-msgstr ""
+msgstr "%s può avere solo nomi \"const\" e \"power\""
 
 msgid "%s is not a valid effect name"
 msgstr "%s non è un valido nome effetto"
 
 msgid "%s is not a valid object for \"pdMat\""
-msgstr ""
+msgstr "%s non è un valido oggetto per \"pdMat\""
 
 msgid "%s must have group names in 'varConstPower'"
-msgstr ""
+msgstr "%s deve avere nomi di gruppo in 'varConstPower'"
 
 msgid "%s not available for plotting"
 msgid_plural "%s not available for plotting"
@@ -77,21 +77,23 @@ msgid ""
 "%s problem, convergence error code = %s\n"
 "  message = %s"
 msgstr ""
+"%s problema, codice errore di convergenza = %s\n"
+"  messaggio = %s"
 
 msgid ""
 "%s without \"primary\" can only be used with fits of \"groupedData\" objects"
 msgstr ""
 
 msgid "'FUN' can only be a function or a list of functions"
-msgstr ""
+msgstr "'FUN' può essere solo una funzione o una lista di funzioni"
 
 msgid "'Id' must be between 0 and 1"
 msgstr "'Id' dev'essere tra 0 e 1"
 
 msgid "'L' must have at most %d column"
 msgid_plural "'L' must have at most %d columns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "'L' deve avere al massimo %d colonna"
+msgstr[1] "'L' deve avere al massimo %d colonne"
 
 msgid "'Terms' must be between 1 and %d"
 msgstr "'Terms' dev'essere tra 1 e %d"
@@ -139,7 +141,7 @@ msgid "'form' and 'pdClass' have incompatible lengths"
 msgstr ""
 
 msgid "'form' argument must be a formula"
-msgstr ""
+msgstr "l'argomento 'form' dev'essere una formula"
 
 msgid "'form' can only be a formula or a list of formulae"
 msgstr ""
