@@ -296,10 +296,10 @@ msgid "Non-finite deviance"
 msgstr "Devianza non finita"
 
 msgid "Non-integer response variables are not allowed with ziP"
-msgstr ""
+msgstr "Le variabili di risposta non intere non sono ammesse con ziP"
 
 msgid "Non-integer response variables are not allowed with ziplss"
-msgstr ""
+msgstr "Le variabili di risposta non intere non sono ammesse con ziplss"
 
 msgid "Not enough (non-NA) data to do anything meaningful"
 msgstr "Dati insufficienti (non NA) per fare qualcosa di significativo"
@@ -317,22 +317,31 @@ msgid ""
 "Partial residuals do not have a natural x-axis location for linear "
 "functional terms"
 msgstr ""
+"I residui parziali non hanno una posizione naturale sull'asse x (ascisse) "
+"per termini funzionali lineari"
 
 msgid ""
 "Pearson residuals not available for this family - returning deviance "
 "residuals"
 msgstr ""
+"Residui di Pearson non disponibili per questa famiglia - si restituiscono i "
+"residui della devianza"
 
 msgid "Penalized model matrix must have no more columns than rows"
 msgstr ""
+"La matrice del modello penalizzato non deve avere più colonne delle righe"
 
 msgid "Please provide a single value for theta or use nb to estimate it"
 msgstr ""
+"Per piacere, indicate un valore singolo per theta o utilizzate nb per "
+"stimarlo"
 
 msgid ""
 "Please put term with most levels last in 're' to avoid spoiling supplied "
 "penalties"
 msgstr ""
+"Per piacere, indicate il termine con la maggior parte dei livelli ultimi in "
+"'ri' per evitare di rovinare le penalità passata"
 
 msgid "Possible divergence detected in fast.REML.fit"
 msgstr "Possibile divergenza rilevata in fast.REML.fit"
@@ -348,10 +357,12 @@ msgid "Reset optimizer to outer/newton"
 msgstr ""
 
 msgid "Response should be integer class labels"
-msgstr ""
+msgstr "La risposta dovrebbero essere etichette di classe intera"
 
 msgid "S.scale vector doesn't match S list - please report to maintainer"
 msgstr ""
+"Il vettore S.scale non corrisponde all'elenco S - per piacere, segnalatelo "
+"al maintainer del pacchetto"
 
 msgid "S[[%d]] matrix is not +ve definite."
 msgstr "La matrice S[[%d]] non è definita +ve."
@@ -444,6 +455,8 @@ msgstr ""
 
 msgid "`id' linked smooths must have same number of arguments"
 msgstr ""
+"I livellamenti (smooths) collegati a 'id' devono avere lo stesso numero di "
+"argomenti"
 
 msgid "`object' is not of class \"gam\""
 msgstr "`object' non è della classe \"gam\""
@@ -511,10 +524,10 @@ msgid "attempt to use unsuitable marginal smooth class"
 msgstr ""
 
 msgid "bam can not discretize with this nesting structure"
-msgstr ""
+msgstr "bam non può discretizzare con questa struttura nidificata"
 
 msgid "bam fits only supported with discrete==TRUE"
-msgstr ""
+msgstr "gli adattamenti bam sono supportati solo con discrete==TRUE"
 
 msgid "basis dimension is larger than number of unique covariates"
 msgstr ""
