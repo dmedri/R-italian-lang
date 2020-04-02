@@ -291,6 +291,8 @@ msgid ""
 "Non-finite derivatives. Try decreasing fit tolerance! See `epsilon' in `gam."
 "contol'"
 msgstr ""
+"Derivate non finite. Provate a ridurre la tolleranza di adattamento! Si veda "
+"`epsilon 'in` game.control'"
 
 msgid "Non-finite deviance"
 msgstr "Devianza non finita"
@@ -354,7 +356,7 @@ msgid "Requires a gam or bam prefit object"
 msgstr "Richiede un oggetto pre-adattato gam o bam"
 
 msgid "Reset optimizer to outer/newton"
-msgstr ""
+msgstr "Si ripristina l'ottimizzatore su outer/newton"
 
 msgid "Response should be integer class labels"
 msgstr "La risposta dovrebbero essere etichette di classe intera"
@@ -369,6 +371,7 @@ msgstr "La matrice S[[%d]] non è definita +ve."
 
 msgid "Smoothness uncertainty corrected covariance not available"
 msgstr ""
+"La covarianza corretta dall'incertezza del livellamento non è disponibile"
 
 msgid "Something wrong - matrix probably not +ve semi definite"
 msgstr "Qualcosa non va - la matrice probabilmente non è +ve semi-definita"
@@ -486,7 +489,7 @@ msgid "all elements of random list must be named"
 msgstr "tutti gli elementi di una lista casuale devono essere nominati"
 
 msgid "all.derivs only available in rho, theta parameterization"
-msgstr ""
+msgstr "all.derivs è disponibile solo nella parametrizzazione rho, theta"
 
 msgid "all.terms argument not supported"
 msgstr "argomento all.terms non supportato"
@@ -521,7 +524,7 @@ msgid "attempt to select non existent basis function"
 msgstr "tentata selezione di un'inesistente funzione base"
 
 msgid "attempt to use unsuitable marginal smooth class"
-msgstr ""
+msgstr "tentato utilizzo di una classe uniforme marginale non adatta"
 
 msgid "bam can not discretize with this nesting structure"
 msgstr "bam non può discretizzare con questa struttura nidificata"
@@ -530,10 +533,10 @@ msgid "bam fits only supported with discrete==TRUE"
 msgstr "gli adattamenti bam sono supportati solo con discrete==TRUE"
 
 msgid "basis dimension is larger than number of unique covariates"
-msgstr ""
+msgstr "la dimensione base è maggiore del numero di covariate uniche"
 
 msgid "basis dimension reset to minimum possible"
-msgstr ""
+msgstr "la dimensione base è ripristinata al minimo possibile"
 
 msgid "basis dimension too small for b-spline order"
 msgstr "dimensione base troppo piccola per b-spline order"
@@ -545,7 +548,7 @@ msgid "basis not usable with reduced te"
 msgstr "base non utilizzabile con un te ridotto"
 
 msgid "bnd must be a list of boundary loops"
-msgstr ""
+msgstr "bnd dev'essere un elenco di cicli limite"
 
 msgid "bnd must be a list."
 msgstr "bnd dev'essere una lista."
@@ -586,12 +589,14 @@ msgstr "schema colore non riconosciuto"
 
 msgid "components of knots relating to a single smooth must be of same length"
 msgstr ""
+"i componenti dei knot relativi ad un singolo livellamento devono avere la "
+"stessa lunghezza"
 
 msgid "cubic spline only deals with 1D data"
 msgstr "la spline cubica si occupa solo di dati 1D"
 
 msgid "d can not be negative in call to null.space.dimension()."
-msgstr ""
+msgstr "d non può essere negativo nella chiamata a null.space.dimension()."
 
 msgid "data contain regions that are not contained in the knot specification"
 msgstr ""
@@ -644,13 +649,15 @@ msgid "er... no discrete methods for higher derivatives"
 msgstr ""
 
 msgid "erroneous call to estimate.theta - no free parameters"
-msgstr ""
+msgstr "chiamata errata a estimate.theta - nessun parametro libero"
 
 msgid "exclude ignored by discrete prediction at present"
-msgstr ""
+msgstr "attualmente 'exclude\" è ignorato dalla previsione discreta"
 
 msgid "factor `by' variables can not be used with matrix arguments."
 msgstr ""
+"le variabili fattore `by 'non possono essere utilizzate con argomenti della "
+"matrice."
 
 msgid "fam not a family object"
 msgstr "fam non è un oggetto famiglia"
@@ -677,11 +684,13 @@ msgid "fitted probabilities numerically 0 or 1 occurred"
 msgstr ""
 
 msgid "fitted rates numerically 0 occurred"
-msgstr ""
+msgstr "sono occorsi tassi adattati numericamente 0"
 
 msgid ""
 "fs smooth not suitable for discretisation with more than one metric predictor"
 msgstr ""
+"livellamento fs non adatto alla discretizzazione con più di un predittore "
+"metrico"
 
 msgid "fs smooths can only have one factor argument"
 msgstr "i livellamenti fs possono avere solo un argomento con un fattore"
@@ -698,30 +707,32 @@ msgid ""
 msgstr ""
 
 msgid "gamm is not designed to use extended families"
-msgstr ""
+msgstr "gamm non è progettato per l'utilizzo di famiglie estese"
 
 msgid ""
 "gamm models must have at least 1 smooth with unknown smoothing parameter or "
 "at least one other random effect"
 msgstr ""
+"i modelli gamm devono avere almeno 1 livellamento con parametro di smoothing "
+"sconosciuto o almeno un altro effetto casuale"
 
 msgid "gamm not converged, try increasing niterPQL"
-msgstr ""
+msgstr "gamm non converge, prova ad aumentare niterPQL"
 
 msgid "gamm() can only handle random effects defined as named lists"
-msgstr ""
+msgstr "gamm() può gestire solo effetti casuali definiti come liste nominate"
 
 msgid "gammals requires 2 links specified as character strings"
-msgstr ""
+msgstr "gammals richiede 2 link specificati come stringhe di caratteri"
 
 msgid "gaulss requires 2 links specified as character strings"
-msgstr ""
+msgstr "gaulss richiede 2 link specificati come stringhe di caratteri"
 
 msgid "general families not supported by bam"
-msgstr ""
+msgstr "famiglie generiche non supportate da bam"
 
 msgid "gevlss requires 3 links specified as character strings"
-msgstr ""
+msgstr "gevlss richiede 3 link specificati come stringhe di caratteri"
 
 msgid "grid vectors are different lengths"
 msgstr ""
@@ -735,69 +746,74 @@ msgid "illegal `family' argument"
 msgstr "argomento `family' illegale"
 
 msgid "in.out incorrect: see documentation"
-msgstr ""
+msgstr "in.out errato: consultare la documentazione"
 
 msgid "incorrect arguments to GP smoother"
-msgstr ""
+msgstr "argomenti errati per lo smoother GP"
 
 msgid "incorrect number of linear predictors for family"
-msgstr ""
+msgstr "numero errato di predittori lineari per la famiglia"
 
 msgid "incorrect number of smoothing parameters supplied for a smooth term"
 msgstr ""
+"numero errato di parametri di livellamento forniti per un termine di smooth"
 
 msgid "indefinite penalized likelihood in gam.fit5"
-msgstr ""
+msgstr "probabilità penalizzata indefinita in gam.fit5"
 
 msgid "initial parameters not feasible"
-msgstr ""
+msgstr "parametri iniziali non fattibili"
 
 msgid "initial parameters very close to inequality constraints"
-msgstr ""
+msgstr "parametri iniziali molto vicini ai vincoli di disuguaglianza"
 
 msgid "initial point very close to some inequality constraints"
-msgstr ""
+msgstr "punto iniziale molto vicino ad alcuni vincoli di disuguaglianza"
 
 msgid "inner groupings not nested in outer!!"
-msgstr ""
+msgstr "raggruppamenti interni non nidificati in esterno!!"
 
 msgid "inner loop 1; can't correct step size"
-msgstr ""
+msgstr "ciclo interno 1; non è possibile correggere la dimensione del passo"
 
 msgid "inner loop 2; can't correct step size"
-msgstr ""
+msgstr "ciclo interno 2; non è possibile correggere la dimensione del passo"
 
 msgid "inner loop 3; can't correct step size"
-msgstr ""
+msgstr "ciclo interno 3; non è possibile correggere la dimensione del passo"
 
 msgid "integration not available with this family - insufficient derivatives"
 msgstr ""
+"integrazione non disponibile con questa famiglia - derivate insufficienti"
 
 msgid "internal error in vcorr, please report to simon.wood@r-project.org"
 msgstr ""
+"errore interno in vcorr, per piacere, segnalatelo a simon.wood@r-project.org"
 
 msgid "iteration %d"
 msgstr "iterazione %d"
 
 msgid "iteration limit reached: max abs grad = %g"
-msgstr ""
+msgstr "limite di iterazione raggiunto: max abs grad =%g"
 
 msgid ""
 "iterative weights or data non-finite in gam.fit - regularization may help. "
 "See ?gam.control."
 msgstr ""
+"pesi iterativi o dati non finiti in gam.fit - la regolarizzazione potrebbe "
+"aiutare. Si veda ?gam.control."
 
 msgid "iterms reset to terms"
-msgstr ""
+msgstr "iterms ripristinato a terms"
 
 msgid "jagam requires a file for the JAGS model specification"
-msgstr ""
+msgstr "jagam richiede un file per le specifiche del modello JAGS"
 
 msgid "k and bnd lengths are inconsistent"
 msgstr "le lunghezze di k e bnd sono inconsistenti"
 
 msgid "knot range does not include data"
-msgstr ""
+msgstr "l'intervallo del nodo (knot) non include i dati"
 
 msgid ""
 "knot range is so wide that there is *no* information about some basis "
@@ -956,13 +972,13 @@ msgid "mvn dimension error"
 msgstr "errore dimensione mvn"
 
 msgid "mvn does not yet handle offsets"
-msgstr ""
+msgstr "mvn non gestisce ancora gli offset"
 
 msgid "mvn requires 2 or more dimensional data"
-msgstr ""
+msgstr "mvn richiede 2 o più dati dimensionali"
 
 msgid "na.action not character or function"
-msgstr ""
+msgstr "na.action non è ne un character ne una funzione"
 
 msgid "names of z and pc must match"
 msgstr "i nomi di z e pc devono corrispondere"
@@ -974,7 +990,7 @@ msgid "ncol(M$X) != length(M$p)"
 msgstr "ncol(M$X) != length(M$p)"
 
 msgid "need at least one interior knot"
-msgstr ""
+msgstr "richiesto almento un nodo (knot) interno"
 
 msgid "negative values not allowed for the negative binomial family"
 msgstr "valori negativi non ammessi per la famiglia binomiale negativa"
@@ -1000,7 +1016,7 @@ msgid "no automatic plotting for smooths of more than two variables"
 msgstr ""
 
 msgid "no data to predict at"
-msgstr ""
+msgstr "nessun dato a cui predire"
 
 msgid "no factor supplied to fs smooth"
 msgstr "nessun fattore passato per il livellamento fs"
@@ -1009,10 +1025,10 @@ msgid "no free coefs in sf smooth"
 msgstr "nessun coefficiente libero nel livellamento fs"
 
 msgid "no good data in iteration"
-msgstr ""
+msgstr "nessun dato valido nell'iterazione"
 
 msgid "no smooths, ignoring `discrete=TRUE'"
-msgstr ""
+msgstr "nessun livellamento, si ignora `discrete=TRUE'"
 
 msgid "no spatial information provided!"
 msgstr "nessuna informazione spaziale passata!"
@@ -1048,7 +1064,7 @@ msgid "not an extended family"
 msgstr "non è una famiglia estesa"
 
 msgid "not enough finite derivatives"
-msgstr ""
+msgstr "non ci sono abbastanza derivate finite"
 
 msgid "not enough unique values to find k nearest"
 msgstr "non ci sono abbastanza valori unici per trovare il k più vicino"
@@ -1084,7 +1100,7 @@ msgid "number of supplied knots != k for a cr smooth"
 msgstr ""
 
 msgid "object does not appear to be of class lme"
-msgstr ""
+msgstr "l'oggetto non sembra essere della classe lme"
 
 msgid "object is not a glm or gam"
 msgstr "l'oggetto non è un glm o gam"
@@ -1104,6 +1120,7 @@ msgstr "si utilizza solo il primo elemento di 'id'"
 
 msgid "only one level of smooth nesting is supported by gamm"
 msgstr ""
+"gamm supporta solo un livello di nidificazione regolare (smooth nesting)"
 
 msgid "only scalar `p' and `phi' allowed."
 msgstr ""
