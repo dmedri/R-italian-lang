@@ -26,7 +26,7 @@ your source tree, run the following command:
 $ ./repo.clean
 ```
 
-## Create archives for the export
+## Export archives
 
 At every tag release -- and updates -- it could happen to send translations to
 different people. One archive for the R Core Team, to be committed in the
@@ -57,6 +57,14 @@ If you're using R in Italian, on all the available platforms, your feedback is
 really welcome. To report us mistakes or better translated sentences, you need to:
 * open an issue on github (look at the header in this page!);
 * fork this repository, apply your changes and request a merge.
+
+---
+
+Se usate R in lingua italiana, su tutte le piattaforme disponibili, il vostro
+resoconto d'utilizzo è molto gradito. Per segnalare errori o traduzioni di frasi
+migliori, dovete fare ciò che segue:
+* aprire una issue su github (guardate la parte in alto nella pagina!);
+* fate un fork del repository, applicate i vostri cambiamenti e richiedete il merge.
 
 ## Notes for R translators in other languages
 
