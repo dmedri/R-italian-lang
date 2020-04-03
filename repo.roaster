@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
 
 LANG="it"
-
-#REL="R-3.6.3"
 REL="R-4.0.0"
-
 #RRR="$HOME/.roaster/src/$REL"
 RRR="$HOME/.roaster/src/R-DEVEL"
-# (above path for Roaster with R-DEVEL sources)
 
 ############# don't change anything below this line ##############
 
