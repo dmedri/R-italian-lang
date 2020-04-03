@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-REL="R-3.6.3"
+REL="R-4.0.0"
 LANG="it"
 DESC="italian translation - updates"
 HOW="svn"
-
 
 # -------------------------------------------------------
 DTM=$(date +"%Y%m%d%H%M")
@@ -24,13 +23,24 @@ if [[ -d $REL ]]; then
 	# R base archive
 	tar zcvf $OUT/$NAME $REL/src/library/*/po/*.po 1>/dev/null
 
-	# Script
-	echo "#!/usr/bin/env bash" > $OUT/$HOW.sh
+	# Script: copy new .po files to trunk/R repository
+	echo "#!/usr/bin/env bash" > $OUT/trunk.sh
+	echo -e "\nRPATH=\"$REL/src/library\"" >> $OUT/trunk.sh
+	echo -e "OPATH=\"trunk/R/src/library\"" >> $OUT/trunk.sh
 	cd ./$REL/src/library/
+	for i in `ls -d *`; do
+		echo -e "\n# $i" >> ../../../$OUT/trunk.sh
+		for j in `ls $i/po/*.po`; do
+			echo "cp \$RPATH/$j \$OPATH/$j"  >> ../../../$OUT/trunk.sh
+		done
+	done
+	# Script: svn/git add-commits
+	echo "#!/usr/bin/env bash" > ../../../$OUT/$HOW.sh
+	echo -e "\nOPATH=\"trunk/R/src/library\"" >> ../../../$OUT/$HOW.sh
 	for i in `ls -d *`; do
 		echo -e "\n# $i" >> ../../../$OUT/$HOW.sh
 		for j in `ls $i/po/*.po`; do
-			echo "$HOW add src/library/$i/po/$j" >> ../../../$OUT/$HOW.sh
+			echo "$HOW add \$OPATH/$j" >> ../../../$OUT/$HOW.sh
 		done
 		echo "$HOW commit -m \"$i: $DESC\"" >> ../../../$OUT/$HOW.sh
 	done
