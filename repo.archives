@@ -2,10 +2,13 @@
 
 REL="R-3.6.3"
 LANG="it"
+DESC="italian translation - updates"
+HOW="svn"
+
 
 # -------------------------------------------------------
 DTM=$(date +"%Y%m%d%H%M")
-#TAG=$(git tag | sort -V | tail -1 )
+TAG=$(git tag | sort -V | tail -1 )
 NAME="$REL-$LANG-$DTM.tgz"
 RPP="./packages"
 OUT="./archives"
@@ -18,15 +21,27 @@ fi
 # R base translations
 echo -e "\n$REL:\n * $OUT/$NAME"
 if [[ -d $REL ]]; then
+	# R base archive
 	tar zcvf $OUT/$NAME $REL/src/library/*/po/*.po 1>/dev/null
+
+	# Script
+	echo "#!/usr/bin/env bash" > $OUT/$HOW.sh
+	cd ./$REL/src/library/
+	for i in `ls -d *`; do
+		echo -e "\n# $i" >> ../../../$OUT/$HOW.sh
+		for j in `ls $i/po/*.po`; do
+			echo "$HOW add src/library/$i/po/$j" >> ../../../$OUT/$HOW.sh
+		done
+		echo "$HOW commit -m \"$i: $DESC\"" >> ../../../$OUT/$HOW.sh
+	done
 fi
 
 # External packages
 echo -e "\nPackages:"
-cd $RPP
+cd ../../../$RPP
 for i in `ls -d *`; do
 	echo -e " * $OUT/$i-$LANG.tgz"
-	tar zcvf .$OUT/$i-$LANG.tgz $i/po/*.po 1>/dev/null
+	tar zcvf ../$OUT/$i-$LANG.tgz $i/po/*.po 1>/dev/null
 done
 
 echo -e "\nDone.\n"
