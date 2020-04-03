@@ -3,7 +3,6 @@
 echo -e "Use: $0 'a label to search'\n"
 
 if [[ ! -z $1 ]]; then
-	grep -r1 "$1" ./R-3.6.3/
-	grep -r1 "$1" ./R-4.0.0/
+	grep -r1 "$1" ./R-*/
 	grep -r1 "$1" ./packages/
 fi
