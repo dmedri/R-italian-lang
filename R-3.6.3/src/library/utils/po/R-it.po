@@ -748,7 +748,7 @@ msgid ""
 "The downloaded source packages are in\n"
 "\t%s"
 msgstr ""
-"I pacchetti sorgenti scaricati sono in\n"
+"I pacchetti scaricati con il codice sorgente sono in\n"
 "\t%s"
 
 msgid "The namespace for package \"%s\" is locked; no changes in the global variables list may be made."
