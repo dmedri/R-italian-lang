@@ -1118,7 +1118,7 @@ msgstr ""
 "uno o più dei k passati è troppo piccolo - si reimposta ai valori predefiniti"
 
 msgid "only deals with 2D case"
-msgstr ""
+msgstr "tratta solo con casi 2D"
 
 msgid "only first element of `id' used"
 msgstr "si utilizza solo il primo elemento di 'id'"
@@ -1202,7 +1202,7 @@ msgid "recov works with fitted gam objects only"
 msgstr "'recov' funziona solo con oggetti adattati gam"
 
 msgid "reparameterization unstable for margin: not done"
-msgstr ""
+msgstr "ri-parametrizzazione non stabile per il margine: non eseguito"
 
 msgid "requested non-existent derivative in B-spline penalty"
 msgstr ""
@@ -1214,7 +1214,7 @@ msgid "residuals argument not supported"
 msgstr "argomento 'residuals' non supportato"
 
 msgid "residuals argument to plot.gam is wrong length: ignored"
-msgstr ""
+msgstr "l'argomento 'residuals' per plot.gam ha lunghezza errata: ignorato"
 
 msgid "response not in 0 to number of predictors + 1"
 msgstr ""
@@ -1226,7 +1226,7 @@ msgid "s value increased"
 msgstr "valore s incrementato"
 
 msgid "s value modified to give continuous function"
-msgstr ""
+msgstr "valore 's' modificato per dare una funzione continua"
 
 msgid "s value reduced"
 msgstr "valore s riminuito"
@@ -1244,7 +1244,7 @@ msgid "saturated likelihood may be inaccurate"
 msgstr ""
 
 msgid "scale parameter must be positive"
-msgstr ""
+msgstr "il parametro di scala dev'essere positivo"
 
 msgid "sd should have exactly one less entry than ld"
 msgstr ""
@@ -1266,13 +1266,13 @@ msgid "single linear predictor indices are ignored"
 msgstr ""
 
 msgid "singular values not returned in order"
-msgstr ""
+msgstr "valori singolari non restituiti in ordine"
 
 msgid "size must be in [1,120]"
 msgstr "size dev'essere in [1,120]"
 
 msgid "smooth objects should not have a qrc attribute."
-msgstr ""
+msgstr "gli oggetti di livellamento non dovrebbero avere un attributo qrc."
 
 msgid "smoothing parameter prior choise not recognised, reset to gamma"
 msgstr ""
@@ -1284,16 +1284,16 @@ msgid "something wrong with A index vector"
 msgstr ""
 
 msgid "something wrong with argument d."
-msgstr ""
+msgstr "c'è qualcosa di sbagliato con l'argomento 'd'."
 
 msgid "something wrong with inputs to LAPACK routine"
 msgstr ""
 
 msgid "something wrong with stratified prediction"
-msgstr ""
+msgstr "c'è qualcosa di sbagliato con la previsione stratificata"
 
 msgid "sorry link not yet handled"
-msgstr ""
+msgstr "ci dispiace, link non ancora gestito"
 
 msgid "sorry no option for contouring with errors: try plot.gam"
 msgstr ""
@@ -1302,10 +1302,10 @@ msgid "step failed: max abs grad ="
 msgstr ""
 
 msgid "step failure in theta estimation"
-msgstr ""
+msgstr "fallimento del passo nella stima theta"
 
 msgid "supplied S matrices are wrong diminsion"
-msgstr ""
+msgstr "la matrice S passata ha dimensioni errate"
 
 msgid "supplied dist negative"
 msgstr ""
@@ -1334,10 +1334,10 @@ msgid "test argument ignored"
 msgstr "argomento test ignorato"
 
 msgid "the adaptive smooth class is limited to 1 or 2 covariates."
-msgstr ""
+msgstr "la classe di livellamento adattivo è limitata a 1 o 2 covariate."
 
 msgid "there is *no* information about some basis coefficients"
-msgstr ""
+msgstr "non ci sono informazioni circa i coefficienti base"
 
 msgid "there should be"
 msgstr "dovrebbero essere"
@@ -1352,13 +1352,13 @@ msgid "type must be \"link\" or \"response\""
 msgstr "il tipo dev'essere \"link\" o \"response\""
 
 msgid "un-supported smoothness selection method"
-msgstr ""
+msgstr "metodo di selezione livellamento non supportato"
 
 msgid "un-supported test"
 msgstr "test non supportato"
 
 msgid "unconditional argument not meaningful here"
-msgstr ""
+msgstr "argomento 'unconditional' non significativo qui"
 
 msgid "unimplemented sparse constraint type requested"
 msgstr "richiesto tipo di vincolo sparso non implementato"
@@ -1385,10 +1385,10 @@ msgid "unrecognized (vector?) link"
 msgstr "link (vettore?) non riconosciuto"
 
 msgid "unsupported order of differentiation requested of gam.fit3"
-msgstr ""
+msgstr "richiesto ordine di differenziazione di gam.fit3 non supportato"
 
 msgid "update not positive definite"
-msgstr ""
+msgstr "aggiornamento non positivo definito"
 
 msgid "value of epsilon must be > 0"
 msgstr "il valore di epsilon dev'essere > 0"
@@ -1397,10 +1397,10 @@ msgid "values out of range"
 msgstr "valori fuori intervallo"
 
 msgid "variable names don't match boundary names"
-msgstr ""
+msgstr "i nomi delle variabili non corrispondono ai nomi dei limiti"
 
 msgid "variance function not recognized for quasi"
-msgstr ""
+msgstr "funzione della varianza non riconosciuta per quasi"
 
 msgid "view variables must be one of %s"
 msgstr "le variabili di visualizzazione devono essere una di %s"
@@ -1433,13 +1433,13 @@ msgid "xt argument is faulty."
 msgstr "argomento 'xt' diffettoso."
 
 msgid "y must be an integer multiple of phi for Tweedie(p=1)"
-msgstr ""
+msgstr "'y' dev'essere un intero multiplo di 'phi' per Tweedie(p=1)"
 
 msgid "y must be strictly positive for a Gamma density"
-msgstr ""
+msgstr "'y' dev'essere strettamente positivo per una densità Gamma"
 
 msgid "y must be univariate unless binomial"
-msgstr ""
+msgstr "'y' dev'essere univariato a meno che binomiale"
 
 msgid "ziplss requires 2 links specified as character strings"
-msgstr ""
+msgstr "ziplss richieste 2 link specificati come stringhe di caratteri"
