@@ -6,7 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: utils 3.6.3\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-06 19:39+0200\n"
+"PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -15,8 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
 
 #: io.c:329 io.c:333 io.c:343 io.c:574 io.c:774 io.c:827 io.c:840 io.c:844
 #: io.c:850 io.c:851 io.c:1097 io.c:1098 io.c:1100 io.c:1101 io.c:1102
@@ -100,8 +100,10 @@ msgstr "'dec' dev'essere un singolo carattere"
 
 #: io.c:1137
 #, c-format
-msgid "corrupt data frame -- length of column %d does not not match nrows"
-msgstr "data frame corrotto -- la lunghezza della colonna %d non corrisponde con nrows"
+msgid "corrupt data frame -- length of column %d does not match nrows"
+msgstr ""
+"data frame corrotto -- la lunghezza della colonna %d non corrisponde con "
+"nrows"
 
 #: io.c:1168
 #, c-format
@@ -109,7 +111,7 @@ msgid "column %s claims to be a factor but does not have numeric codes"
 msgstr "la colonna %s si presenta come un factor ma non ha codici numerici"
 
 #: io.c:1186
-msgid "corrupt matrix -- dims not not match length"
+msgid "corrupt matrix -- dims do not match length"
 msgstr "matrice corrotta -- le dimensioni non corrispondono con la lunghezza"
 
 #: stubs.c:56
@@ -136,6 +138,11 @@ msgstr "X11 non è disponibile"
 #, c-format
 msgid "invalid '%s' specification"
 msgstr "specificazione '%s' non valida"
+
+#: stubs.c:254
+#, c-format
+msgid "'%s' contains missing values"
+msgstr "'%s' contiene valori mancanti"
 
 #: utils.c:85
 msgid "'hostname' must be a character vector of length 1"
