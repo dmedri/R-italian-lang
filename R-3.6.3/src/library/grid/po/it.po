@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grid 3.6.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-29 07:06-0700\n"
+"POT-Creation-Date: 2020-04-06 19:38+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+
+#: gpar.c:473
+msgid "updateGContext must only be called after initGContext"
+msgstr "updateGContext dev'essere unicamente chiamato dopo initGContext"
 
 #: grid.c:212
 msgid "cannot clip to rotated viewport"
@@ -32,47 +36,47 @@ msgstr ""
 msgid "attempt to plot on null device"
 msgstr "tentativo di scrivere sul dispositivo null"
 
-#: grid.c:1309
+#: grid.c:1399
 msgid "there is no layout defined"
 msgstr "non c'è alcun layout definito"
 
-#: grid.c:1529
+#: grid.c:1619
 msgid "polygon edge not found (zero-width or zero-height?)"
 msgstr "bordo poligonale non trovato (larghezza o altezza zero?)"
 
-#: grid.c:1538
+#: grid.c:1628
 msgid "polygon edge not found"
 msgstr "bordo poligonale non trovato"
 
-#: grid.c:1692
+#: grid.c:1782
 msgid "require at least two points to draw arrow"
 msgstr "richiedono almeno due punti per disegnare la freccia"
 
-#: grid.c:2008
+#: grid.c:2101
 msgid "non-finite control point in Xspline"
 msgstr "punto di controllo non finito in Xspline"
 
-#: grid.c:2873
+#: grid.c:2981
 msgid "non-finite x or y in graphics path"
 msgstr "x o y non finiti nel percorso grafico"
 
-#: grid.c:2914
+#: grid.c:3025
 msgid "Empty raster"
 msgstr "Raster vuoto"
 
-#: grid.c:3368
+#: grid.c:3508
 msgid "invalid plotting symbol"
 msgstr "simbolo di plotting non valido"
 
-#: grid.c:3454
+#: grid.c:3596
 msgid "unable to clip to rotated rectangle"
 msgstr "non è possibile tagliare su un rettangolo ruotato"
 
-#: layout.c:589
+#: layout.c:600
 msgid "invalid 'layout.pos.row'"
 msgstr "'layout.pos.row' non valido"
 
-#: layout.c:593
+#: layout.c:604
 msgid "invalid 'layout.pos.col'"
 msgstr "'layout.pos.col' non valido"
 
@@ -85,31 +89,35 @@ msgid "unable to store 'grid' state.  Too many devices open?"
 msgstr ""
 "non è possibile memorizzare lo stato di 'grid'. Troppi dispositivi aperti?"
 
-#: unit.c:260 unit.c:410 unit.c:1210 unit.c:1290 unit.c:1370 unit.c:1450
+#: unit.c:165
+msgid "object is not a unit, unit.list, or unitArithmetic object"
+msgstr "l'oggetto non è di classe unit, unit.list o unitArithmetic"
+
+#: unit.c:264 unit.c:414 unit.c:1214 unit.c:1294 unit.c:1374 unit.c:1454
 msgid "unimplemented unit function"
 msgstr "funzione unit non implementata"
 
-#: unit.c:893 unit.c:1645
+#: unit.c:897 unit.c:1649
 msgid "invalid unit or unit not yet implemented"
 msgstr "unità non valida o non ancora implementata"
 
-#: unit.c:1702 unit.c:1733
+#: unit.c:1706 unit.c:1737
 msgid "Viewport has zero dimension(s)"
 msgstr "La viewport ha zero dimensioni"
 
-#: unit.c:1765 unit.c:1780 unit.c:1795 unit.c:1810
+#: unit.c:1769 unit.c:1784 unit.c:1799 unit.c:1814
 msgid "Unsupported unit conversion"
 msgstr "Conversione unit non supportata"
 
-#: unit.c:1898
+#: unit.c:1902
 msgid "Invalid unit"
 msgstr "unit non valida"
 
-#: unit.c:1914
+#: unit.c:1918
 msgid "'units' must be character"
 msgstr "'units' dev'essere di tipo character"
 
-#: unit.c:1917
+#: unit.c:1921
 msgid "'units' must be of length > 0"
 msgstr "'units' dev'essere di lunghezza > 0"
 
