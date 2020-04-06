@@ -675,7 +675,7 @@ msgid "family not recognized"
 msgstr "famiglia non riconosciuta"
 
 msgid "fast REML optimizer reached iteration limit"
-msgstr ""
+msgstr "l'ottimizzatore fast REML ha raggiunto il limite di iterazioni"
 
 msgid "faulty bnd"
 msgstr "bnd difettoso"
@@ -705,6 +705,8 @@ msgid ""
 "gamm can not handle linked smoothing parameters (probably from use of `id' "
 "or adaptive smooths)"
 msgstr ""
+"gamm non può gestire i parametri di adattamento collegati (probabilmente per "
+"l'uso di 'id' o livellamenti adattivi)"
 
 msgid "gamm is not designed to use extended families"
 msgstr "gamm non è progettato per l'utilizzo di famiglie estese"
@@ -821,23 +823,25 @@ msgid ""
 msgstr ""
 
 msgid "knots must be specified for soap"
-msgstr ""
+msgstr "i knot devono essere specificati per soap"
 
 msgid "knots supplied"
 msgstr "knot passati"
 
 msgid "lambda and h should have the same length!"
-msgstr ""
+msgstr "'lambda' e 'h' dovrebbero avere la medesima lunghezza!"
 
 msgid "length of min.sp is wrong."
 msgstr "la lunghezza di min.sp è errata."
 
 msgid "length of sp incorrect in t2: ignored"
-msgstr ""
+msgstr "la lunghezza di 'sp' è incorretta in 't2': ignorata"
 
 msgid ""
 "length of sp must be number of free smoothing parameters in original model"
 msgstr ""
+"la lunghezza di 'sp' dev'essere un numero di parametri di livellamento "
+"liberi nel modello originale"
 
 msgid "length(M$w) != length(M$y)"
 msgstr "length(M$w) != length(M$y)"
@@ -848,7 +852,7 @@ msgstr ""
 "modello"
 
 msgid "lengths of k and bnd are not compatible."
-msgstr ""
+msgstr "le lunghezze di 'k' e 'bnd' non sono compatibili."
 
 msgid "linear predictor labels out of range"
 msgstr "etichette del predittore lineare fuori portata"
@@ -937,12 +941,13 @@ msgstr "metodo non riconosciuto."
 
 msgid "min.sp not supported with fast REML computation, and ignored."
 msgstr ""
+"'min.sp' non è supportato con la computazione fast REML, sarà ignorato."
 
 msgid "mismatch between nb/polys supplied area names and data area names"
 msgstr ""
 
 msgid "modal weight <=0 in integration step!!"
-msgstr ""
+msgstr "peso modale <=0 nel passo integrazione!!"
 
 msgid "model has repeated 1-d smooths of same variable."
 msgstr "il modello ha ripetuto 1-d smooth della stessa variabile."
@@ -1130,9 +1135,10 @@ msgstr "sono ammessi solo gli scalari `rho 'e` theta'."
 
 msgid "openMP not available: single threaded computation only"
 msgstr ""
+"openMP non è disponibile: disponibile solo la computazione a thread singolo"
 
 msgid "ord contains out of range orders (which will be ignored)"
-msgstr ""
+msgstr "'ord' contiene ordini fuori intervallo (che saranno ignorati)"
 
 msgid "ord is wrong. reset to NULL."
 msgstr "ord è errato. Si utilizza NULL."
@@ -1150,9 +1156,11 @@ msgid ""
 "p-values for any terms that can be penalized to zero will be unreliable: "
 "refit model to fix this."
 msgstr ""
+"i p-value di tutti i termini che possono essere penalizzati a zero saranno "
+"inaffidabili: ri-adattare il modello per risolvere questo problema."
 
 msgid "paraPen not supported for multi-formula models"
-msgstr ""
+msgstr "'paraPen' non supportato per modelli multi-formula"
 
 msgid "parameter of ziplss"
 msgstr "parametro di ziplss"
@@ -1179,19 +1187,19 @@ msgid "penalty order too high for basis dimension"
 msgstr "ordine penalità troppo alto per la dimensione base"
 
 msgid "predict.gam can only be used to predict from gam objects"
-msgstr ""
+msgstr "predict.gam possono essere utilizzati per predire da oggetti gam"
 
 msgid "random argument must be a *named* list."
-msgstr ""
+msgstr "l'argomento 'random' dev'essere una lista *nominata*."
 
 msgid "random effects don't work with ids."
-msgstr ""
+msgstr "gli effetti casuali non funzionano con ids."
 
 msgid "rank deficient re-parameterization"
 msgstr ""
 
 msgid "recov works with fitted gam objects only"
-msgstr ""
+msgstr "'recov' funziona solo con oggetti adattati gam"
 
 msgid "reparameterization unstable for margin: not done"
 msgstr ""
@@ -1200,10 +1208,10 @@ msgid "requested non-existent derivative in B-spline penalty"
 msgstr ""
 
 msgid "requires an object of class gam"
-msgstr ""
+msgstr "richiede un oggetto di classe gam"
 
 msgid "residuals argument not supported"
-msgstr ""
+msgstr "argomento 'residuals' non supportato"
 
 msgid "residuals argument to plot.gam is wrong length: ignored"
 msgstr ""
@@ -1303,13 +1311,13 @@ msgid "supplied dist negative"
 msgstr ""
 
 msgid "supplied knots"
-msgstr ""
+msgstr "know passati"
 
 msgid "supplied penalty not square!"
-msgstr ""
+msgstr "la penalizzazione passata non è quadrata!"
 
 msgid "supplied penalty wrong dimension!"
-msgstr ""
+msgstr "la penalizzazione passata a errate dimensioni!"
 
 msgid "supply a value for each variable for a point constraint"
 msgstr ""
@@ -1353,19 +1361,19 @@ msgid "unconditional argument not meaningful here"
 msgstr ""
 
 msgid "unimplemented sparse constraint type requested"
-msgstr ""
+msgstr "richiesto tipo di vincolo sparso non implementato"
 
 msgid "uniquecombs has not worked properly"
 msgstr ""
 
 msgid "unknown optimizer"
-msgstr ""
+msgstr "ottimizzatore sconosciuto"
 
 msgid "unknown outer optimization method."
-msgstr ""
+msgstr "metodo dell'ottimizzatore esterno sconosciuto."
 
 msgid "unknown smoothness selection criterion"
-msgstr ""
+msgstr "criterio di selezione adattamento sconosciuto"
 
 msgid "unknown tensor constraint type"
 msgstr ""
@@ -1374,7 +1382,7 @@ msgid "unrecognised na.action"
 msgstr "na.action non riconosciuta"
 
 msgid "unrecognized (vector?) link"
-msgstr ""
+msgstr "link (vettore?) non riconosciuto"
 
 msgid "unsupported order of differentiation requested of gam.fit3"
 msgstr ""
@@ -1395,7 +1403,7 @@ msgid "variance function not recognized for quasi"
 msgstr ""
 
 msgid "view variables must be one of %s"
-msgstr ""
+msgstr "le variabili di visualizzazione devono essere una di %s"
 
 msgid "w different length from y!"
 msgstr "con lunghezza differente da y!"
@@ -1404,7 +1412,7 @@ msgid "weights ignored"
 msgstr "pesi ignorati"
 
 msgid "weights must be like glm weights for generalized case"
-msgstr ""
+msgstr "i pesi devono essere come pesi glm per il caso generalizzato"
 
 msgid "without a formula"
 msgstr "senza una formula"
@@ -1422,7 +1430,7 @@ msgid "x out of range"
 msgstr "x fuori intervallo"
 
 msgid "xt argument is faulty."
-msgstr ""
+msgstr "argomento 'xt' diffettoso."
 
 msgid "y must be an integer multiple of phi for Tweedie(p=1)"
 msgstr ""
