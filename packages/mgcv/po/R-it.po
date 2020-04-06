@@ -945,28 +945,28 @@ msgid "modal weight <=0 in integration step!!"
 msgstr ""
 
 msgid "model has repeated 1-d smooths of same variable."
-msgstr ""
+msgstr "il modello ha ripetuto 1-d smooth della stessa variabile."
 
 msgid "more knots than data in a ds term: knots ignored."
-msgstr ""
+msgstr "più knot che dati nel termine ds: knot ignorati."
 
 msgid "more knots than data in a tp term: knots ignored."
-msgstr ""
+msgstr "più knot che dati nel termine tp: knot ignorati."
 
 msgid "more knots than data in an ms term: knots ignored."
-msgstr ""
+msgstr "più knot che dati nel termine ms: knot ignorati."
 
 msgid "more knots than data in an sos term: knots ignored."
-msgstr ""
+msgstr "più knot che dati nel termine sos: knot ignorati."
 
 msgid "more knots than unique data values is not allowed"
-msgstr ""
+msgstr "non è ammesso avere più knot che valori univoci"
 
 msgid "mu dimensions wrong"
 msgstr "dimensioni di mu errate"
 
 msgid "multiple penalties of the same order is silly"
-msgstr ""
+msgstr "penalità multiple per il medesimo ordine non ha senso"
 
 msgid "mvn dimension error"
 msgstr "errore dimensione mvn"
@@ -1010,10 +1010,10 @@ msgid "no NAs allowed in response data for this model"
 msgstr "nessun NA ammesso nei dati risposta per questo modello"
 
 msgid "no automatic plotting for smooths of more than four variables"
-msgstr ""
+msgstr "nessun plot automatico per gli smooth con più di quattro variabili"
 
 msgid "no automatic plotting for smooths of more than two variables"
-msgstr ""
+msgstr "nessun plot automatico per gli smooth con più di due variabili"
 
 msgid "no data to predict at"
 msgstr "nessun dato a cui predire"
@@ -1094,10 +1094,10 @@ msgid "number of linear predictors doesn't match"
 msgstr "il numero di predittori lineari non corrisponde"
 
 msgid "number of supplied knots != k for a cc smooth"
-msgstr ""
+msgstr "numero di knot forniti !=k per un cc smooth"
 
 msgid "number of supplied knots != k for a cr smooth"
-msgstr ""
+msgstr "numero di knot forniti !=k per un cr smooth"
 
 msgid "object does not appear to be of class lme"
 msgstr "l'oggetto non sembra essere della classe lme"
@@ -1123,10 +1123,10 @@ msgstr ""
 "gamm supporta solo un livello di nidificazione regolare (smooth nesting)"
 
 msgid "only scalar `p' and `phi' allowed."
-msgstr ""
+msgstr "sono ammessi solo gli scalari `p' e `phi'."
 
 msgid "only scalar `rho' and `theta' allowed."
-msgstr ""
+msgstr "sono ammessi solo gli scalari `rho 'e` theta'."
 
 msgid "openMP not available: single threaded computation only"
 msgstr ""
