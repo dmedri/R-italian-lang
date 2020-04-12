@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-30 19:43+0200\n"
+"POT-Creation-Date: 2020-04-12 11:42+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -125,7 +125,7 @@ msgid "problem in displaying '%ls'"
 msgstr "problema durante la visualizzazione di '%ls'"
 
 #: src/gnuwin32/extra.c:119 src/gnuwin32/extra.c:161 src/gnuwin32/extra.c:351
-#: src/gnuwin32/extra.c:898 src/gnuwin32/extra.c:923
+#: src/gnuwin32/extra.c:925 src/gnuwin32/extra.c:950
 #: src/gnuwin32/sys-win32.c:249 src/main/Rdynload.c:1367 src/main/agrep.c:131
 #: src/main/agrep.c:135 src/main/agrep.c:775 src/main/agrep.c:780
 #: src/main/apply.c:331 src/main/apply.c:333 src/main/apply.c:336
@@ -233,13 +233,13 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/unique.c:1085 src/main/unique.c:1391 src/main/unique.c:1395
 #: src/main/unique.c:1405 src/main/unique.c:1797 src/main/util.c:644
 #: src/main/util.c:647 src/main/util.c:1509 src/main/util.c:1523
-#: src/main/util.c:2122 src/main/util.c:2362 src/main/util.c:2363
-#: src/main/util.c:2364 src/main/util.c:2380 src/main/util.c:2422
-#: src/main/util.c:2426 src/main/util.c:2428 src/main/util.c:2454
-#: src/main/util.c:2456 src/main/util.c:2458 src/main/util.c:2461
-#: src/main/util.c:2464 src/main/util.c:2468 src/main/util.c:2470
-#: src/modules/X11/devX11.c:3255 src/modules/X11/devX11.c:3258
-#: src/modules/X11/devX11.c:3261 src/modules/X11/devX11.c:3285
+#: src/main/util.c:2259 src/main/util.c:2499 src/main/util.c:2500
+#: src/main/util.c:2501 src/main/util.c:2517 src/main/util.c:2559
+#: src/main/util.c:2563 src/main/util.c:2565 src/main/util.c:2591
+#: src/main/util.c:2593 src/main/util.c:2595 src/main/util.c:2598
+#: src/main/util.c:2601 src/main/util.c:2605 src/main/util.c:2607
+#: src/modules/X11/devX11.c:3273 src/modules/X11/devX11.c:3276
+#: src/modules/X11/devX11.c:3279 src/modules/X11/devX11.c:3303
 #: src/modules/internet/internet.c:473 src/modules/internet/internet.c:479
 #: src/modules/internet/internet.c:485 src/modules/internet/internet.c:488
 #: src/modules/internet/internet.c:492 src/modules/internet/internet.c:496
@@ -271,34 +271,34 @@ msgstr "avvertimento: limite indirizzi a 4Gb sulla tua macchina"
 msgid "cannot decrease memory limit: ignored"
 msgstr "non è possibile ridurre il limite di memoria: ignorato"
 
-#: src/gnuwin32/extra.c:708 src/gnuwin32/extra.c:852 src/main/util.c:969
+#: src/gnuwin32/extra.c:735 src/gnuwin32/extra.c:879 src/main/util.c:969
 msgid "'path' must be a character vector"
 msgstr "'path' dev'essere un vettore di caratteri"
 
-#: src/gnuwin32/extra.c:900 src/gnuwin32/extra.c:902 src/gnuwin32/extra.c:925
-#: src/gnuwin32/extra.c:927 src/gnuwin32/extra.c:962 src/main/gevents.c:63
+#: src/gnuwin32/extra.c:927 src/gnuwin32/extra.c:929 src/gnuwin32/extra.c:952
+#: src/gnuwin32/extra.c:954 src/gnuwin32/extra.c:989 src/main/gevents.c:63
 #: src/main/gevents.c:105
 msgid "invalid device"
 msgstr "dispositivo non valido"
 
-#: src/gnuwin32/extra.c:903
+#: src/gnuwin32/extra.c:930
 msgid "requires SDI mode"
 msgstr "richiede modalità SDI"
 
-#: src/gnuwin32/extra.c:956 src/main/gevents.c:60 src/main/gevents.c:99
+#: src/gnuwin32/extra.c:983 src/main/gevents.c:60 src/main/gevents.c:99
 #: src/main/gevents.c:102
 msgid "invalid graphical device number"
 msgstr "numero del dispositivo grafico non valido"
 
-#: src/gnuwin32/extra.c:966
+#: src/gnuwin32/extra.c:993
 msgid "bad device"
 msgstr "dispositivo errato"
 
-#: src/gnuwin32/extra.c:1138 src/gnuwin32/extra.c:1146
+#: src/gnuwin32/extra.c:1165 src/gnuwin32/extra.c:1173
 msgid "invalid input in 'Rmbstowcs'"
 msgstr "input non valido per 'Rmbstowcs'"
 
-#: src/gnuwin32/extra.c:1169 src/main/platform.c:1498
+#: src/gnuwin32/extra.c:1196 src/main/platform.c:1498
 msgid "file choice cancelled"
 msgstr "scelta del file annullata"
 
@@ -487,9 +487,9 @@ msgstr ""
 "non è possibile creare un 'reader thread'; bisogna liberare alcune risorse "
 "di sistema"
 
-#: src/include/Errormsg.h:27 src/main/subscript.c:388 src/main/subscript.c:407
-#: src/main/subscript.c:432 src/main/subscript.c:472 src/main/subscript.c:686
-#: src/main/subscript.c:726 src/main/subscript.c:877
+#: src/include/Errormsg.h:27 src/main/subscript.c:391 src/main/subscript.c:410
+#: src/main/subscript.c:435 src/main/subscript.c:475 src/main/subscript.c:689
+#: src/main/subscript.c:729 src/main/subscript.c:880
 msgid "subscript out of bounds"
 msgstr "subscript fuori limite"
 
@@ -827,11 +827,11 @@ msgstr "'FUN.VALUE' dev'essere un vettore"
 #: src/main/sort.c:1487 src/main/sort.c:1491 src/main/sort.c:1498
 #: src/main/source.c:221 src/main/summary.c:1168 src/main/sysutils.c:263
 #: src/main/util.c:1096 src/main/util.c:1101 src/main/util.c:1108
-#: src/main/util.c:1111 src/main/util.c:2182 src/modules/X11/devX11.c:3156
-#: src/modules/X11/devX11.c:3183 src/modules/X11/devX11.c:3188
-#: src/modules/X11/devX11.c:3193 src/modules/X11/devX11.c:3203
-#: src/modules/X11/devX11.c:3208 src/modules/X11/devX11.c:3212
-#: src/modules/X11/devX11.c:3216
+#: src/main/util.c:1111 src/main/util.c:2319 src/modules/X11/devX11.c:3166
+#: src/modules/X11/devX11.c:3193 src/modules/X11/devX11.c:3198
+#: src/modules/X11/devX11.c:3203 src/modules/X11/devX11.c:3213
+#: src/modules/X11/devX11.c:3218 src/modules/X11/devX11.c:3222
+#: src/modules/X11/devX11.c:3226 src/modules/X11/devX11.c:3231
 #, c-format
 msgid "invalid '%s' value"
 msgstr "valore '%s' non valido"
@@ -1274,8 +1274,8 @@ msgstr "'which' dev'essere di tipo character"
 msgid "exactly one attribute 'which' must be given"
 msgstr "solo un attributo può essere passato a 'which'"
 
-#: src/main/attrib.c:1511 src/main/attrib.c:1534 src/main/subscript.c:244
-#: src/main/subscript.c:248 src/main/subset.c:1285 src/main/subset.c:1338
+#: src/main/attrib.c:1511 src/main/attrib.c:1534 src/main/subscript.c:247
+#: src/main/subscript.c:251 src/main/subset.c:1285 src/main/subset.c:1338
 #, c-format
 msgid "partial match of '%s' to '%s'"
 msgstr "confronto parziale di '%s' con '%s'"
@@ -2106,12 +2106,12 @@ msgstr "allocazione di connessione xzfile fallita"
 msgid "this is a %s-compressed file which this build of R does not support"
 msgstr "questo è un file %s compresso che questa build di R non supporta"
 
-#: src/main/connections.c:2396 src/modules/X11/devX11.c:3389
+#: src/main/connections.c:2396 src/modules/X11/devX11.c:3407
 msgid "memory allocation to copy clipboard failed"
 msgstr "allocazione della memoria fallita durante la copia dalla clipboard"
 
-#: src/main/connections.c:2401 src/modules/X11/devX11.c:3368
-#: src/modules/X11/devX11.c:3373
+#: src/main/connections.c:2401 src/modules/X11/devX11.c:3386
+#: src/modules/X11/devX11.c:3391
 msgid "clipboard cannot be opened or contains no text"
 msgstr "la clipboard non può essere aperta o non contiene testo"
 
@@ -3605,32 +3605,32 @@ msgstr "inconsistenza a livello superiore?"
 msgid "bad handler data"
 msgstr "gestore dati errato"
 
-#: src/main/errors.c:1826
+#: src/main/errors.c:1828
 msgid "error message not a string"
 msgstr "il messaggio di errore non è una stringa"
 
-#: src/main/errors.c:1907
+#: src/main/errors.c:1910
 msgid "handler or restart stack mismatch in old restart"
 msgstr ""
 "il gestore o il riavvio dello stack non corrisponde nel riavvio precedente"
 
-#: src/main/errors.c:1933 src/main/errors.c:1949
+#: src/main/errors.c:1936 src/main/errors.c:1952
 msgid "bad error message"
 msgstr "messaggio di errore errato"
 
-#: src/main/errors.c:1990
+#: src/main/errors.c:1993
 msgid "bad restart"
 msgstr "riavvio errato"
 
-#: src/main/errors.c:2022
+#: src/main/errors.c:2025
 msgid "restart not on stack"
 msgstr "riavvio non sullo stack"
 
-#: src/main/errors.c:2038
+#: src/main/errors.c:2041
 msgid "not in a try context"
 msgstr "non in un contesto di prova"
 
-#: src/main/errors.c:2051
+#: src/main/errors.c:2054
 msgid "error message must be a character string"
 msgstr "il messaggio di errore dev'essere una stringa di caratteri"
 
@@ -5334,7 +5334,7 @@ msgstr "l'argomento'x' dev'essere un multiplo di %d long"
 msgid "argument 'x' must not contain NAs"
 msgstr "l'argomento 'x' non deve contenere NA"
 
-#: src/main/raw.c:263
+#: src/main/raw.c:263 src/main/util.c:1807
 msgid "invalid UTF-8 string"
 msgstr "stringa UTF-8 non valida"
 
@@ -6309,68 +6309,72 @@ msgstr "nessun metodo per assegnare sottoinsiemi di questa classe S4"
 msgid "Coercing LHS to a list"
 msgstr "Trasformo il membro di sinistra in una lista"
 
-#: src/main/subscript.c:59 src/main/subscript.c:81 src/main/subscript.c:184
-#: src/main/subscript.c:208
+#: src/main/subscript.c:59 src/main/subscript.c:81 src/main/subscript.c:181
 #, c-format
 msgid "attempt to select less than one element in %s"
 msgstr "si tenta di selezionare meno di un elemento in %s"
 
-#: src/main/subscript.c:63 src/main/subscript.c:78 src/main/subscript.c:182
-#: src/main/subscript.c:212 src/main/subscript.c:305
+#: src/main/subscript.c:63 src/main/subscript.c:78 src/main/subscript.c:179
+#: src/main/subscript.c:308
 #, c-format
 msgid "attempt to select more than one element in %s"
 msgstr "si tenta di selezionare più di un elemento in %s"
 
-#: src/main/subscript.c:150 src/main/subscript.c:278 src/main/subscript.c:939
-#: src/main/subscript.c:1023 src/main/subset.c:1185
+#: src/main/subscript.c:150 src/main/subscript.c:281 src/main/subscript.c:942
+#: src/main/subscript.c:1026 src/main/subset.c:1185
 #, c-format
 msgid "invalid subscript type '%s'"
 msgstr "tipo subscript '%s' non valido"
 
-#: src/main/subscript.c:188
+#: src/main/subscript.c:184
 msgid "internal error in use of recursive indexing"
 msgstr "errore interno nell'utilizzo di indicizzazione ricorsiva"
 
-#: src/main/subscript.c:256
+#: src/main/subscript.c:206 src/main/subscript.c:213
+#, c-format
+msgid "invalid negative subscript in %s"
+msgstr "subscript negativo in '%s' non valido"
+
+#: src/main/subscript.c:259
 #, c-format
 msgid "further partial match of '%s' to '%s'"
 msgstr "confronto parziale di '%s' con '%s'"
 
-#: src/main/subscript.c:303
+#: src/main/subscript.c:306
 #, c-format
 msgid "recursive indexing failed at level %d\n"
 msgstr "indicizzazione ricorsiva fallita a livello %d\n"
 
-#: src/main/subscript.c:313
+#: src/main/subscript.c:316
 #, c-format
 msgid "no such index at level %d\n"
 msgstr "indice non trovato a livello %d\n"
 
-#: src/main/subscript.c:364
+#: src/main/subscript.c:367
 msgid "incorrect number of columns in matrix subscript"
 msgstr "numero di colonne non valido nel subscript di matrice"
 
-#: src/main/subscript.c:384 src/main/subscript.c:403 src/main/subscript.c:428
+#: src/main/subscript.c:387 src/main/subscript.c:406 src/main/subscript.c:431
 msgid "negative values are not allowed in a matrix subscript"
 msgstr "valori negativi non ammessi in subscript di matrice"
 
-#: src/main/subscript.c:510
+#: src/main/subscript.c:513
 msgid "(subscript) logical subscript too long"
 msgstr "(subscript) logico troppo lungo"
 
-#: src/main/subscript.c:692 src/main/subscript.c:749
+#: src/main/subscript.c:695 src/main/subscript.c:752
 msgid "only 0's may be mixed with negative subscripts"
 msgstr "solo gli 0 si possono usare contemporaneamente con subscript negativi"
 
-#: src/main/subscript.c:721
+#: src/main/subscript.c:724
 msgid "subscript too large for 32-bit R"
 msgstr "subscript troppo grande per R a 32-bit"
 
-#: src/main/subscript.c:931
+#: src/main/subscript.c:934
 msgid "no 'dimnames' attribute for array"
 msgstr "attributo 'dimnames' mancante per l'array"
 
-#: src/main/subscript.c:967
+#: src/main/subscript.c:970
 msgid "subscripting on non-vector"
 msgstr "subscripting su un non-vettore"
 
@@ -6774,33 +6778,37 @@ msgstr "messaggio di errore troncato a 255 caratteri"
 msgid "warning message truncated to 255 chars"
 msgstr "messaggio di avvertimento troncato a 255 caratteri"
 
-#: src/main/util.c:1797
+#: src/main/util.c:1819
+msgid "Conversion failed"
+msgstr "Conversione fallita"
+
+#: src/main/util.c:1934
 #, c-format
 msgid "accuracy loss in conversion from \"%s\" to numeric"
 msgstr "perdita di accuratezza nella conversione da \"%s\" a numerico"
 
-#: src/main/util.c:2116
+#: src/main/util.c:2253
 msgid "all arguments must be named"
 msgstr "tutti gli attributi devono essere nominati"
 
-#: src/main/util.c:2255
+#: src/main/util.c:2392
 msgid "ICU is not supported on this build"
 msgstr "ICU non è supportato in questa build di R"
 
-#: src/main/util.c:2322
+#: src/main/util.c:2459
 msgid "'breaks' is not sorted"
 msgstr "'breaks' non è ordinato"
 
-#: src/main/util.c:2356 src/main/util.c:2419
+#: src/main/util.c:2493 src/main/util.c:2556
 #, c-format
 msgid "long vector '%s' is not supported"
 msgstr "il vettore long '%s' non è supportato"
 
-#: src/main/util.c:2473
+#: src/main/util.c:2610
 msgid "'eps.correct' must be 0, 1, or 2"
 msgstr "'eps.correct' dev'essere 0, 1, o 2"
 
-#: src/main/util.c:2502
+#: src/main/util.c:2639
 msgid "'x' must be a vector"
 msgstr "'x' dev'essere un vettore"
 
@@ -7049,50 +7057,50 @@ msgstr "Non è possibile creare una XImage"
 msgid "attempt to use the locator after dev.hold()"
 msgstr "si tenta l'utilizzo del locator dopo dev.hold()"
 
-#: src/modules/X11/devX11.c:3121
+#: src/modules/X11/devX11.c:3130
 #, c-format
 msgid "unable to start device %s"
 msgstr "non è possibile avviare il dispositivo %s"
 
-#: src/modules/X11/devX11.c:3152
+#: src/modules/X11/devX11.c:3162
 msgid "invalid 'width' or 'height'"
 msgstr "'width' o 'height' non validi"
 
-#: src/modules/X11/devX11.c:3159
+#: src/modules/X11/devX11.c:3169
 msgid "invalid colortype passed to X11 driver"
 msgstr "tipo di colore non valido passato al driver X11"
 
-#: src/modules/X11/devX11.c:3173
+#: src/modules/X11/devX11.c:3183
 msgid "unknown X11 color/colour model -- using monochrome"
 msgstr "modello colore X11 sconosciuto -- si utilizza quello monocromatico"
 
-#: src/modules/X11/devX11.c:3263
+#: src/modules/X11/devX11.c:3281
 msgid "no plot on device to save"
 msgstr "nessun plot sul dispositivo da salvare"
 
-#: src/modules/X11/devX11.c:3265
+#: src/modules/X11/devX11.c:3283
 msgid "not an open X11cairo device"
 msgstr "non è un dispositivo aperto X11cairo"
 
-#: src/modules/X11/devX11.c:3274
+#: src/modules/X11/devX11.c:3292
 #, c-format
 msgid "cannot open file '%s'"
 msgstr "non è possibile aprire il file '%s'"
 
-#: src/modules/X11/devX11.c:3291
+#: src/modules/X11/devX11.c:3309
 msgid "savePlot() is not supported on this build"
 msgstr "savePlot() non è supportato in questa build"
 
-#: src/modules/X11/devX11.c:3331
+#: src/modules/X11/devX11.c:3349
 msgid "unable to contact X11 display"
 msgstr "non è possibile contattare un display X11"
 
-#: src/modules/X11/devX11.c:3380
+#: src/modules/X11/devX11.c:3398
 #, c-format
 msgid "clipboard cannot be read (error code %d)"
 msgstr "la clipboard non può essere letta (codice errore %d)"
 
-#: src/modules/X11/devX11.c:3416
+#: src/modules/X11/devX11.c:3434
 msgid "cannot allocate memory for X11Routines structure"
 msgstr "non è possibile allocare memoria per la struttura delle X11Routines"
 
