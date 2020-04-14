@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-LANG="it"
-REL="R-4.0.0"
+source repo.conf
+#LANG="it"
+#REL="R-4-0-BRANCH"
 #RRR="$HOME/.roaster/src/$REL"
-RRR="$HOME/.roaster/src/R-DEVEL"
 
 ############# don't change anything below this line ##############
 
@@ -19,7 +19,13 @@ if [[ -d $RRR ]]; then
 		'tools' 'utils'; do
 
 		echo -e "\n$i:"
+		
+		# Copy .po files from local dir to roaster dir
 		cp $REL/src/library/$i/po/*.po $RSR/$i/po/
+		
+		# Copy .pot files from roaster dir to local dir
+		cp $RSR/$i/po/*.pot $REL/src/library/$i/po/
+
 		if [[ ! -d $RSR/$i/inst/po/$LANG ]]; then
 			mkdir -p $RSR/$i/inst/po/$LANG/LC_MESSAGES
 		fi

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REL="R-4.0.0"
+source repo.conf
 
 # Branch
 rm -f ./$REL/src/library/*/po/*.mo

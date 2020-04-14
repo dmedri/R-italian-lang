@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-REL="R-4.0.0"
-LANG="it"
+source repo.conf
 DESC="italian translation - updates"
 HOW="svn"
 
