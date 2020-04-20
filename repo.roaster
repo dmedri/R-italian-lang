@@ -2,6 +2,11 @@
 
 source repo.conf
 
+##################################################################
+#
+# Roaster: for the latest two svn branches run:
+# ./roaster --svn-repo-fetch-all
+#
 ############# don't change anything below this line ##############
 
 RWD=$(pwd)
