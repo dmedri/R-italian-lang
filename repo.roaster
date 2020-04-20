@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
 source repo.conf
-#LANG="it"
-#REL="R-4-0-BRANCH"
-#RRR="$HOME/.roaster/src/$REL"
 
 ############# don't change anything below this line ##############
 
