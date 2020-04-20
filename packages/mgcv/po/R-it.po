@@ -1256,14 +1256,16 @@ msgid "side conditions not allowed for nested smooths"
 msgstr ""
 
 msgid "silly tolerance supplied"
-msgstr ""
+msgstr "indicata 'tolerance' debole"
 
 msgid ""
 "silly value supplied for rank.tol: reset to square root of machine precision."
 msgstr ""
+"indicato un valore debole per 'rank.tol': si ripristina alla radice quadrata "
+"della precisione macchina."
 
 msgid "single linear predictor indices are ignored"
-msgstr ""
+msgstr "gli indici dei predittori lineari singoli sono ignorati"
 
 msgid "singular values not returned in order"
 msgstr "valori singolari non restituiti in ordine"
@@ -1276,18 +1278,20 @@ msgstr "gli oggetti di livellamento non dovrebbero avere un attributo qrc."
 
 msgid "smoothing parameter prior choise not recognised, reset to gamma"
 msgstr ""
+"la scelta del parametro a priori di livellamento non è riconosciuta, si "
+"ripristina a gamma"
 
 msgid "soap films are bivariate only"
 msgstr ""
 
 msgid "something wrong with A index vector"
-msgstr ""
+msgstr "c'è qualcosa di sbagliato nel vettore indice A"
 
 msgid "something wrong with argument d."
 msgstr "c'è qualcosa di sbagliato con l'argomento 'd'."
 
 msgid "something wrong with inputs to LAPACK routine"
-msgstr ""
+msgstr "c'è qualcosa di sbagliato nei valori di ingresso nella routine LAPACK"
 
 msgid "something wrong with stratified prediction"
 msgstr "c'è qualcosa di sbagliato con la previsione stratificata"
