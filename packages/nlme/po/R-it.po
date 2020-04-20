@@ -83,6 +83,8 @@ msgstr ""
 msgid ""
 "%s without \"primary\" can only be used with fits of \"groupedData\" objects"
 msgstr ""
+"%s senza \"primary\" può essere utilizzata solamente con adattamenti ad "
+"oggetti \"groupedData\""
 
 msgid "'FUN' can only be a function or a list of functions"
 msgstr "'FUN' può essere solo una funzione o una lista di funzioni"
@@ -100,33 +102,45 @@ msgstr "'Terms' dev'essere tra 1 e %d"
 
 msgid "'asTable' can only be used with balanced 'groupedData' objects"
 msgstr ""
+"'asTable' può essere utilizzato solamente con oggetti bilanciati "
+"'groupedData'"
 
 msgid "'asTable' cannot be used with multilevel grouped data"
 msgstr ""
+"'asTable' può essere utilizzato solamente con dati raggruppati multilevel"
 
 msgid "'data' argument not used, but taken from groupedData object"
 msgstr ""
+"l'argomento 'data' non è utilizzato, ma preso da un oggetto groupedData"
 
 msgid "'data' in %s call must evaluate to a data frame"
-msgstr ""
+msgstr "'data' nella chiamata %s deve valutare un data frame"
 
 msgid ""
 "'data' must be a \"groupedData\" object if 'formula' does not include groups"
 msgstr ""
+"'data' dev'essere un oggetto \"groupedData\" se 'formula' non include i "
+"gruppi"
 
 msgid "'data' must be a \"groupedData\" object if 'groups' argument is missing"
 msgstr ""
+"'data' dev'essere un oggetto \"groupedData\" se l'argomento 'groups' è "
+"assente"
 
 msgid "'data' must be given explicitly to use 'nls' to get initial estimates"
 msgstr ""
+"'data' dev'essere indicato esplicitamente affinché 'nls' possa ottenere "
+"stime iniziali"
 
 msgid "'data' must be given explicitly to use 'nlsList'"
-msgstr ""
+msgstr "'data' dev'essere indicato esplicitamente per l'utilizzo di 'nlsList'"
 
 msgid ""
 "'data' must inherit from \"groupedData\" class if 'random' does not define "
 "groups"
 msgstr ""
+"'data' deve ereditare dalla classe \"groupedData\" se 'random' non definisce "
+"i gruppi"
 
 msgid "'distance' and 'object' have incompatible lengths"
 msgstr "'distance' e 'object' hanno lunghezze incompatibili"
@@ -144,10 +158,10 @@ msgid "'form' argument must be a formula"
 msgstr "l'argomento 'form' dev'essere una formula"
 
 msgid "'form' can only be a formula or a list of formulae"
-msgstr ""
+msgstr "'form' può essere solamente una formula o una lista di formule"
 
 msgid "'form' can only be a formula, or a list of formulas"
-msgstr ""
+msgstr "'form' può essere solamente una formula o una lista di formule"
 
 msgid "'form' must be a formula"
 msgstr "'form' dev'essere una formula"
@@ -201,10 +215,10 @@ msgid "'nint' is not consistent with 'breaks'"
 msgstr "'nint' non è coerente con 'breaks'"
 
 msgid "'nlme.nlsList' will redefine 'fixed', 'data', and 'start'"
-msgstr ""
+msgstr "'nlme.nlsList' ri-definirà 'fixed', 'data' e 'start'"
 
 msgid "'object' has not been Initialize()d"
-msgstr ""
+msgstr "'object' non è stato inizializzato"
 
 msgid "'object' must be a formula"
 msgstr "'object' dev'essere una formula"
@@ -213,7 +227,7 @@ msgid "'object' must be a list or a formula"
 msgstr "'object' dev'essere una lista o una formula"
 
 msgid "'object' must be a list when not missing, not a matrix, and not numeric"
-msgstr ""
+msgstr "'object' dev'essere una lista nominata, non una matrice e non numerica"
 
 msgid "'params' must be a formula or list of formulae"
 msgstr "'params' dev'essere una formula o una lista di formule"
@@ -228,19 +242,19 @@ msgid "'random' must be a formula or list of formulae"
 msgstr "'random' dev'essere una formula o una lista di formule"
 
 msgid "'range' must be > 0 in \"corLin\" initial value"
-msgstr ""
+msgstr "'range' dev'essere > 0 nel valore iniziale \"corLin\""
 
 msgid "'range' must be > 0 in \"corSpatial\" initial value"
-msgstr ""
+msgstr "'range' dev'essere > 0 nel valore iniziale \"corSpatial\""
 
 msgid "'start' must have a component called 'fixed'"
-msgstr ""
+msgstr "'start' deve avere una componente chiamata 'fixed'"
 
 msgid "'subset' can only be character or integer"
 msgstr "'subset' può solamente essere character o integer"
 
 msgid "'subset' ignored with single grouping factor"
-msgstr ""
+msgstr "'subset' è ignorato con un singolo fattore di raggruppamento"
 
 msgid "'subset' must be a list"
 msgstr "'subset' dev'essere una lista"
@@ -249,9 +263,11 @@ msgid ""
 "'sumLenSq := sum(table(groups)^2)' = %g is too large.\n"
 " Too large or no groups in your correlation structure?"
 msgstr ""
+"'sumLenSq := sum(table(groups)^2)' = %g è troppo grande.\n"
+" Troppo grande o nessun gruppo nella tua struttura di correlazione?"
 
 msgid "'sumLenSq' = %g is too large (larger than maximal integer)"
-msgstr ""
+msgstr "'sumLenSq' = %g è troppo grande (più grande del massimo intero)"
 
 msgid "'value' must be a one sided formula"
 msgstr "'value' dev'essere una formula su un lato"
@@ -272,13 +288,14 @@ msgid "Do increase 'msMaxIter'!"
 msgstr "Incrementa 'msMaxIter'!"
 
 msgid "Iteration %d, LME step: nlm() did not converge (code = %d)."
-msgstr ""
+msgstr "Iterazione %d, passo LME: nlm() non converge (codice = %d)."
 
 msgid "Iteration %d, LME step: nlminb() did not converge (code = %d)."
-msgstr ""
+msgstr "Iterazione %d, passo LME: nlminb() non converge (codice = %d)."
 
 msgid "L may only involve fixed effects with the same denominator DF"
 msgstr ""
+"L potrebbe solamente indicare effetti fissi con il medesimo denominatore DF"
 
 msgid "LNone of the arguments specify more than one block"
 msgstr ""
@@ -293,7 +310,7 @@ msgid "Package"
 msgstr "Pacchetto"
 
 msgid "Rather re-install it with this version of R."
-msgstr ""
+msgstr "Piuttosto re-installalo con questa versione di R."
 
 msgid "Within-group std. dev. must be a positive numeric value"
 msgstr ""
@@ -303,22 +320,24 @@ msgstr ""
 "tutti gli argomenti di 'varComb' devono essere della classe \"varFunc\"."
 
 msgid "all elements in the argument must generate \"pdMat\" objects"
-msgstr ""
+msgstr "tutti gli elementi nell'argomento devono generare oggetti \"pdMat\""
 
 msgid "all elements must have a non-zero size"
-msgstr ""
+msgstr "tutti gli elementi devono avere un lato non-zero"
 
 msgid "all elements must have formulas when any has a formula"
-msgstr ""
+msgstr "tutti gli elementi devono avere formule quando ne esiste una"
 
 msgid "all elements must have names when any has names"
-msgstr ""
+msgstr "tutti gli elementi devono avere nomi quando uno ha nomi"
 
 msgid "all elements of 'form' list must be two-sided formulas"
 msgstr ""
+"tutti gli elementi della lista 'form' devono essere formule su due lati"
 
 msgid "all elements of a \"reStruct\" object must have a non-zero size"
 msgstr ""
+"tutti gli elementi di un oggetto \"reStruct\" deve avere un lato non-zero"
 
 msgid ""
 "all elements of formula must be list of two-sided formulae or two-sided "
@@ -326,13 +345,13 @@ msgid ""
 msgstr ""
 
 msgid "all fitted objects must have the same estimation method"
-msgstr ""
+msgstr "tutti gli oggetti adattati devono avere il medesimo metodo di stima"
 
 msgid "all fitted objects must use the same number of observations"
-msgstr ""
+msgstr "tutti gli oggetti devono utilizzare il medesimo numero di osservazioni"
 
 msgid "all variables used in 'formula' must be in 'data'"
-msgstr ""
+msgstr "tutte le variabili utilizzate nella 'formula' devono essere in 'data'"
 
 msgid "an object of length %d does not match a Cholesky factor"
 msgstr "un oggetto di lunghezza %d non corrisponde ad un fattore Cholesky"
