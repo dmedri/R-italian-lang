@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-grid 3.6.3\n"
-"POT-Creation-Date: 2020-04-06 19:38\n"
+"POT-Creation-Date: 2020-03-24 10:13\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -412,26 +412,20 @@ msgstr "'x', 'y', 'width' e 'height' devono avere lunghezza 1"
 msgid "'x' and 'units' must have length > 0"
 msgstr "'x' e 'units' devono avere lunghezza > 0"
 
-msgid "'x' argument must be a unit object"
-msgstr "l'argomento 'x' dev'essere un oggetto unità"
-
 msgid "invalid 'axis' or 'type'"
 msgstr "'axis' o 'type' non valido"
 
-msgid "no string supplied for 'strwidth/height' unit"
-msgstr "nessuna stringa passata per le unità 'strwidth/height'"
+msgid "Not a unit object"
+msgstr "Non è un oggetto unità"
 
-msgid "no 'grob' supplied for 'grobwidth/height' unit"
-msgstr "nessun 'grob' passato per unità 'grobwidth/height'"
-
-msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
-msgstr "'gPath' deve avere profondità 1 nelle unità 'grobwidth/height'"
-
-msgid "non-NULL value supplied for plain unit"
-msgstr "valore non-NULL passato per unità normale"
+msgid "'Summary' function '%s' not meaningful for units"
+msgstr "La funzione 'Summary' '%s' non è significativa per le unità"
 
 msgid "operator '%s' not meaningful for units"
 msgstr "l'operatore '%s' non è significativo per le unità"
+
+msgid "'*' or '/' cannot be used as a unary operator"
+msgstr "'*' o '/' non possono essere utilizzati come un operatore unario"
 
 msgid "only one operand may be a unit"
 msgstr "solo un operando potrebbe essere una unità"
@@ -439,38 +433,25 @@ msgstr "solo un operando potrebbe essere una unità"
 msgid "non-unit operand must be numeric"
 msgstr "l'operando non-unità dev'essere numerico"
 
+msgid "can't divide with a unit"
+msgstr "non è possibile dividere con una unità"
+
 msgid "both operands must be units"
 msgstr "entrambi gli operandi devono essere unità"
 
-msgid "'Summary' function '%s' not meaningful for units"
-msgstr "La funzione 'Summary' '%s' non è significativa per le unità"
+msgid "index out of bounds (\"unit\" subsetting)"
+msgstr "indice fuori limite (sottodivisione \"unit\")"
 
-msgid "no arguments where at least one expected"
-msgstr "nessun argomento quando ne era atteso almeno uno"
+msgid "Cannot create zero-length unit vector (\"unit\" subsetting)"
+msgstr ""
+"Non è possibile creare un vettore unità di lunghezza zero (sottodivisione "
+"\"unit\")"
 
-msgid "Zero arguments where at least one expected"
-msgstr "Zero argomenti quando ne era atteso almeno uno"
+msgid "index must be of length 1"
+msgstr "index dev'essere di lunghezza 1"
 
-msgid "cannot mix signs of indices"
-msgstr "non si possono mischiare i segni degli indici"
-
-msgid "index out of bounds ('unit' subsetting)"
-msgstr "indice fuori limite (subsetting 'unit')"
-
-msgid "index out of bounds (unit arithmetic subsetting)"
-msgstr "indice fuori limite (subsetting unità aritmetiche)"
-
-msgid "index out of bounds (unit list subsetting)"
-msgstr "indice fuori limite (subsetting elenco unità)"
-
-msgid "Value being assigned must be a unit"
-msgstr "Il valore assegnato dev'essere un'unità"
-
-msgid "it is invalid to combine 'unit' objects with other types"
-msgstr "non è valido combinare oggetti 'unit' con quelli di altri tipi"
-
-msgid "invalid 'unit' object"
-msgstr "oggetto 'unit' non valido"
+msgid "replacement must be of length 1"
+msgstr "la sostituzione dev'essere di lunghezza 1"
 
 msgid "invalid 'theta'"
 msgstr "'theta' non valido"
@@ -536,3 +517,39 @@ msgid "invalid viewport name"
 msgid_plural "invalid viewport names"
 msgstr[0] "nome viewport non valido"
 msgstr[1] "nomi viewport non validi"
+
+#~ msgid "'x' argument must be a unit object"
+#~ msgstr "l'argomento 'x' dev'essere un oggetto unità"
+
+#~ msgid "no string supplied for 'strwidth/height' unit"
+#~ msgstr "nessuna stringa passata per le unità 'strwidth/height'"
+
+#~ msgid "no 'grob' supplied for 'grobwidth/height' unit"
+#~ msgstr "nessun 'grob' passato per unità 'grobwidth/height'"
+
+#~ msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
+#~ msgstr "'gPath' deve avere profondità 1 nelle unità 'grobwidth/height'"
+
+#~ msgid "non-NULL value supplied for plain unit"
+#~ msgstr "valore non-NULL passato per unità normale"
+
+#~ msgid "no arguments where at least one expected"
+#~ msgstr "nessun argomento quando ne era atteso almeno uno"
+
+#~ msgid "Zero arguments where at least one expected"
+#~ msgstr "Zero argomenti quando ne era atteso almeno uno"
+
+#~ msgid "cannot mix signs of indices"
+#~ msgstr "non si possono mischiare i segni degli indici"
+
+#~ msgid "index out of bounds (unit arithmetic subsetting)"
+#~ msgstr "indice fuori limite (subsetting unità aritmetiche)"
+
+#~ msgid "index out of bounds (unit list subsetting)"
+#~ msgstr "indice fuori limite (subsetting elenco unità)"
+
+#~ msgid "Value being assigned must be a unit"
+#~ msgstr "Il valore assegnato dev'essere un'unità"
+
+#~ msgid "it is invalid to combine 'unit' objects with other types"
+#~ msgstr "non è valido combinare oggetti 'unit' con quelli di altri tipi"
