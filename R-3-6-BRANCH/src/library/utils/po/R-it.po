@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-utils 3.6.3\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2020-04-06 19:39\n"
+"POT-Creation-Date: 2020-03-24 10:14\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -398,6 +398,47 @@ msgstr "'form' dev'essere una formula su due lati"
 msgid "'form' must be a two-sided formula with one term on each side"
 msgstr "'form' dev'essere una formula su due lati con un termine per ogni lato"
 
+msgid "invalid 'n' -  must contain at least one non-missing element, got none."
+msgstr ""
+"'n' non valido-  deve contenere almeno un elemento non-missing, si è "
+"ottenuto none."
+
+msgid "invalid 'n' - must have length one when dim(x) is NULL, got %d"
+msgstr ""
+"'n' non valido - deve avere lunghezza uno quando dim(x) è NULL, si è "
+"ottenuto %d"
+
+msgid "invalid 'n' - length(n) must be <= length(dim(x)), got %d > %d"
+msgstr ""
+"'n' non valido - length(n) dev'essere <= length(dim(x)), si è ottenuto %d > "
+"%d"
+
+msgid "no method found for %s(., n=%s) and class %s"
+msgstr "nessun metodo trovato per %s(., n=%) e classe %s"
+
+msgid ""
+"tail(., addrownums = V) is deprecated.\n"
+"Use"
+msgstr ""
+"tail(., addrownums = V) è deprecato.\n"
+"Utilizzare"
+
+msgid "tail(., keepnums = V) instead."
+msgstr "tail(., keepnums = V) come alternativa."
+
+msgid "tail(., addrownums=.) is"
+msgstr "tail(., addrownums=.) è"
+
+msgid ""
+"deprecated.\n"
+"Use"
+msgstr ""
+"deprecato.\n"
+"Utilizzare"
+
+msgid "tail(., keepnums=.) instead."
+msgstr "tail(., keepnums=.) come alternativa."
+
 msgid "'topic' should be a name, length-one character vector or reserved word"
 msgstr ""
 "'topic' dovrebbe essere un nome, un vettore di caratteri lungo 1 o una "
@@ -583,6 +624,9 @@ msgstr ""
 "la funzione '%s' sembra non essere un generico S3; trovate funzioni che "
 "sembrano come metodi S3"
 
+msgid "'class' is of length > 1; only the first element will be used"
+msgstr "'class' è di lunghezza > 1; solo il primo elemento sarà utilizzato"
+
 msgid "must supply 'generic.function' or 'class'"
 msgstr "bisogna fornire 'generic.function' o 'class'"
 
@@ -606,6 +650,9 @@ msgstr "'fixInNamespace' richiede un nome"
 
 msgid "only numeric indices can be used"
 msgstr "solo gli indici numerici possono essere utilizzati"
+
+msgid "Malformed package name."
+msgstr "Nome pacchetto malformato."
 
 msgid "cannot create directory '%s'"
 msgstr "non è possibile creare la directory '%s'"
@@ -1028,6 +1075,9 @@ msgstr "Il numero di token != 'length(proto)'"
 msgid "The number of tokens is not consistent across 'x'"
 msgstr "Il numero di token non è consistente attraverso 'x'"
 
+msgid "cannot coerce %s to logical"
+msgstr "non è possibile la coercizione di %s in logical"
+
 msgid "no lines found in %s"
 msgstr "nessuna linea trovata in %s"
 
@@ -1130,9 +1180,10 @@ msgid "'title' must be NULL or a length-1 character vector"
 msgstr "'title' dev'essere NULL o un vettore di caratteri di lunghezza 1"
 
 msgid ""
-"Enter one or more numbers separated by spaces, or an empty line to cancel"
+"Enter one or more numbers separated by spaces and then ENTER, or 0 to cancel"
 msgstr ""
-"Immetti uno o più numeri separati da spazio, o una linea vuota per annullare"
+"Immetti uno o più numeri separati da spazio e poi premi INVIO, o 0 per "
+"annullare"
 
 msgid "Invalid input, please try again"
 msgstr "Valore in ingresso non valido, riprovare per piacere"
@@ -1256,6 +1307,14 @@ msgstr "non è possibile creare %s"
 msgid "there is no 'libs' directory in package %s"
 msgstr "non c'è alcune directory 'libs' nel pacchetto %s"
 
+msgid "unable to move temporary installation %s to %s, copying instead"
+msgstr ""
+"non è possibile muovere l'installazione temporanea %s in %s, come "
+"alternativa si faccia una copia"
+
+msgid "unable to copy temporary installation %s to %s"
+msgstr "non è possibile copiare l'installazione temporanea %s in %s"
+
 msgid "Only '*.zip' and '*.tar.gz' files can be installed."
 msgstr "Solo i file '*.zip' e '*.tar.gz' sono installabili."
 
@@ -1339,6 +1398,11 @@ msgid "also installing the dependency %s"
 msgid_plural "also installing the dependencies %s"
 msgstr[0] "si installa anche la dipendenza %s"
 msgstr[1] "si installano anche le dipendenze %s"
+
+msgid "package %s is in use and will not be installed"
+msgid_plural "packages %s are in use and will not be installed"
+msgstr[0] "il pacchetto %s è in uso e non sarà installato"
+msgstr[1] "i pacchetti %s sono in uso e non saranno installati"
 
 msgid ""
 "Installing package into %s\n"
@@ -1425,8 +1489,3 @@ msgid "invalid roman numeral: %s"
 msgid_plural "invalid roman numerals: %s"
 msgstr[0] "numero romano non valido: %s"
 msgstr[1] "numeri romani non validi: %s"
-
-msgid "package %s is in use and will not be installed"
-msgid_plural "packages %s are in use and will not be installed"
-msgstr[0] "il pacchetto %s è in uso e non sarà installato"
-msgstr[1] "i pacchetti %s sono in uso e non saranno installati"

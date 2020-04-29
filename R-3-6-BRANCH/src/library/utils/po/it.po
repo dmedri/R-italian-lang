@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: utils 3.6.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-06 19:39+0200\n"
+"POT-Creation-Date: 2020-03-24 10:54-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -23,8 +23,8 @@ msgstr ""
 #: io.c:1103 io.c:1104 io.c:1105 stubs.c:47 stubs.c:67 windows/dialogs.c:169
 #: windows/dialogs.c:194 windows/dialogs.c:197 windows/dialogs.c:241
 #: windows/dialogs.c:278 windows/dialogs.c:289 windows/dialogs.c:313
-#: windows/dialogs.c:321 windows/util.c:117 windows/widgets.c:78
-#: windows/widgets.c:81 windows/widgets.c:86
+#: windows/dialogs.c:321 windows/util.c:117 windows/widgets.c:79
+#: windows/widgets.c:82 windows/widgets.c:87
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "argomento '%s' non valido"
@@ -213,61 +213,61 @@ msgstr "versione non supportata di Windows"
 msgid "argument must be a character vector or a raw vector"
 msgstr "l'argomento dev'essere un vettore di caratteri o un vettore raw"
 
-#: windows/util.c:318
+#: windows/util.c:320
 msgid "unable to open the clipboard"
 msgstr "non è possibile aprire gli appunti"
 
-#: windows/util.c:323
+#: windows/util.c:325
 msgid "unable to write to the clipboard"
 msgstr "non è possibile scrivere negli appunti"
 
-#: windows/util.c:402
+#: windows/util.c:404
 msgid "'title' must be a character string"
 msgstr "'title' dev'essere una stringa di caratteri"
 
-#: windows/util.c:411
+#: windows/util.c:413
 msgid "'text' must be a character string"
 msgstr "'text' dev'essere una stringa di caratteri"
 
-#: windows/util.c:450
+#: windows/util.c:452
 #, c-format
 msgid "'%s' must be length 1"
 msgstr "'%s' dev'essere di lunghezza 1"
 
-#: windows/util.c:563
+#: windows/util.c:565
 #, c-format
 msgid "'%s' must be a list"
 msgstr "'%s' dev'essere una lista"
 
-#: windows/util.c:567
+#: windows/util.c:569
 #, c-format
 msgid "'%s' element %d is not a window handle"
 msgstr "'%s' elemento %d non è un gestore di finestra"
 
-#: windows/widgets.c:108
+#: windows/widgets.c:109
 msgid "Select one or more"
 msgstr "Selezionane uno o più"
 
-#: windows/widgets.c:108
+#: windows/widgets.c:109
 msgid "Select one"
 msgstr "Selezionane uno"
 
-#: windows/widgets.c:182 windows/widgets.c:250
+#: windows/widgets.c:183 windows/widgets.c:251
 msgid "'default' must be a character string"
 msgstr "'default' dev'essere una stringa di caratteri"
 
-#: windows/widgets.c:184 windows/widgets.c:252
+#: windows/widgets.c:185 windows/widgets.c:253
 msgid "'default' is overlong"
 msgstr "'default' è troppo lungo"
 
-#: windows/widgets.c:188 windows/widgets.c:256
+#: windows/widgets.c:189 windows/widgets.c:257
 msgid "'caption' must be a character string"
 msgstr "'caption' dev'essere una stringa di caratteri"
 
-#: windows/widgets.c:190
+#: windows/widgets.c:191
 msgid "'multi' must be a logical value"
 msgstr "'multi' dev'essere una valore logico"
 
-#: windows/widgets.c:192
+#: windows/widgets.c:193
 msgid "'filterindex' must be an integer value"
 msgstr "'filterindex' dev'essere un valore integer"
