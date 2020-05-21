@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tools 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-29 13:39+0200\n"
+"POT-Creation-Date: 2020-05-20 21:37+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -64,7 +64,7 @@ msgstr "almeno un asterisco '*' è supportato in ogni specificazione di conversi
 msgid "unable to allocate buffer for long string at line %d"
 msgstr "non è possibile allocare un buffer stringhe long alla linea %d"
 
-#: gramLatex.c:2626 gramRd.c:4521 gramRd.c:4527
+#: gramLatex.c:2627 gramRd.c:4522 gramRd.c:4528
 #, c-format
 msgid "invalid '%s' value"
 msgstr "valore '%s' non valido"
@@ -118,27 +118,27 @@ msgstr "Non è possibile trovare la macro %s"
 msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
 msgstr "Fine inattesa dell'input (nella %c stringa virgolettata aperta in %s:%d:%d)"
 
-#: gramRd.c:4534
+#: gramRd.c:4535
 msgid "cannot open the connection"
 msgstr "non è possibile aprire la connessione"
 
-#: gramRd.c:4541
+#: gramRd.c:4542
 msgid "cannot read from this connection"
 msgstr "non è possibile leggere da questa connessione"
 
-#: gramRd.c:4549
+#: gramRd.c:4550
 msgid "invalid Rd file"
 msgstr "file Rd non valido"
 
-#: gramRd.c:4568
+#: gramRd.c:4569
 msgid "'deparseRd' only supports deparsing character elements"
 msgstr "'deparseRd' supporta unicamente il deparsing di elementi carattere"
 
-#: gramRd.c:4571
+#: gramRd.c:4572
 msgid "bad state"
 msgstr "stato errato"
 
-#: gramRd.c:4584
+#: gramRd.c:4585
 #, c-format
 msgid "bad text mode %d in 'deparseRd'"
 msgstr "modalità testo errata %d in 'deparseRd'"
