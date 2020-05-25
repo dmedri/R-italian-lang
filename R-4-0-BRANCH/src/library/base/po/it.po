@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-13 16:53+0200\n"
+"POT-Creation-Date: 2020-05-20 21:36+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -127,7 +127,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/gnuwin32/extra.c:119 src/gnuwin32/extra.c:161 src/gnuwin32/extra.c:351
 #: src/gnuwin32/extra.c:925 src/gnuwin32/extra.c:950
 #: src/gnuwin32/sys-win32.c:249 src/main/Rdynload.c:1367 src/main/agrep.c:131
-#: src/main/agrep.c:135 src/main/agrep.c:775 src/main/agrep.c:780
+#: src/main/agrep.c:135 src/main/agrep.c:776 src/main/agrep.c:781
 #: src/main/apply.c:331 src/main/apply.c:333 src/main/apply.c:336
 #: src/main/array.c:93 src/main/array.c:1744 src/main/array.c:1883
 #: src/main/array.c:1885 src/main/array.c:1886 src/main/array.c:2267
@@ -178,9 +178,9 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/datetime.c:872 src/main/datetime.c:876 src/main/datetime.c:1049
 #: src/main/datetime.c:1051 src/main/datetime.c:1256 src/main/debug.c:246
 #: src/main/deparse.c:438 src/main/dotcode.c:496 src/main/dotcode.c:500
-#: src/main/dotcode.c:505 src/main/dounzip.c:325 src/main/dounzip.c:332
-#: src/main/dounzip.c:342 src/main/dounzip.c:347 src/main/dounzip.c:351
-#: src/main/dounzip.c:355 src/main/envir.c:1848 src/main/envir.c:1851
+#: src/main/dotcode.c:505 src/main/dounzip.c:331 src/main/dounzip.c:338
+#: src/main/dounzip.c:348 src/main/dounzip.c:353 src/main/dounzip.c:357
+#: src/main/dounzip.c:361 src/main/envir.c:1848 src/main/envir.c:1851
 #: src/main/envir.c:1963 src/main/envir.c:1968 src/main/envir.c:2054
 #: src/main/envir.c:2070 src/main/envir.c:2076 src/main/envir.c:2187
 #: src/main/envir.c:2195 src/main/envir.c:2202 src/main/envir.c:2213
@@ -192,7 +192,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/grep.c:1444 src/main/grep.c:1446 src/main/grep.c:1922
 #: src/main/grep.c:1926 src/main/grep.c:1931 src/main/grep.c:2821
 #: src/main/grep.c:2826 src/main/grep.c:3165 src/main/grep.c:3170
-#: src/main/memory.c:4470 src/main/paste.c:110 src/main/paste.c:445
+#: src/main/memory.c:4476 src/main/paste.c:110 src/main/paste.c:445
 #: src/main/paste.c:452 src/main/paste.c:459 src/main/paste.c:464
 #: src/main/paste.c:469 src/main/paste.c:474 src/main/paste.c:477
 #: src/main/paste.c:485 src/main/paste.c:490 src/main/paste.c:672
@@ -320,7 +320,7 @@ msgstr "Il codice di uscita era %d"
 msgid "Insufficient memory (rpipeOpen)"
 msgstr "Memoria insufficiente (rpipeOpen)"
 
-#: src/gnuwin32/run.c:874 src/main/dounzip.c:485
+#: src/gnuwin32/run.c:874 src/main/dounzip.c:491
 msgid "seek not enabled for this connection"
 msgstr "'seek' non abilitato per questa connessione"
 
@@ -757,18 +757,18 @@ msgstr "stringa formato troppo lunga"
 msgid "invalid multibyte format string"
 msgstr "stringa formato multibyte non valida"
 
-#: src/main/agrep.c:133 src/main/agrep.c:777 src/main/character.c:1327
+#: src/main/agrep.c:133 src/main/agrep.c:778 src/main/character.c:1327
 #: src/main/character.c:1331 src/main/grep.c:1126 src/main/grep.c:1924
 #: src/main/grep.c:1928 src/main/grep.c:2823 src/main/grep.c:3167
 #, c-format
 msgid "argument '%s' has length > 1 and only the first element will be used"
 msgstr "l'argomento '%s' ha lunghezza > 1 e solo il primo elemento sarà usato"
 
-#: src/main/agrep.c:190 src/main/agrep.c:819
+#: src/main/agrep.c:190 src/main/agrep.c:820
 msgid "'pattern' must be a non-empty character string"
 msgstr "'pattern' dev'essere una stringa di caratteri non vuota"
 
-#: src/main/agrep.c:201 src/main/agrep.c:828 src/main/grep.c:1200
+#: src/main/agrep.c:201 src/main/agrep.c:829 src/main/grep.c:1200
 #: src/main/grep.c:2883 src/main/grep.c:3222
 msgid "regular expression is invalid in this locale"
 msgstr "l'espressione regolare non è valida con questa localizzazione"
@@ -778,7 +778,7 @@ msgstr "l'espressione regolare non è valida con questa localizzazione"
 msgid "regcomp error:  '%s'"
 msgstr "errore regcomp:  '%s'"
 
-#: src/main/agrep.c:239 src/main/agrep.c:873 src/main/grep.c:536
+#: src/main/agrep.c:239 src/main/agrep.c:875 src/main/grep.c:536
 #: src/main/grep.c:626 src/main/grep.c:732 src/main/grep.c:912
 #: src/main/grep.c:1244 src/main/grep.c:2993 src/main/grep.c:3073
 #: src/main/grep.c:3259
@@ -786,7 +786,7 @@ msgstr "errore regcomp:  '%s'"
 msgid "input string %d is invalid in this locale"
 msgstr "stringa di input %d non valida con questa localizzazione"
 
-#: src/main/agrep.c:526 src/main/agrep.c:765 src/main/grep.c:462
+#: src/main/agrep.c:526 src/main/agrep.c:766 src/main/grep.c:462
 #: src/main/grep.c:1117 src/main/grep.c:1119 src/main/grep.c:1428
 #: src/main/grep.c:1436 src/main/grep.c:1915 src/main/grep.c:1917
 #: src/main/grep.c:2813 src/main/grep.c:2815 src/main/grep.c:3155
@@ -799,12 +799,12 @@ msgstr "l'argomento '%s' sarà ignorato"
 msgid "input string x[%d] is invalid in this locale"
 msgstr "stringa di input x[%d] non valida con questa localizzazione"
 
-#: src/main/agrep.c:661
+#: src/main/agrep.c:662
 #, c-format
 msgid "input string y[%d] is invalid in this locale"
 msgstr "stringa di input y[%d] non valida con questa localizzazione"
 
-#: src/main/agrep.c:834 src/main/grep.c:3228
+#: src/main/agrep.c:835 src/main/grep.c:3228
 #, c-format
 msgid "regcomp error: '%s'"
 msgstr "errore regcomp: '%s'"
@@ -2732,7 +2732,7 @@ msgstr "'opts' dovrebbe essere uno small integer non-negativo"
 msgid "object '%s' not found"
 msgstr "oggetto '%s' non trovato"
 
-#: src/main/deparse.c:1831
+#: src/main/deparse.c:1830
 msgid "badly formed function expression"
 msgstr "espressione della funzione non conforme"
 
@@ -2913,71 +2913,71 @@ msgstr " nessuna sovrascrittura del file '%s"
 msgid "zip file '%s' cannot be opened"
 msgstr "il file zip '%s' non può essere aperto"
 
-#: src/main/dounzip.c:315
+#: src/main/dounzip.c:321
 msgid "invalid zip name argument"
 msgstr "nome argomento 'zip' non valido"
 
-#: src/main/dounzip.c:318 src/main/dounzip.c:413
+#: src/main/dounzip.c:324 src/main/dounzip.c:419
 msgid "zip path is too long"
 msgstr "percorso file zip troppo lungo"
 
-#: src/main/dounzip.c:335
+#: src/main/dounzip.c:341
 msgid "'exdir' is too long"
 msgstr "'exdir' è troppo lungo"
 
-#: src/main/dounzip.c:338
+#: src/main/dounzip.c:344
 msgid "'exdir' does not exist"
 msgstr "'exdir' non esiste"
 
-#: src/main/dounzip.c:366
+#: src/main/dounzip.c:372
 msgid "requested file not found in the zip file"
 msgstr "file non trovato all'interno dell'archivio zip"
 
-#: src/main/dounzip.c:369
+#: src/main/dounzip.c:375
 msgid "zip file is corrupt"
 msgstr "archivio zip danneggiato"
 
-#: src/main/dounzip.c:372
+#: src/main/dounzip.c:378
 msgid "CRC error in zip file"
 msgstr "Errore CRC nel file zip"
 
-#: src/main/dounzip.c:379
+#: src/main/dounzip.c:385
 msgid "write error in extracting from zip file"
 msgstr "errore di scrittura durante l'estrazione dall'archivio zip"
 
-#: src/main/dounzip.c:382
+#: src/main/dounzip.c:388
 #, c-format
 msgid "error %d in extracting from zip file"
 msgstr "errore %d durante l'estrazione dall'archivio zip"
 
-#: src/main/dounzip.c:408
+#: src/main/dounzip.c:414
 msgid "unz connections can only be opened for reading"
 msgstr "le connessioni unz si possono aprire in sola lettura"
 
-#: src/main/dounzip.c:419
+#: src/main/dounzip.c:425
 msgid "invalid description of 'unz' connection"
 msgstr "descrizione della connessione 'unz' non valida"
 
-#: src/main/dounzip.c:425
+#: src/main/dounzip.c:431
 #, c-format
 msgid "cannot open zip file '%s'"
 msgstr "non è possibile aprire il file '%s'"
 
-#: src/main/dounzip.c:429
+#: src/main/dounzip.c:435
 #, c-format
 msgid "cannot locate file '%s' in zip file '%s'"
 msgstr "non è possibile trovare il file '%s' nell'archivio zip '%s'"
 
-#: src/main/dounzip.c:474
+#: src/main/dounzip.c:480
 msgid "printing not enabled for this connection"
 msgstr "stampa non abilitata per questa connessione"
 
-#: src/main/dounzip.c:480
+#: src/main/dounzip.c:486
 msgid "write not enabled for this connection"
 msgstr "scrittura non abilitata per questa connessione"
 
-#: src/main/dounzip.c:498 src/main/dounzip.c:502 src/main/dounzip.c:509
-#: src/main/dounzip.c:527
+#: src/main/dounzip.c:504 src/main/dounzip.c:508 src/main/dounzip.c:515
+#: src/main/dounzip.c:533
 msgid "allocation of 'unz' connection failed"
 msgstr "allocazione della connessione 'unz' fallita"
 
@@ -4241,18 +4241,22 @@ msgstr "le routine internet non sono accessibili dal modulo"
 #: src/main/internet.c:124 src/main/internet.c:136 src/main/internet.c:147
 #: src/main/internet.c:158 src/main/internet.c:167 src/main/internet.c:178
 #: src/main/internet.c:189 src/main/internet.c:198 src/main/internet.c:208
-#: src/main/internet.c:326 src/main/internet.c:338 src/main/internet.c:350
-#: src/main/internet.c:362
+#: src/main/internet.c:331 src/main/internet.c:343 src/main/internet.c:355
+#: src/main/internet.c:367
 msgid "internet routines cannot be loaded"
 msgstr "le routine internet non possono essere caricate"
 
-#: src/main/internet.c:222 src/main/internet.c:236 src/main/internet.c:255
-#: src/main/internet.c:267 src/main/internet.c:281 src/main/internet.c:301
-#: src/main/internet.c:314
+#: src/main/internet.c:222 src/main/internet.c:241 src/main/internet.c:260
+#: src/main/internet.c:272 src/main/internet.c:286 src/main/internet.c:306
+#: src/main/internet.c:319
 msgid "socket routines cannot be loaded"
 msgstr "le routine socket non possono essere caricate"
 
-#: src/main/internet.c:250
+#: src/main/internet.c:232
+msgid "maxlen must be non-negative"
+msgstr "maxlen dev'essere non-negativo"
+
+#: src/main/internet.c:255
 msgid "attempt to close invalid socket"
 msgstr "tentativo di chiusura del socket non valido"
 
@@ -4530,43 +4534,43 @@ msgstr "'Calloc' non può allocare memoria (%.0f di %u byte)"
 msgid "'Realloc' could not re-allocate memory (%.0f bytes)"
 msgstr "'Realloc' non può allocare memoria (%.0f byte)"
 
-#: src/main/memory.c:3791
+#: src/main/memory.c:3797
 #, c-format
 msgid "SETLENGTH() can only be applied to a standard vector, not a '%s'"
 msgstr ""
 "SETLENGTH() può essere unicamente applicato ad un vettore standard, non un "
 "'%s'"
 
-#: src/main/memory.c:3962
+#: src/main/memory.c:3968
 msgid "not safe to return vector pointer"
 msgstr "non è sicuro restituire un puntatore vettoriale"
 
-#: src/main/memory.c:3973
+#: src/main/memory.c:3979
 #, c-format
 msgid "attempt to set index %lld/%lld in SET_STRING_ELT"
 msgstr "tentativo di impostazione indice %lld/%lld in SET_STRING_ELT"
 
-#: src/main/memory.c:3994
+#: src/main/memory.c:4000
 #, c-format
 msgid "attempt to set index %lld/%lld in SET_VECTOR_ELT"
 msgstr "tentativo di impostazione indice %lld/%lld in SET_VECTOR_ELT"
 
-#: src/main/memory.c:4132 src/main/memory.c:4141 src/main/memory.c:4154
-#: src/main/memory.c:4171 src/main/memory.c:4186 src/main/memory.c:4202
-#: src/main/memory.c:4221
+#: src/main/memory.c:4138 src/main/memory.c:4147 src/main/memory.c:4160
+#: src/main/memory.c:4177 src/main/memory.c:4192 src/main/memory.c:4208
+#: src/main/memory.c:4227
 msgid "bad value"
 msgstr "valore errato"
 
-#: src/main/memory.c:4394
+#: src/main/memory.c:4400
 msgid "memory profiling is not available on this system"
 msgstr "la profilazione della memoria non è disponibile su questo sistema"
 
-#: src/main/memory.c:4457
+#: src/main/memory.c:4463
 #, c-format
 msgid "Rprofmem: cannot open output file '%s'"
 msgstr "Rprofmem: non è possibile aprire il file '%s' in output"
 
-#: src/main/memory.c:4562
+#: src/main/memory.c:4568
 #, c-format
 msgid "long vectors not supported yet: %s:%d"
 msgstr "vettori long non ancora supportati: %s:%d"
