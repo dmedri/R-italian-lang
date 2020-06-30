@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-grid 4.0.0\n"
-"POT-Creation-Date: 2020-03-29 13:39\n"
+"POT-Creation-Date: 2020-06-27 18:05\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -447,11 +447,9 @@ msgstr ""
 "Non è possibile creare un vettore unità di lunghezza zero (sottodivisione "
 "\"unit\")"
 
-#| msgid "'x' and 'y' must all be units of length 1"
 msgid "index must be of length 1"
 msgstr "index dev'essere di lunghezza 1"
 
-#| msgid "'gpar' element '%s' must not be length 0"
 msgid "replacement must be of length 1"
 msgstr "la sostituzione dev'essere di lunghezza 1"
 
