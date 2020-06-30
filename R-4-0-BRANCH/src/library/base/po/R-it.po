@@ -394,7 +394,7 @@ msgid "character string is not in a standard unambiguous format"
 msgstr "la stringa di caratteri non è in un formato standard"
 
 msgid "'origin' must be supplied"
-msgstr "'origin' dev'essere passato"
+msgstr "'origin' dev'essere indicato"
 
 msgid "do not know how to convert '%s' to class %s"
 msgstr "conversione incerta di '%s' nella classe %s"
