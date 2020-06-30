@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-20 21:36+0200\n"
+"POT-Creation-Date: 2020-06-27 18:05+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -188,15 +188,15 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/envir.c:3154 src/main/envir.c:3168 src/main/envir.c:3175
 #: src/main/envir.c:3191 src/main/envir.c:3814 src/main/errors.c:1161
 #: src/main/eval.c:484 src/main/eval.c:494 src/main/eval.c:497
-#: src/main/grep.c:1124 src/main/grep.c:1129 src/main/grep.c:1442
-#: src/main/grep.c:1444 src/main/grep.c:1446 src/main/grep.c:1922
-#: src/main/grep.c:1926 src/main/grep.c:1931 src/main/grep.c:2821
-#: src/main/grep.c:2826 src/main/grep.c:3165 src/main/grep.c:3170
-#: src/main/memory.c:4476 src/main/paste.c:110 src/main/paste.c:445
-#: src/main/paste.c:452 src/main/paste.c:459 src/main/paste.c:464
-#: src/main/paste.c:469 src/main/paste.c:474 src/main/paste.c:477
-#: src/main/paste.c:485 src/main/paste.c:490 src/main/paste.c:672
-#: src/main/paste.c:677 src/main/platform.c:444 src/main/platform.c:446
+#: src/main/grep.c:1126 src/main/grep.c:1131 src/main/grep.c:1444
+#: src/main/grep.c:1446 src/main/grep.c:1448 src/main/grep.c:1924
+#: src/main/grep.c:1928 src/main/grep.c:1933 src/main/grep.c:2820
+#: src/main/grep.c:2825 src/main/grep.c:3164 src/main/grep.c:3169
+#: src/main/memory.c:4478 src/main/paste.c:124 src/main/paste.c:465
+#: src/main/paste.c:472 src/main/paste.c:479 src/main/paste.c:484
+#: src/main/paste.c:489 src/main/paste.c:494 src/main/paste.c:497
+#: src/main/paste.c:505 src/main/paste.c:510 src/main/paste.c:692
+#: src/main/paste.c:697 src/main/platform.c:444 src/main/platform.c:446
 #: src/main/platform.c:448 src/main/platform.c:464 src/main/platform.c:475
 #: src/main/platform.c:528 src/main/platform.c:530 src/main/platform.c:827
 #: src/main/platform.c:829 src/main/platform.c:924 src/main/platform.c:1297
@@ -397,8 +397,8 @@ msgstr "<ERRORE: ricodifica fallita da '%s'>\n"
 #: src/gnuwin32/system.c:564 src/gnuwin32/system.c:1142
 #: src/gnuwin32/system.c:1154 src/main/connections.c:785
 #: src/main/connections.c:790 src/main/dounzip.c:180 src/main/saveload.c:2057
-#: src/main/serialize.c:2924 src/main/serialize.c:2929
-#: src/main/serialize.c:3017 src/main/serialize.c:3062 src/unix/system.c:408
+#: src/main/serialize.c:2930 src/main/serialize.c:2935
+#: src/main/serialize.c:3029 src/main/serialize.c:3076 src/unix/system.c:408
 #, c-format
 msgid "cannot open file '%s': %s"
 msgstr "non è possibile aprire il file '%s': %s"
@@ -498,43 +498,43 @@ msgstr "subscript fuori limite"
 msgid "object of type '%s' is not subsettable"
 msgstr "oggetto di tipo '%s' non suddivisibile"
 
-#: src/main/CommandLineArgs.c:175
+#: src/main/CommandLineArgs.c:177
 msgid "WARNING: no value given for --encoding"
 msgstr "AVVERTIMENTO: nessun valore dato per --encoding"
 
-#: src/main/CommandLineArgs.c:200
+#: src/main/CommandLineArgs.c:202
 #, c-format
 msgid "WARNING: option '%s' no longer supported"
 msgstr "AVVERTIMENTO: l'opzione '%s' non è più supportata"
 
-#: src/main/CommandLineArgs.c:211
+#: src/main/CommandLineArgs.c:213
 #, c-format
 msgid "WARNING: no value given for '%s'"
 msgstr "AVVERTIMENTO: nessun valore specificato per '%s'"
 
-#: src/main/CommandLineArgs.c:221
+#: src/main/CommandLineArgs.c:223
 #, c-format
 msgid "WARNING: '%s' value is invalid: ignored"
 msgstr "AVVERTIMENTO: valore '%s' non valido: ignorato"
 
-#: src/main/CommandLineArgs.c:225
+#: src/main/CommandLineArgs.c:227
 #, c-format
 msgid "WARNING: %s: too large and ignored"
 msgstr "AVVERTIMENTO: %s: troppo grande e ignorato"
 
-#: src/main/CommandLineArgs.c:239
+#: src/main/CommandLineArgs.c:241
 msgid "WARNING: no value given for '--max-ppsize'"
 msgstr "AVVERTIMENTO: nessun valore specificato per '--max-ppsize'"
 
-#: src/main/CommandLineArgs.c:244
+#: src/main/CommandLineArgs.c:246
 msgid "WARNING: '--max-ppsize' value is negative: ignored"
 msgstr "AVVERTIMENTO: il valore '--max-ppsize' è negativo: ignorato"
 
-#: src/main/CommandLineArgs.c:246
+#: src/main/CommandLineArgs.c:248
 msgid "WARNING: '--max-ppsize' value is too small: ignored"
 msgstr "AVVERTIMENTO: il valore di '--max-ppsize' è troppo piccolo: ignorato"
 
-#: src/main/CommandLineArgs.c:248
+#: src/main/CommandLineArgs.c:250
 msgid "WARNING: '--max-ppsize' value is too large: ignored"
 msgstr "AVVERTIMENTO: il valore di '--max-ppsize' è troppo grande: ignorato"
 
@@ -586,7 +586,8 @@ msgstr "'.Random.seed[1]' non è un valido tipo Normal, ignorato"
 #: src/main/RNG.c:385
 msgid "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
 msgstr ""
-"'.Random.seed[1] = 5' ma senza generatore passato dall'utente, ignorato"
+"'.Random.seed[1] = 5' ma senza indicazioni dell'utente sul generatore, "
+"ignorato"
 
 #: src/main/RNG.c:390
 msgid "'.Random.seed[1]' is not a valid RNG kind so ignored"
@@ -615,7 +616,7 @@ msgstr "tipo campione non valido in 'RNGkind'"
 
 #: src/main/RNG.c:556
 msgid "supplied seed is not a valid integer"
-msgstr "il seme passato non è un numero intero valido"
+msgstr "il seme indicato non è un numero intero valido"
 
 #: src/main/Rdynload.c:186
 #, c-format
@@ -758,8 +759,8 @@ msgid "invalid multibyte format string"
 msgstr "stringa formato multibyte non valida"
 
 #: src/main/agrep.c:133 src/main/agrep.c:778 src/main/character.c:1327
-#: src/main/character.c:1331 src/main/grep.c:1126 src/main/grep.c:1924
-#: src/main/grep.c:1928 src/main/grep.c:2823 src/main/grep.c:3167
+#: src/main/character.c:1331 src/main/grep.c:1128 src/main/grep.c:1926
+#: src/main/grep.c:1930 src/main/grep.c:2822 src/main/grep.c:3166
 #, c-format
 msgid "argument '%s' has length > 1 and only the first element will be used"
 msgstr "l'argomento '%s' ha lunghezza > 1 e solo il primo elemento sarà usato"
@@ -768,8 +769,8 @@ msgstr "l'argomento '%s' ha lunghezza > 1 e solo il primo elemento sarà usato"
 msgid "'pattern' must be a non-empty character string"
 msgstr "'pattern' dev'essere una stringa di caratteri non vuota"
 
-#: src/main/agrep.c:201 src/main/agrep.c:829 src/main/grep.c:1200
-#: src/main/grep.c:2883 src/main/grep.c:3222
+#: src/main/agrep.c:201 src/main/agrep.c:829 src/main/grep.c:1202
+#: src/main/grep.c:2882 src/main/grep.c:3221
 msgid "regular expression is invalid in this locale"
 msgstr "l'espressione regolare non è valida con questa localizzazione"
 
@@ -778,18 +779,18 @@ msgstr "l'espressione regolare non è valida con questa localizzazione"
 msgid "regcomp error:  '%s'"
 msgstr "errore regcomp:  '%s'"
 
-#: src/main/agrep.c:239 src/main/agrep.c:875 src/main/grep.c:536
-#: src/main/grep.c:626 src/main/grep.c:732 src/main/grep.c:912
-#: src/main/grep.c:1244 src/main/grep.c:2993 src/main/grep.c:3073
-#: src/main/grep.c:3259
+#: src/main/agrep.c:239 src/main/agrep.c:875 src/main/grep.c:538
+#: src/main/grep.c:628 src/main/grep.c:734 src/main/grep.c:914
+#: src/main/grep.c:1246 src/main/grep.c:2992 src/main/grep.c:3072
+#: src/main/grep.c:3258
 #, c-format
 msgid "input string %d is invalid in this locale"
 msgstr "stringa di input %d non valida con questa localizzazione"
 
-#: src/main/agrep.c:526 src/main/agrep.c:766 src/main/grep.c:462
-#: src/main/grep.c:1117 src/main/grep.c:1119 src/main/grep.c:1428
-#: src/main/grep.c:1436 src/main/grep.c:1915 src/main/grep.c:1917
-#: src/main/grep.c:2813 src/main/grep.c:2815 src/main/grep.c:3155
+#: src/main/agrep.c:526 src/main/agrep.c:766 src/main/grep.c:464
+#: src/main/grep.c:1119 src/main/grep.c:1121 src/main/grep.c:1430
+#: src/main/grep.c:1438 src/main/grep.c:1917 src/main/grep.c:1919
+#: src/main/grep.c:2812 src/main/grep.c:2814 src/main/grep.c:3154
 #, c-format
 msgid "argument '%s' will be ignored"
 msgstr "l'argomento '%s' sarà ignorato"
@@ -804,7 +805,7 @@ msgstr "stringa di input x[%d] non valida con questa localizzazione"
 msgid "input string y[%d] is invalid in this locale"
 msgstr "stringa di input y[%d] non valida con questa localizzazione"
 
-#: src/main/agrep.c:835 src/main/grep.c:3228
+#: src/main/agrep.c:835 src/main/grep.c:3227
 #, c-format
 msgid "regcomp error: '%s'"
 msgstr "errore regcomp: '%s'"
@@ -944,30 +945,30 @@ msgstr "funzione reale (di un argomento) non implementata"
 msgid "unimplemented complex function"
 msgstr "funzione complessa non implementata"
 
-#: src/main/arithmetic.c:1622 src/main/arithmetic.c:2018
-#: src/main/arithmetic.c:2192 src/main/arithmetic.c:2295
+#: src/main/arithmetic.c:1622 src/main/arithmetic.c:2020
+#: src/main/arithmetic.c:2194 src/main/arithmetic.c:2297
 #, c-format
 msgid "unimplemented real function of %d numeric arguments"
 msgstr "funzione reale di %d argomenti numerici non implementata"
 
-#: src/main/arithmetic.c:1650
+#: src/main/arithmetic.c:1651
 #, c-format
 msgid "%d argument passed to '%s' which requires 1 or 2 arguments"
-msgid_plural "%d arguments passed to '%s'which requires 1 or 2 arguments"
-msgstr[0] "%d argomento passato a '%s' dove vengono richiesti 1 o 2 argomenti"
-msgstr[1] "%d argomenti passati a '%s' dove vengono richiesti 1 o 2 argomenti"
+msgid_plural "%d arguments passed to '%s' which requires 1 or 2 arguments"
+msgstr[0] "argomento %d passato a '%s' dove vengono richiesti 1 o 2 argomenti"
+msgstr[1] "argomenti %d passati a '%s' dove vengono richiesti 1 o 2 argomenti"
 
-#: src/main/arithmetic.c:1669
+#: src/main/arithmetic.c:1671
 msgid "invalid second argument of length 0"
 msgstr "secondo argomento di lunghezza 0 non valido"
 
-#: src/main/arithmetic.c:1764 src/main/arithmetic.c:1782 src/main/envir.c:1554
+#: src/main/arithmetic.c:1766 src/main/arithmetic.c:1784 src/main/envir.c:1554
 #: src/main/envir.c:2081 src/main/eval.c:737 src/main/eval.c:5104
 #, c-format
 msgid "argument \"%s\" is missing, with no default"
 msgstr "l'argomento \"%s\"  non è specificato e non ha un valore predefinito"
 
-#: src/main/arithmetic.c:1788
+#: src/main/arithmetic.c:1790
 msgid "invalid argument 'base' of length 0"
 msgstr "argomento 'base' non valido di lunghezza 0"
 
@@ -1275,7 +1276,7 @@ msgid "exactly one attribute 'which' must be given"
 msgstr "solo un attributo può essere passato a 'which'"
 
 #: src/main/attrib.c:1511 src/main/attrib.c:1534 src/main/subscript.c:247
-#: src/main/subscript.c:251 src/main/subset.c:1285 src/main/subset.c:1338
+#: src/main/subscript.c:251 src/main/subset.c:1289 src/main/subset.c:1347
 #, c-format
 msgid "partial match of '%s' to '%s'"
 msgstr "confronto parziale di '%s' con '%s'"
@@ -1399,7 +1400,7 @@ msgstr "dimensione del vettore specificato troppo grande"
 
 #: src/main/builtin.c:75 src/main/builtin.c:112 src/main/envir.c:1836
 #: src/main/envir.c:1955 src/main/envir.c:2037 src/main/envir.c:2173
-#: src/main/paste.c:84 src/main/paste.c:319 src/main/random.c:479
+#: src/main/paste.c:93 src/main/paste.c:339 src/main/random.c:479
 #: src/main/random.c:508 src/main/unique.c:1796
 msgid "invalid first argument"
 msgstr "primo argomento non valido"
@@ -1413,9 +1414,9 @@ msgstr "primo argomento non valido"
 #: src/main/envir.c:2926 src/main/envir.c:3013 src/main/envir.c:3315
 #: src/main/envir.c:3344 src/main/envir.c:3365 src/main/envir.c:3388
 #: src/main/envir.c:3423 src/main/envir.c:3444 src/main/envir.c:3491
-#: src/main/envir.c:3804 src/main/envir.c:3809 src/main/eval.c:8030
+#: src/main/envir.c:3804 src/main/envir.c:3809 src/main/eval.c:8039
 #: src/main/objects.c:243 src/main/objects.c:251 src/main/saveload.c:2166
-#: src/main/saveload.c:2463 src/main/serialize.c:3084
+#: src/main/saveload.c:2463 src/main/serialize.c:3099
 msgid "use of NULL environment is defunct"
 msgstr "l'utilizzo dell'ambiente NULL è rimosso"
 
@@ -1461,7 +1462,7 @@ msgstr "'parent' non è un ambiente"
 #: src/main/connections.c:4855 src/main/connections.c:4925
 #: src/main/connections.c:5143 src/main/connections.c:5147
 #: src/main/connections.c:5606 src/main/deparse.c:403 src/main/deparse.c:489
-#: src/main/serialize.c:2368
+#: src/main/serialize.c:2370
 msgid "cannot write to this connection"
 msgstr "non è possibile scrivere su questa connessione"
 
@@ -1506,7 +1507,7 @@ msgstr "lunghezza sbagliata per l'argomento '%s'"
 #: src/main/builtin.c:984 src/main/coerce.c:2742 src/main/coerce.c:2785
 #: src/main/eval.c:727 src/main/eval.c:857 src/main/eval.c:3031
 #: src/main/eval.c:3120 src/main/eval.c:3191 src/main/eval.c:3533
-#: src/main/eval.c:7017 src/main/eval.c:7164
+#: src/main/eval.c:7026 src/main/eval.c:7173
 msgid "'...' used in an incorrect context"
 msgstr "'...' usato in un contesto sbagliato"
 
@@ -1519,11 +1520,11 @@ msgstr "impostazioni predefinite per 'switch' doppie: '%s' e '%s'"
 msgid "'EXPR' is missing"
 msgstr "'EXPR' assente"
 
-#: src/main/builtin.c:1043 src/main/eval.c:7580
+#: src/main/builtin.c:1043 src/main/eval.c:7589
 msgid "EXPR must be a length 1 vector"
 msgstr "EXPR dev'essere un vettore di lunghezza 1"
 
-#: src/main/builtin.c:1046 src/main/eval.c:7583
+#: src/main/builtin.c:1046 src/main/eval.c:7592
 #, c-format
 msgid ""
 "EXPR is a \"factor\", treated as integer.\n"
@@ -1532,7 +1533,7 @@ msgstr ""
 "EXPR è un \"factor\", trattato come intero.\n"
 " Si consideri l'utilizzo alternativo di '%s'."
 
-#: src/main/builtin.c:1103 src/main/eval.c:7593 src/main/eval.c:7622
+#: src/main/builtin.c:1103 src/main/eval.c:7602 src/main/eval.c:7631
 msgid "'switch' with no alternatives"
 msgstr "'switch' senza alternative"
 
@@ -1540,8 +1541,8 @@ msgstr "'switch' senza alternative"
 #, c-format
 msgid "%d argument passed to '%s' which requires %d to %d"
 msgid_plural "%d arguments passed to '%s' which requires %d to %d"
-msgstr[0] "%d argomento passato a '%s', richiesti %d di %d"
-msgstr[1] "%d argomenti passati a '%s', richiesti %d di %d"
+msgstr[0] "argomento %d passato a '%s', dove sono richiesti %d di %d"
+msgstr[1] "argomenti %d passati a '%s', dove sono richiesti %d di %d"
 
 #: src/main/character.c:110 src/main/character.c:113 src/main/character.c:237
 #: src/main/character.c:240
@@ -1599,7 +1600,7 @@ msgstr "nomi di tipo non-character"
 msgid "invalid multibyte string %d"
 msgstr "stringa mulibyte %d non valida"
 
-#: src/main/character.c:984 src/main/grep.c:466
+#: src/main/character.c:984 src/main/grep.c:468
 msgid "non-character argument"
 msgstr "argomento non-character"
 
@@ -1697,7 +1698,7 @@ msgstr "fattore sbagliato"
 msgid "list argument expected"
 msgstr "richiesto argomento lista"
 
-#: src/main/coerce.c:1585 src/main/eval.c:8034
+#: src/main/coerce.c:1585 src/main/eval.c:8043
 msgid "invalid environment"
 msgstr "ambiente non valido"
 
@@ -1873,8 +1874,8 @@ msgstr "connessione non valida"
 msgid "closing unused connection %d (%s)\n"
 msgstr "chiusura della connessione non utilizzata %d (%s)\n"
 
-#: src/main/connections.c:233 src/main/serialize.c:1673
-#: src/main/serialize.c:1696 src/main/sysutils.c:646 src/main/sysutils.c:892
+#: src/main/connections.c:233 src/main/serialize.c:1675
+#: src/main/serialize.c:1698 src/main/sysutils.c:646 src/main/sysutils.c:892
 #: src/main/sysutils.c:907 src/main/sysutils.c:1114 src/main/sysutils.c:1180
 #: src/main/sysutils.c:1262 src/main/sysutils.c:1272 src/main/sysutils.c:1285
 #: src/main/sysutils.c:1701
@@ -2019,8 +2020,8 @@ msgstr ""
 #: src/main/connections.c:4792 src/main/connections.c:4918
 #: src/main/connections.c:5139 src/main/connections.c:5587 src/main/dcf.c:93
 #: src/main/deparse.c:395 src/main/deparse.c:481 src/main/saveload.c:2363
-#: src/main/saveload.c:2448 src/main/scan.c:947 src/main/serialize.c:2539
-#: src/main/serialize.c:2588 src/main/source.c:285
+#: src/main/saveload.c:2448 src/main/scan.c:947 src/main/serialize.c:2541
+#: src/main/serialize.c:2590 src/main/source.c:285
 msgid "cannot open the connection"
 msgstr "non è possibile aprire la connessione"
 
@@ -2258,8 +2259,8 @@ msgid "cannot close 'message' sink connection"
 msgstr "non è possibile chiudere la connessione sink 'message'"
 
 #: src/main/connections.c:3746 src/main/connections.c:5605
-#: src/main/connections.c:5613 src/main/serialize.c:2358
-#: src/main/serialize.c:2366
+#: src/main/connections.c:5613 src/main/serialize.c:2360
+#: src/main/serialize.c:2368
 msgid "connection is not open"
 msgstr "connessione non aperta"
 
@@ -2280,7 +2281,7 @@ msgstr "Errore di scrittura sulla connessione"
 #: src/main/connections.c:3936 src/main/connections.c:3938
 #: src/main/connections.c:4220 src/main/connections.c:4775
 #: src/main/connections.c:4800 src/main/connections.c:5614 src/main/dcf.c:100
-#: src/main/scan.c:950 src/main/scan.c:954 src/main/serialize.c:2360
+#: src/main/scan.c:950 src/main/scan.c:954 src/main/serialize.c:2362
 #: src/main/source.c:288
 msgid "cannot read from this connection"
 msgstr "non è possibile leggere da questa connessione"
@@ -2727,7 +2728,7 @@ msgstr "'opts' dovrebbe essere uno small integer non-negativo"
 
 #: src/main/deparse.c:452 src/main/envir.c:1985 src/main/envir.c:2092
 #: src/main/eval.c:733 src/main/eval.c:2097 src/main/eval.c:5113
-#: src/main/saveload.c:2074 src/main/saveload.c:2409 src/main/serialize.c:3102
+#: src/main/saveload.c:2074 src/main/saveload.c:2409 src/main/serialize.c:3117
 #, c-format
 msgid "object '%s' not found"
 msgstr "oggetto '%s' non trovato"
@@ -2826,7 +2827,7 @@ msgstr "Argomento PACKAGE troppo lungo"
 
 #: src/main/dotcode.c:492
 msgid "no arguments supplied"
-msgstr "non è stato passato alcun argomento"
+msgstr "non è stato indicato alcun argomento"
 
 #: src/main/dotcode.c:493 src/main/seq.c:1018
 msgid "too many arguments"
@@ -3671,7 +3672,7 @@ msgstr ""
 msgid "argument is missing, with no default"
 msgstr "argomento non specificato e senza un valore predefinito"
 
-#: src/main/eval.c:853 src/main/eval.c:1963 src/main/eval.c:6956
+#: src/main/eval.c:853 src/main/eval.c:1963 src/main/eval.c:6965
 msgid "attempt to apply non-function"
 msgstr "tentativo di applicare una non-funzione"
 
@@ -3722,7 +3723,7 @@ msgstr "l'argomento ha lunghezza zero"
 msgid "non-symbol loop variable"
 msgstr "variabile di ciclo non simbolica"
 
-#: src/main/eval.c:2383 src/main/eval.c:6657
+#: src/main/eval.c:2383 src/main/eval.c:6665
 msgid "invalid for() loop sequence"
 msgstr "sequenza ciclo for() non corretta"
 
@@ -3817,92 +3818,92 @@ msgstr "opcode errato"
 msgid "invalid %s type in 'x %s y'"
 msgstr "tipo %s non valido in 'x %s y'"
 
-#: src/main/eval.c:6485
+#: src/main/eval.c:6493
 msgid "bytecode version mismatch; using eval"
 msgstr "versione bytecode non corrispondente; si utilizza eval"
 
-#: src/main/eval.c:6491
+#: src/main/eval.c:6499
 msgid "bytecode version is too old"
 msgstr "versione bytecode troppo vecchia"
 
-#: src/main/eval.c:6492
+#: src/main/eval.c:6500
 msgid "bytecode version is too new"
 msgstr "versione bytecode troppo nuova"
 
-#: src/main/eval.c:6537
+#: src/main/eval.c:6545
 msgid "byte code version mismatch"
 msgstr "versione bytecode non corrispondente"
 
-#: src/main/eval.c:6789
+#: src/main/eval.c:6798
 msgid "invalid sequence argument in for loop"
 msgstr "argomento 'sequence' non valido nel ciclo 'for'"
 
-#: src/main/eval.c:6945 src/main/names.c:1347
+#: src/main/eval.c:6954 src/main/names.c:1347
 #, c-format
 msgid "there is no .Internal function '%s'"
 msgstr "non c'è alcuna funzione .Internal '%s'"
 
-#: src/main/eval.c:7063 src/main/eval.c:7488 src/main/eval.c:7532
+#: src/main/eval.c:7072 src/main/eval.c:7497 src/main/eval.c:7541
 msgid "bad function"
 msgstr "funzione errata"
 
-#: src/main/eval.c:7076
+#: src/main/eval.c:7085
 msgid "not a BUILTIN function"
 msgstr "non è una funzione BUILTIN"
 
-#: src/main/eval.c:7590
+#: src/main/eval.c:7599
 msgid "bad numeric 'switch' offsets"
 msgstr "offset 'switch' numerico errato"
 
-#: src/main/eval.c:7596
+#: src/main/eval.c:7605
 msgid "numeric EXPR required for 'switch' without named alternatives"
 msgstr "un EXPR numerico richiede uno 'switch' senza alternative nominate"
 
-#: src/main/eval.c:7600
+#: src/main/eval.c:7609
 msgid "bad character 'switch' offsets"
 msgstr "offset 'switch' caratteri errato"
 
-#: src/main/eval.c:7753
+#: src/main/eval.c:7762
 msgid "cannot find index for threaded code address"
 msgstr "non è possibile trovare l'indice per l'indirizzo del codice thread"
 
-#: src/main/eval.c:8027
+#: src/main/eval.c:8036
 msgid "invalid body"
 msgstr "corpo non valido"
 
-#: src/main/eval.c:8047
+#: src/main/eval.c:8056
 msgid "invalid symbol"
 msgstr "simbolo non valido"
 
-#: src/main/eval.c:8091
+#: src/main/eval.c:8100
 msgid "argument is not a byte code object"
 msgstr "l'argomento non è un oggetto byte code"
 
-#: src/main/eval.c:8162 src/main/eval.c:8181 src/main/eval.c:8215
+#: src/main/eval.c:8171 src/main/eval.c:8190 src/main/eval.c:8224
 msgid "constant buffer must be a generic vector"
 msgstr "constant buffer dev'essere un vettore generico"
 
-#: src/main/eval.c:8217
+#: src/main/eval.c:8226
 msgid "bad constant count"
 msgstr "conteggio costante errato"
 
-#: src/main/eval.c:8255
+#: src/main/eval.c:8264
 msgid "profile timer in use"
 msgstr "timer di profile in uso"
 
-#: src/main/eval.c:8257
+#: src/main/eval.c:8266
 msgid "already byte code profiling"
 msgstr "profilazione byte code"
 
-#: src/main/eval.c:8275
+#: src/main/eval.c:8284
 msgid "setting profile timer failed"
 msgstr "impostazione del profile timer fallita"
 
-#: src/main/eval.c:8293
+#: src/main/eval.c:8302
 msgid "not byte code profiling"
 msgstr "nessuna profilazione byte code"
 
-#: src/main/eval.c:8309 src/main/eval.c:8313 src/main/eval.c:8317
+#: src/main/eval.c:8318 src/main/eval.c:8322 src/main/eval.c:8326
 msgid "byte code profiling is not supported in this build"
 msgstr "il byte code profiling non è supportato in questa build"
 
@@ -4077,12 +4078,12 @@ msgstr ""
 "'\\%c' è un escape non riconosciuto in una stringa caratteri che inizia con "
 "\"%s\""
 
-#: src/main/gram.y:2812 src/main/gram.y:2932
+#: src/main/gram.y:2812 src/main/gram.y:2938
 msgid "mixing Unicode and octal/hex escapes in a string is not allowed"
 msgstr ""
 "non è ammesso mischiare Unicode ed escape ottali/esadecimali in una stringa"
 
-#: src/main/gram.y:2816 src/main/gram.y:2936
+#: src/main/gram.y:2816 src/main/gram.y:2942
 #, c-format
 msgid ""
 "string at line %d containing Unicode escapes not in this locale\n"
@@ -4092,18 +4093,18 @@ msgstr ""
 "questa localizzazione\n"
 "è troppo lunga (massimo 10000 caratteri)"
 
-#: src/main/gram.y:2849
+#: src/main/gram.y:2852
 #, c-format
 msgid "malformed raw string literal at line %d"
 msgstr "malformed raw string literal at line %d"
 
-#: src/main/gram.y:3544 src/main/gram.y:3551 src/main/gram.y:3557
-#: src/main/gram.y:3564
+#: src/main/gram.y:3550 src/main/gram.y:3557 src/main/gram.y:3563
+#: src/main/gram.y:3570
 #, c-format
 msgid "contextstack overflow at line %d"
 msgstr "contextstack overflow alla linea %d"
 
-#: src/main/gram.y:3654
+#: src/main/gram.y:3660
 #, c-format
 msgid "internal parser error at line %d"
 msgstr "internal parser error alla linea %d"
@@ -4123,7 +4124,7 @@ msgstr "espressione regolare '%s' non valida, motivo '%s'"
 msgid "invalid regular expression, reason '%s'"
 msgstr "espressione regolare non valida, motivo '%s'"
 
-#: src/main/grep.c:189
+#: src/main/grep.c:191
 #, c-format
 msgid ""
 "PCRE error\n"
@@ -4134,7 +4135,7 @@ msgstr ""
 "\t'%s'\n"
 "\tper l'elemento %d"
 
-#: src/main/grep.c:333 src/main/grep.c:405
+#: src/main/grep.c:335 src/main/grep.c:407
 #, c-format
 msgid ""
 "PCRE pattern compilation error\n"
@@ -4145,12 +4146,12 @@ msgstr ""
 "\t'%s'\n"
 "\tsu '%s'\n"
 
-#: src/main/grep.c:335 src/main/grep.c:408
+#: src/main/grep.c:337 src/main/grep.c:410
 #, c-format
 msgid "invalid regular expression '%s'"
 msgstr "espressione regolare '%s' non valida"
 
-#: src/main/grep.c:347
+#: src/main/grep.c:349
 #, c-format
 msgid ""
 "PCRE JIT compilation error\n"
@@ -4159,7 +4160,7 @@ msgstr ""
 "Errore di compilazione PCRE JIT\n"
 "\t'%s'"
 
-#: src/main/grep.c:416
+#: src/main/grep.c:418
 #, c-format
 msgid ""
 "PCRE pattern study error\n"
@@ -4168,63 +4169,63 @@ msgstr ""
 "Errore di studio del pattern PCRE\n"
 "\t'%s'\n"
 
-#: src/main/grep.c:528 src/main/grep.c:618 src/main/grep.c:724
-#: src/main/grep.c:1237 src/main/grep.c:2985
+#: src/main/grep.c:530 src/main/grep.c:620 src/main/grep.c:726
+#: src/main/grep.c:1239 src/main/grep.c:2984
 #, c-format
 msgid "input string %d is invalid UTF-8"
 msgstr "stringa di input %d non valida UTF-8"
 
-#: src/main/grep.c:595 src/main/grep.c:688
+#: src/main/grep.c:597 src/main/grep.c:690
 #, c-format
 msgid "'split' string %d is invalid UTF-8"
 msgstr "'split' della stringa %d non valido UTF-8"
 
-#: src/main/grep.c:599 src/main/grep.c:692 src/main/grep.c:893
+#: src/main/grep.c:601 src/main/grep.c:694 src/main/grep.c:895
 #, c-format
 msgid "'split' string %d is invalid in this locale"
 msgstr "'split' della stringa %d non valido con questa localizzazione"
 
-#: src/main/grep.c:1196 src/main/grep.c:2879
+#: src/main/grep.c:1198 src/main/grep.c:2878
 msgid "regular expression is invalid UTF-8"
 msgstr "espressione regolare non valida UTF-8"
 
-#: src/main/grep.c:1646
+#: src/main/grep.c:1648
 msgid "pattern matches an empty string infinitely, returning first match only"
 msgstr ""
 "il pattern corrisponde sempre ad una stringa vuota, si restituisce solo la "
 "prima corrispondenza"
 
-#: src/main/grep.c:1993
+#: src/main/grep.c:1995
 msgid "'pattern' is invalid UTF-8"
 msgstr "'pattern' UTF-8 non valido"
 
-#: src/main/grep.c:1995
+#: src/main/grep.c:1997
 msgid "'replacement' is invalid UTF-8"
 msgstr "'replacement' UTF-8 non valido"
 
-#: src/main/grep.c:1999
+#: src/main/grep.c:2001
 msgid "'pattern' is invalid in this locale"
 msgstr "'pattern' non valido con questa localizzazione"
 
-#: src/main/grep.c:2002
+#: src/main/grep.c:2004
 msgid "'replacement' is invalid in this locale"
 msgstr "'replacemente' non valido con questa localizzazione"
 
-#: src/main/grep.c:2007
+#: src/main/grep.c:2009
 msgid "zero-length pattern"
 msgstr "'pattern' di lunghezza zero"
 
-#: src/main/grep.c:2160 src/main/grep.c:2181 src/main/grep.c:2230
-#: src/main/grep.c:2251 src/main/grep.c:2298 src/main/grep.c:2314
+#: src/main/grep.c:2162 src/main/grep.c:2183 src/main/grep.c:2232
+#: src/main/grep.c:2253 src/main/grep.c:2300 src/main/grep.c:2316
 msgid "result string is too long"
 msgstr "stringa del risultato troppo lunga"
 
-#: src/main/grep.c:2900
+#: src/main/grep.c:2899
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
 msgstr "'pcre2_patterninfo' ha restituito '%d' "
 
-#: src/main/grep.c:2917
+#: src/main/grep.c:2916
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
 msgstr "'pcre_fullinfo' ha restituito '%d' "
@@ -4561,16 +4562,16 @@ msgstr "tentativo di impostazione indice %lld/%lld in SET_VECTOR_ELT"
 msgid "bad value"
 msgstr "valore errato"
 
-#: src/main/memory.c:4400
+#: src/main/memory.c:4402
 msgid "memory profiling is not available on this system"
 msgstr "la profilazione della memoria non è disponibile su questo sistema"
 
-#: src/main/memory.c:4463
+#: src/main/memory.c:4465
 #, c-format
 msgid "Rprofmem: cannot open output file '%s'"
 msgstr "Rprofmem: non è possibile aprire il file '%s' in output"
 
-#: src/main/memory.c:4568
+#: src/main/memory.c:4570
 #, c-format
 msgid "long vectors not supported yet: %s:%d"
 msgstr "vettori long non ancora supportati: %s:%d"
@@ -4895,43 +4896,43 @@ msgstr "'%s' è deprecato e sarà disabilitato"
 msgid "invalid argument"
 msgstr "argomento non valido"
 
-#: src/main/paste.c:70 src/main/util.c:483
+#: src/main/paste.c:78 src/main/util.c:483
 #, c-format
 msgid "%d argument passed to .Internal(%s) which requires %d"
 msgid_plural "%d arguments passed to .Internal(%s) which requires %d"
 msgstr[0] "%d argomenti passati a .Internal(%s), richiesti %d"
 msgstr[1] "%d argomenti passati a .Internal(%s), richiesti %d"
 
-#: src/main/paste.c:90 src/main/paste.c:325
+#: src/main/paste.c:103 src/main/paste.c:345
 msgid "invalid separator"
 msgstr "separatore non valido"
 
-#: src/main/paste.c:136 src/main/paste.c:345
+#: src/main/paste.c:150 src/main/paste.c:365
 #, c-format
 msgid "non-string argument to .Internal(%s)"
 msgstr "argomento non-stringa per .Internal(%s)"
 
-#: src/main/paste.c:198 src/main/paste.c:268
+#: src/main/paste.c:215 src/main/paste.c:286
 msgid "result would exceed 2^31-1 bytes"
 msgstr "il risultato supererebbe i 2^31-1 byte"
 
-#: src/main/paste.c:358
+#: src/main/paste.c:378
 msgid "strings with \"bytes\" encoding are not allowed"
 msgstr "non sono ammesse le stringhe con codifiche \"bytes\""
 
-#: src/main/paste.c:440
+#: src/main/paste.c:460
 msgid "first argument must be atomic or environment"
 msgstr "il primo argomento dev'essere atomico o un ambiente"
 
-#: src/main/paste.c:501
+#: src/main/paste.c:521
 msgid "'decimal.mark' must be a string of one character"
 msgstr "'decimal.mark' dev'essere una stringa di un carattere"
 
-#: src/main/paste.c:632
+#: src/main/paste.c:652
 msgid "Impossible mode ( x )"
 msgstr "Modalità ( x ) non possibile"
 
-#: src/main/paste.c:716
+#: src/main/paste.c:736
 msgid "atomic vector arguments only"
 msgstr "solo argomenti vettoriali"
 
@@ -5380,8 +5381,8 @@ msgstr "'a' e 'b' devono avere il medesimo tipo"
 #: src/main/saveload.c:1391 src/main/saveload.c:1435 src/main/saveload.c:1503
 #: src/main/saveload.c:1512 src/main/serialize.c:393 src/main/serialize.c:400
 #: src/main/serialize.c:413 src/main/serialize.c:417 src/main/serialize.c:444
-#: src/main/serialize.c:460 src/main/serialize.c:1979 src/main/serialize.c:2755
-#: src/main/serialize.c:2763
+#: src/main/serialize.c:460 src/main/serialize.c:1981 src/main/serialize.c:2757
+#: src/main/serialize.c:2765
 msgid "read error"
 msgstr "errore di lettura"
 
@@ -5424,7 +5425,7 @@ msgstr "tipo SEXP errato nel file dei dati"
 msgid "mismatch on types"
 msgstr "mancata corrispondenza sui tipi"
 
-#: src/main/saveload.c:612 src/main/saveload.c:1275 src/main/serialize.c:1907
+#: src/main/saveload.c:612 src/main/saveload.c:1275 src/main/serialize.c:1909
 #, c-format
 msgid "unrecognized internal function name \"%s\""
 msgstr "nome funzione interna \"%s\" non riconosciuto"
@@ -5534,7 +5535,7 @@ msgid "an xdr complex data read error occurred"
 msgstr ""
 "si è verificato un errore in lettura di un numero complesso in formato xdr"
 
-#: src/main/saveload.c:1797 src/main/serialize.c:2320 src/main/serialize.c:2943
+#: src/main/saveload.c:1797 src/main/serialize.c:2322 src/main/serialize.c:2949
 #: src/modules/internet/internet.c:539 src/modules/internet/internet.c:618
 #: src/modules/internet/internet.c:730
 msgid "write failed"
@@ -5569,7 +5570,7 @@ msgid "'file' must be non-empty string"
 msgstr "'file' dev'essere una stringa non vuota"
 
 #: src/main/saveload.c:1998 src/main/saveload.c:2040 src/main/saveload.c:2340
-#: src/main/serialize.c:2512
+#: src/main/serialize.c:2514
 msgid "'ascii' must be logical"
 msgstr "'ascii' dev'essere di tipo logico"
 
@@ -5599,8 +5600,8 @@ msgstr "il primo argomento dev'essere un nome file"
 msgid "XDR write failed"
 msgstr "Scrittura XDR fallita"
 
-#: src/main/saveload.c:2217 src/main/saveload.c:2242 src/main/serialize.c:1488
-#: src/main/serialize.c:1524 src/main/serialize.c:1562
+#: src/main/saveload.c:2217 src/main/saveload.c:2242 src/main/serialize.c:1490
+#: src/main/serialize.c:1526 src/main/serialize.c:1564
 msgid "XDR read failed"
 msgstr "Lettura XDR fallita"
 
@@ -5609,12 +5610,12 @@ msgstr "Lettura XDR fallita"
 msgid "cannot save data -- unable to open '%s': %s"
 msgstr "non è possibile salvare i dati -- impossibile aprire '%s': %s"
 
-#: src/main/saveload.c:2350 src/main/serialize.c:2525
+#: src/main/saveload.c:2350 src/main/serialize.c:2527
 #, c-format
 msgid "cannot save to connections in version %d format"
 msgstr "non posso scrivere su una connessione in formato %d"
 
-#: src/main/saveload.c:2373 src/main/serialize.c:2550
+#: src/main/saveload.c:2373 src/main/serialize.c:2552
 msgid "connection not open for writing"
 msgstr "connessione non aperta in scrittura"
 
@@ -5623,12 +5624,12 @@ msgid "cannot save XDR format to a text-mode connection"
 msgstr ""
 "non è possibile salvare in formato XDR su una connessione in modalità testo"
 
-#: src/main/saveload.c:2395 src/main/serialize.c:2428 src/main/serialize.c:2442
-#: src/main/serialize.c:2629 src/main/serialize.c:2651
+#: src/main/saveload.c:2395 src/main/serialize.c:2430 src/main/serialize.c:2444
+#: src/main/serialize.c:2631 src/main/serialize.c:2653
 msgid "error writing to connection"
 msgstr "errore di scrittura sulla connessione"
 
-#: src/main/saveload.c:2457 src/main/serialize.c:2596
+#: src/main/saveload.c:2457 src/main/serialize.c:2598
 msgid "connection not open for reading"
 msgstr "connessione non aperta in lettura"
 
@@ -5820,7 +5821,7 @@ msgstr "si deve specificare un formato ascii, binary o xdr"
 msgid "unknown output format"
 msgstr "formato output sconosciuto"
 
-#: src/main/serialize.c:615 src/main/serialize.c:2242
+#: src/main/serialize.c:615 src/main/serialize.c:2244
 msgid "unknown input format"
 msgstr "formato input sconosciuto"
 
@@ -5836,71 +5837,71 @@ msgstr "nessun metodo di ripristino disponibile"
 msgid "names in persistent strings are currently ignored"
 msgstr "i nomi nelle stringhe persistenti sono al momento ignorati"
 
-#: src/main/serialize.c:1074
+#: src/main/serialize.c:1075
 #, c-format
 msgid "'%s' may not be available when loading"
 msgstr "'%s' potrebbe non essere disponibile durante il caricamento"
 
-#: src/main/serialize.c:1081
+#: src/main/serialize.c:1083
 msgid "namespaces may not be available when loading"
 msgstr "i namespace potrebbero non essere disponibili durante il caricamento"
 
-#: src/main/serialize.c:1211
+#: src/main/serialize.c:1213
 #, c-format
 msgid "WriteItem: unknown type %i"
 msgstr "WriteItem: tipo %i sconosciuto"
 
-#: src/main/serialize.c:1398
+#: src/main/serialize.c:1400
 #, c-format
 msgid "version %d not supported"
 msgstr "versione %d non supportata"
 
-#: src/main/serialize.c:1431
+#: src/main/serialize.c:1433
 msgid "reference index out of range"
 msgstr "indice di riferimento fuori intervallo"
 
-#: src/main/serialize.c:1461
+#: src/main/serialize.c:1463
 msgid "names in persistent strings are not supported yet"
 msgstr "i nomi in stringhe persistenti non sono ancora supportati"
 
-#: src/main/serialize.c:1666
+#: src/main/serialize.c:1668
 #, c-format
 msgid "deserializing invalid UTF-8 string '%s'"
 msgstr "de-serializzazione della stringa UTF-8 '%s' non valida"
 
-#: src/main/serialize.c:1686
+#: src/main/serialize.c:1688
 #, c-format
 msgid "input string '%s' cannot be translated to UTF-8, is it valid in '%s'?"
 msgstr ""
 "la stringa di input '%s' non può essere tradotta in UTF-8, è valido in '%s'?"
 
-#: src/main/serialize.c:1698
+#: src/main/serialize.c:1700
 msgid "strings not representable in native encoding will not be translated"
 msgstr ""
 "le stringhe non rappresentabili nella codifica nativa non saranno tradotte"
 
-#: src/main/serialize.c:1700
+#: src/main/serialize.c:1702
 msgid ""
 "strings not representable in native encoding will be translated to UTF-8"
 msgstr ""
 "le stringhe non rappresentabili nella codifica nativa saranno tradotte in "
 "UTF-8"
 
-#: src/main/serialize.c:1707
+#: src/main/serialize.c:1709
 #, c-format
 msgid "input string '%s' cannot be translated to UTF-8, is it valid in '%s' ?"
 msgstr ""
 "la stringa di input '%s' non può essere tradotta in UTF-8, è valida in '%s' ?"
 
-#: src/main/serialize.c:1719
+#: src/main/serialize.c:1721
 msgid "negative serialized length for vector"
 msgstr "lunghezza serializzata negativa per il vettore"
 
-#: src/main/serialize.c:1727
+#: src/main/serialize.c:1729
 msgid "invalid upper part of serialized vector length"
 msgstr "limite superiore non valido per la lunghezza del vettore serializzato"
 
-#: src/main/serialize.c:1732
+#: src/main/serialize.c:1734
 msgid ""
 "negative serialized vector length:\n"
 "perhaps long vector from 64-bit version of R?"
@@ -5908,25 +5909,25 @@ msgstr ""
 "lunghezza vettoriale serializzata negativa:\n"
 "forse un vettore long dalla versione a 64 bit di R?"
 
-#: src/main/serialize.c:1967
+#: src/main/serialize.c:1969
 msgid "this version of R cannot read class references"
 msgstr "questa versione di R non può leggere riferimenti di classe"
 
-#: src/main/serialize.c:1969
+#: src/main/serialize.c:1971
 msgid "this version of R cannot read generic function references"
 msgstr "questa versione di R non può leggere riferimenti a funzioni generiche"
 
-#: src/main/serialize.c:1998
+#: src/main/serialize.c:2000
 #, c-format
 msgid "ReadItem: unknown type %i, perhaps written by later version of R"
 msgstr ""
 "ReadItem: tipo %i sconosciuto, forse creato con una versione successiva di R"
 
-#: src/main/serialize.c:2157 src/main/serialize.c:2248
+#: src/main/serialize.c:2159 src/main/serialize.c:2250
 msgid "invalid length of encoding name"
 msgstr "nome di codifica con lunghezza non valida"
 
-#: src/main/serialize.c:2167
+#: src/main/serialize.c:2169
 #, c-format
 msgid ""
 "cannot read unreleased workspace version %d written by experimental R %d.%d."
@@ -5935,7 +5936,7 @@ msgstr ""
 "non è possibile leggere una versione workspace non ufficiale %d scritta da "
 "una versione sperimentale di R %d.%d.%d"
 
-#: src/main/serialize.c:2171
+#: src/main/serialize.c:2173
 #, c-format
 msgid ""
 "cannot read workspace version %d written by R %d.%d.%d; need R %d.%d.%d or "
@@ -5944,84 +5945,84 @@ msgstr ""
 "non è possibile leggere la versione workspace %d scritto da R %d.%d.%d; "
 "necessario R %d.%d.%d o superiore"
 
-#: src/main/serialize.c:2327
+#: src/main/serialize.c:2329
 msgid "read failed"
 msgstr "lettura fallita"
 
-#: src/main/serialize.c:2390
+#: src/main/serialize.c:2392
 msgid "error reading from ascii connection"
 msgstr "errore di lettura su una connessione ascii"
 
-#: src/main/serialize.c:2392
+#: src/main/serialize.c:2394
 msgid "unexpected format in ascii connection"
 msgstr "formato inatteso nella connessione ascii"
 
-#: src/main/serialize.c:2397 src/main/serialize.c:2411
+#: src/main/serialize.c:2399 src/main/serialize.c:2413
 msgid "error reading from connection"
 msgstr "errore durante la lettura sulla connessione"
 
-#: src/main/serialize.c:2453
+#: src/main/serialize.c:2455
 msgid "only ascii format can be written to text mode connections"
 msgstr ""
 "solo il formato ascii può essere scritto su connessioni in modalità testuale"
 
-#: src/main/serialize.c:2467
+#: src/main/serialize.c:2469
 msgid "only ascii format can be read from text mode connections"
 msgstr ""
 "solo il formato ascii può essere letto da connessioni in modalità testuale"
 
-#: src/main/serialize.c:2523 src/main/serialize.c:2679
-#: src/main/serialize.c:2828
+#: src/main/serialize.c:2525 src/main/serialize.c:2681
+#: src/main/serialize.c:2830
 msgid "bad version value"
 msgstr "valore versione errato"
 
-#: src/main/serialize.c:2548
+#: src/main/serialize.c:2550
 msgid "binary-mode connection required for ascii=FALSE"
 msgstr "richiesta connessione in modalità binaria per ascii=FALSE"
 
-#: src/main/serialize.c:2707 src/main/serialize.c:2744
-#: src/main/serialize.c:2807
+#: src/main/serialize.c:2709 src/main/serialize.c:2746
+#: src/main/serialize.c:2809
 msgid "serialization is too large to store in a raw vector"
 msgstr "serializzazione troppo grande per essere archiviata in un vettore raw"
 
-#: src/main/serialize.c:2724
+#: src/main/serialize.c:2726
 msgid "cannot allocate buffer"
 msgstr "non è possibile allocare il buffer"
 
-#: src/main/serialize.c:2918 src/main/serialize.c:2994
+#: src/main/serialize.c:2922 src/main/serialize.c:3003
 msgid "not a proper file name"
 msgstr "non è un nome file corretto"
 
-#: src/main/serialize.c:2920
+#: src/main/serialize.c:2926
 msgid "not a proper raw vector"
 msgstr "non è un vettore raw corretto"
 
-#: src/main/serialize.c:2934 src/main/serialize.c:3020
-#: src/main/serialize.c:3033 src/main/serialize.c:3042
-#: src/main/serialize.c:3052 src/main/serialize.c:3065
+#: src/main/serialize.c:2940 src/main/serialize.c:3032
+#: src/main/serialize.c:3045 src/main/serialize.c:3054
+#: src/main/serialize.c:3065 src/main/serialize.c:3079
 #, c-format
 msgid "seek failed on %s"
 msgstr "posizionamento non riuscito su %s"
 
-#: src/main/serialize.c:2944
+#: src/main/serialize.c:2950
 msgid "could not determine file position"
 msgstr "non è possibile determinare la posizione del file"
 
-#: src/main/serialize.c:2996
+#: src/main/serialize.c:3007
 msgid "bad offset/length argument"
 msgstr "argomento 'offset/length' errato"
 
-#: src/main/serialize.c:3037 src/main/serialize.c:3046
-#: src/main/serialize.c:3056 src/main/serialize.c:3069
+#: src/main/serialize.c:3049 src/main/serialize.c:3058
+#: src/main/serialize.c:3069 src/main/serialize.c:3083
 #, c-format
 msgid "read failed on %s"
 msgstr "lettura non riuscita su %s"
 
-#: src/main/serialize.c:3088
+#: src/main/serialize.c:3103
 msgid "bad environment"
 msgstr "ambiente errato"
 
-#: src/main/serialize.c:3090
+#: src/main/serialize.c:3105
 msgid "bad variable names"
 msgstr "nomi variabili errati"
 
@@ -6703,13 +6704,13 @@ msgstr "'tag' non valida nell'estrazione nome"
 #, c-format
 msgid "%d argument passed to '%s' which requires %d"
 msgid_plural "%d arguments passed to '%s' which requires %d"
-msgstr[0] "%d argomento passato a '%s', richiesti %d"
-msgstr[1] "%d argomenti passati a '%s', richiesti %d"
+msgstr[0] "argomento %d passato a '%s', dove è richiesto %d"
+msgstr[1] "argomenti %d passati a '%s', dove sono richiesti %d"
 
 #: src/main/util.c:504
 #, c-format
 msgid "supplied argument name '%s' does not match '%s'"
-msgstr "il nome argomento passato '%s' non corrisponde con '%s'"
+msgstr "il nome argomento indicato '%s' non corrisponde con '%s'"
 
 #: src/main/util.c:514
 #, c-format
