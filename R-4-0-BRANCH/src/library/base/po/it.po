@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-27 18:05+0200\n"
+"POT-Creation-Date: 2020-09-02 16:28+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -821,11 +821,11 @@ msgstr "'FUN.VALUE' dev'essere un vettore"
 #: src/main/errors.c:1094 src/main/errors.c:1199 src/main/errors.c:1224
 #: src/main/errors.c:1229 src/main/errors.c:1529 src/main/identical.c:67
 #: src/main/identical.c:68 src/main/identical.c:69 src/main/identical.c:70
-#: src/main/identical.c:71 src/main/identical.c:72 src/main/platform.c:3380
+#: src/main/identical.c:71 src/main/identical.c:72 src/main/platform.c:3390
 #: src/main/seq.c:252 src/main/seq.c:259 src/main/seq.c:263 src/main/seq.c:368
 #: src/main/seq.c:375 src/main/seq.c:378 src/main/seq.c:380 src/main/seq.c:437
 #: src/main/seq.c:441 src/main/seq.c:445 src/main/sort.c:1404
-#: src/main/sort.c:1487 src/main/sort.c:1491 src/main/sort.c:1498
+#: src/main/sort.c:1488 src/main/sort.c:1492 src/main/sort.c:1499
 #: src/main/source.c:221 src/main/summary.c:1168 src/main/sysutils.c:263
 #: src/main/util.c:1096 src/main/util.c:1101 src/main/util.c:1108
 #: src/main/util.c:1111 src/main/util.c:2319 src/modules/X11/devX11.c:3167
@@ -1385,16 +1385,16 @@ msgstr "il numero di colonne delle matrici deve corrispondere (si veda arg %d)"
 msgid "vector size cannot be NA"
 msgstr "la dimensione del vettore no può essere NA"
 
-#: src/main/builtin.c:49 src/main/builtin.c:57 src/main/sort.c:1483
+#: src/main/builtin.c:49 src/main/builtin.c:57 src/main/sort.c:1484
 msgid "vector size cannot be NA/NaN"
 msgstr "la dimensione di un vettore non può essere NA/NaN"
 
-#: src/main/builtin.c:50 src/main/builtin.c:58 src/main/sort.c:1484
+#: src/main/builtin.c:50 src/main/builtin.c:58 src/main/sort.c:1485
 msgid "vector size cannot be infinite"
 msgstr "la dimensione di un vettore non può essere infinita"
 
 #: src/main/builtin.c:51 src/main/builtin.c:59 src/main/builtin.c:958
-#: src/main/sort.c:1485
+#: src/main/sort.c:1486
 msgid "vector size specified is too large"
 msgstr "dimensione del vettore specificato troppo grande"
 
@@ -5217,27 +5217,27 @@ msgstr "etichette di colonna non valide"
 msgid "'gap' must be non-negative integer"
 msgstr "'gap' dev'essere un intero non-negativo"
 
-#: src/main/print.c:963
+#: src/main/print.c:972
 msgid "print buffer overflow"
 msgstr "stampa buffer overflow"
 
-#: src/main/print.c:1085
+#: src/main/print.c:1100
 msgid "invalid character length in 'dblepr'"
 msgstr "lunghezza caratteri non valida in 'dblepr'"
 
-#: src/main/print.c:1106
+#: src/main/print.c:1121
 msgid "invalid character length in 'intpr'"
 msgstr "lunghezza caratteri non valida in 'intpr'"
 
-#: src/main/print.c:1128
+#: src/main/print.c:1143
 msgid "invalid character length in 'realpr'"
 msgstr "lunghezza caratteri non valida in 'realpr'"
 
-#: src/main/print.c:1138
+#: src/main/print.c:1153
 msgid "memory allocation error in 'realpr'"
 msgstr "errore di allocazione memoria in 'realpr'"
 
-#: src/main/print.c:1171
+#: src/main/print.c:1186
 #, c-format
 msgid "BLAS/LAPACK routine '%6s' gave error code %d"
 msgstr "La routine BLAS/LAPACK '%6s' ha restituito il codice di errore %d"
@@ -6069,7 +6069,7 @@ msgstr "l'argomento %d non è un vettore"
 msgid "argument lengths differ"
 msgstr "la lunghezza degli argomenti differisce"
 
-#: src/main/sort.c:1504
+#: src/main/sort.c:1505
 msgid "invalid ties.method for rank() [should never happen]"
 msgstr "ties.method non valido in rank() [non dovrebbe mai accadere]"
 

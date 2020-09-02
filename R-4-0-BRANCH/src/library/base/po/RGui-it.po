@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: RGui 4.0.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2020-03-29 13:39+0200\n"
+"POT-Creation-Date: 2020-06-27 18:05+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -413,7 +413,7 @@ msgstr "Non è possibile creare una finestra per l'editor"
 msgid "Untitled"
 msgstr "Senza titolo"
 
-#: src/gnuwin32/extra.c:1167
+#: src/gnuwin32/extra.c:1194
 msgid "Select file"
 msgstr "Seleziona file"
 

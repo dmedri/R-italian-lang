@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-base 4.0.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2020-06-27 18:05\n"
+"POT-Creation-Date: 2020-09-02 16:28\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -175,6 +175,9 @@ msgstr "si può unire solo dentro una chiamata"
 
 msgid "can only splice vectors"
 msgstr "si possono unire solo vettori"
+
+msgid "the LINPACK argument has been defunct since R 3.1.0"
+msgstr "l'argomento LINPACK è rimosso da R 3.1.0"
 
 msgid "complex matrices not permitted at present"
 msgstr "matrici complesse non ammesse al momento"
