@@ -366,7 +366,7 @@ msgid "cannot edit NULL row names"
 msgstr "non è possibile modificare nomi riga NULL"
 
 msgid "no help found for %s"
-msgstr "nessun aiuto trovato per %s"
+msgstr "nessun aiuto per %s"
 
 msgid "%s has a help file but no examples"
 msgstr "%s ha un file guida ma nessun esempio"
