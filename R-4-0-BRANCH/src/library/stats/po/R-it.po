@@ -2118,7 +2118,7 @@ msgid "need at least four unique 'x' values"
 msgstr "necessari almeno quattro valori distinti 'x'"
 
 msgid "'cv' must not be NA when 'df' is specified"
-msgstr "'cv' dev'essere NA quando 'df' è specificato"
+msgstr "'cv' non dev'essere NA quando 'df' è specificato"
 
 msgid "cross-validation with non-unique 'x' values seems doubtful"
 msgstr "cross-validation con valori di 'x' non-unici sembra dubbia"
