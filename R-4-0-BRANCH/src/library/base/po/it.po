@@ -966,7 +966,7 @@ msgstr "secondo argomento di lunghezza 0 non valido"
 #: src/main/envir.c:2081 src/main/eval.c:741 src/main/eval.c:5108
 #, c-format
 msgid "argument \"%s\" is missing, with no default"
-msgstr "l'argomento \"%s\"  non è specificato e non ha un valore predefinito"
+msgstr "manca l'argomento \"%s\" e non ha un valore predefinito"
 
 #: src/main/arithmetic.c:1790
 msgid "invalid argument 'base' of length 0"
