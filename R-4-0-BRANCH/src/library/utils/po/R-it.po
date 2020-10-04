@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-utils 4.0.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2020-03-29 13:39\n"
+"POT-Creation-Date: 2020-08-05 19:17\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -1116,6 +1116,21 @@ msgstr "fallita creazione della directory %s"
 
 msgid "invalid octal digit"
 msgstr "cifre ottali non valide"
+
+msgid "removing drive '%s'"
+msgstr "rimozione del drive '%s'"
+
+msgid "removing leading '/'"
+msgstr "rimozione di '/'"
+
+msgid "path starts with '~'"
+msgstr "path inizia con '~'"
+
+msgid "path contains '..'"
+msgstr "path contiene '..'"
+
+msgid "path is empty"
+msgstr "path è vuoto"
 
 msgid "'tarfile' must be a character string or a connection"
 msgstr "'tarfile' dev'essere una stringa di caratteri o una connessione"
