@@ -1964,7 +1964,7 @@ msgid "elements of 'x' must be nonnegative"
 msgstr "gli elementi di 'x' devono essere nonnegativi"
 
 msgid "elements of 'x' must not be greater than those of 'n'"
-msgstr "gli elementi di 'x' non possono essere più grandi di quelli di 'n'"
+msgstr "gli elementi di 'x' non devono essere più grandi di quelli di 'n'"
 
 msgid "'p' must have the same length as 'x' and 'n'"
 msgstr "'p' deve avere la stessa lunghezza di 'x' e 'n'"
@@ -2148,7 +2148,7 @@ msgid "cannot use more inner knots than unique 'x' values"
 msgstr "non posso usare più nodi interni che valori unici di 'x'"
 
 msgid "must not specify both 'spar' and 'lambda'"
-msgstr "non bisogna specifica 'spar' e 'lambda'"
+msgstr "non deve specificare 'spar' e 'lambda'"
 
 msgid "'spar' must be of length 1"
 msgstr "'spar' dev'essere di lunghezza 1"
