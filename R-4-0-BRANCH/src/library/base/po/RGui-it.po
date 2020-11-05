@@ -1155,7 +1155,7 @@ msgstr "Ottieni da variabile..."
 
 #: src/library/grDevices/src/devWindows.c:1682
 msgid "Clear history"
-msgstr "Cancella cronologia"
+msgstr "Pulisci cronologia"
 
 #: src/library/grDevices/src/devWindows.c:1683
 msgid "Resize"
