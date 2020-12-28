@@ -6817,7 +6817,7 @@ msgstr "il vettore long '%s' non è supportato"
 
 #: src/main/util.c:2610
 msgid "'eps.correct' must be 0, 1, or 2"
-msgstr "'eps.correct' dev'essere 0, 1, o 2"
+msgstr "'eps.correct' dev'essere 0, 1 o 2"
 
 #: src/main/util.c:2639
 msgid "'x' must be a vector"
@@ -6832,7 +6832,7 @@ msgid ""
 msgstr ""
 "R è un software libero ed è rilasciato SENZA ALCUNA GARANZIA.\n"
 "Siamo ben lieti se potrai redistribuirlo, ma sotto certe condizioni.\n"
-"Scrivi 'license()' o 'licence()' per dettagli su come distribuirlo.\n"
+"Scrivi 'license()' o 'licence()' per maggiori dettagli.\n"
 "\n"
 
 #: src/main/version.c:40
