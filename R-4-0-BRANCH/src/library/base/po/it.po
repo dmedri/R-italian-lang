@@ -888,7 +888,7 @@ msgstr "argomento non-numerico per una funzione matematica"
 
 #: src/main/arithmetic.c:211
 msgid "probable complete loss of accuracy in modulus"
-msgstr "possibile perdita totale di precisione in modulo"
+msgstr "probabile perdita totale di accuratezza in modulus"
 
 #: src/main/arithmetic.c:329
 msgid "NAs produced by integer overflow"
@@ -900,7 +900,7 @@ msgstr "l'operatore necessita di uno o due argomenti"
 
 #: src/main/arithmetic.c:544
 msgid "non-numeric argument to binary operator"
-msgstr "argomento non numerico trasformato in operatore binario"
+msgstr "argomento non numerico passato ad un operatore binario"
 
 #: src/main/arithmetic.c:599
 msgid ""
@@ -930,12 +930,12 @@ msgstr ""
 
 #: src/main/arithmetic.c:747
 msgid "invalid argument to unary operator"
-msgstr "argomento non valido per l'operatore"
+msgstr "argomento non valido per l'operatore unario"
 
 #: src/main/arithmetic.c:779 src/main/arithmetic.c:805
 #: src/main/arithmetic.c:826
 msgid "invalid unary operator"
-msgstr "operatore non valido"
+msgstr "operatore unario non valido"
 
 #: src/main/arithmetic.c:1323
 msgid "unimplemented real function of 1 argument"
@@ -963,7 +963,7 @@ msgstr[1] "argomenti %d passati a '%s' dove vengono richiesti 1 o 2 argomenti"
 #: src/main/eval.c:741 src/main/eval.c:5108
 #, c-format
 msgid "argument \"%s\" is missing, with no default"
-msgstr "manca l'argomento \"%s\" e non ha un valore predefinito"
+msgstr "argomento \"%s\" mancante, senza valore predefinito"
 
 #: src/main/arithmetic.c:1682
 msgid "invalid second argument of length 0"
@@ -976,7 +976,7 @@ msgstr "argomento 'base' non valido di lunghezza 0"
 #: src/main/array.c:85 src/main/array.c:2063
 #, c-format
 msgid "'data' must be of a vector type, was '%s'"
-msgstr "'data' dev'essere di tipo vettore, era '%s'"
+msgstr "'data' dev'essere di tipo vector, era '%s'"
 
 #: src/main/array.c:100 src/main/array.c:108
 msgid "non-numeric matrix extent"
