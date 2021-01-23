@@ -1,11 +1,11 @@
 # R Italian translation
 # This file is distributed under the same license as the R package.
 # Copyright (C) The R Foundation.
-# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+# Daniele Medri <dmedri@gmail.com>, 2005-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R 4.0.0\n"
+"Project-Id-Version: R 4.0.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-06 22:33+0100\n"
 "PO-Revision-Date: \n"
