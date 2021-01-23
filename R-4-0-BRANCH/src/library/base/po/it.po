@@ -671,7 +671,7 @@ msgstr "non è possibile allocare spazio per 'name'"
 
 #: src/main/Rdynload.c:933 src/main/Rdynload.c:949 src/main/util.c:770
 msgid "character argument expected"
-msgstr "richiesto argomento di tipo character"
+msgstr "atteso un argomento di tipo character"
 
 #: src/main/Rdynload.c:939 src/main/Rdynload.c:971 src/main/Rdynload.c:991
 #, c-format
@@ -1289,7 +1289,7 @@ msgstr "tipo '%s' non valido per il nome slot"
 
 #: src/main/attrib.c:1627
 msgid "'name' must be non-null character string"
-msgstr "'name' dev'essere una stringa di caratter non-nulla"
+msgstr "'name' dev'essere una stringa di caratteri non-nulla"
 
 #: src/main/attrib.c:1753 src/main/attrib.c:1824 src/main/attrib.c:1858
 msgid "invalid type or length for slot name"
