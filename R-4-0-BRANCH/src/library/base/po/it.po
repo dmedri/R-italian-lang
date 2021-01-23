@@ -2341,7 +2341,7 @@ msgstr ""
 
 #: src/main/connections.c:4429
 msgid "'x' is not an atomic vector type"
-msgstr "'x' non è un vettore di tipo atomico"
+msgstr "'x' non è un tipo vector atomico"
 
 #: src/main/connections.c:4436
 msgid "can only write to a binary connection"
@@ -5471,7 +5471,7 @@ msgstr ""
 
 #: src/main/saveload.c:1026
 msgid "NewWriteVec called with non-vector type"
-msgstr "NewWriteVec chiamata con tipo non-vettore"
+msgstr "NewWriteVec chiamata con un tipo che non è vector"
 
 #: src/main/saveload.c:1089
 msgid "cannot save byte code objects in version 1 workspaces"
@@ -5484,7 +5484,7 @@ msgstr "NewWriteItem: tipo %i sconosciuto"
 
 #: src/main/saveload.c:1221
 msgid "NewReadVec called with non-vector type"
-msgstr "NewReadVec chiamato con tipo non-vettore"
+msgstr "NewReadVec chiamata con un tipo che non è vector"
 
 #: src/main/saveload.c:1291
 msgid "cannot read byte code objects from version 1 workspaces"
