@@ -272,7 +272,7 @@ msgstr "%s: posizione %d: Codice tipo variabile errato %d"
 msgid ""
 "%s: position %d: Missing value indicator field is not -3, -2, 0, 1, 2, or 3"
 msgstr ""
-"%s: posizione %d: Il campo indicatore del valore mancante non è -3, -2, 0, "
+"%s: posizione %d: Il campo indicatore del valore assente non è -3, -2, 0, "
 "1, 2 o 3"
 
 msgid ""
@@ -379,10 +379,10 @@ msgid "Invalid variable width %d"
 msgstr "Larghezza variabile %d non valida"
 
 msgid "Missing SPSSPORT signature"
-msgstr "Firma SPSSPORT mancante"
+msgstr "Firma SPSSPORT assente"
 
 msgid "Missing numeric terminator"
-msgstr "Terminatore numerico mancante"
+msgstr "Terminatore numerico assente"
 
 msgid "Number expected"
 msgstr "Numero atteso"
