@@ -52,7 +52,7 @@ msgid "k = %d must be at least 1"
 msgstr "k = %d dev'essere almeno 1"
 
 msgid "no missing values are allowed"
-msgstr "i valori mancanti non sono ammessi"
+msgstr "non sono ammessi valori assenti"
 
 msgid "pass %s size %d"
 msgstr "passa %s dimensione %d"
