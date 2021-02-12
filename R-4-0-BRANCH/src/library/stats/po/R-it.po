@@ -1660,7 +1660,7 @@ msgid "all times contain an NA"
 msgstr "tutti i 'times' contengono NA"
 
 msgid "missing values in object"
-msgstr "valore assente nell'oggetto"
+msgstr "valori mancanti nell'oggetto"
 
 msgid "invalid argument 'omit'"
 msgstr "argomento 'omit' non valido"
@@ -2571,8 +2571,8 @@ msgstr[1] "non converge in %d iterazioni"
 
 msgid "%d missing value deleted"
 msgid_plural "%d missing values deleted"
-msgstr[0] "eliminato %d valore assente"
-msgstr[1] "eliminati %d valori assenti"
+msgstr[0] "eliminato %d valore mancante"
+msgstr[1] "eliminati %d valori mancanti"
 
 msgid "'X' matrix has %d case (row)"
 msgid_plural "'X' matrix has %d cases (rows)"
