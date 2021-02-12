@@ -142,7 +142,7 @@ msgstr "specificazione '%s' non valida"
 #: stubs.c:254
 #, c-format
 msgid "'%s' contains missing values"
-msgstr "'%s' contiene valori assenti"
+msgstr "'%s' contiene valori mancanti"
 
 #: utils.c:85
 msgid "'hostname' must be a character vector of length 1"
