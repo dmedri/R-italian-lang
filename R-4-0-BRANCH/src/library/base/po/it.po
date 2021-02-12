@@ -1235,7 +1235,7 @@ msgstr "vettore con lunghezza 0 non valido"
 
 #: src/main/attrib.c:1224
 msgid "the dims contain missing values"
-msgstr "le dimensioni contengono valori assenti"
+msgstr "le dimensioni contengono valori mancanti"
 
 #: src/main/attrib.c:1226
 msgid "the dims contain negative values"
