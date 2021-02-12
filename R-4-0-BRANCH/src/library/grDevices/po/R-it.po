@@ -145,7 +145,7 @@ msgid "dev.control() called without an open graphics device"
 msgstr "dev.control() usato senza che ci sia un dispositivo grafico aperto"
 
 msgid "argument is missing with no default"
-msgstr "argomento mancante senza valore di default"
+msgstr "argomento assente senza valore predefinito"
 
 msgid "dev.displaylist() called without an open graphics device"
 msgstr "dev.displaylist() chiamata senza un dispositivo grafico aperto"
