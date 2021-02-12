@@ -547,7 +547,7 @@ msgid ""
 "If the browser launched by '%s' is already running, it is *not* restarted, "
 "and you must switch to its window."
 msgstr ""
-"Se il browser '%s' è già in esecuzione, *non* sarà riavviato e ti basterà "
+"Se il browser '%s' è già in esecuzione, *non* sarà riavviato e basterà "
 "passare alla sua finestra."
 
 msgid "Otherwise, be patient ..."
