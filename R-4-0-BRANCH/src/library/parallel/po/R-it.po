@@ -108,7 +108,7 @@ msgstr "'v' dev'essere un vettore"
 
 msgid "some results may be missing, folded or caused an error"
 msgstr ""
-"alcuni risultati potrebbero essere mancanti, folded o hanno causato un errore"
+"alcuni risultati potrebbero essere assenti, folded o hanno causato un errore"
 
 msgid "fork clusters are not supported on Windows"
 msgstr "il fork di cluster non è supportato su Windows"
