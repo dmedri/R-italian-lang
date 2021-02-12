@@ -846,7 +846,7 @@ msgid "mismatch between group names and fixed values names"
 msgstr ""
 
 msgid "missing call attribute in \"nlsList\" object"
-msgstr "attributo chiamata mancante nell'oggetto \"nlsList\""
+msgstr "attributo chiamata assente nell'oggetto \"nlsList\""
 
 msgid "model formula must be of the form \"resp ~ pred\""
 msgstr "la formula del modello dev'essere nella forma \"resp ~ pred\""
