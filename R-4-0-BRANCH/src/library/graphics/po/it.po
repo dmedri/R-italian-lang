@@ -551,7 +551,7 @@ msgstr "nulla in 'levels'"
 
 #: plot3d.c:1939
 msgid "missing 'x' values"
-msgstr "valore 'x' mancante"
+msgstr "valore 'x' assente"
 
 #: plot3d.c:1941
 msgid "increasing 'x' values expected"
@@ -559,7 +559,7 @@ msgstr "necessari valori di 'x' crescenti"
 
 #: plot3d.c:1946
 msgid "missing 'y' values"
-msgstr "valore 'y' mancante"
+msgstr "valore 'y' assente"
 
 #: plot3d.c:1948
 msgid "increasing 'y' values expected"
