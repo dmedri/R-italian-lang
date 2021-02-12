@@ -626,7 +626,7 @@ msgid "matrix is not symmetric [%d,%d]"
 msgstr "la matrice non è simmetrica [%d,%d]"
 
 msgid "missing 'Matrix' namespace: should never happen"
-msgstr "namespace 'Matrix' mancante: non dovrebbe mai accadere"
+msgstr "namespace 'Matrix' assente: non dovrebbe mai accadere"
 
 msgid "negative vector lengths not allowed: np = %d, nnz = %d"
 msgstr "lunghezze vettore negativa non ammesse: np = %d, nnz = %d"
