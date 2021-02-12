@@ -39,7 +39,7 @@ msgid "The results page should open in your browser shortly"
 msgstr "La pagina dei risultati si dovrebbe aprire a breve nel browser"
 
 msgid "reference to unknown chunk %s"
-msgstr "riferimento al pezzo %s mancante"
+msgstr "riferimento al pezzo %s sconosciuto"
 
 msgid "no Sweave file with name %s found"
 msgstr "non è stato trovato alcun file Sweave con nome %s"
@@ -372,7 +372,7 @@ msgid "%s has a help file but no examples"
 msgstr "%s ha un file guida ma nessun esempio"
 
 msgid "Line number missing"
-msgstr "Numero di linea mancante"
+msgstr "Numero di linea assente"
 
 msgid "'fix' requires a name"
 msgstr "'fix' richiede un nome"
@@ -575,7 +575,7 @@ msgstr ""
 "Il file 'DESCRIPTION' ha un campo 'Encoding' e la ricodifica non è possibili"
 
 msgid "DESCRIPTION file of package '%s' is missing or broken"
-msgstr "Il file DESCRIPTION del pacchetto '%s' è mancante o non valido"
+msgstr "Il file DESCRIPTION del pacchetto '%s' è assente o non valido"
 
 msgid "Invalid \"Built\":"
 msgstr "\"Built\" non valida:"
@@ -1242,7 +1242,7 @@ msgid "Using the browser to open a mailto: URI"
 msgstr "Utilizzo del browser per aprire un mailto: URI"
 
 msgid "must specify 'address'"
-msgstr "bisogna specificare 'address'"
+msgstr "è necessario specificare 'address'"
 
 msgid "'subject' is missing"
 msgstr "'subject' assente"
@@ -1251,13 +1251,13 @@ msgid "'ccaddress' must be of length 1"
 msgstr "'ccaddress' dev'essere di lunghezza 1"
 
 msgid "'url' must be a length-one character vector"
-msgstr "'url' dev'essere un vettore di caratteri di lunghezza uno"
+msgstr "'url' dev'essere un vettore a caratteri di lunghezza 1"
 
 msgid "'headers' must have names and must not be NA"
 msgstr "'headers' deve avere nomi e non dev'essere NA"
 
 msgid "'destfile' must be a length-one character vector"
-msgstr "'destfile' dev'essere un vettore di caratteri di lunghezza uno"
+msgstr "'destfile' dev'essere un vettore a caratteri di lunghezza 1"
 
 msgid "'wget' call had nonzero exit status"
 msgstr "chiamata 'wget' con status di uscita diverso da zero"
