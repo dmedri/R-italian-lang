@@ -111,7 +111,7 @@ msgid ""
 "invalid symbol in checking for missing argument in method dispatch: expected "
 "a name, got an object of class \"%s\""
 msgstr ""
-"simbolo non valido nel controllo per argomenti mancanti nel dispatch del "
+"simbolo non valido nel controllo per argomenti assenti nel dispatch del "
 "metodo: atteso un nome, ricevuto un oggetto di classe \"%s\""
 
 #: methods_list_dispatch.c:613
@@ -124,7 +124,7 @@ msgid ""
 "invalid environment in checking for missing argument, '%s', in methods "
 "dispatch: got an object of class \"%s\""
 msgstr ""
-"ambiente non valido nel controllo per argomenti mancanti, '%s', nel dispatch "
+"ambiente non valido nel controllo per argomenti assenti, '%s', nel dispatch "
 "dei metodi: ricevuto un oggetto di classe \"%s\""
 
 #: methods_list_dispatch.c:640
