@@ -457,7 +457,7 @@ msgid "length of 'angles' must equal 'ncol(x)'"
 msgstr "lunghezza di 'angles' deve eguagliare 'ncol(x)'"
 
 msgid "no finite and non-missing values"
-msgstr "nessun valore finito e non-mancante"
+msgstr "nessun valore finito presente"
 
 msgid "'scale' must be positive"
 msgstr "'scale' dev'essere positivo"
