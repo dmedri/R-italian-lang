@@ -140,7 +140,7 @@ msgid ""
 "%s: Long string missing values record found (record type 7, subtype %d), but "
 "ignored"
 msgstr ""
-"%s: Trovato il record di valori assenti di stringa lunga (tipo di record 7, "
+"%s: Trovato il record dei valori mancanti di stringa lunga (tipo di record 7, "
 "sottotipo %d), ma ignorato"
 
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 "7, sottotipo %d), ma ignorato"
 
 msgid "%s: Long string variable %s may not have missing values"
-msgstr "%s: Variabile stringa lunga %s potrebbe non avere valori assenti"
+msgstr "%s: La variabile stringa lunga %s potrebbe non avere valori mancanti"
 
 msgid "%s: Number of cases in file (%d) is not between -1 and %d"
 msgstr "%s: Numero di casi nel file (%d) non è tra -1 e %d"
@@ -184,7 +184,7 @@ msgstr "%s: Lettura file di sistema: %s"
 
 msgid "%s: String variable %s may not have missing values specified as a range"
 msgstr ""
-"%s: La variabile di stringa %s potrebbe non avere valori assenti "
+"%s: La variabile di stringa %s potrebbe non avere valori mancanti "
 "specificati come intervallo"
 
 msgid "%s: System file contains multiple type 6 (document) records"
