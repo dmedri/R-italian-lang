@@ -535,7 +535,7 @@ msgstr "oggetto non valido per la definizione formale del metodo: tipo %s"
 
 msgid "missing package slot (%s) in object of class %s (package info added)"
 msgstr ""
-"slot del pacchetto mancante (%s) nell'oggetto della classe %s (aggiunte "
+"slot del pacchetto assente (%s) nell'oggetto della classe %s (aggiunte "
 "informazioni sul pacchetto)"
 
 msgid ""
@@ -998,7 +998,7 @@ msgid "no definition found for class %s"
 msgstr "nessuna definizione trovata per la classe %s"
 
 msgid "missing function for load action: %s"
-msgstr "funzione mancante per l'azione di caricamento: %s"
+msgstr "funzione assente per l'azione di caricamento: %s"
 
 msgid "error in load action %s for package %s: %s: %s"
 msgstr "errore nell'azione di caricamento %s per il pacchetto %s: %s: %s"
