@@ -337,7 +337,7 @@ msgid "some AR parameters were fixed: setting transform.pars = FALSE"
 msgstr "alcuni parametri AR sono stati fissati: imposto transform.pars = FALSE"
 
 msgid "too few non-missing observations"
-msgstr "troppo poche osservazioni non-mancanti"
+msgstr "osservazioni esistenti limitate"
 
 msgid "'init' is of the wrong length"
 msgstr "'init' ha lunghezza sbagliata"
@@ -545,7 +545,7 @@ msgid "'degree' must be at least 1"
 msgstr "'degree' dev'essere almeno 1"
 
 msgid "missing values are not allowed in 'poly'"
-msgstr "valori mancanti non ammessi in 'poly'"
+msgstr "valori assenti non ammessi in 'poly'"
 
 msgid "'degree' must be less than number of unique points"
 msgstr "'degree' dev'essere inferiore al numero di punti unici"
@@ -721,7 +721,7 @@ msgid "argument 'x' must be numeric"
 msgstr "l'argomento 'x' dev'essere numerico"
 
 msgid "'x' contains missing values"
-msgstr "'x' contiene valori mancanti"
+msgstr "'x' contiene valori assenti"
 
 msgid "'x' and 'weights' have unequal length"
 msgstr "'x' e 'weights' hanno lunghezze diseguali"
@@ -803,10 +803,10 @@ msgstr "alcuni termini saranno NA a causa della limitazione del metodo"
 
 msgid "multivariate case with missing coefficients is not yet implemented"
 msgstr ""
-"il caso multivariato con coefficienti mancanti non è ancora implementato"
+"il caso multivariato con coefficienti assenti non è ancora implementato"
 
 msgid "'x' must have 1 or more non-missing values"
-msgstr "'x' deve avere 1 o più valori non mancanti"
+msgstr "'x' deve avere 1 o più valori presenti"
 
 msgid "wrong embedding dimension"
 msgstr "dimensioni di immersione sbagliata"
@@ -909,7 +909,7 @@ msgid "length mismatch in convolution"
 msgstr "lunghezza non corrispondente in 'convolution'"
 
 msgid "missing values in 'filter'"
-msgstr "valori mancanti in 'filter'"
+msgstr "valori assenti in 'filter'"
 
 msgid "'filter' is longer than time series"
 msgstr "'filter' più lungo della serie storica"
@@ -1190,7 +1190,7 @@ msgid "a limit is NA or NaN"
 msgstr "un limite è NA o NaN"
 
 msgid "missing values not allowed"
-msgstr "valori mancanti non ammessi"
+msgstr "valori assenti non ammessi"
 
 msgid "'r' is less than 1"
 msgstr "'r' è minori di 1"
@@ -1313,7 +1313,7 @@ msgid "incompatible dimensions"
 msgstr "dimensioni incompatibili"
 
 msgid "missing or negative weights not allowed"
-msgstr "non sono ammessi pesi negativi o mancanti"
+msgstr "non sono ammessi pesi negativi o assenti"
 
 msgid "invalid 'lm' object:  no 'terms' component"
 msgstr "oggetto 'lm' non valido:  nessuna componente 'terms'"
@@ -1475,7 +1475,7 @@ msgid "'X' matrix was collinear"
 msgstr "la matrice 'X' è collineare"
 
 msgid "missing observations deleted"
-msgstr "osservazioni mancanti eliminate"
+msgstr "osservazioni assenti eliminate"
 
 msgid "observations with 0 weight not used in calculating standard deviation"
 msgstr ""
@@ -1985,7 +1985,7 @@ msgid "(unordered) factors are not allowed"
 msgstr "i fattori (non ordinati) non sono ammessi"
 
 msgid "missing values and NaN's not allowed if 'na.rm' is FALSE"
-msgstr "valori mancanti e NaN non ammessi se 'na.rm' è FALSE"
+msgstr "valori assenti e NaN non ammessi se 'na.rm' è FALSE"
 
 msgid "'probs' outside [0,1]"
 msgstr "'probs' oltre [0,1]"
@@ -2032,7 +2032,7 @@ msgid "'lengths(varying)' must all match 'length(times)'"
 msgstr "'lengths(varying)' devono corrispondere tutte a 'length(times)'"
 
 msgid "there are records with missing times, which will be dropped."
-msgstr "ci sono record con 'times' mancanti, i quali saranno ignorati."
+msgstr "ci sono record con 'times' assenti, i quali saranno ignorati."
 
 msgid "some constant variables (%s) are really varying"
 msgstr "alcune variabili 'constant' (%s) sono in realtà 'varying'"
@@ -2094,7 +2094,7 @@ msgid "invalid 'control.spar'"
 msgstr "'control.spar' non valido"
 
 msgid "missing or infinite values in inputs are not allowed"
-msgstr "non sono ammessi valori mancanti o infiniti nell'input"
+msgstr "non sono ammessi valori assenti o infiniti in ingresso"
 
 msgid "invalid number of points"
 msgstr "numero di punti non valido"
@@ -2415,7 +2415,7 @@ msgid "'x' and 'w' must have the same length"
 msgstr "'x' e 'w' devono avere la stessa lunghezza"
 
 msgid "not enough (non-missing) 'x' observations"
-msgstr "osservazioni 'x' (non-mancanti) insufficienti"
+msgstr "osservazioni 'x' (esistenti) insufficienti"
 
 msgid "requested conf.level not achievable"
 msgstr "livello di conf.level richiesto non raggiungibile"
@@ -2616,8 +2616,8 @@ msgstr[1] "il fattore %s ha %s nuovi livelli"
 
 msgid "%d observation deleted due to missingness"
 msgid_plural "%d observations deleted due to missingness"
-msgstr[0] "%d osservazione eliminata a causa di valori mancanti"
-msgstr[1] "%d osservazioni eliminate a causa di valori mancanti"
+msgstr[0] "%d osservazione eliminata a causa di valori assenti"
+msgstr[1] "%d osservazioni eliminate a causa di valori assenti"
 
 msgid "_NOT_ converged in %d iteration"
 msgid_plural "_NOT_ converged in %d iterations"
