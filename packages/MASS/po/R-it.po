@@ -436,7 +436,7 @@ msgid "not all objects are of class \"polr\""
 msgstr "non tutti gli oggetti sono di classe \"polr\""
 
 msgid "not enough non-missing data"
-msgstr "non ci sono abbastanza dati non-missing"
+msgstr "non ci sono abbastanza dati non-mancanti"
 
 msgid "nrow(x) and length(grouping) are different"
 msgstr "nrow(x) e length(grouping) sono differenti"
