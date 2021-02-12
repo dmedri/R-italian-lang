@@ -156,7 +156,7 @@ msgid "unknown column type in data frame"
 msgstr "tipo di colonna sconosciuto nel data frame"
 
 msgid "value labels (%s) for %s are missing"
-msgstr "le etichette valore (%s) per %s sono mancanti"
+msgstr "le etichette valore (%s) per %s sono assenti"
 
 msgid "wrong number of records"
 msgstr "numero sbagliato di record"
