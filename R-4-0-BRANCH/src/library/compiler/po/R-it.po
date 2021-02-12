@@ -63,7 +63,7 @@ msgid "invalid function in complex assignment"
 msgstr "funzione non valida in un assegnamento complesso"
 
 msgid "missing arguments are not allowed"
-msgstr "gli argomenti mancanti non sono ammessi"
+msgstr "non è ammessa l'assenza di argomenti"
 
 msgid "empty alternative in numeric switch"
 msgstr "alternativa vuota nello switch numerico"
