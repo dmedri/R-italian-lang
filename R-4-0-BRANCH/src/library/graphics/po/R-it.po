@@ -336,7 +336,7 @@ msgstr ""
 "il 'pch' predefinito è inferiore al numero di colonne, quindi si ricicla"
 
 msgid "missing values in contingency table"
-msgstr "valori assenti nella tabella di contingenza"
+msgstr "valori mancanti nella tabella di contingenza"
 
 msgid "'x' must not have 0 dimensionality"
 msgstr "'x' non deve avere dimensione 0"
