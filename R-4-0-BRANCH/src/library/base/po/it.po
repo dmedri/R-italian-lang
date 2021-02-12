@@ -568,7 +568,7 @@ msgstr "RNG_Init: RNG di tipo %d non implementato"
 
 #: src/main/RNG.c:355
 msgid "'.Random.seed' is a missing argument with no default"
-msgstr "'.Random.seed' è un argomento mancante senza valori predefiniti"
+msgstr "'.Random.seed' è un argomento assente senza valori predefiniti"
 
 #: src/main/RNG.c:356
 #, c-format
@@ -963,7 +963,7 @@ msgstr[1] "argomenti %d passati a '%s' dove vengono richiesti 1 o 2 argomenti"
 #: src/main/eval.c:741 src/main/eval.c:5108
 #, c-format
 msgid "argument \"%s\" is missing, with no default"
-msgstr "argomento \"%s\" mancante, senza valore predefinito"
+msgstr "argomento \"%s\" assente, senza valore predefinito"
 
 #: src/main/arithmetic.c:1682
 msgid "invalid second argument of length 0"
@@ -3711,7 +3711,7 @@ msgstr ""
 
 #: src/main/eval.c:2192
 msgid "missing value where TRUE/FALSE needed"
-msgstr "valore mancante dove è richiesto TRUE/FALSE"
+msgstr "valore assente con TRUE/FALSE richiesto"
 
 #: src/main/eval.c:2193
 msgid "argument is not interpretable as logical"
@@ -3766,7 +3766,7 @@ msgstr "membro di sinistra dell'assegnazione (do_set) non valido"
 #: src/main/eval.c:3054
 #, c-format
 msgid "'%s' is missing"
-msgstr "'%s' è mancante"
+msgstr "'%s' è assente"
 
 #: src/main/eval.c:3229
 msgid "invalid formal argument list for \"function\""
@@ -6391,7 +6391,7 @@ msgstr "subscript troppo grande per R a 32-bit"
 
 #: src/main/subscript.c:934
 msgid "no 'dimnames' attribute for array"
-msgstr "attributo 'dimnames' mancante per l'array"
+msgstr "attributo 'dimnames' assente per l'array"
 
 #: src/main/subscript.c:970
 msgid "subscripting on non-vector"
