@@ -174,7 +174,7 @@ msgid "likelihood never exceeds %f"
 msgstr "la verosimiglianza non eccede mai %f"
 
 msgid "missing values not allowed in 'data'"
-msgstr "i valori mancanti non sono ammessi in 'data'"
+msgstr "non sono ammessi valori assenti in 'data'"
 
 msgid "multivariate time series not allowed"
 msgstr "le serie storiche multivariate non sono ammesse"
@@ -192,7 +192,7 @@ msgid "no coefficients in Cox model -- model ignored"
 msgstr "nessun coefficiente nel modello Cox -- modello ignorato"
 
 msgid "no data in call to 'boot'"
-msgstr "dati mancanti nella chiamata a 'boot'"
+msgstr "dati assenti nella chiamata a 'boot'"
 
 msgid "number of columns of 'A' (%d) not equal to length of 'u' (%d)"
 msgstr ""
