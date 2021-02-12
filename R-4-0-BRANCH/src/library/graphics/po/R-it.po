@@ -260,7 +260,7 @@ msgid "argument must be matrix-like"
 msgstr "l'argomento dev'essere una matrice o simile"
 
 msgid "'x' and 'y' values must be finite and non-missing"
-msgstr "i valori 'x' e 'y' devono essere finiti e presenti"
+msgstr "i valori 'x' e 'y' devono essere finiti e non-missing"
 
 msgid "'z' must be a matrix"
 msgstr "'z' dev'essere una matrice"
@@ -457,7 +457,7 @@ msgid "length of 'angles' must equal 'ncol(x)'"
 msgstr "lunghezza di 'angles' deve eguagliare 'ncol(x)'"
 
 msgid "no finite and non-missing values"
-msgstr "nessun valore finito presente"
+msgstr "nessun valore finito e non-missing"
 
 msgid "'scale' must be positive"
 msgstr "'scale' dev'essere positivo"
