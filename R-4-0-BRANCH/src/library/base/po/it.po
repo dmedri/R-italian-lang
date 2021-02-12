@@ -3711,7 +3711,7 @@ msgstr ""
 
 #: src/main/eval.c:2192
 msgid "missing value where TRUE/FALSE needed"
-msgstr "valore assente con TRUE/FALSE richiesto"
+msgstr "valore mancante dove è richiesto TRUE/FALSE"
 
 #: src/main/eval.c:2193
 msgid "argument is not interpretable as logical"
