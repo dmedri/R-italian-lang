@@ -174,7 +174,7 @@ msgid "likelihood never exceeds %f"
 msgstr "la verosimiglianza non eccede mai %f"
 
 msgid "missing values not allowed in 'data'"
-msgstr "non sono ammessi valori assenti in 'data'"
+msgstr "non sono ammessi valori mancanti in 'data'"
 
 msgid "multivariate time series not allowed"
 msgstr "le serie storiche multivariate non sono ammesse"
