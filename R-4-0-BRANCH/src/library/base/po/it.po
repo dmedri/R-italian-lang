@@ -6445,15 +6445,15 @@ msgstr "Integer overflow - utilizza sum(as.numeric(.))"
 
 #: src/main/summary.c:933
 msgid "no non-missing arguments, returning NA"
-msgstr "nessun argomento non-missing, si restituisce NA"
+msgstr "nessun argomento non-mancante, si restituisce NA"
 
 #: src/main/summary.c:936
 msgid "no non-missing arguments to min; returning Inf"
-msgstr "nessun argomento non-missing al minimo; si restituisce Inf"
+msgstr "nessun argomento non-mancante al minimo; si restituisce Inf"
 
 #: src/main/summary.c:938
 msgid "no non-missing arguments to max; returning -Inf"
-msgstr "nessun argomento non-missing al massimo; si restituisce -Inf"
+msgstr "nessun argomento non-mancante al massimo; si restituisce -Inf"
 
 #: src/main/summary.c:1095
 msgid "argument to 'which' is not logical"
