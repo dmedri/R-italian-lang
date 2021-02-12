@@ -122,12 +122,16 @@ it: "base di penalità"
 
 *** READ-HERE ***
 
-The term "missing" is misused in a statistical environment. While reviewing all
-the existing labels, I used "assente" or "assenti" as default choice, switching
+The term "missing" could be misused in a statistical environment. While reviewing
+all the existing labels, I used "assente" or "assenti" as default choice, switching
 back to the word "mancante" or "mancanti" in the most common cases (see below).
+
+(default)
 
 en: "missing"
 it: "assente"
+
+(special cases)
 
 it: "valore assente"
 it: "valore mancante"
