@@ -150,7 +150,7 @@ msgid "'x' and 'y' must have the same number of rows"
 msgstr "'x' e 'y' devono avere lo stesso numero di righe"
 
 msgid "'x' contains missing or infinite values"
-msgstr "'x' contiene valori assenti o infiniti"
+msgstr "'x' contiene valori mancanti o infiniti"
 
 msgid "'x' has length zero"
 msgstr "'x' ha lunghezza zero"
@@ -381,16 +381,16 @@ msgid "minimum occurred at one end of the range"
 msgstr "minimo realizzato in uno degli estremi del range"
 
 msgid "missing or infinite values are not allowed"
-msgstr "i valori assenti o infiniti non sono ammessi"
+msgstr "non sono ammessi valori mancanti o infiniti"
 
 msgid "missing or infinite values in 'x'"
-msgstr "valori assenti o infiniti in 'x'"
+msgstr "valori mancanti o infiniti in 'x'"
 
 msgid "missing or infinite values in the data are not allowed"
-msgstr "non sono ammessi i valori assenti o infiniti nei dati"
+msgstr "non sono ammessi valori mancanti o infiniti nei dati"
 
 msgid "missing values are not allowed"
-msgstr "i valori assenti non sono ammessi"
+msgstr "non sono ammessi valori mancanti"
 
 msgid "models were not all fitted to the same size of dataset"
 msgstr ""
@@ -443,7 +443,7 @@ msgstr "nrow(x) e length(grouping) sono differenti"
 
 msgid "number of rows in use has changed: remove missing values?"
 msgstr ""
-"il numero di righe utilizzate è cambiato: rimuovere i valori assenti?"
+"il numero di righe utilizzate è cambiato: rimuovere i valori mancanti?"
 
 msgid "object not of class \"lda\""
 msgstr "l'oggetto non è di classe \"lda\""
