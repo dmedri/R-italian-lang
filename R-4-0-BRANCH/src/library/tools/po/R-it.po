@@ -347,7 +347,7 @@ msgstr ""
 "non possono essere controllati"
 
 msgid "Missing link or links in documentation object '%s':"
-msgstr "Collegamenti mancanti nell'oggetto documentazione '%s':"
+msgstr "Collegamenti assenti nell'oggetto documentazione '%s':"
 
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
 msgstr "Vedi sezione 'Cross-references' nel manuale 'Writing R Extensions'."
@@ -458,10 +458,10 @@ msgid "Package in Depends field not imported from: %s"
 msgstr "Il pacchetto nel campo Depends non importate da: %s"
 
 msgid "Missing or unexported objects:"
-msgstr "Oggetti mancanti o non esportati:"
+msgstr "Oggetti assenti o non esportati:"
 
 msgid "Missing or unexported object: %s"
-msgstr "Oggetti mancanti o non esportati: %s"
+msgstr "Oggetti assenti o non esportati: %s"
 
 msgid "':::' calls which should be '::':"
 msgstr "le chiamate ':::' che dovrebbero essere '::':"
@@ -470,10 +470,10 @@ msgid "':::' call which should be '::': %s"
 msgstr "le chiamate ':::' che dovrebbero essere '::': %s"
 
 msgid "Missing objects imported by ':::' calls:"
-msgstr "Oggetti mancanti importati da chiamate ':::':"
+msgstr "Oggetti assenti importati da chiamate ':::':"
 
 msgid "Missing object imported by a ':::' call: %s"
-msgstr "Oggetti mancanti importati da una chiamata ':::': %s"
+msgstr "Oggetti assenti importati da una chiamata ':::': %s"
 
 msgid "Unexported objects imported by ':::' calls:"
 msgstr "Importati oggetti non-esportati da chiamate ':::':"
@@ -556,7 +556,7 @@ msgid "you must specify 'dir' or 'files'"
 msgstr "specificare 'dir' o 'file'"
 
 msgid "cannot deal with Rd objects with missing/empty names"
-msgstr "non posso lavorare con oggetti Rd con nomi mancanti/vuoti"
+msgstr "non posso lavorare con oggetti Rd con nomi assenti/vuoti"
 
 msgid "No help on %s found in RdDB %s"
 msgstr "Nessuna guida %s trovata in RdDB %s"
