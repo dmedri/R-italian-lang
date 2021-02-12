@@ -194,16 +194,16 @@ msgstr ""
 
 msgid "No clustering performed, all variables have at least one missing value."
 msgstr ""
-"Nessun cluster generato, tutte le variabili hanno almeno un valore mancante."
+"Nessun cluster generato, tutte le variabili hanno almeno un valore assente."
 
 msgid "No clustering performed, an object was found with all values missing."
-msgstr "Nessun cluster generato, un oggetto aveva tutti i valori mancanti."
+msgstr "Nessun cluster generato, un oggetto aveva tutti i valori assenti."
 
 msgid ""
 "No clustering performed, found variable with more than half values missing."
 msgstr ""
 "Nessun cluster generato, trovata una variabile con più della metà dei valori "
-"mancanti."
+"assenti."
 
 msgid "No valid silhouette information (#{clusters} =? 1)"
 msgstr "Nessuna informazione valida di silhouette (#{clusters} =? 1)"
