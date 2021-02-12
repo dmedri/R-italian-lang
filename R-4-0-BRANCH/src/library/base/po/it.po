@@ -1235,7 +1235,7 @@ msgstr "vettore con lunghezza 0 non valido"
 
 #: src/main/attrib.c:1224
 msgid "the dims contain missing values"
-msgstr "le dimensioni contengono valori mancanti"
+msgstr "le dimensioni contengono valori assenti"
 
 #: src/main/attrib.c:1226
 msgid "the dims contain negative values"
@@ -6300,7 +6300,7 @@ msgstr "passati più elementi di quelli da sostituire"
 
 #: src/main/subassign.c:1823
 msgid "[[ ]] with missing subscript"
-msgstr "[[ ]] con subscript mancanti"
+msgstr "[[ ]] con subscript assenti"
 
 #: src/main/subassign.c:1842 src/main/subassign.c:1861
 msgid "[[ ]] subscript out of bounds"
