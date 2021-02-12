@@ -400,7 +400,7 @@ msgstr "'form' dev'essere una formula su due lati con un termine per ogni lato"
 
 msgid "invalid 'n' -  must contain at least one non-missing element, got none."
 msgstr ""
-"'n' non valido -  deve contenere almeno un elemento non-missing, ma non ne ha."
+"'n' non valido -  deve contenere almeno un elemento non-mancante, ma non ne ha."
 
 msgid "invalid 'n' - must have length one when dim(x) is NULL, got %d"
 msgstr ""
