@@ -598,7 +598,7 @@ msgstr "'dir' non è un vettore numerico della lunghezza giusta"
 
 #: nls.c:313 nls.c:347
 msgid "Missing value or an infinity produced when evaluating the model"
-msgstr "Valore mancante o infinito generato durante il calcolo del modello"
+msgstr "Valore assente o infinito generato nella valutazione del modello"
 
 #: nls.c:321
 #, c-format
