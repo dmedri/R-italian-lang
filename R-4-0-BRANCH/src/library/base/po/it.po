@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-06 22:33+0100\n"
+"POT-Creation-Date: 2021-02-08 16:22+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -1154,7 +1154,7 @@ msgstr ""
 
 #: src/main/attrib.c:406
 msgid "names() applied to a non-vector"
-msgstr "names() utilizzata su oggetto non vector"
+msgstr "names() utilizzata su un oggetto che non è di tipo vector"
 
 #: src/main/attrib.c:414
 msgid "invalid time series parameters specified"
@@ -1200,7 +1200,7 @@ msgstr "tipo non valido (%s) per impostare l'attributo 'names'"
 
 #: src/main/attrib.c:1082
 msgid "'dimnames' applied to non-array"
-msgstr "'dimnames' usata su oggetti non array"
+msgstr "'dimnames' utilizzata su un oggetto che non è di tipo array"
 
 #: src/main/attrib.c:1087 src/main/coerce.c:2672
 #, c-format
@@ -1216,7 +1216,7 @@ msgstr ""
 #: src/main/attrib.c:1124
 #, c-format
 msgid "invalid type (%s) for 'dimnames' (must be a vector)"
-msgstr "tipo non valido (%s) per 'dimnames' (dev'essere un vettore)"
+msgstr "tipo non valido (%s) per 'dimnames' (dev'essere vector)"
 
 #: src/main/attrib.c:1127
 #, c-format
@@ -1289,7 +1289,7 @@ msgstr "tipo '%s' non valido per il nome slot"
 
 #: src/main/attrib.c:1627
 msgid "'name' must be non-null character string"
-msgstr "'name' dev'essere una stringa di caratteri non-nulla"
+msgstr "'name' dev'essere una stringa caratteri non nulla"
 
 #: src/main/attrib.c:1753 src/main/attrib.c:1824 src/main/attrib.c:1858
 msgid "invalid type or length for slot name"
@@ -1578,7 +1578,7 @@ msgstr "argomenti sottostringa non validi"
 
 #: src/main/character.c:395
 msgid "non-character object(s)"
-msgstr "oggetti non-character"
+msgstr "oggetti non a caratteri"
 
 #: src/main/character.c:562
 msgid "replacing substrings in a non-character object"
@@ -1609,12 +1609,12 @@ msgstr "l'argomento non è di tipo character"
 #: src/main/character.c:1093
 #, c-format
 msgid "decreasing range specification ('%lc-%lc')"
-msgstr "specificazione range decrescente ('%lc-%lc')"
+msgstr "specifica dell'intervallo decrescente ('%lc-%lc')"
 
 #: src/main/character.c:1179
 #, c-format
 msgid "decreasing range specification ('%c-%c')"
-msgstr "specificazione range decrescente ('%c-%c')"
+msgstr "specifica dell'intervallo decrescente ('%c-%c')"
 
 #: src/main/character.c:1367
 msgid "invalid UTF-8 string 'old'"
@@ -1643,7 +1643,7 @@ msgstr "stringa input multibyte %d non valida"
 
 #: src/main/character.c:1559
 msgid "strtrim() requires a character vector"
-msgstr "strstrim() richiede di un vettore di caratteri"
+msgstr "strstrim() richiede un vettore di caratteri"
 
 #: src/main/coerce.c:33
 msgid "invalid 'mode' argument"
@@ -1667,12 +1667,12 @@ msgstr "parti immaginarie eliminate durante la conversione"
 
 #: src/main/coerce.c:87
 msgid "out-of-range values treated as 0 in coercion to raw"
-msgstr "valori fuori range trattati come 0 durante la conversione"
+msgstr "valori fuori intervallo trattati come 0 durante la conversione"
 
 #: src/main/coerce.c:424
 #, c-format
 msgid "invalid data of mode '%s' (too short)"
-msgstr "data in modalità '%s' non valida (troppo corto)"
+msgstr "data in modalità '%s' non valida (troppo corta)"
 
 #: src/main/coerce.c:1025 src/main/coerce.c:1147 src/main/coerce.c:1170
 #, c-format
@@ -1690,7 +1690,7 @@ msgstr ""
 
 #: src/main/coerce.c:1412
 msgid "attempting to coerce non-factor"
-msgstr "tentativo di coercizione per un non-factor"
+msgstr "tentativo di coercizione per un oggetto non factor"
 
 #: src/main/coerce.c:1417 src/main/coerce.c:1427
 msgid "malformed factor"
@@ -1718,7 +1718,7 @@ msgstr "l'argomento dev'essere di tipo character"
 
 #: src/main/coerce.c:1642
 msgid "argument must be a character string"
-msgstr "l'argomento dev'essere una stringa di caratteri"
+msgstr "l'argomento dev'essere una stringa di tipo character"
 
 #: src/main/coerce.c:1683
 #, c-format
@@ -1758,7 +1758,7 @@ msgstr "%s() applicato ad un oggetto di tipo '%s' (ne lista, ne vettore)"
 #: src/main/coerce.c:2471 src/main/coerce.c:2529 src/main/coerce.c:2604
 #, c-format
 msgid "default method not implemented for type '%s'"
-msgstr "metodo predefinito non implementato per il tipo tipo '%s'"
+msgstr "metodo predefinito non implementato per il tipo '%s'"
 
 #: src/main/coerce.c:2626
 msgid "'name' is missing"
@@ -1896,7 +1896,7 @@ msgstr "%s non abilitata per questa connessione"
 #: src/main/connections.c:441 src/main/connections.c:458
 #: src/main/connections.c:3207
 msgid "printing of extremely long output is truncated"
-msgstr "la stampa di un output molto lungo è troncata"
+msgstr "la stampa di un output molto lungo viene troncata"
 
 #: src/main/connections.c:481
 msgid "invalid char string in output conversion"
