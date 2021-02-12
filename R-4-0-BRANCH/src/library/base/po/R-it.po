@@ -261,7 +261,7 @@ msgid "duplicate 'row.names' are not allowed"
 msgstr "'row.names' duplicate non sono ammesse"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr "non sono ammessi valori assenti in 'row.names'"
+msgstr "non sono ammessi valori mancanti in 'row.names'"
 
 msgid "invalid 'dimnames' given for data frame"
 msgstr "'dimnames' passata per il data frame non valida"
@@ -1396,7 +1396,7 @@ msgid "incorrect length for 'group'"
 msgstr "lunghezza per 'group' non corretta"
 
 msgid "missing values for 'group'"
-msgstr "valori assenti in 'group'"
+msgstr "valori mancanti per 'group'"
 
 msgid "not a data frame"
 msgstr "non è un data frame"
