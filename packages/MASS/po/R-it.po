@@ -384,13 +384,13 @@ msgid "missing or infinite values are not allowed"
 msgstr "i valori assenti o infiniti non sono ammessi"
 
 msgid "missing or infinite values in 'x'"
-msgstr "valori mancanti o infiniti in 'x'"
+msgstr "valori assenti o infiniti in 'x'"
 
 msgid "missing or infinite values in the data are not allowed"
-msgstr "non sono ammessi i valori mancanti o infiniti nei dati"
+msgstr "non sono ammessi i valori assenti o infiniti nei dati"
 
 msgid "missing values are not allowed"
-msgstr "i valori mancanti non sono ammessi"
+msgstr "i valori assenti non sono ammessi"
 
 msgid "models were not all fitted to the same size of dataset"
 msgstr ""
@@ -443,7 +443,7 @@ msgstr "nrow(x) e length(grouping) sono differenti"
 
 msgid "number of rows in use has changed: remove missing values?"
 msgstr ""
-"il numero di righe utilizzate è cambiato: rimuovere i valori mancanti?"
+"il numero di righe utilizzate è cambiato: rimuovere i valori assenti?"
 
 msgid "object not of class \"lda\""
 msgstr "l'oggetto non è di classe \"lda\""
