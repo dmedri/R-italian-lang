@@ -272,7 +272,7 @@ msgstr "%s: posizione %d: Codice tipo variabile errato %d"
 msgid ""
 "%s: position %d: Missing value indicator field is not -3, -2, 0, 1, 2, or 3"
 msgstr ""
-"%s: posizione %d: Il campo indicatore del valore assente non è -3, -2, 0, "
+"%s: posizione %d: Il campo indicatore del valore mancante non è -3, -2, 0, "
 "1, 2 o 3"
 
 msgid ""
