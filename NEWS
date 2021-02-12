@@ -1,5 +1,8 @@
 R-italian-lang
 
+CHANGES WITH v0.9 (02/12/2021) "Cattolica"
+ * many fixes and updates tested on R 4.0.4 RC
+
 CHANGES WITH v0.8 (10/10/2020) "Riccione"
  * many minor fixes on R-4-0-BRANCH (ready for R version 4.0.3)
  * dropped R-3-6-BRANCH directory
