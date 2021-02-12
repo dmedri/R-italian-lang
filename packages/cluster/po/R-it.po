@@ -193,8 +193,7 @@ msgstr ""
 "non assenti identici."
 
 msgid "No clustering performed, all variables have at least one missing value."
-msgstr ""
-"Nessun cluster generato, tutte le variabili hanno almeno un valore assente."
+msgstr "Clustering interrotto, tutte le variabili hanno almeno un valore mancante."
 
 msgid "No clustering performed, an object was found with all values missing."
 msgstr "Nessun cluster generato, un oggetto aveva tutti i valori assenti."
