@@ -118,5 +118,19 @@ it: "ad inflazione zero" (see. zero-inflated model)
 en: "penalty basis"
 it: "base di penalità"
 
+
+
+*** READ-HERE ***
+
+The term "missing" is misused in a statistical environment. While reviewing all
+the existing labels, I used "assente" or "assenti" as default choice, switching
+back to the word "mancante" or "mancanti" in the most common cases (see below).
+
 en: "missing"
 it: "assente"
+
+it: "valore assente"
+it: "valore mancante"
+
+it: "valori assenti"
+it: "valori mancanti"
