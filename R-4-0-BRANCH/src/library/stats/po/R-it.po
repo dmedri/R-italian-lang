@@ -545,7 +545,7 @@ msgid "'degree' must be at least 1"
 msgstr "'degree' dev'essere almeno 1"
 
 msgid "missing values are not allowed in 'poly'"
-msgstr "valori assenti non ammessi in 'poly'"
+msgstr "non sono ammessi valori mancanti in 'poly'"
 
 msgid "'degree' must be less than number of unique points"
 msgstr "'degree' dev'essere inferiore al numero di punti unici"
@@ -721,7 +721,7 @@ msgid "argument 'x' must be numeric"
 msgstr "l'argomento 'x' dev'essere numerico"
 
 msgid "'x' contains missing values"
-msgstr "'x' contiene valori assenti"
+msgstr "'x' contiene valori mancanti"
 
 msgid "'x' and 'weights' have unequal length"
 msgstr "'x' e 'weights' hanno lunghezze diseguali"
@@ -909,7 +909,7 @@ msgid "length mismatch in convolution"
 msgstr "lunghezza non corrispondente in 'convolution'"
 
 msgid "missing values in 'filter'"
-msgstr "valori assenti in 'filter'"
+msgstr "valori mancanti in 'filter'"
 
 msgid "'filter' is longer than time series"
 msgstr "'filter' più lungo della serie storica"
@@ -1190,7 +1190,7 @@ msgid "a limit is NA or NaN"
 msgstr "un limite è NA o NaN"
 
 msgid "missing values not allowed"
-msgstr "valori assenti non ammessi"
+msgstr "non sono ammessi valori mancanti"
 
 msgid "'r' is less than 1"
 msgstr "'r' è minori di 1"
@@ -1985,7 +1985,7 @@ msgid "(unordered) factors are not allowed"
 msgstr "i fattori (non ordinati) non sono ammessi"
 
 msgid "missing values and NaN's not allowed if 'na.rm' is FALSE"
-msgstr "valori assenti e NaN non ammessi se 'na.rm' è FALSE"
+msgstr "non sono ammessi valori mancanti e NaN se 'na.rm' è FALSE"
 
 msgid "'probs' outside [0,1]"
 msgstr "'probs' oltre [0,1]"
@@ -2094,7 +2094,7 @@ msgid "invalid 'control.spar'"
 msgstr "'control.spar' non valido"
 
 msgid "missing or infinite values in inputs are not allowed"
-msgstr "non sono ammessi valori assenti o infiniti in ingresso"
+msgstr "non sono ammessi valori mancanti o infiniti in ingresso"
 
 msgid "invalid number of points"
 msgstr "numero di punti non valido"
@@ -2616,8 +2616,8 @@ msgstr[1] "il fattore %s ha %s nuovi livelli"
 
 msgid "%d observation deleted due to missingness"
 msgid_plural "%d observations deleted due to missingness"
-msgstr[0] "%d osservazione eliminata a causa di valori assenti"
-msgstr[1] "%d osservazioni eliminate a causa di valori assenti"
+msgstr[0] "%d osservazione eliminata a causa di un valore mancante"
+msgstr[1] "%d osservazioni eliminate a causa di valori mancanti"
 
 msgid "_NOT_ converged in %d iteration"
 msgid_plural "_NOT_ converged in %d iterations"
