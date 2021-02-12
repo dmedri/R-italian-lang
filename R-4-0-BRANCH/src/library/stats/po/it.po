@@ -985,7 +985,7 @@ msgstr "regola finale non valida per calcolare la mediana di 3: %d"
 #: starma.c:364
 #, c-format
 msgid "missing value in last %d observations"
-msgstr "valori assenti nelle ultime %d osservazioni"
+msgstr "valori mancanti nelle ultime %d osservazioni"
 
 #~ msgid "'x' is a factor"
 #~ msgstr "'x' è un factor"
