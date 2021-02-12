@@ -25,14 +25,14 @@ msgstr ""
 "collegamenti disponibili sono \"identity\", \"log\" e \"sqrt\""
 
 msgid "\"gradient\" attribute missing"
-msgstr "attributo \"gradient\" mancante"
+msgstr "attributo \"gradient\" assente"
 
 msgid "\"hessian\" attribute missing"
-msgstr "attributo \"hessian\" mancante"
+msgstr "attributo \"hessian\" assente"
 
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
-msgstr[0] "eliminata %d osservazione mancante"
+msgstr[0] "eliminata %d osservazione assente"
 msgstr[1] "eliminate %d osservazioni mancanti"
 
 msgid "%d row with zero weights not counted"
