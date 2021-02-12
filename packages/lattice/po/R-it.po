@@ -28,7 +28,7 @@ msgid "'aspect=\"iso\"' approximate since 'relation=\"free\"'"
 msgstr "'aspect=\"iso\"' approssimativo con 'relation=\"free\"'"
 
 msgid "'at' missing or incompatible with 'labels'"
-msgstr "'at' mancante o incompatibile con 'labels'"
+msgstr "'at' assente o incompatibile con 'labels'"
 
 msgid "'bandwidth' must be numeric"
 msgstr "'bandwidth' dev'essere numerico"
