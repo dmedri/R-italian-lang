@@ -88,7 +88,7 @@ msgid "incorrect number of names"
 msgstr "numero di nomi non corretto"
 
 msgid "'formula' missing or incorrect"
-msgstr "'formula' mancante o sbagliata"
+msgstr "'formula' assente o sbagliata"
 
 msgid "formula must specify 1 or 2 categorical variables"
 msgstr "la formula deve specificare 1 o 2 variabili categoriche"
@@ -469,7 +469,7 @@ msgid "'at' must have length equal to the number %d of groups"
 msgstr "'at' deve avere lunghezza pari al numero di %d gruppi"
 
 msgid "formula missing or incorrect"
-msgstr "formula mancante o non corretta"
+msgstr "formula assente o sbagliata"
 
 msgid "'number' must have same length as 'x' and 'y'"
 msgstr "'number' deve avere la stessa lunghezza di 'x' e 'y'"
