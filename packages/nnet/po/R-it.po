@@ -48,10 +48,10 @@ msgid "invalid weights vector"
 msgstr "vettore dei pesi non valido"
 
 msgid "missing values in 'x'"
-msgstr "valori mancanti in 'x'"
+msgstr "valori assenti in 'x'"
 
 msgid "missing values in 'y'"
-msgstr "valori mancanti in 'y'"
+msgstr "valori assenti in 'y'"
 
 msgid "models were not all fitted to the same size of dataset"
 msgstr "i modelli non sono tutti adattati alla medesima dimensione del dataset"
@@ -81,7 +81,7 @@ msgid "nrows of 'x' and 'y' must match"
 msgstr "il numero di righe di 'x' e 'y' devono corrispondere"
 
 msgid "number of rows in use has changed: remove missing values?"
-msgstr "il numero di righe utilizzate è cambiato: rimuovere i valori mancanti?"
+msgstr "il numero di righe utilizzate è cambiato: rimuovere i valori assenti?"
 
 msgid "object not of class \"nnet\""
 msgstr "l'oggetto non è di classe \"nnet\""
