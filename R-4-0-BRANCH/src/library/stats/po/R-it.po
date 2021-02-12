@@ -71,7 +71,7 @@ msgid "'x' must be numeric"
 msgstr "'x' dev'essere numerico"
 
 msgid "the first value of the time series must not be missing"
-msgstr "il primo valore della serie storica non dev'essere mancante"
+msgstr "il primo valore della serie storica non dev'essere assente"
 
 msgid "all parameters were fixed"
 msgstr "specificati tutti i parametri"
@@ -170,7 +170,7 @@ msgid "arguments must have same length"
 msgstr "gli argomenti devono avere la stessa lunghezza"
 
 msgid "'formula' missing or incorrect"
-msgstr "'formula' mancante o sbagliata"
+msgstr "'formula' assente o sbagliata"
 
 msgid "'formula' must have both left and right hand sides"
 msgstr "'formula' deve avere sia il membro di destra che quello di sinistra"
@@ -621,7 +621,7 @@ msgid "Cannot compute exact p-value with ties"
 msgstr "Impossibile calcolare p-value esatti in presenza di ties"
 
 msgid "'formula' missing or invalid"
-msgstr "'formula' mancante o non valida"
+msgstr "'formula' assente o non valida"
 
 msgid "invalid formula"
 msgstr "formula non valida"
@@ -975,7 +975,7 @@ msgid "not an unreplicated complete block design"
 msgstr "non è un disegno completo a blocchi non replicati"
 
 msgid "formula missing"
-msgstr "formula mancante"
+msgstr "formula assente"
 
 msgid "incorrect specification for 'formula'"
 msgstr "specificazione di 'formula' non valida"
@@ -1014,10 +1014,10 @@ msgid "'file' must be a character string or connection"
 msgstr "'file' dev'essere una stringa di caratteri o una connessione"
 
 msgid "'row.var.names' missing"
-msgstr "'row.var.names' mancante"
+msgstr "'row.var.names' assente"
 
 msgid "'col.vars' missing or incorrect"
-msgstr "'col.var' mancante o non corretto"
+msgstr "'col.var' assente o non corretto"
 
 msgid "'family' not recognized"
 msgstr "'family' non riconosciuta"
@@ -1660,7 +1660,7 @@ msgid "all times contain an NA"
 msgstr "tutti i 'times' contengono NA"
 
 msgid "missing values in object"
-msgstr "valore mancante nell'oggetto"
+msgstr "valore assente nell'oggetto"
 
 msgid "invalid argument 'omit'"
 msgstr "argomento 'omit' non valido"
@@ -1899,7 +1899,7 @@ msgid "number of observations in each group must be at least 2"
 msgstr "numero di osservazioni in ciascun gruppo dev'essere almeno 2"
 
 msgid "'nterms' is missing with no default"
-msgstr "'nterms' mancante senza valore di default"
+msgstr "'nterms' assente senza valore di default"
 
 msgid "'ppr' applies only to numerical variables"
 msgstr "'ppr' si applica solo a variabili numeriche"
@@ -1976,7 +1976,7 @@ msgid "y is empty or has only NAs"
 msgstr "y è vuota o contiene sonlo NA"
 
 msgid "'formula' missing"
-msgstr "'formula' mancante"
+msgstr "'formula' assente"
 
 msgid "'type' must be 1 or 3 for ordered factors"
 msgstr "'type' dev'essere 1 o 3 per fattori ordinati"
@@ -2285,7 +2285,7 @@ msgid "'mu' must be a single number"
 msgstr "'mu' dev'essere un solo numero"
 
 msgid "'y' is missing for paired test"
-msgstr "'y' mancante nel test per dati appaiati"
+msgstr "'y' assente nel test per dati appaiati"
 
 msgid "'main' must be TRUE, FALSE, NULL or character (vector)."
 msgstr "'main' dev'essere TRUE, FALSE, NULL o un (vettore) character."
@@ -2571,8 +2571,8 @@ msgstr[1] "non converge in %d iterazioni"
 
 msgid "%d missing value deleted"
 msgid_plural "%d missing values deleted"
-msgstr[0] "eliminato %d valore mancante"
-msgstr[1] "eliminati %d valori mancanti"
+msgstr[0] "eliminato %d valore assente"
+msgstr[1] "eliminati %d valori assenti"
 
 msgid "'X' matrix has %d case (row)"
 msgid_plural "'X' matrix has %d cases (rows)"
