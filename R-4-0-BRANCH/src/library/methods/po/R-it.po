@@ -1010,7 +1010,7 @@ msgid "action function %s has no arguments, should have at least 1"
 msgstr "funzione azione %s senza argomenti, dovrebbe averne almeno 1"
 
 msgid "some actions are missing: %s"
-msgstr "alcune funzioni sono mancanti: %s"
+msgstr "alcune azioni sono assenti: %s"
 
 msgid "%s has a sealed class definition and cannot be redefined"
 msgstr "%s ha una definizione di classe protetta e non può essere ridefinita"
