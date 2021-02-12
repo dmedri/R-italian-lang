@@ -471,7 +471,7 @@ msgid "diag_tC(): invalid 'resultKind'"
 msgstr "diag_tC(): 'resultKind' non valido"
 
 msgid "diagonal element %d of Cholesky factor is missing"
-msgstr "l'elemento diagonale %d del fattore Cholesky è mancante"
+msgstr "l'elemento diagonale %d del fattore Cholesky è assente"
 
 msgid "diagonal to be added has wrong length"
 msgstr "la diagonale da aggiungere ha una lunghezza errata"
