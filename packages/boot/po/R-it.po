@@ -93,7 +93,7 @@ msgid "bootstrap object needed for type=\"reg\""
 msgstr "oggetto bootstrap richiesto per type=\"reg\""
 
 msgid "bootstrap output matrix missing"
-msgstr "Matrice di output bootstrap mancante"
+msgstr "Matrice di output bootstrap assente"
 
 msgid "bootstrap output object or 't0' required"
 msgstr "richiesto un oggetto output bootstrap o 't0'"
@@ -129,7 +129,7 @@ msgid "extreme values used for quantiles"
 msgstr "valori estremi utilizzati per i quantili"
 
 msgid "function 'u' missing"
-msgstr "la funzione 'u' è mancante"
+msgstr "funzione 'u' assente"
 
 msgid "index array not defined for model-based resampling"
 msgstr ""
