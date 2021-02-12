@@ -55,10 +55,10 @@ msgid "Invalid type specification."
 msgstr "Specificazione tipo non valido."
 
 msgid "Missing attribute section."
-msgstr "Sezione attributo mancante."
+msgstr "Sezione attributo assente."
 
 msgid "Missing data section."
-msgstr "Sezione dati mancante."
+msgstr "Sezione dati assente."
 
 msgid "NA in precision"
 msgstr "NA in precisione"
