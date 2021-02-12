@@ -153,12 +153,12 @@ msgid ""
 "assigned to a cluster (because of missing values)."
 msgstr ""
 "Per ognuno dei %d campioni, è stato trovato almeno un oggetto che non può "
-"essere assegnato ad un cluster (a causa di valori mancanti)."
+"essere assegnato ad un cluster (a causa di valori assenti)."
 
 msgid ""
 "Missing values were displaced by the median of the corresponding variable(s)"
 msgstr ""
-"I valori mancanti sono stati spostati dalla mediana delle variabili "
+"I valori assenti sono stati sostituiti con la mediana delle variabili "
 "corrispondenti"
 
 msgid "NA values in the dissimilarity matrix not allowed."
@@ -190,7 +190,7 @@ msgid ""
 "identical."
 msgstr ""
 "Nessun cluster generato, una variabile è stata trovata con tutti i valori "
-"non mancanti identici."
+"non assenti identici."
 
 msgid "No clustering performed, all variables have at least one missing value."
 msgstr ""
@@ -307,16 +307,16 @@ msgid "no diss nor data found, nor the original argument of %s"
 msgstr "nessun diss o dato trovato, neppure l'argomento originale di %s"
 
 msgid "no points without missing values"
-msgstr "nessun punto senza valori mancanti"
+msgstr "nessun punto senza valori assenti"
 
 msgid "omitting NAs"
 msgstr "si omettono gli NA"
 
 msgid "one or more objects contain only missing values"
-msgstr "uno o più oggetti contiene solo valori mancanti"
+msgstr "uno o più oggetti contiene solo valori assenti"
 
 msgid "one or more variables contain only missing values"
-msgstr "una o più variabili contiene solo valori mancanti"
+msgstr "una o più variabili contiene solo valori assenti"
 
 msgid "setting 'logical' variable %s to type 'asymm'"
 msgid_plural "setting 'logical' variables %s to type 'asymm'"
