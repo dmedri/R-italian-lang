@@ -976,10 +976,10 @@ msgid "duplicate 'row.names' are not allowed"
 msgstr "'row.names' duplicati non ammessi"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr "non sono ammessi valori mancanti in 'row.names'"
+msgstr "non sono ammessi valori assenti in 'row.names'"
 
 msgid "missing lengths for some fields"
-msgstr "lunghezze mancanti per alcuni campi"
+msgstr "lunghezze assenti per alcuni campi"
 
 msgid "invalid format"
 msgstr "formato non valido"
