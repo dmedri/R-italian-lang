@@ -337,7 +337,7 @@ msgid "some AR parameters were fixed: setting transform.pars = FALSE"
 msgstr "alcuni parametri AR sono stati fissati: imposto transform.pars = FALSE"
 
 msgid "too few non-missing observations"
-msgstr "osservazioni esistenti limitate"
+msgstr "numero limitato di osservazioni non-mancanti"
 
 msgid "'init' is of the wrong length"
 msgstr "'init' ha lunghezza sbagliata"
@@ -806,7 +806,7 @@ msgstr ""
 "il caso multivariato con coefficienti assenti non è ancora implementato"
 
 msgid "'x' must have 1 or more non-missing values"
-msgstr "'x' deve avere 1 o più valori presenti"
+msgstr "'x' deve avere 1 o più valori non-mancanti"
 
 msgid "wrong embedding dimension"
 msgstr "dimensioni di immersione sbagliata"
@@ -2415,7 +2415,7 @@ msgid "'x' and 'w' must have the same length"
 msgstr "'x' e 'w' devono avere la stessa lunghezza"
 
 msgid "not enough (non-missing) 'x' observations"
-msgstr "osservazioni 'x' (esistenti) insufficienti"
+msgstr "osservazioni 'x' (non-mancanti) insufficienti"
 
 msgid "requested conf.level not achievable"
 msgstr "livello di conf.level richiesto non raggiungibile"
