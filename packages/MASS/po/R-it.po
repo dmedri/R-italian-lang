@@ -33,7 +33,7 @@ msgstr "attributo \"hessian\" assente"
 msgid "%d missing observation deleted"
 msgid_plural "%d missing observations deleted"
 msgstr[0] "eliminata %d osservazione assente"
-msgstr[1] "eliminate %d osservazioni mancanti"
+msgstr[1] "eliminate %d osservazioni assenti"
 
 msgid "%d row with zero weights not counted"
 msgid_plural "%d rows with zero weights not counted"
@@ -150,7 +150,7 @@ msgid "'x' and 'y' must have the same number of rows"
 msgstr "'x' e 'y' devono avere lo stesso numero di righe"
 
 msgid "'x' contains missing or infinite values"
-msgstr "'x' contiene valori mancanti o infiniti"
+msgstr "'x' contiene valori assenti o infiniti"
 
 msgid "'x' has length zero"
 msgstr "'x' ha lunghezza zero"
@@ -381,7 +381,7 @@ msgid "minimum occurred at one end of the range"
 msgstr "minimo realizzato in uno degli estremi del range"
 
 msgid "missing or infinite values are not allowed"
-msgstr "i valori mancanti o infiniti non sono ammessi"
+msgstr "i valori assenti o infiniti non sono ammessi"
 
 msgid "missing or infinite values in 'x'"
 msgstr "valori mancanti o infiniti in 'x'"
