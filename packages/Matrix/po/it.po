@@ -92,7 +92,7 @@ msgstr "non è una 'n.CMatrix'"
 #: Csparse.c:267
 #, c-format
 msgid "nz2Csparse(): invalid/non-implemented r_kind = %d"
-msgstr "nz2Csparse(): non valido/non-implementato r_kind = %d"
+msgstr "nz2Csparse(): non valido/non implementato r_kind = %d"
 
 #: Csparse.c:350
 msgid "Nonsymmetric matrix in Csparse_symmetric_to_general"
@@ -152,7 +152,7 @@ msgstr "diag_tC(): 'resultKind' non valido"
 #: Csparse.c:1190
 #, c-format
 msgid "negative vector lengths not allowed: np = %d, nnz = %d"
-msgstr "lunghezze vettore negativa non ammesse: np = %d, nnz = %d"
+msgstr "lunghezze vettore negative non ammesse: np = %d, nnz = %d"
 
 #: Csparse.c:1196
 msgid "exactly 1 of 'i', 'j' or 'p' must be NULL"
@@ -161,7 +161,7 @@ msgstr "esattamente 1 di 'i', 'j' o 'p' dev'essere NULL"
 #: Csparse.c:1198
 #, c-format
 msgid "np = %d, must be zero when p is NULL"
-msgstr "np =% d, dev'essere zero quando p è NULL"
+msgstr "np = %d, dev'essere zero quando p è NULL"
 
 #: Csparse.c:1201
 #, c-format
@@ -509,7 +509,7 @@ msgstr "classe di oggetto a as_cholmod_dense non valida"
 msgid ""
 "chm_transpose_dense(ans, x) not yet implemented for %s different from %s"
 msgstr ""
-"chm_transpose_dense(ans, x) non ancora implementato per %s diverso da%s"
+"chm_transpose_dense(ans, x) non ancora implementato per %s diverso da %s"
 
 #: chm_common.c:794
 #, c-format
@@ -1047,7 +1047,7 @@ msgstr "Dimensioni di a (%d,%d) e b (%d,%d) non conformi"
 
 #: dtpMatrix.c:132
 msgid "right=TRUE is not yet implemented __ FIXME"
-msgstr "right=TRUE non è ancora implementato __ SISTEMATEMI"
+msgstr "right=TRUE non è ancora implementato __ FIXME"
 
 #: dtrMatrix.c:128
 msgid "dtrMatrix must be square"

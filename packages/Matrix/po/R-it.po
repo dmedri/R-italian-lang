@@ -710,7 +710,7 @@ msgid "not a square matrix"
 msgstr "non è una matrice quadrata"
 
 msgid "not-yet-implemented method for <%s> %%*%% <%s>"
-msgstr "metodo non ancora implementato per <%s> %%*%% <%>"
+msgstr "metodo non ancora implementato per <%s> %%*%% <%s>"
 
 msgid "non-conformable arguments"
 msgstr "gli argomenti non sono compatibili"
