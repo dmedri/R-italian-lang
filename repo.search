@@ -3,6 +3,6 @@
 echo -e "Use: $0 'a label to search'\n"
 
 if [[ ! -z $1 ]]; then
-	grep -r1 "$1" ./R-*/
-	grep -r1 "$1" ./packages/
+	grep -r1 "$1" ./R-*/ --include *.po
+	grep -r1 "$1" ./packages/ --include *.po
 fi
