@@ -120,18 +120,22 @@ it: "base di penalità"
 
 
 
-*** READ-HERE ***
-
-The term "missing" could be misused in a statistical environment. While reviewing
-all the existing labels, I used "assente" or "assenti" as default choice, switching
-back to the word "mancante" or "mancanti" in the most common cases (see below).
+*** MISSING case ***
 
 (default)
+
+For all things that are not data or observations:
 
 en: "missing"
 it: "assente"
 
 (special cases)
+
+en: "non-missing"
+it: "non-mancante"
+
+en: "non-missing"
+it: "non-mancanti" (plural form)
 
 it: "valore assente"
 it: "valore mancante"
