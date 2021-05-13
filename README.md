@@ -1,7 +1,7 @@
 # R-italian-lang
 
 R Italian translations:
-- Main focus: R release 3.6.3 (latest stable);
+- Main focus: R latest stable release;
 - external CRAN packages.
 
 ## Search for translated labels
@@ -53,18 +53,18 @@ $ ./repo.roaster
 
 ## Notes for (italian) end-users and developers
 
-If you're using R in Italian, on all the available platforms, your feedback is
-really welcome. To report us mistakes or better translated sentences, you need to:
-* open an issue on github (look at the header in this page!);
+If you're using R with the italian language on, your feedback is welcome. To report mistakes or better
+translated words/sentence, follow these items:
+* open an issue on github (look at the above header bar, at the top of the page);
 * fork this repository, apply your changes and request a merge.
 
 ---
 
-Se usate R in lingua italiana, su tutte le piattaforme disponibili, il vostro
+_Se usate R in lingua italiana, su tutte le piattaforme disponibili, il vostro
 resoconto d'utilizzo è molto gradito. Per segnalare errori o traduzioni di frasi
 migliori, dovete fare ciò che segue:
-* aprire una issue su github (guardate la parte in alto nella pagina!);
-* fate un fork del repository, applicate i vostri cambiamenti e richiedete il merge.
+* aprire una issue su github (guardate l'intestazione, nella parte in alto della pagina);
+* fate un fork del repository, applicate i vostri cambiamenti e richiedete il merge._
 
 ## Notes for R translators in other languages
 
