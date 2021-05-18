@@ -576,12 +576,3 @@ msgstr "tutti i valori di z sono NA"
 #, c-format
 msgid "long vector '%s' is not supported"
 msgstr "il vettore long '%s' non è supportato"
-
-#~ msgid "plot type '%s' will be truncated to first character"
-#~ msgstr "tipo lpot '%s' verrà troncato al primo carattere"
-
-#~ msgid "relative range of values (%4.0f * EPS) is small (axis %d)"
-#~ msgstr "l'intervallo relativo di valori (%4.0f * EPS) è piccolo (asse %d)"
-
-#~ msgid "invalid NA contour values"
-#~ msgstr "valori di contorno NA non validi"
