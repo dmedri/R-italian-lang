@@ -102,7 +102,7 @@ msgid "'gpar' element '%s' must not be length 0"
 msgstr "l'elemento 'gpar' '%s' dev'essere di lunghezza 0"
 
 msgid "mixture of missing and non-missing values for %s"
-msgstr "mistura di valori mancanti e non-mancanti per %s"
+msgstr "insieme di valori mancanti e non-mancanti per %s"
 
 msgid "'gamma' 'gpar' element is defunct"
 msgstr "l'elemento 'gamma' 'gpar' è rimosso"
