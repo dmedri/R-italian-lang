@@ -106,7 +106,7 @@ msgid "No"
 msgstr "No"
 
 msgid "Cancel"
-msgstr "Cancella"
+msgstr "Annulla"
 
 msgid "Unrecognized response"
 msgstr "Risposta non riconosciuta"
@@ -493,7 +493,7 @@ msgid "Saving help page to %s"
 msgstr "Salvando pagine guida in %s"
 
 msgid "Cancelled by user"
-msgstr "Cancellato dall'utente"
+msgstr "Annullato dall'utente"
 
 msgid "Unable to connect to CRAN to check R version."
 msgstr "Non è possibile connettersi a CRAN per verificare la versione di R."
