@@ -88,10 +88,10 @@ msgid "Manuals in PDF format"
 msgstr "Manuali in formato PDF"
 
 msgid "OK"
-msgstr "OK"
+msgstr "Ok"
 
 msgid "Cancel"
-msgstr "Cancella"
+msgstr "Annulla"
 
 msgid "'pb' is not from class %s"
 msgstr "'pb' non è della classe %s"
