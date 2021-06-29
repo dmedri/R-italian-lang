@@ -5,8 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nlme 3.1-138\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Project-Id-Version: nlme 3.1-152\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-13 09:56+0100\n"
+"PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -15,32 +17,57 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
 
+#: corStruct.c:423
 msgid "All parameters must be less than 1 in absolute value"
 msgstr "Tutti i parametri devono essere meno di 1 in valore assoluto"
 
+#: corStruct.c:533
 msgid "Coefficient matrix not invertible"
 msgstr "Matrice dei coefficienti non invertibile"
 
+#: corStruct.c:870 corStruct.c:925 corStruct.c:985 corStruct.c:1027
+msgid "Unknown spatial correlation class"
+msgstr "Classe di correlazione spaziale sconosciuta"
+
+#: nlme.c:464
 msgid "First observation on an individual must have a dose"
 msgstr "La prima osservazione su un individuo deve avere una dose"
 
-msgid "Haven't written the compound symmetry case for this yet"
-msgstr "Non ho ancora scritto il caso della simmetria composta per questo"
-
-msgid "Overfitted model!"
-msgstr "Modello overfitted!"
-
+#: nlmefit.c:420
+#, c-format
 msgid "Singularity in backsolve at level %ld, block %ld"
 msgstr "Singolarità in backsolve a livello %ld, blocco %ld"
 
+#: nlmefit.c:460
+#, c-format
 msgid ""
 "Too many parameters for finite-difference Hessian; npar = %d, nTot = %g."
 msgstr ""
 "Troppi parametri per una differenza-finita Hessian; npar = %d, nTot = %g."
 
+#: nlmefit.c:571 nlmefit.c:752
+msgid "Overfitted model!"
+msgstr "Modello overfitted!"
+
+#: nlmefit.c:597
+msgid "analytic gradient is not available with matrix logarithm"
+msgstr ""
+"il gradiente analitico non è disponibile con il logaritmo della matrice"
+
+#: nlmefit.c:620
+msgid "analytic gradient is not available with compound symmetry"
+msgstr "il gradiente analitico non è disponibile con simmetria composta"
+
+#: nlmefit.c:913
+#, c-format
+msgid "Unable to form eigenvalue-eigenvector decomposition [RS(.) ierr = %d]"
+msgstr ""
+"Non è possibile formare una decomposizione eigenvalue-eigenvector [RS(.) "
+"ierr = %d]"
+
+#: nlmefit.c:945
+#, c-format
 msgid ""
 "Unable to form Cholesky decomposition: the leading minor of order %d is not "
 "pos.def."
@@ -48,17 +75,6 @@ msgstr ""
 "Non è possibile formare la decomposizione di Cholesky: il minore principale "
 "dell'ordine %d non è pos.def."
 
-msgid "Unable to form eigenvalue-eigenvector decomposition [RS(.) ierr = %d]"
-msgstr ""
-"Non è possibile formare una decomposizione eigenvalue-eigenvector [RS(.) "
-"ierr = %d]"
-
-msgid "Unknown spatial correlation class"
-msgstr "Classe di correlazione spaziale sconosciuta"
-
-msgid "analytic gradient is not available with compound symmetry"
-msgstr "il gradiente analitico non è disponibile con simmetria composta"
-
-msgid "analytic gradient is not available with matrix logarithm"
-msgstr ""
-"il gradiente analitico non è disponibile con il logaritmo della matrice"
+#: nlmefit.c:977
+msgid "Haven't written the compound symmetry case for this yet"
+msgstr "Non ho ancora scritto il caso della simmetria composta per questo"
