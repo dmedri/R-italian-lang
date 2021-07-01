@@ -15,7 +15,7 @@ RTR="$RRR/library/translations/it/LC_MESSAGES/"
 RPP="./packages"
 
 if [[ -d $RRR ]]; then
-	echo -e "\n---  R base packages   ---"
+	echo -e "\n\e[32m---  R base packages   ---\e[0m"
 	for i in 'base' 'compiler' 'graphics' 'grDevices' 'grid' \
 		'methods' 'parallel' 'splines' 'stats' 'stats4' 'tcltk' \
 		'tools' 'utils'; do
@@ -27,6 +27,9 @@ if [[ -d $RRR ]]; then
 		
 		# Copy .pot files from roaster dir to local dir
 		cp $RSR/$i/po/*.pot $REL/src/library/$i/po/
+		# msgmerge $LANG.po R.pot --update --backup=t
+		# msgmerge R-$LANG.po R-$LANG.pot --update --backup=t
+		# msgmerge RGui-$LANG.po RGui-$LANG.pot --update --backup=t
 
 		if [[ ! -d $RSR/$i/inst/po/$LANG ]]; then
 			mkdir -p $RSR/$i/inst/po/$LANG/LC_MESSAGES
@@ -45,7 +48,7 @@ if [[ -d $RRR ]]; then
 	# Copy all .mo in the right place
 	cp $RSR/*/inst/po/$LANG/LC_MESSAGES/*.mo $RSR/translations/inst/$LANG/LC_MESSAGES/
 
-	echo -e "\n--- External Packages ---"
+	echo -e "\n\e[32m---  External Packages  ---\e[0m"
 	cd $RPP
 	for i in `ls -d *`; do
 		echo -e "\n$i"
@@ -58,6 +61,7 @@ if [[ -d $RRR ]]; then
 	done
 
 	# Last check
+	echo -e "\n\e[32m--- Updating pkg-po ---\e[0m\n"
 	cd $RRR/po && make update-pkg-po update-RGui
 
 else

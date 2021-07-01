@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 18:28+0200\n"
+"POT-Creation-Date: 2021-06-29 12:06+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -187,7 +187,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/envir.c:2480 src/main/envir.c:2601 src/main/envir.c:2898
 #: src/main/envir.c:3162 src/main/envir.c:3176 src/main/envir.c:3183
 #: src/main/envir.c:3199 src/main/envir.c:3967 src/main/errors.c:1243
-#: src/main/eval.c:488 src/main/eval.c:498 src/main/eval.c:501
+#: src/main/eval.c:490 src/main/eval.c:500 src/main/eval.c:503
 #: src/main/grep.c:1151 src/main/grep.c:1156 src/main/grep.c:1445
 #: src/main/grep.c:1447 src/main/grep.c:1449 src/main/grep.c:1926
 #: src/main/grep.c:1930 src/main/grep.c:1935 src/main/grep.c:2800
@@ -483,11 +483,11 @@ msgid "creation of tmpfile failed -- set TMPDIR suitably?"
 msgstr ""
 "creazione del file temporaneo fallita -- impostare TMPDIR in modo adeguato?"
 
-#: src/gnuwin32/system.c:1213 src/unix/system.c:535
+#: src/gnuwin32/system.c:1214 src/unix/system.c:535
 msgid "you must specify '--save', '--no-save' or '--vanilla'"
 msgstr "si deve specificare '--save', '--no-save' o '--vanilla'"
 
-#: src/gnuwin32/system.c:1218
+#: src/gnuwin32/system.c:1219
 msgid ""
 "impossible to create 'reader thread'; you must free some system resources"
 msgstr ""
@@ -885,7 +885,7 @@ msgstr "dimnames(<value>) non è né NULL né una lista di lunghezza %d"
 msgid "'%s' must be a list or expression"
 msgstr "'%s' dev'essere una lista o un'espressione"
 
-#: src/main/arithmetic.c:44 src/main/eval.c:4456
+#: src/main/arithmetic.c:44 src/main/eval.c:4458
 msgid "NaNs produced"
 msgstr "Si è prodotto un NaN"
 
@@ -967,7 +967,7 @@ msgstr[1] "argomenti %d passati a '%s' dove vengono richiesti 1 o 2 argomenti"
 
 #: src/main/arithmetic.c:1667 src/main/arithmetic.c:1777
 #: src/main/arithmetic.c:1795 src/main/envir.c:1574 src/main/envir.c:2108
-#: src/main/eval.c:741 src/main/eval.c:5117
+#: src/main/eval.c:743 src/main/eval.c:5119
 #, c-format
 msgid "argument \"%s\" is missing, with no default"
 msgstr "argomento \"%s\" assente, senza valore predefinito"
@@ -1422,7 +1422,7 @@ msgstr "primo argomento non valido"
 #: src/main/envir.c:2934 src/main/envir.c:3021 src/main/envir.c:3324
 #: src/main/envir.c:3353 src/main/envir.c:3374 src/main/envir.c:3397
 #: src/main/envir.c:3432 src/main/envir.c:3453 src/main/envir.c:3500
-#: src/main/envir.c:3957 src/main/envir.c:3962 src/main/eval.c:8055
+#: src/main/envir.c:3957 src/main/envir.c:3962 src/main/eval.c:8057
 #: src/main/objects.c:243 src/main/objects.c:251 src/main/saveload.c:2174
 #: src/main/saveload.c:2471 src/main/serialize.c:3110
 msgid "use of NULL environment is defunct"
@@ -1513,9 +1513,9 @@ msgid "wrong length for '%s' argument"
 msgstr "lunghezza sbagliata per l'argomento '%s'"
 
 #: src/main/builtin.c:980 src/main/coerce.c:2761 src/main/coerce.c:2804
-#: src/main/eval.c:731 src/main/eval.c:861 src/main/eval.c:3044
-#: src/main/eval.c:3133 src/main/eval.c:3204 src/main/eval.c:3546
-#: src/main/eval.c:7042 src/main/eval.c:7189
+#: src/main/eval.c:733 src/main/eval.c:863 src/main/eval.c:3046
+#: src/main/eval.c:3135 src/main/eval.c:3206 src/main/eval.c:3548
+#: src/main/eval.c:7044 src/main/eval.c:7191
 msgid "'...' used in an incorrect context"
 msgstr "'...' utilizzato in un contesto sbagliato"
 
@@ -1528,11 +1528,11 @@ msgstr "impostazioni predefinite per 'switch' duplicate: '%s' e '%s'"
 msgid "'EXPR' is missing"
 msgstr "'EXPR' è assente"
 
-#: src/main/builtin.c:1039 src/main/eval.c:7605
+#: src/main/builtin.c:1039 src/main/eval.c:7607
 msgid "EXPR must be a length 1 vector"
 msgstr "EXPR dev'essere un vettore di lunghezza 1"
 
-#: src/main/builtin.c:1042 src/main/eval.c:7608
+#: src/main/builtin.c:1042 src/main/eval.c:7610
 #, c-format
 msgid ""
 "EXPR is a \"factor\", treated as integer.\n"
@@ -1541,7 +1541,7 @@ msgstr ""
 "EXPR è un \"factor\", trattato come intero.\n"
 " Si consideri l'utilizzo alternativo di '%s'."
 
-#: src/main/builtin.c:1099 src/main/eval.c:7618 src/main/eval.c:7647
+#: src/main/builtin.c:1099 src/main/eval.c:7620 src/main/eval.c:7649
 msgid "'switch' with no alternatives"
 msgstr "'switch' senza alternative"
 
@@ -1724,7 +1724,7 @@ msgstr "fattore sbagliato"
 msgid "list argument expected"
 msgstr "richiesto argomento lista"
 
-#: src/main/coerce.c:1602 src/main/eval.c:8059
+#: src/main/coerce.c:1602 src/main/eval.c:8061
 msgid "invalid environment"
 msgstr "ambiente non valido"
 
@@ -2748,8 +2748,8 @@ msgid "'opts' should be small non-negative integer"
 msgstr "'opts' dovrebbe essere uno small integer non-negativo"
 
 #: src/main/deparse.c:450 src/main/envir.c:2007 src/main/envir.c:2119
-#: src/main/envir.c:3813 src/main/eval.c:737 src/main/eval.c:2106
-#: src/main/eval.c:5126 src/main/saveload.c:2082 src/main/saveload.c:2417
+#: src/main/envir.c:3813 src/main/eval.c:739 src/main/eval.c:2108
+#: src/main/eval.c:5128 src/main/saveload.c:2082 src/main/saveload.c:2417
 #: src/main/serialize.c:3128
 #, c-format
 msgid "object '%s' not found"
@@ -2851,7 +2851,7 @@ msgstr "Argomento PACKAGE troppo lungo"
 msgid "no arguments supplied"
 msgstr "non è stato indicato alcun argomento"
 
-#: src/main/dotcode.c:493 src/main/seq.c:1018
+#: src/main/dotcode.c:493 src/main/seq.c:1043
 msgid "too many arguments"
 msgstr "troppi argomenti"
 
@@ -3688,11 +3688,11 @@ msgstr "file sorgenti omessi da Rprof; per piacere, incrementa '%s'"
 msgid "Rprof: cannot open profile file '%s'"
 msgstr "Rprof: non posso aprire il file di profile '%s'"
 
-#: src/main/eval.c:515
+#: src/main/eval.c:517
 msgid "R profiling is not available on this system"
 msgstr "Il profiling di R non è disponibile su questo sistema"
 
-#: src/main/eval.c:539
+#: src/main/eval.c:541
 msgid ""
 "promise already under evaluation: recursive default argument reference or "
 "earlier problems?"
@@ -3700,253 +3700,253 @@ msgstr ""
 "promise già in fase di valutazione: riferimento di argomento predefinito "
 "ricorsivo o problemi precedenti?"
 
-#: src/main/eval.c:544
+#: src/main/eval.c:546
 msgid "restarting interrupted promise evaluation"
 msgstr "riavvio della valutazione promise interrotta"
 
-#: src/main/eval.c:712
+#: src/main/eval.c:714
 msgid ""
 "evaluation nested too deeply: infinite recursion / options(expressions=)?"
 msgstr ""
 "calcolo annidato in un numero eccessivo di livelli: ricorsione infinita / "
 "options(expressions=)?"
 
-#: src/main/eval.c:743 src/main/eval.c:5118
+#: src/main/eval.c:745 src/main/eval.c:5120
 msgid "argument is missing, with no default"
 msgstr "argomento non specificato e senza un valore predefinito"
 
-#: src/main/eval.c:857 src/main/eval.c:1972 src/main/eval.c:6981
+#: src/main/eval.c:859 src/main/eval.c:1974 src/main/eval.c:6983
 msgid "attempt to apply non-function"
 msgstr "tentativo di applicare una non-funzione"
 
-#: src/main/eval.c:881
+#: src/main/eval.c:883
 #, c-format
 msgid "%s at %s#%d: "
 msgstr "%s in %s#%d: "
 
-#: src/main/eval.c:1960 src/main/eval.c:3049
+#: src/main/eval.c:1962 src/main/eval.c:3051
 #, c-format
 msgid "argument %d is empty"
 msgstr "l'argomento %d è vuoto"
 
-#: src/main/eval.c:2016
+#: src/main/eval.c:2018
 #, c-format
 msgid "could not find symbol \"%s\" in environment of the generic function"
 msgstr ""
 "non è possibile trovare il simbolo \"%s\" nell'ambiente della funzione "
 "generica"
 
-#: src/main/eval.c:2034
+#: src/main/eval.c:2036
 #, c-format
 msgid "symbol \"%s\" not in environment of method"
 msgstr "il simbolo \"%s\" non è nell'ambiente del metodo"
 
-#: src/main/eval.c:2175
+#: src/main/eval.c:2177
 msgid "the condition has length > 1"
 msgstr "la condizione ha lunghezza > 1"
 
-#: src/main/eval.c:2176
+#: src/main/eval.c:2178
 msgid "the condition has length > 1 and only the first element will be used"
 msgstr ""
 "la condizione ha lunghezza > 1 e solo il primo elemento sarà utilizzato"
 
-#: src/main/eval.c:2196
+#: src/main/eval.c:2198
 msgid "missing value where TRUE/FALSE needed"
 msgstr "valore mancante dove è richiesto TRUE/FALSE"
 
-#: src/main/eval.c:2197
+#: src/main/eval.c:2199
 msgid "argument is not interpretable as logical"
 msgstr "l'argomento non è interpretabile come logico"
 
-#: src/main/eval.c:2198
+#: src/main/eval.c:2200
 msgid "argument is of length zero"
 msgstr "l'argomento ha lunghezza zero"
 
-#: src/main/eval.c:2296
+#: src/main/eval.c:2298
 msgid "non-symbol loop variable"
 msgstr "variabile di ciclo non simbolica"
 
-#: src/main/eval.c:2389 src/main/eval.c:6681
+#: src/main/eval.c:2391 src/main/eval.c:6683
 msgid "invalid for() loop sequence"
 msgstr "sequenza ciclo for() non corretta"
 
-#: src/main/eval.c:2538
+#: src/main/eval.c:2540
 msgid "multi-argument returns are not permitted"
 msgstr "non sono permesse restituizioni a più argomenti"
 
-#: src/main/eval.c:2586
+#: src/main/eval.c:2588
 msgid "invalid (NULL) left side of assignment"
 msgstr "membro di sinistra (NULL) dell'assegnazione non valido"
 
-#: src/main/eval.c:2627
+#: src/main/eval.c:2629
 msgid "target of assignment expands to non-language object"
 msgstr ""
 "la destinazione dell'assegnazione si espande in un oggetto non-language"
 
-#: src/main/eval.c:2712
+#: src/main/eval.c:2714
 #, c-format
 msgid "overlong name in '%s'"
 msgstr "nome troppo lungo in '%s'"
 
-#: src/main/eval.c:2838
+#: src/main/eval.c:2840
 msgid "cannot do complex assignments in base namespace"
 msgstr "non si possono fare assegnazioni complesse nel namespace base"
 
-#: src/main/eval.c:2840
+#: src/main/eval.c:2842
 msgid "cannot do complex assignments in base environment"
 msgstr "non si possono fare assegnazioni complesse nell'ambiente base"
 
-#: src/main/eval.c:2883 src/main/eval.c:2910
+#: src/main/eval.c:2885 src/main/eval.c:2912
 msgid "invalid function in complex assignment"
 msgstr "funzione non ammissibile nell'assegnazione complessa"
 
-#: src/main/eval.c:2981
+#: src/main/eval.c:2983
 msgid "invalid (do_set) left-hand side to assignment"
 msgstr "membro di sinistra dell'assegnazione (do_set) non valido"
 
-#: src/main/eval.c:3063
+#: src/main/eval.c:3065
 #, c-format
 msgid "'%s' is missing"
 msgstr "'%s' è assente"
 
-#: src/main/eval.c:3238
+#: src/main/eval.c:3240
 msgid "invalid formal argument list for \"function\""
 msgstr "lista argomento formale non valida per \"function\""
 
-#: src/main/eval.c:3296 src/main/eval.c:3327 src/main/eval.c:3332
+#: src/main/eval.c:3298 src/main/eval.c:3329 src/main/eval.c:3334
 #, c-format
 msgid "invalid '%s' argument of type '%s'"
 msgstr "argomento '%s' non valido di tipo '%s'"
 
-#: src/main/eval.c:3324
+#: src/main/eval.c:3326
 msgid "numeric 'envir' arg not of length one"
 msgstr "argomento 'envir' numerico non con lunghezza uno"
 
-#: src/main/eval.c:3349 src/main/eval.c:3373
+#: src/main/eval.c:3351 src/main/eval.c:3375
 msgid "restarts not supported in 'eval'"
 msgstr "riavvi non supportati in 'eval'"
 
-#: src/main/eval.c:3432 src/main/eval.c:3445
+#: src/main/eval.c:3434 src/main/eval.c:3447
 msgid "'Recall' called from outside a closure"
 msgstr "'Recall' chiamato esternamente ad una closure"
 
-#: src/main/eval.c:3539
+#: src/main/eval.c:3541
 msgid "value in '...' is not a promise"
 msgstr "valore in '...' non è un promise"
 
-#: src/main/eval.c:3808
+#: src/main/eval.c:3810
 #, c-format
 msgid "Incompatible methods (\"%s\", \"%s\") for \"%s\""
 msgstr "Metodi incompatibili (\"%s\", \"%s\") per \"%s\""
 
-#: src/main/eval.c:3858
+#: src/main/eval.c:3860
 msgid "dispatch error in group dispatch"
 msgstr "errore dispatch in un gruppo dispatch"
 
-#: src/main/eval.c:4355
+#: src/main/eval.c:4357
 #, c-format
 msgid "\"%s\" is not a %s function"
 msgstr "\"%s\" non è una funzione %s"
 
-#: src/main/eval.c:4883
+#: src/main/eval.c:4885
 msgid "node stack overflow"
 msgstr "overflow del node stack"
 
-#: src/main/eval.c:4971
+#: src/main/eval.c:4973
 msgid "bad opcode"
 msgstr "opcode errato"
 
-#: src/main/eval.c:6073
+#: src/main/eval.c:6075
 #, c-format
 msgid "invalid %s type in 'x %s y'"
 msgstr "tipo %s non valido in 'x %s y'"
 
-#: src/main/eval.c:6509
+#: src/main/eval.c:6511
 msgid "bytecode version mismatch; using eval"
 msgstr "versione bytecode non corrispondente; si utilizza eval"
 
-#: src/main/eval.c:6515
+#: src/main/eval.c:6517
 msgid "bytecode version is too old"
 msgstr "versione bytecode troppo vecchia"
 
-#: src/main/eval.c:6516
+#: src/main/eval.c:6518
 msgid "bytecode version is too new"
 msgstr "versione bytecode troppo nuova"
 
-#: src/main/eval.c:6561
+#: src/main/eval.c:6563
 msgid "byte code version mismatch"
 msgstr "versione bytecode non corrispondente"
 
-#: src/main/eval.c:6814
+#: src/main/eval.c:6816
 msgid "invalid sequence argument in for loop"
 msgstr "argomento 'sequence' non valido nel ciclo 'for'"
 
-#: src/main/eval.c:6970 src/main/names.c:1359
+#: src/main/eval.c:6972 src/main/names.c:1359
 #, c-format
 msgid "there is no .Internal function '%s'"
 msgstr "non c'è alcuna funzione .Internal '%s'"
 
-#: src/main/eval.c:7088 src/main/eval.c:7513 src/main/eval.c:7557
+#: src/main/eval.c:7090 src/main/eval.c:7515 src/main/eval.c:7559
 msgid "bad function"
 msgstr "funzione errata"
 
-#: src/main/eval.c:7101
+#: src/main/eval.c:7103
 msgid "not a BUILTIN function"
 msgstr "non è una funzione BUILTIN"
 
-#: src/main/eval.c:7615
+#: src/main/eval.c:7617
 msgid "bad numeric 'switch' offsets"
 msgstr "offset 'switch' numerico errato"
 
-#: src/main/eval.c:7621
+#: src/main/eval.c:7623
 msgid "numeric EXPR required for 'switch' without named alternatives"
 msgstr "un EXPR numerico richiede uno 'switch' senza alternative nominate"
 
-#: src/main/eval.c:7625
+#: src/main/eval.c:7627
 msgid "bad character 'switch' offsets"
 msgstr "offset 'switch' caratteri errato"
 
-#: src/main/eval.c:7778
+#: src/main/eval.c:7780
 msgid "cannot find index for threaded code address"
 msgstr "non è possibile trovare l'indice per l'indirizzo del codice thread"
 
-#: src/main/eval.c:8052
+#: src/main/eval.c:8054
 msgid "invalid body"
 msgstr "corpo non valido"
 
-#: src/main/eval.c:8072
+#: src/main/eval.c:8074
 msgid "invalid symbol"
 msgstr "simbolo non valido"
 
-#: src/main/eval.c:8116
+#: src/main/eval.c:8118
 msgid "argument is not a byte code object"
 msgstr "l'argomento non è un oggetto byte code"
 
-#: src/main/eval.c:8187 src/main/eval.c:8206 src/main/eval.c:8240
+#: src/main/eval.c:8189 src/main/eval.c:8208 src/main/eval.c:8242
 msgid "constant buffer must be a generic vector"
 msgstr "constant buffer dev'essere un vettore generico"
 
-#: src/main/eval.c:8242
+#: src/main/eval.c:8244
 msgid "bad constant count"
 msgstr "conteggio costante errato"
 
-#: src/main/eval.c:8280
+#: src/main/eval.c:8282
 msgid "profile timer in use"
 msgstr "timer di profile in uso"
 
-#: src/main/eval.c:8282
+#: src/main/eval.c:8284
 msgid "already byte code profiling"
 msgstr "profilazione byte code"
 
-#: src/main/eval.c:8300
+#: src/main/eval.c:8304
 msgid "setting profile timer failed"
 msgstr "impostazione del profile timer fallita"
 
-#: src/main/eval.c:8318
+#: src/main/eval.c:8322
 msgid "not byte code profiling"
 msgstr "nessuna profilazione byte code"
 
-#: src/main/eval.c:8334 src/main/eval.c:8338 src/main/eval.c:8342
+#: src/main/eval.c:8338 src/main/eval.c:8342 src/main/eval.c:8346
 msgid "byte code profiling is not supported in this build"
 msgstr "il byte code profiling non è supportato in questa build"
 
@@ -5789,7 +5789,7 @@ msgstr "embedded nul trovati in input"
 msgid "unequal factor lengths"
 msgstr "lunghezza del fattore ineguale"
 
-#: src/main/seq.c:101 src/main/seq.c:1076
+#: src/main/seq.c:101 src/main/seq.c:1101
 msgid "result would be too long a vector"
 msgstr "il risultato sarebbe un vettore troppo lungo"
 
@@ -5826,72 +5826,72 @@ msgstr "tentativo di replicare un non-vettore"
 msgid "cannot replicate NULL to a non-zero length"
 msgstr "non è possibile replicare NULL su una lunghezza diversa da zero"
 
-#: src/main/seq.c:681 src/main/seq.c:697 src/main/seq.c:857 src/main/seq.c:1068
+#: src/main/seq.c:681 src/main/seq.c:697 src/main/seq.c:855 src/main/seq.c:1093
 #, c-format
 msgid "first element used of '%s' argument"
 msgstr "utilizzato il primo elemento dell'argomento '%s'"
 
-#: src/main/seq.c:837 src/main/seq.c:869 src/main/seq.c:876 src/main/seq.c:947
-#: src/main/seq.c:948 src/main/seq.c:978 src/main/seq.c:979 src/main/seq.c:1000
-#: src/main/seq.c:1001
+#: src/main/seq.c:835 src/main/seq.c:867 src/main/seq.c:874 src/main/seq.c:957
+#: src/main/seq.c:958 src/main/seq.c:1003 src/main/seq.c:1004
+#: src/main/seq.c:1025 src/main/seq.c:1026
 #, c-format
 msgid "'%s' must be a finite number"
 msgstr "'%s' dev'essere un numero finito"
 
-#: src/main/seq.c:855
+#: src/main/seq.c:853
 msgid "'length.out' must be a non-negative number"
 msgstr "'length.out' dev'essere un numero non-negativo"
 
-#: src/main/seq.c:866 src/main/seq.c:873 src/main/seq.c:881
+#: src/main/seq.c:864 src/main/seq.c:871 src/main/seq.c:879
 #, c-format
 msgid "'%s' must be of length 1"
 msgstr "'%s' dev'essere di lunghezza 1"
 
-#: src/main/seq.c:894
+#: src/main/seq.c:897
 msgid "invalid '(to - from)/by'"
 msgstr "'(to - from)/by' non valido"
 
-#: src/main/seq.c:906
+#: src/main/seq.c:909
 msgid "'by' argument is much too small"
 msgstr "l'argomento 'by' è troppo piccolo"
 
-#: src/main/seq.c:908
+#: src/main/seq.c:911
 msgid "wrong sign in 'by' argument"
 msgstr "segno sbagliato nell'argomento 'by'"
 
-#: src/main/seq.c:1074 src/main/seq.c:1081
+#: src/main/seq.c:1099 src/main/seq.c:1106
 msgid "argument must be coercible to non-negative integer"
 msgstr "l'argomento dev'essere coercibile in un intero non-negativo"
 
-#: src/main/seq.c:1101
+#: src/main/seq.c:1126
 msgid "'lengths' is not of mode integer"
 msgstr "'lengths' non è in modalità intera"
 
-#: src/main/seq.c:1104
+#: src/main/seq.c:1129
 msgid "'from' is not of mode integer"
 msgstr "'from' non è in modalità intera"
 
-#: src/main/seq.c:1107
+#: src/main/seq.c:1132
 msgid "'by' is not of mode integer"
 msgstr "'by' non è in modalità intera"
 
-#: src/main/seq.c:1114
+#: src/main/seq.c:1139
 msgid "'from' has length 0, but not 'lengths'"
 msgstr "'from' ha lunghezza 0, ma non 'lengths'"
 
-#: src/main/seq.c:1116
+#: src/main/seq.c:1141
 msgid "'by' has length 0, but not 'lengths'"
 msgstr "'by' ha lunghezza 0, ma non 'lengths'"
 
-#: src/main/seq.c:1123
+#: src/main/seq.c:1148
 msgid "'lengths' must be a vector of non-negative integers"
 msgstr "'lengths' dev'essere un vettore di interi non negativi"
 
-#: src/main/seq.c:1138
+#: src/main/seq.c:1163
 msgid "'from' contains NAs"
 msgstr "'from' contiene NA"
 
-#: src/main/seq.c:1143
+#: src/main/seq.c:1168
 msgid "'by' contains NAs"
 msgstr "'by' contiene NA"
 
