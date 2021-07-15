@@ -58,22 +58,27 @@ msgstr "non è possibile cambiare la lunghezza di oggetto \"corSymm\""
 
 msgid "covariate must have unique values within groups for \"corSymm\" objects"
 msgstr ""
+"la covariata deve avere valori univoci nei gruppi per oggetti \"corSymm\""
 
 msgid ""
 "unique values of the covariate  for \"corSymm\" objects must be a sequence "
 "of consecutive integers"
 msgstr ""
+"i valori univoci della covariata per oggetti \"corSymm\" devono essere una "
+"sequenza di interi consecutivi"
 
 msgid "initial value for \"corSymm\" parameters of wrong dimension"
-msgstr ""
+msgstr "valore iniziale per i parametri \"corSymm\" con dimensione errata"
 
 msgid "initial values for \"corSymm\" must be between -1 and 1"
-msgstr ""
+msgstr "i valori iniziali per \"corSymm\" dev'essere tra -1 e 1"
 
 msgid ""
 "initial values for \"corSymm\" do not define a positive-definite correlation "
 "structure"
 msgstr ""
+"i valori iniziali per \"corSymm\" non definiscono una struttura di "
+"correlazione positivamente definita"
 
 msgid "cannot change the length of the parameter of a \"corNatural\" object"
 msgstr "non è possibile cambiare la lunghezza di un oggetto \"corNatural\""
@@ -81,25 +86,30 @@ msgstr "non è possibile cambiare la lunghezza di un oggetto \"corNatural\""
 msgid ""
 "covariate must have unique values within groups for \"corNatural\" objects"
 msgstr ""
+"la covariata deve avere valori univoci nei gruppi per oggetti \"corNatural\""
 
 msgid ""
 "unique values of the covariate for \"corNatural\" objects must be a sequence "
 "of consecutive integers"
 msgstr ""
+"i valori univoci della covariata per oggetti \"corNatural\" devono essere "
+"una sequenza di interi consecutivi"
 
 msgid "initial value for \"corNatural\" parameters of wrong dimension"
-msgstr ""
+msgstr "valore iniziale per i parametri \"corNatural\" con dimensione errata"
 
 msgid "initial values for \"corNatural\" must be between -1 and 1"
-msgstr ""
+msgstr "i valori iniziali per \"corNatural\" dev'essere tra -1 e 1"
 
 msgid ""
 "initial values for \"corNatural\" do not define a positive-definite "
 "correlation structure"
 msgstr ""
+"i valori iniziali per \"corNatural\" non definiscono una struttura di "
+"correlazione positivamente definita"
 
 msgid "parameter in AR(1) structure must be between -1 and 1"
-msgstr ""
+msgstr "il parametro nella struttura AR(1) dev'essere tra -1 e 1"
 
 msgid "'sumLenSq' = %g is too large (larger than maximal integer)"
 msgstr "'sumLenSq' = %g è troppo grande (più grande del massimo intero)"
@@ -110,24 +120,26 @@ msgstr ""
 
 msgid "covariate must have unique values within groups for \"corAR1\" objects"
 msgstr ""
+"la covariata deve avere valori univoci nei gruppi per oggetti \"corAR1\""
 
 msgid "parameter in CAR(1) structure must be between 0 and 1"
-msgstr ""
+msgstr "il parametro nella struttura CAR(1) dev'essere tra 0 e 1"
 
 msgid "cannot change the length of the parameter of a \"corCAR1\" object"
 msgstr "non è possibile cambiare la lunghezza di un oggetto \"corCAR1\""
 
 msgid "covariate must have unique values within groups for \"corCAR1\" objects"
 msgstr ""
+"la covariata deve avere valori univoci nei gruppi per oggetti \"corCAR1\""
 
 msgid "autoregressive order must be a non-negative integer"
 msgstr "l'ordine autoregressivo dev'essere un intero non-negativo"
 
 msgid "moving average order must be a non-negative integer"
-msgstr ""
+msgstr "l'ordine della media mobile dev'essere un intero non-negativo"
 
 msgid "initial value for parameter of wrong length"
-msgstr "il valore iniziale per il parametro ha lunghezza errata"
+msgstr "valore iniziale per il parametro con lunghezza errata"
 
 msgid "parameters in ARMA structure must be < 1 in absolute value"
 msgstr "i parametri nella struttura ARMA devono essere < 1 in valore assoluto"
@@ -140,15 +152,18 @@ msgstr "non è possibile cambiare la lunghezza di un oggetto \"corARMA\""
 
 msgid "covariate must have unique values within groups for \"corARMA\" objects"
 msgstr ""
+"la covariata deve avere valori univoci nei gruppi per oggetti \"corARMA\""
 
 msgid "parameter in \"corCompSymm\" structure must be < 1 in absolute value"
 msgstr ""
+"il parametro nella struttura \"corCompSymm\" dev'essere < 1 in valore "
+"assoluto"
 
 msgid "cannot change the length of the parameter of a \"corCompSymm\" object"
 msgstr "non è possibile cambiare la lunghezza di un oggetto \"corCompSymm\""
 
 msgid "initial value in \"corCompSymm\" must be greater than %s"
-msgstr ""
+msgstr "il valore iniziale in \"corCompSymm\" dev'essere più grande di %s"
 
 msgid "cannot change the length of the parameter after initialization"
 msgstr ""
@@ -164,10 +179,10 @@ msgid "'range' must be > 0 in \"corSpatial\" initial value"
 msgstr "'range' dev'essere > 0 nel valore iniziale \"corSpatial\""
 
 msgid "initial value for \"corSpatial\" parameters of wrong dimension"
-msgstr ""
+msgstr "valore iniziale per i parametri \"corSpatial\" con dimensione errata"
 
 msgid "initial value of nugget ratio must be between 0 and 1"
-msgstr ""
+msgstr "il valore iniziale del rapporto nugget dev'essere tra 0 e 1"
 
 msgid "'range' must be > 0 in \"corLin\" initial value"
 msgstr "'range' dev'essere > 0 nel valore iniziale \"corLin\""
@@ -176,15 +191,17 @@ msgid ""
 "initial value for 'range' less than minimum distance. Setting it to 1.1 * "
 "min(distance)"
 msgstr ""
+"il valore iniziale per 'range' è inferiore alla distanza minima. Lo si "
+"imposta a 1.1*min(distance)"
 
 msgid "initial value for \"corLin\" parameters of wrong dimension"
-msgstr ""
+msgstr "valore iniziale per i parametri \"corLin\" con dimensione errata"
 
 msgid "range must be > 0 in \"corSpher\" initial value"
-msgstr ""
+msgstr "l'intervallo dev'essere > 0 nel valore iniziale \"corSpher\""
 
 msgid "initial value for \"corSpher\" parameters of wrong dimension"
-msgstr ""
+msgstr "valore iniziale per i parametri \"corSpher\" con dimensione errata"
 
 msgid "model must be a formula of the form \"resp ~ pred\""
 msgstr "il modello dev'essere una formula nella forma \"resp ~ pred\""
@@ -193,10 +210,10 @@ msgid "no coefficients to fit"
 msgstr "nessun coefficiente per l'adattamento"
 
 msgid "maximum number of iterations reached without convergence"
-msgstr ""
+msgstr "raggiunto il numero massimo di iterazioni senza convergenza"
 
 msgid "computed \"gls\" fit is singular, rank %s"
-msgstr ""
+msgstr "adattamento \"gls\" singolare, rango %s"
 
 msgid "object must inherit from class \"gls\""
 msgstr "l'oggetto deve ereditare dalla classe \"gls\""
@@ -227,6 +244,7 @@ msgstr "gruppo livelli sbagliato"
 
 msgid "cannot get confidence intervals on var-cov components: %s"
 msgstr ""
+"non si possono avere intervalli di confidenza su componenti var-cor: %s"
 
 msgid "need an object with call component"
 msgstr "necessario un oggetto con una componente call"
@@ -252,16 +270,17 @@ msgid "no initial values for model parameters"
 msgstr "nessun valore iniziale per i parametri del modello"
 
 msgid "starting estimates must have names when 'params' is missing"
-msgstr ""
+msgstr "le stime iniziali devono avere nomi quando 'params' è assente"
 
 msgid "'params' must be a formula or list of formulae"
 msgstr "'params' dev'essere una formula o una lista di formule"
 
 msgid "formulae in 'params' must be of the form \"parameter ~ expr\""
 msgstr ""
+"la formula in 'params' dev'essere nella forma \"parametro ~ espressione\""
 
 msgid "starting values for parameters are not of the correct length"
-msgstr ""
+msgstr "valori iniziali nei parametri con lunghezza errata"
 
 msgid "cannot calculate REML log-likelihood for \"gnls\" objects"
 msgstr ""
@@ -273,9 +292,11 @@ msgstr ""
 
 msgid "right-hand side of first argument must be a conditional expression"
 msgstr ""
+"il lato destro del primo argomento dev'essere un'espressione condizionale"
 
 msgid "first argument to 'nfGroupedData' must be a two-sided formula"
 msgstr ""
+"il primo argomento di 'nfGroupedData' dev'essere una formula a due lati"
 
 msgid "only one level of grouping allowed"
 msgstr "ammesso solo un livello di raggruppamento"
@@ -285,9 +306,10 @@ msgstr ""
 
 msgid "first argument to 'nmGroupedData' must be a two-sided formula"
 msgstr ""
+"il primo argomento di 'nmGroupedData' dev'essere una formula a due lati"
 
 msgid "single group not supported -- use groupedData()"
-msgstr ""
+msgstr "gruppo singolo non supportato -- si utilizzi groupedData()"
 
 msgid "'subset' ignored with single grouping factor"
 msgstr "'subset' è ignorato con un singolo fattore di raggruppamento"
@@ -396,7 +418,7 @@ msgid "'lme.lmList' will redefine 'data'"
 msgstr "'lme.lmList' ri-definirà 'data'"
 
 msgid "initial value for \"reStruct\" overwritten in 'lme.lmList'"
-msgstr ""
+msgstr "sovrascritto il valore iniziale \"reStruct\" in 'lme.lmList'"
 
 msgid "fixed-effects model must be a formula of the form \"resp ~ pred\""
 msgstr ""
@@ -447,7 +469,7 @@ msgid ""
 msgstr ""
 
 msgid "first model has a different response from the rest"
-msgstr ""
+msgstr "il primo modello ha una risposta differente dal resto"
 
 msgid "all fitted objects must have the same estimation method"
 msgstr "tutti gli oggetti adattati devono avere il medesimo metodo di stima"
@@ -458,7 +480,7 @@ msgid ""
 msgstr ""
 
 msgid "objects must have a \"call\" component or attribute"
-msgstr ""
+msgstr "gli oggetti devono avere un componente o attributo \"call\""
 
 msgid "all fitted objects must use the same number of observations"
 msgstr "tutti gli oggetti devono utilizzare il medesimo numero di osservazioni"
@@ -473,6 +495,7 @@ msgstr ""
 
 msgid "covariate must have a level attribute when groups are present"
 msgstr ""
+"la covariata deve avere un attributo livello quando i gruppi sono presenti"
 
 msgid "covariate must have a level attribute when 'id' is a formula"
 msgstr ""
@@ -490,7 +513,7 @@ msgid "%s is not a valid effect name"
 msgstr "%s non è un valido nome effetto"
 
 msgid "no effects allowed in right side of formula"
-msgstr ""
+msgstr "non sono ammessi effetti nel lato destro della formula"
 
 msgid "cannot evaluate groups for desired levels on 'newdata'"
 msgstr ""
@@ -581,7 +604,7 @@ msgid "can only fit \"nlsList\" objects with single grouping variable"
 msgstr ""
 
 msgid "initial value for 'reStruct' overwritten in 'nlme.nlsList'"
-msgstr ""
+msgstr "sovrascritto il valore iniziale \"reStruct\" in 'nlme.nlsList'"
 
 msgid "'model' must be a formula"
 msgstr "'model' dev'essere una formula"
