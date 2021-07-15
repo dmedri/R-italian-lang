@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
+"POT-Creation-Date: \n"
 
 msgid "'a' is overridden by 'reg'"
 msgstr "'a' è annullato da 'reg'"
@@ -27,7 +28,7 @@ msgid "'a' and 'b' are overridden by 'coef'"
 msgstr "'a' e 'b' sono annullati da 'coef'"
 
 msgid "one of 'x1' and 'y1' must be given"
-msgstr "uno tra 'x1' e 'y1' dev'essere indicato"
+msgstr "dev'essere indicato almeno un 'x1' e 'y1'"
 
 msgid ""
 "'length', 'angle', or 'code' greater than length 1; values after the first "
@@ -130,7 +131,7 @@ msgid "increasing 'x' and 'y' values expected"
 msgstr "i valori di 'x' e 'y' devono essere crescenti"
 
 msgid "no proper 'z' matrix specified"
-msgstr "nessuna matrice 'z' opportuna specificata"
+msgstr "non è stata specificata alcuna matrice 'z' valida"
 
 msgid "'labels' is length zero.  Use 'drawlabels = FALSE' to suppress labels."
 msgstr ""
