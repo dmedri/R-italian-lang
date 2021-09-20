@@ -2036,6 +2036,3 @@ msgstr[0] ""
 msgstr[1] ""
 "In %s :\n"
 " gli argomenti extra %s saranno ignorati"
-
-#~ msgid "'%s' is not an exported object from 'namespace:%s'"
-#~ msgstr "'%s' non è un oggetto esportato dal 'namespace:%s'"
