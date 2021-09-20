@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-15 15:13+0200\n"
-"PO-Revision-Date: 2021-08-10 17:00\n"
+"POT-Creation-Date: 2021-09-20 10:30+0200\n"
+"PO-Revision-Date: 2021-09-20 10:45+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -63,21 +63,21 @@ msgstr "L-BFGS-B necessita valori finiti di 'fn'"
 msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
 msgstr "trace, REPORT dev'essere >= 0 (method = \"SANN\")"
 
-#: src/appl/pretty.c:125
+#: src/appl/pretty.c:127
 #, c-format
 msgid "Internal(pretty()): infinite range; *ndiv=%d, should have ndiv >= 2"
 msgstr ""
 "Internal(pretty()): intervallo non finito; *ndiv=%d, deve avere ndiv >= 2"
 
-#: src/appl/pretty.c:134
+#: src/appl/pretty.c:142
 #, c-format
-msgid "Internal(pretty()): very small range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()): intervallo 'cell'=%g molto piccolo, corretto in %g"
+msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
+msgstr "R_pretty(): intervallo 'cell'=%g molto piccolo, corretto in %g"
 
-#: src/appl/pretty.c:138
+#: src/appl/pretty.c:146
 #, c-format
-msgid "Internal(pretty()): very large range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()): intervallo 'cell'=%g molto ampio, corretto in %g"
+msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
+msgstr "R_pretty(): intervallo 'cell'=%g molto ampio, corretto in %g"
 
 #: src/gnuwin32/dynload.c:162
 #, c-format
@@ -612,24 +612,42 @@ msgstr "'.Random.seed[1]' non è un valido tipo RNG, ignorato"
 msgid "'.Random.seed' has wrong length"
 msgstr "'.Random.seed' ha lunghezza errata"
 
-#: src/main/RNG.c:472
+#: src/main/RNG.c:463
+msgid "RNGkind: Marsaglia-Multicarry has poor statistical properties"
+msgstr "RNGkind: Marsaglia-Multicarry ha scarse proprietà statistiche"
+
+#: src/main/RNG.c:473
 #, c-format
 msgid "RNGkind: unimplemented RNG kind %d"
 msgstr "RNGkind: RNG di tipo %d non implementato"
 
 #: src/main/RNG.c:492
+msgid ""
+"RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-"
+"Multicarry"
+msgstr ""
+"RNGkind: severe deviazioni dalla normalità per Kinderman-Ramage + Marsaglia-"
+"Multicarry"
+
+#: src/main/RNG.c:495
+msgid ""
+"RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
+msgstr ""
+"RNGkind: deviazioni dalla normalità per Ahrens-Dieter + Marsaglia-Multicarry"
+
+#: src/main/RNG.c:499
 msgid "invalid Normal type in 'RNGkind'"
 msgstr "tipo Normal non valido in 'RNGkind'"
 
-#: src/main/RNG.c:495
+#: src/main/RNG.c:502
 msgid "'user_norm_rand' not in load table"
 msgstr "'user_norm_rand' non presente nella tavola di caricamento"
 
-#: src/main/RNG.c:510
+#: src/main/RNG.c:517
 msgid "invalid sample type in 'RNGkind'"
 msgstr "tipo campione non valido in 'RNGkind'"
 
-#: src/main/RNG.c:556
+#: src/main/RNG.c:563
 msgid "supplied seed is not a valid integer"
 msgstr "il seme indicato non è un numero intero valido"
 
@@ -4468,17 +4486,17 @@ msgid "top-level task callback did not return a logical value"
 msgstr ""
 "il processo callback di livello superiore non ha restituito un valore logico"
 
-#: src/main/mapply.c:58
+#: src/main/mapply.c:65
 msgid "zero-length inputs cannot be mixed with those of non-zero length"
 msgstr ""
 "gli input di lunghezza zero non possono essere mischiati con quelli di "
 "lunghezza differente"
 
-#: src/main/mapply.c:76
-msgid "argument 'MoreArgs' of 'mapply' is not a list"
-msgstr "l'argomento 'MoreArgs' di 'mapply' non è una lista"
+#: src/main/mapply.c:83
+msgid "argument 'MoreArgs' of 'mapply' is not a list or pairlist"
+msgstr "l'argomento 'MoreArgs' di 'mapply' non è una lista o un pairlist"
 
-#: src/main/mapply.c:113
+#: src/main/mapply.c:120
 msgid "longer argument not a multiple of length of shorter"
 msgstr ""
 "l'argomento più lungo non è un multiplo della lunghezza del più piccolo"
