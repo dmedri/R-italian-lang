@@ -8061,9 +8061,3 @@ msgstr "creazione fallita del file temporaneo per '-e'"
 #: src/unix/system.c:567
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "AVVERTIMENTO: Sarà modificato il primo file della lista"
-
-#~ msgid "could not allocate space for 'DllInfo'"
-#~ msgstr "non è possibile allocare spazio per 'DllInfo'"
-
-#~ msgid "non-empty data for zero-extent matrix"
-#~ msgstr "dati non-vuoti per la matrice a estensione zero"
