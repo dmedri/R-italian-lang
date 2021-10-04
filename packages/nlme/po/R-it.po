@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 msgid "not implemented for \"nlme\" objects"
 msgstr "non implementato per oggetti \"nlme\""
@@ -28,13 +28,13 @@ msgid "individual %s was not used in the fit"
 msgstr "il singolo %s non è stato utilizzato nell'adattamento"
 
 msgid "do not know how to calculate correlation matrix of %s object"
-msgstr "non si riesce a calcolare la matrice di correlazione dell'oggetto %s"
+msgstr "non è possibile calcolare la matrice di correlazione dell'oggetto %s"
 
 msgid "\"corStruct\" object must have a \"fixed\" attribute"
 msgstr "l'oggetto \"corStruct\" deve avere un attributo \"fixed\""
 
 msgid "do not know how to obtain parameters of %s object"
-msgstr "non si riesce ad ottenere i parametri dell'oggetto %s"
+msgstr "non è possibile ottenere i parametri dell'oggetto %s"
 
 msgid "cannot change the length of the parameter of a \"corStruct\" object"
 msgstr "non è possibile cambiare la lunghezza di un oggetto \"corStruct\""
@@ -54,7 +54,7 @@ msgstr ""
 "sono richiesti i dati per calcolare la covariata dell'oggetto \"corStruct\""
 
 msgid "cannot change the length of the parameter of a \"corSymm\" object"
-msgstr "non è possibile cambiare la lunghezza di oggetto \"corSymm\""
+msgstr "non è possibile cambiare la lunghezza di un oggetto \"corSymm\""
 
 msgid "covariate must have unique values within groups for \"corSymm\" objects"
 msgstr ""
@@ -225,7 +225,7 @@ msgid "terms can only be integers or characters"
 msgstr "i termini possono essere solo di tipo integer o character"
 
 msgid "data in %s call must evaluate to a data frame"
-msgstr ""
+msgstr "'data' nella chiamata %s deve valutare un data frame"
 
 msgid ""
 "%s without \"primary\" can only be used with fits of \"groupedData\" objects"
@@ -253,7 +253,7 @@ msgid "'nint' is not consistent with 'breaks'"
 msgstr "'nint' non è coerente con 'breaks'"
 
 msgid "Within-group std. dev. must be a positive numeric value"
-msgstr ""
+msgstr "La std.dev. interna al gruppo dev'essere un valore numerico positivo"
 
 msgid "'object' must be a formula"
 msgstr "'object' dev'essere una formula"
@@ -288,7 +288,7 @@ msgstr ""
 "\""
 
 msgid "first argument to 'groupedData' must be a two-sided formula"
-msgstr ""
+msgstr "il primo argomento di 'groupedData' dev'essere una formula a due lati"
 
 msgid "right-hand side of first argument must be a conditional expression"
 msgstr ""
@@ -302,7 +302,7 @@ msgid "only one level of grouping allowed"
 msgstr "ammesso solo un livello di raggruppamento"
 
 msgid "second argument to 'groupedData' must inherit from data.frame"
-msgstr ""
+msgstr "il secondo argomento di 'groupedData' deve ereditare da data.frame"
 
 msgid "first argument to 'nmGroupedData' must be a two-sided formula"
 msgstr ""
@@ -327,12 +327,14 @@ msgid "undefined display level %s for %s"
 msgstr "livello display %s non definito per %s"
 
 msgid "undefined collapsing level %s for %s"
-msgstr ""
+msgstr "livello di compressione non definito %s per %s"
 
 msgid ""
 "collapsing level cannot be smaller than display level; setting it to the "
 "display level"
 msgstr ""
+"il livello di compressione non può essere inferiore al livello di "
+"visualizzazione; viene impostato a quest'ultimo"
 
 msgid "'preserve' must be a two-sided formula"
 msgstr "'preserve' dev'essere una formula su due lati"
@@ -367,13 +369,13 @@ msgid "'data' in %s call must evaluate to a data frame"
 msgstr "'data' nella chiamata %s deve valutare un data frame"
 
 msgid "nonexistent groups requested in 'subset'"
-msgstr ""
+msgstr "gruppi inesistenti richiesti in 'subset'"
 
 msgid "'subset' can only be character or integer"
 msgstr "'subset' può solamente essere character o integer"
 
 msgid "log-likelihood not available with NULL fits"
-msgstr ""
+msgstr "log-verosomiglianza non disponibile con adattamenti NULL"
 
 msgid "'form' must be a formula"
 msgstr "'form' dev'essere una formula"
@@ -385,7 +387,7 @@ msgid "covariate must be a data frame"
 msgstr "la covariata dev'essere una data frame"
 
 msgid "cannot do pairs of just one variable"
-msgstr ""
+msgstr "non è possibile fare coppie di una sola variabile"
 
 msgid "'id' must be between 0 and 1"
 msgstr "'id' dev'essere tra 0 e 1"
@@ -413,6 +415,8 @@ msgstr "sono ammessi solo i residui e gli effetti casuali"
 
 msgid "can only fit \"lmList\" objects with single grouping variable"
 msgstr ""
+"si possono stimare solo oggetti \"lmList\" con una singola variabile di "
+"raggruppamento"
 
 msgid "'lme.lmList' will redefine 'data'"
 msgstr "'lme.lmList' ri-definirà 'data'"
@@ -426,18 +430,22 @@ msgstr ""
 "\""
 
 msgid "incompatible lengths for 'random' and grouping factors"
-msgstr ""
+msgstr "lunghezze incompatibili per fattori 'random' e di raggruppamento"
 
 msgid "incompatible formulas for groups in 'random' and 'correlation'"
-msgstr ""
+msgstr "formule incompatibili per i gruppi in 'random' e 'correlation'"
 
 msgid ""
 "cannot use smaller level of grouping for 'correlation' than for 'random'. "
 "Replacing the former with the latter."
 msgstr ""
+"non è possibile utilizzare un livello di raggruppamento per 'correlation' "
+"inferiore a 'random'. Si sostituisce il primo con il secondo."
 
 msgid "fewer observations than random effects in all level %s groups"
 msgstr ""
+"numero di osservazioni inferiore agli effetti casuali in tutti i gruppi di "
+"livello %s"
 
 msgid ""
 "%s problem, convergence error code = %s\n"
@@ -499,15 +507,18 @@ msgstr ""
 
 msgid "covariate must have a level attribute when 'id' is a formula"
 msgstr ""
+"la covariata deve avere un attributo di livello quando 'id' è una formula"
 
 msgid "covariate must have a level attribute when 'idLabels' is a formula"
 msgstr ""
+"la covariata deve avere un attributo di livello quando 'idLabels' è una "
+"formula"
 
 msgid "'form' must be a formula when not NULL"
 msgstr "'form' dev'essere una formula quando non NULL"
 
 msgid "only single effects allowed in left side of 'form'"
-msgstr ""
+msgstr "sono ammessi solo singoli effetti nella parte sinistra di 'form'"
 
 msgid "%s is not a valid effect name"
 msgstr "%s non è un valido nome effetto"
@@ -516,22 +527,22 @@ msgid "no effects allowed in right side of formula"
 msgstr "non sono ammessi effetti nel lato destro della formula"
 
 msgid "cannot evaluate groups for desired levels on 'newdata'"
-msgstr ""
+msgstr "non è possibile valutare i gruppi per i livelli richiesti su 'newdata'"
 
 msgid "'Id' must be between 0 and 1"
 msgstr "'Id' dev'essere tra 0 e 1"
 
 msgid "augmentation of random effects only available for single level"
-msgstr ""
+msgstr "aumento degli effetti casuali disponibile solo per livello singolo"
 
 msgid "no condensed linear model"
-msgstr ""
+msgstr "nessun modello lineare condensato"
 
 msgid "no fitted \"lme\" object"
 msgstr "nessun oggetto adattato \"lme\""
 
 msgid "objects must have coefficients with same row names"
-msgstr ""
+msgstr "gli oggetti devono avere coefficienti con gli stessi nomi di riga"
 
 msgid "object must inherit from \"data.frame\""
 msgstr "l'oggetto deve ereditare dalla classe \"data.frame\""
@@ -558,7 +569,7 @@ msgid "'FUN' can only be a function or a list of functions"
 msgstr "'FUN' può essere solo una funzione o una lista di funzioni"
 
 msgid "cannot omit grouping factor without 'form'"
-msgstr ""
+msgstr "non è possibile omettere il fattore di raggruppamento senza 'form'"
 
 msgid "object must inherit from class \"lmList\""
 msgstr "l'oggetto deve ereditare dalla classe \"lmList\""
@@ -589,7 +600,7 @@ msgid "at least two coefficients are needed"
 msgstr "almeno due coefficienti sono richiesti"
 
 msgid "no model variogram available with 'showModel = TRUE'"
-msgstr ""
+msgstr "nessun variogramma di modello disponibile con 'showModel = TRUE'"
 
 msgid "only residuals allowed"
 msgstr "sono ammessi solo i residui"
@@ -620,20 +631,24 @@ msgstr "'fixed' dev'essere una formula o una lista di formule"
 
 msgid "formulae in 'fixed' must be of the form \"parameter ~ expr\""
 msgstr ""
+"le formule in 'fixed' devono essere nella forma \"parametro ~ espressione\""
 
 msgid "'random' must be a formula or list of formulae"
 msgstr "'random' dev'essere una formula o una lista di formule"
 
 msgid "formulae in 'random' must be of the form \"parameter ~ expr\""
 msgstr ""
+"le formule in 'random' devono essere nella forma \"parametro ~ espressione\""
 
 msgid "incompatible formulas for groups in \"random\" and \"correlation\""
-msgstr ""
+msgstr "formule incompatibili per i gruppi in \"random\" e \"correlation\""
 
 msgid ""
 "cannot use smaller level of grouping for \"correlation\" than for \"random"
 "\". Replacing the former with the latter."
 msgstr ""
+"non è possibile utilizzare un livello di raggruppamento per \"correlation\" "
+"inferiore a \"random\". Si sostituisce il primo con il secondo."
 
 msgid "'start' must have a component called 'fixed'"
 msgstr "'start' deve avere una componente chiamata 'fixed'"
@@ -664,6 +679,8 @@ msgstr ""
 
 msgid "starting values for random effects must include group levels"
 msgstr ""
+"i valori iniziali per gli effetti casuali devono includere i livelli di "
+"gruppo"
 
 msgid ""
 "groups levels mismatch in 'random' and starting values for 'random' at level "
@@ -693,7 +710,7 @@ msgid "second argument must be a groupedData object"
 msgstr "il secondo argomento dev'essere un oggetto groupedData"
 
 msgid "cannot use an anonymous function for the model"
-msgstr ""
+msgstr "non è possibile utilizzare una funzione anonima per il modello"
 
 msgid ""
 "'data' must be a \"groupedData\" object if 'formula' does not include groups"
@@ -734,7 +751,7 @@ msgid "dimnames of 'value' must match or be NULL"
 msgstr "i nomi delle dimensioni di 'value' devono corrispondere o essere NULL"
 
 msgid "names of 'value' are not consistent with 'nam' argument"
-msgstr ""
+msgstr "i nomi di 'value' non sono coerenti con l'argomento 'nam'"
 
 msgid "%s is not a valid object for \"pdMat\""
 msgstr "%s non è un valido oggetto per \"pdMat\""
@@ -751,12 +768,15 @@ msgstr "'form' non coerente con 'nam'"
 
 msgid "length of 'nam' not consistent with dimensions of initial value"
 msgstr ""
+"la lunghezza di 'nam' non è coerente con le dimensioni del valore iniziale"
 
 msgid "no default method for extracting the square root of a \"pdMat\" object"
 msgstr ""
+"nessun metodo predefinito per estrarre la radice quadrata di un oggetto "
+"\"pdMat\""
 
 msgid "do not know how to obtain constrained coefficients"
-msgstr ""
+msgstr "non è possibile ottenere coefficienti vincolati"
 
 msgid ""
 "cannot access the number of columns of uninitialized objects without names"
@@ -769,6 +789,7 @@ msgstr ""
 
 msgid "cannot change dimensions on an initialized \"pdMat\" object"
 msgstr ""
+"non si possono cambiare le dimensioni su un oggetto \"pdMat\" inizializzato"
 
 msgid "Length of names should be %d"
 msgstr "La lunghezza dei nomi dovrebbe essere %d"
@@ -833,7 +854,7 @@ msgid "cannot obtain constrained coefficients with uninitialized dimensions"
 msgstr ""
 
 msgid "cannot access the matrix of object without names"
-msgstr ""
+msgstr "non si può accedere alla matrice dell'oggetto senza nomi"
 
 msgid "'form' must be a list"
 msgstr "'form' dev'essere una lista"
@@ -869,7 +890,7 @@ msgid "cannot have duplicated column names in a \"pdMat\" object"
 msgstr ""
 
 msgid "must have formula when no names are given"
-msgstr ""
+msgstr "bisogna avere una formula quando non vengono indicati nomi"
 
 msgid "must give names when initializing from matrix or parameter"
 msgstr ""
@@ -887,6 +908,8 @@ msgstr ""
 
 msgid "cannot change parameter length of initialized \"pdMat\" object"
 msgstr ""
+"non si può cambiare il parametro lunghezza di un oggetto \"pdMat\" "
+"inizializzato"
 
 msgid "all elements must have formulas when any has a formula"
 msgstr "tutti gli elementi devono avere formule quando ne esiste una"
@@ -897,7 +920,7 @@ msgid ""
 msgstr ""
 
 msgid "cannot change the number of columns on an initialized object"
-msgstr ""
+msgstr "non si può cambiare il numero di colonne di un oggetto inizializzato"
 
 msgid "names of object and value must match"
 msgstr "i nomi dell'oggetto e del valore devono corrispondere"
@@ -912,26 +935,28 @@ msgid "\"pdMat\" elements must have a formula"
 msgstr "gli elementi \"pdMat\" devono avere una formula"
 
 msgid "elements in 'object' must be formulas or \"pdMat\" objects"
-msgstr ""
+msgstr "gli elementi in 'object' devono essere formule o oggetti \"pdMat\""
 
 msgid "cannot change the parameter when ength of parameters is undefined"
 msgstr ""
+"non si può cambiare il parametro quando la lunghezza dei parametri non è "
+"definita"
 
 msgid "cannot change parameter length of initialized objects"
-msgstr ""
+msgstr "non si può cambiare il parametro lunghezza degli oggetti inizializzati"
 
 msgid "cannot extract groups formula without a formula"
-msgstr ""
+msgstr "non è possibile estrarre i gruppi senza una formula"
 
 msgid "all elements of a \"reStruct\" object must have a non-zero size"
 msgstr ""
 "tutti gli elementi di un oggetto \"reStruct\" deve avere un lato non-zero"
 
 msgid "cannot change the length of 'object'"
-msgstr "non è possibile cambiare la lunghezza di 'object'"
+msgstr "non si può cambiare la lunghezza di 'object'"
 
 msgid "cannot extract model matrix without formula"
-msgstr ""
+msgstr "non si può estrarre la matrice del modello senza una formula"
 
 msgid "incompatible lengths for object names"
 msgstr "lunghezze non compatibili per i nomi degli oggetti"
@@ -944,13 +969,13 @@ msgstr ""
 "i gruppi"
 
 msgid "models with \"corStruct\" and/or \"varFunc\" objects not allowed"
-msgstr ""
+msgstr "non sono ammessi modelli con \"corStruct\" e/o \"varFunc\""
 
 msgid "no degrees of freedom specified"
 msgstr "gradi di libertà non specificati"
 
 msgid "plot method only implemented for comparing models"
-msgstr ""
+msgstr "metodo di plot implementato unicamente per la comparazione di modelli"
 
 msgid "degrees of freedom and weights must have the same length"
 msgstr "i gradi di libertà e i pesi devono avere la medesima lunghezza"
@@ -970,7 +995,7 @@ msgid "cannot extract parameters of uninitialized object"
 msgstr "non è possibile estrarre i parametri da un oggetto non inizializzato"
 
 msgid "do not know how to get coefficients for %s object"
-msgstr ""
+msgstr "non si possono ottenere i coefficienti per l'oggetto %s"
 
 msgid "cannot change the length of covariate in \"varFunc\" object"
 msgstr ""
@@ -1020,10 +1045,10 @@ msgid "nonexistent group names for initial values in 'varIdent'"
 msgstr ""
 
 msgid "initial values must have group names in 'varPower'"
-msgstr ""
+msgstr "i valori iniziali devono avere i nomi dei gruppi in 'varPower'"
 
 msgid "fixed parameters must have group names in 'varPower'"
-msgstr ""
+msgstr "i parametri fissati devono avere nomi di gruppo in 'varPower'"
 
 msgid ""
 "cannot change the length of the \"varStruct\" parameter after initialization"
@@ -1035,40 +1060,41 @@ msgid ""
 msgstr ""
 
 msgid "fixed parameters must have group names"
-msgstr "i parametri fissi devono avere nomi di gruppo"
+msgstr "i parametri fissati devono avere nomi di gruppo"
 
 msgid "mismatch between group names and fixed values names"
 msgstr ""
+"mancata corrispondenza tra i nomi dei gruppi e i nomi dei valori fissati"
 
 msgid "initial value for \"varPower\" should be of length %d"
 msgstr "il valore iniziale per \"varPower\" dovrebbe essere di lunghezza %d"
 
 msgid "nonexistent group names for initial values in \"varPower\""
-msgstr ""
+msgstr "nomi dei gruppi inesistenti per i valori iniziali in \"varPower\""
 
 msgid "initial value for \"varPower\" should be of length 1"
-msgstr ""
+msgstr "il valore iniziale per \"varPower\" dovrebbe essere di lunghezza 1"
 
 msgid "initial values must have group names in 'varExp'"
-msgstr ""
+msgstr "i valori iniziali devono avere i nomi dei gruppi in 'varExp'"
 
 msgid "fixed parameters must have group names in 'varExp'"
-msgstr ""
+msgstr "i parametri fissati devono avere nomi di gruppo in 'varExp'"
 
 msgid ""
 "cannot change the length of the \"varExp\" parameter after initialization"
 msgstr ""
-"non è possibile cambiare la lunghezza del parametro \"varExp\" dopo "
+"non è può cambiare la lunghezza del parametro \"varExp\" dopo "
 "l'inizializzazione"
 
 msgid "initial value for \"varExp\" should be of length %d"
 msgstr "il valore iniziale per \"varExp\" dovrebbe essere di lunghezza %d"
 
 msgid "nonexistent group names for initial values in \"varExp\""
-msgstr ""
+msgstr "nomi dei gruppi inesistenti per i valori iniziali in \"varExp\""
 
 msgid "initial value for \"varExp\" should be of length 1"
-msgstr ""
+msgstr "il valore iniziale per \"varExp\" dovrebbe essere di lunghezza 1"
 
 msgid "%s can have at most two components"
 msgstr "%s può avere al massimo due componenti"
@@ -1083,13 +1109,13 @@ msgid "%s must have group names in 'varConstPower'"
 msgstr "%s deve avere nomi di gruppo in 'varConstPower'"
 
 msgid "constant in \"varConstPower\" structure must be > 0"
-msgstr ""
+msgstr "la costante nella struttura \"varConstPower\" dev'essere > 0"
 
 msgid "initial value should be of length %d"
-msgstr ""
+msgstr "il valore iniziale dovrebbe essere di lunghezza %d"
 
 msgid "nonexistent group names for initial values"
-msgstr ""
+msgstr "nomi dei gruppi inesistenti per i valori iniziali"
 
 msgid "all arguments to 'varComb' must be of class \"varFunc\"."
 msgstr ""
@@ -1097,6 +1123,8 @@ msgstr ""
 
 msgid "cannot change parameter length of initialized \"varComb\" object"
 msgstr ""
+"non è possibile cambiare il parametro lunghezza di un oggetto \"varComb\" "
+"inizializzato"
 
 msgid "Package"
 msgstr "Pacchetto"
