@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 msgid "bam can not discretize with this nesting structure"
 msgstr "bam non può discretizzare con questa struttura nidificata"
@@ -44,7 +44,7 @@ msgid "algorithm did not converge"
 msgstr "l'algoritmo non converge"
 
 msgid "fitted probabilities numerically 0 or 1 occurred"
-msgstr ""
+msgstr "sono occorse probabilità stimate con valori 0 o 1"
 
 msgid "fitted rates numerically 0 occurred"
 msgstr "sono occorsi tassi adattati numericamente 0"
@@ -93,7 +93,7 @@ msgid "chunk.size < number of coefficients. Reset to %d"
 msgstr "chunk.size < numero di coefficienti. Reimpostata a %d"
 
 msgid "unknown tensor constraint type"
-msgstr ""
+msgstr "tipo di vincolo tensor sconosciuto"
 
 msgid "constraints for sub blocked tensor products un-tested"
 msgstr ""
@@ -179,7 +179,7 @@ msgstr ""
 "\"logit\", \"probit\", \"cloglog\" e \"cauchit\""
 
 msgid "saturated likelihood may be inaccurate"
-msgstr ""
+msgstr "la verosimiglianza satura potrebbe non essere accurata"
 
 msgid ""
 "link not available for scaled t distribution; available links are \"identity"
@@ -422,7 +422,7 @@ msgid "indefinite penalized likelihood in gam.fit5"
 msgstr "probabilità penalizzata indefinita in gam.fit5"
 
 msgid "step failed: max abs grad ="
-msgstr ""
+msgstr "passo fallito: max abs grad ="
 
 msgid "iteration limit reached: max abs grad = %g"
 msgstr "limite di iterazione raggiunto: max abs grad =%g"
@@ -1016,7 +1016,7 @@ msgid "w different length from y!"
 msgstr "con lunghezza differente da y!"
 
 msgid "X lost dimensions in magic!!"
-msgstr ""
+msgstr "X ha perso le dimensioni in magic!!"
 
 msgid "mu dimensions wrong"
 msgstr "dimensioni di mu errate"
@@ -1098,7 +1098,7 @@ msgid "No terms to plot - nothing for plot.gam() to do."
 msgstr "Nessun termin per il plot - niente da fare per plot.gam()."
 
 msgid "grid vectors are different lengths"
-msgstr ""
+msgstr "i vettori griglia hanno lunghezze differenti"
 
 msgid "data vectors are of different lengths"
 msgstr "i vettori dei dati hanno differenti lunghezze"
@@ -1206,7 +1206,7 @@ msgid "argument k of s() should be integer and has been rounded"
 msgstr "l'argomento k di s() dovrebbe essere intero ed è stato arrotondato"
 
 msgid "matrices must be all class dgCMatrix or all class matrix"
-msgstr ""
+msgstr "le matrici devono essere tutte di classe dgCMatrix o classe matrice"
 
 msgid "attempt to use unsuitable marginal smooth class"
 msgstr "tentato utilizzo di una classe uniforme marginale non adatta"
