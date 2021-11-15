@@ -1,14 +1,14 @@
 # R Italian translation                                                                    
 # This file is distributed under the same license as the R package.
 # Copyright (C) The R Foundation.
-# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+# Daniele Medri <dmedri@gmail.com>, 2005-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nlme 3.1-152\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-13 09:56+0100\n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: nlme 3.1-153\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2021-02-12 09:19+0000\n"
+"PO-Revision-Date: 2021-11-15 19:08\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -34,39 +34,39 @@ msgstr "Classe di correlazione spaziale sconosciuta"
 msgid "First observation on an individual must have a dose"
 msgstr "La prima osservazione su un individuo deve avere un dosaggio"
 
-#: nlmefit.c:420
+#: nlmefit.c:424
 #, c-format
 msgid "Singularity in backsolve at level %ld, block %ld"
 msgstr "Singolarità in backsolve a livello %ld, blocco %ld"
 
-#: nlmefit.c:460
+#: nlmefit.c:464
 #, c-format
 msgid ""
 "Too many parameters for finite-difference Hessian; npar = %d, nTot = %g."
 msgstr ""
 "Troppi parametri per una differenza-finita Hessian; npar = %d, nTot = %g."
 
-#: nlmefit.c:571 nlmefit.c:752
+#: nlmefit.c:575 nlmefit.c:756
 msgid "Overfitted model!"
-msgstr "Modello overfitted!"
+msgstr "Modello sovra-adattato!"
 
-#: nlmefit.c:597
+#: nlmefit.c:601
 msgid "analytic gradient is not available with matrix logarithm"
 msgstr ""
 "il gradiente analitico non è disponibile con il logaritmo della matrice"
 
-#: nlmefit.c:620
+#: nlmefit.c:624
 msgid "analytic gradient is not available with compound symmetry"
 msgstr "il gradiente analitico non è disponibile con simmetria composta"
 
-#: nlmefit.c:913
+#: nlmefit.c:917
 #, c-format
 msgid "Unable to form eigenvalue-eigenvector decomposition [RS(.) ierr = %d]"
 msgstr ""
 "Non è possibile formare una decomposizione eigenvalue-eigenvector [RS(.) "
 "ierr = %d]"
 
-#: nlmefit.c:945
+#: nlmefit.c:949
 #, c-format
 msgid ""
 "Unable to form Cholesky decomposition: the leading minor of order %d is not "
@@ -75,6 +75,6 @@ msgstr ""
 "Non è possibile formare la decomposizione di Cholesky: il minore principale "
 "dell'ordine %d non è pos.def."
 
-#: nlmefit.c:977
+#: nlmefit.c:981
 msgid "Haven't written the compound symmetry case for this yet"
 msgstr "Non ho ancora scritto il caso della simmetria composta per questo"

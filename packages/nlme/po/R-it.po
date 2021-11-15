@@ -1,14 +1,14 @@
 # R Italian translation                                                                    
 # This file is distributed under the same license as the R package.
 # Copyright (C) The R Foundation.
-# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+# Daniele Medri <dmedri@gmail.com>, 2005-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nlme 3.1-152\n"
+"Project-Id-Version: nlme 3.1-153\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2020-04-13 09:56\n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: 2021-02-12 09:19\n"
+"PO-Revision-Date: 2021-11-15 19:13\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -26,6 +26,14 @@ msgstr "non implementato per annidamenti con più livelli"
 
 msgid "individual %s was not used in the fit"
 msgstr "il singolo %s non è stato utilizzato nell'adattamento"
+
+msgid "not implemented for uncorrelated errors"
+msgstr "non implementato per errori non correlati"
+
+msgid "not implemented for correlation structures without a grouping factor"
+msgstr ""
+"non implementato per strutture di correlazione senza un fattore di "
+"raggruppamento"
 
 msgid "do not know how to calculate correlation matrix of %s object"
 msgstr "non è possibile calcolare la matrice di correlazione dell'oggetto %s"
@@ -888,6 +896,7 @@ msgstr "tutti gli elementi nell'argomento devono generare oggetti \"pdMat\""
 
 msgid "cannot have duplicated column names in a \"pdMat\" object"
 msgstr ""
+"non è possibile avere una colonna nomi duplicata in un oggetto \"pdMat\""
 
 msgid "must have formula when no names are given"
 msgstr "bisogna avere una formula quando non vengono indicati nomi"
@@ -905,6 +914,8 @@ msgstr "tutti gli elementi devono avere un lato non-zero"
 
 msgid "cannot change the parameter when length of parameters is undefined"
 msgstr ""
+"non è possibile cambiare il parametro quando la lunghezza dei parametri è "
+"indefinita"
 
 msgid "cannot change parameter length of initialized \"pdMat\" object"
 msgstr ""
@@ -1015,7 +1026,7 @@ msgid "all variables used in 'formula' must be in 'data'"
 msgstr "tutte le variabili utilizzate nella 'formula' devono essere in 'data'"
 
 msgid "initial values must have group names in 'varIdent'"
-msgstr ""
+msgstr "i valori iniziali devono avere i nomi dei gruppi in 'varIdent'"
 
 msgid "initial values for 'varIdent' must be > 0"
 msgstr "i valori iniziali per 'varIdent' devono essere > 0"
@@ -1108,14 +1119,20 @@ msgstr "%s può essere solamente una lista o un valore numerico"
 msgid "%s must have group names in 'varConstPower'"
 msgstr "%s deve avere nomi di gruppo in 'varConstPower'"
 
-msgid "constant in \"varConstPower\" structure must be > 0"
-msgstr "la costante nella struttura \"varConstPower\" dev'essere > 0"
+msgid "constant in \"varConstProp\" structure must be > 0"
+msgstr "la costante nella struttura \"varConstProp\" dev'essere > 0"
 
 msgid "initial value should be of length %d"
 msgstr "il valore iniziale dovrebbe essere di lunghezza %d"
 
 msgid "nonexistent group names for initial values"
 msgstr "nomi dei gruppi inesistenti per i valori iniziali"
+
+msgid "%s can only have names \"const\" and \"prop\""
+msgstr "%s può avere solo nomi \"const\" e \"prop\""
+
+msgid "%s must have group names in 'varConstProp'"
+msgstr "%s deve avere nomi di gruppo in 'varConstProp'"
 
 msgid "all arguments to 'varComb' must be of class \"varFunc\"."
 msgstr ""
