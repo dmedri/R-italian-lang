@@ -1,14 +1,14 @@
 # R Italian translation                                                                                          
 # Copyright (C) The R Foundation
 # This file is distributed under the same license as the R package.
-# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+# Daniele Medri <dmedri@gmail.com>, 2005-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R-rpart\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-29 07:06-0700\n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: rpart 4.1-15\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2015-01-16 07:53\n"
+"PO-Revision-Date: 2021-11-15 19:22+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,22 +16,60 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
-
-msgid "'cptable' does not contain cross-validation results"
-msgstr "'cptable' non contiene i risultati della cross-validation"
-
-msgid "'parms' component not matched: %s"
-msgstr "il componente 'parms' non corrisponde: %s"
+"X-Generator: Poedit 2.4.2\n"
 
 msgid "'x' must be a numeric vector"
 msgstr "'x' dev'essere un vettore numerico"
 
+msgid "Not a legitimate \"rpart\" object"
+msgstr "Non è un oggetto \"rpart\" legittimo"
+
+msgid "Plot not useful for classification or poisson trees"
+msgstr "Plot non utile per la classificazione o gli alberi di Poisson"
+
+msgid "fit is not a tree, just a root"
+msgstr "l'adattamento non è un albero, giusto una radice"
+
+msgid "'cptable' does not contain cross-validation results"
+msgstr "'cptable' non contiene i risultati della cross-validation"
+
+msgid "Tree has variables not found in new data"
+msgstr "L'albero ha variabili non trovate nei nuovi dati"
+
+msgid "type 'class' is only appropriate for classification"
+msgstr "il tipo 'class' è appropriato unicamente per la classificazione"
+
+msgid "Invalid prediction for \"rpart\" object"
+msgstr "Previsione non valida per l'oggetto \"rpart\""
+
 msgid "'x' must be an \"rpart\" object"
 msgstr "'x' dev'essere un oggetto \"rpart\""
 
+msgid "Invalid type of residual"
+msgstr "Tipo residui non valido"
+
+msgid "Not legitimate \"rpart\" tree and endpoint not a 2 level-factor"
+msgstr ""
+"Non è un albero \"rpart\" legittimo e l'endpoint non ha un fattore a 2 "
+"livelli"
+
+msgid "a 'formula' argument is required"
+msgstr "un argomento 'formula' è richiesto"
+
+msgid "Trees cannot handle interaction terms"
+msgstr "Gli alberi non possono gestire i termini di interazione"
+
+msgid "negative weights not allowed"
+msgstr "pesi negativi non ammessi"
+
+msgid "Invalid method"
+msgstr "Metodo non valido"
+
 msgid "Argument %s not matched"
 msgstr "L'argomento %s non corrisponde"
+
+msgid "Wrong length for 'xval'"
+msgstr "Lunghezza errata per 'xval'"
 
 msgid "Cost vector is the wrong length"
 msgstr "Il vettore di costo è di lunghezza errata"
@@ -42,29 +80,34 @@ msgstr "Il vettore di costo dev'essere positivo"
 msgid "Initialization routine is missing the 'summary' function"
 msgstr "Nella routine di inizializzazione manca la funzione 'summary'"
 
-msgid "Invalid error method for Poisson"
-msgstr "Metodo di errore non valido per Poisson"
+msgid "no information available on parameters from previous call to plot()"
+msgstr ""
+"nessuna informazione disponibile sui parametri dalla precedente chiamata a "
+"plot()"
 
-msgid "Invalid fit object"
-msgstr "Oggetto adattamento non valido"
+msgid "No offset allowed in classification models"
+msgstr "Non è ammesso alcun offset nei modelli di classificazione"
 
-msgid "Invalid method"
-msgstr "Metodo non valido"
+msgid "The parms list must have names"
+msgstr "La lista dei parametri deve avere nomi"
 
-msgid "Invalid prediction for \"rpart\" object"
-msgstr "Previsione non valida per l'oggetto \"rpart\""
+msgid "'parms' component not matched: %s"
+msgstr "il componente 'parms' non corrisponde: %s"
 
-msgid "Invalid return from categorical 'split' function"
-msgstr "Restituzione non valida dalla funzione di 'split' categorica"
+msgid "Priors must sum to 1"
+msgstr "I priori devono sommare 1"
 
-msgid "Invalid shrinkage value"
-msgstr "Valore di restringimento non valido"
+msgid "Priors must be >= 0"
+msgstr "I priori devono essere >= 0"
 
-msgid "Invalid splitting rule"
-msgstr "Regola di suddivisione non valida"
+msgid "Wrong length for priors"
+msgstr "Lunghezza errata per i priori"
 
-msgid "Invalid type of residual"
-msgstr "Tipo di residuo non valido"
+msgid "Wrong length for loss matrix"
+msgstr "Lunghezza errata per la matrice di perdita"
+
+msgid "Loss matrix must have zero on diagonals"
+msgstr "La matrice di perdita deve avere degli zero sulle diagonali"
 
 msgid "Loss matrix cannot have negative elements"
 msgstr "La matrice di perdita non può avere elementi negativi"
@@ -72,72 +115,27 @@ msgstr "La matrice di perdita non può avere elementi negativi"
 msgid "Loss matrix has a row of zeros"
 msgstr "La matrice di perdita ha una riga di zeri"
 
-msgid "Loss matrix must have zero on diagonals"
-msgstr "La matrice di perdita deve avere degli zero sulle diagonali"
-
-msgid "Maximum depth is 30"
-msgstr "La profondità massima è 30"
-
-msgid "Maximum depth must be at least 1"
-msgstr "La profondità massima dev'essere almeno 1"
-
-msgid "No deaths in data set"
-msgstr "Nessun decesso nel dataset"
-
-msgid "No offset allowed in classification models"
-msgstr "Non è ammesso alcun offset nei modelli di classificazione"
-
-msgid "Nodes %s are not in this tree"
-msgstr "I nodi %s non si trovano in questo albero"
-
-msgid "Not a legitimate \"rpart\" object"
-msgstr "Non è un oggetto \"rpart\" legittimo"
-
-msgid "Not an \"rpart\" object"
-msgstr "Non è un oggetto \"rpart\""
-
-msgid "Not legitimate \"rpart\" tree and endpoint not a 2 level-factor"
-msgstr ""
-"Non è un albero \"rpart\" legittimo e l'endpoint non ha un fattore a 2 "
-"livelli"
-
-msgid "Number of events must be >= 0"
-msgstr "Il numero di eventi dev'essere >= 0"
-
-msgid "Observation time must be > 0"
-msgstr "Il tempo di osservazione dev'essere > 0"
+msgid "Invalid splitting rule"
+msgstr "Regola di suddivisione non valida"
 
 msgid "Parameter argument must be a list"
 msgstr "L'argomento parametro dev'essere una lista"
-
-msgid "Plot not useful for classification or poisson trees"
-msgstr "Plot non utile per la classificazione o gli alberi di Poisson"
-
-msgid "Priors must be >= 0"
-msgstr "I priori devono essere >= 0"
-
-msgid "Priors must sum to 1"
-msgstr "I priori devono sommare 1"
-
-msgid "Response must be a 'survival' object - use the 'Surv()' function"
-msgstr ""
-"La risposta dev'essere un oggetto 'survival' - si utilizzi la funzione "
-"'Surv()'"
-
-msgid "The parms list must have names"
-msgstr "La lista dei parametri deve avere nomi"
 
 msgid "The value of 'maxcompete' supplied is < 0; the value 0 was used instead"
 msgstr ""
 "Il valore di 'maxcompete' passato è < 0; al suo posto è stato utilizzato il "
 "valore 0"
 
-msgid ""
-"The value of 'surrogatestyle' supplied was out of range, the default value "
-"of 0 is used instead."
+msgid "The value of 'xval' supplied is < 0; the value 0 was used instead"
 msgstr ""
-"Il valore di 'surrogatestyle' passato era fuori intervallo, al suo posto è "
-"stato utilizzato il valore predefinito 0."
+"Il valore di 'xval' passato è < 0; al suo posto è stato utilizzato il valore "
+"0"
+
+msgid "Maximum depth is 30"
+msgstr "La profondità massima è 30"
+
+msgid "Maximum depth must be at least 1"
+msgstr "La profondità massima dev'essere almeno 1"
 
 msgid ""
 "The value of 'usesurrogate' supplied was out of range, the default value of "
@@ -146,29 +144,44 @@ msgstr ""
 "Il valore di 'useurrogate' passato era fuori intervallo, al suo posto è "
 "stato utilizzato il valore predefinito 2."
 
-msgid "The value of 'xval' supplied is < 0; the value 0 was used instead"
+msgid ""
+"The value of 'surrogatestyle' supplied was out of range, the default value "
+"of 0 is used instead."
 msgstr ""
-"Il valore di 'xval' passato è < 0; al suo posto è stato utilizzato il valore "
-"0"
+"Il valore di 'surrogatestyle' passato era fuori intervallo, al suo posto è "
+"stato utilizzato il valore predefinito 0."
 
-msgid "Tree has variables not found in new data"
-msgstr "L'albero ha variabili non trovate nei nuovi dati"
-
-msgid "Trees cannot handle interaction terms"
-msgstr "Gli alberi non possono gestire i termini di interazione"
-
-msgid "User 'eval' function returned invalid deviance"
-msgstr "La funzione 'eval' dell'utente ha restituito una deviazione non valida"
-
-msgid "User 'eval' function returned invalid label"
-msgstr "La funzione 'eval' dell'utente ha restituito un'etichetta non valida"
-
-msgid "User 'split' function returned invalid direction"
-msgstr "La funzione 'split' dell'utente ha restituito una direzione non valida"
-
-msgid "User 'split' function returned invalid goodness"
+msgid "Response must be a 'survival' object - use the 'Surv()' function"
 msgstr ""
-"La funzione 'split' dell'utente ha restituito un valore goodness non valido"
+"La risposta dev'essere un oggetto 'survival' - si utilizzi la funzione "
+"'Surv()'"
+
+msgid "Observation time must be > 0"
+msgstr "Il tempo di osservazione dev'essere > 0"
+
+msgid "No deaths in data set"
+msgstr "Nessun decesso nel dataset"
+
+msgid "You must input a named list for parms"
+msgstr "E' necessaria una lista nominata di parametri"
+
+msgid "Invalid error method for Poisson"
+msgstr "Metodo di errore non valido per Poisson"
+
+msgid "Invalid shrinkage value"
+msgstr "Valore di restringimento non valido"
+
+msgid "response must be a 2 column matrix or a vector"
+msgstr "la risposta dev'essere una matrice a 2 colonne o un vettore"
+
+msgid "Number of events must be >= 0"
+msgstr "Il numero di eventi dev'essere >= 0"
+
+msgid "User written methods must have 3 functions"
+msgstr "I metodi scritti dall'utente devono avere 3 funzioni"
+
+msgid "User written method does not contain an 'init' function"
+msgstr "Il metodo scritto dall'utente non contiene una funzione di 'init'"
 
 msgid "User written method does not contain a 'split' function"
 msgstr "Il metodo scritto dall'utente non contiene una funzione di 'split'"
@@ -176,52 +189,39 @@ msgstr "Il metodo scritto dall'utente non contiene una funzione di 'split'"
 msgid "User written method does not contain an 'eval' function"
 msgstr "Il metodo scritto dall'utente non contiene una funzione di 'eval'"
 
-msgid "User written method does not contain an 'init' function"
-msgstr "Il metodo scritto dall'utente non contiene una funzione di 'init'"
+msgid "User 'eval' function returned invalid label"
+msgstr "La funzione 'eval' dell'utente ha restituito un'etichetta non valida"
 
-msgid "User written methods must have 3 functions"
-msgstr "I metodi scritti dall'utente devono avere 3 funzioni"
+msgid "User 'eval' function returned invalid deviance"
+msgstr "La funzione 'eval' dell'utente ha restituito una deviazione non valida"
 
-msgid "Wrong length for 'xval'"
-msgstr "Lunghezza errata per 'xval'"
+msgid "Invalid return from categorical 'split' function"
+msgstr "Restituzione non valida dalla funzione di 'split' categorica"
 
-msgid "Wrong length for loss matrix"
-msgstr "Lunghezza errata per la matrice di perdita"
+msgid "User 'split' function returned invalid goodness"
+msgstr ""
+"La funzione 'split' dell'utente ha restituito un valore goodness non valido"
 
-msgid "Wrong length for priors"
-msgstr "Lunghezza errata per i priori"
-
-msgid "You must input a named list for parms"
-msgstr "E' necessaria una lista nominata di parametri"
-
-msgid "a 'formula' argument is required"
-msgstr "un argomento 'formula' è richiesto"
-
-msgid "argument 'label' is no longer used"
-msgstr "l'argomento 'label' non è più utilizzato"
-
-msgid "fit is not a tree, just a root"
-msgstr "l'adattamento non è un albero, giusto una radice"
+msgid "User 'split' function returned invalid direction"
+msgstr "La funzione 'split' dell'utente ha restituito una direzione non valida"
 
 msgid "may not be applicable for this method"
 msgstr "potrebbe non essere applicabile per questo metodo"
 
-msgid "negative weights not allowed"
-msgstr "pesi negativi non ammessi"
+msgid "Not an \"rpart\" object"
+msgstr "Non è un oggetto \"rpart\""
 
-msgid "no information available on parameters from previous call to plot()"
-msgstr ""
-"nessuna informazione disponibile sui parametri dalla precedente chiamata a "
-"plot()"
+msgid "Nodes %s are not in this tree"
+msgstr "I nodi %s non si trovano in questo albero"
 
-msgid "response must be a 2 column matrix or a vector"
-msgstr "la risposta dev'essere una matrice a 2 colonne o un vettore"
+msgid "argument 'label' is no longer used"
+msgstr "l'argomento 'label' non è più utilizzato"
 
-msgid "supplied nodes %s are leaves"
-msgstr "i nodi passati %s sono foglie"
+msgid "Invalid fit object"
+msgstr "Oggetto adattamento non valido"
 
 msgid "supplied nodes %s are not in this tree"
 msgstr "i nodi passati %s non sono in questo albero"
 
-msgid "type 'class' is only appropriate for classification"
-msgstr "il tipo 'class' è appropriato unicamente per la classificazione"
+msgid "supplied nodes %s are leaves"
+msgstr "i nodi passati %s sono foglie"

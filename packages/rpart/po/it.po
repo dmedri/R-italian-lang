@@ -1,14 +1,14 @@
 # R Italian translation                                                                                          
 # Copyright (C) The R Foundation
 # This file is distributed under the same license as the R package.
-# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+# Daniele Medri <dmedri@gmail.com>, 2005-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: rpart\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-29 07:06-0700\n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: rpart 4.1-15\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2015-01-16 07:53+0000\n"
+"PO-Revision-Date: 2021-11-15 19:20\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,40 +16,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
-msgid "'nback' not found"
-msgstr "‘nback’ non trovato"
-
-msgid "'wback' not found"
-msgstr "‘wback’ non trovato"
-
-msgid "'xback' not found"
-msgstr "‘xback’ non trovato"
-
-msgid "'yback' not found"
-msgstr "‘yback’ non trovato"
-
-msgid "Invalid error rule"
-msgstr "Regola di errore non valida"
-
-msgid "Invalid event count"
-msgstr "Conteggio eventi non valido"
-
+#: poisson.c:34
 msgid "Invalid time point"
 msgstr "Punto temporale non valido"
 
-msgid "Invalid value for 'method'"
-msgstr "Valore non valido per 'metodo'"
+#: poisson.c:38
+msgid "Invalid event count"
+msgstr "Conteggio eventi non valido"
 
+#: poisson.c:68
+msgid "Invalid error rule"
+msgstr "Regola di errore non valida"
+
+#: rpart.c:91 xpred.c:89
+msgid "Invalid value for 'method'"
+msgstr "Valore non valido per 'method'"
+
+#: rpart.c:193
+msgid "unknown error"
+msgstr "errore sconosciuto"
+
+#: rpart_callback.c:46
+msgid "'yback' not found"
+msgstr "‘yback’ non trovato"
+
+#: rpart_callback.c:50
+msgid "'wback' not found"
+msgstr "‘wback’ non trovato"
+
+#: rpart_callback.c:54
+msgid "'xback' not found"
+msgstr "‘xback’ non trovato"
+
+#: rpart_callback.c:58
+msgid "'nback' not found"
+msgstr "‘nback’ non trovato"
+
+#: rpart_callback.c:104
 msgid "return value not a vector"
 msgstr "il valore restituito non è un vettore"
 
+#: rpart_callback.c:106
 msgid "returned value is the wrong length"
 msgstr "il valore restituito è di lunghezza errata"
 
+#: rpart_callback.c:138
 msgid "the expression expr1 did not return a vector!"
 msgstr "l'espressione expr1 non ha restituito un vettore!"
-
-msgid "unknown error"
-msgstr "errore sconosciuto"
