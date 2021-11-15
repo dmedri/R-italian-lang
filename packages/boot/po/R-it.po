@@ -1,12 +1,14 @@
 # R Italian translation                                                                    
 # This file is distributed under the same license as the R package.
 # Copyright (C) The R Foundation.
-# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+# Daniele Medri <dmedri@gmail.com>, 2005-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R-boot\n"
+"Project-Id-Version: boot 1.3-28\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2021-04-17 09:42\n"
+"PO-Revision-Date: 2021-11-15 16:08\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -14,27 +16,95 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.4.2\n"
 
-msgid "'K' has been set to %f"
-msgstr "'K' è stato impostato a %f"
+msgid ""
+"'simple=TRUE' is only valid for 'sim=\"ordinary\", stype=\"i\", n=0', so "
+"ignored"
+msgstr ""
+"'simple=TRUE' è valido solamente per 'sim=\"ordinary\", stype=\"i\", n=0', "
+"perciò è ignorato"
+
+msgid "no data in call to 'boot'"
+msgstr "dati assenti nella chiamata a 'boot'"
+
+msgid "negative value of 'm' supplied"
+msgstr "passato un valore negativo di 'm'"
+
+msgid "length of 'm' incompatible with 'strata'"
+msgstr "la lunghezza di 'm' è incompatibile con 'strata'"
+
+msgid "dimensions of 'R' and 'weights' do not match"
+msgstr "le dimensioni di 'R' e 'weights' non corrispondono"
+
+msgid "arguments are not all the same type of \"boot\" object"
+msgstr "gli argomenti non sono tutti del medesimo tipo dell'oggetto \"boot\""
+
+msgid "index array not defined for model-based resampling"
+msgstr "array di indici non definito per il ricampionamento basato su modello"
+
+msgid "boot.array not implemented for this object"
+msgstr "boot.array non implementato per questo oggetto"
+
+msgid "array cannot be found for parametric bootstrap"
+msgstr "l'array non può essere trovato per il bootstrap parametrico"
+
+msgid "%s distribution not supported: using normal instead"
+msgstr "Distribuzione %s non supportata: sarà utilizzata la normale"
+
+msgid "unknown type of \"boot\" object"
+msgstr "tipo di oggetto \"boot\" sconosciuto"
+
+msgid "only first element of 'index' used"
+msgstr "è utilizzata solo il primo elemento di 'index'"
 
 msgid "'K' outside allowable range"
 msgstr "'K' è fuori dall'intervallo ammesso"
 
-msgid "'R' and 'alpha' have incompatible lengths"
-msgstr "'R' e 'alpha' hanno lunghezze incompatibili"
+msgid "'K' has been set to %f"
+msgstr "'K' è stato impostato a %f"
 
-msgid "'R' and 'theta' have incompatible lengths"
-msgstr "'R' e 'theta' hanno lunghezze incompatibili"
+msgid "'t' and 't0' must be supplied together"
+msgstr "'t' e 't0' devono essere passati insieme"
 
-msgid "'R' must be positive"
-msgstr "'R' dev'essere positivo"
+msgid "index out of bounds; minimum index only used."
+msgstr "indice fuori limite; si utilizza solo l'indice minimo."
 
-msgid "'alpha' ignored; R[1L] = 0"
-msgstr "'alpha' ignorato; R[1L] = 0"
+msgid "'t' must of length %d"
+msgstr "'t' dev'essere di lunghezza %d"
+
+msgid "bootstrap variances needed for studentized intervals"
+msgstr "varianze bootstrap necessarie per intervalli studentizzati"
+
+msgid "BCa intervals not defined for time series bootstraps"
+msgstr "Intervalli BCa non definiti per bootstrap di serie storiche"
+
+msgid "bootstrap output object or 't0' required"
+msgstr "richiesto un oggetto output bootstrap o 't0'"
+
+msgid "unable to calculate 'var.t0'"
+msgstr "non è possibile calcolare 'var.t0'"
+
+msgid "extreme order statistics used as endpoints"
+msgstr "statistiche di ordine estremo utilizzate come endpoint"
+
+msgid "variance required for studentized intervals"
+msgstr "varianza richiesta per intervalli studentizzati"
+
+msgid "estimated adjustment 'w' is infinite"
+msgstr "l'aggiustamento stimato 'w' è infinito"
+
+msgid "estimated adjustment 'a' is NA"
+msgstr "l'aggiustamento stimato 'a' è NA"
+
+msgid "only first element of 'index' used in 'abc.ci'"
+msgstr "'abc.ci' utilizza solo il primo elemento di 'index'"
+
+msgid "missing values not allowed in 'data'"
+msgstr "non sono ammessi valori mancanti in 'data'"
+
+msgid "unknown value of 'sim'"
+msgstr "valore di 'sim' sconosciuto"
 
 msgid "'data' must be a matrix with at least 2 columns"
 msgstr "'data' dev'essere una matrice con almeno 2 colonne"
@@ -42,112 +112,48 @@ msgstr "'data' dev'essere una matrice con almeno 2 colonne"
 msgid "'index' must contain 2 elements"
 msgstr "'index' deve contenere 2 elementi"
 
-msgid ""
-"'simple=TRUE' is only valid for 'sim=\"ordinary\", stype=\"i\", n=0', so "
-"ignored"
-msgstr ""
-"'simple=TRUE' è valido solamente per 'sim=\"ordinary\", stype=\"i\", "
-"n=0', perciò è ignorato"
-
-msgid "'strata' of wrong length"
-msgstr "'strata' è di lunghezza sbagliata"
-
-msgid "'stype' must be \"w\" for type=\"inf\""
-msgstr "'stype' dev'essere \"w\" per type=\"inf\""
-
-msgid "'t' and 't0' must be supplied together"
-msgstr "'t' e 't0' devono essere passati insieme"
-
-msgid "'t' must of length %d"
-msgstr "'t' dev'essere di lunghezza %d"
-
-msgid "'theta' must be supplied if R[1L] = 0"
-msgstr "'theta' dev'essere passato se R[1L] = 0"
-
-msgid "'theta' or 'lambda' required"
-msgstr "'theta' o 'lambda' richiesti"
-
-msgid "'u' must be a function"
-msgstr "'u' dev'essere una funzione"
-
-msgid "0 elements not allowed in 'q'"
-msgstr "0 elementi non ammessi 'q'"
-
-msgid "BCa intervals not defined for time series bootstraps"
-msgstr "Intervalli BCa non definiti per bootstrap di serie storiche"
-
-msgid "R[1L] must be positive for frequency smoothing"
-msgstr "R[1L] dev'essere positivo per il frequency smoothing"
-
-msgid "arguments are not all the same type of \"boot\" object"
-msgstr ""
-"gli argomenti non sono tutti del medesimo tipo dell'oggetto \"boot\""
-
-msgid "array cannot be found for parametric bootstrap"
-msgstr "l'array non può essere trovato per il bootstrap parametrico"
-
-msgid "boot.array not implemented for this object"
-msgstr "boot.array non implementato per questo oggetto"
-
-msgid "bootstrap object needed for type=\"reg\""
-msgstr "oggetto bootstrap richiesto per type=\"reg\""
-
-msgid "bootstrap output matrix missing"
-msgstr "Matrice di output bootstrap assente"
-
-msgid "bootstrap output object or 't0' required"
-msgstr "richiesto un oggetto output bootstrap o 't0'"
-
-msgid "bootstrap replicates must be supplied"
-msgstr "le replicazioni bootstrap devono essere passate"
-
-msgid "bootstrap variances needed for studentized intervals"
-msgstr "varianze bootstrap necessarie per intervalli studentizzati"
-
-msgid "control methods undefined when 'boot.out' has weights"
-msgstr "metodi di controllo non definiti quando 'boot.out' ha dei pesi"
-
-msgid "dimensions of 'R' and 'weights' do not match"
-msgstr "le dimensioni di 'R' e 'weights' non corrispondono"
-
-msgid "either 'A' and 'u' or 'K.adj' and 'K2' must be supplied"
-msgstr "sia 'A' e 'u' o 'K.adj' e 'K2' devono essere passati"
-
-msgid "either 'boot.out' or 'w' must be specified."
-msgstr "sia 'boot.out' o 'w' devono essere specificati."
-
-msgid "estimated adjustment 'a' is NA"
-msgstr "l'aggiustamento stimato 'a' è NA"
-
-msgid "estimated adjustment 'w' is infinite"
-msgstr "l'aggiustamento stimato 'w' è infinito"
-
-msgid "extreme order statistics used as endpoints"
-msgstr "statistiche di ordine estremo utilizzate come endpoint"
-
-msgid "extreme values used for quantiles"
-msgstr "valori estremi utilizzati per i quantili"
-
-msgid "function 'u' missing"
-msgstr "funzione 'u' assente"
-
-msgid "index array not defined for model-based resampling"
-msgstr ""
-"array di indici non definito per il ricampionamento basato su modello"
-
-msgid "index out of bounds; minimum index only used."
-msgstr "indice fuori limite; si utilizza solo l'indice minimo."
+msgid "only first 2 elements of 'index' used"
+msgstr "sono utilizzati solo i primi 2 elementi di 'index'"
 
 msgid "indices are incompatible with 'ncol(data)'"
 msgstr "gli indici sono incompatibili con 'ncol(data)'"
 
+msgid "sim = \"weird\" cannot be used with a \"coxph\" object"
+msgstr "sim = \"weird\" non può essere utilizzato con un oggetto \"coxph\""
+
+msgid "only columns %s and %s of 'data' used"
+msgstr "sono utilizzate solo le colonne %s e %s di 'data'"
+
+msgid "no coefficients in Cox model -- model ignored"
+msgstr "nessun coefficiente nel modello Cox -- modello ignorato"
+
+msgid "'F.surv' is required but missing"
+msgstr "'F.surv' è richiesto ma assente"
+
+msgid "'G.surv' is required but missing"
+msgstr "'G.surv' è richiesto ma assente"
+
+msgid "'strata' of wrong length"
+msgstr "'strata' è di lunghezza sbagliata"
+
 msgid "influence values cannot be found from a parametric bootstrap"
 msgstr ""
-"i valori di influenza non possono essere trovati con un bootstrap "
-"parametrico"
+"i valori di influenza non possono essere trovati con un bootstrap parametrico"
+
+msgid "neither 'data' nor bootstrap object specified"
+msgstr "non sono stati specificati ne 'data' ne l'oggetto bootstrap"
+
+msgid "neither 'statistic' nor bootstrap object specified"
+msgstr "non sono stati specificati ne 'statistic' ne l'oggetto bootstrap"
+
+msgid "'stype' must be \"w\" for type=\"inf\""
+msgstr "'stype' dev'essere \"w\" per type=\"inf\""
 
 msgid "input 't' ignored; type=\"inf\""
 msgstr "l'input 't' è ignorato; type=\"inf\""
+
+msgid "bootstrap object needed for type=\"reg\""
+msgstr "oggetto bootstrap richiesto per type=\"reg\""
 
 msgid "input 't' ignored; type=\"jack\""
 msgstr "l'input 't' è ignorato; type=\"jack\""
@@ -158,96 +164,95 @@ msgstr "l'input 't' è ignorato; type=\"pos\""
 msgid "input 't0' ignored: neither 't' nor 'L' supplied"
 msgstr "l'input 't0' è ignorato: ne 't' ne 'L' sono stati passati"
 
-msgid "invalid value of 'l'"
-msgstr "valore di 'l' non valido"
-
-msgid "invalid value of 'sim' supplied"
-msgstr "valore passato di 'sim' non valido"
-
-msgid "length of 'm' incompatible with 'strata'"
-msgstr "la lunghezza di 'm' è incompatibile con 'strata'"
-
-msgid "likelihood exceeds %f at only one point"
-msgstr "la verosimiglianza (likelihood) eccede %f in un solo punto"
-
-msgid "likelihood never exceeds %f"
-msgstr "la verosimiglianza non eccede mai %f"
-
-msgid "missing values not allowed in 'data'"
-msgstr "non sono ammessi valori mancanti in 'data'"
-
-msgid "multivariate time series not allowed"
-msgstr "le serie storiche multivariate non sono ammesse"
-
-msgid "negative value of 'm' supplied"
-msgstr "passato un valore negativo di 'm'"
-
-msgid "neither 'data' nor bootstrap object specified"
-msgstr "non sono stati specificati ne 'data' ne l'oggetto bootstrap"
-
-msgid "neither 'statistic' nor bootstrap object specified"
-msgstr "non sono stati specificati ne 'statistic' ne l'oggetto bootstrap"
-
-msgid "no coefficients in Cox model -- model ignored"
-msgstr "nessun coefficiente nel modello Cox -- modello ignorato"
-
-msgid "no data in call to 'boot'"
-msgstr "dati assenti nella chiamata a 'boot'"
-
-msgid "number of columns of 'A' (%d) not equal to length of 'u' (%d)"
-msgstr ""
-"il numero di colonne di 'A' (%d) non eguaglia la lunghezza di 'u' (%d)"
-
-msgid "one of 't' or 't0' required"
-msgstr "uno di 't' o 't0' richiesto"
-
-msgid "only columns %s and %s of 'data' used"
-msgstr "sono utilizzate solo le colonne %s e %s di 'data'"
-
-msgid "only first 2 elements of 'index' used"
-msgstr "sono utilizzati solo i primi 2 elementi di 'index'"
-
-msgid "only first column of 't' used"
-msgstr "è utilizzata solo la prima colonna di 't'"
-
-msgid "only first element of 'index' used"
-msgstr "è utilizzata solo il primo elemento di 'index'"
-
-msgid "only first element of 'index' used in 'abc.ci'"
-msgstr "'abc.ci' utilizza solo il primo elemento di 'index'"
-
-msgid "sim = \"weird\" cannot be used with a \"coxph\" object"
-msgstr "sim = \"weird\" non può essere utilizzato con un oggetto \"coxph\""
-
-msgid "this type not implemented for Binary"
-msgstr "questo tipo non è implementato per Binary"
-
-msgid "this type not implemented for Poisson"
-msgstr "questo tipo non è implementato per Poisson"
-
-msgid "unable to achieve requested overall error rate"
-msgstr "non è possibile ottenere il tasso di errore complessivo richiesto"
-
-msgid "unable to calculate 'var.t0'"
-msgstr "non è possibile calcolare 'var.t0'"
-
-msgid "unable to find multiplier for %f"
-msgstr "non è possibile trovare il moltiplicatore di %f"
-
-msgid "unable to find range"
-msgstr "non è possibile trovare l'intervallo"
-
-msgid "unknown type of \"boot\" object"
-msgstr "tipo di oggetto \"boot\" sconosciuto"
-
-msgid "unknown value of 'sim'"
-msgstr "valore di 'sim' sconosciuto"
-
-msgid "unrecognized value of 'sim'"
-msgstr "valore di 'sim' non riconosciuto"
+msgid "bootstrap output matrix missing"
+msgstr "matrice di output bootstrap assente"
 
 msgid "use 'boot.ci' for scalar parameters"
 msgstr "utilizza 'boot.ci' per parametri scalari"
 
-msgid "variance required for studentized intervals"
-msgstr "varianza richiesta per intervalli studentizzati"
+msgid "unable to achieve requested overall error rate"
+msgstr "non è possibile ottenere il tasso di errore complessivo richiesto"
+
+msgid "unable to find multiplier for %f"
+msgstr "non è possibile trovare il moltiplicatore di %f"
+
+msgid "'theta' or 'lambda' required"
+msgstr "'theta' o 'lambda' richiesti"
+
+msgid "0 elements not allowed in 'q'"
+msgstr "0 elementi non ammessi 'q'"
+
+msgid "bootstrap replicates must be supplied"
+msgstr "le replicazioni bootstrap devono essere passate"
+
+msgid "either 'boot.out' or 'w' must be specified."
+msgstr "sia 'boot.out' o 'w' devono essere specificati."
+
+msgid "only first column of 't' used"
+msgstr "è utilizzata solo la prima colonna di 't'"
+
+msgid "invalid value of 'sim' supplied"
+msgstr "valore passato di 'sim' non valido"
+
+msgid "'R' and 'theta' have incompatible lengths"
+msgstr "'R' e 'theta' hanno lunghezze incompatibili"
+
+msgid "R[1L] must be positive for frequency smoothing"
+msgstr "R[1L] dev'essere positivo per il frequency smoothing"
+
+msgid "'R' and 'alpha' have incompatible lengths"
+msgstr "'R' e 'alpha' hanno lunghezze incompatibili"
+
+msgid "extreme values used for quantiles"
+msgstr "valori estremi utilizzati per i quantili"
+
+msgid "'theta' must be supplied if R[1L] = 0"
+msgstr "'theta' dev'essere passato se R[1L] = 0"
+
+msgid "'alpha' ignored; R[1L] = 0"
+msgstr "'alpha' ignorato; R[1L] = 0"
+
+msgid "control methods undefined when 'boot.out' has weights"
+msgstr "metodi di controllo non definiti quando 'boot.out' ha dei pesi"
+
+msgid "number of columns of 'A' (%d) not equal to length of 'u' (%d)"
+msgstr "il numero di colonne di 'A' (%d) non eguaglia la lunghezza di 'u' (%d)"
+
+msgid "either 'A' and 'u' or 'K.adj' and 'K2' must be supplied"
+msgstr "sia 'A' e 'u' o 'K.adj' e 'K2' devono essere passati"
+
+msgid "this type not implemented for Poisson"
+msgstr "questo tipo non è implementato per Poisson"
+
+msgid "this type not implemented for Binary"
+msgstr "questo tipo non è implementato per Binary"
+
+msgid "one of 't' or 't0' required"
+msgstr "uno di 't' o 't0' richiesto"
+
+msgid "function 'u' missing"
+msgstr "funzione 'u' assente"
+
+msgid "'u' must be a function"
+msgstr "'u' dev'essere una funzione"
+
+msgid "unable to find range"
+msgstr "non è possibile trovare l'intervallo"
+
+msgid "'R' must be positive"
+msgstr "'R' dev'essere positivo"
+
+msgid "invalid value of 'l'"
+msgstr "valore di 'l' non valido"
+
+msgid "unrecognized value of 'sim'"
+msgstr "valore di 'sim' non riconosciuto"
+
+msgid "multivariate time series not allowed"
+msgstr "le serie storiche multivariate non sono ammesse"
+
+msgid "likelihood never exceeds %f"
+msgstr "la verosimiglianza non eccede mai %f"
+
+msgid "likelihood exceeds %f at only one point"
+msgstr "la verosimiglianza (likelihood) eccede %f in un solo punto"
