@@ -1,14 +1,14 @@
 # R Italian translation                                                                    
 # This file is distributed under the same license as the R package.
 # Copyright (C) The R Foundation.
-# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+# Daniele Medri <dmedri@gmail.com>, 2005-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R-mgcv 1.8-36\n"
+"Project-Id-Version: mgcv 1.8-38\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2021-05-04 18:15\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2021-11-15 18:58+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -62,7 +62,7 @@ msgid "family not recognized"
 msgstr "famiglia non riconosciuta"
 
 msgid "un-supported smoothness selection method"
-msgstr "metodo di selezione livellamento non supportato"
+msgstr "metodo di selezione smoothness non supportato"
 
 msgid "discretization only available with fREML"
 msgstr "discretizzazione disponibile solo con fREML"
@@ -81,7 +81,7 @@ msgstr ""
 "'min.sp' non è supportato con la computazione fast REML, sarà ignorato."
 
 msgid "no smooths, ignoring `discrete=TRUE'"
-msgstr "nessun livellamento, si ignora `discrete=TRUE'"
+msgstr "nessun smooth, si ignora `discrete=TRUE'"
 
 msgid "Not enough (non-NA) data to do anything meaningful"
 msgstr "Dati insufficienti (non NA) per fare qualcosa di significativo"
@@ -104,8 +104,8 @@ msgstr "Il modello ha più coefficienti che dati"
 msgid ""
 "length of sp must be number of free smoothing parameters in original model"
 msgstr ""
-"la lunghezza di 'sp' dev'essere un numero di parametri di livellamento "
-"liberi nel modello originale"
+"la lunghezza di sp dev'essere un numero di parametri di smoothing liberi nel "
+"modello originale"
 
 msgid "general families not supported by bam"
 msgstr "famiglie generiche non supportate da bam"
@@ -537,11 +537,10 @@ msgid "Cannot extract the inverse from an uninitialized object"
 msgstr "Non è possibile estrarre l'inversa di un oggetto non inizializzato"
 
 msgid "Can not convert this smooth class to a random effect"
-msgstr ""
-"Non è possibile convertire questa classe di livellamento in random effect"
+msgstr "Non è possibile convertire questa classe di smooth in random effect"
 
 msgid "te smooths not useable with gamm4: use t2 instead"
-msgstr ""
+msgstr "smooth te non adatto con gamm4: si utilizzi t2 come alternativa"
 
 msgid "gamm can not fix only some margins of tensor product."
 msgstr ""
@@ -558,15 +557,15 @@ msgid ""
 "gamm can not handle linked smoothing parameters (probably from use of `id' "
 "or adaptive smooths)"
 msgstr ""
-"gamm non può gestire i parametri di adattamento collegati (probabilmente per "
-"l'uso di 'id' o livellamenti adattivi)"
+"gamm non può gestire i parametri di smoothing collegati (probabilmente per "
+"l'uso di 'id' o smooth adattivi)"
 
 msgid "only one level of smooth nesting is supported by gamm"
 msgstr ""
 "gamm supporta solo un livello di nidificazione regolare (smooth nesting)"
 
 msgid "side conditions not allowed for nested smooths"
-msgstr ""
+msgstr "condizioni laterali non ammesse per smooth annidati"
 
 msgid "object does not appear to be of class lme"
 msgstr "l'oggetto non sembra essere della classe lme"
@@ -599,14 +598,14 @@ msgid ""
 "gamm models must have at least 1 smooth with unknown smoothing parameter or "
 "at least one other random effect"
 msgstr ""
-"i modelli gamm devono avere almeno 1 livellamento con parametro di smoothing "
+"i modelli gamm devono avere almeno 1 smooth con parametro di smoothing "
 "sconosciuto o almeno un altro effetto casuale"
 
 msgid "weights must be like glm weights for generalized case"
 msgstr "i pesi devono essere come pesi glm per il caso generalizzato"
 
 msgid "Nested smooths must be fully random"
-msgstr "I livellamenti nidificati devono essere completamente casuali"
+msgstr "Gli smooth annidati devono essere completamente casuali"
 
 msgid "size must be in [1,120]"
 msgstr "size dev'essere in [1,120]"
@@ -644,7 +643,7 @@ msgstr "jagam richiede un file per le specifiche del modello JAGS"
 
 msgid "smoothing parameter prior choise not recognised, reset to gamma"
 msgstr ""
-"la scelta del parametro a priori di livellamento non è riconosciuta, si "
+"la scelta del parametro a priori di smoothing non è riconosciuta, si "
 "ripristina a gamma"
 
 msgid "coefficient simulation data is missing"
@@ -739,9 +738,7 @@ msgid "model has repeated 1-d smooths of same variable."
 msgstr "il modello ha ripetuto 1-d smooth della stessa variabile."
 
 msgid "`id' linked smooths must have same number of arguments"
-msgstr ""
-"I livellamenti (smooths) collegati a 'id' devono avere lo stesso numero di "
-"argomenti"
+msgstr "Gli smooth collegati a 'id' devono avere lo stesso numero di argomenti"
 
 msgid "`rank' has wrong length in `paraPen'"
 msgstr "`rank' ha una lunghezza errata in `paraPen'"
@@ -788,19 +785,20 @@ msgid ""
 "Later terms sharing an `id' can not have more smoothing parameters than the "
 "first such term"
 msgstr ""
-"I termini successivi che condividono un `id 'non possono avere più parametri "
-"di livellamento rispetto al primo di questi termini"
+"I termini successivi che condividono un `id' non possono avere più parametri "
+"di smoothing rispetto al primo di questi termini"
 
 msgid "Supplied smoothing parameter vector is too short - ignored."
 msgstr ""
-"Il vettore dei parametri di livellamento passato è troppo corto - ignorato."
+"Il vettore dei parametri di smoothing specificato è troppo corto - ignorato."
 
 msgid "NA's in supplied smoothing parameter vector - ignoring."
-msgstr "NA passati nel vettore dei parametri di livellamento - ignorato."
+msgstr "NA passati nel vettore dei parametri di smoothing - ignorato."
 
 msgid "incorrect number of smoothing parameters supplied for a smooth term"
 msgstr ""
-"numero errato di parametri di livellamento forniti per un termine di smooth"
+"è stato specificato un numero errato di parametri di smoothing per un "
+"termine di smooth"
 
 msgid "length of min.sp is wrong."
 msgstr "la lunghezza di min.sp è errata."
@@ -826,7 +824,7 @@ msgid "unknown optimizer"
 msgstr "ottimizzatore sconosciuto"
 
 msgid "unknown smoothness selection criterion"
-msgstr "criterio di selezione adattamento sconosciuto"
+msgstr "criterio di selezione smoothness sconosciuto"
 
 msgid "Reset optimizer to outer/newton"
 msgstr "Si ripristina l'ottimizzatore su outer/newton"
@@ -895,8 +893,7 @@ msgid "na.action not character or function"
 msgstr "na.action non è ne un character ne una funzione"
 
 msgid "Smoothness uncertainty corrected covariance not available"
-msgstr ""
-"La covarianza corretta dall'incertezza del livellamento non è disponibile"
+msgstr "Covarianza corretta per l'incertezza di smoothness non disponibile"
 
 msgid "Unknown type, reset to terms."
 msgstr "Tipo sconosciuto, si reimpostano i termini."
@@ -1050,7 +1047,7 @@ msgid "a has wrong number of rows"
 msgstr "a ha un numero errato di righe"
 
 msgid "isa requires a dg/tCMatrix"
-msgstr ""
+msgstr "isa richiede una dg/tCMatrix"
 
 msgid "mvn requires 2 or more dimensional data"
 msgstr "mvn richiede 2 o più dati dimensionali"
@@ -1104,7 +1101,7 @@ msgid "data vectors are of different lengths"
 msgstr "i vettori dei dati hanno differenti lunghezze"
 
 msgid "supplied dist negative"
-msgstr ""
+msgstr "specificato dist negativo"
 
 msgid "Model does not seem to have enough terms to do anything useful"
 msgstr ""
@@ -1178,8 +1175,7 @@ msgid "m wrong length and ignored."
 msgstr "m ha lunghezza errata e viene ignorato."
 
 msgid "Repeated variables as arguments of a smooth are not permitted"
-msgstr ""
-"Le variabili ripetute come argomenti di un livellamento non sono consentite"
+msgstr "Non sono consentite variabili ripetute come argomenti di uno smooth"
 
 msgid "only first element of `id' used"
 msgstr "si utilizza solo il primo elemento di 'id'"
@@ -1209,11 +1205,13 @@ msgid "matrices must be all class dgCMatrix or all class matrix"
 msgstr "le matrici devono essere tutte di classe dgCMatrix o classe matrice"
 
 msgid "attempt to use unsuitable marginal smooth class"
-msgstr "tentato utilizzo di una classe uniforme marginale non adatta"
+msgstr "tentato utilizzo di una classe smooth marginale inadatta"
 
 msgid ""
 "Sorry, tensor products of smooths with multiple penalties are not supported."
 msgstr ""
+"Ci dispiace, i prodotti tensoriali di smooth con penalità multiple non sono "
+"supportati."
 
 msgid "reparameterization unstable for margin: not done"
 msgstr "ri-parametrizzazione non stabile per il margine: non eseguito"
@@ -1231,12 +1229,12 @@ msgid "d can not be negative in call to null.space.dimension()."
 msgstr "d non può essere negativo nella chiamata a null.space.dimension()."
 
 msgid "arguments of smooth not same dimension"
-msgstr "gli argomenti del livellamento non hanno la medesima dimensione"
+msgstr "gli argomenti dello smooth non hanno la medesima dimensione"
 
 msgid "components of knots relating to a single smooth must be of same length"
 msgstr ""
-"i componenti dei knot relativi ad un singolo livellamento devono avere la "
-"stessa lunghezza"
+"i componenti dei knot relativi ad un singolo smooth devono avere la medesima "
+"lunghezza"
 
 msgid "more knots than data in a tp term: knots ignored."
 msgstr "più knot che dati nel termine tp: knot ignorati."
@@ -1248,14 +1246,13 @@ msgid "no data to predict at"
 msgstr "nessun dato a cui predire"
 
 msgid "Basis only handles 1D smooths"
-msgstr "La base gestisce solo livellamenti 1D"
+msgstr "La base gestisce solo gli smooth 1D"
 
 msgid "number of supplied knots != k for a cr smooth"
 msgstr "numero di knot forniti !=k per un cr smooth"
 
 msgid "F is missing from cr smooth - refit model with current mgcv"
-msgstr ""
-"F assente dal livellamento cr - riadattate il modello con l'attuale mgcv"
+msgstr "F assente dallo smooth cr - riadattate il modello con l'attuale mgcv"
 
 msgid "more knots than unique data values is not allowed"
 msgstr "non è ammesso avere più knot che valori univoci"
@@ -1299,15 +1296,15 @@ msgid "requested non-existent derivative in B-spline penalty"
 msgstr ""
 
 msgid "fs smooths can only have one factor argument"
-msgstr "i livellamenti fs possono avere solo un argomento con un fattore"
+msgstr "gli smooth fs possono avere solo un argomento con un fattore"
 
 msgid "\"fs\" smooth cannot use a multiply penalized basis (wrong basis in xt)"
 msgstr ""
-"il livellamento \"fs\" non può utilizzare una base penalizzata multipla "
-"(base errate in xt)"
+"lo smooth \"fs\" non può utilizzare una base penalizzata multipla (base "
+"errate in xt)"
 
 msgid "no factor supplied to fs smooth"
-msgstr "nessun fattore passato per il livellamento fs"
+msgstr "nessun fattore specificato per lo smooth fs"
 
 msgid "\"fs\" terms can not be fixed here"
 msgstr "i termini in \"fs\" non possono essere fissati qui"
@@ -1315,14 +1312,13 @@ msgstr "i termini in \"fs\" non possono essere fissati qui"
 msgid ""
 "fs smooth not suitable for discretisation with more than one metric predictor"
 msgstr ""
-"livellamento fs non adatto alla discretizzazione con più di un predittore "
-"metrico"
+"smooth fs non adatto alla discretizzazione con più di un predittore metrico"
 
 msgid "the adaptive smooth class is limited to 1 or 2 covariates."
-msgstr "la classe di livellamento adattivo è limitata a 1 o 2 covariate."
+msgstr "la classe di smooth adattivo è limitata a 1 o 2 covariate."
 
 msgid "penalty basis too large for smoothing basis"
-msgstr "base di penalità troppo larga per basi di livellamento"
+msgstr "base di penalità troppo larga per basi di smoothing"
 
 msgid "penalty basis too small"
 msgstr "base di penalità troppo piccola"
@@ -1411,7 +1407,7 @@ msgid "more knots than data in an ms term: knots ignored."
 msgstr "più knot che dati nel termine ms: knot ignorati."
 
 msgid "smooth objects should not have a qrc attribute."
-msgstr "gli oggetti di livellamento non dovrebbero avere un attributo qrc."
+msgstr "gli oggetti di smooth non dovrebbero avere un attributo qrc."
 
 msgid "unimplemented sparse constraint type requested"
 msgstr "richiesto tipo di vincolo sparso non implementato"
@@ -1420,6 +1416,8 @@ msgid ""
 "handling `by' variables in smooth constructors may not work with the "
 "summation convention"
 msgstr ""
+"la gestione delle variabili 'by' nei costruttori di smooth potrebbe non "
+"funzionare con la convenzione di somma"
 
 msgid "Can't find by variable"
 msgstr "Non è possibile cercare per variabile"
@@ -1436,8 +1434,7 @@ msgstr ""
 
 msgid "`by' variable must be same dimension as smooth arguments"
 msgstr ""
-"la variabile 'by' dev'essere la medesima dimensione degli argomenti di "
-"livellamento"
+"la variabile 'by' dev'essere la medesima dimensione degli argomenti di smooth"
 
 msgid "Number of prediction and fit constraints must match"
 msgstr "Il numero di vincoli di previsione e adattamento deve corrispondere"
@@ -1494,7 +1491,7 @@ msgid "soap basis ill-conditioned - changing 'xt$nmax' may help"
 msgstr ""
 
 msgid "no free coefs in sf smooth"
-msgstr "nessun coefficiente libero nel livellamento fs"
+msgstr "nessun coefficiente libero nello smooth fs"
 
 msgid "only deals with 2D case"
 msgstr "tratta solo con casi 2D"
