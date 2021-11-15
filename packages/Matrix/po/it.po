@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Matrix 1.3-3\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Matrix 1.3-4\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2021-02-11 12:54+0100\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2021-11-15 17:19\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: CHMfactor.c:14
 #, c-format
@@ -418,7 +418,7 @@ msgstr "la lunghezza dei dati eccede la dimensione della matrice"
 
 #: Mutils.c:1098
 msgid "too many elements specified"
-msgstr "specificati troppi elementi"
+msgstr "sono stati specificati troppi elementi"
 
 #: Mutils.c:1167
 #, c-format
