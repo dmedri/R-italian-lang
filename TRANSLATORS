@@ -97,15 +97,6 @@ it: "si rilascia" "si rilasciano"
 en: "are dropped"
 it: "sono rilasciati"
 
-en: "statistical smoothing"
-it: "livellamento statistico"
-
-en: "smoothing"
-it: "livellamento"
-
-en: "to smooth"
-it: "livellare"
-
 en: "reset to terms"
 it: "si reimpostano i termini"
 
@@ -135,6 +126,26 @@ it: "Tentato riutilizzo"
 
 en: "Attempt to release"
 it: "Tentato rilascio"
+
+*** SMOOTHING case ***
+
+Some authors suggest "lisciamento" on Wikipedia, and I hate it.
+I've always used the original term -- preferred for specialist
+contexts -- or the italian term "livellamento". Tips are welcome.
+
+en: "statistical smoothing"
+it: "livellamento statistico"
+it: "smoothing statistico"
+
+en: "smoothing"
+it: "livellamento"
+it: "smoothing"
+
+en: "to smooth"
+it: "livellare"
+
+en: "smooth"
+it: "smooth"
 
 *** MISSING case ***
 
