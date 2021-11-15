@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R-cluster 2.0.8\n"
+"Project-Id-Version: R-cluster 2.1.2\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2021-01-30 22:00\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2021-11-15 16:30\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 msgid "invalid clustering method"
 msgstr "metodo di clustering non valido"
@@ -34,20 +34,21 @@ msgid "'x' is not and cannot be converted to class \"dissimilarity\""
 msgstr "'x' non è e non può essere convertito alla classe \"dissimilarity\""
 
 msgid "x is not a numeric dataframe or matrix."
-msgstr "x non è un data frame o una matrice numerica."
+msgstr "x non è un dataframe numerico o una matrice."
 
 msgid "need at least 2 objects to cluster"
-msgstr "richiede almeno 2 oggetti per l'analisi cluster"
+msgstr "richiede almeno 2 oggetti da raggruppare"
 
 msgid "No clustering performed, NA-values in the dissimilarity matrix."
-msgstr "Nessun cluster generato, valori NA nella matrice di dissomiglianza."
+msgstr ""
+"Nessun raggruppamento eseguito, valori NA nella matrice di dissomiglianza."
 
 msgid "'x' is a \"dist\" object, but should be a data matrix or frame"
 msgstr ""
-"'x' è un oggetto \"dist\", ma dovrebbe essere un data frame o una matrice"
+"'x' è un oggetto \"dist\", ma dovrebbe essere un dataframe o una matrice"
 
 msgid "The number of cluster should be at least 1 and at most n-1."
-msgstr "Il numerod i cluster dovrebbe essere almeno 1 e al massimo n-1."
+msgstr "Il numero di cluster dovrebbe essere almeno 1 e al massimo n-1."
 
 msgid "'sampsize' should be at least %d = max(2, 1+ number of clusters)"
 msgstr "'sampsize' dovrebbe essere almeno %d = max(2, 1+ numero di cluster)"
@@ -108,7 +109,7 @@ msgid "invalid 'twins' object"
 msgstr "oggetto 'twins' non valido"
 
 msgid "x is not a dataframe or a numeric matrix."
-msgstr "x non è un data frame o una matrice numerica."
+msgstr "x non è un dataframe o una matrice numerica."
 
 msgid "invalid %s; must be named list"
 msgstr "%s non valido; dev'essere una lista nominata"
