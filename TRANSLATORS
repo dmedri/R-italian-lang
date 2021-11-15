@@ -130,6 +130,12 @@ it: "tracciato di ritaglio"
 en: "Clipping path"
 it: "Tracciato di ritaglio"
 
+en: "Attempt to reuse"
+it: "Tentato riutilizzo"
+
+en: "Attempt to release"
+it: "Tentato rilascio"
+
 *** MISSING case ***
 
 (default)
