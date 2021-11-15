@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.4.2\n"
+"POT-Creation-Date: \n"
 
 #: gpar.c:523
 msgid "updateGContext must only be called after initGContext"
@@ -23,7 +24,9 @@ msgstr "updateGContext dev'essere unicamente chiamato dopo initGContext"
 
 #: grid.c:199
 msgid "Turning clipping on or off within a clipping path is no honoured"
-msgstr "On/off del clipping all'interno di un clipping path non onorato"
+msgstr ""
+"L'attivazione o meno del ritaglio dentro un tracciato (di ritaglio) non "
+"viene onorato"
 
 #: grid.c:241
 msgid "cannot clip to rotated viewport"
@@ -31,7 +34,9 @@ msgstr "non è possibile tagliare su una viewport ruotata"
 
 #: grid.c:455
 msgid "Clipping paths within a clipping path are not honoured"
-msgstr "Clipping path interno ad altri non onorato"
+msgstr ""
+"I tracciati di ritaglio dentro un altro tracciato (di ritaglio) non sono "
+"onorati"
 
 #: grid.c:474
 msgid "Masks within a clipping path are not honoured"
@@ -119,7 +124,7 @@ msgstr "Conversione unit non supportata"
 
 #: unit.c:1555
 msgid "Invalid unit"
-msgstr "unit non valida"
+msgstr "Unità non valida"
 
 #: unit.c:1570
 msgid "'units' must be character"
