@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: mgcv 1.8-38\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2021-05-04 18:15\n"
-"PO-Revision-Date: 2021-11-15 18:58+0100\n"
+"PO-Revision-Date: 2021-11-16 17:16+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -449,7 +449,7 @@ msgid "number of linear predictors doesn't match"
 msgstr "il numero di predittori lineari non corrisponde"
 
 msgid "response not in 0 to number of predictors + 1"
-msgstr ""
+msgstr "risposta non in 0 al numero di predittori + 1"
 
 msgid "ziplss requires 2 links specified as character strings"
 msgstr "ziplss richieste 2 link specificati come stringhe di caratteri"
@@ -494,7 +494,7 @@ msgid "'a' has to be positive"
 msgstr "'a' dev'essere positivo"
 
 msgid "offset not still available for this family"
-msgstr ""
+msgstr "offset non ancora disponibile per questa famiglia"
 
 msgid "An object of length %d does not match the required parameter size"
 msgstr ""
@@ -543,7 +543,7 @@ msgid "te smooths not useable with gamm4: use t2 instead"
 msgstr "smooth te non adatto con gamm4: si utilizzi t2 come alternativa"
 
 msgid "gamm can not fix only some margins of tensor product."
-msgstr ""
+msgstr "gamm non può correggere solo alcuni margini del prodotto tensoriale."
 
 msgid ""
 "Tensor product penalty rank appears to be too low: please email Simon.Wood@R-"
@@ -770,7 +770,7 @@ msgstr ""
 "modello"
 
 msgid "shared offsets not allowed"
-msgstr ""
+msgstr "offset condivisi non ammessi"
 
 msgid "dropping unidentifiable parametric terms from model"
 msgstr "si rilasciano i termini parametrici non identificabili dal modello"
@@ -946,7 +946,7 @@ msgid "danger of round-off error"
 msgstr "pericolo di errore round-off"
 
 msgid "failure of Davies method, falling back on Liu et al approximtion"
-msgstr ""
+msgstr "metodo Davies fallito, si passa all'approssimazione Liu"
 
 msgid "lambda and h should have the same length!"
 msgstr "'lambda' e 'h' dovrebbero avere la medesima lunghezza!"
@@ -1028,7 +1028,7 @@ msgid "don't be silly"
 msgstr "non essere stupido"
 
 msgid "sd should have exactly one less entry than ld"
-msgstr ""
+msgstr "sd dovrebbe avere esattamente una voce in meno di ld"
 
 msgid "AR not available with sparse marginals"
 msgstr "AR non disponibile con marginali sparsi"
@@ -1133,6 +1133,7 @@ msgstr "schema colore non riconosciuto"
 
 msgid "sorry no option for contouring with errors: try plot.gam"
 msgstr ""
+"ci dispiace, nessuna opzione per il contouring con errori: provate plot.gam"
 
 msgid "At least three knots required in call to mono.con."
 msgstr "Almeno tre knot richiesti nella chiamata a mono.con."
@@ -1344,11 +1345,14 @@ msgstr "Dimensione base MRF impostata troppo alta"
 
 msgid "data contain regions that are not contained in the knot specification"
 msgstr ""
+"i dati contengono regioni che non sono contenute nella specifica del nodo"
 
 msgid ""
 "penalty matrix, boundary polygons and/or neighbours list must be supplied in "
 "xt"
 msgstr ""
+"la matrice di penalità, i poligoni di contorno e/o l'elenco dei vicini vanno "
+"indicati in xt"
 
 msgid "no spatial information provided!"
 msgstr "nessuna informazione spaziale passata!"
