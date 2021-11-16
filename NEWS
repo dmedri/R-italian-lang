@@ -1,5 +1,8 @@
 R-italian-lang
 
+CHANGES WITH R4.1.2 (10/04/2021)
+ * new translated labels and fixes in sync with R 4.1.2
+
 CHANGES WITH v0.9 (02/12/2021) "Cattolica"
  * many fixes and updates tested on R 4.0.4 RC
 
