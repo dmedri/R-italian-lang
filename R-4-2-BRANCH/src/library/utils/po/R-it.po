@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-utils 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2021-11-06 17:18\n"
+"POT-Creation-Date: 2022-02-01 16:22\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -203,6 +203,9 @@ msgstr "%s dev'essere uno di %s"
 msgid "Argument '%s' is deprecated; rather set '%s' instead."
 msgstr "L'argomento '%s' è deprecato; come alternativa si utilizzi '%s'."
 
+msgid "To cite package %s in publications use:"
+msgstr "Per citare il pacchetto %s nelle pubblicazioni utilizza:"
+
 msgid "A BibTeX entry for LaTeX users is"
 msgstr "Una voce BibTeX per gli utenti LaTeX è"
 
@@ -220,9 +223,6 @@ msgid "could not determine year for %s from package DESCRIPTION file"
 msgstr ""
 "non è possibile determinare l'anno per %s dal file DESCRIPTION del pacchetto"
 
-msgid "To cite package %s in publications use:"
-msgstr "Per citare il pacchetto %s nelle pubblicazioni utilizza:"
-
 msgid ""
 "ATTENTION: This citation information has been auto-generated from the "
 "package DESCRIPTION file and may need manual editing, see %s."
@@ -236,16 +236,8 @@ msgstr "'FUN' dev'essere una funzione o NULL"
 msgid "cannot handle S4 methods yet"
 msgstr "non è ancora possibile gestire metodi S4"
 
-msgid "'package' must be a character string or NULL"
-msgstr "'package' dev'essere una stringa a caratteri o NULL"
-
-msgid "datasets have been moved from package 'base' to package 'datasets'"
-msgstr ""
-"i dataset sono stati mossi dal pacchetto 'base' al pacchetto 'datasets'"
-
-msgid "datasets have been moved from package 'stats' to package 'datasets'"
-msgstr ""
-"i dataset sono stati spostati dal pacchetto 'stats' al pacchetti 'datasets'"
+msgid "'package' must be a character vector or NULL"
+msgstr "'package' dev'essere un vettore di caratteri o NULL"
 
 msgid "data index for package %s is invalid and will be ignored"
 msgstr "l'indice dati per il pacchetto %s non è valido e sarà ignorato"
@@ -394,6 +386,9 @@ msgstr "'form' dev'essere una formula su due lati"
 
 msgid "'form' must be a two-sided formula with one term on each side"
 msgstr "'form' dev'essere una formula su due lati con un termine per ogni lato"
+
+msgid "invalid object for 'as.environment'"
+msgstr "oggetto non valido per 'as.environment'"
 
 msgid "invalid 'n' -  must contain at least one non-missing element, got none."
 msgstr ""
@@ -735,7 +730,7 @@ msgid "--- Please select a CRAN mirror for use in this session ---"
 msgstr "--- Per piacere, seleziona un mirror CRAN per la sessione ---"
 
 msgid "trying to use CRAN without setting a mirror"
-msgstr "CRAN sarà utilizzato senza l'impostazione di un sito mirror"
+msgstr "sarà utilizzato CRAN senza l'impostazione di un sito mirror"
 
 msgid "'download.file()' error code '%d'"
 msgstr "'download.file()' codice errore '%d'"
@@ -1330,6 +1325,9 @@ msgstr "metodo 'mailx' solo per Unix"
 msgid "zip file %s not found"
 msgstr "file zip %s non trovato"
 
+msgid "package %s not installed because it is not built for UCRT"
+msgstr "il pacchetto %s non è stato installato perché non è fatto per UCRT"
+
 msgid "failed to create %s"
 msgstr "non è possibile creare %s"
 
@@ -1398,6 +1396,11 @@ msgid "object '%s' not found"
 msgid_plural "objects '%s' not found"
 msgstr[0] "oggetto '%s' non trovato"
 msgstr[1] "oggetti '%s' non trovati"
+
+msgid "package %s is a base package, and cannot be removed"
+msgid_plural "packages %s are base packages, and cannot be removed"
+msgstr[0] "il pacchetto %s è un pacchetto base e non può essere rimosso"
+msgstr[1] "i pacchetti %s sono pacchetti base e non possono essere rimossi"
 
 msgid ""
 "Removing package from %s\n"
@@ -1514,9 +1517,9 @@ msgstr[1] "installazione pacchetti sorgenti %s"
 msgid "package %s is available as a source package but not as a binary"
 msgid_plural "packages %s are available as source packages but not as binaries"
 msgstr[0] ""
-"l pacchetto %s è disponibile come pacchetto sorgenti ma non in forma binaria"
+"il pacchetto %s è disponibile come pacchetto sorgenti ma non in forma binaria"
 msgstr[1] ""
-"I pacchetti %s sono disponibili come pacchetti sorgenti ma non in forma "
+"i pacchetti %s sono disponibili come pacchetti sorgenti ma non in forma "
 "binaria"
 
 msgid ""
@@ -1541,6 +1544,15 @@ msgid "invalid roman numeral: %s"
 msgid_plural "invalid roman numerals: %s"
 msgstr[0] "numero romano non valido: %s"
 msgstr[1] "numeri romani non validi: %s"
+
+#~ msgid "datasets have been moved from package 'base' to package 'datasets'"
+#~ msgstr ""
+#~ "i dataset sono stati mossi dal pacchetto 'base' al pacchetto 'datasets'"
+
+#~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
+#~ msgstr ""
+#~ "i dataset sono stati spostati dal pacchetto 'stats' al pacchetti "
+#~ "'datasets'"
 
 #~ msgid "bad argument"
 #~ msgstr "argomento errato"

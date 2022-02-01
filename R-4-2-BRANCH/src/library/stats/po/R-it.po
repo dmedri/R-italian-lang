@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-stats 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2021-11-06 17:17\n"
+"POT-Creation-Date: 2022-01-17 15:35\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -1595,6 +1595,9 @@ msgstr "nessuna componente termini o attributo"
 msgid "'termlabels' must be a character vector of length at least one"
 msgstr "'termlabels' dev'essere un vettore di caratteri almeno di lunghezza 1"
 
+msgid "'%s' must be a character string"
+msgstr "'%s' dev'essere una stringa di caratteri"
+
 msgid ""
 "Unparseable 'response' \"%s\"; use is deprecated.  Use as.name(.) or `..`!"
 msgstr ""
@@ -1627,6 +1630,12 @@ msgstr "'data' dev'essere un data.frame, un ambiente o una lista"
 
 msgid "variable '%s' is not a factor"
 msgstr "la variabile '%s' non è un fattore"
+
+msgid "contrasts dropped from factor %s"
+msgstr "contrasti eliminati dal fattore %s"
+
+msgid "contrasts dropped from factor %s due to missing levels"
+msgstr "contrasti eliminati dal fattore %s a causa di livelli mancanti"
 
 msgid "'offset' must be numeric"
 msgstr "'offset' dev'essere numerico"

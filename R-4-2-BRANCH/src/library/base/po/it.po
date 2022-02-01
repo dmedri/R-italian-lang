@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2022-01-14 11:27+0000\n"
-"PO-Revision-Date: 2022-01-17 16:13+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-01 16:21+0100\n"
+"PO-Revision-Date: 2022-02-01 17:05+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -223,41 +223,41 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/platform.c:2930 src/main/platform.c:3017 src/main/platform.c:3025
 #: src/main/platform.c:3061 src/main/platform.c:3105 src/main/platform.c:3196
 #: src/main/print.c:250 src/main/print.c:279 src/main/print.c:287
-#: src/main/print.c:301 src/main/random.c:470 src/main/random.c:474
-#: src/main/random.c:481 src/main/random.c:509 src/main/saveload.c:2012
-#: src/main/saveload.c:2054 src/main/saveload.c:2057 src/main/saveload.c:2060
-#: src/main/saveload.c:2176 src/main/saveload.c:2356 src/main/saveload.c:2361
-#: src/main/saveload.c:2364 src/main/saveload.c:2473 src/main/scan.c:694
-#: src/main/scan.c:867 src/main/scan.c:881 src/main/scan.c:885
-#: src/main/scan.c:887 src/main/scan.c:898 src/main/scan.c:925
-#: src/main/scan.c:928 src/main/scan.c:931 src/main/scan.c:986
-#: src/main/seq.c:671 src/main/seq.c:678 src/main/seq.c:688 src/main/seq.c:694
-#: src/main/seq.c:739 src/main/seq.c:744 src/main/seq.c:747 src/main/seq.c:751
-#: src/main/seq.c:756 src/main/seq.c:763 src/main/seq.c:767 src/main/seq.c:773
-#: src/main/sort.c:276 src/main/sysutils.c:609 src/main/sysutils.c:613
-#: src/main/sysutils.c:617 src/main/sysutils.c:623 src/main/sysutils.c:627
-#: src/main/sysutils.c:2091 src/main/sysutils.c:2095 src/main/unique.c:1541
-#: src/main/unique.c:1847 src/main/unique.c:1851 src/main/unique.c:1861
-#: src/main/unique.c:2253 src/main/util.c:662 src/main/util.c:665
-#: src/main/util.c:1612 src/main/util.c:1626 src/main/util.c:2370
-#: src/main/util.c:2610 src/main/util.c:2611 src/main/util.c:2612
-#: src/main/util.c:2628 src/main/util.c:2670 src/main/util.c:2674
-#: src/main/util.c:2676 src/main/util.c:2704 src/main/util.c:2706
-#: src/main/util.c:2708 src/main/util.c:2711 src/main/util.c:2714
-#: src/main/util.c:2718 src/main/util.c:2720 src/main/util.c:2722
-#: src/modules/X11/devX11.c:3348 src/modules/X11/devX11.c:3351
-#: src/modules/X11/devX11.c:3354 src/modules/X11/devX11.c:3378
-#: src/modules/internet/internet.c:324 src/modules/internet/internet.c:330
-#: src/modules/internet/internet.c:336 src/modules/internet/internet.c:339
-#: src/modules/internet/internet.c:343 src/modules/internet/internet.c:347
-#: src/modules/internet/internet.c:351 src/modules/internet/libcurl.c:534
-#: src/modules/internet/libcurl.c:538 src/modules/internet/libcurl.c:543
-#: src/modules/internet/libcurl.c:546 src/modules/internet/libcurl.c:550
-#: src/modules/internet/libcurl.c:553 src/modules/lapack/Lapack.c:170
-#: src/modules/lapack/Lapack.c:275 src/modules/lapack/Lapack.c:724
-#: src/modules/lapack/Lapack.c:833 src/modules/lapack/Lapack.c:895
-#: src/modules/lapack/Lapack.c:1234 src/unix/sys-std.c:1366
-#: src/unix/sys-std.c:1389 src/unix/sys-unix.c:691
+#: src/main/print.c:301 src/main/random.c:469 src/main/random.c:472
+#: src/main/random.c:476 src/main/random.c:483 src/main/random.c:511
+#: src/main/saveload.c:2012 src/main/saveload.c:2054 src/main/saveload.c:2057
+#: src/main/saveload.c:2060 src/main/saveload.c:2176 src/main/saveload.c:2356
+#: src/main/saveload.c:2361 src/main/saveload.c:2364 src/main/saveload.c:2473
+#: src/main/scan.c:694 src/main/scan.c:867 src/main/scan.c:881
+#: src/main/scan.c:885 src/main/scan.c:887 src/main/scan.c:898
+#: src/main/scan.c:925 src/main/scan.c:928 src/main/scan.c:931
+#: src/main/scan.c:986 src/main/seq.c:671 src/main/seq.c:678 src/main/seq.c:688
+#: src/main/seq.c:694 src/main/seq.c:739 src/main/seq.c:744 src/main/seq.c:747
+#: src/main/seq.c:751 src/main/seq.c:756 src/main/seq.c:763 src/main/seq.c:767
+#: src/main/seq.c:773 src/main/sort.c:276 src/main/sysutils.c:609
+#: src/main/sysutils.c:613 src/main/sysutils.c:617 src/main/sysutils.c:623
+#: src/main/sysutils.c:627 src/main/sysutils.c:2062 src/main/sysutils.c:2066
+#: src/main/unique.c:1541 src/main/unique.c:1847 src/main/unique.c:1851
+#: src/main/unique.c:1861 src/main/unique.c:2252 src/main/unique.c:2257
+#: src/main/util.c:662 src/main/util.c:665 src/main/util.c:1615
+#: src/main/util.c:1629 src/main/util.c:2379 src/main/util.c:2619
+#: src/main/util.c:2620 src/main/util.c:2621 src/main/util.c:2637
+#: src/main/util.c:2679 src/main/util.c:2683 src/main/util.c:2685
+#: src/main/util.c:2713 src/main/util.c:2715 src/main/util.c:2717
+#: src/main/util.c:2720 src/main/util.c:2723 src/main/util.c:2727
+#: src/main/util.c:2729 src/main/util.c:2731 src/modules/X11/devX11.c:3348
+#: src/modules/X11/devX11.c:3351 src/modules/X11/devX11.c:3354
+#: src/modules/X11/devX11.c:3378 src/modules/internet/internet.c:324
+#: src/modules/internet/internet.c:330 src/modules/internet/internet.c:336
+#: src/modules/internet/internet.c:339 src/modules/internet/internet.c:343
+#: src/modules/internet/internet.c:347 src/modules/internet/internet.c:351
+#: src/modules/internet/libcurl.c:534 src/modules/internet/libcurl.c:538
+#: src/modules/internet/libcurl.c:543 src/modules/internet/libcurl.c:546
+#: src/modules/internet/libcurl.c:550 src/modules/internet/libcurl.c:553
+#: src/modules/lapack/Lapack.c:170 src/modules/lapack/Lapack.c:275
+#: src/modules/lapack/Lapack.c:724 src/modules/lapack/Lapack.c:833
+#: src/modules/lapack/Lapack.c:895 src/modules/lapack/Lapack.c:1234
+#: src/unix/sys-std.c:1366 src/unix/sys-std.c:1389 src/unix/sys-unix.c:713
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "argomento '%s' non valido"
@@ -351,7 +351,7 @@ msgstr "stringa caratteri attesa come terzo argomento"
 msgid "invalid %s argument"
 msgstr "argomento %s non valido"
 
-#: src/gnuwin32/sys-win32.c:317 src/unix/sys-unix.c:800 src/unix/sys-unix.c:835
+#: src/gnuwin32/sys-win32.c:317 src/unix/sys-unix.c:823 src/unix/sys-unix.c:858
 #, c-format
 msgid "command '%s' timed out after %ds"
 msgstr "il commando '%s' è scaduto dopo %ds"
@@ -361,19 +361,19 @@ msgstr "il commando '%s' è scaduto dopo %ds"
 msgid "running command '%s' had status %d"
 msgstr "il comando in esecuzione '%s' aveva status %d"
 
-#: src/gnuwin32/system.c:125 src/main/sysutils.c:2050
+#: src/gnuwin32/system.c:125 src/main/sysutils.c:2021
 msgid "reached session elapsed time limit"
 msgstr "raggiunto il limite di tempo trascorso per la sessione"
 
-#: src/gnuwin32/system.c:127 src/main/sysutils.c:2052
+#: src/gnuwin32/system.c:127 src/main/sysutils.c:2023
 msgid "reached elapsed time limit"
 msgstr "limite di tempo trascorso per la sessione"
 
-#: src/gnuwin32/system.c:133 src/main/sysutils.c:2058
+#: src/gnuwin32/system.c:133 src/main/sysutils.c:2029
 msgid "reached session CPU time limit"
 msgstr "raggiunto il limite di tempo CPU per la sessione"
 
-#: src/gnuwin32/system.c:135 src/main/sysutils.c:2060
+#: src/gnuwin32/system.c:135 src/main/sysutils.c:2031
 msgid "reached CPU time limit"
 msgstr "raggiunto il limite di tempo CPU"
 
@@ -816,7 +816,7 @@ msgstr "'FUN.VALUE' dev'essere un vettore"
 #: src/main/sort.c:1512 src/main/sort.c:1516 src/main/sort.c:1523
 #: src/main/source.c:221 src/main/summary.c:1200 src/main/sysutils.c:264
 #: src/main/util.c:1115 src/main/util.c:1120 src/main/util.c:1127
-#: src/main/util.c:1130 src/main/util.c:2430 src/modules/X11/devX11.c:3241
+#: src/main/util.c:1130 src/main/util.c:2439 src/modules/X11/devX11.c:3241
 #: src/modules/X11/devX11.c:3268 src/modules/X11/devX11.c:3273
 #: src/modules/X11/devX11.c:3278 src/modules/X11/devX11.c:3288
 #: src/modules/X11/devX11.c:3293 src/modules/X11/devX11.c:3297
@@ -1388,8 +1388,8 @@ msgstr "dimensione del vettore specificato troppo grande"
 
 #: src/main/builtin.c:75 src/main/builtin.c:112 src/main/envir.c:1866
 #: src/main/envir.c:1987 src/main/envir.c:2076 src/main/envir.c:2210
-#: src/main/paste.c:93 src/main/paste.c:339 src/main/random.c:479
-#: src/main/random.c:508 src/main/unique.c:2252
+#: src/main/paste.c:93 src/main/paste.c:339 src/main/random.c:481
+#: src/main/random.c:510 src/main/unique.c:2256
 msgid "invalid first argument"
 msgstr "primo argomento non valido"
 
@@ -1884,7 +1884,7 @@ msgstr "chiusura della connessione non utilizzata %d (%s)\n"
 #: src/main/serialize.c:1709 src/main/sysutils.c:645 src/main/sysutils.c:889
 #: src/main/sysutils.c:904 src/main/sysutils.c:1111 src/main/sysutils.c:1177
 #: src/main/sysutils.c:1258 src/main/sysutils.c:1268 src/main/sysutils.c:1281
-#: src/main/sysutils.c:1698
+#: src/main/sysutils.c:1669
 #, c-format
 msgid "unsupported conversion from '%s' to '%s'"
 msgstr "conversione non supportata da '%s' a '%s'"
@@ -2908,7 +2908,7 @@ msgstr "modalità (%s) non valida per il passaggio da C o Fortran (arg %d)"
 msgid "pairlists are passed as SEXP as from R 2.15.0"
 msgstr "i pairlist sono passati come SEXP a partire da R 2.15.0"
 
-#: src/main/dotcode.c:2606
+#: src/main/dotcode.c:2608
 #, c-format
 msgid "type \"%s\" not supported in interlanguage calls"
 msgstr "tipo \"%s\" non supportato in chiamate tra linguaggi diversi"
@@ -3691,18 +3691,18 @@ msgid "first element of condition object must be a scalar string"
 msgstr ""
 "il primo elemento dell'oggetto condizione dev'essere una stringa scalare"
 
-#: src/main/errors.c:2776
+#: src/main/errors.c:2827
 msgid "protect(): protection stack overflow"
 msgstr "protect(): overflow dello stack di protezione"
 
-#: src/main/errors.c:2778
+#: src/main/errors.c:2828
 msgid ""
 "evaluation nested too deeply: infinite recursion / options(expressions=)?"
 msgstr ""
 "calcolo annidato in un numero eccessivo di livelli: ricorsione infinita / "
 "options(expressions=)?"
 
-#: src/main/errors.c:2780
+#: src/main/errors.c:2829
 msgid "node stack overflow"
 msgstr "overflow del node stack"
 
@@ -4098,76 +4098,81 @@ msgstr "il valore non-intero %s qualificato L; si utilizza un valore numerico"
 msgid "integer literal %s contains unnecessary decimal point"
 msgstr "l'intero letterale %s contiene un punto decimale non necessario"
 
-#: src/main/gram.y:2741 src/main/gram.y:2764 src/main/gram.y:2801
-#: src/main/gram.y:2838
+#: src/main/gram.y:2741 src/main/gram.y:2766 src/main/gram.y:2803
+#: src/main/gram.y:2840
 #, c-format
 msgid "nul character not allowed (line %d)"
 msgstr "nul character non ammesso (linea %d)"
 
-#: src/main/gram.y:2757
+#: src/main/gram.y:2743
+#, c-format
+msgid "exceeded maximum allowed octal value \\377 (line %d)"
+msgstr "eccede il valore massimo consentito per un ottale \\377 (linea %d)"
+
+#: src/main/gram.y:2759
 #, c-format
 msgid "'\\x' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\x' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2773
+#: src/main/gram.y:2775
 #, c-format
 msgid "\\uxxxx sequences not supported inside backticks (line %d)"
 msgstr "\\uxxxx sequenze non supportate nei backticks (linea %d)"
 
-#: src/main/gram.y:2788
+#: src/main/gram.y:2790
 #, c-format
 msgid "'\\u' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\u' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2796
+#: src/main/gram.y:2798
 #, c-format
 msgid "invalid \\u{xxxx} sequence (line %d)"
 msgstr "sequenza \\u{xxxx} non valida (linea %d)"
 
-#: src/main/gram.y:2810
+#: src/main/gram.y:2812
 #, c-format
 msgid "\\Uxxxxxxxx sequences not supported inside backticks (line %d)"
 msgstr "sequenze \\Uxxxxxxxx non supportate nei backticks (linea %d)"
 
-#: src/main/gram.y:2825
+#: src/main/gram.y:2827
 #, c-format
 msgid "'\\U' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\U' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2833
+#: src/main/gram.y:2835
 #, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (line %d)"
 msgstr "sequenza \\U{xxxxxxxx} non valida (linea %d)"
 
-#: src/main/gram.y:2842
+#: src/main/gram.y:2844
 #, c-format
 msgid "invalid \\U{xxxxxxxx} value %6x (line %d)"
 msgstr "\\U{xxxxxxxx} valore %6x non valido (linea %d)"
 
-#: src/main/gram.y:2845
+#: src/main/gram.y:2847
 #, c-format
 msgid "invalid \\Uxxxxxxxx value %6x (line %d)"
 msgstr "\\Uxxxxxxxx valore %6x non valido (linea %d)"
 
-#: src/main/gram.y:2893
+#: src/main/gram.y:2895
 #, c-format
 msgid "'\\%c' is an unrecognized escape in character string starting \"%s\""
 msgstr ""
 "'\\%c' è un escape non riconosciuto in una stringa caratteri che inizia con "
 "\"%s\""
 
-#: src/main/gram.y:2962 src/main/gram.y:3091
+#: src/main/gram.y:2964 src/main/gram.y:3093
 msgid "mixing Unicode and octal/hex escapes in a string is not allowed"
 msgstr ""
 "non è ammesso mischiare Unicode ed escape ottali/esadecimali in una stringa"
 
-#: src/main/gram.y:2966 src/main/gram.y:3095
+#: src/main/gram.y:2968 src/main/gram.y:3097
 #, c-format
 msgid ""
 "string at line %d containing Unicode escapes not in this locale\n"
@@ -4177,18 +4182,18 @@ msgstr ""
 "questa localizzazione\n"
 "è troppo lunga (massimo 10000 caratteri)"
 
-#: src/main/gram.y:3002
+#: src/main/gram.y:3004
 #, c-format
 msgid "malformed raw string literal at line %d"
 msgstr "malformed raw string literal at line %d"
 
-#: src/main/gram.y:3720 src/main/gram.y:3727 src/main/gram.y:3733
-#: src/main/gram.y:3740
+#: src/main/gram.y:3722 src/main/gram.y:3729 src/main/gram.y:3735
+#: src/main/gram.y:3742
 #, c-format
 msgid "contextstack overflow at line %d"
 msgstr "contextstack overflow alla linea %d"
 
-#: src/main/gram.y:3830
+#: src/main/gram.y:3832
 #, c-format
 msgid "internal parser error at line %d"
 msgstr "internal parser error alla linea %d"
@@ -5144,12 +5149,12 @@ msgstr "nome del file troppo lungo"
 msgid "path too long"
 msgstr "percorso troppo lungo"
 
-#: src/main/platform.c:1829 src/main/platform.c:1893 src/main/sysutils.c:2110
-#: src/main/sysutils.c:2124
+#: src/main/platform.c:1829 src/main/platform.c:1893 src/main/sysutils.c:2081
+#: src/main/sysutils.c:2095
 msgid "internal out-of-memory condition"
 msgstr "condizione interna out-of-memory"
 
-#: src/main/platform.c:1889 src/main/sysutils.c:2120
+#: src/main/platform.c:1889 src/main/sysutils.c:2091
 #, c-format
 msgid "read error on '%s'"
 msgstr "errore di lettura su '%s'"
@@ -5388,17 +5393,17 @@ msgstr "probabilità negativa"
 msgid "too few positive probabilities"
 msgstr "troppe poche probabilità positive"
 
-#: src/main/random.c:483 src/main/random.c:511
+#: src/main/random.c:485 src/main/random.c:513
 msgid "cannot take a sample larger than the population when 'replace = FALSE'"
 msgstr ""
 "non si può considerare un campione più grande della popolazione se si "
 "utilizza 'replace = FALSE'"
 
-#: src/main/random.c:490
+#: src/main/random.c:492
 msgid "incorrect number of probabilities"
 msgstr "numero di probabilità non corretto"
 
-#: src/main/random.c:529
+#: src/main/random.c:531
 msgid "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
 msgstr "n >= 2^31, replace = FALSE è supportato solo su piattaforme a 64-bit"
 
@@ -5447,7 +5452,7 @@ msgstr "l'argomento'x' dev'essere un multiplo di %d long"
 msgid "argument 'x' must not contain NAs"
 msgstr "l'argomento 'x' non deve contenere NA"
 
-#: src/main/raw.c:344 src/main/util.c:1912
+#: src/main/raw.c:344 src/main/util.c:1915
 msgid "invalid UTF-8 string"
 msgstr "stringa UTF-8 non valida"
 
@@ -6730,40 +6735,40 @@ msgstr "non è possibile tradurre '%s' in UTF-8"
 msgid "unsupported conversion to '%s' from codepage %d"
 msgstr "conversione non supportata a '%s' da codepage %d"
 
-#: src/main/sysutils.c:1712
+#: src/main/sysutils.c:1683
 #, c-format
 msgid "invalid Unicode point %u"
 msgstr "punto Unicode %u non valido"
 
-#: src/main/sysutils.c:1821
+#: src/main/sysutils.c:1792
 msgid "'R_TempDir' contains space"
 msgstr "'R_TempDir' ha spazio"
 
-#: src/main/sysutils.c:1830
+#: src/main/sysutils.c:1801
 msgid "cannot create 'R_TempDir'"
 msgstr "non è possibile creare 'R_TempDir'"
 
-#: src/main/sysutils.c:1835 src/main/sysutils.c:1843 src/main/sysutils.c:1846
+#: src/main/sysutils.c:1806 src/main/sysutils.c:1814 src/main/sysutils.c:1817
 msgid "unable to set R_SESSION_TMPDIR"
 msgstr "non è possibile impostare R_SESSION_TMPDIR"
 
-#: src/main/sysutils.c:1855
+#: src/main/sysutils.c:1826
 msgid "cannot allocate 'R_TempDir'"
 msgstr "non è possibile allocare 'R_TempDir'"
 
-#: src/main/sysutils.c:1896
+#: src/main/sysutils.c:1867
 msgid "temporary name too long"
 msgstr "nome temporaneo troppo lungo"
 
-#: src/main/sysutils.c:1911
+#: src/main/sysutils.c:1882
 msgid "cannot find unused tempfile name"
 msgstr "non è stato possibile trovare un nome tempfile disponibile"
 
-#: src/main/sysutils.c:1914
+#: src/main/sysutils.c:1885
 msgid "allocation failed in R_tmpnam2"
 msgstr "allocazione fallita in R_tmpnam2"
 
-#: src/main/sysutils.c:2098
+#: src/main/sysutils.c:2069
 msgid "'dirmark = TRUE' is not supported on this platform"
 msgstr "'dirmark = TRUE' non è supportato su questa piattaforma"
 
@@ -6915,59 +6920,59 @@ msgstr "'value' dev'essere di lunghezza positiva"
 msgid "invalid input '%s' in 'utf8towcs'"
 msgstr "input '%s' non valido in 'utf8towcs'"
 
-#: src/main/util.c:1415 src/main/util.c:1425
+#: src/main/util.c:1418 src/main/util.c:1428
 #, c-format
 msgid "invalid input '%s' in 'utf8towcs32'"
 msgstr "input '%s' non valido in 'utf8towcs32'"
 
-#: src/main/util.c:1545
+#: src/main/util.c:1548
 #, c-format
 msgid "invalid multibyte string at '%s'"
 msgstr "stringa multibyte non valida in '%s'"
 
-#: src/main/util.c:1734
+#: src/main/util.c:1737
 msgid "error message truncated to 255 chars"
 msgstr "messaggio di errore troncato a 255 caratteri"
 
-#: src/main/util.c:1752
+#: src/main/util.c:1755
 msgid "warning message truncated to 255 chars"
 msgstr "messaggio di avvertimento troncato a 255 caratteri"
 
-#: src/main/util.c:1924
+#: src/main/util.c:1927
 msgid "Conversion failed"
 msgstr "Conversione fallita"
 
-#: src/main/util.c:2042
+#: src/main/util.c:2045
 #, c-format
 msgid "accuracy loss in conversion from \"%s\" to numeric"
 msgstr "perdita di accuratezza nella conversione da \"%s\" a numerico"
 
-#: src/main/util.c:2364
+#: src/main/util.c:2373
 msgid "all arguments must be named"
 msgstr "tutti gli attributi devono essere nominati"
 
-#: src/main/util.c:2503
+#: src/main/util.c:2512
 msgid "ICU is not supported on this build"
 msgstr "ICU non è supportato in questa build di R"
 
-#: src/main/util.c:2570
+#: src/main/util.c:2579
 msgid "'breaks' is not sorted"
 msgstr "'breaks' non è ordinato"
 
-#: src/main/util.c:2604 src/main/util.c:2667
+#: src/main/util.c:2613 src/main/util.c:2676
 #, c-format
 msgid "long vector '%s' is not supported"
 msgstr "il vettore long '%s' non è supportato"
 
-#: src/main/util.c:2725
+#: src/main/util.c:2734
 msgid "'eps.correct' must be 0, 1, or 2"
 msgstr "'eps.correct' dev'essere 0, 1 o 2"
 
-#: src/main/util.c:2728
+#: src/main/util.c:2737
 msgid "'bounds' must be TRUE or FALSE"
 msgstr "'bounds' dev'essere TRUE o FALSE"
 
-#: src/main/util.c:2768
+#: src/main/util.c:2777
 msgid "'x' must be a vector"
 msgstr "'x' dev'essere un vettore"
 
@@ -7779,7 +7784,7 @@ msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
 msgstr ""
 "pnchisq(x=%g, f=%g, theta=%g, ..): senza convergenza con %d iterazioni."
 
-#: src/nmath/polygamma.c:499
+#: src/nmath/polygamma.c:510
 #, c-format
 msgid "deriv = %d > %d (= n_max)\n"
 msgstr "deriv = %d > %d (= n_max)\n"
@@ -7876,7 +7881,7 @@ msgstr ""
 "Non è possibile aprire il file '%s': %s\n"
 "\n"
 
-#: src/unix/sys-std.c:1313 src/unix/sys-unix.c:795 src/unix/sys-unix.c:832
+#: src/unix/sys-std.c:1313 src/unix/sys-unix.c:818 src/unix/sys-unix.c:855
 #: src/unix/system.c:582
 msgid "error in running command"
 msgstr "errore durante l'esecuzione del comando"
@@ -7908,31 +7913,31 @@ msgstr ""
 "il comando in esecuzione '%s' aveva lo status %d e il messaggio di errore "
 "'%s'"
 
-#: src/unix/sys-unix.c:685
+#: src/unix/sys-unix.c:707
 msgid "non-empty character argument expected"
 msgstr "attesi argomenti di tipo character non-vuoti"
 
-#: src/unix/sys-unix.c:688
+#: src/unix/sys-unix.c:710
 msgid "'intern' must be logical and not NA"
 msgstr "'intern' dev'essere logico e non NA"
 
-#: src/unix/sys-unix.c:733
+#: src/unix/sys-unix.c:755
 #, c-format
 msgid "cannot popen '%s', probable reason '%s'"
 msgstr "non è possibile fare un popen '%s', probabile motivo '%s'"
 
-#: src/unix/sys-unix.c:747
+#: src/unix/sys-unix.c:769
 #, c-format
 msgid "line %d may be truncated in call to system(, intern = TRUE)"
 msgstr ""
 "la linea %d potrebbe essere troncata nella chiamata a system(, intern = TRUE)"
 
-#: src/unix/sys-unix.c:793
+#: src/unix/sys-unix.c:815
 #, c-format
 msgid "error in running command: '%s'"
 msgstr "errore durante l'esecuzione del comando: '%s'"
 
-#: src/unix/sys-unix.c:911
+#: src/unix/sys-unix.c:934
 msgid "Sys.info() is not implemented on this system"
 msgstr "Sys.info() non è implementato su questo sistema"
 

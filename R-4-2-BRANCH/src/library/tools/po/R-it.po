@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-tools 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2021-11-06 17:18\n"
+"POT-Creation-Date: 2022-02-01 16:22\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -574,6 +574,12 @@ msgstr "Nessuna macro Rd nel pacchetto '%s'."
 msgid "more than one \\examples section, using the first"
 msgstr "più di una sezione \\examples, si utilizza la prima"
 
+msgid "alias:"
+msgstr "alias:"
+
+msgid "is not one line"
+msgstr "non è una linea"
+
 msgid "Converting Rd files to LaTeX ..."
 msgstr "Conversione file Rd in LaTeX ..."
 
@@ -736,6 +742,13 @@ msgstr "File DESCRIPTION non valido"
 
 msgid "*** someone has corrupted the Built field in package '%s' ***"
 msgstr "*** qualcuno ha danneggiato il campo Builr nel pacchetto '%s' ***"
+
+msgid ""
+"*** someone has corrupted the ExperimentalWindowsRuntime field in package "
+"'%s' ***"
+msgstr ""
+"*** qualcuno ha danneggiato il campo ExperimentalWindowsRuntime nel "
+"pacchetto '%s' ***"
 
 msgid "cannot open directory '%s'"
 msgstr "non è possibile leggere la directory '%s'"
@@ -1027,6 +1040,34 @@ msgid "staged installation is only possible with locking"
 msgstr "l'installazione staged è possibile unicamente con il locking"
 
 msgid ""
+"WARNING: installation-time patches will not be applied, could not get the "
+"patches index"
+msgstr ""
+"AVVERTIMENTO: le patch durante l'installazione non saranno applicate, non è "
+"possibile ottenere l'indice"
+
+msgid "patch utility is needed for installation-time patching"
+msgstr "l'utility patch è richiesta all'uso durante l'installazione"
+
+msgid "NOTE: Skipping installation-time patch"
+msgstr "NOTA: Salta la patch durante l'installazione"
+
+msgid "which seems to be already applied."
+msgstr "il quale sembra già stato applicato."
+
+msgid "WARNING: failed to apply patch"
+msgstr "AVVERTIMENTO: applicazione patch fallita"
+
+msgid "Applied installation-time patch"
+msgstr "Applicata patch durante l'installazione"
+
+msgid "and saved it as"
+msgstr "e salvata come"
+
+msgid "in package installation"
+msgstr "durante l'installazione del pacchetto"
+
+msgid ""
 "R include directory is empty -- perhaps need to install R-devel.rpm or "
 "similar"
 msgstr ""
@@ -1071,6 +1112,12 @@ msgstr "ERRORE: non ci sono i permessi per installare nella directory"
 
 msgid "building a fake installation is disallowed"
 msgstr "non è ammesso avviare una installazione fake"
+
+msgid "WARNING: failed to revert patch"
+msgstr "AVVERTIMENTO: ripristino patch fallito"
+
+msgid "Reverted installation-time patch"
+msgstr "Annullata patch durante l'installazione"
 
 msgid ""
 "See\n"
@@ -1380,6 +1427,12 @@ msgstr "Codifica sconosciuta con dati non-ASCII: conversione in ASCII"
 
 msgid "cannot source package code:"
 msgstr "non è possibile eseguire il codice del pacchetto:"
+
+msgid "inferiorCallError"
+msgstr "inferiorCallError"
+
+msgid "inferior call failed"
+msgstr "chiamata inferiore fallita"
 
 msgid "'text' must be a character vector"
 msgstr "'text' dev'essere un vettore di caratteri"

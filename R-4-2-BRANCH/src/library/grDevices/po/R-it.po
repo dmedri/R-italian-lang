@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-grDevices 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2021-11-06 17:17\n"
+"POT-Creation-Date: 2022-01-17 15:35\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -168,8 +168,17 @@ msgstr "nessun nome file utilizzabile per postscript()"
 msgid "dev.new(): using postscript(file=\"%s\")"
 msgstr "dev.new(): si utilizza postscript(file=\"%s\")"
 
+msgid "Invalid capabilities - alert the device maintainer"
+msgstr "Capacità non valide - si avvisi il responsabile del dispositivo"
+
+msgid "Invalid compositing operator"
+msgstr "Operatore di composizione non valido"
+
 msgid "wrong 'type'; should never happen, please report!"
 msgstr "'type' errato; non dovrebbe accadere, per piacere riportalo!"
+
+msgid "Invalid mask type"
+msgstr "Tipo maschera non valido"
 
 msgid "Invalid fill rule"
 msgstr "Regola di riempimento non valida"

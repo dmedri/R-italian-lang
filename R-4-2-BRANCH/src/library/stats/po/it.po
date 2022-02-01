@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stats 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2021-11-06 17:18+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-01 16:22+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -141,11 +141,15 @@ msgstr "solo il primo elemento è utilizzato come nome di variabile"
 msgid "invalid expression in '%s'"
 msgstr "espressione non valida in '%s'"
 
-#: deriv.c:1085 model.c:99
+#: deriv.c:872
+msgid "too many variables"
+msgstr "troppe variabili"
+
+#: deriv.c:1087 model.c:99
 msgid "invalid variable names"
 msgstr "nomi variabili non validi"
 
-#: deriv.c:1094
+#: deriv.c:1095 deriv.c:1097
 msgid "invalid tag"
 msgstr "'tag' non valido"
 

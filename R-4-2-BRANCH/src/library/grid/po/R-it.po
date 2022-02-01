@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-grid 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2021-11-06 17:17\n"
+"POT-Creation-Date: 2022-01-17 15:35\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -293,9 +293,6 @@ msgstr "Sorgente non valida"
 msgid "Invalid destination"
 msgstr "Destinazione non valida"
 
-msgid "Invalid compositing operator"
-msgstr "Operatore di composizione non valido"
-
 msgid "Unknown group:"
 msgstr "Gruppo sconosciuto:"
 
@@ -349,6 +346,9 @@ msgstr "listing non valido"
 
 msgid "invalid 'listing'"
 msgstr "'listing' non valido"
+
+msgid "Only a grob can be converted to a mask"
+msgstr "Solo un grob può essere convertito in una maschera"
 
 msgid "invalid 'origin'"
 msgstr "'origin' non valido"
@@ -569,6 +569,9 @@ msgid "invalid viewport name"
 msgid_plural "invalid viewport names"
 msgstr[0] "nome viewport non valido"
 msgstr[1] "nomi viewport non validi"
+
+#~ msgid "Invalid compositing operator"
+#~ msgstr "Operatore di composizione non valido"
 
 #~ msgid "'x' argument must be a unit object"
 #~ msgstr "l'argomento 'x' dev'essere un oggetto unità"
