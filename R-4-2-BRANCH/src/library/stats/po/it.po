@@ -1003,9 +1003,3 @@ msgstr "regola finale non valida per calcolare la mediana di 3: %d"
 #, c-format
 msgid "missing value in last %d observations"
 msgstr "valori mancanti nelle ultime %d osservazioni"
-
-#~ msgid "'x' is a factor"
-#~ msgstr "'x' è un factor"
-
-#~ msgid "'y' is a factor"
-#~ msgstr "'y' è un factor"

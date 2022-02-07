@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: grid 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2021-11-06 17:17+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-17 15:35+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -80,11 +80,11 @@ msgstr "x o y non finiti nel percorso grafico"
 msgid "Empty raster"
 msgstr "Raster vuoto"
 
-#: grid.c:3869
+#: grid.c:3873
 msgid "invalid plotting symbol"
 msgstr "simbolo di plotting non valido"
 
-#: grid.c:3963
+#: grid.c:3967
 msgid "unable to clip to rotated rectangle"
 msgstr "non è possibile tagliare su un rettangolo ruotato"
 
@@ -181,6 +181,3 @@ msgstr "Mask non è un valore logico ('none' o 'inherit')"
 #: viewport.c:330
 msgid "non-finite location and/or size for viewport"
 msgstr "posizione e/o dimensione della viewport non finita"
-
-#~ msgid "unimplemented unit function"
-#~ msgstr "funzione unit non implementata"

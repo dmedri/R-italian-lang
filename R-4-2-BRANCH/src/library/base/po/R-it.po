@@ -2016,8 +2016,3 @@ msgstr[0] ""
 msgstr[1] ""
 "In %s :\n"
 " gli argomenti extra %s saranno ignorati"
-
-#~ msgid "argument 'object' must deparse to a single character string"
-#~ msgstr ""
-#~ "l'argomento 'object' dev'essere ritrattato in una singola stringa di "
-#~ "caratteri"
