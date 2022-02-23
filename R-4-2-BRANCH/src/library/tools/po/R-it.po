@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-tools 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2022-02-01 16:22\n"
+"POT-Creation-Date: 2022-02-23 17:29\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -911,6 +911,12 @@ msgstr "classe sbagliata"
 msgid "non-ASCII input in a CITATION file without a declared encoding"
 msgstr "input non-ASCII nel campo CITATION senza una codifica dichiarata"
 
+msgid "HTTPD-REQUEST %s%s"
+msgstr "HTTPD-REQUEST %s%s"
+
+msgid "="
+msgstr "="
+
 msgid "No files in this directory"
 msgstr "Nessun file in questa directory"
 
@@ -925,6 +931,9 @@ msgstr "Dimostrazione codice:"
 
 msgid "Help pages:"
 msgstr "Pagine guida:"
+
+msgid "HTTPD-ERROR %s %s"
+msgstr "HTTPD-ERROR %s %s"
 
 msgid "No package named %s could be found"
 msgstr "Non è possibile trovare il pacchetto nominato %s"
@@ -946,6 +955,9 @@ msgstr "Nessun documento trovato per il pacchetto %s"
 
 msgid "URL %s was not found"
 msgstr "Indirizzo URL %s non trovato"
+
+msgid "HTTPD-DEMO %s::%s"
+msgstr "HTTPD-DEMO %s::%s"
 
 msgid ""
 "Only help files, %s, %s and files under %s and %s in a package can be viewed"
@@ -976,6 +988,9 @@ msgstr "fatto"
 
 msgid "failed to start the httpd server"
 msgstr "non è possibile avviare il server httpd"
+
+msgid "* Package: %s"
+msgstr "* Pacchetto: %s"
 
 msgid "cannot read index information in file '%s'"
 msgstr "non posso leggere le informazioni dell'indice nel file '%s'"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-14 15:33+0100\n"
-"PO-Revision-Date: 2022-02-14 16:15+0100\n"
+"POT-Creation-Date: 2022-02-23 17:28+0100\n"
+"PO-Revision-Date: 2022-02-23 17:43+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -215,13 +215,13 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/platform.c:1853 src/main/platform.c:1898 src/main/platform.c:1901
 #: src/main/platform.c:1904 src/main/platform.c:1907 src/main/platform.c:1952
 #: src/main/platform.c:1985 src/main/platform.c:1987 src/main/platform.c:2066
-#: src/main/platform.c:2159 src/main/platform.c:2424 src/main/platform.c:2484
-#: src/main/platform.c:2693 src/main/platform.c:2696 src/main/platform.c:2699
-#: src/main/platform.c:2702 src/main/platform.c:2705 src/main/platform.c:2708
-#: src/main/platform.c:2955 src/main/platform.c:2958 src/main/platform.c:2961
-#: src/main/platform.c:2964 src/main/platform.c:2967 src/main/platform.c:2970
-#: src/main/platform.c:2973 src/main/platform.c:3060 src/main/platform.c:3068
-#: src/main/platform.c:3104 src/main/platform.c:3148 src/main/platform.c:3239
+#: src/main/platform.c:2162 src/main/platform.c:2427 src/main/platform.c:2487
+#: src/main/platform.c:2696 src/main/platform.c:2699 src/main/platform.c:2702
+#: src/main/platform.c:2705 src/main/platform.c:2708 src/main/platform.c:2711
+#: src/main/platform.c:2958 src/main/platform.c:2961 src/main/platform.c:2964
+#: src/main/platform.c:2967 src/main/platform.c:2970 src/main/platform.c:2973
+#: src/main/platform.c:2976 src/main/platform.c:3063 src/main/platform.c:3071
+#: src/main/platform.c:3107 src/main/platform.c:3151 src/main/platform.c:3242
 #: src/main/print.c:250 src/main/print.c:279 src/main/print.c:287
 #: src/main/print.c:301 src/main/random.c:469 src/main/random.c:472
 #: src/main/random.c:476 src/main/random.c:483 src/main/random.c:511
@@ -236,7 +236,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/seq.c:751 src/main/seq.c:756 src/main/seq.c:763 src/main/seq.c:767
 #: src/main/seq.c:773 src/main/sort.c:276 src/main/sysutils.c:609
 #: src/main/sysutils.c:613 src/main/sysutils.c:617 src/main/sysutils.c:623
-#: src/main/sysutils.c:627 src/main/sysutils.c:2062 src/main/sysutils.c:2066
+#: src/main/sysutils.c:627 src/main/sysutils.c:2090 src/main/sysutils.c:2094
 #: src/main/unique.c:1541 src/main/unique.c:1847 src/main/unique.c:1851
 #: src/main/unique.c:1861 src/main/unique.c:2252 src/main/unique.c:2257
 #: src/main/util.c:662 src/main/util.c:665 src/main/util.c:1615
@@ -361,19 +361,19 @@ msgstr "il commando '%s' è scaduto dopo %ds"
 msgid "running command '%s' had status %d"
 msgstr "il comando in esecuzione '%s' aveva status %d"
 
-#: src/gnuwin32/system.c:125 src/main/sysutils.c:2021
+#: src/gnuwin32/system.c:125 src/main/sysutils.c:2049
 msgid "reached session elapsed time limit"
 msgstr "raggiunto il limite di tempo trascorso per la sessione"
 
-#: src/gnuwin32/system.c:127 src/main/sysutils.c:2023
+#: src/gnuwin32/system.c:127 src/main/sysutils.c:2051
 msgid "reached elapsed time limit"
 msgstr "limite di tempo trascorso per la sessione"
 
-#: src/gnuwin32/system.c:133 src/main/sysutils.c:2029
+#: src/gnuwin32/system.c:133 src/main/sysutils.c:2057
 msgid "reached session CPU time limit"
 msgstr "raggiunto il limite di tempo CPU per la sessione"
 
-#: src/gnuwin32/system.c:135 src/main/sysutils.c:2031
+#: src/gnuwin32/system.c:135 src/main/sysutils.c:2059
 msgid "reached CPU time limit"
 msgstr "raggiunto il limite di tempo CPU"
 
@@ -809,7 +809,7 @@ msgstr "'FUN.VALUE' dev'essere un vettore"
 #: src/main/context.c:710 src/main/datetime.c:680 src/main/datetime.c:782
 #: src/main/datetime.c:1061 src/main/dotcode.c:222 src/main/errors.c:1179
 #: src/main/errors.c:1200 src/main/errors.c:1318 src/main/errors.c:1325
-#: src/main/errors.c:1629 src/main/identical.c:45 src/main/platform.c:3543
+#: src/main/errors.c:1629 src/main/identical.c:45 src/main/platform.c:3546
 #: src/main/seq.c:252 src/main/seq.c:259 src/main/seq.c:263 src/main/seq.c:368
 #: src/main/seq.c:375 src/main/seq.c:378 src/main/seq.c:380 src/main/seq.c:437
 #: src/main/seq.c:441 src/main/seq.c:445 src/main/sort.c:1428
@@ -1343,8 +1343,8 @@ msgstr "argomento formale 'use.names' ripetuto"
 msgid "argument not a list"
 msgstr "l'argomento non è di tipo lista"
 
-#: src/main/bind.c:1094 src/main/names.c:1321 src/main/names.c:1326
-#: src/main/names.c:1331 src/main/names.c:1336
+#: src/main/bind.c:1094 src/main/names.c:1322 src/main/names.c:1327
+#: src/main/names.c:1332 src/main/names.c:1337
 #, c-format
 msgid "class name too long in '%s'"
 msgstr "nome classe troppo lungo in '%s'"
@@ -1881,10 +1881,10 @@ msgid "closing unused connection %d (%s)\n"
 msgstr "chiusura della connessione non utilizzata %d (%s)\n"
 
 #: src/main/connections.c:232 src/main/serialize.c:1686
-#: src/main/serialize.c:1709 src/main/sysutils.c:645 src/main/sysutils.c:889
-#: src/main/sysutils.c:904 src/main/sysutils.c:1111 src/main/sysutils.c:1177
-#: src/main/sysutils.c:1258 src/main/sysutils.c:1268 src/main/sysutils.c:1281
-#: src/main/sysutils.c:1669
+#: src/main/serialize.c:1709 src/main/sysutils.c:645 src/main/sysutils.c:917
+#: src/main/sysutils.c:932 src/main/sysutils.c:1139 src/main/sysutils.c:1205
+#: src/main/sysutils.c:1286 src/main/sysutils.c:1296 src/main/sysutils.c:1309
+#: src/main/sysutils.c:1697
 #, c-format
 msgid "unsupported conversion from '%s' to '%s'"
 msgstr "conversione non supportata da '%s' a '%s'"
@@ -3682,27 +3682,27 @@ msgstr "non in un contesto di prova"
 msgid "error message must be a character string"
 msgstr "il messaggio di errore dev'essere una stringa di caratteri"
 
-#: src/main/errors.c:2658
+#: src/main/errors.c:2700
 msgid "condition object must be a VECSXP of length at least one"
 msgstr "l'oggetto condizione dev'essere un VECSXP almeno di lunghezza uno"
 
-#: src/main/errors.c:2661
+#: src/main/errors.c:2703
 msgid "first element of condition object must be a scalar string"
 msgstr ""
 "il primo elemento dell'oggetto condizione dev'essere una stringa scalare"
 
-#: src/main/errors.c:2827
+#: src/main/errors.c:2869
 msgid "protect(): protection stack overflow"
 msgstr "protect(): overflow dello stack di protezione"
 
-#: src/main/errors.c:2828
+#: src/main/errors.c:2870
 msgid ""
 "evaluation nested too deeply: infinite recursion / options(expressions=)?"
 msgstr ""
 "calcolo annidato in un numero eccessivo di livelli: ricorsione infinita / "
 "options(expressions=)?"
 
-#: src/main/errors.c:2829
+#: src/main/errors.c:2871
 msgid "node stack overflow"
 msgstr "overflow del node stack"
 
@@ -3898,7 +3898,7 @@ msgstr "versione bytecode non corrispondente"
 msgid "invalid sequence argument in for loop"
 msgstr "argomento 'sequence' non valido nel ciclo 'for'"
 
-#: src/main/eval.c:6994 src/main/names.c:1360
+#: src/main/eval.c:6994 src/main/names.c:1361
 #, c-format
 msgid "there is no .Internal function '%s'"
 msgstr "non c'è alcuna funzione .Internal '%s'"
@@ -4674,16 +4674,16 @@ msgstr "richiesto argomento stringa"
 msgid "no such primitive function"
 msgstr "funzione primitiva non esistente"
 
-#: src/main/names.c:1256 src/main/names.c:1290
+#: src/main/names.c:1257 src/main/names.c:1291
 msgid "attempt to use zero-length variable name"
 msgstr "tentativo di utilizzo di un nome variabile di lunghezza zero"
 
-#: src/main/names.c:1258 src/main/names.c:1292
+#: src/main/names.c:1259 src/main/names.c:1293
 #, c-format
 msgid "variable names are limited to %d bytes"
 msgstr "i nomi delle variabili sono limitati a %d byte"
 
-#: src/main/names.c:1355 src/main/names.c:1358
+#: src/main/names.c:1356 src/main/names.c:1359
 msgid "invalid .Internal() argument"
 msgstr "argomento .Internal() non valido"
 
@@ -5073,8 +5073,8 @@ msgstr "niente da collegare"
 msgid "symbolic links are not supported on this version of Windows"
 msgstr "link simbolici non supportati su questa versione di Windows"
 
-#: src/main/platform.c:769 src/main/platform.c:846 src/main/platform.c:2711
-#: src/main/platform.c:2722
+#: src/main/platform.c:769 src/main/platform.c:846 src/main/platform.c:2714
+#: src/main/platform.c:2725
 #, c-format
 msgid "'%s' path too long"
 msgstr "percorso '%s' troppo lungo"
@@ -5130,9 +5130,9 @@ msgid "cannot rename file '%s' to '%s', reason '%s'"
 msgstr "non è possibile rinominare il file '%s' in '%s', motivo '%s'"
 
 #: src/main/platform.c:1325 src/main/platform.c:1356 src/main/platform.c:1470
-#: src/main/platform.c:1483 src/main/platform.c:2573 src/main/platform.c:2585
-#: src/main/platform.c:2614 src/main/platform.c:2635 src/main/platform.c:2832
-#: src/main/platform.c:2845 src/main/platform.c:2876 src/main/platform.c:2897
+#: src/main/platform.c:1483 src/main/platform.c:2576 src/main/platform.c:2588
+#: src/main/platform.c:2617 src/main/platform.c:2638 src/main/platform.c:2835
+#: src/main/platform.c:2848 src/main/platform.c:2879 src/main/platform.c:2900
 msgid "over-long path"
 msgstr "percorso troppo lungo"
 
@@ -5153,12 +5153,12 @@ msgstr "nome del file troppo lungo"
 msgid "path too long"
 msgstr "percorso troppo lungo"
 
-#: src/main/platform.c:1864 src/main/platform.c:1928 src/main/sysutils.c:2081
-#: src/main/sysutils.c:2095
+#: src/main/platform.c:1864 src/main/platform.c:1928 src/main/sysutils.c:2109
+#: src/main/sysutils.c:2123
 msgid "internal out-of-memory condition"
 msgstr "condizione interna out-of-memory"
 
-#: src/main/platform.c:1924 src/main/sysutils.c:2091
+#: src/main/platform.c:1924 src/main/sysutils.c:2119
 #, c-format
 msgid "read error on '%s'"
 msgstr "errore di lettura su '%s'"
@@ -5178,92 +5178,92 @@ msgstr ""
 "Il sistema operativo indica che la richiesta di cambiamento localizzazione a "
 "\"%s\" non può essere onorata"
 
-#: src/main/platform.c:2080
+#: src/main/platform.c:2083
 #, c-format
 msgid "using locale code page other than %d%s may cause problems"
 msgstr ""
 "l'utilizzo di un codice di localizzazione diverso da %d%s potrebbe causare "
 "problemi"
 
-#: src/main/platform.c:2466
+#: src/main/platform.c:2469
 #, c-format
 msgid "'%s' already exists"
 msgstr "'%s' già esistente"
 
-#: src/main/platform.c:2469
+#: src/main/platform.c:2472
 #, c-format
 msgid "cannot create dir '%s', reason '%s'"
 msgstr "non è possibile creare la directory '%s', motivo '%s'"
 
-#: src/main/platform.c:2492
+#: src/main/platform.c:2495
 #, c-format
 msgid "'%s' too long"
 msgstr "'%s' troppo lungo"
 
-#: src/main/platform.c:2523
+#: src/main/platform.c:2526
 #, c-format
 msgid "'%ls' already exists"
 msgstr "'%ls' esiste già"
 
-#: src/main/platform.c:2525 src/main/platform.c:2531
+#: src/main/platform.c:2528 src/main/platform.c:2534
 #, c-format
 msgid "cannot create dir '%ls', reason '%s'"
 msgstr "non è possibile creare la directory '%ls', motivo '%s'"
 
-#: src/main/platform.c:2565 src/main/platform.c:2816
+#: src/main/platform.c:2568 src/main/platform.c:2819
 msgid "too deep nesting"
 msgstr "nidificazione troppo profonda"
 
-#: src/main/platform.c:2597
+#: src/main/platform.c:2600
 #, c-format
 msgid "cannot overwrite non-directory %ls with directory %ls"
 msgstr ""
 "non è possibile sovrascrivere la non-directory %ls con la directory %ls"
 
-#: src/main/platform.c:2602
+#: src/main/platform.c:2605
 #, c-format
 msgid "problem creating directory %ls: %s"
 msgstr "problema durante la creazione della directory %ls: %s"
 
-#: src/main/platform.c:2624
+#: src/main/platform.c:2627
 #, c-format
 msgid "problem reading directory %ls: %s"
 msgstr "problema di lettura per la directory %ls: %s"
 
-#: src/main/platform.c:2643
+#: src/main/platform.c:2646
 #, c-format
 msgid "problem copying %ls to %ls: %s"
 msgstr "problema durante la copia di %ls in %ls: %s"
 
-#: src/main/platform.c:2859
+#: src/main/platform.c:2862
 #, c-format
 msgid "cannot overwrite non-directory %s with directory %s"
 msgstr "non è possibile sovrascrivere la non-directory %s con la directory %s"
 
-#: src/main/platform.c:2864
+#: src/main/platform.c:2867
 #, c-format
 msgid "problem creating directory %s: %s"
 msgstr "problema durante la creazione della directory %s: %s"
 
-#: src/main/platform.c:2886
+#: src/main/platform.c:2889
 #, c-format
 msgid "problem reading directory %s: %s"
 msgstr "problema durante la lettura della directory %s: %s"
 
-#: src/main/platform.c:2906
+#: src/main/platform.c:2909
 #, c-format
 msgid "problem copying %s to %s: %s"
 msgstr "problema durante la copia di %s in %s: %s"
 
-#: src/main/platform.c:3065
+#: src/main/platform.c:3068
 msgid "'mode' must be of length at least one"
 msgstr "'mode' dev'essere almeno di lunghezza uno"
 
-#: src/main/platform.c:3133
+#: src/main/platform.c:3136
 msgid "insufficient OS support on this platform"
 msgstr "supporto OS non sufficiente su questa piattaforma"
 
-#: src/main/platform.c:3243
+#: src/main/platform.c:3246
 #, c-format
 msgid "'%s' must be of length at least one"
 msgstr "'%s' dev'essere almeno di lunghezza uno"
@@ -6635,8 +6635,8 @@ msgstr "non posso verificare la data di modifica di '%s'"
 msgid "encoding of a filename cannot be 'bytes'"
 msgstr "la codifica di un nome file non può essere 'bytes'"
 
-#: src/main/sysutils.c:178 src/main/sysutils.c:886 src/main/sysutils.c:901
-#: src/main/sysutils.c:1108 src/main/sysutils.c:1174
+#: src/main/sysutils.c:178 src/main/sysutils.c:914 src/main/sysutils.c:929
+#: src/main/sysutils.c:1136 src/main/sysutils.c:1202
 #, c-format
 msgid "unsupported conversion from '%s' in codepage %d"
 msgstr "conversione non supportata da '%s' nel codepage %d"
@@ -6711,75 +6711,75 @@ msgid "'x' must be a character vector or a list of NULL or raw vectors"
 msgstr ""
 "'x' dev'essere un vettore di caratteri, una lista di NULL o vettori raw"
 
-#: src/main/sysutils.c:781 src/main/sysutils.c:1075 src/main/sysutils.c:1244
+#: src/main/sysutils.c:809 src/main/sysutils.c:1103 src/main/sysutils.c:1272
 #, c-format
 msgid "'%s' must be called on a CHARSXP"
 msgstr "'%s' dev'essere chiamato su un CHARSXP"
 
-#: src/main/sysutils.c:853 src/main/sysutils.c:1097 src/main/sysutils.c:1163
-#: src/main/sysutils.c:1247
+#: src/main/sysutils.c:881 src/main/sysutils.c:1125 src/main/sysutils.c:1191
+#: src/main/sysutils.c:1275
 msgid "translating strings with \"bytes\" encoding is not allowed"
 msgstr "non è ammessa la traduzione di stringhe con codifica \"bytes\""
 
-#: src/main/sysutils.c:867
+#: src/main/sysutils.c:895
 msgid "internal error: no translation needed"
 msgstr "errore interno: nessuna traduzione richiesta"
 
-#: src/main/sysutils.c:966 src/main/sysutils.c:970
+#: src/main/sysutils.c:994 src/main/sysutils.c:998
 #, c-format
 msgid "unable to translate '%s' to native encoding"
 msgstr "non è possibile tradurre '%s' ad una codifica nativa"
 
-#: src/main/sysutils.c:982 src/main/sysutils.c:1002 src/main/sysutils.c:1023
-#: src/main/sysutils.c:1042 src/main/sysutils.c:1091 src/main/sysutils.c:1157
+#: src/main/sysutils.c:1010 src/main/sysutils.c:1030 src/main/sysutils.c:1051
+#: src/main/sysutils.c:1070 src/main/sysutils.c:1119 src/main/sysutils.c:1185
 #, c-format
 msgid "'%s' must be called on a CHARSXP, but got '%s'"
 msgstr "'%s' dev'essere chiamato su un CHARSXP, ma ha ricevuto un '%s'"
 
-#: src/main/sysutils.c:1206
+#: src/main/sysutils.c:1234
 #, c-format
 msgid "unable to translate '%s' to UTF-8"
 msgstr "non è possibile tradurre '%s' in UTF-8"
 
-#: src/main/sysutils.c:1278
+#: src/main/sysutils.c:1306
 #, c-format
 msgid "unsupported conversion to '%s' from codepage %d"
 msgstr "conversione non supportata a '%s' da codepage %d"
 
-#: src/main/sysutils.c:1683
+#: src/main/sysutils.c:1711
 #, c-format
 msgid "invalid Unicode point %u"
 msgstr "punto Unicode %u non valido"
 
-#: src/main/sysutils.c:1792
+#: src/main/sysutils.c:1820
 msgid "'R_TempDir' contains space"
 msgstr "'R_TempDir' ha spazio"
 
-#: src/main/sysutils.c:1801
+#: src/main/sysutils.c:1829
 msgid "cannot create 'R_TempDir'"
 msgstr "non è possibile creare 'R_TempDir'"
 
-#: src/main/sysutils.c:1806 src/main/sysutils.c:1814 src/main/sysutils.c:1817
+#: src/main/sysutils.c:1834 src/main/sysutils.c:1842 src/main/sysutils.c:1845
 msgid "unable to set R_SESSION_TMPDIR"
 msgstr "non è possibile impostare R_SESSION_TMPDIR"
 
-#: src/main/sysutils.c:1826
+#: src/main/sysutils.c:1854
 msgid "cannot allocate 'R_TempDir'"
 msgstr "non è possibile allocare 'R_TempDir'"
 
-#: src/main/sysutils.c:1867
+#: src/main/sysutils.c:1895
 msgid "temporary name too long"
 msgstr "nome temporaneo troppo lungo"
 
-#: src/main/sysutils.c:1882
+#: src/main/sysutils.c:1910
 msgid "cannot find unused tempfile name"
 msgstr "non è stato possibile trovare un nome tempfile disponibile"
 
-#: src/main/sysutils.c:1885
+#: src/main/sysutils.c:1913
 msgid "allocation failed in R_tmpnam2"
 msgstr "allocazione fallita in R_tmpnam2"
 
-#: src/main/sysutils.c:2069
+#: src/main/sysutils.c:2097
 msgid "'dirmark = TRUE' is not supported on this platform"
 msgstr "'dirmark = TRUE' non è supportato su questa piattaforma"
 
@@ -7754,35 +7754,39 @@ msgstr "bessel_y(%g,nu=%g): perdita di precisione nel risultato\n"
 msgid "'k' (%.2f) must be integer, rounded to %.0f"
 msgstr "'k' (%.2f) dev'essere un intero, arrotondato a %.0f"
 
-#: src/nmath/nmath.h:157
+#: src/nmath/nmath.h:158
 #, c-format
 msgid "argument out of domain in '%s'\n"
 msgstr "argomento fuori dominio in '%s'\n"
 
-#: src/nmath/nmath.h:160
+#: src/nmath/nmath.h:161
 #, c-format
 msgid "value out of range in '%s'\n"
 msgstr "valore fuori intervallo in '%s'\n"
 
-#: src/nmath/nmath.h:163
+#: src/nmath/nmath.h:164
 #, c-format
 msgid "convergence failed in '%s'\n"
 msgstr "convergenza fallita in '%s'\n"
 
-#: src/nmath/nmath.h:166
+#: src/nmath/nmath.h:167
 #, c-format
 msgid "full precision may not have been achieved in '%s'\n"
 msgstr "la precisione piena potrebbe non essere stata raggiunta in '%s'\n"
 
-#: src/nmath/nmath.h:169
+#: src/nmath/nmath.h:170
 #, c-format
 msgid "underflow occurred in '%s'\n"
 msgstr "occorso un underflow in '%s'\n"
 
-#: src/nmath/pbeta.c:64
+#: src/nmath/pbeta.c:67
 #, c-format
-msgid "pbeta_raw(%g, a=%g, b=%g, ..) -> bratio() gave error code %d"
-msgstr "pbeta_raw(%g, a=%g, b=%g, ..) -> bratio() ha dato il codice errore %d"
+#| msgid "pbeta_raw(%g, a=%g, b=%g, ..) -> bratio() gave error code %d"
+msgid ""
+"pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
+msgstr ""
+"pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() ha dato il codice di "
+"errore %d"
 
 #: src/nmath/pnbinom.c:82
 #, c-format
