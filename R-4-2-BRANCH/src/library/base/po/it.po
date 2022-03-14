@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-23 17:28+0100\n"
-"PO-Revision-Date: 2022-02-23 17:43+0100\n"
+"POT-Creation-Date: 2022-03-14 17:02+0100\n"
+"PO-Revision-Date: 2022-03-14 17:11+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -866,7 +866,7 @@ msgstr "dimnames(<value>) non è né NULL né una lista di lunghezza %d"
 msgid "'%s' must be a list or expression"
 msgstr "'%s' dev'essere una lista o un'espressione"
 
-#: src/main/arithmetic.c:44 src/main/eval.c:4477
+#: src/main/arithmetic.c:44 src/main/eval.c:4478
 msgid "NaNs produced"
 msgstr "Si è prodotto un NaN"
 
@@ -925,39 +925,39 @@ msgstr "argomento non valido per l'operatore unario"
 msgid "invalid unary operator"
 msgstr "operatore unario non valido"
 
-#: src/main/arithmetic.c:1322
+#: src/main/arithmetic.c:1318
 msgid "unimplemented real function of 1 argument"
 msgstr "funzione reale (di un argomento) non implementata"
 
-#: src/main/arithmetic.c:1336 src/main/complex.c:643 src/main/complex.c:714
+#: src/main/arithmetic.c:1332 src/main/complex.c:643 src/main/complex.c:714
 msgid "unimplemented complex function"
 msgstr "funzione complessa non implementata"
 
-#: src/main/arithmetic.c:1626 src/main/arithmetic.c:2031
-#: src/main/arithmetic.c:2205 src/main/arithmetic.c:2308
+#: src/main/arithmetic.c:1622 src/main/arithmetic.c:2028
+#: src/main/arithmetic.c:2202 src/main/arithmetic.c:2305
 #, c-format
 msgid "unimplemented real function of %d numeric arguments"
 msgstr "funzione reale di %d argomenti numerici non implementata"
 
-#: src/main/arithmetic.c:1654
+#: src/main/arithmetic.c:1653
 #, c-format
 msgid "%d argument passed to '%s' which requires 1 or 2 arguments"
 msgid_plural "%d arguments passed to '%s' which requires 1 or 2 arguments"
 msgstr[0] "argomento %d passato a '%s' dove vengono richiesti 1 o 2 argomenti"
 msgstr[1] "argomenti %d passati a '%s' dove vengono richiesti 1 o 2 argomenti"
 
-#: src/main/arithmetic.c:1665 src/main/arithmetic.c:1777
-#: src/main/arithmetic.c:1795 src/main/envir.c:1584 src/main/envir.c:2118
-#: src/main/eval.c:762 src/main/eval.c:5141
+#: src/main/arithmetic.c:1664 src/main/arithmetic.c:1774
+#: src/main/arithmetic.c:1792 src/main/envir.c:1584 src/main/envir.c:2118
+#: src/main/eval.c:762 src/main/eval.c:5138
 #, c-format
 msgid "argument \"%s\" is missing, with no default"
 msgstr "argomento \"%s\" assente, senza valore predefinito"
 
-#: src/main/arithmetic.c:1680
+#: src/main/arithmetic.c:1677
 msgid "invalid second argument of length 0"
 msgstr "secondo argomento di lunghezza 0 non valido"
 
-#: src/main/arithmetic.c:1801
+#: src/main/arithmetic.c:1798
 msgid "invalid argument 'base' of length 0"
 msgstr "argomento 'base' non valido di lunghezza 0"
 
@@ -1402,7 +1402,7 @@ msgstr "primo argomento non valido"
 #: src/main/envir.c:2944 src/main/envir.c:3031 src/main/envir.c:3334
 #: src/main/envir.c:3363 src/main/envir.c:3384 src/main/envir.c:3407
 #: src/main/envir.c:3442 src/main/envir.c:3463 src/main/envir.c:3510
-#: src/main/envir.c:3969 src/main/envir.c:3974 src/main/eval.c:8079
+#: src/main/envir.c:3969 src/main/envir.c:3974 src/main/eval.c:8076
 #: src/main/objects.c:243 src/main/objects.c:251 src/main/saveload.c:2174
 #: src/main/saveload.c:2471 src/main/serialize.c:3110
 msgid "use of NULL environment is defunct"
@@ -1493,9 +1493,9 @@ msgid "wrong length for '%s' argument"
 msgstr "lunghezza sbagliata per l'argomento '%s'"
 
 #: src/main/builtin.c:980 src/main/coerce.c:2794 src/main/coerce.c:2837
-#: src/main/eval.c:752 src/main/eval.c:882 src/main/eval.c:3065
-#: src/main/eval.c:3154 src/main/eval.c:3225 src/main/eval.c:3567
-#: src/main/eval.c:7066 src/main/eval.c:7213
+#: src/main/eval.c:752 src/main/eval.c:882 src/main/eval.c:3066
+#: src/main/eval.c:3155 src/main/eval.c:3226 src/main/eval.c:3568
+#: src/main/eval.c:7063 src/main/eval.c:7210
 msgid "'...' used in an incorrect context"
 msgstr "'...' utilizzato in un contesto sbagliato"
 
@@ -1508,11 +1508,11 @@ msgstr "impostazioni predefinite per 'switch' duplicate: '%s' e '%s'"
 msgid "'EXPR' is missing"
 msgstr "'EXPR' è assente"
 
-#: src/main/builtin.c:1039 src/main/eval.c:7629
+#: src/main/builtin.c:1039 src/main/eval.c:7626
 msgid "EXPR must be a length 1 vector"
 msgstr "EXPR dev'essere un vettore di lunghezza 1"
 
-#: src/main/builtin.c:1042 src/main/eval.c:7632
+#: src/main/builtin.c:1042 src/main/eval.c:7629
 #, c-format
 msgid ""
 "EXPR is a \"factor\", treated as integer.\n"
@@ -1521,7 +1521,7 @@ msgstr ""
 "EXPR è un \"factor\", trattato come intero.\n"
 " Si consideri l'utilizzo alternativo di '%s'."
 
-#: src/main/builtin.c:1099 src/main/eval.c:7642 src/main/eval.c:7671
+#: src/main/builtin.c:1099 src/main/eval.c:7639 src/main/eval.c:7668
 msgid "'switch' with no alternatives"
 msgstr "'switch' senza alternative"
 
@@ -1704,7 +1704,7 @@ msgstr "fattore sbagliato"
 msgid "list argument expected"
 msgstr "richiesto argomento lista"
 
-#: src/main/coerce.c:1620 src/main/eval.c:8083
+#: src/main/coerce.c:1620 src/main/eval.c:8080
 msgid "invalid environment"
 msgstr "ambiente non valido"
 
@@ -2741,13 +2741,13 @@ msgstr "'opts' dovrebbe essere uno small integer non-negativo"
 
 #: src/main/deparse.c:463 src/main/envir.c:2017 src/main/envir.c:2129
 #: src/main/envir.c:3825 src/main/eval.c:758 src/main/eval.c:2127
-#: src/main/eval.c:5150 src/main/saveload.c:2082 src/main/saveload.c:2417
+#: src/main/eval.c:5147 src/main/saveload.c:2082 src/main/saveload.c:2417
 #: src/main/serialize.c:3128
 #, c-format
 msgid "object '%s' not found"
 msgstr "oggetto '%s' non trovato"
 
-#: src/main/deparse.c:1901
+#: src/main/deparse.c:1899
 msgid "badly formed function expression"
 msgstr "espressione della funzione non conforme"
 
@@ -3682,27 +3682,27 @@ msgstr "non in un contesto di prova"
 msgid "error message must be a character string"
 msgstr "il messaggio di errore dev'essere una stringa di caratteri"
 
-#: src/main/errors.c:2700
+#: src/main/errors.c:2699
 msgid "condition object must be a VECSXP of length at least one"
 msgstr "l'oggetto condizione dev'essere un VECSXP almeno di lunghezza uno"
 
-#: src/main/errors.c:2703
+#: src/main/errors.c:2702
 msgid "first element of condition object must be a scalar string"
 msgstr ""
 "il primo elemento dell'oggetto condizione dev'essere una stringa scalare"
 
-#: src/main/errors.c:2869
+#: src/main/errors.c:2868
 msgid "protect(): protection stack overflow"
 msgstr "protect(): overflow dello stack di protezione"
 
-#: src/main/errors.c:2870
+#: src/main/errors.c:2869
 msgid ""
 "evaluation nested too deeply: infinite recursion / options(expressions=)?"
 msgstr ""
 "calcolo annidato in un numero eccessivo di livelli: ricorsione infinita / "
 "options(expressions=)?"
 
-#: src/main/errors.c:2871
+#: src/main/errors.c:2870
 msgid "node stack overflow"
 msgstr "overflow del node stack"
 
@@ -3732,11 +3732,11 @@ msgstr ""
 msgid "restarting interrupted promise evaluation"
 msgstr "riavvio della valutazione promise interrotta"
 
-#: src/main/eval.c:764 src/main/eval.c:5142
+#: src/main/eval.c:764 src/main/eval.c:5139
 msgid "argument is missing, with no default"
 msgstr "argomento non specificato e senza un valore predefinito"
 
-#: src/main/eval.c:878 src/main/eval.c:1993 src/main/eval.c:7005
+#: src/main/eval.c:878 src/main/eval.c:1993 src/main/eval.c:7002
 msgid "attempt to apply non-function"
 msgstr "tentativo di applicare una non-funzione"
 
@@ -3745,7 +3745,7 @@ msgstr "tentativo di applicare una non-funzione"
 msgid "%s at %s#%d: "
 msgstr "%s in %s#%d: "
 
-#: src/main/eval.c:1981 src/main/eval.c:3070
+#: src/main/eval.c:1981 src/main/eval.c:3071
 #, c-format
 msgid "argument %d is empty"
 msgstr "l'argomento %d è vuoto"
@@ -3762,208 +3762,203 @@ msgstr ""
 msgid "symbol \"%s\" not in environment of method"
 msgstr "il simbolo \"%s\" non è nell'ambiente del metodo"
 
-#: src/main/eval.c:2196
+#: src/main/eval.c:2200
 msgid "the condition has length > 1"
 msgstr "la condizione ha lunghezza > 1"
 
-#: src/main/eval.c:2197
-msgid "the condition has length > 1 and only the first element will be used"
-msgstr ""
-"la condizione ha lunghezza > 1 e solo il primo elemento sarà utilizzato"
-
-#: src/main/eval.c:2217
+#: src/main/eval.c:2218
 msgid "missing value where TRUE/FALSE needed"
 msgstr "valore mancante dove è richiesto TRUE/FALSE"
 
-#: src/main/eval.c:2218
+#: src/main/eval.c:2219
 msgid "argument is not interpretable as logical"
 msgstr "l'argomento non è interpretabile come logico"
 
-#: src/main/eval.c:2219
+#: src/main/eval.c:2220
 msgid "argument is of length zero"
 msgstr "l'argomento ha lunghezza zero"
 
-#: src/main/eval.c:2317
+#: src/main/eval.c:2318
 msgid "non-symbol loop variable"
 msgstr "variabile di ciclo non simbolica"
 
-#: src/main/eval.c:2410 src/main/eval.c:6705
+#: src/main/eval.c:2411 src/main/eval.c:6702
 msgid "invalid for() loop sequence"
 msgstr "sequenza ciclo for() non corretta"
 
-#: src/main/eval.c:2559
+#: src/main/eval.c:2560
 msgid "multi-argument returns are not permitted"
 msgstr "non sono permesse restituizioni a più argomenti"
 
-#: src/main/eval.c:2607
+#: src/main/eval.c:2608
 msgid "invalid (NULL) left side of assignment"
 msgstr "membro di sinistra (NULL) dell'assegnazione non valido"
 
-#: src/main/eval.c:2648
+#: src/main/eval.c:2649
 msgid "target of assignment expands to non-language object"
 msgstr ""
 "la destinazione dell'assegnazione si espande in un oggetto non-language"
 
-#: src/main/eval.c:2733
+#: src/main/eval.c:2734
 #, c-format
 msgid "overlong name in '%s'"
 msgstr "nome troppo lungo in '%s'"
 
-#: src/main/eval.c:2859
+#: src/main/eval.c:2860
 msgid "cannot do complex assignments in base namespace"
 msgstr "non si possono fare assegnazioni complesse nel namespace base"
 
-#: src/main/eval.c:2861
+#: src/main/eval.c:2862
 msgid "cannot do complex assignments in base environment"
 msgstr "non si possono fare assegnazioni complesse nell'ambiente base"
 
-#: src/main/eval.c:2904 src/main/eval.c:2931
+#: src/main/eval.c:2905 src/main/eval.c:2932
 msgid "invalid function in complex assignment"
 msgstr "funzione non ammissibile nell'assegnazione complessa"
 
-#: src/main/eval.c:3002
+#: src/main/eval.c:3003
 msgid "invalid (do_set) left-hand side to assignment"
 msgstr "membro di sinistra dell'assegnazione (do_set) non valido"
 
-#: src/main/eval.c:3084
+#: src/main/eval.c:3085
 #, c-format
 msgid "'%s' is missing"
 msgstr "'%s' è assente"
 
-#: src/main/eval.c:3259
+#: src/main/eval.c:3260
 msgid "invalid formal argument list for \"function\""
 msgstr "lista argomento formale non valida per \"function\""
 
-#: src/main/eval.c:3317 src/main/eval.c:3348 src/main/eval.c:3353
+#: src/main/eval.c:3318 src/main/eval.c:3349 src/main/eval.c:3354
 #, c-format
 msgid "invalid '%s' argument of type '%s'"
 msgstr "argomento '%s' non valido di tipo '%s'"
 
-#: src/main/eval.c:3345
+#: src/main/eval.c:3346
 msgid "numeric 'envir' arg not of length one"
 msgstr "argomento 'envir' numerico non con lunghezza uno"
 
-#: src/main/eval.c:3370 src/main/eval.c:3394
+#: src/main/eval.c:3371 src/main/eval.c:3395
 msgid "restarts not supported in 'eval'"
 msgstr "riavvi non supportati in 'eval'"
 
-#: src/main/eval.c:3453 src/main/eval.c:3466
+#: src/main/eval.c:3454 src/main/eval.c:3467
 msgid "'Recall' called from outside a closure"
 msgstr "'Recall' chiamato esternamente ad una closure"
 
-#: src/main/eval.c:3560
+#: src/main/eval.c:3561
 msgid "value in '...' is not a promise"
 msgstr "valore in '...' non è un promise"
 
-#: src/main/eval.c:3829
+#: src/main/eval.c:3830
 #, c-format
 msgid "Incompatible methods (\"%s\", \"%s\") for \"%s\""
 msgstr "Metodi incompatibili (\"%s\", \"%s\") per \"%s\""
 
-#: src/main/eval.c:3879
+#: src/main/eval.c:3880
 msgid "dispatch error in group dispatch"
 msgstr "errore dispatch in un gruppo dispatch"
 
-#: src/main/eval.c:4376
+#: src/main/eval.c:4377
 #, c-format
 msgid "\"%s\" is not a %s function"
 msgstr "\"%s\" non è una funzione %s"
 
-#: src/main/eval.c:4995
+#: src/main/eval.c:4992
 msgid "bad opcode"
 msgstr "opcode errato"
 
-#: src/main/eval.c:6097
+#: src/main/eval.c:6094
 #, c-format
 msgid "invalid %s type in 'x %s y'"
 msgstr "tipo %s non valido in 'x %s y'"
 
-#: src/main/eval.c:6533
+#: src/main/eval.c:6530
 msgid "bytecode version mismatch; using eval"
 msgstr "versione bytecode non corrispondente; si utilizza eval"
 
-#: src/main/eval.c:6539
+#: src/main/eval.c:6536
 msgid "bytecode version is too old"
 msgstr "versione bytecode troppo vecchia"
 
-#: src/main/eval.c:6540
+#: src/main/eval.c:6537
 msgid "bytecode version is too new"
 msgstr "versione bytecode troppo nuova"
 
-#: src/main/eval.c:6585
+#: src/main/eval.c:6582
 msgid "byte code version mismatch"
 msgstr "versione bytecode non corrispondente"
 
-#: src/main/eval.c:6838
+#: src/main/eval.c:6835
 msgid "invalid sequence argument in for loop"
 msgstr "argomento 'sequence' non valido nel ciclo 'for'"
 
-#: src/main/eval.c:6994 src/main/names.c:1361
+#: src/main/eval.c:6991 src/main/names.c:1361
 #, c-format
 msgid "there is no .Internal function '%s'"
 msgstr "non c'è alcuna funzione .Internal '%s'"
 
-#: src/main/eval.c:7112 src/main/eval.c:7537 src/main/eval.c:7581
+#: src/main/eval.c:7109 src/main/eval.c:7534 src/main/eval.c:7578
 msgid "bad function"
 msgstr "funzione errata"
 
-#: src/main/eval.c:7125
+#: src/main/eval.c:7122
 msgid "not a BUILTIN function"
 msgstr "non è una funzione BUILTIN"
 
-#: src/main/eval.c:7639
+#: src/main/eval.c:7636
 msgid "bad numeric 'switch' offsets"
 msgstr "offset 'switch' numerico errato"
 
-#: src/main/eval.c:7645
+#: src/main/eval.c:7642
 msgid "numeric EXPR required for 'switch' without named alternatives"
 msgstr "un EXPR numerico richiede uno 'switch' senza alternative nominate"
 
-#: src/main/eval.c:7649
+#: src/main/eval.c:7646
 msgid "bad character 'switch' offsets"
 msgstr "offset 'switch' caratteri errato"
 
-#: src/main/eval.c:7802
+#: src/main/eval.c:7799
 msgid "cannot find index for threaded code address"
 msgstr "non è possibile trovare l'indice per l'indirizzo del codice thread"
 
-#: src/main/eval.c:8076
+#: src/main/eval.c:8073
 msgid "invalid body"
 msgstr "corpo non valido"
 
-#: src/main/eval.c:8096
+#: src/main/eval.c:8093
 msgid "invalid symbol"
 msgstr "simbolo non valido"
 
-#: src/main/eval.c:8140
+#: src/main/eval.c:8137
 msgid "argument is not a byte code object"
 msgstr "l'argomento non è un oggetto byte code"
 
-#: src/main/eval.c:8211 src/main/eval.c:8230 src/main/eval.c:8264
+#: src/main/eval.c:8208 src/main/eval.c:8227 src/main/eval.c:8261
 msgid "constant buffer must be a generic vector"
 msgstr "constant buffer dev'essere un vettore generico"
 
-#: src/main/eval.c:8266
+#: src/main/eval.c:8263
 msgid "bad constant count"
 msgstr "conteggio costante errato"
 
-#: src/main/eval.c:8304
+#: src/main/eval.c:8301
 msgid "profile timer in use"
 msgstr "timer di profile in uso"
 
-#: src/main/eval.c:8306
+#: src/main/eval.c:8303
 msgid "already byte code profiling"
 msgstr "profilazione byte code"
 
-#: src/main/eval.c:8326
+#: src/main/eval.c:8323
 msgid "setting profile timer failed"
 msgstr "impostazione del profile timer fallita"
 
-#: src/main/eval.c:8344
+#: src/main/eval.c:8341
 msgid "not byte code profiling"
 msgstr "nessuna profilazione byte code"
 
-#: src/main/eval.c:8360 src/main/eval.c:8364 src/main/eval.c:8368
+#: src/main/eval.c:8357 src/main/eval.c:8361 src/main/eval.c:8365
 msgid "byte code profiling is not supported in this build"
 msgstr "il byte code profiling non è supportato in questa build"
 
@@ -3992,191 +3987,205 @@ msgstr "utilizzo ricorsivo di 'getGraphicsEvent' non supportato"
 msgid "no graphics event handlers set"
 msgstr "non è impostato alcun gestore per gli eventi grafici"
 
-#: src/main/gram.y:300 src/main/gram.y:317 src/main/gram.y:2616
-#: src/main/gram.y:2631
+#: src/main/gram.y:304 src/main/gram.y:321 src/main/gram.y:2657
+#: src/main/gram.y:2672
 #, c-format
 msgid "EOF whilst reading MBCS char at line %d"
 msgstr "EOF durante la lettura del carattere MBCS alla riga%d"
 
-#: src/main/gram.y:306 src/main/gram.y:314 src/main/gram.y:633
-#: src/main/gram.y:640 src/main/gram.y:716 src/main/gram.y:2621
-#: src/main/gram.y:2628
+#: src/main/gram.y:310 src/main/gram.y:318 src/main/gram.y:639
+#: src/main/gram.y:646 src/main/gram.y:722 src/main/gram.y:2662
+#: src/main/gram.y:2669
 #, c-format
 msgid "invalid multibyte character in parser at line %d"
 msgstr "carattere multibyte non valido nel parser alla linea %d"
 
-#: src/main/gram.y:552
+#: src/main/gram.y:558
 #, c-format
 msgid "input buffer overflow at line %d"
 msgstr "buffer overflow in ingresso alla linea %d"
 
-#: src/main/gram.y:1181
+#: src/main/gram.y:1198
+msgid "pipe placeholder may only appear once"
+msgstr "il placeholder di pipe deve apparire una sola volta"
+
+#: src/main/gram.y:1206
 msgid "The pipe operator requires a function call as RHS"
 msgstr "L'operatore pipe richiede una chiamata di funzione come RHS"
 
-#: src/main/gram.y:1200
+#: src/main/gram.y:1213
 msgid "RHS variable must be a symbol"
 msgstr "La variabile RHS dev'essere un simbolo"
 
-#: src/main/gram.y:1306
+#: src/main/gram.y:1222
+msgid "pipe placeholder cannot be used in the RHS function"
+msgstr "il placeholder di pipe non può essere usato in una funzione RHS"
+
+#: src/main/gram.y:1228
+msgid "pipe placeholder can only be used as a named argument"
+msgstr "il placeholder di pipe può essere usato solo come argomento definito"
+
+#: src/main/gram.y:1334
 #, c-format
 msgid "incorrect tag type at line %d"
 msgstr "tipo tag non corretto alla linea %d"
 
-#: src/main/gram.y:1481
+#: src/main/gram.y:1512
 msgid "allocation of source reference state failed"
 msgstr "assegnazione dello stato di riferimento della sorgente non riuscita"
 
-#: src/main/gram.y:1642
-msgid "pipe bind symbol may only appear in pipe expressions"
-msgstr ""
-"il simbolo di collegamento della pipe può apparire solo nelle espressioni di "
-"quel tipo"
+#: src/main/gram.y:1673
+msgid "invalid use of pipe placeholder"
+msgstr "utilizzo del placeholder di pipe non valido"
 
-#: src/main/gram.y:1653
+#: src/main/gram.y:1676
+msgid "invalid use of pipe bind symbol"
+msgstr "utilizzo del pipe bind symbol non valido"
+
+#: src/main/gram.y:1686
 msgid "out of memory while parsing"
 msgstr "memoria esaurita durante il parsing"
 
-#: src/main/gram.y:2001
+#: src/main/gram.y:2034
 msgid "contextstack overflow"
 msgstr "contextstack overflow"
 
-#: src/main/gram.y:2256 src/main/gram.y:2262
+#: src/main/gram.y:2290 src/main/gram.y:2296 src/main/gram.y:2318
 #, c-format
 msgid "unexpected input"
 msgstr "input inatteso"
 
-#: src/main/gram.y:2259 src/main/main.c:319
+#: src/main/gram.y:2293 src/main/main.c:319
 #, c-format
 msgid "unexpected end of input"
 msgstr "fine input inatteso"
 
-#: src/main/gram.y:2265
+#: src/main/gram.y:2299
 #, c-format
 msgid "unexpected string constant"
 msgstr "costante stringa inattesa"
 
-#: src/main/gram.y:2268
+#: src/main/gram.y:2302
 #, c-format
 msgid "unexpected numeric constant"
 msgstr "costante numerica inattesa"
 
-#: src/main/gram.y:2271
+#: src/main/gram.y:2305
 #, c-format
 msgid "unexpected symbol"
 msgstr "simbolo inatteso"
 
-#: src/main/gram.y:2274
+#: src/main/gram.y:2308
 #, c-format
 msgid "unexpected assignment"
 msgstr "assegnamento inatteso"
 
-#: src/main/gram.y:2277
+#: src/main/gram.y:2311
 #, c-format
 msgid "unexpected end of line"
 msgstr "fine linea inattesa"
 
-#: src/main/gram.y:2280 src/main/gram.y:2288
+#: src/main/gram.y:2321 src/main/gram.y:2329
 #, c-format
 msgid "unexpected %s"
 msgstr "%s inatteso"
 
-#: src/main/gram.y:2300
+#: src/main/gram.y:2341
 #, c-format
 msgid "repeated formal argument '%s' on line %d"
 msgstr "ripetuto argomento formale '%s' alla linea %d"
 
-#: src/main/gram.y:2527
+#: src/main/gram.y:2568
 #, c-format
 msgid "integer literal %s contains decimal; using numeric value"
 msgstr ""
 "l'intero letterale %s contiene decimali; si utilizza un valore numerico"
 
-#: src/main/gram.y:2530
+#: src/main/gram.y:2571
 #, c-format
 msgid "non-integer value %s qualified with L; using numeric value"
 msgstr "il valore non-intero %s qualificato L; si utilizza un valore numerico"
 
-#: src/main/gram.y:2542
+#: src/main/gram.y:2583
 #, c-format
 msgid "integer literal %s contains unnecessary decimal point"
 msgstr "l'intero letterale %s contiene un punto decimale non necessario"
 
-#: src/main/gram.y:2753 src/main/gram.y:2778 src/main/gram.y:2815
-#: src/main/gram.y:2852
+#: src/main/gram.y:2794 src/main/gram.y:2819 src/main/gram.y:2856
+#: src/main/gram.y:2893
 #, c-format
 msgid "nul character not allowed (line %d)"
 msgstr "nul character non ammesso (linea %d)"
 
-#: src/main/gram.y:2755
+#: src/main/gram.y:2796
 #, c-format
 msgid "exceeded maximum allowed octal value \\377 (line %d)"
 msgstr "eccede il valore massimo consentito per un ottale \\377 (linea %d)"
 
-#: src/main/gram.y:2771
+#: src/main/gram.y:2812
 #, c-format
 msgid "'\\x' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\x' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2787
+#: src/main/gram.y:2828
 #, c-format
 msgid "\\uxxxx sequences not supported inside backticks (line %d)"
 msgstr "\\uxxxx sequenze non supportate nei backticks (linea %d)"
 
-#: src/main/gram.y:2802
+#: src/main/gram.y:2843
 #, c-format
 msgid "'\\u' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\u' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2810
+#: src/main/gram.y:2851
 #, c-format
 msgid "invalid \\u{xxxx} sequence (line %d)"
 msgstr "sequenza \\u{xxxx} non valida (linea %d)"
 
-#: src/main/gram.y:2824
+#: src/main/gram.y:2865
 #, c-format
 msgid "\\Uxxxxxxxx sequences not supported inside backticks (line %d)"
 msgstr "sequenze \\Uxxxxxxxx non supportate nei backticks (linea %d)"
 
-#: src/main/gram.y:2839
+#: src/main/gram.y:2880
 #, c-format
 msgid "'\\U' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\U' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2847
+#: src/main/gram.y:2888
 #, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (line %d)"
 msgstr "sequenza \\U{xxxxxxxx} non valida (linea %d)"
 
-#: src/main/gram.y:2856
+#: src/main/gram.y:2897
 #, c-format
 msgid "invalid \\U{xxxxxxxx} value %6x (line %d)"
 msgstr "\\U{xxxxxxxx} valore %6x non valido (linea %d)"
 
-#: src/main/gram.y:2859
+#: src/main/gram.y:2900
 #, c-format
 msgid "invalid \\Uxxxxxxxx value %6x (line %d)"
 msgstr "\\Uxxxxxxxx valore %6x non valido (linea %d)"
 
-#: src/main/gram.y:2907
+#: src/main/gram.y:2948
 #, c-format
 msgid "'\\%c' is an unrecognized escape in character string starting \"%s\""
 msgstr ""
 "'\\%c' è un escape non riconosciuto in una stringa caratteri che inizia con "
 "\"%s\""
 
-#: src/main/gram.y:2981 src/main/gram.y:3112
+#: src/main/gram.y:3022 src/main/gram.y:3153
 msgid "mixing Unicode and octal/hex escapes in a string is not allowed"
 msgstr ""
 "non è ammesso mischiare Unicode ed escape ottali/esadecimali in una stringa"
 
-#: src/main/gram.y:2985 src/main/gram.y:3116
+#: src/main/gram.y:3026 src/main/gram.y:3157
 #, c-format
 msgid ""
 "string at line %d containing Unicode escapes not in this locale\n"
@@ -4186,18 +4195,18 @@ msgstr ""
 "questa localizzazione\n"
 "è troppo lunga (massimo 10000 caratteri)"
 
-#: src/main/gram.y:3021
+#: src/main/gram.y:3062
 #, c-format
 msgid "malformed raw string literal at line %d"
 msgstr "malformed raw string literal at line %d"
 
-#: src/main/gram.y:3741 src/main/gram.y:3748 src/main/gram.y:3754
-#: src/main/gram.y:3761
+#: src/main/gram.y:3794 src/main/gram.y:3801 src/main/gram.y:3807
+#: src/main/gram.y:3814
 #, c-format
 msgid "contextstack overflow at line %d"
 msgstr "contextstack overflow alla linea %d"
 
-#: src/main/gram.y:3851
+#: src/main/gram.y:3904
 #, c-format
 msgid "internal parser error at line %d"
 msgstr "internal parser error alla linea %d"
@@ -7754,34 +7763,33 @@ msgstr "bessel_y(%g,nu=%g): perdita di precisione nel risultato\n"
 msgid "'k' (%.2f) must be integer, rounded to %.0f"
 msgstr "'k' (%.2f) dev'essere un intero, arrotondato a %.0f"
 
-#: src/nmath/nmath.h:158
+#: src/nmath/nmath.h:159
 #, c-format
 msgid "argument out of domain in '%s'\n"
 msgstr "argomento fuori dominio in '%s'\n"
 
-#: src/nmath/nmath.h:161
+#: src/nmath/nmath.h:162
 #, c-format
 msgid "value out of range in '%s'\n"
 msgstr "valore fuori intervallo in '%s'\n"
 
-#: src/nmath/nmath.h:164
+#: src/nmath/nmath.h:165
 #, c-format
 msgid "convergence failed in '%s'\n"
 msgstr "convergenza fallita in '%s'\n"
 
-#: src/nmath/nmath.h:167
+#: src/nmath/nmath.h:168
 #, c-format
 msgid "full precision may not have been achieved in '%s'\n"
 msgstr "la precisione piena potrebbe non essere stata raggiunta in '%s'\n"
 
-#: src/nmath/nmath.h:170
+#: src/nmath/nmath.h:171
 #, c-format
 msgid "underflow occurred in '%s'\n"
 msgstr "occorso un underflow in '%s'\n"
 
 #: src/nmath/pbeta.c:67
 #, c-format
-#| msgid "pbeta_raw(%g, a=%g, b=%g, ..) -> bratio() gave error code %d"
 msgid ""
 "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
 msgstr ""
@@ -7983,3 +7991,12 @@ msgstr "creazione fallita del file temporaneo per '-e'"
 #: src/unix/system.c:572
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "AVVERTIMENTO: Sarà modificato il primo file della lista"
+
+#~ msgid "the condition has length > 1 and only the first element will be used"
+#~ msgstr ""
+#~ "la condizione ha lunghezza > 1 e solo il primo elemento sarà utilizzato"
+
+#~ msgid "pipe bind symbol may only appear in pipe expressions"
+#~ msgstr ""
+#~ "il simbolo di collegamento della pipe può apparire solo nelle espressioni "
+#~ "di quel tipo"
