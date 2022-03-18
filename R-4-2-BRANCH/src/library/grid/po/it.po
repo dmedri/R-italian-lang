@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grid 4.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 15:35+0100\n"
+"POT-Creation-Date: 2022-03-18 11:37+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.2\n"
 
-#: gpar.c:523
+#: gpar.c:621
 msgid "updateGContext must only be called after initGContext"
 msgstr "updateGContext dev'essere unicamente chiamato dopo initGContext"
 
@@ -32,59 +32,73 @@ msgstr ""
 msgid "cannot clip to rotated viewport"
 msgstr "non è possibile tagliare su una viewport ruotata"
 
-#: grid.c:455
+#: grid.c:456
 msgid "Clipping paths within a (clipping) path are not honoured"
 msgstr ""
 "I tracciati di ritaglio dentro un altro tracciato (di ritaglio) non sono "
 "onorati"
 
-#: grid.c:474
+#: grid.c:475
 msgid "Masks within a (clipping) path are not honoured"
 msgstr "Le maschere interne a un tracciato (di ritaglio) non sono onorate"
 
-#: grid.c:916 grid.c:921 grid.c:1040 grid.c:1045
+#: grid.c:917 grid.c:922 grid.c:1041 grid.c:1046
 msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
 msgstr ""
 "non è possibile mostrare la view-port di livello più alto (output di 'grid' "
 "e 'graphics' mischiato?)"
 
-#: grid.c:1246
+#: grid.c:1247
 msgid "attempt to plot on null device"
 msgstr "tentativo di scrivere sul dispositivo null"
 
-#: grid.c:1702
+#: grid.c:1717
 msgid "there is no layout defined"
 msgstr "non c'è alcun layout definito"
 
-#: grid.c:1922
+#: grid.c:1937
 msgid "polygon edge not found (zero-width or zero-height?)"
 msgstr "bordo poligonale non trovato (larghezza o altezza zero?)"
 
-#: grid.c:1931
+#: grid.c:1946
 msgid "polygon edge not found"
 msgstr "bordo poligonale non trovato"
 
-#: grid.c:2085
+#: grid.c:2100
 msgid "require at least two points to draw arrow"
 msgstr "richiedono almeno due punti per disegnare la freccia"
 
-#: grid.c:2408
+#: grid.c:2464
 msgid "non-finite control point in Xspline"
 msgstr "punto di controllo non finito in Xspline"
 
-#: grid.c:3333
+#: grid.c:3394
 msgid "non-finite x or y in graphics path"
 msgstr "x o y non finiti nel percorso grafico"
 
-#: grid.c:3383
+#: grid.c:3445
 msgid "Empty raster"
 msgstr "Raster vuoto"
 
-#: grid.c:3873
+#: grid.c:3990 grid.c:4046
+msgid "Coordinates for text pch not yet supported"
+msgstr "Cordinate per pch testo non ancora supportate"
+
+#: grid.c:4051
+#, c-format
+msgid "pch value '%d' is invalid in this locale"
+msgstr "valore pch '%d' non è valido per questa localizzazione"
+
+#: grid.c:4773
+#, c-format
+msgid "unimplemented pch value '%d'"
+msgstr "valore pch '%d' non implementato"
+
+#: grid.c:4926
 msgid "invalid plotting symbol"
 msgstr "simbolo di plotting non valido"
 
-#: grid.c:3967
+#: grid.c:5044
 msgid "unable to clip to rotated rectangle"
 msgstr "non è possibile tagliare su un rettangolo ruotato"
 

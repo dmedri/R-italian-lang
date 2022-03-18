@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-14 17:02+0100\n"
-"PO-Revision-Date: 2022-03-14 17:11+0100\n"
+"POT-Creation-Date: 2022-03-18 11:36+0100\n"
+"PO-Revision-Date: 2022-03-18 12:03+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -199,7 +199,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/grep.c:1485 src/main/grep.c:1487 src/main/grep.c:1964
 #: src/main/grep.c:1968 src/main/grep.c:1973 src/main/grep.c:2839
 #: src/main/grep.c:2844 src/main/grep.c:3159 src/main/grep.c:3164
-#: src/main/memory.c:4599 src/main/paste.c:124 src/main/paste.c:467
+#: src/main/memory.c:4603 src/main/paste.c:124 src/main/paste.c:467
 #: src/main/paste.c:481 src/main/paste.c:486 src/main/paste.c:491
 #: src/main/paste.c:496 src/main/paste.c:499 src/main/paste.c:507
 #: src/main/paste.c:512 src/main/paste.c:694 src/main/paste.c:699
@@ -4111,81 +4111,88 @@ msgstr "il valore non-intero %s qualificato L; si utilizza un valore numerico"
 msgid "integer literal %s contains unnecessary decimal point"
 msgstr "l'intero letterale %s contiene un punto decimale non necessario"
 
-#: src/main/gram.y:2794 src/main/gram.y:2819 src/main/gram.y:2856
-#: src/main/gram.y:2893
+#: src/main/gram.y:2753
+#, c-format
+msgid "bidi formatting not allowed (line %d), use escapes instead (\\u%04x)"
+msgstr ""
+"formattazione bidi non ammessa (linea %d), si utilizzino gli escape come "
+"alternativa (\\u%04x)"
+
+#: src/main/gram.y:2801 src/main/gram.y:2826 src/main/gram.y:2863
+#: src/main/gram.y:2900
 #, c-format
 msgid "nul character not allowed (line %d)"
 msgstr "nul character non ammesso (linea %d)"
 
-#: src/main/gram.y:2796
+#: src/main/gram.y:2803
 #, c-format
 msgid "exceeded maximum allowed octal value \\377 (line %d)"
 msgstr "eccede il valore massimo consentito per un ottale \\377 (linea %d)"
 
-#: src/main/gram.y:2812
+#: src/main/gram.y:2819
 #, c-format
 msgid "'\\x' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\x' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2828
+#: src/main/gram.y:2835
 #, c-format
 msgid "\\uxxxx sequences not supported inside backticks (line %d)"
 msgstr "\\uxxxx sequenze non supportate nei backticks (linea %d)"
 
-#: src/main/gram.y:2843
+#: src/main/gram.y:2850
 #, c-format
 msgid "'\\u' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\u' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2851
+#: src/main/gram.y:2858
 #, c-format
 msgid "invalid \\u{xxxx} sequence (line %d)"
 msgstr "sequenza \\u{xxxx} non valida (linea %d)"
 
-#: src/main/gram.y:2865
+#: src/main/gram.y:2872
 #, c-format
 msgid "\\Uxxxxxxxx sequences not supported inside backticks (line %d)"
 msgstr "sequenze \\Uxxxxxxxx non supportate nei backticks (linea %d)"
 
-#: src/main/gram.y:2880
+#: src/main/gram.y:2887
 #, c-format
 msgid "'\\U' used without hex digits in character string starting \"%s\""
 msgstr ""
 "'\\U' utilizzato senza cifre esadecimali in una stringa di caratteri che "
 "inizia con \"%s\""
 
-#: src/main/gram.y:2888
+#: src/main/gram.y:2895
 #, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (line %d)"
 msgstr "sequenza \\U{xxxxxxxx} non valida (linea %d)"
 
-#: src/main/gram.y:2897
+#: src/main/gram.y:2904
 #, c-format
 msgid "invalid \\U{xxxxxxxx} value %6x (line %d)"
 msgstr "\\U{xxxxxxxx} valore %6x non valido (linea %d)"
 
-#: src/main/gram.y:2900
+#: src/main/gram.y:2907
 #, c-format
 msgid "invalid \\Uxxxxxxxx value %6x (line %d)"
 msgstr "\\Uxxxxxxxx valore %6x non valido (linea %d)"
 
-#: src/main/gram.y:2948
+#: src/main/gram.y:2955
 #, c-format
 msgid "'\\%c' is an unrecognized escape in character string starting \"%s\""
 msgstr ""
 "'\\%c' è un escape non riconosciuto in una stringa caratteri che inizia con "
 "\"%s\""
 
-#: src/main/gram.y:3022 src/main/gram.y:3153
+#: src/main/gram.y:3030 src/main/gram.y:3162
 msgid "mixing Unicode and octal/hex escapes in a string is not allowed"
 msgstr ""
 "non è ammesso mischiare Unicode ed escape ottali/esadecimali in una stringa"
 
-#: src/main/gram.y:3026 src/main/gram.y:3157
+#: src/main/gram.y:3034 src/main/gram.y:3166
 #, c-format
 msgid ""
 "string at line %d containing Unicode escapes not in this locale\n"
@@ -4195,18 +4202,18 @@ msgstr ""
 "questa localizzazione\n"
 "è troppo lunga (massimo 10000 caratteri)"
 
-#: src/main/gram.y:3062
+#: src/main/gram.y:3070
 #, c-format
 msgid "malformed raw string literal at line %d"
 msgstr "malformed raw string literal at line %d"
 
-#: src/main/gram.y:3794 src/main/gram.y:3801 src/main/gram.y:3807
-#: src/main/gram.y:3814
+#: src/main/gram.y:3803 src/main/gram.y:3810 src/main/gram.y:3816
+#: src/main/gram.y:3823
 #, c-format
 msgid "contextstack overflow at line %d"
 msgstr "contextstack overflow alla linea %d"
 
-#: src/main/gram.y:3904
+#: src/main/gram.y:3913
 #, c-format
 msgid "internal parser error at line %d"
 msgstr "internal parser error alla linea %d"
@@ -4522,98 +4529,98 @@ msgid_plural "unused arguments %s"
 msgstr[0] "argomento non utilizzato %s"
 msgstr[1] "argomenti non utilizzati %s"
 
-#: src/main/memory.c:1373
+#: src/main/memory.c:1376
 msgid "can only weakly reference/finalize reference objects"
 msgstr "posso solo creare un riferimento debole agli oggetti di tipo reference"
 
-#: src/main/memory.c:1407
+#: src/main/memory.c:1410
 msgid "finalizer must be a function or NULL"
 msgstr "il 'finalizer' dev'essere una funzione o NULL"
 
-#: src/main/memory.c:1463 src/main/memory.c:1471 src/main/memory.c:1482
+#: src/main/memory.c:1466 src/main/memory.c:1474 src/main/memory.c:1485
 msgid "not a weak reference"
 msgstr "non un riferimento debole"
 
-#: src/main/memory.c:1632
+#: src/main/memory.c:1635
 msgid "first argument must be environment or external pointer"
 msgstr "il primo argomento dev'essere un ambiente o un puntatore esterno"
 
-#: src/main/memory.c:1634
+#: src/main/memory.c:1637
 msgid "second argument must be a function"
 msgstr "il secondo argomento dev'essere una funzione"
 
-#: src/main/memory.c:1638
+#: src/main/memory.c:1641
 msgid "third argument must be 'TRUE' or 'FALSE'"
 msgstr "il terzo argomento dev'essere 'TRUE' o 'FALSE'"
 
-#: src/main/memory.c:2138
+#: src/main/memory.c:2142
 msgid "vector memory exhausted (limit reached?)"
 msgstr "memoria 'vector' esaurita (raggiunto il limite?)"
 
-#: src/main/memory.c:2144
+#: src/main/memory.c:2148
 msgid "cons memory exhausted (limit reached?)"
 msgstr "memoria 'cons' esaurita (raggiunto il limite?)"
 
-#: src/main/memory.c:2149
+#: src/main/memory.c:2153
 msgid "memory exhausted (limit reached?)"
 msgstr "memoria esaurita (raggiunto il limite?)"
 
-#: src/main/memory.c:2283
+#: src/main/memory.c:2287
 #, c-format
 msgid "cannot allocate memory block of size %0.f Tb"
 msgstr "non è possibile allocare blocchi di memoria di dimensione %0.f Tb"
 
-#: src/main/memory.c:2288
+#: src/main/memory.c:2292
 #, c-format
 msgid "cannot allocate memory block of size %0.1f Gb"
 msgstr "non è possibile allocare blocchi di memoria di dimensione %0.1f Gb"
 
-#: src/main/memory.c:2686
+#: src/main/memory.c:2690
 msgid "vector is too large"
 msgstr "il vettore è troppo grande"
 
-#: src/main/memory.c:2688
+#: src/main/memory.c:2692
 msgid "negative length vectors are not allowed"
 msgstr "non sono ammessi vettori di lunghezza negativa"
 
-#: src/main/memory.c:2714 src/main/memory.c:2726 src/main/memory.c:2738
-#: src/main/memory.c:2752
+#: src/main/memory.c:2718 src/main/memory.c:2730 src/main/memory.c:2742
+#: src/main/memory.c:2756
 #, c-format
 msgid "cannot allocate vector of length %d"
 msgstr "non è possibile allocare un vettore di lunghezza %d"
 
-#: src/main/memory.c:2773
+#: src/main/memory.c:2777
 #, c-format
 msgid "invalid type/length (%s/%d) in vector allocation"
 msgstr "tipo/lunghezza (%s/%d) non valido nell'allocazione del vettore"
 
-#: src/main/memory.c:2860
+#: src/main/memory.c:2864
 #, c-format
 msgid "cannot allocate vector of size %0.1f Gb"
 msgstr "non è possibile allocare un vettore di dimensione %0.1f Gb"
 
-#: src/main/memory.c:2864
+#: src/main/memory.c:2868
 #, c-format
 msgid "cannot allocate vector of size %0.1f Mb"
 msgstr "non è possibile allocare un vettore di dimensione %0.1f Mb"
 
-#: src/main/memory.c:2868
+#: src/main/memory.c:2872
 #, c-format
 msgid "cannot allocate vector of size %0.f Kb"
 msgstr "non è possibile allocare un vettore di dimensione %0.f Kb"
 
-#: src/main/memory.c:3340
+#: src/main/memory.c:3344
 #, c-format
 msgid "unprotect(): only %d protected item"
 msgid_plural "unprotect(): only %d protected items"
 msgstr[0] "unprotect(): solo %d elemento protetto"
 msgstr[1] "unprotect(): solo %d elementi protetti"
 
-#: src/main/memory.c:3378
+#: src/main/memory.c:3382
 msgid "unprotect_ptr: pointer not found"
 msgstr "unprotect_ptr: puntatore non trovato"
 
-#: src/main/memory.c:3417
+#: src/main/memory.c:3421
 #, c-format
 msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
@@ -4624,53 +4631,53 @@ msgstr[1] ""
 "R_Reprotect: solo%d elementi protetti, non è possibile proteggere nuovamente "
 "l'indice %d"
 
-#: src/main/memory.c:3471
+#: src/main/memory.c:3475
 #, c-format
 msgid "'R_Calloc' could not allocate memory (%.0f of %u bytes)"
 msgstr "'R_Calloc' non può allocare memoria (%.0f di %u byte)"
 
-#: src/main/memory.c:3482
+#: src/main/memory.c:3486
 #, c-format
 msgid "'R_Realloc' could not re-allocate memory (%.0f bytes)"
 msgstr "'R_Realloc' non può allocare memoria (%.0f byte)"
 
-#: src/main/memory.c:3892
+#: src/main/memory.c:3896
 #, c-format
 msgid "SETLENGTH() can only be applied to a standard vector, not a '%s'"
 msgstr ""
 "SETLENGTH() può essere unicamente applicato ad un vettore standard, non un "
 "'%s'"
 
-#: src/main/memory.c:4063
+#: src/main/memory.c:4067
 msgid "not safe to return vector pointer"
 msgstr "non è sicuro restituire un puntatore vettoriale"
 
-#: src/main/memory.c:4074
+#: src/main/memory.c:4078
 #, c-format
 msgid "attempt to set index %lld/%lld in SET_STRING_ELT"
 msgstr "tentativo di impostazione indice %lld/%lld in SET_STRING_ELT"
 
-#: src/main/memory.c:4095
+#: src/main/memory.c:4099
 #, c-format
 msgid "attempt to set index %lld/%lld in SET_VECTOR_ELT"
 msgstr "tentativo di impostazione indice %lld/%lld in SET_VECTOR_ELT"
 
-#: src/main/memory.c:4256 src/main/memory.c:4265 src/main/memory.c:4278
-#: src/main/memory.c:4295 src/main/memory.c:4310 src/main/memory.c:4326
-#: src/main/memory.c:4345
+#: src/main/memory.c:4260 src/main/memory.c:4269 src/main/memory.c:4282
+#: src/main/memory.c:4299 src/main/memory.c:4314 src/main/memory.c:4330
+#: src/main/memory.c:4349
 msgid "bad value"
 msgstr "valore errato"
 
-#: src/main/memory.c:4523
+#: src/main/memory.c:4527
 msgid "memory profiling is not available on this system"
 msgstr "la profilazione della memoria non è disponibile su questo sistema"
 
-#: src/main/memory.c:4586
+#: src/main/memory.c:4590
 #, c-format
 msgid "Rprofmem: cannot open output file '%s'"
 msgstr "Rprofmem: non è possibile aprire il file '%s' in output"
 
-#: src/main/memory.c:4700
+#: src/main/memory.c:4704
 #, c-format
 msgid "long vectors not supported yet: %s:%d"
 msgstr "vettori long non ancora supportati: %s:%d"

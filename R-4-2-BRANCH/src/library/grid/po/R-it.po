@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-grid 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2022-01-17 15:35\n"
+"POT-Creation-Date: 2022-03-18 11:37\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -29,6 +29,18 @@ msgstr "le posizioni 'labels' e 'at' devono avere la medesima lunghezza"
 
 msgid "logical 'label' supplied of length 0"
 msgstr "'label' logica passata di lunghezza 0"
+
+msgid "Invalid coordinates"
+msgstr "coordinate non valide"
+
+msgid "Invalid grob coordinates"
+msgstr "coordinate grob non valide"
+
+msgid "Invalid gTree coordinates"
+msgstr "cordinate gTree non valide"
+
+msgid "Closed must not be a missing value"
+msgstr "Closed non dev'essere un valore nullo"
 
 msgid "end points must not be identical"
 msgstr "i punti finali non devono essere identici"
@@ -107,6 +119,9 @@ msgstr "insieme di valori mancanti e non-mancanti per %s"
 
 msgid "'gamma' 'gpar' element is defunct"
 msgstr "l'elemento 'gamma' 'gpar' è rimosso"
+
+msgid "'fill' gpar list components must all be patterns"
+msgstr "i componenti di lista gpar 'fill' devono essere tutti pattern"
 
 msgid "invalid 'linemitre' value"
 msgstr "valore 'linemitre' non valido"
@@ -374,8 +389,15 @@ msgstr "Il pattern dev'essere basato su un grob"
 msgid "Missing pattern fill has been set to transparent"
 msgstr "Il pattern di riempimento mancante è stato impostato a trasparente"
 
-msgid "Gradient fill applied to object with no inside"
-msgstr "Riempimento a gradiente applicato all'oggetto senza interno"
+msgid ""
+"grob drawing produces more shapes than grob coords\n"
+"(recycling coords)"
+msgstr ""
+"il disegno grob produce più forme delle coordinate grob\n"
+"(riuso coordinate)"
+
+msgid "Pattern fill applied to object with no inside"
+msgstr "Motivo di riempimento applicato all'oggetto senza interno"
 
 msgid "'length' must be a 'unit' object"
 msgstr "'length' dev'essere un oggetto 'unit'"
