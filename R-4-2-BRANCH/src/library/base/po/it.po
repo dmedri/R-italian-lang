@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-18 11:36+0100\n"
-"PO-Revision-Date: 2022-03-18 12:03+0100\n"
+"POT-Creation-Date: 2022-03-21 12:27+0100\n"
+"PO-Revision-Date: 2022-03-21 12:32+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -133,7 +133,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 
 #: src/gnuwin32/extra.c:119 src/gnuwin32/extra.c:161 src/gnuwin32/extra.c:297
 #: src/gnuwin32/extra.c:871 src/gnuwin32/extra.c:896
-#: src/gnuwin32/sys-win32.c:249 src/main/Rdynload.c:1298 src/main/agrep.c:131
+#: src/gnuwin32/sys-win32.c:256 src/main/Rdynload.c:1298 src/main/agrep.c:131
 #: src/main/agrep.c:135 src/main/agrep.c:776 src/main/agrep.c:781
 #: src/main/apply.c:345 src/main/apply.c:347 src/main/apply.c:350
 #: src/main/array.c:94 src/main/array.c:1750 src/main/array.c:1889
@@ -206,22 +206,22 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/platform.c:513 src/main/platform.c:515 src/main/platform.c:517
 #: src/main/platform.c:529 src/main/platform.c:540 src/main/platform.c:599
 #: src/main/platform.c:601 src/main/platform.c:909 src/main/platform.c:911
-#: src/main/platform.c:1006 src/main/platform.c:1384 src/main/platform.c:1390
-#: src/main/platform.c:1393 src/main/platform.c:1396 src/main/platform.c:1399
-#: src/main/platform.c:1402 src/main/platform.c:1405 src/main/platform.c:1408
-#: src/main/platform.c:1508 src/main/platform.c:1511 src/main/platform.c:1514
-#: src/main/platform.c:1556 src/main/platform.c:1616 src/main/platform.c:1619
-#: src/main/platform.c:1844 src/main/platform.c:1847 src/main/platform.c:1850
-#: src/main/platform.c:1853 src/main/platform.c:1898 src/main/platform.c:1901
-#: src/main/platform.c:1904 src/main/platform.c:1907 src/main/platform.c:1952
-#: src/main/platform.c:1985 src/main/platform.c:1987 src/main/platform.c:2066
-#: src/main/platform.c:2162 src/main/platform.c:2427 src/main/platform.c:2487
-#: src/main/platform.c:2696 src/main/platform.c:2699 src/main/platform.c:2702
-#: src/main/platform.c:2705 src/main/platform.c:2708 src/main/platform.c:2711
-#: src/main/platform.c:2958 src/main/platform.c:2961 src/main/platform.c:2964
-#: src/main/platform.c:2967 src/main/platform.c:2970 src/main/platform.c:2973
-#: src/main/platform.c:2976 src/main/platform.c:3063 src/main/platform.c:3071
-#: src/main/platform.c:3107 src/main/platform.c:3151 src/main/platform.c:3242
+#: src/main/platform.c:1006 src/main/platform.c:1385 src/main/platform.c:1391
+#: src/main/platform.c:1394 src/main/platform.c:1397 src/main/platform.c:1400
+#: src/main/platform.c:1403 src/main/platform.c:1406 src/main/platform.c:1409
+#: src/main/platform.c:1509 src/main/platform.c:1512 src/main/platform.c:1515
+#: src/main/platform.c:1557 src/main/platform.c:1617 src/main/platform.c:1620
+#: src/main/platform.c:1845 src/main/platform.c:1848 src/main/platform.c:1851
+#: src/main/platform.c:1854 src/main/platform.c:1899 src/main/platform.c:1902
+#: src/main/platform.c:1905 src/main/platform.c:1908 src/main/platform.c:1953
+#: src/main/platform.c:1986 src/main/platform.c:1988 src/main/platform.c:2067
+#: src/main/platform.c:2163 src/main/platform.c:2428 src/main/platform.c:2488
+#: src/main/platform.c:2697 src/main/platform.c:2700 src/main/platform.c:2703
+#: src/main/platform.c:2706 src/main/platform.c:2709 src/main/platform.c:2712
+#: src/main/platform.c:2966 src/main/platform.c:2969 src/main/platform.c:2972
+#: src/main/platform.c:2975 src/main/platform.c:2978 src/main/platform.c:2981
+#: src/main/platform.c:2984 src/main/platform.c:3071 src/main/platform.c:3079
+#: src/main/platform.c:3115 src/main/platform.c:3159 src/main/platform.c:3250
 #: src/main/print.c:250 src/main/print.c:279 src/main/print.c:287
 #: src/main/print.c:301 src/main/random.c:469 src/main/random.c:472
 #: src/main/random.c:476 src/main/random.c:483 src/main/random.c:511
@@ -257,7 +257,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/modules/lapack/Lapack.c:170 src/modules/lapack/Lapack.c:275
 #: src/modules/lapack/Lapack.c:724 src/modules/lapack/Lapack.c:833
 #: src/modules/lapack/Lapack.c:895 src/modules/lapack/Lapack.c:1234
-#: src/unix/sys-std.c:1366 src/unix/sys-std.c:1389 src/unix/sys-unix.c:713
+#: src/unix/sys-std.c:1370 src/unix/sys-std.c:1393 src/unix/sys-unix.c:720
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "argomento '%s' non valido"
@@ -289,7 +289,7 @@ msgstr "numero del dispositivo grafico non valido"
 msgid "bad device"
 msgstr "dispositivo errato"
 
-#: src/gnuwin32/extra.c:1066 src/main/platform.c:1591
+#: src/gnuwin32/extra.c:1066 src/main/platform.c:1592
 msgid "file choice cancelled"
 msgstr "scelta del file annullata"
 
@@ -336,27 +336,36 @@ msgstr "allocazione della connessione 'pipe' fallita"
 msgid "'names' is not a character vector"
 msgstr "'names' non è un vettore di caratteri"
 
-#: src/gnuwin32/sys-win32.c:230
+#: src/gnuwin32/sys-win32.c:104 src/unix/sys-std.c:506 src/unix/sys-unix.c:162
+#, c-format
+msgid ""
+"expanded path length %d would be too long for\n"
+"%s\n"
+msgstr ""
+"la lunghezza del percorso esteso %d sarebbe troppo lunga per\n"
+"%s\n"
+
+#: src/gnuwin32/sys-win32.c:237
 msgid "character string expected as first argument"
 msgstr "stringa caratteri attesa come primo argomento"
 
-#: src/gnuwin32/sys-win32.c:239
+#: src/gnuwin32/sys-win32.c:246
 msgid "character string expected as third argument"
 msgstr "stringa caratteri attesa come terzo argomento"
 
-#: src/gnuwin32/sys-win32.c:291 src/modules/internet/libcurl.c:330
+#: src/gnuwin32/sys-win32.c:298 src/modules/internet/libcurl.c:330
 #: src/modules/internet/libcurl.c:333 src/modules/internet/libcurl.c:336
 #: src/modules/internet/libcurl.c:341 src/modules/internet/libcurl.c:367
 #, c-format
 msgid "invalid %s argument"
 msgstr "argomento %s non valido"
 
-#: src/gnuwin32/sys-win32.c:317 src/unix/sys-unix.c:823 src/unix/sys-unix.c:858
+#: src/gnuwin32/sys-win32.c:324 src/unix/sys-unix.c:830 src/unix/sys-unix.c:865
 #, c-format
 msgid "command '%s' timed out after %ds"
 msgstr "il commando '%s' è scaduto dopo %ds"
 
-#: src/gnuwin32/sys-win32.c:320 src/unix/sys-unix.c:673
+#: src/gnuwin32/sys-win32.c:327 src/unix/sys-unix.c:680
 #, c-format
 msgid "running command '%s' had status %d"
 msgstr "il comando in esecuzione '%s' aveva status %d"
@@ -382,12 +391,12 @@ msgstr "raggiunto il limite di tempo CPU"
 msgid "Fatal error: %s\n"
 msgstr "Errore irreversibile: %s\n"
 
-#: src/gnuwin32/system.c:342 src/unix/sys-std.c:982
+#: src/gnuwin32/system.c:342 src/unix/sys-std.c:986
 #, c-format
 msgid "encoding '%s' is not recognised"
 msgstr "encoding '%s' non riconosciuto"
 
-#: src/gnuwin32/system.c:348 src/unix/sys-std.c:989
+#: src/gnuwin32/system.c:348 src/unix/sys-std.c:993
 #, c-format
 msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
 msgstr "<ERRORE: ricodifica fallita da '%s'>\n"
@@ -731,19 +740,19 @@ msgstr "il file '%s' non può essere aperto in lettura"
 msgid "use of %s for input is not supported"
 msgstr "l'utilizzo di %s in input non è supportato"
 
-#: src/main/Rstrptime.h:1293
+#: src/main/Rstrptime.h:1296
 msgid "input string is too long"
 msgstr "stringa di input troppo lunga"
 
-#: src/main/Rstrptime.h:1295
+#: src/main/Rstrptime.h:1298
 msgid "invalid multibyte input string"
 msgstr "stringa multibyte in input non valida"
 
-#: src/main/Rstrptime.h:1298
+#: src/main/Rstrptime.h:1301
 msgid "format string is too long"
 msgstr "stringa formato troppo lunga"
 
-#: src/main/Rstrptime.h:1300
+#: src/main/Rstrptime.h:1303
 msgid "invalid multibyte format string"
 msgstr "stringa formato multibyte non valida"
 
@@ -809,7 +818,7 @@ msgstr "'FUN.VALUE' dev'essere un vettore"
 #: src/main/context.c:710 src/main/datetime.c:680 src/main/datetime.c:782
 #: src/main/datetime.c:1061 src/main/dotcode.c:222 src/main/errors.c:1179
 #: src/main/errors.c:1200 src/main/errors.c:1318 src/main/errors.c:1325
-#: src/main/errors.c:1629 src/main/identical.c:45 src/main/platform.c:3546
+#: src/main/errors.c:1629 src/main/identical.c:45 src/main/platform.c:3554
 #: src/main/seq.c:252 src/main/seq.c:259 src/main/seq.c:263 src/main/seq.c:368
 #: src/main/seq.c:375 src/main/seq.c:378 src/main/seq.c:380 src/main/seq.c:437
 #: src/main/seq.c:441 src/main/seq.c:445 src/main/sort.c:1428
@@ -5089,8 +5098,8 @@ msgstr "niente da collegare"
 msgid "symbolic links are not supported on this version of Windows"
 msgstr "link simbolici non supportati su questa versione di Windows"
 
-#: src/main/platform.c:769 src/main/platform.c:846 src/main/platform.c:2714
-#: src/main/platform.c:2725
+#: src/main/platform.c:769 src/main/platform.c:846 src/main/platform.c:2715
+#: src/main/platform.c:2726
 #, c-format
 msgid "'%s' path too long"
 msgstr "percorso '%s' troppo lungo"
@@ -5145,141 +5154,141 @@ msgstr "non è possibile rinominare il file '%ls' in '%ls', motivo '%s'"
 msgid "cannot rename file '%s' to '%s', reason '%s'"
 msgstr "non è possibile rinominare il file '%s' in '%s', motivo '%s'"
 
-#: src/main/platform.c:1325 src/main/platform.c:1356 src/main/platform.c:1470
-#: src/main/platform.c:1483 src/main/platform.c:2576 src/main/platform.c:2588
-#: src/main/platform.c:2617 src/main/platform.c:2638 src/main/platform.c:2835
-#: src/main/platform.c:2848 src/main/platform.c:2879 src/main/platform.c:2900
+#: src/main/platform.c:1326 src/main/platform.c:1357 src/main/platform.c:1471
+#: src/main/platform.c:1484 src/main/platform.c:2577 src/main/platform.c:2589
+#: src/main/platform.c:2618 src/main/platform.c:2639 src/main/platform.c:2840
+#: src/main/platform.c:2854 src/main/platform.c:2886 src/main/platform.c:2907
 msgid "over-long path"
 msgstr "percorso troppo lungo"
 
-#: src/main/platform.c:1414
+#: src/main/platform.c:1415
 msgid "invalid 'pattern' regular expression"
 msgstr "espressione regolare 'pattern' non valida"
 
-#: src/main/platform.c:1538
+#: src/main/platform.c:1539
 msgid "unable to determine R home location"
 msgstr "non è possibile determinare la posizione R home"
 
-#: src/main/platform.c:1593
+#: src/main/platform.c:1594
 msgid "file name too long"
 msgstr "nome del file troppo lungo"
 
-#: src/main/platform.c:1803 src/main/util.c:833 src/main/util.c:867
+#: src/main/platform.c:1804 src/main/util.c:833 src/main/util.c:867
 #: src/main/util.c:909 src/main/util.c:951
 msgid "path too long"
 msgstr "percorso troppo lungo"
 
-#: src/main/platform.c:1864 src/main/platform.c:1928 src/main/sysutils.c:2109
+#: src/main/platform.c:1865 src/main/platform.c:1929 src/main/sysutils.c:2109
 #: src/main/sysutils.c:2123
 msgid "internal out-of-memory condition"
 msgstr "condizione interna out-of-memory"
 
-#: src/main/platform.c:1924 src/main/sysutils.c:2119
+#: src/main/platform.c:1925 src/main/sysutils.c:2119
 #, c-format
 msgid "read error on '%s'"
 msgstr "errore di lettura su '%s'"
 
-#: src/main/platform.c:2031
+#: src/main/platform.c:2032
 msgid "setting 'LC_NUMERIC' may cause R to function strangely"
 msgstr "l'impostazione 'LC_NUMERIC' può causare uno strano funzionamento di R"
 
-#: src/main/platform.c:2045
+#: src/main/platform.c:2046
 msgid "LC_MESSAGES exists on Windows but is not operational"
 msgstr "LC_MESSAGES esiste su Windows ma non è operativo"
 
-#: src/main/platform.c:2072
+#: src/main/platform.c:2073
 #, c-format
 msgid "OS reports request to set locale to \"%s\" cannot be honored"
 msgstr ""
 "Il sistema operativo indica che la richiesta di cambiamento localizzazione a "
 "\"%s\" non può essere onorata"
 
-#: src/main/platform.c:2083
+#: src/main/platform.c:2084
 #, c-format
 msgid "using locale code page other than %d%s may cause problems"
 msgstr ""
 "l'utilizzo di un codice di localizzazione diverso da %d%s potrebbe causare "
 "problemi"
 
-#: src/main/platform.c:2469
+#: src/main/platform.c:2470
 #, c-format
 msgid "'%s' already exists"
 msgstr "'%s' già esistente"
 
-#: src/main/platform.c:2472
+#: src/main/platform.c:2473
 #, c-format
 msgid "cannot create dir '%s', reason '%s'"
 msgstr "non è possibile creare la directory '%s', motivo '%s'"
 
-#: src/main/platform.c:2495
+#: src/main/platform.c:2496
 #, c-format
 msgid "'%s' too long"
 msgstr "'%s' troppo lungo"
 
-#: src/main/platform.c:2526
+#: src/main/platform.c:2527
 #, c-format
 msgid "'%ls' already exists"
 msgstr "'%ls' esiste già"
 
-#: src/main/platform.c:2528 src/main/platform.c:2534
+#: src/main/platform.c:2529 src/main/platform.c:2535
 #, c-format
 msgid "cannot create dir '%ls', reason '%s'"
 msgstr "non è possibile creare la directory '%ls', motivo '%s'"
 
-#: src/main/platform.c:2568 src/main/platform.c:2819
+#: src/main/platform.c:2569 src/main/platform.c:2820
 msgid "too deep nesting"
 msgstr "nidificazione troppo profonda"
 
-#: src/main/platform.c:2600
+#: src/main/platform.c:2601
 #, c-format
 msgid "cannot overwrite non-directory %ls with directory %ls"
 msgstr ""
 "non è possibile sovrascrivere la non-directory %ls con la directory %ls"
 
-#: src/main/platform.c:2605
+#: src/main/platform.c:2606
 #, c-format
 msgid "problem creating directory %ls: %s"
 msgstr "problema durante la creazione della directory %ls: %s"
 
-#: src/main/platform.c:2627
+#: src/main/platform.c:2628
 #, c-format
 msgid "problem reading directory %ls: %s"
 msgstr "problema di lettura per la directory %ls: %s"
 
-#: src/main/platform.c:2646
+#: src/main/platform.c:2647
 #, c-format
 msgid "problem copying %ls to %ls: %s"
 msgstr "problema durante la copia di %ls in %ls: %s"
 
-#: src/main/platform.c:2862
+#: src/main/platform.c:2868
 #, c-format
 msgid "cannot overwrite non-directory %s with directory %s"
 msgstr "non è possibile sovrascrivere la non-directory %s con la directory %s"
 
-#: src/main/platform.c:2867
+#: src/main/platform.c:2873
 #, c-format
 msgid "problem creating directory %s: %s"
 msgstr "problema durante la creazione della directory %s: %s"
 
-#: src/main/platform.c:2889
+#: src/main/platform.c:2896
 #, c-format
 msgid "problem reading directory %s: %s"
 msgstr "problema durante la lettura della directory %s: %s"
 
-#: src/main/platform.c:2909
+#: src/main/platform.c:2916
 #, c-format
 msgid "problem copying %s to %s: %s"
 msgstr "problema durante la copia di %s in %s: %s"
 
-#: src/main/platform.c:3068
+#: src/main/platform.c:3076
 msgid "'mode' must be of length at least one"
 msgstr "'mode' dev'essere almeno di lunghezza uno"
 
-#: src/main/platform.c:3136
+#: src/main/platform.c:3144
 msgid "insufficient OS support on this platform"
 msgstr "supporto OS non sufficiente su questa piattaforma"
 
-#: src/main/platform.c:3246
+#: src/main/platform.c:3254
 #, c-format
 msgid "'%s' must be of length at least one"
 msgstr "'%s' dev'essere almeno di lunghezza uno"
@@ -6685,7 +6694,7 @@ msgstr "nessuna 'tempdir'"
 msgid "no 'fileext'"
 msgstr "nessun 'fileext'"
 
-#: src/main/sysutils.c:342 src/unix/sys-unix.c:647
+#: src/main/sysutils.c:342 src/unix/sys-unix.c:654
 #, c-format
 msgid "system call failed: %s"
 msgstr "chiamata di sistema fallita: %s"
@@ -7889,7 +7898,7 @@ msgstr ""
 msgid "cannot get working directory!"
 msgstr "non è possibile ottenere la directory di lavoro!"
 
-#: src/unix/sys-std.c:586
+#: src/unix/sys-std.c:590
 msgid ""
 "An unusual circumstance has arisen in the nesting of readline input. Please "
 "report using bug.report()"
@@ -7897,12 +7906,12 @@ msgstr ""
 "Si è verificata una circostanza inattesa nell'annidamento di input readline. "
 "Per piacere, riportate il problema utilizzando bug.report()"
 
-#: src/unix/sys-std.c:1229 src/unix/sys-std.c:1398
+#: src/unix/sys-std.c:1233 src/unix/sys-std.c:1402
 #, c-format
 msgid "problem in saving the history file '%s'"
 msgstr "problema nel salvataggio del file cronologia '%s'"
 
-#: src/unix/sys-std.c:1305
+#: src/unix/sys-std.c:1309
 #, c-format
 msgid ""
 "Cannot open file '%s': %s\n"
@@ -7911,63 +7920,63 @@ msgstr ""
 "Non è possibile aprire il file '%s': %s\n"
 "\n"
 
-#: src/unix/sys-std.c:1313 src/unix/sys-unix.c:818 src/unix/sys-unix.c:855
+#: src/unix/sys-std.c:1317 src/unix/sys-unix.c:825 src/unix/sys-unix.c:862
 #: src/unix/system.c:582
 msgid "error in running command"
 msgstr "errore durante l'esecuzione del comando"
 
-#: src/unix/sys-std.c:1369 src/unix/sys-std.c:1392
+#: src/unix/sys-std.c:1373 src/unix/sys-std.c:1396
 msgid "'file' argument is too long"
 msgstr "argomento 'file' troppo lungo"
 
-#: src/unix/sys-std.c:1375 src/unix/sys-std.c:1377
+#: src/unix/sys-std.c:1379 src/unix/sys-std.c:1381
 msgid "no history mechanism available"
 msgstr "nessun meccanismo disponibile per la cronologia"
 
-#: src/unix/sys-std.c:1404
+#: src/unix/sys-std.c:1408
 msgid "problem in truncating the history file"
 msgstr "problema nel troncamento del file cronologia"
 
-#: src/unix/sys-std.c:1406 src/unix/sys-std.c:1408
+#: src/unix/sys-std.c:1410 src/unix/sys-std.c:1412
 msgid "no history available to save"
 msgstr "nessuna cronologia da salvare"
 
-#: src/unix/sys-std.c:1420
+#: src/unix/sys-std.c:1424
 msgid "invalid timestamp"
 msgstr "timestamp non valido"
 
-#: src/unix/sys-unix.c:670
+#: src/unix/sys-unix.c:677
 #, c-format
 msgid "running command '%s' had status %d and error message '%s'"
 msgstr ""
 "il comando in esecuzione '%s' aveva lo status %d e il messaggio di errore "
 "'%s'"
 
-#: src/unix/sys-unix.c:707
+#: src/unix/sys-unix.c:714
 msgid "non-empty character argument expected"
 msgstr "attesi argomenti di tipo character non-vuoti"
 
-#: src/unix/sys-unix.c:710
+#: src/unix/sys-unix.c:717
 msgid "'intern' must be logical and not NA"
 msgstr "'intern' dev'essere logico e non NA"
 
-#: src/unix/sys-unix.c:755
+#: src/unix/sys-unix.c:762
 #, c-format
 msgid "cannot popen '%s', probable reason '%s'"
 msgstr "non è possibile fare un popen '%s', probabile motivo '%s'"
 
-#: src/unix/sys-unix.c:769
+#: src/unix/sys-unix.c:776
 #, c-format
 msgid "line %d may be truncated in call to system(, intern = TRUE)"
 msgstr ""
 "la linea %d potrebbe essere troncata nella chiamata a system(, intern = TRUE)"
 
-#: src/unix/sys-unix.c:815
+#: src/unix/sys-unix.c:822
 #, c-format
 msgid "error in running command: '%s'"
 msgstr "errore durante l'esecuzione del comando: '%s'"
 
-#: src/unix/sys-unix.c:934
+#: src/unix/sys-unix.c:941
 msgid "Sys.info() is not implemented on this system"
 msgstr "Sys.info() non è implementato su questo sistema"
 
