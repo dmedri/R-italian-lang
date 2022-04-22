@@ -1,8 +1,7 @@
 R-italian-lang
 
-CHANGES WITH R4.2.0 (01/17/2022)
- * new translated labels
- * minor fixes and updates
+CHANGES WITH R4.2.0 (04/22/2022)
+ * regular updates
 
 CHANGES WITH R4.1.2 (10/04/2021)
  * new translated labels and fixes in sync with R 4.1.2
@@ -50,7 +49,7 @@ CHANGES WITH v0.5 (03/23/2020) "brown bag release"
 
 CHANGES WITH v0.4 (03/23/2020)
  * added TRANSLATORS file with some conventions
- * revisions to fit conventions
+ * revisions to fit rules 
  * new find.terms script (to search terms in .po files)
  * new tgz.me script (to create a .tgz archive)
  * new po.roaster script
