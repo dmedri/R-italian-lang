@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-2-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-01 16:22+0100\n"
+"POT-Creation-Date: 2022-05-26 13:29+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -189,12 +189,12 @@ msgid "argument %s must be a numeric vector of length 1 or length %d"
 msgstr ""
 "l'argomento %s dev'essere un vettore numerico di lunghezza 1 o lunghezza %d"
 
-#: fexact.c:273
+#: fexact.c:276
 #, c-format
 msgid "integer overflow would happen in 'mult * ldkey' = %g"
 msgstr "un integer overflow potrebbe accadere in 'mult * ldkey' = %g"
 
-#: fexact.c:653
+#: fexact.c:656
 #, c-format
 msgid ""
 "FEXACT error 6.  LDKEY=%d is too small for this problem,\n"
@@ -206,12 +206,18 @@ msgstr ""
 "Prova ad incrementare la dimensione dell'area di lavoro e possibilmente "
 "'mult'"
 
-#: fexact.c:1037
+#: fexact.c:1040
 #, c-format
-msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
-msgstr "Bug in fexact3, it[i=%d]=%d: chiave negativa %d (kyy=%d)\n"
+msgid ""
+"FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= "
+"%d.\n"
+"Rather set 'simulate.p.value=TRUE'\n"
+msgstr ""
+"FEXACT[f3xact()] errore: chiave hash %.0g > INT_MAX, kyy=%d, it[i (= nco = "
+"%d)]= %d.\n"
+"Piuttosto si usi 'simulate.p.value=TRUE'\n"
 
-#: fexact.c:1069
+#: fexact.c:1073
 #, c-format
 msgid ""
 "FEXACT error 30.  Stack length exceeded in f3xact,\n"
@@ -223,7 +229,7 @@ msgstr ""
 "Si incrementi l'area di lavoro o si consideri l'utilizzo di 'simulate.p."
 "value=TRUE'"
 
-#: fexact.c:1404
+#: fexact.c:1407
 #, c-format
 msgid ""
 "FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
@@ -233,7 +239,7 @@ msgstr ""
 "kval=%d.\n"
 "Prova ad incrementare la dimensione dell'area di lavoro."
 
-#: fexact.c:1417
+#: fexact.c:1420
 #, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
@@ -245,7 +251,7 @@ msgstr ""
 "Si incrementi l'area di lavoro o si consideri l'utilizzo di 'simulate.p."
 "value=TRUE'."
 
-#: fexact.c:1454
+#: fexact.c:1458
 #, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
@@ -1003,3 +1009,7 @@ msgstr "regola finale non valida per calcolare la mediana di 3: %d"
 #, c-format
 msgid "missing value in last %d observations"
 msgstr "valori mancanti nelle ultime %d osservazioni"
+
+#, c-format
+#~ msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
+#~ msgstr "Bug in fexact3, it[i=%d]=%d: chiave negativa %d (kyy=%d)\n"
