@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-2-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-17 15:35+0100\n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: 2022-08-06 17:35+0200\n"
+"PO-Revision-Date: 2022-09-27 15:48+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #: io.c:327 io.c:331 io.c:341 io.c:571 io.c:771 io.c:824 io.c:838 io.c:842
 #: io.c:848 io.c:849 io.c:1090 io.c:1091 io.c:1093 io.c:1094 io.c:1095
@@ -98,19 +98,19 @@ msgstr "non è possibile scrivere su questa connessione"
 msgid "'dec' must be a single character"
 msgstr "'dec' dev'essere un singolo carattere"
 
-#: io.c:1130
+#: io.c:1131
 #, c-format
 msgid "corrupt data frame -- length of column %d does not match nrows"
 msgstr ""
 "data frame corrotto -- la lunghezza della colonna %d non corrisponde con "
 "nrows"
 
-#: io.c:1161
+#: io.c:1165
 #, c-format
 msgid "column %s claims to be a factor but does not have numeric codes"
 msgstr "la colonna %s si presenta come un factor ma non ha codici numerici"
 
-#: io.c:1179
+#: io.c:1183
 msgid "corrupt matrix -- dims do not match length"
 msgstr "matrice corrotta -- le dimensioni non corrispondono con la lunghezza"
 
