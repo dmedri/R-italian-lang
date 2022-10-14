@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-2-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-12 11:32+0200\n"
-"PO-Revision-Date: 2022-09-27 15:58+0200\n"
+"POT-Creation-Date: 2022-10-13 09:22+0200\n"
+"PO-Revision-Date: 2022-10-14 12:17+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -181,9 +181,9 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/connections.c:5461 src/main/connections.c:5485
 #: src/main/connections.c:6253 src/main/connections.c:6280
 #: src/main/connections.c:6287 src/main/context.c:645 src/main/context.c:654
-#: src/main/context.c:658 src/main/datetime.c:783 src/main/datetime.c:872
+#: src/main/context.c:658 src/main/datetime.c:779 src/main/datetime.c:872
 #: src/main/datetime.c:875 src/main/datetime.c:879 src/main/datetime.c:1064
-#: src/main/datetime.c:1066 src/main/datetime.c:1270 src/main/debug.c:246
+#: src/main/datetime.c:1066 src/main/datetime.c:1266 src/main/debug.c:246
 #: src/main/deparse.c:449 src/main/dotcode.c:496 src/main/dotcode.c:500
 #: src/main/dotcode.c:505 src/main/dounzip.c:334 src/main/dounzip.c:341
 #: src/main/dounzip.c:351 src/main/dounzip.c:356 src/main/dounzip.c:360
@@ -199,39 +199,39 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/grep.c:1485 src/main/grep.c:1487 src/main/grep.c:1964
 #: src/main/grep.c:1968 src/main/grep.c:1973 src/main/grep.c:2839
 #: src/main/grep.c:2844 src/main/grep.c:3159 src/main/grep.c:3164
-#: src/main/memory.c:4603 src/main/paste.c:124 src/main/paste.c:467
+#: src/main/memory.c:4601 src/main/paste.c:124 src/main/paste.c:467
 #: src/main/paste.c:481 src/main/paste.c:486 src/main/paste.c:491
 #: src/main/paste.c:496 src/main/paste.c:499 src/main/paste.c:507
 #: src/main/paste.c:512 src/main/paste.c:694 src/main/paste.c:699
-#: src/main/platform.c:513 src/main/platform.c:515 src/main/platform.c:517
-#: src/main/platform.c:529 src/main/platform.c:540 src/main/platform.c:599
-#: src/main/platform.c:601 src/main/platform.c:909 src/main/platform.c:911
-#: src/main/platform.c:1006 src/main/platform.c:1385 src/main/platform.c:1391
-#: src/main/platform.c:1394 src/main/platform.c:1397 src/main/platform.c:1400
-#: src/main/platform.c:1403 src/main/platform.c:1406 src/main/platform.c:1409
-#: src/main/platform.c:1509 src/main/platform.c:1512 src/main/platform.c:1515
-#: src/main/platform.c:1557 src/main/platform.c:1621 src/main/platform.c:1624
-#: src/main/platform.c:1849 src/main/platform.c:1852 src/main/platform.c:1855
-#: src/main/platform.c:1858 src/main/platform.c:1903 src/main/platform.c:1906
-#: src/main/platform.c:1909 src/main/platform.c:1912 src/main/platform.c:1957
-#: src/main/platform.c:1992 src/main/platform.c:1994 src/main/platform.c:2077
-#: src/main/platform.c:2173 src/main/platform.c:2438 src/main/platform.c:2498
-#: src/main/platform.c:2707 src/main/platform.c:2710 src/main/platform.c:2713
-#: src/main/platform.c:2716 src/main/platform.c:2719 src/main/platform.c:2722
-#: src/main/platform.c:2976 src/main/platform.c:2979 src/main/platform.c:2982
-#: src/main/platform.c:2985 src/main/platform.c:2988 src/main/platform.c:2991
-#: src/main/platform.c:2994 src/main/platform.c:3081 src/main/platform.c:3089
-#: src/main/platform.c:3125 src/main/platform.c:3169 src/main/platform.c:3260
+#: src/main/platform.c:520 src/main/platform.c:522 src/main/platform.c:524
+#: src/main/platform.c:536 src/main/platform.c:547 src/main/platform.c:606
+#: src/main/platform.c:608 src/main/platform.c:916 src/main/platform.c:918
+#: src/main/platform.c:1013 src/main/platform.c:1392 src/main/platform.c:1398
+#: src/main/platform.c:1401 src/main/platform.c:1404 src/main/platform.c:1407
+#: src/main/platform.c:1410 src/main/platform.c:1413 src/main/platform.c:1416
+#: src/main/platform.c:1516 src/main/platform.c:1519 src/main/platform.c:1522
+#: src/main/platform.c:1564 src/main/platform.c:1628 src/main/platform.c:1631
+#: src/main/platform.c:1856 src/main/platform.c:1859 src/main/platform.c:1862
+#: src/main/platform.c:1865 src/main/platform.c:1910 src/main/platform.c:1913
+#: src/main/platform.c:1916 src/main/platform.c:1919 src/main/platform.c:1964
+#: src/main/platform.c:1999 src/main/platform.c:2001 src/main/platform.c:2084
+#: src/main/platform.c:2180 src/main/platform.c:2445 src/main/platform.c:2505
+#: src/main/platform.c:2714 src/main/platform.c:2717 src/main/platform.c:2720
+#: src/main/platform.c:2723 src/main/platform.c:2726 src/main/platform.c:2729
+#: src/main/platform.c:2983 src/main/platform.c:2986 src/main/platform.c:2989
+#: src/main/platform.c:2992 src/main/platform.c:2995 src/main/platform.c:2998
+#: src/main/platform.c:3001 src/main/platform.c:3088 src/main/platform.c:3096
+#: src/main/platform.c:3132 src/main/platform.c:3176 src/main/platform.c:3267
 #: src/main/print.c:250 src/main/print.c:279 src/main/print.c:287
 #: src/main/print.c:301 src/main/random.c:469 src/main/random.c:472
 #: src/main/random.c:476 src/main/random.c:483 src/main/random.c:511
 #: src/main/saveload.c:2012 src/main/saveload.c:2054 src/main/saveload.c:2057
 #: src/main/saveload.c:2060 src/main/saveload.c:2176 src/main/saveload.c:2356
 #: src/main/saveload.c:2361 src/main/saveload.c:2364 src/main/saveload.c:2473
-#: src/main/scan.c:694 src/main/scan.c:867 src/main/scan.c:881
-#: src/main/scan.c:885 src/main/scan.c:887 src/main/scan.c:898
-#: src/main/scan.c:925 src/main/scan.c:928 src/main/scan.c:931
-#: src/main/scan.c:986 src/main/seq.c:671 src/main/seq.c:678 src/main/seq.c:688
+#: src/main/scan.c:694 src/main/scan.c:866 src/main/scan.c:880
+#: src/main/scan.c:884 src/main/scan.c:886 src/main/scan.c:897
+#: src/main/scan.c:924 src/main/scan.c:927 src/main/scan.c:930
+#: src/main/scan.c:985 src/main/seq.c:671 src/main/seq.c:678 src/main/seq.c:688
 #: src/main/seq.c:694 src/main/seq.c:739 src/main/seq.c:744 src/main/seq.c:747
 #: src/main/seq.c:751 src/main/seq.c:756 src/main/seq.c:763 src/main/seq.c:767
 #: src/main/seq.c:773 src/main/sort.c:276 src/main/sysutils.c:609
@@ -289,7 +289,7 @@ msgstr "numero del dispositivo grafico non valido"
 msgid "bad device"
 msgstr "dispositivo errato"
 
-#: src/gnuwin32/extra.c:1066 src/main/platform.c:1596
+#: src/gnuwin32/extra.c:1066 src/main/platform.c:1603
 msgid "file choice cancelled"
 msgstr "scelta del file annullata"
 
@@ -815,10 +815,10 @@ msgstr "'FUN.VALUE' dev'essere un vettore"
 
 #: src/main/apply.c:114 src/main/array.c:528 src/main/character.c:989
 #: src/main/character.c:1843 src/main/connections.c:3954 src/main/context.c:696
-#: src/main/context.c:710 src/main/datetime.c:680 src/main/datetime.c:785
+#: src/main/context.c:710 src/main/datetime.c:679 src/main/datetime.c:782
 #: src/main/datetime.c:1068 src/main/dotcode.c:222 src/main/errors.c:1179
 #: src/main/errors.c:1200 src/main/errors.c:1318 src/main/errors.c:1325
-#: src/main/errors.c:1629 src/main/identical.c:45 src/main/platform.c:3564
+#: src/main/errors.c:1629 src/main/identical.c:45 src/main/platform.c:3571
 #: src/main/seq.c:252 src/main/seq.c:259 src/main/seq.c:263 src/main/seq.c:368
 #: src/main/seq.c:375 src/main/seq.c:378 src/main/seq.c:380 src/main/seq.c:437
 #: src/main/seq.c:441 src/main/seq.c:445 src/main/sort.c:1428
@@ -1915,7 +1915,7 @@ msgstr "stringa carattere non valida nella conversione dell'output"
 msgid "invalid input found on input connection '%s'"
 msgstr "input non valido trovato nella connessione di input '%s'"
 
-#: src/main/connections.c:761 src/main/platform.c:1111
+#: src/main/connections.c:761 src/main/platform.c:1118
 #, c-format
 msgid "cannot open file '%ls': %s"
 msgstr "non è possibile aprire il file '%ls': %s"
@@ -2030,7 +2030,7 @@ msgstr ""
 #: src/main/connections.c:4836 src/main/connections.c:4962
 #: src/main/connections.c:5183 src/main/connections.c:5650 src/main/dcf.c:93
 #: src/main/deparse.c:406 src/main/deparse.c:492 src/main/saveload.c:2371
-#: src/main/saveload.c:2456 src/main/scan.c:947 src/main/serialize.c:2552
+#: src/main/saveload.c:2456 src/main/scan.c:946 src/main/serialize.c:2552
 #: src/main/serialize.c:2601 src/main/source.c:290
 msgid "cannot open the connection"
 msgstr "non è possibile aprire la connessione"
@@ -2291,7 +2291,7 @@ msgstr "Errore di scrittura sulla connessione"
 #: src/main/connections.c:3973 src/main/connections.c:3975
 #: src/main/connections.c:4261 src/main/connections.c:4819
 #: src/main/connections.c:4844 src/main/connections.c:5677 src/main/dcf.c:100
-#: src/main/scan.c:950 src/main/scan.c:954 src/main/serialize.c:2373
+#: src/main/scan.c:949 src/main/scan.c:953 src/main/serialize.c:2373
 #: src/main/source.c:293
 msgid "cannot read from this connection"
 msgstr "non è possibile leggere da questa connessione"
@@ -2634,25 +2634,29 @@ msgstr "'cummin' non definito per numeri complessi"
 msgid "unknown cumxxx function"
 msgstr "la funzione cumxxx è ignota"
 
-#: src/main/datetime.c:553 src/main/datetime.c:561 src/main/datetime.c:575
-#: src/main/datetime.c:580
+#: src/main/datetime.c:552 src/main/datetime.c:560 src/main/datetime.c:574
+#: src/main/datetime.c:579
 msgid "problem with setting timezone"
 msgstr "problema nella configurazione del fuso orario"
 
-#: src/main/datetime.c:565
+#: src/main/datetime.c:564
 msgid "cannot set timezones on this system"
 msgstr "non è possibile impostare fusi orari su questo sistema"
 
-#: src/main/datetime.c:587 src/main/datetime.c:589
+#: src/main/datetime.c:586 src/main/datetime.c:588
 msgid "problem with unsetting timezone"
 msgstr "problema nel rimuovere la configurazione del fuso orario"
 
-#: src/main/datetime.c:812 src/main/datetime.c:815 src/main/datetime.c:915
-#: src/main/datetime.c:1278 src/main/datetime.c:1281
+#: src/main/datetime.c:770
 #, c-format
 msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
 msgstr ""
 "componente di lunghezza zero [[%d]] in una struttura \"POSIXlt\" non vuota"
+
+#: src/main/datetime.c:882
+#, c-format
+msgid "invalid '%s'"
+msgstr "'%s' non valido"
 
 #: src/main/datetime.c:927
 msgid "invalid component [[10]] in \"POSIXlt\" should be 'zone'"
@@ -4064,7 +4068,7 @@ msgstr "contextstack overflow"
 msgid "unexpected input"
 msgstr "input inatteso"
 
-#: src/main/gram.y:2293 src/main/main.c:319
+#: src/main/gram.y:2293 src/main/main.c:317
 #, c-format
 msgid "unexpected end of input"
 msgstr "fine input inatteso"
@@ -4427,77 +4431,77 @@ msgstr "coercizione argomento di tipo '%s' in logico"
 msgid "dummy - do not translate"
 msgstr "dummy - non tradurre"
 
-#: src/main/main.c:337
+#: src/main/main.c:335
 msgid "error during cleanup\n"
 msgstr "errore durante la pulizia\n"
 
-#: src/main/main.c:344
+#: src/main/main.c:342
 msgid "Execution halted\n"
 msgstr "Esecuzione interrotta\n"
 
-#: src/main/main.c:512
+#: src/main/main.c:510
 msgid "Error: segfault from C stack overflow\n"
 msgstr "Errore: segfault da overflow dello stack C\n"
 
-#: src/main/main.c:967
+#: src/main/main.c:965
 msgid "unable to open the base package\n"
 msgstr "non è possibile aprire il pacchetto base\n"
 
-#: src/main/main.c:1051
+#: src/main/main.c:1049
 #, c-format
 msgid "unable to restore saved data in %s\n"
 msgstr "non è possibile ripristinare i dati salvati in %s\n"
 
-#: src/main/main.c:1100
+#: src/main/main.c:1098
 msgid "During startup - "
 msgstr "Durante l'avvio - "
 
-#: src/main/main.c:1116
+#: src/main/main.c:1114
 msgid "unable to initialize the JIT\n"
 msgstr "non è possibile inizializzare JIT\n"
 
-#: src/main/main.c:1389
+#: src/main/main.c:1387
 msgid "cannot quit from browser"
 msgstr "non posso uscire dal browser"
 
-#: src/main/main.c:1393
+#: src/main/main.c:1391
 msgid "one of \"yes\", \"no\", \"ask\" or \"default\" expected."
 msgstr "atteso \"yes\", \"no\", \"ask\" o \"default\"."
 
-#: src/main/main.c:1398
+#: src/main/main.c:1396
 msgid "save=\"ask\" in non-interactive use: command-line default will be used"
 msgstr ""
 "save=\"ask\" in modalità non interattiva: saranno utilizzate le impostazioni "
 "predefinite della riga di comando"
 
-#: src/main/main.c:1406
+#: src/main/main.c:1404
 msgid "unrecognized value of 'save'"
 msgstr "valore 'save' non riconosciuto"
 
-#: src/main/main.c:1409
+#: src/main/main.c:1407
 msgid "invalid 'status', 0 assumed"
 msgstr "valore 'status' non valido, si utilizza 0"
 
-#: src/main/main.c:1414
+#: src/main/main.c:1412
 msgid "invalid 'runLast', FALSE assumed"
 msgstr "argomento 'runLast' non valido, si utilizza FALSE"
 
-#: src/main/main.c:1445
+#: src/main/main.c:1443
 msgid "cannot allocate space for toplevel callback element"
 msgstr ""
 "non posso allocare spazio per l'elemento di callback di livello superiore"
 
-#: src/main/main.c:1523
+#: src/main/main.c:1521
 msgid "negative index passed to R_removeTaskCallbackByIndex"
 msgstr "indice negativo passato a R_removeTaskCallbackByIndex"
 
-#: src/main/main.c:1636
+#: src/main/main.c:1634
 #, c-format
 msgid "warning messages from top-level task callback '%s'\n"
 msgstr ""
 "messaggi di avvertimento dal processo callback di livello superiore '%s'\n"
 
-#: src/main/main.c:1727
+#: src/main/main.c:1725
 msgid "top-level task callback did not return a logical value"
 msgstr ""
 "il processo callback di livello superiore non ha restituito un valore logico"
@@ -4538,98 +4542,98 @@ msgid_plural "unused arguments %s"
 msgstr[0] "argomento non utilizzato %s"
 msgstr[1] "argomenti non utilizzati %s"
 
-#: src/main/memory.c:1376
+#: src/main/memory.c:1374
 msgid "can only weakly reference/finalize reference objects"
 msgstr "posso solo creare un riferimento debole agli oggetti di tipo reference"
 
-#: src/main/memory.c:1410
+#: src/main/memory.c:1408
 msgid "finalizer must be a function or NULL"
 msgstr "il 'finalizer' dev'essere una funzione o NULL"
 
-#: src/main/memory.c:1466 src/main/memory.c:1474 src/main/memory.c:1485
+#: src/main/memory.c:1464 src/main/memory.c:1472 src/main/memory.c:1483
 msgid "not a weak reference"
 msgstr "non un riferimento debole"
 
-#: src/main/memory.c:1635
+#: src/main/memory.c:1633
 msgid "first argument must be environment or external pointer"
 msgstr "il primo argomento dev'essere un ambiente o un puntatore esterno"
 
-#: src/main/memory.c:1637
+#: src/main/memory.c:1635
 msgid "second argument must be a function"
 msgstr "il secondo argomento dev'essere una funzione"
 
-#: src/main/memory.c:1641
+#: src/main/memory.c:1639
 msgid "third argument must be 'TRUE' or 'FALSE'"
 msgstr "il terzo argomento dev'essere 'TRUE' o 'FALSE'"
 
-#: src/main/memory.c:2142
+#: src/main/memory.c:2140
 msgid "vector memory exhausted (limit reached?)"
 msgstr "memoria 'vector' esaurita (raggiunto il limite?)"
 
-#: src/main/memory.c:2148
+#: src/main/memory.c:2146
 msgid "cons memory exhausted (limit reached?)"
 msgstr "memoria 'cons' esaurita (raggiunto il limite?)"
 
-#: src/main/memory.c:2153
+#: src/main/memory.c:2151
 msgid "memory exhausted (limit reached?)"
 msgstr "memoria esaurita (raggiunto il limite?)"
 
-#: src/main/memory.c:2287
+#: src/main/memory.c:2285
 #, c-format
 msgid "cannot allocate memory block of size %0.f Tb"
 msgstr "non è possibile allocare blocchi di memoria di dimensione %0.f Tb"
 
-#: src/main/memory.c:2292
+#: src/main/memory.c:2290
 #, c-format
 msgid "cannot allocate memory block of size %0.1f Gb"
 msgstr "non è possibile allocare blocchi di memoria di dimensione %0.1f Gb"
 
-#: src/main/memory.c:2690
+#: src/main/memory.c:2688
 msgid "vector is too large"
 msgstr "il vettore è troppo grande"
 
-#: src/main/memory.c:2692
+#: src/main/memory.c:2690
 msgid "negative length vectors are not allowed"
 msgstr "non sono ammessi vettori di lunghezza negativa"
 
-#: src/main/memory.c:2718 src/main/memory.c:2730 src/main/memory.c:2742
-#: src/main/memory.c:2756
+#: src/main/memory.c:2716 src/main/memory.c:2728 src/main/memory.c:2740
+#: src/main/memory.c:2754
 #, c-format
 msgid "cannot allocate vector of length %d"
 msgstr "non è possibile allocare un vettore di lunghezza %d"
 
-#: src/main/memory.c:2777
+#: src/main/memory.c:2775
 #, c-format
 msgid "invalid type/length (%s/%d) in vector allocation"
 msgstr "tipo/lunghezza (%s/%d) non valido nell'allocazione del vettore"
 
-#: src/main/memory.c:2864
+#: src/main/memory.c:2862
 #, c-format
 msgid "cannot allocate vector of size %0.1f Gb"
 msgstr "non è possibile allocare un vettore di dimensione %0.1f Gb"
 
-#: src/main/memory.c:2868
+#: src/main/memory.c:2866
 #, c-format
 msgid "cannot allocate vector of size %0.1f Mb"
 msgstr "non è possibile allocare un vettore di dimensione %0.1f Mb"
 
-#: src/main/memory.c:2872
+#: src/main/memory.c:2870
 #, c-format
 msgid "cannot allocate vector of size %0.f Kb"
 msgstr "non è possibile allocare un vettore di dimensione %0.f Kb"
 
-#: src/main/memory.c:3344
+#: src/main/memory.c:3342
 #, c-format
 msgid "unprotect(): only %d protected item"
 msgid_plural "unprotect(): only %d protected items"
 msgstr[0] "unprotect(): solo %d elemento protetto"
 msgstr[1] "unprotect(): solo %d elementi protetti"
 
-#: src/main/memory.c:3382
+#: src/main/memory.c:3380
 msgid "unprotect_ptr: pointer not found"
 msgstr "unprotect_ptr: puntatore non trovato"
 
-#: src/main/memory.c:3421
+#: src/main/memory.c:3419
 #, c-format
 msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
@@ -4640,53 +4644,53 @@ msgstr[1] ""
 "R_Reprotect: solo%d elementi protetti, non è possibile proteggere nuovamente "
 "l'indice %d"
 
-#: src/main/memory.c:3475
+#: src/main/memory.c:3473
 #, c-format
 msgid "'R_Calloc' could not allocate memory (%.0f of %u bytes)"
 msgstr "'R_Calloc' non può allocare memoria (%.0f di %u byte)"
 
-#: src/main/memory.c:3486
+#: src/main/memory.c:3484
 #, c-format
 msgid "'R_Realloc' could not re-allocate memory (%.0f bytes)"
 msgstr "'R_Realloc' non può allocare memoria (%.0f byte)"
 
-#: src/main/memory.c:3896
+#: src/main/memory.c:3894
 #, c-format
 msgid "SETLENGTH() can only be applied to a standard vector, not a '%s'"
 msgstr ""
 "SETLENGTH() può essere unicamente applicato ad un vettore standard, non un "
 "'%s'"
 
-#: src/main/memory.c:4067
+#: src/main/memory.c:4065
 msgid "not safe to return vector pointer"
 msgstr "non è sicuro restituire un puntatore vettoriale"
 
-#: src/main/memory.c:4078
+#: src/main/memory.c:4076
 #, c-format
 msgid "attempt to set index %lld/%lld in SET_STRING_ELT"
 msgstr "tentativo di impostazione indice %lld/%lld in SET_STRING_ELT"
 
-#: src/main/memory.c:4099
+#: src/main/memory.c:4097
 #, c-format
 msgid "attempt to set index %lld/%lld in SET_VECTOR_ELT"
 msgstr "tentativo di impostazione indice %lld/%lld in SET_VECTOR_ELT"
 
-#: src/main/memory.c:4260 src/main/memory.c:4269 src/main/memory.c:4282
-#: src/main/memory.c:4299 src/main/memory.c:4314 src/main/memory.c:4330
-#: src/main/memory.c:4349
+#: src/main/memory.c:4258 src/main/memory.c:4267 src/main/memory.c:4280
+#: src/main/memory.c:4297 src/main/memory.c:4312 src/main/memory.c:4328
+#: src/main/memory.c:4347
 msgid "bad value"
 msgstr "valore errato"
 
-#: src/main/memory.c:4527
+#: src/main/memory.c:4525
 msgid "memory profiling is not available on this system"
 msgstr "la profilazione della memoria non è disponibile su questo sistema"
 
-#: src/main/memory.c:4590
+#: src/main/memory.c:4588
 #, c-format
 msgid "Rprofmem: cannot open output file '%s'"
 msgstr "Rprofmem: non è possibile aprire il file '%s' in output"
 
-#: src/main/memory.c:4704
+#: src/main/memory.c:4702
 #, c-format
 msgid "long vectors not supported yet: %s:%d"
 msgstr "vettori long non ancora supportati: %s:%d"
@@ -5056,239 +5060,239 @@ msgstr "Modalità ( x ) non possibile"
 msgid "atomic vector arguments only"
 msgstr "solo argomenti vettoriali"
 
-#: src/main/platform.c:511 src/main/platform.c:525
+#: src/main/platform.c:518 src/main/platform.c:532
 msgid "invalid filename specification"
 msgstr "specificazione del nome file non valida"
 
-#: src/main/platform.c:584 src/main/platform.c:640
+#: src/main/platform.c:591 src/main/platform.c:647
 msgid "write error during file append"
 msgstr "errore di scrittura durante file append"
 
-#: src/main/platform.c:604
+#: src/main/platform.c:611
 msgid "nothing to append to"
 msgstr "niente da accodare"
 
-#: src/main/platform.c:669 src/main/platform.c:1003 src/main/platform.c:1222
+#: src/main/platform.c:676 src/main/platform.c:1010 src/main/platform.c:1229
 msgid "invalid filename argument"
 msgstr "argomento 'filename' non valido"
 
-#: src/main/platform.c:682
+#: src/main/platform.c:689
 #, c-format
 msgid "cannot create file '%s', reason '%s'"
 msgstr "non è possibile creare il file '%s', motivo '%s'"
 
-#: src/main/platform.c:697 src/main/platform.c:738 src/main/platform.c:826
+#: src/main/platform.c:704 src/main/platform.c:745 src/main/platform.c:833
 msgid "invalid first filename"
 msgstr "nome del primo file non valido"
 
-#: src/main/platform.c:709
+#: src/main/platform.c:716
 #, c-format
 msgid "cannot remove file '%s', reason '%s'"
 msgstr "non è possibile rimuovere il file '%s', motivo '%s'"
 
-#: src/main/platform.c:740 src/main/platform.c:828
+#: src/main/platform.c:747 src/main/platform.c:835
 msgid "invalid second filename"
 msgstr "nome del secondo file non valido"
 
-#: src/main/platform.c:743 src/main/platform.c:831
+#: src/main/platform.c:750 src/main/platform.c:838
 msgid "nothing to link"
 msgstr "niente da collegare"
 
-#: src/main/platform.c:753
+#: src/main/platform.c:760
 msgid "symbolic links are not supported on this version of Windows"
 msgstr "link simbolici non supportati su questa versione di Windows"
 
-#: src/main/platform.c:769 src/main/platform.c:846 src/main/platform.c:2725
-#: src/main/platform.c:2736
+#: src/main/platform.c:776 src/main/platform.c:853 src/main/platform.c:2732
+#: src/main/platform.c:2743
 #, c-format
 msgid "'%s' path too long"
 msgstr "percorso '%s' troppo lungo"
 
-#: src/main/platform.c:778
+#: src/main/platform.c:785
 #, c-format
 msgid "cannot symlink '%ls' to '%ls', reason '%s'"
 msgstr "non è possibile fare un symlink '%ls' a '%ls', motivo '%s'"
 
-#: src/main/platform.c:800
+#: src/main/platform.c:807
 #, c-format
 msgid "cannot symlink '%s' to '%s', reason '%s'"
 msgstr "non è possibile fare un symlink '%s' a '%s', motivo '%s'"
 
-#: src/main/platform.c:808
+#: src/main/platform.c:815
 msgid "symbolic links are not supported on this platform"
 msgstr "link simbolici non supportati su questa piattaforma"
 
-#: src/main/platform.c:851
+#: src/main/platform.c:858
 #, c-format
 msgid "cannot link '%ls' to '%ls', reason '%s'"
 msgstr "non è possibile fare un link '%ls' a '%ls', motivo '%s'"
 
-#: src/main/platform.c:873
+#: src/main/platform.c:880
 #, c-format
 msgid "cannot link '%s' to '%s', reason '%s'"
 msgstr "non è possibile fare un link '%s' a '%s', motivo '%s'"
 
-#: src/main/platform.c:882
+#: src/main/platform.c:889
 msgid "(hard) links are not supported on this platform"
 msgstr "gli (hard) link non sono supportati su questa piattaforma"
 
-#: src/main/platform.c:914
+#: src/main/platform.c:921
 msgid "'from' and 'to' are of different lengths"
 msgstr "'from' e 'to' sono di differenti lunghezze"
 
-#: src/main/platform.c:925 src/main/platform.c:940
+#: src/main/platform.c:932 src/main/platform.c:947
 msgid "expanded 'from' name too long"
 msgstr "esteso eccessivamente il nome 'from'"
 
-#: src/main/platform.c:929 src/main/platform.c:944
+#: src/main/platform.c:936 src/main/platform.c:951
 msgid "expanded 'to' name too long"
 msgstr "esteso eccessivamente il nome 'to'"
 
-#: src/main/platform.c:933
+#: src/main/platform.c:940
 #, c-format
 msgid "cannot rename file '%ls' to '%ls', reason '%s'"
 msgstr "non è possibile rinominare il file '%ls' in '%ls', motivo '%s'"
 
-#: src/main/platform.c:948
+#: src/main/platform.c:955
 #, c-format
 msgid "cannot rename file '%s' to '%s', reason '%s'"
 msgstr "non è possibile rinominare il file '%s' in '%s', motivo '%s'"
 
-#: src/main/platform.c:1326 src/main/platform.c:1357 src/main/platform.c:1471
-#: src/main/platform.c:1484 src/main/platform.c:2587 src/main/platform.c:2599
-#: src/main/platform.c:2628 src/main/platform.c:2649 src/main/platform.c:2850
-#: src/main/platform.c:2864 src/main/platform.c:2896 src/main/platform.c:2917
+#: src/main/platform.c:1333 src/main/platform.c:1364 src/main/platform.c:1478
+#: src/main/platform.c:1491 src/main/platform.c:2594 src/main/platform.c:2606
+#: src/main/platform.c:2635 src/main/platform.c:2656 src/main/platform.c:2857
+#: src/main/platform.c:2871 src/main/platform.c:2903 src/main/platform.c:2924
 msgid "over-long path"
 msgstr "percorso troppo lungo"
 
-#: src/main/platform.c:1415
+#: src/main/platform.c:1422
 msgid "invalid 'pattern' regular expression"
 msgstr "espressione regolare 'pattern' non valida"
 
-#: src/main/platform.c:1539
+#: src/main/platform.c:1546
 msgid "unable to determine R home location"
 msgstr "non è possibile determinare la posizione R home"
 
-#: src/main/platform.c:1598
+#: src/main/platform.c:1605
 msgid "file name too long"
 msgstr "nome del file troppo lungo"
 
-#: src/main/platform.c:1808 src/main/util.c:833 src/main/util.c:867
+#: src/main/platform.c:1815 src/main/util.c:833 src/main/util.c:867
 #: src/main/util.c:909 src/main/util.c:951
 msgid "path too long"
 msgstr "percorso troppo lungo"
 
-#: src/main/platform.c:1869 src/main/platform.c:1933 src/main/sysutils.c:2109
+#: src/main/platform.c:1876 src/main/platform.c:1940 src/main/sysutils.c:2109
 #: src/main/sysutils.c:2123
 msgid "internal out-of-memory condition"
 msgstr "condizione interna out-of-memory"
 
-#: src/main/platform.c:1929 src/main/sysutils.c:2119
+#: src/main/platform.c:1936 src/main/sysutils.c:2119
 #, c-format
 msgid "read error on '%s'"
 msgstr "errore di lettura su '%s'"
 
-#: src/main/platform.c:2038
+#: src/main/platform.c:2045
 msgid "setting 'LC_NUMERIC' may cause R to function strangely"
 msgstr "l'impostazione 'LC_NUMERIC' può causare uno strano funzionamento di R"
 
-#: src/main/platform.c:2050
+#: src/main/platform.c:2057
 msgid "LC_MESSAGES exists on Windows but is not operational"
 msgstr "LC_MESSAGES esiste su Windows ma non è operativo"
 
-#: src/main/platform.c:2083
+#: src/main/platform.c:2090
 #, c-format
 msgid "OS reports request to set locale to \"%s\" cannot be honored"
 msgstr ""
 "Il sistema operativo indica che la richiesta di cambiamento localizzazione a "
 "\"%s\" non può essere onorata"
 
-#: src/main/platform.c:2094
+#: src/main/platform.c:2101
 #, c-format
 msgid "using locale code page other than %d%s may cause problems"
 msgstr ""
 "l'utilizzo di un codice di localizzazione diverso da %d%s potrebbe causare "
 "problemi"
 
-#: src/main/platform.c:2480
+#: src/main/platform.c:2487
 #, c-format
 msgid "'%s' already exists"
 msgstr "'%s' già esistente"
 
-#: src/main/platform.c:2483
+#: src/main/platform.c:2490
 #, c-format
 msgid "cannot create dir '%s', reason '%s'"
 msgstr "non è possibile creare la directory '%s', motivo '%s'"
 
-#: src/main/platform.c:2506
+#: src/main/platform.c:2513
 #, c-format
 msgid "'%s' too long"
 msgstr "'%s' troppo lungo"
 
-#: src/main/platform.c:2537
+#: src/main/platform.c:2544
 #, c-format
 msgid "'%ls' already exists"
 msgstr "'%ls' esiste già"
 
-#: src/main/platform.c:2539 src/main/platform.c:2545
+#: src/main/platform.c:2546 src/main/platform.c:2552
 #, c-format
 msgid "cannot create dir '%ls', reason '%s'"
 msgstr "non è possibile creare la directory '%ls', motivo '%s'"
 
-#: src/main/platform.c:2579 src/main/platform.c:2830
+#: src/main/platform.c:2586 src/main/platform.c:2837
 msgid "too deep nesting"
 msgstr "nidificazione troppo profonda"
 
-#: src/main/platform.c:2611
+#: src/main/platform.c:2618
 #, c-format
 msgid "cannot overwrite non-directory %ls with directory %ls"
 msgstr ""
 "non è possibile sovrascrivere la non-directory %ls con la directory %ls"
 
-#: src/main/platform.c:2616
+#: src/main/platform.c:2623
 #, c-format
 msgid "problem creating directory %ls: %s"
 msgstr "problema durante la creazione della directory %ls: %s"
 
-#: src/main/platform.c:2638
+#: src/main/platform.c:2645
 #, c-format
 msgid "problem reading directory %ls: %s"
 msgstr "problema di lettura per la directory %ls: %s"
 
-#: src/main/platform.c:2657
+#: src/main/platform.c:2664
 #, c-format
 msgid "problem copying %ls to %ls: %s"
 msgstr "problema durante la copia di %ls in %ls: %s"
 
-#: src/main/platform.c:2878
+#: src/main/platform.c:2885
 #, c-format
 msgid "cannot overwrite non-directory %s with directory %s"
 msgstr "non è possibile sovrascrivere la non-directory %s con la directory %s"
 
-#: src/main/platform.c:2883
+#: src/main/platform.c:2890
 #, c-format
 msgid "problem creating directory %s: %s"
 msgstr "problema durante la creazione della directory %s: %s"
 
-#: src/main/platform.c:2906
+#: src/main/platform.c:2913
 #, c-format
 msgid "problem reading directory %s: %s"
 msgstr "problema durante la lettura della directory %s: %s"
 
-#: src/main/platform.c:2926
+#: src/main/platform.c:2933
 #, c-format
 msgid "problem copying %s to %s: %s"
 msgstr "problema durante la copia di %s in %s: %s"
 
-#: src/main/platform.c:3086
+#: src/main/platform.c:3093
 msgid "'mode' must be of length at least one"
 msgstr "'mode' dev'essere almeno di lunghezza uno"
 
-#: src/main/platform.c:3154
+#: src/main/platform.c:3161
 msgid "insufficient OS support on this platform"
 msgstr "supporto OS non sufficiente su questa piattaforma"
 
-#: src/main/platform.c:3264
+#: src/main/platform.c:3271
 #, c-format
 msgid "'%s' must be of length at least one"
 msgstr "'%s' dev'essere almeno di lunghezza uno"
@@ -5799,7 +5803,7 @@ msgstr "EOF dentro la stringa virgolettata"
 msgid "scan() expected '%s', got '%s'"
 msgstr "scan() si aspetta '%s', ha ricevuto '%s'"
 
-#: src/main/scan.c:593 src/main/scan.c:748
+#: src/main/scan.c:593 src/main/scan.c:747
 msgid "too many items"
 msgstr "troppi elementi"
 
@@ -5807,36 +5811,36 @@ msgstr "troppi elementi"
 msgid "empty 'what' specified"
 msgstr "specificato 'what' vuoto"
 
-#: src/main/scan.c:736
+#: src/main/scan.c:735
 #, c-format
 msgid "line %lld did not have %lld elements"
 msgstr "la linea %lld non ha %lld elementi"
 
-#: src/main/scan.c:788
+#: src/main/scan.c:787
 msgid "number of items read is not a multiple of the number of columns"
 msgstr "il numero di elementi letti non è un multiplo del numero di colonne"
 
-#: src/main/scan.c:883
+#: src/main/scan.c:882
 msgid "invalid 'strip.white' length"
 msgstr "lunghezza 'strip.white' non valida"
 
-#: src/main/scan.c:894
+#: src/main/scan.c:893
 msgid "invalid 'sep' value: must be one byte"
 msgstr "valore 'sep' non valido: dev'essere un byte"
 
-#: src/main/scan.c:906
+#: src/main/scan.c:905
 msgid "invalid decimal separator: must be one byte"
 msgstr "separatore decimali non valido: dev'essere un byte"
 
-#: src/main/scan.c:911
+#: src/main/scan.c:910
 msgid "invalid decimal separator"
 msgstr "separatore decimali non valido"
 
-#: src/main/scan.c:920
+#: src/main/scan.c:919
 msgid "invalid quote symbol set"
 msgstr "impostazione simbolo di citazione non valida"
 
-#: src/main/scan.c:1002
+#: src/main/scan.c:1001
 msgid "embedded nul(s) found in input"
 msgstr "embedded nul trovati in input"
 
