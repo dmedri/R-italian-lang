@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2023-01-19 11:58\n"
-"PO-Revision-Date: 2023-01-19 18:34+0100\n"
+"POT-Creation-Date: 2023-01-31 09:42\n"
+"PO-Revision-Date: 2023-02-07 09:46+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -1388,16 +1388,6 @@ msgstr ""
 msgid "calling predict.lm(<fake-lm-object>) ..."
 msgstr "chiamata predict.lm(<fake-lm-object>) ..."
 
-msgid ""
-"Possibly rank-deficient fit; the default rankdeficient = \"simple\" may "
-"change"
-msgstr ""
-"Possibile fit con carenza di rango; il valore predefinito "
-"rankdeficient=\"simple\" potrebbe cambiare"
-
-msgid "prediction from a rank-deficient fit may be misleading"
-msgstr "previsione da una stima non a rango pieno può essere non corretta"
-
 msgid "lower-rank qr: determining non-estimable cases"
 msgstr "qr di rango inferiore: determinazione di casi non stimabili"
 
@@ -2076,9 +2066,6 @@ msgstr "'ref' dev'essere un livello esistente"
 msgid "ref = %d must be in 1L:%d"
 msgstr "ref = %d dev'essere in 1L:%d"
 
-msgid "'sep' must be a character string"
-msgstr "'sep' dev'essere una stringa di caratteri"
-
 msgid "failed to guess time-varying variables from their names"
 msgstr ""
 "non si è riusciti a indovinare le variabili alterabili nel tempo dai loro "
@@ -2130,6 +2117,9 @@ msgstr "bandwidth 'k' dev'essere >= 1 e dispari!"
 
 msgid "argument 'object' has an impossible length"
 msgstr "argomento 'object' ha una lunghezza impossibile"
+
+msgid "right-hand side of formula is not a call"
+msgstr "la parte destra della formula non è una chiamata"
 
 msgid "no 'getInitial' method found for \"%s\" objects"
 msgstr "non è stato trovato il metodo 'getInitial' per gli oggetti \"%s\""
@@ -2713,6 +2703,19 @@ msgid "'start.innov' is too short: need %d point"
 msgid_plural "'start.innov' is too short: need %d points"
 msgstr[0] "'start.innov' è troppo corto: richiesto %d punto"
 msgstr[1] "'start.innov' è troppo corto: richiesti %d punti"
+
+#~ msgid ""
+#~ "Possibly rank-deficient fit; the default rankdeficient = \"simple\" may "
+#~ "change"
+#~ msgstr ""
+#~ "Possibile fit con carenza di rango; il valore predefinito "
+#~ "rankdeficient=\"simple\" potrebbe cambiare"
+
+#~ msgid "prediction from a rank-deficient fit may be misleading"
+#~ msgstr "previsione da una stima non a rango pieno può essere non corretta"
+
+#~ msgid "'sep' must be a character string"
+#~ msgstr "'sep' dev'essere una stringa di caratteri"
 
 #~ msgid "formula missing or incorrect"
 #~ msgstr "formula assente o sbagliata"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2022-10-13 09:29\n"
-"PO-Revision-Date: 2022-10-14 10:27+0200\n"
+"POT-Creation-Date: 2023-01-31 09:42\n"
+"PO-Revision-Date: 2023-02-07 09:51+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 msgid "invalid 'at' location in 'axis'"
 msgstr "posizione 'at' non valida in 'axis'"
@@ -479,6 +479,30 @@ msgstr "'r' dev'essere un oggetto 'unit'"
 
 msgid "'x', 'y', 'width', and 'height' must have length 1"
 msgstr "'x', 'y', 'width' e 'height' devono avere lunghezza 1"
+
+msgid "Invalid glyph info"
+msgstr "Informazione glyph non valida"
+
+msgid "'x' and 'y' must have length > 0"
+msgstr "'x' e 'y' devono avere lunghezza > 0"
+
+msgid "'hjust' and 'vjust' must be glyphJust() values"
+msgstr "'hjust' e 'vjust' devono essere valori glyphJust()"
+
+msgid "'hjust' and 'vjust' must have length 1"
+msgstr "'hjust' e 'vjust' devono avere lunghezza 1"
+
+msgid "Unknown width; using first width"
+msgstr "Larghezza sconosciuta; si utilizza la prima larghezza"
+
+msgid "Unknown anchor; using left justification"
+msgstr "Ancora sconosciuta; si utilizza la giustificazione a sinistra"
+
+msgid "Unknown height; using first height"
+msgstr "Altezza sconosciuta; si utilizza la prima altezza"
+
+msgid "Unknown anchor; using bottom justification"
+msgstr "Ancora sconosciuta; si utilizza la giustificazione in basso"
 
 msgid "'x' and 'units' must have length > 0"
 msgstr "'x' e 'units' devono avere lunghezza > 0"

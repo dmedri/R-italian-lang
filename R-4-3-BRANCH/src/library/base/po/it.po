@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-19 11:58+0100\n"
-"PO-Revision-Date: 2023-01-19 12:02+0100\n"
+"POT-Creation-Date: 2023-02-07 09:40+0100\n"
+"PO-Revision-Date: 2023-02-07 10:04+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -78,12 +78,12 @@ msgstr "R_pretty(): intervallo 'cell'=%g molto piccolo, corretto in %g"
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
 msgstr "R_pretty(): intervallo 'cell'=%g molto ampio, corretto in %g"
 
-#: src/gnuwin32/dynload.c:144
+#: src/gnuwin32/dynload.c:121
 #, c-format
 msgid "DLL attempted to change FPU control word from %x to %x"
 msgstr "La DLL ha tentato di cambiare la parola di controllo FPU da %x a %x"
 
-#: src/gnuwin32/dynload.c:185
+#: src/gnuwin32/dynload.c:169
 msgid "cannot get working directory"
 msgstr "non è possibile rilevare la directory di lavoro"
 
@@ -133,7 +133,7 @@ msgstr "problema durante la visualizzazione di '%ls'"
 
 #: src/gnuwin32/extra.c:119 src/gnuwin32/extra.c:161 src/gnuwin32/extra.c:297
 #: src/gnuwin32/extra.c:871 src/gnuwin32/extra.c:896
-#: src/gnuwin32/sys-win32.c:256 src/main/Rdynload.c:1431 src/main/agrep.c:131
+#: src/gnuwin32/sys-win32.c:281 src/main/Rdynload.c:1436 src/main/agrep.c:131
 #: src/main/agrep.c:135 src/main/agrep.c:776 src/main/agrep.c:781
 #: src/main/apply.c:345 src/main/apply.c:347 src/main/apply.c:350
 #: src/main/array.c:94 src/main/array.c:1750 src/main/array.c:1889
@@ -246,9 +246,9 @@ msgstr "problema durante la visualizzazione di '%ls'"
 #: src/main/util.c:2719 src/main/util.c:2721 src/main/util.c:2724
 #: src/main/util.c:2727 src/main/util.c:2731 src/main/util.c:2733
 #: src/main/util.c:2735 src/main/util.c:3036 src/main/util.c:3038
-#: src/main/util.c:3078 src/main/util.c:3080 src/modules/X11/devX11.c:3348
-#: src/modules/X11/devX11.c:3351 src/modules/X11/devX11.c:3354
-#: src/modules/X11/devX11.c:3378 src/modules/internet/internet.c:324
+#: src/main/util.c:3078 src/main/util.c:3080 src/modules/X11/devX11.c:3349
+#: src/modules/X11/devX11.c:3352 src/modules/X11/devX11.c:3355
+#: src/modules/X11/devX11.c:3379 src/modules/internet/internet.c:324
 #: src/modules/internet/internet.c:330 src/modules/internet/internet.c:336
 #: src/modules/internet/internet.c:339 src/modules/internet/internet.c:343
 #: src/modules/internet/internet.c:347 src/modules/internet/internet.c:351
@@ -294,50 +294,51 @@ msgstr "dispositivo errato"
 msgid "file choice cancelled"
 msgstr "scelta del file annullata"
 
-#: src/gnuwin32/run.c:383
+#: src/gnuwin32/run.c:417
 #, c-format
 msgid "'CreateProcess' failed to run '%s'"
 msgstr "'CreateProcess' non è riuscito ad eseguire '%s'"
 
-#: src/gnuwin32/run.c:540
+#: src/gnuwin32/run.c:574
 msgid "Child process not responding.  R will terminate it."
 msgstr "Il processo figlio non risponde. R lo terminerà."
 
-#: src/gnuwin32/run.c:636
+#: src/gnuwin32/run.c:670
 #, c-format
 msgid "Exit code was %d"
 msgstr "Il codice di uscita era %d"
 
-#: src/gnuwin32/run.c:669
+#: src/gnuwin32/run.c:703
 msgid "Insufficient memory (rpipeOpen)"
 msgstr "Memoria insufficiente (rpipeOpen)"
 
-#: src/gnuwin32/run.c:912 src/main/dounzip.c:491
+#: src/gnuwin32/run.c:946 src/main/dounzip.c:491
 msgid "seek not enabled for this connection"
 msgstr "'seek' non abilitato per questa connessione"
 
-#: src/gnuwin32/run.c:918
+#: src/gnuwin32/run.c:952
 msgid "truncate not enabled for this connection"
 msgstr "'truncate' non abilitato per questa connessione"
 
-#: src/gnuwin32/run.c:978 src/main/connections.c:444 src/main/connections.c:463
-#: src/main/connections.c:3236 src/main/printutils.c:938
-#: src/main/printutils.c:955
+#: src/gnuwin32/run.c:1012 src/main/connections.c:444
+#: src/main/connections.c:463 src/main/connections.c:3236
+#: src/main/printutils.c:938 src/main/printutils.c:955
 msgid "printing of extremely long output is truncated"
 msgstr "la stampa di un output molto lungo viene troncata"
 
-#: src/gnuwin32/run.c:992 src/gnuwin32/run.c:996 src/gnuwin32/run.c:1009
-#: src/gnuwin32/run.c:1037 src/main/connections.c:1557
+#: src/gnuwin32/run.c:1026 src/gnuwin32/run.c:1030 src/gnuwin32/run.c:1043
+#: src/gnuwin32/run.c:1071 src/main/connections.c:1557
 #: src/main/connections.c:1561 src/main/connections.c:1568
 #: src/main/connections.c:1583
 msgid "allocation of pipe connection failed"
 msgstr "allocazione della connessione 'pipe' fallita"
 
-#: src/gnuwin32/run.c:1053
+#: src/gnuwin32/run.c:1087
 msgid "'names' is not a character vector"
 msgstr "'names' non è un vettore di caratteri"
 
-#: src/gnuwin32/sys-win32.c:104 src/unix/sys-std.c:506 src/unix/sys-unix.c:162
+#: src/gnuwin32/sys-win32.c:116 src/gnuwin32/sys-win32.c:138
+#: src/gnuwin32/sys-win32.c:149 src/unix/sys-std.c:506 src/unix/sys-unix.c:162
 #, c-format
 msgid ""
 "expanded path length %d would be too long for\n"
@@ -346,64 +347,64 @@ msgstr ""
 "la lunghezza del percorso esteso %d sarebbe troppo lunga per\n"
 "%s\n"
 
-#: src/gnuwin32/sys-win32.c:237
+#: src/gnuwin32/sys-win32.c:262
 msgid "character string expected as first argument"
 msgstr "stringa caratteri attesa come primo argomento"
 
-#: src/gnuwin32/sys-win32.c:246
+#: src/gnuwin32/sys-win32.c:271
 msgid "character string expected as third argument"
 msgstr "stringa caratteri attesa come terzo argomento"
 
-#: src/gnuwin32/sys-win32.c:298 src/modules/internet/libcurl.c:340
+#: src/gnuwin32/sys-win32.c:323 src/modules/internet/libcurl.c:340
 #: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
 #: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:377
 #, c-format
 msgid "invalid %s argument"
 msgstr "argomento %s non valido"
 
-#: src/gnuwin32/sys-win32.c:324 src/unix/sys-unix.c:830 src/unix/sys-unix.c:865
+#: src/gnuwin32/sys-win32.c:349 src/unix/sys-unix.c:830 src/unix/sys-unix.c:865
 #, c-format
 msgid "command '%s' timed out after %ds"
 msgstr "il commando '%s' è scaduto dopo %ds"
 
-#: src/gnuwin32/sys-win32.c:327 src/unix/sys-unix.c:680
+#: src/gnuwin32/sys-win32.c:352 src/unix/sys-unix.c:680
 #, c-format
 msgid "running command '%s' had status %d"
 msgstr "il comando in esecuzione '%s' aveva status %d"
 
-#: src/gnuwin32/system.c:144 src/main/sysutils.c:2148
+#: src/gnuwin32/system.c:141 src/main/sysutils.c:2148
 msgid "reached session elapsed time limit"
 msgstr "raggiunto il limite di tempo trascorso per la sessione"
 
-#: src/gnuwin32/system.c:146 src/main/sysutils.c:2150
+#: src/gnuwin32/system.c:143 src/main/sysutils.c:2150
 msgid "reached elapsed time limit"
 msgstr "limite di tempo trascorso per la sessione"
 
-#: src/gnuwin32/system.c:152 src/main/sysutils.c:2156
+#: src/gnuwin32/system.c:149 src/main/sysutils.c:2156
 msgid "reached session CPU time limit"
 msgstr "raggiunto il limite di tempo CPU per la sessione"
 
-#: src/gnuwin32/system.c:154 src/main/sysutils.c:2158
+#: src/gnuwin32/system.c:151 src/main/sysutils.c:2158
 msgid "reached CPU time limit"
 msgstr "raggiunto il limite di tempo CPU"
 
-#: src/gnuwin32/system.c:186
+#: src/gnuwin32/system.c:183
 #, c-format
 msgid "Fatal error: %s\n"
 msgstr "Errore irreversibile: %s\n"
 
-#: src/gnuwin32/system.c:433 src/unix/sys-std.c:995
+#: src/gnuwin32/system.c:430 src/unix/sys-std.c:995
 #, c-format
 msgid "encoding '%s' is not recognised"
 msgstr "encoding '%s' non riconosciuto"
 
-#: src/gnuwin32/system.c:439 src/unix/sys-std.c:1002
+#: src/gnuwin32/system.c:436 src/unix/sys-std.c:1002
 #, c-format
 msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
 msgstr "<ERRORE: ricodifica fallita da '%s'>\n"
 
-#: src/gnuwin32/system.c:680 src/gnuwin32/system.c:1219
-#: src/gnuwin32/system.c:1231 src/main/connections.c:790
+#: src/gnuwin32/system.c:678 src/gnuwin32/system.c:1222
+#: src/gnuwin32/system.c:1234 src/main/connections.c:790
 #: src/main/connections.c:795 src/main/dounzip.c:180 src/main/saveload.c:2065
 #: src/main/serialize.c:2955 src/main/serialize.c:2960
 #: src/main/serialize.c:3054 src/main/serialize.c:3101 src/unix/system.c:426
@@ -411,55 +412,55 @@ msgstr "<ERRORE: ricodifica fallita da '%s'>\n"
 msgid "cannot open file '%s': %s"
 msgstr "non è possibile aprire il file '%s': %s"
 
-#: src/gnuwin32/system.c:695
+#: src/gnuwin32/system.c:693
 #, c-format
 msgid "file.show(): file '%s' does not exist\n"
 msgstr "file.show(): il file %s non esiste\n"
 
-#: src/gnuwin32/system.c:1036
+#: src/gnuwin32/system.c:1035
 #, c-format
-msgid "Workspace name '%s' is too long\n"
-msgstr "Il nome dell'area di lavoro (workspace) '%s' è troppo lungo\n"
+msgid "Not enough memory"
+msgstr "Memoria insufficiente"
 
-#: src/gnuwin32/system.c:1052 src/unix/system.c:462
+#: src/gnuwin32/system.c:1051 src/unix/system.c:462
 #, c-format
 msgid "ARGUMENT '%s' __ignored__\n"
 msgstr "ARGOMENTO '%s' __ignorato__\n"
 
-#: src/gnuwin32/system.c:1209
+#: src/gnuwin32/system.c:1212
 #, c-format
 msgid "option '%s' requires an argument"
 msgstr "l'opzione '%s' richiede un argomento"
 
-#: src/gnuwin32/system.c:1242
+#: src/gnuwin32/system.c:1245
 #, c-format
 msgid "option '%s' requires a non-empty argument"
 msgstr "l'opzione '%s' richiede un argomento non vuoto"
 
-#: src/gnuwin32/system.c:1250 src/unix/system.c:445
+#: src/gnuwin32/system.c:1253 src/unix/system.c:445
 #, c-format
 msgid "WARNING: '-e %s' omitted as input is too long\n"
 msgstr "AVVERTIMENTO: '-e %s' omesso come input troppo lungo\n"
 
-#: src/gnuwin32/system.c:1254 src/unix/system.c:458
+#: src/gnuwin32/system.c:1257 src/unix/system.c:458
 #, c-format
 msgid "WARNING: unknown option '%s'\n"
 msgstr "AVVERTIMENTO: opzione '%s' sconosciuta\n"
 
-#: src/gnuwin32/system.c:1266 src/unix/system.c:473
+#: src/gnuwin32/system.c:1270 src/unix/system.c:473
 msgid "cannot use -e with -f or --file"
 msgstr "non è possibile usare -e con -f o --file"
 
-#: src/gnuwin32/system.c:1284
+#: src/gnuwin32/system.c:1294
 msgid "creation of tmpfile failed -- set TMPDIR suitably?"
 msgstr ""
 "creazione del file temporaneo fallita -- impostare TMPDIR in modo adeguato?"
 
-#: src/gnuwin32/system.c:1304 src/unix/system.c:543
+#: src/gnuwin32/system.c:1319 src/unix/system.c:543
 msgid "you must specify '--save', '--no-save' or '--vanilla'"
 msgstr "si deve specificare '--save', '--no-save' o '--vanilla'"
 
-#: src/gnuwin32/system.c:1336
+#: src/gnuwin32/system.c:1351
 msgid ""
 "impossible to create 'reader thread'; you must free some system resources"
 msgstr ""
@@ -724,11 +725,16 @@ msgstr "non è possibile allocare spazio per 'name'"
 msgid "could not allocate space for 'DllInfo'"
 msgstr "non è possibile allocare spazio per 'DllInfo'"
 
-#: src/main/Rdynload.c:1208 src/main/Rdynload.c:1224 src/main/util.c:791
+#: src/main/Rdynload.c:1183 src/main/platform.c:1624 src/main/util.c:836
+#: src/main/util.c:870 src/main/util.c:912 src/main/util.c:954
+msgid "path too long"
+msgstr "percorso troppo lungo"
+
+#: src/main/Rdynload.c:1211 src/main/Rdynload.c:1228 src/main/util.c:791
 msgid "character argument expected"
 msgstr "atteso un argomento di tipo character"
 
-#: src/main/Rdynload.c:1214 src/main/Rdynload.c:1246 src/main/Rdynload.c:1266
+#: src/main/Rdynload.c:1218 src/main/Rdynload.c:1251 src/main/Rdynload.c:1271
 #, c-format
 msgid ""
 "unable to load shared object '%s':\n"
@@ -737,12 +743,12 @@ msgstr ""
 "non è possibile caricare un oggetto condiviso '%s':\n"
 "  %s"
 
-#: src/main/Rdynload.c:1227
+#: src/main/Rdynload.c:1232
 #, c-format
 msgid "shared object '%s' was not loaded"
 msgstr "l'oggetto condiviso '%s' non è stato caricato"
 
-#: src/main/Rdynload.c:1306
+#: src/main/Rdynload.c:1311
 #, c-format
 msgid "cannot allocate memory for registered native symbol (%d byte)"
 msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
@@ -751,29 +757,29 @@ msgstr[0] ""
 msgstr[1] ""
 "non è possibile allocare memoria per simboli nativi registrati (%d byte)"
 
-#: src/main/Rdynload.c:1441 src/main/Rdynload.c:1640
+#: src/main/Rdynload.c:1446 src/main/Rdynload.c:1645
 msgid "NULL value passed for DllInfo"
 msgstr "Valore NULL specificato al posto di DllInfo"
 
-#: src/main/Rdynload.c:1445
+#: src/main/Rdynload.c:1450
 msgid "must pass package name or DllInfo reference"
 msgstr "specificare nome pacchetto o una referenza a DllInfo"
 
-#: src/main/Rdynload.c:1555
+#: src/main/Rdynload.c:1560
 #, c-format
 msgid "unimplemented type %d in 'createRSymbolObject'"
 msgstr "tipo %d non implementato in 'createRSymbolObject'"
 
-#: src/main/Rdynload.c:1637
+#: src/main/Rdynload.c:1642
 msgid "R_getRegisteredRoutines() expects a DllInfo reference"
 msgstr "R_getRegisteredRoutines() necessita di una referenza di tipo DllInfo"
 
-#: src/main/Rdynload.c:1726
+#: src/main/Rdynload.c:1731
 #, c-format
 msgid "function '%s' not provided by package '%s'"
 msgstr "funzione '%s' non offerta dal pacchetto '%s'"
 
-#: src/main/Rdynload.c:1728
+#: src/main/Rdynload.c:1733
 msgid "table entry must be an external pointer"
 msgstr "la voce della tabella dev'essere un puntatore esterno"
 
@@ -782,12 +788,12 @@ msgstr "la voce della tabella dev'essere un puntatore esterno"
 msgid "problem in setting variable '%s' in Renviron"
 msgstr "problema durante l'impostazione della variabile '%s' in Renviron"
 
-#: src/main/Renviron.c:450 src/main/objects.c:1315 src/main/raw.c:207
+#: src/main/Renviron.c:463 src/main/objects.c:1315 src/main/raw.c:207
 #, c-format
 msgid "argument '%s' must be a character string"
 msgstr "l'argomento '%s' dev'essere una stringa di caratteri"
 
-#: src/main/Renviron.c:454
+#: src/main/Renviron.c:467
 #, c-format
 msgid "file '%s' cannot be opened for reading"
 msgstr "il file '%s' non può essere aperto in lettura"
@@ -884,11 +890,11 @@ msgstr "'FUN.VALUE' dev'essere un vettore"
 #: src/main/sort.c:1523 src/main/source.c:221 src/main/summary.c:1200
 #: src/main/sysutils.c:268 src/main/util.c:1118 src/main/util.c:1123
 #: src/main/util.c:1130 src/main/util.c:1133 src/main/util.c:2443
-#: src/modules/X11/devX11.c:3241 src/modules/X11/devX11.c:3268
-#: src/modules/X11/devX11.c:3273 src/modules/X11/devX11.c:3278
-#: src/modules/X11/devX11.c:3288 src/modules/X11/devX11.c:3293
-#: src/modules/X11/devX11.c:3297 src/modules/X11/devX11.c:3301
-#: src/modules/X11/devX11.c:3306
+#: src/modules/X11/devX11.c:3242 src/modules/X11/devX11.c:3269
+#: src/modules/X11/devX11.c:3274 src/modules/X11/devX11.c:3279
+#: src/modules/X11/devX11.c:3289 src/modules/X11/devX11.c:3294
+#: src/modules/X11/devX11.c:3298 src/modules/X11/devX11.c:3302
+#: src/modules/X11/devX11.c:3307
 #, c-format
 msgid "invalid '%s' value"
 msgstr "valore '%s' non valido"
@@ -2176,12 +2182,12 @@ msgstr "allocazione di connessione xzfile fallita"
 msgid "this is a %s-compressed file which this build of R does not support"
 msgstr "questo è un file %s compresso che questa build di R non supporta"
 
-#: src/main/connections.c:2409 src/modules/X11/devX11.c:3482
+#: src/main/connections.c:2409 src/modules/X11/devX11.c:3483
 msgid "memory allocation to copy clipboard failed"
 msgstr "allocazione della memoria fallita durante la copia dalla clipboard"
 
-#: src/main/connections.c:2414 src/modules/X11/devX11.c:3461
-#: src/modules/X11/devX11.c:3466
+#: src/main/connections.c:2414 src/modules/X11/devX11.c:3462
+#: src/modules/X11/devX11.c:3467
 msgid "clipboard cannot be opened or contains no text"
 msgstr "la clipboard non può essere aperta o non contiene testo"
 
@@ -2745,7 +2751,7 @@ msgid "invalid '%s'"
 msgstr "'%s' non valido"
 
 #: src/main/datetime.c:937
-msgid "attr(x, \"tzone\") shouls have length 1 or 3"
+msgid "attr(x, \"tzone\") should have length 1 or 3"
 msgstr "attr(x, \"tzone\") dovrebbe avere lunghezza 1 o 3"
 
 #: src/main/datetime.c:1053
@@ -5338,11 +5344,6 @@ msgstr "non è possibile determinare la posizione R home"
 msgid "file name too long"
 msgstr "nome del file troppo lungo"
 
-#: src/main/platform.c:1624 src/main/util.c:836 src/main/util.c:870
-#: src/main/util.c:912 src/main/util.c:954
-msgid "path too long"
-msgstr "percorso troppo lungo"
-
 #: src/main/platform.c:1685 src/main/platform.c:1749 src/main/sysutils.c:2208
 #: src/main/sysutils.c:2222
 msgid "internal out-of-memory condition"
@@ -7419,50 +7420,50 @@ msgstr "Non è possibile creare una XImage"
 msgid "attempt to use the locator after dev.hold()"
 msgstr "si tenta l'utilizzo del locator dopo dev.hold()"
 
-#: src/modules/X11/devX11.c:3205
+#: src/modules/X11/devX11.c:3206
 #, c-format
 msgid "unable to start device %s"
 msgstr "non è possibile avviare il dispositivo %s"
 
-#: src/modules/X11/devX11.c:3237
+#: src/modules/X11/devX11.c:3238
 msgid "invalid 'width' or 'height'"
 msgstr "'width' o 'height' non validi"
 
-#: src/modules/X11/devX11.c:3244
+#: src/modules/X11/devX11.c:3245
 msgid "invalid colortype passed to X11 driver"
 msgstr "tipo di colore non valido passato al driver X11"
 
-#: src/modules/X11/devX11.c:3258
+#: src/modules/X11/devX11.c:3259
 msgid "unknown X11 color/colour model -- using monochrome"
 msgstr "modello colore X11 sconosciuto -- si utilizza quello monocromatico"
 
-#: src/modules/X11/devX11.c:3356
+#: src/modules/X11/devX11.c:3357
 msgid "no plot on device to save"
 msgstr "nessun plot sul dispositivo da salvare"
 
-#: src/modules/X11/devX11.c:3358
+#: src/modules/X11/devX11.c:3359
 msgid "not an open X11cairo device"
 msgstr "non è un dispositivo aperto X11cairo"
 
-#: src/modules/X11/devX11.c:3367
+#: src/modules/X11/devX11.c:3368
 #, c-format
 msgid "cannot open file '%s'"
 msgstr "non è possibile aprire il file '%s'"
 
-#: src/modules/X11/devX11.c:3384
+#: src/modules/X11/devX11.c:3385
 msgid "savePlot() is not supported on this build"
 msgstr "savePlot() non è supportato in questa build"
 
-#: src/modules/X11/devX11.c:3424
+#: src/modules/X11/devX11.c:3425
 msgid "unable to contact X11 display"
 msgstr "non è possibile contattare un display X11"
 
-#: src/modules/X11/devX11.c:3473
+#: src/modules/X11/devX11.c:3474
 #, c-format
 msgid "clipboard cannot be read (error code %d)"
 msgstr "la clipboard non può essere letta (codice errore %d)"
 
-#: src/modules/X11/devX11.c:3509
+#: src/modules/X11/devX11.c:3510
 msgid "cannot allocate memory for X11Routines structure"
 msgstr "non è possibile allocare memoria per la struttura delle X11Routines"
 
@@ -7483,10 +7484,10 @@ msgstr "schema non supportato in URL '%s'"
 
 #: src/modules/internet/internet.c:202 src/modules/internet/internet.c:206
 #: src/modules/internet/internet.c:212 src/modules/internet/internet.c:232
-#: src/modules/internet/internet.c:240 src/modules/internet/libcurl.c:948
-#: src/modules/internet/libcurl.c:952 src/modules/internet/libcurl.c:959
-#: src/modules/internet/libcurl.c:973 src/modules/internet/libcurl.c:982
-#: src/modules/internet/libcurl.c:992
+#: src/modules/internet/internet.c:240 src/modules/internet/libcurl.c:963
+#: src/modules/internet/libcurl.c:967 src/modules/internet/libcurl.c:974
+#: src/modules/internet/libcurl.c:988 src/modules/internet/libcurl.c:997
+#: src/modules/internet/libcurl.c:1007
 msgid "allocation of url connection failed"
 msgstr "allocazione della connessione url fallita"
 
@@ -7525,12 +7526,12 @@ msgstr "il metodo 'wininet' è deprecato per indirizzi http:// e ftp://"
 msgid "trying URL '%s'\n"
 msgstr "apertura URL '%s'\n"
 
-#: src/modules/internet/internet.c:504 src/modules/internet/libcurl.c:704
+#: src/modules/internet/internet.c:504 src/modules/internet/libcurl.c:714
 #, c-format
 msgid "downloaded length %0.f != reported length %0.f"
 msgstr "lunghezza scaricata %0.f != lunghezza rilevata %0.f"
 
-#: src/modules/internet/internet.c:510 src/modules/internet/libcurl.c:731
+#: src/modules/internet/internet.c:510 src/modules/internet/libcurl.c:746
 #, c-format
 msgid "cannot open URL '%s'"
 msgstr "non è possibile aprire URL '%s'"
@@ -7596,29 +7597,29 @@ msgid "URL %s: cannot open destfile '%s', reason '%s'"
 msgstr ""
 "URL %s: non è possibile aprire il file di destinazione '%s', motivo '%s'"
 
-#: src/modules/internet/libcurl.c:727
+#: src/modules/internet/libcurl.c:742
 msgid "cannot download any files"
 msgstr "non è possibile scaricare alcun file"
 
-#: src/modules/internet/libcurl.c:728
+#: src/modules/internet/libcurl.c:743
 msgid "some files were not downloaded"
 msgstr "alcuni file non sono stati scaricati"
 
-#: src/modules/internet/libcurl.c:733
+#: src/modules/internet/libcurl.c:748
 #, c-format
 msgid "download from '%s' failed"
 msgstr "scaricamento da '%s' fallito"
 
-#: src/modules/internet/libcurl.c:876
+#: src/modules/internet/libcurl.c:891
 msgid "cannot read from connection"
 msgstr "non è possibile leggere dalla connessione"
 
-#: src/modules/internet/libcurl.c:918
+#: src/modules/internet/libcurl.c:933
 #, c-format
 msgid "cannot open the connection to '%s'"
 msgstr "non è possibile aprire la connessione a '%s'"
 
-#: src/modules/internet/libcurl.c:999
+#: src/modules/internet/libcurl.c:1014
 msgid "url(method = \"libcurl\") is not supported on this platform"
 msgstr "url(method = \"libcurl\") non è supportato su questa piattaforma"
 
@@ -8026,14 +8027,14 @@ msgstr "Il modulo X11 non può essere caricato"
 msgid "X11 is not available"
 msgstr "X11 non è disponibile"
 
-#: src/unix/dynload.c:108
+#: src/unix/dynload.c:109
 msgid ""
 "Explicit local dynamic loading not supported on this platform. Using default."
 msgstr ""
 "Caricamento local dynamic esplicito non supportato su questa piattaforma. Si "
 "utilizzerà il predefinito."
 
-#: src/unix/dynload.c:109
+#: src/unix/dynload.c:110
 msgid ""
 "Explicit global dynamic loading not supported on this platform. Using "
 "default."
@@ -8041,7 +8042,7 @@ msgstr ""
 "Caricamento global dynamic esplicito non supportato su questa piattaforma. "
 "Si utilizzerà il predefinito."
 
-#: src/unix/dynload.c:110
+#: src/unix/dynload.c:111
 msgid ""
 "Explicit non-lazy dynamic loading not supported on this platform. Using "
 "default."
@@ -8049,14 +8050,14 @@ msgstr ""
 "Caricamento dinamico non-lazy esplicito non supportato su questa "
 "piattaforma. Si utilizzerà il predefinito."
 
-#: src/unix/dynload.c:111
+#: src/unix/dynload.c:112
 msgid ""
 "Explicit lazy dynamic loading not supported on this platform. Using default."
 msgstr ""
 "Caricamento dinamico lazy esplicito non supportato su questa piattaforma. Si "
 "utilizzerà il predefinito."
 
-#: src/unix/dynload.c:202
+#: src/unix/dynload.c:212
 msgid "cannot get working directory!"
 msgstr "non è possibile ottenere la directory di lavoro!"
 
@@ -8169,6 +8170,10 @@ msgstr "creazione fallita del file temporaneo per '-e'"
 #: src/unix/system.c:575
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "AVVERTIMENTO: Sarà modificato il primo file della lista"
+
+#, c-format
+#~ msgid "Workspace name '%s' is too long\n"
+#~ msgstr "Il nome dell'area di lavoro (workspace) '%s' è troppo lungo\n"
 
 #~ msgid "invalid component [[10]] in \"POSIXlt\", 'zone' should be character"
 #~ msgstr ""

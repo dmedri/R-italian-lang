@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-13 09:29+0200\n"
-"PO-Revision-Date: 2022-10-14 10:23+0200\n"
+"POT-Creation-Date: 2023-01-31 09:42+0100\n"
+"PO-Revision-Date: 2023-02-07 10:01+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
@@ -96,7 +96,7 @@ msgstr "vettore 'names' non valido"
 msgid "invalid gray level, must be in [0,1]."
 msgstr "livello di grigio non valido, dev'essere in [0,1]."
 
-#: colors.c:556 cairo/cairoBM.c:616
+#: colors.c:556 cairo/cairoBM.c:617
 #, c-format
 msgid "invalid '%s' value"
 msgstr "valore '%s' non valido"
@@ -150,7 +150,7 @@ msgstr "il file afm '%s' non può essere aperto"
 msgid "unknown AFM entity encountered"
 msgstr "entità AFM sconosciuta"
 
-#: devPS.c:746 devPS.c:749 devPS.c:4496 devPS.c:9880 devPicTeX.c:477
+#: devPS.c:746 devPS.c:749 devPS.c:4496 devPS.c:9988 devPicTeX.c:477
 #: devPicTeX.c:479
 #, c-format
 msgid "invalid string in '%s'"
@@ -269,11 +269,11 @@ msgstr "registrazione codifica del dispositivo fallita"
 msgid "object '.ps.prolog' is not a character vector"
 msgstr "l'oggetto '.ps.prolog' non è un vettore di caratteri"
 
-#: devPS.c:2678 devPS.c:8000 devWindows.c:799
+#: devPS.c:2678 devPS.c:8115 devWindows.c:799
 msgid "invalid line end"
 msgstr "fine linea non valido"
 
-#: devPS.c:2697 devPS.c:8020 devWindows.c:812
+#: devPS.c:2697 devPS.c:8135 devWindows.c:812
 msgid "invalid line join"
 msgstr "linea unione non valida"
 
@@ -282,22 +282,22 @@ msgid "invalid line mitre"
 msgstr "linea mitra non valida"
 
 #: devPS.c:2910 devPS.c:3846 devPS.c:4294 devPS.c:4321 devPS.c:5381
-#: devPS.c:9684 devPS.c:9755
+#: devPS.c:9792 devPS.c:9863
 #, c-format
 msgid "attempt to use invalid font %d replaced by font 1"
 msgstr "utilizzo del carattere %d non valido sostituito con il carattere 1"
 
-#: devPS.c:3147 devPS.c:4836 devPS.c:7409
+#: devPS.c:3147 devPS.c:4836 devPS.c:7522
 #, c-format
 msgid "filename too long in %s()"
 msgstr "nome file troppo lungo in %s()"
 
-#: devPS.c:3153 devPS.c:4842 devPS.c:7415
+#: devPS.c:3153 devPS.c:4842 devPS.c:7528
 #, c-format
 msgid "memory allocation problem in %s()"
 msgstr "problema di allocazione memoria in %s()"
 
-#: devPS.c:3171 devPS.c:7479
+#: devPS.c:3171 devPS.c:7592
 #, c-format
 msgid "encoding path is too long in %s()"
 msgstr "percorso di codifica troppo lungo in %s()"
@@ -307,7 +307,7 @@ msgstr "percorso di codifica troppo lungo in %s()"
 msgid "failed to load encoding file in %s()"
 msgstr "caricamento fallito del file codifica in %s()"
 
-#: devPS.c:3230 devPS.c:3293 devPS.c:7538 devPS.c:7594 devPS.c:9483
+#: devPS.c:3230 devPS.c:3293 devPS.c:7651 devPS.c:7707 devPS.c:9591
 msgid "invalid font type"
 msgstr "tipo carattere non valido"
 
@@ -349,7 +349,7 @@ msgstr ""
 msgid "cannot open 'postscript' pipe to '%s'"
 msgstr "non posso aprire pipe 'postscript' su '%s'"
 
-#: devPS.c:3659 devPS.c:5099 devPS.c:5112 devPS.c:8745 qdPDF.c:98
+#: devPS.c:3659 devPS.c:5099 devPS.c:5112 devPS.c:8852 qdPDF.c:98
 #, c-format
 msgid "cannot open file '%s'"
 msgstr "non è possibile aprire il file '%s'"
@@ -389,7 +389,7 @@ msgstr ""
 msgid "failed open converter to encoding '%s'"
 msgstr "apertura della conversione fallita verso la codifica '%s'"
 
-#: devPS.c:4482 devPS.c:5426 devPS.c:9855
+#: devPS.c:4482 devPS.c:5426 devPS.c:9963
 #, c-format
 msgid "failed in text conversion to encoding '%s'"
 msgstr "conversione testo fallita alla codifica '%s'"
@@ -435,7 +435,7 @@ msgstr "xfig(%s, onefile=FALSE) ritornerà solo l'ultimo grafico"
 msgid "empty file name"
 msgstr "nome file vuoto"
 
-#: devPS.c:5158 devPS.c:5210 devPS.c:7233 devPS.c:7277 devPS.c:8806
+#: devPS.c:5158 devPS.c:5210 devPS.c:7346 devPS.c:7390 devPS.c:8913
 msgid "write failed"
 msgstr "scrittura non riuscita"
 
@@ -444,135 +444,139 @@ msgstr "scrittura non riuscita"
 msgid "unable to use encoding '%s'"
 msgstr "non è possibile utilizzare la codifica '%s'"
 
-#: devPS.c:5773
+#: devPS.c:5778
 msgid "Failed to allocate PDF definition string"
 msgstr "Allocazione fallita per la stringa con le definizioni PDF"
 
-#: devPS.c:5795
+#: devPS.c:5800
 msgid "failed to increase definition string (shut down PDF device)"
 msgstr ""
 "incremento fallito per la stringa di definizione (chiusura dispositivo PDF)"
 
-#: devPS.c:5845
+#: devPS.c:5850
 msgid "failed to increase 'maxDefns'"
 msgstr "incremento fallito per 'maxDefns'"
 
-#: devPS.c:6476
+#: devPS.c:6482
 msgid "Drawing not appended to path (contains text)"
 msgstr "Disegno non aggiunto al percorso (contiene testo)"
 
-#: devPS.c:6705
+#: devPS.c:6711
 msgid ""
 "Compositing operator has no corresponding blend mode; defaulting to Normal"
 msgstr ""
 "L'operatore di composizione non ha una modalità di fusione corrispondente; "
 "predefinito su Normal"
 
-#: devPS.c:6920
+#: devPS.c:6984
 msgid "Failed to write PDF clipping path"
 msgstr "Scrittura del tracciato di ritaglio PDF fallita"
 
-#: devPS.c:6945
+#: devPS.c:7009
 msgid "Failed to write PDF stroke"
 msgstr "Scrittura del trattino PDF fallita"
 
-#: devPS.c:6966
+#: devPS.c:7030
 msgid "Failed to write PDF fill"
 msgstr "Scrittura del fill PDF fallita"
 
-#: devPS.c:6987
+#: devPS.c:7051
 msgid "Failed to write PDF fillStroke"
 msgstr "Scrittura del fillStroke PDF fallita"
 
-#: devPS.c:7007
+#: devPS.c:7097
+msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
+msgstr "ID glyph più largo di 0xFFFF; l'output non sarà corretto"
+
+#: devPS.c:7120
 msgid "invalid 'alpha' value in PDF"
 msgstr "valore 'alpha' non valido in PDF"
 
-#: devPS.c:7121 devPS.c:7124
+#: devPS.c:7234 devPS.c:7237
 msgid "failed to increase 'maxRaster'"
 msgstr "incremento di 'maxRaster' fallito"
 
-#: devPS.c:7136
+#: devPS.c:7249
 msgid "unable to allocate raster image"
 msgstr "non è possibile allocare l'immagine raster"
 
-#: devPS.c:7337
+#: devPS.c:7450
 msgid "corrupt loaded encodings;  font not added"
 msgstr "codifiche caricate corrotte;  carattere non aggiunto"
 
-#: devPS.c:7347
+#: devPS.c:7460
 msgid "failed to record device encoding; font not added"
 msgstr ""
 "fallita registrazione della codifica per il dispositivo; carattere non "
 "aggiunto"
 
-#: devPS.c:7465
+#: devPS.c:7578
 msgid "increasing the PDF version to 1.2"
 msgstr "incremento della versione PDF a 1.2"
 
-#: devPS.c:7495
+#: devPS.c:7608
 msgid "failed to load default encoding"
 msgstr "caricamento file encoding fallito"
 
-#: devPS.c:7562
+#: devPS.c:7675
 msgid "failed to initialise default PDF font"
 msgstr "inizializzazione fallita per il carattere predefinito PDF"
 
-#: devPS.c:7617
+#: devPS.c:7730
 msgid "failed to initialise additional PDF fonts"
 msgstr "inizializzazione fallita per i caratteri aggiuntivi PDF"
 
-#: devPS.c:7630
+#: devPS.c:7743
 msgid "failed to allocate rasters"
 msgstr "allocazione dei raster fallita"
 
-#: devPS.c:7637
+#: devPS.c:7750
 msgid "failed to allocate masks"
 msgstr "allocazione delle maschere fallita"
 
-#: devPS.c:7647
+#: devPS.c:7760
 msgid "failed to allocate definitions"
 msgstr "allocazione fallita per le definizioni"
 
-#: devPS.c:7719
+#: devPS.c:7833
 #, c-format
 msgid "invalid paper type '%s' (pdf)"
 msgstr "tipo foglio '%s' non valido (pdf)"
 
-#: devPS.c:7743
+#: devPS.c:7857
 msgid "invalid foreground/background color (pdf)"
 msgstr "colore primo piano/sfondo non valido (pdf)"
 
-#: devPS.c:7849
+#: devPS.c:7964
 msgid "increasing the PDF version to 1.4"
 msgstr "incremento della versione PDF a 1.4"
 
-#: devPS.c:7893 devPS.c:7941
+#: devPS.c:8008 devPS.c:8056
 msgid "unknown 'colormodel', using 'srgb'"
 msgstr "'colormodel' sconosciuto, si utilizza 'srgb'"
 
-#: devPS.c:8186
+#: devPS.c:8281
 msgid "failed to load sRGB colorspace file"
 msgstr "caricamento fallito per il file con lo spazio colore sRGB"
 
-#: devPS.c:8506
+#: devPS.c:8613
 msgid "corrupt encodings in PDF device"
 msgstr "codifiche corrotte nel dispositivo PDF"
 
-#: devPS.c:8587
+#: devPS.c:8694
 msgid "increasing the PDF version to 1.3"
 msgstr "incremento della versione PDF a 1.3"
 
-#: devPS.c:8729
+#: devPS.c:8836
 #, c-format
 msgid "cannot open 'pdf' pipe to '%s'"
 msgstr "non è possibile aprire un pipe 'pdf' a '%s'"
 
-#: devPS.c:8735
+#: devPS.c:8842
 msgid "file = \"|cmd\" implies 'onefile = TRUE'"
 msgstr "file = \"|cmd\" implica 'onefile = TRUE'"
 
-#: devPS.c:8879
+#: devPS.c:8986
 #, c-format
 msgid ""
 "cannot open 'pdf' file argument '%s'\n"
@@ -581,7 +585,7 @@ msgstr ""
 "non è possibile aprire il file 'pdf' con argomento '%s'\n"
 "  per piacere, chiudere il dispositivo PDF"
 
-#: devPS.c:8899
+#: devPS.c:9007
 #, c-format
 msgid ""
 "Cannot open temporary file '%s' for compression (reason: %s); compression "
@@ -590,74 +594,74 @@ msgstr ""
 "Non è possibile aprire il file temporaneo '%s' per la compressione (motivo: "
 "%s); la compressione è stata disabilitata per questo dispositivo"
 
-#: devPS.c:9508 devPS.c:10009 devPS.c:10056
+#: devPS.c:9616 devPS.c:10117 devPS.c:10164
 msgid "failed to find or load PDF font"
 msgstr "fallita ricerca, o caricamento, del carattere PDF"
 
-#: devPS.c:9691 devPS.c:9750
+#: devPS.c:9799 devPS.c:9858
 msgid "Text not added to path containing other drawing"
 msgstr "Testo non aggiunto al percorso contenente altri disegni"
 
-#: devPS.c:9800 devPS.c:9964
+#: devPS.c:9908 devPS.c:10072
 msgid "failed to find or load PDF CID font"
 msgstr "fallita ricerca, o caricamento, del carattere PDF CID"
 
-#: devPS.c:10417 devPS.c:10421 devPS.c:10582 devPS.c:10586
+#: devPS.c:10576 devPS.c:10580 devPS.c:10741 devPS.c:10745
 #, c-format
 msgid "invalid 'family' parameter in %s"
 msgstr "parametro 'family' non valido in %s"
 
-#: devPS.c:10439 devPS.c:10598
+#: devPS.c:10598 devPS.c:10757
 #, c-format
 msgid "invalid 'fonts' parameter in %s"
 msgstr "parametro 'fonts' non valido in %s"
 
-#: devPS.c:10445 devPS.c:10608 devPS.c:10611 devWindows.c:3762
+#: devPS.c:10604 devPS.c:10767 devPS.c:10770 devWindows.c:3762
 #: devWindows.c:3766 devWindows.c:3774 devWindows.c:3785 devWindows.c:3791
 #: devWindows.c:3798 devWindows.c:3805 devWindows.c:3809
 #, c-format
 msgid "invalid value of '%s'"
 msgstr "valore di '%s' non valido"
 
-#: devPS.c:10458 devPS.c:10525 devPS.c:10625 devPicTeX.c:775 devWindows.c:3851
+#: devPS.c:10617 devPS.c:10684 devPS.c:10784 devPicTeX.c:775 devWindows.c:3851
 #, c-format
 msgid "unable to start %s() device"
 msgstr "non è possibile aprire il dispositivo %s()"
 
-#: devQuartz.c:665
+#: devQuartz.c:663
 #, c-format
 msgid "font \"%s\" could not be found for family \"%s\""
 msgstr "il carattere \"%s\" non è stato trovato per la famiglia \"%s\""
 
-#: devQuartz.c:683
+#: devQuartz.c:681
 msgid "font family name is too long"
 msgstr "il nome della famiglia del carattere è troppo lungo"
 
-#: devQuartz.c:723
+#: devQuartz.c:720
 #, c-format
 msgid "no font could be found for family \"%s\""
 msgstr "nessuno carattere è stato trovato per la famiglia \"%s\""
 
-#: devQuartz.c:1400
+#: devQuartz.c:1398
 msgid "invalid 'file' argument"
 msgstr "argomento 'file' non valido"
 
-#: devQuartz.c:1427
+#: devQuartz.c:1425
 msgid "invalid quartz() device size"
 msgstr "dimensione dispositivo quartz() non valida"
 
-#: devQuartz.c:1455
+#: devQuartz.c:1453
 msgid "unable to create device description"
 msgstr "non è possibile creare una descrizione per il dispositivo"
 
-#: devQuartz.c:1505
+#: devQuartz.c:1503
 msgid ""
 "unable to create quartz() device target, given type may not be supported"
 msgstr ""
 "non è possibile creare il dispositivo quartz(), quest'ultimo potrebber non "
 "essere supportato"
 
-#: devQuartz.c:1635
+#: devQuartz.c:1633
 msgid "Quartz device is not available on this platform"
 msgstr "Il dispositivo Quartz non è disponibile su questa piattaforma"
 
@@ -835,10 +839,10 @@ msgstr "QuartzBitmap_Output - non è possibile aprire il file '%s'"
 msgid "not a supported scheme, no image data written"
 msgstr "non è uno schema supportato, nessun dato immagine scritto"
 
-#: stubs.c:104 cairo/cairoBM.c:595 cairo/cairoBM.c:600 cairo/cairoBM.c:604
-#: cairo/cairoBM.c:608 cairo/cairoBM.c:612 cairo/cairoBM.c:623
-#: cairo/cairoBM.c:627 cairo/cairoBM.c:630 cairo/cairoBM.c:635
-#: cairo/cairoBM.c:638
+#: stubs.c:104 cairo/cairoBM.c:596 cairo/cairoBM.c:601 cairo/cairoBM.c:605
+#: cairo/cairoBM.c:609 cairo/cairoBM.c:613 cairo/cairoBM.c:624
+#: cairo/cairoBM.c:628 cairo/cairoBM.c:631 cairo/cairoBM.c:636
+#: cairo/cairoBM.c:639
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "argomento '%s' non valido"
@@ -852,7 +856,7 @@ msgstr "dispositivo basato su Carico non implementato"
 msgid "could not open file '%s'"
 msgstr "non è possibile aprire il file '%s'"
 
-#: cairo/cairoBM.c:654
+#: cairo/cairoBM.c:655
 #, c-format
 msgid "unable to start device '%s'"
 msgstr "non è possibile aprire il dispositivo '%s'"
@@ -917,3 +921,9 @@ msgstr "Gruppi esauriti"
 #: cairo/cairoFns.c:922
 msgid "Attempt to release non-existent group"
 msgstr "Tentato rilascio di un gruppo inesistente"
+
+#: cairo/cairoFns.c:2420
+msgid "Font file not found; matching font family and face"
+msgstr ""
+"File del carattere non trovato; si confronta la famiglia e l'aspetto del "
+"carattere"

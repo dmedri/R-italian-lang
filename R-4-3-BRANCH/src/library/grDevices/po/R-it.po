@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2022-10-13 09:29\n"
-"PO-Revision-Date: 2022-10-14 10:22+0200\n"
+"POT-Creation-Date: 2023-01-31 09:42\n"
+"PO-Revision-Date: 2023-02-07 10:00+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 
 msgid "invalid 'filename'"
 msgstr "'filename' non valido"
@@ -171,6 +171,64 @@ msgstr "dev.new(): si utilizza postscript(file=\"%s\")"
 msgid "Invalid capabilities - alert the device maintainer"
 msgstr "Capacità non valide - si avvisi il responsabile del dispositivo"
 
+msgid "Invalid span weight"
+msgstr "Peso dell'intervallo non valido"
+
+msgid "length of arguments must match (and be greater than 0)"
+msgstr ""
+"la lunghezza degli argomenti deve combaciare (e essere più grande di 0)"
+
+msgid "Invalid glyph width(s)"
+msgstr "Larghezze glyph non valide"
+
+msgid "Invalid glyph width"
+msgstr "Larghezza glyph non valida"
+
+msgid "Unknown width; using left anchor"
+msgstr "Larghezza sconosciuta; si utilizza l'ancora di sinistra"
+
+msgid "Invalid glyph height(s)"
+msgstr "Altezze glyph non valide"
+
+msgid "Invalid glyph height"
+msgstr "Altezza glyph non valida"
+
+msgid "Unknown height; using bottom anchor"
+msgstr "Altezza sconosciuta; si utilizza l'ancora in basso"
+
+msgid "Invalid glyph anchor"
+msgstr "Ancora glyph non valida"
+
+msgid "Font file longer than 500 will be truncated"
+msgstr "Il file del carattere più lungo di 500 sarà troncato"
+
+msgid "Font family longer than 200 will be truncated"
+msgstr "La famiglia del carattere più lungo di 200 sarà troncato"
+
+msgid "PostScript font name longer than 200 will be truncated"
+msgstr "Il nome del carattere Postscript più lungo di 200 sarà troncato"
+
+msgid "Font information is inconsistent"
+msgstr "L'informazione sul carattere è inconsistente"
+
+msgid "List must include at least one font"
+msgstr "La lista deve includere almeno un carattere"
+
+msgid "Invalid glyph font"
+msgstr "Carattere glyph non valido"
+
+msgid "Invalid font list"
+msgstr "Lista carattere non valido"
+
+msgid "Unknown font"
+msgstr "Carattere sconosciuto"
+
+msgid "There must be anchors named \"left\" and \"bottom\""
+msgstr "Devono essere indicate ancore \"left\" e \"bottom\""
+
+msgid "Invalid glyph info"
+msgstr "Informazione glyph non valida"
+
 msgid "Invalid compositing operator"
 msgstr "Operatore di composizione non valido"
 
@@ -273,6 +331,9 @@ msgstr "formato di uscita non valido"
 
 msgid "status %d in running command '%s'"
 msgstr "status %d durante l'esecuzione del comando '%s'"
+
+msgid "Invalid 'glyphInfo'"
+msgstr "'glyphInfo' non valido"
 
 msgid "failed to add more ticks; 'min.n' too large?"
 msgstr "aggiunta di segni fallita; 'min.n' troppo grande?"
