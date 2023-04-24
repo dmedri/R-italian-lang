@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2023-01-31 09:42\n"
-"PO-Revision-Date: 2023-02-07 10:00+0100\n"
+"POT-Creation-Date: 2023-04-24 11:08\n"
+"PO-Revision-Date: 2023-04-24 11:29+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -439,8 +439,17 @@ msgstr ""
 "Dispositivi disponibili:\n"
 "%s"
 
+msgid "invalid width"
+msgstr "larghezza non valida"
+
+msgid "invalid height"
+msgstr "altezza non valida"
+
 msgid "'res' must be specified unless 'units = \"px\"'"
 msgstr "'res' dev'essere specificato finché 'units = \"px\"'"
+
+msgid "'filename' must be a non-empty character string"
+msgstr "'filename' dev'essere una stringa di caratteri non vuota"
 
 msgid "type = \"quartz\" is unavailable. trying \"Xlib\""
 msgstr "type = \"quartz\" non disponibile. Si usa \"Xlib\""

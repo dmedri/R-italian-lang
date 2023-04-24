@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2023-01-02 15:20\n"
-"PO-Revision-Date: 2023-01-04 14:29+0100\n"
+"POT-Creation-Date: 2023-04-24 11:08\n"
+"PO-Revision-Date: 2023-04-24 11:39+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -145,9 +145,6 @@ msgid ""
 msgstr ""
 "errore di elaborazione nel file '%s':\n"
 "%s"
-
-msgid "declared S3 method '%s' not found"
-msgstr "il metodo S3 '%s' è dichiarato ma non trovato"
 
 msgid "cannot check R code installed as image"
 msgstr "non è possibile verificare il codice R installato come immagine"
@@ -578,6 +575,13 @@ msgstr "Il pacchetto macro Rd '%s' non è installato."
 msgid "No Rd macros in package '%s'."
 msgstr "Nessuna macro Rd nel pacchetto '%s'."
 
+msgid ""
+"links not supported for 'standalone = FALSE' when "
+"_R_HELP_LINKS_TO_TOPICS_=false"
+msgstr ""
+"collegamenti non supportati per 'standalone = FALSE' con "
+"_R_HELP_LINKS_TO_TOPICS_=false"
+
 msgid "more than one \\examples section, using the first"
 msgstr "più di una sezione \\examples, si utilizza la prima"
 
@@ -818,9 +822,6 @@ msgstr "ERRORE: l'attuale versione di R è %s, quella richiesta è %s %s"
 msgid "loading failed"
 msgstr "caricamento fallito"
 
-msgid "assertConditon: Successfully caught a condition"
-msgstr "assertConditon: Presa con successo una condizione"
-
 msgid "Got %s in evaluating %s; wanted %s"
 msgstr "Rilevato %s nella valutazione di %s; richiesto %s"
 
@@ -830,14 +831,8 @@ msgstr "Ricezione di %s fallita mentre si valutava %s"
 msgid "Failed to get error in evaluating %s"
 msgstr "Errore durante la valutazione di %s"
 
-msgid "Asserted error: %s"
-msgstr "Errore: %s"
-
 msgid "Got warning in evaluating %s, but also an error"
 msgstr "Ricevuto un avvertimento valutando %s, ma anche un errore"
-
-msgid "Asserted warning: %s"
-msgstr "Avvertimento: %s"
 
 msgid "Changes require specified 'style'"
 msgstr "I cambiamenti richiedono la specificazione di 'style'"
@@ -1695,6 +1690,18 @@ msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] "Voce BibTeX corrispondente:"
 msgstr[1] "Voci BibTeX corrispondenti:"
+
+#~ msgid "declared S3 method '%s' not found"
+#~ msgstr "il metodo S3 '%s' è dichiarato ma non trovato"
+
+#~ msgid "assertConditon: Successfully caught a condition"
+#~ msgstr "assertConditon: Presa con successo una condizione"
+
+#~ msgid "Asserted error: %s"
+#~ msgstr "Errore: %s"
+
+#~ msgid "Asserted warning: %s"
+#~ msgstr "Avvertimento: %s"
 
 #~ msgid "duplicated vignette title:"
 #~ msgid_plural "duplicated vignette titles:"

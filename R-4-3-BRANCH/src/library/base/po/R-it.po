@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2023-01-19 11:58\n"
-"PO-Revision-Date: 2023-01-19 12:03+0100\n"
+"POT-Creation-Date: 2023-04-24 11:08\n"
+"PO-Revision-Date: 2023-04-24 11:26+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -1616,6 +1616,16 @@ msgstr "specificare 'file' o 'exprs' ma non entrambi"
 msgid "'%s' is not an existing file"
 msgstr "'%s' non è un file esistente"
 
+#| msgid "'from' must be raw or character"
+msgid "'formula' must be a formula"
+msgstr "'formula' dev'essere una formula"
+
+msgid "Unexpected LHS in 'formula' has been ignored."
+msgstr "Un inatteso LHS nella 'formula' è stato ignorato."
+
+msgid "Unexpected LHS in 'formula' has been combined with RHS."
+msgstr "Un inatteso LHS nella 'formula' è stato abbinato con RHS."
+
 msgid "Timestamp of %s has changed"
 msgstr "Il timestamp di %s è cambiato"
 
@@ -1696,6 +1706,9 @@ msgstr "'bin' dev'essere numerico o un fattore"
 
 msgid "invalid value of %s"
 msgstr "valore di %s non valido"
+
+msgid "'X' must be a data frame when 'INDEX' is a formula"
+msgstr "'x' dev'essere una data frame quando 'INDEX' è una formula"
 
 msgid "'INDEX' is of length zero"
 msgstr "'INDEX' è di lunghezza zero"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-31 09:42+0100\n"
-"PO-Revision-Date: 2023-02-07 10:01+0100\n"
+"POT-Creation-Date: 2023-03-03 14:29+0100\n"
+"PO-Revision-Date: 2023-03-03 14:45+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -616,52 +616,153 @@ msgstr "parametro 'family' non valido in %s"
 msgid "invalid 'fonts' parameter in %s"
 msgstr "parametro 'fonts' non valido in %s"
 
-#: devPS.c:10604 devPS.c:10767 devPS.c:10770 devWindows.c:3762
-#: devWindows.c:3766 devWindows.c:3774 devWindows.c:3785 devWindows.c:3791
-#: devWindows.c:3798 devWindows.c:3805 devWindows.c:3809
+#: devPS.c:10604 devPS.c:10767 devPS.c:10770 devWindows.c:3765
+#: devWindows.c:3769 devWindows.c:3777 devWindows.c:3788 devWindows.c:3794
+#: devWindows.c:3801 devWindows.c:3808 devWindows.c:3812
 #, c-format
 msgid "invalid value of '%s'"
 msgstr "valore di '%s' non valido"
 
-#: devPS.c:10617 devPS.c:10684 devPS.c:10784 devPicTeX.c:775 devWindows.c:3851
+#: devPS.c:10617 devPS.c:10684 devPS.c:10784 devPicTeX.c:775 devWindows.c:3853
 #, c-format
 msgid "unable to start %s() device"
 msgstr "non è possibile aprire il dispositivo %s()"
 
-#: devQuartz.c:663
+#: devQuartz.c:471
+msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
+msgstr "Gradienti Quartz esausti (fallito l'incremento di maxPatterns)"
+
+#: devQuartz.c:477
+msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
+msgstr "Pattern Quartz esausti (fallito l'incremento di maxPatterns)"
+
+#: devQuartz.c:518 cairo/cairoFns.c:350
+msgid "Attempt to release non-existent pattern"
+msgstr "Tentato rilascio di un motivo inesistente"
+
+#: devQuartz.c:555
+msgid "Quartz patterns exhausted"
+msgstr "Pattern Quartz esausti"
+
+#: devQuartz.c:621 devQuartz.c:636 devQuartz.c:638 devQuartz.c:669
+#: devQuartz.c:671
+msgid "Failed to create gradient"
+msgstr "Creazione gradiente fallita"
+
+#: devQuartz.c:653 devQuartz.c:686
+msgid "Unsupported gradient fill extend type; using 'pad'"
+msgstr ""
+"Tipo di estensione del riempimento gradiente non supportato; si utilizza "
+"'pad'."
+
+#: devQuartz.c:729 devQuartz.c:762
+msgid "Failed to create pattern"
+msgstr "Creazione pattern fallita"
+
+#: devQuartz.c:752
+msgid "Unsupported pattern extend mode;  using \"repeat\""
+msgstr ""
+"Modalità di estensione del modello non supportata; si utilizza \"repeat\""
+
+#: devQuartz.c:814
+msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
+msgstr ""
+"Tracciati di ritaglio Quartz esausti (fallito l'incremento di maxClipPaths)"
+
+#: devQuartz.c:863
+msgid "Quartz clipping paths exhausted"
+msgstr "Tracciati di ritaglio Quartz esausti"
+
+#: devQuartz.c:871
+msgid "Failed to create clipping path"
+msgstr "Creazione del tracciato di ritaglio fallita"
+
+#: devQuartz.c:964
+msgid "Quartz masks exhausted (failed to increase maxMasks)"
+msgstr "Maschere Quartz esauste (fallito incremento di maxMasks)"
+
+#: devQuartz.c:1015
+msgid "Quartz masks exhausted"
+msgstr "Maschere Quartz esauste"
+
+#: devQuartz.c:1031
+msgid "Failed to create Quartz mask"
+msgstr "Creazione maschera Quartz fallita"
+
+#: devQuartz.c:1100
+msgid "Quartz groups exhausted (failed to increase maxGroups)"
+msgstr "Gruppi Quartz esausti (fallito l'incremento di maxGroups)"
+
+#: devQuartz.c:1128 cairo/cairoFns.c:920
+msgid "Attempt to release non-existent group"
+msgstr "Tentato rilascio di un gruppo inesistente"
+
+#: devQuartz.c:1157
+msgid "Quartz groups exhausted"
+msgstr "Gruppi Quartz esausti"
+
+#: devQuartz.c:1177
+msgid "Add compositing operator not supported; falling back to over"
+msgstr "Aggiunta dell'operatore di compositing non supportata; torna a over"
+
+#: devQuartz.c:1265 cairo/cairoFns.c:877
+msgid "Groups exhausted"
+msgstr "Gruppi esauriti"
+
+#: devQuartz.c:1655
 #, c-format
 msgid "font \"%s\" could not be found for family \"%s\""
 msgstr "il carattere \"%s\" non è stato trovato per la famiglia \"%s\""
 
-#: devQuartz.c:681
+#: devQuartz.c:1673
 msgid "font family name is too long"
 msgstr "il nome della famiglia del carattere è troppo lungo"
 
-#: devQuartz.c:720
+#: devQuartz.c:1712
 #, c-format
 msgid "no font could be found for family \"%s\""
 msgstr "nessuno carattere è stato trovato per la famiglia \"%s\""
 
-#: devQuartz.c:1398
+#: devQuartz.c:2682 cairo/cairoFns.c:528
+msgid "Attempt to reuse non-existent clipping path"
+msgstr "Tentato riutilizzo di un tracciato di ritaglio inesistente"
+
+#: devQuartz.c:2703 cairo/cairoFns.c:541
+msgid "Attempt to release non-existent clipping path"
+msgstr "Tentato rilascio di un tracciato di ritaglio inesistente"
+
+#: devQuartz.c:2719
+msgid "Ignored alpha mask (not supported on this device)"
+msgstr "Maschera alpha ignorata (non supportata su questo dispositivo)"
+
+#: devQuartz.c:2758 cairo/cairoFns.c:688
+msgid "Attempt to release non-existent mask"
+msgstr "Tentato rilascio di una maschera inesistente"
+
+#: devQuartz.c:3040
+msgid "Failed to load font"
+msgstr "Caricamento font fallito"
+
+#: devQuartz.c:3137
 msgid "invalid 'file' argument"
 msgstr "argomento 'file' non valido"
 
-#: devQuartz.c:1425
+#: devQuartz.c:3164
 msgid "invalid quartz() device size"
 msgstr "dimensione dispositivo quartz() non valida"
 
-#: devQuartz.c:1453
+#: devQuartz.c:3192
 msgid "unable to create device description"
 msgstr "non è possibile creare una descrizione per il dispositivo"
 
-#: devQuartz.c:1503
+#: devQuartz.c:3242
 msgid ""
 "unable to create quartz() device target, given type may not be supported"
 msgstr ""
 "non è possibile creare il dispositivo quartz(), quest'ultimo potrebber non "
 "essere supportato"
 
-#: devQuartz.c:1633
+#: devQuartz.c:3372
 msgid "Quartz device is not available on this platform"
 msgstr "Il dispositivo Quartz non è disponibile su questa piattaforma"
 
@@ -755,7 +856,7 @@ msgstr "un metafile degli appunti può contenere solo una figura."
 msgid "metafile '%s' could not be created"
 msgstr "il metafile '%s' non può essere creato"
 
-#: devWindows.c:3192 devWindows.c:3875
+#: devWindows.c:3192 devWindows.c:3877
 msgid "R Graphics"
 msgstr "R Graphics"
 
@@ -791,16 +892,16 @@ msgstr "tipo argomento non valido in 'savePlot'"
 msgid "unknown type in savePlot"
 msgstr "type sconosciuto in savePlot"
 
-#: devWindows.c:3616 devWindows.c:3648 devWindows.c:3676 devWindows.c:3707
-#: devWindows.c:3728
+#: devWindows.c:3616 devWindows.c:3658 devWindows.c:3683 devWindows.c:3710
+#: devWindows.c:3731
 msgid "processing of the plot ran out of memory"
 msgstr "mancanza di memoria nel processare il grafico"
 
-#: devWindows.c:3692
+#: devWindows.c:3629
 msgid "Impossible to open "
 msgstr "Impossibile aprire "
 
-#: devWindows.c:3757
+#: devWindows.c:3760
 msgid "invalid 'width' or 'height'"
 msgstr "'width' o 'height' non validi"
 
@@ -830,12 +931,12 @@ msgstr ""
 msgid "Mask ignored (device is appending path)"
 msgstr "Maschera ignorata (il dispositivo sta aggiungendo il percorso)"
 
-#: qdBitmap.c:79
+#: qdBitmap.c:84
 #, c-format
 msgid "QuartzBitmap_Output - unable to open file '%s'"
 msgstr "QuartzBitmap_Output - non è possibile aprire il file '%s'"
 
-#: qdBitmap.c:94
+#: qdBitmap.c:99
 msgid "not a supported scheme, no image data written"
 msgstr "non è uno schema supportato, nessun dato immagine scritto"
 
@@ -869,10 +970,6 @@ msgstr "Motivi Cairo esauriti (fallito l'incremento di maxPatterns)"
 msgid "Cairo patterns exhausted"
 msgstr "Motivi Cairo esauriti"
 
-#: cairo/cairoFns.c:350
-msgid "Attempt to release non-existent pattern"
-msgstr "Tentato rilascio di un motivo inesistente"
-
 #: cairo/cairoFns.c:392
 msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
 msgstr ""
@@ -881,14 +978,6 @@ msgstr ""
 #: cairo/cairoFns.c:439
 msgid "Cairo clipping paths exhausted"
 msgstr "Tracciati di ritaglio Cairo esauriti"
-
-#: cairo/cairoFns.c:528
-msgid "Attempt to reuse non-existent clipping path"
-msgstr "Tentato riutilizzo di un tracciato di ritaglio inesistente"
-
-#: cairo/cairoFns.c:541
-msgid "Attempt to release non-existent clipping path"
-msgstr "Tentato rilascio di un tracciato di ritaglio inesistente"
 
 #: cairo/cairoFns.c:571
 msgid "Cairo masks exhausted (failed to increase maxMasks)"
@@ -902,27 +991,15 @@ msgstr "Maschere Cairo esaurite"
 msgid "Ignored luminance mask (not supported on this device)"
 msgstr "Maschera di luminanza ignorata (non supportata su questo dispositivo)"
 
-#: cairo/cairoFns.c:688
-msgid "Attempt to release non-existent mask"
-msgstr "Tentato rilascio di una maschera inesistente"
-
-#: cairo/cairoFns.c:718
+#: cairo/cairoFns.c:719
 msgid "Cairo groups exhausted (failed to increase maxGroups)"
 msgstr "Gruppi Cairo esauriti (fallito l'incremento di maxGroups)"
 
-#: cairo/cairoFns.c:771
+#: cairo/cairoFns.c:773
 msgid "Cairo groups exhausted"
 msgstr "Gruppi Cairo esauriti"
 
-#: cairo/cairoFns.c:868
-msgid "Groups exhausted"
-msgstr "Gruppi esauriti"
-
-#: cairo/cairoFns.c:922
-msgid "Attempt to release non-existent group"
-msgstr "Tentato rilascio di un gruppo inesistente"
-
-#: cairo/cairoFns.c:2420
+#: cairo/cairoFns.c:2394
 msgid "Font file not found; matching font family and face"
 msgstr ""
 "File del carattere non trovato; si confronta la famiglia e l'aspetto del "
