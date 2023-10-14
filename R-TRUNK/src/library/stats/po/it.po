@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-13 09:29+0200\n"
-"PO-Revision-Date: 2023-01-19 18:31+0100\n"
+"POT-Creation-Date: 2023-10-14 11:43+0200\n"
+"PO-Revision-Date: 2023-10-14 13:25+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -165,11 +165,11 @@ msgstr "distance(): p non valido"
 msgid "distance(): invalid distance"
 msgstr "distance(): distanza non valida"
 
-#: distn.c:44
+#: distn.c:47
 msgid "NaNs produced"
 msgstr "Si è prodotto un NaN"
 
-#: distn.c:45
+#: distn.c:48
 msgid "Non-numeric argument to mathematical function"
 msgstr "Argomento non numerico in una funzione matematica"
 
@@ -320,6 +320,11 @@ msgstr ""
 #, c-format
 msgid "'%s' must be of length one"
 msgstr "'%s' dev'essere di lunghezza uno"
+
+#: isoreg.c:53
+#, c-format
+msgid "non-finite sum(y) == %g is not allowed"
+msgstr "non-finita sum(y) == %g non ammessa"
 
 #: ksmooth.c:69
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
