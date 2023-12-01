@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-14 11:43+0200\n"
-"PO-Revision-Date: 2023-10-14 13:25+0200\n"
+"POT-Creation-Date: 2023-12-01 07:19+0100\n"
+"PO-Revision-Date: 2023-12-01 07:46+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -24,8 +24,8 @@ msgstr "ampiezza/copertura delle mediane più grande di n"
 
 #: Srunmed.c:262
 #, c-format
-msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%ld]"
-msgstr "runmed(x, .., na.action=\"na.fail\"): ha NA iniziando da x[%ld]"
+msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
+msgstr "runmed(x, .., na.action=\"na.fail\"): ha NA iniziando da x[%lld]"
 
 #: Srunmed.c:265
 msgid "runmed(): invalid 'na.action'"
@@ -286,9 +286,9 @@ msgstr ""
 
 #: fourier.c:233
 #, c-format
-msgid "nextn<64>() found no solution < %ld = UINT64_MAX (the maximal integer)"
+msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
 msgstr ""
-"nextn<64>() non ha trovato alcuna soluzione < %ld = UINT64_MAX (il massimo "
+"nextn<64>() non ha trovato alcuna soluzione < %llu = UINT64_MAX (il massimo "
 "intero)"
 
 #: fourier.c:249
@@ -336,8 +336,8 @@ msgstr "'x' non è una matrice"
 
 #: lm.c:62
 #, c-format
-msgid "dimensions of 'x' (%d,%d) and 'y' (%d) do not match"
-msgstr "le dimensioni di 'x' (%d,%d) e 'y' (%d) non corrispondono"
+msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
+msgstr "le dimensioni di 'x' (%d,%d) e 'y' (%lld) non corrispondono"
 
 #: lm.c:77 lm.c:81
 #, c-format

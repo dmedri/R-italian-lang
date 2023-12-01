@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2023-09-29 08:49\n"
-"PO-Revision-Date: 2023-09-29 09:15+0200\n"
+"POT-Creation-Date: 2023-12-01 07:18\n"
+"PO-Revision-Date: 2023-12-01 07:58+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -804,7 +804,6 @@ msgstr "Nessun factor specificato"
 msgid "invalid '%s': type \"%s\""
 msgstr "'%s' non valido: tipo \"%s\""
 
-#| msgid "'wait' must be TRUE or FALSE"
 msgid "'uplo' must be \"U\" or \"L\""
 msgstr "'uplo' dev'essere \"U\" o \"L\""
 
@@ -1468,6 +1467,9 @@ msgstr "struttura 'rle' non valida"
 msgid "... must contain names or character strings"
 msgstr "... deve contenere nomi o stringhe di caratteri"
 
+msgid "invalid 'x'"
+msgstr "'x' non valido"
+
 msgid "incorrect length for 'group'"
 msgstr "lunghezza per 'group' non corretta"
 
@@ -1764,7 +1766,6 @@ msgstr "'width' dev'essere positiva"
 msgid "No traceback available"
 msgstr "Nessun traceback disponibile"
 
-#| msgid "invalid version specification %s"
 msgid "invalid non-character version specification 'x' (type: %s)"
 msgstr "non valida specificazione di versione non a caratteri 'x' (tipo: %s)"
 

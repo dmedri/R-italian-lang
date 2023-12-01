@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2023-10-14 11:43\n"
-"PO-Revision-Date: 2023-10-14 12:04+0200\n"
+"POT-Creation-Date: 2023-12-01 07:19\n"
+"PO-Revision-Date: 2023-12-01 07:44+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -300,6 +300,9 @@ msgstr "La codifica '%s' non è portabile"
 msgid "Unknown encoding with non-ASCII data"
 msgstr "Codifica sconosciuta con dati non-ASCII"
 
+msgid "Record: %d Field(s): %s"
+msgstr "Record: %d Campi: %s"
+
 msgid "Non-standard license specification:"
 msgstr "Specificazione licenza non-standard:"
 
@@ -321,6 +324,12 @@ msgstr "Componenti della licenza con restrizioni non consentite:"
 msgid "License components which are templates and need '+ file LICENSE':"
 msgstr ""
 "Componenti della licenza che sono modelli e che richiedono '+ file LICENSE':"
+
+msgid "License stub is invalid DCF."
+msgstr "Lo stub della licenza non è un DCF valido."
+
+msgid "License stub records with missing/empty fields:"
+msgstr "Record dello stub di licenza con campi mancanti/vuoti:"
 
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
 msgstr ""
