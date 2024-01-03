@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-22 09:26+0100\n"
-"PO-Revision-Date: 2023-12-22 12:01+0100\n"
+"POT-Creation-Date: 2024-01-03 18:34+0100\n"
+"PO-Revision-Date: 2024-01-03 18:38+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -956,7 +956,7 @@ msgstr ""
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr "dimnames(<value>) non è né NULL né una lista di lunghezza %d"
 
-#: src/main/apply.c:343 src/main/coerce.c:2729
+#: src/main/apply.c:343 src/main/coerce.c:2726
 #, c-format
 msgid "'%s' must be a list or expression"
 msgstr "'%s' dev'essere una lista o un'espressione"
@@ -1291,7 +1291,7 @@ msgstr "tipo non valido (%s) per impostare l'attributo 'names'"
 msgid "'dimnames' applied to non-array"
 msgstr "'dimnames' utilizzata su un oggetto che non è di tipo array"
 
-#: src/main/attrib.c:1098 src/main/coerce.c:2732
+#: src/main/attrib.c:1098 src/main/coerce.c:2729
 #, c-format
 msgid "'%s' must be a list"
 msgstr "'%s' dev'essere una lista"
@@ -1486,7 +1486,7 @@ msgstr "primo argomento non valido"
 
 #: src/main/builtin.c:84 src/main/builtin.c:93 src/main/builtin.c:317
 #: src/main/builtin.c:351 src/main/builtin.c:404 src/main/builtin.c:418
-#: src/main/coerce.c:1629 src/main/connections.c:3521 src/main/engine.c:3234
+#: src/main/coerce.c:1626 src/main/connections.c:3521 src/main/engine.c:3234
 #: src/main/envir.c:1000 src/main/envir.c:1054 src/main/envir.c:1220
 #: src/main/envir.c:1253 src/main/envir.c:1877 src/main/envir.c:1992
 #: src/main/envir.c:2027 src/main/envir.c:2101 src/main/envir.c:2233
@@ -1570,7 +1570,7 @@ msgstr ""
 "non è possibile impostare la lunghezza di un oggetto che non sia un vettore "
 "o una lista"
 
-#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3099
+#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3096
 msgid "invalid value"
 msgstr "valore non valido"
 
@@ -1583,7 +1583,7 @@ msgstr "la lunghezza di NULL non può essere cambiata"
 msgid "wrong length for '%s' argument"
 msgstr "lunghezza sbagliata per l'argomento '%s'"
 
-#: src/main/builtin.c:981 src/main/coerce.c:2802 src/main/coerce.c:2845
+#: src/main/builtin.c:981 src/main/coerce.c:2799 src/main/coerce.c:2842
 #: src/main/eval.c:1156 src/main/eval.c:1276 src/main/eval.c:3626
 #: src/main/eval.c:3715 src/main/eval.c:3786 src/main/eval.c:4127
 #: src/main/eval.c:7652 src/main/eval.c:7796
@@ -1791,96 +1791,96 @@ msgstr "tentativo di coercizione per un oggetto non factor"
 msgid "malformed factor"
 msgstr "fattore sbagliato"
 
-#: src/main/coerce.c:1625
+#: src/main/coerce.c:1622
 msgid "list argument expected"
 msgstr "richiesto argomento lista"
 
-#: src/main/coerce.c:1633 src/main/eval.c:8660
+#: src/main/coerce.c:1629 src/main/eval.c:8660
 msgid "invalid environment"
 msgstr "ambiente non valido"
 
-#: src/main/coerce.c:1637
+#: src/main/coerce.c:1633
 msgid "argument must have length at least 1"
 msgstr "l'argomento deve avere almeno lunghezza 1"
 
-#: src/main/coerce.c:1659
+#: src/main/coerce.c:1656
 msgid "invalid body for function"
 msgstr "corpo funzione non valido"
 
-#: src/main/coerce.c:1685
+#: src/main/coerce.c:1682
 msgid "argument must be character"
 msgstr "l'argomento dev'essere di tipo character"
 
-#: src/main/coerce.c:1690
+#: src/main/coerce.c:1687
 msgid "argument must be a character string"
 msgstr "l'argomento dev'essere una stringa di tipo character"
 
-#: src/main/coerce.c:1731
+#: src/main/coerce.c:1728
 #, c-format
 msgid "parsing result not of length one, but %d"
 msgstr "analisi del risultato non di lunghezza uno, ma %d"
 
-#: src/main/coerce.c:1763
+#: src/main/coerce.c:1760
 msgid "invalid length 0 argument"
 msgstr "argomento di lunghezza 0 non valido"
 
-#: src/main/coerce.c:1779
+#: src/main/coerce.c:1776
 msgid "as.call(<character>) not feasible; consider str2lang(<char.>)"
 msgstr "as.call(<character>) non fattibile; si consideri str2lang(<char.>)"
 
-#: src/main/coerce.c:1782
+#: src/main/coerce.c:1779
 msgid "invalid argument list"
 msgstr "lista argomento non valida"
 
-#: src/main/coerce.c:1800
+#: src/main/coerce.c:1797
 #, c-format
 msgid "'length = %lld' in coercion to '%s'"
 msgstr "'length = %lld' nella coercizione in '%s'"
 
-#: src/main/coerce.c:2142
+#: src/main/coerce.c:2139
 msgid "type \"single\" unimplemented in R"
 msgstr "tipo \"single\" non implementato in R"
 
-#: src/main/coerce.c:2144
+#: src/main/coerce.c:2141
 msgid "unimplemented predicate"
 msgstr "predicato non implementato"
 
-#: src/main/coerce.c:2333
+#: src/main/coerce.c:2330
 #, c-format
 msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() applicato ad un oggetto di tipo '%s' (ne lista, ne vettore)"
 
-#: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
+#: src/main/coerce.c:2526 src/main/coerce.c:2587 src/main/coerce.c:2663
 #, c-format
 msgid "default method not implemented for type '%s'"
 msgstr "metodo predefinito non implementato per il tipo '%s'"
 
-#: src/main/coerce.c:2686
+#: src/main/coerce.c:2683
 msgid "'name' is missing"
 msgstr "'name' assente"
 
-#: src/main/coerce.c:2693
+#: src/main/coerce.c:2690
 msgid "first argument must be a character string"
 msgstr "il primo argomento dev'essere una stringa di tipo character"
 
-#: src/main/coerce.c:2725
+#: src/main/coerce.c:2722
 msgid "'what' must be a function or character string"
 msgstr "'what' dev'essere una funzione o una stringa di caratteri"
 
-#: src/main/coerce.c:2736 src/main/unique.c:1861
+#: src/main/coerce.c:2733 src/main/unique.c:1861
 msgid "'envir' must be an environment"
 msgstr "'envir' dev'essere un environment"
 
-#: src/main/coerce.c:2896
+#: src/main/coerce.c:2893
 msgid "invalid environment specified"
 msgstr "si è specificato un ambiente non valido"
 
-#: src/main/coerce.c:2965
+#: src/main/coerce.c:2962
 msgid "Setting class(x) to NULL;   result will no longer be an S4 object"
 msgstr ""
 "Configurazione di class(x) a NULL;   il risultato non sarà più un oggetto S4"
 
-#: src/main/coerce.c:2968
+#: src/main/coerce.c:2965
 #, c-format
 msgid ""
 "Setting class(x) to multiple strings (\"%s\", \"%s\", ...); result will no "
@@ -1889,7 +1889,7 @@ msgstr ""
 "Impostando class(x) su stringhe multiple (\"%s\", \"%s\", ...); il risultato "
 "non sarà più un oggetto S4"
 
-#: src/main/coerce.c:2972
+#: src/main/coerce.c:2969
 #, c-format
 msgid ""
 "Setting class(x) to \"%s\" sets attribute to NULL; result will no longer be "
@@ -1898,11 +1898,11 @@ msgstr ""
 "Impostando class(x) su \"%s\" configura attributi a NULL; il risultato non "
 "sarà più un oggetto S4"
 
-#: src/main/coerce.c:2997
+#: src/main/coerce.c:2994
 msgid "invalid replacement object to be a class string"
 msgstr "oggetto sostitutivo non valido per essere di classe stringa"
 
-#: src/main/coerce.c:3003
+#: src/main/coerce.c:3000
 #, c-format
 msgid ""
 "invalid to set the class to matrix unless the dimension attribute is of "
@@ -1911,7 +1911,7 @@ msgstr ""
 "non è possibile impostare la classe a matrix finché l'attributo dimensione "
 "non ha lunghezza 2 (era %d)"
 
-#: src/main/coerce.c:3034
+#: src/main/coerce.c:3031
 #, c-format
 msgid ""
 "\"%s\" can only be set as the class if the object has this type; found \"%s\""
@@ -1919,18 +1919,18 @@ msgstr ""
 "\"%s\" può essere impostato come classe se l'oggetto è di questo tipo; ho "
 "trovato \"%s\""
 
-#: src/main/coerce.c:3052
+#: src/main/coerce.c:3049
 msgid ""
 "cannot set class to \"array\" unless the dimension attribute has length > 0"
 msgstr ""
 "non è possibile impostare la classe ad \"array\"  se l'attributo dimensione "
 "non ha lunghezza > 0"
 
-#: src/main/coerce.c:3091
+#: src/main/coerce.c:3088
 msgid "'value' must be non-null character string"
 msgstr "'value' dev'essere una stringa di caratteri non-nulla"
 
-#: src/main/coerce.c:3103
+#: src/main/coerce.c:3100
 msgid "invalid to change the storage mode of a factor"
 msgstr "non è possibile cambiare la modalità di archiviazione di un fattore"
 
@@ -3991,8 +3991,9 @@ msgid "'%s' is missing"
 msgstr "'%s' è assente"
 
 #: src/main/eval.c:3820
-msgid "invalid formal argument list for \"function\""
-msgstr "lista argomento formale non valida per \"function\""
+#, c-format
+msgid "invalid formal argument list for \"%s\""
+msgstr "lista argomento formale non valida per \"%s\""
 
 #: src/main/eval.c:3877 src/main/eval.c:3908 src/main/eval.c:3913
 #, c-format
