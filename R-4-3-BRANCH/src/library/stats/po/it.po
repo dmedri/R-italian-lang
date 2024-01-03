@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-13 09:29+0200\n"
-"PO-Revision-Date: 2023-01-19 18:31+0100\n"
+"POT-Creation-Date: 2024-01-03 19:00+0100\n"
+"PO-Revision-Date: 2024-01-03 19:39+0100\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -320,6 +320,11 @@ msgstr ""
 #, c-format
 msgid "'%s' must be of length one"
 msgstr "'%s' dev'essere di lunghezza uno"
+
+#: isoreg.c:53
+#, c-format
+msgid "non-finite sum(y) == %g is not allowed"
+msgstr "non è ammesso un sum(y) == %g non finito"
 
 #: ksmooth.c:69
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
