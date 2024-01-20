@@ -1,7 +1,7 @@
 # R Italian translation
 # Copyright (C) The R Foundation
 # This file is distributed under the same license as the R package.
-# Daniele Medri <dmedri@gmail.com>, 2005-2023.
+# Daniele Medri <dmedri@gmail.com>, 2005-2024
 #
 msgid ""
 msgstr ""
