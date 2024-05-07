@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-4-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2023-12-01 07:19\n"
-"PO-Revision-Date: 2023-12-01 07:44+0100\n"
+"POT-Creation-Date: 2024-04-30 12:42\n"
+"PO-Revision-Date: 2024-05-07 12:30+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -1312,9 +1312,6 @@ msgstr "non è possibile creare la directory temporanea %s"
 msgid "expected one package directory, found %d."
 msgstr "attesa una directory del pacchetto, si è trovato %d."
 
-msgid "one of 'package' and 'dir' must be specified."
-msgstr "dev'essere specificato almeno 'package' o 'dir'."
-
 msgid "argument '%s' must be a character string or connection"
 msgstr "l'argomento '%s' dev'essere una stringa di caratteri o una connessione"
 
@@ -1345,6 +1342,9 @@ msgstr "test per '%s' fallito"
 msgid "Testing examples for package %s"
 msgstr "Verifica esempi per il pacchetto %s"
 
+msgid "Error: running examples in %s failed"
+msgstr "Errore: esecuzione fallita per gli esempi in %s"
+
 msgid "comparing %s to %s ..."
 msgstr "comparando %s a %s ..."
 
@@ -1368,6 +1368,9 @@ msgstr "Eseguendo test specifici per il pacchetto %s"
 
 msgid "Running %s"
 msgstr "Eseguendo '%s'"
+
+msgid "Error: running the tests in %s failed"
+msgstr "Errore: esecuzione fallita per i test in %s"
 
 msgid "Running vignettes for package %s"
 msgstr "Eseguendo vignette per il pacchetto %s"
@@ -1714,6 +1717,9 @@ msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] "Voce BibTeX corrispondente:"
 msgstr[1] "Voci BibTeX corrispondenti:"
+
+#~ msgid "one of 'package' and 'dir' must be specified."
+#~ msgstr "dev'essere specificato almeno 'package' o 'dir'."
 
 #~ msgid "inferiorCallError"
 #~ msgstr "inferiorCallError"
