@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-4-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-03-09 11:19\n"
-"PO-Revision-Date: 2024-03-25 16:38+0100\n"
+"POT-Creation-Date: 2024-06-10 10:37\n"
+"PO-Revision-Date: 2024-06-10 10:55+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -38,12 +38,6 @@ msgstr "Si veda help(\"Deprecated\") e help(\"%s-deprecated\")."
 
 msgid "See help(\"Deprecated\")"
 msgstr "Si veda help(\"Deprecated\")"
-
-msgid "unsupported value of _R_DEPRECATED_IS_R_,"
-msgstr "valore non supportato di _R_DEPRECATED_IS_R_,"
-
-msgid ", will be ignored"
-msgstr ", sarà ignorato"
 
 msgid "argument to 'La.svd' must be numeric or complex"
 msgstr "l'argomento di 'La.svd' dev'essere numerico o complesso"
@@ -541,6 +535,11 @@ msgstr "il componente subscript dev'essere una stringa di caratteri"
 
 msgid "no Olson database found"
 msgstr "nessun database Olson trovato"
+
+msgid "No element named \"%s\" found in x, did you mean x[, \"%1$s\"] instead?"
+msgstr ""
+"Non è stato trovato alcun elemento con nome \"%s\" in x, intendevi x[, "
+"\"%1$s\"]?"
 
 msgid "'file' must be a character string or connection"
 msgstr "'file' dev'essere una stringa di caratteri o una connessione"
@@ -1775,9 +1774,6 @@ msgstr "Nessun traceback disponibile"
 msgid "invalid non-character version specification 'x' (type: %s)"
 msgstr "non valida specificazione di versione non a caratteri 'x' (tipo: %s)"
 
-msgid "Calls"
-msgstr "Chiamate"
-
 msgid "invalid version specification %s"
 msgstr "versione specificata %s non valida"
 
@@ -2069,3 +2065,12 @@ msgstr[0] ""
 msgstr[1] ""
 "In %s :\n"
 " gli argomenti extra %s saranno ignorati"
+
+#~ msgid "unsupported value of _R_DEPRECATED_IS_R_,"
+#~ msgstr "valore non supportato di _R_DEPRECATED_IS_R_,"
+
+#~ msgid ", will be ignored"
+#~ msgstr ", sarà ignorato"
+
+#~ msgid "Calls"
+#~ msgstr "Chiamate"

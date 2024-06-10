@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-4-4-BRANCH\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-04-30 12:42\n"
-"PO-Revision-Date: 2024-05-07 12:30+0200\n"
+"POT-Creation-Date: 2024-06-10 10:38\n"
+"PO-Revision-Date: 2024-06-10 10:43+0200\n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -741,9 +741,6 @@ msgstr "Pacchetto engine vignetta non specificato"
 msgid "Unsupported engine name"
 msgstr "Nome engine non supportato"
 
-msgid "None of packages %s have registered vignette engines"
-msgstr "Nessuno dei pacchetti %s ha registratto engine per vignette"
-
 msgid "Vignette engine %s is not registered"
 msgstr "L'engine di vignette %s non è registrato"
 
@@ -836,6 +833,12 @@ msgstr "ERRORE: l'attuale versione di R è %s, quella richiesta è %s %s"
 
 msgid "loading failed"
 msgstr "caricamento fallito"
+
+msgid "'cc' is not on the path"
+msgstr "'cc' non è nel percorso"
+
+msgid "'objdump' is not on the path"
+msgstr "'objdump' non è nel percorso"
 
 msgid "Got %s in evaluating %s; wanted %s"
 msgstr "Rilevato %s nella valutazione di %s; richiesto %s"
@@ -1680,6 +1683,11 @@ msgid "SUMMARY: processing the following file failed:"
 msgid_plural "SUMMARY: processing the following files failed:"
 msgstr[0] "RIASSUNTO: l'analisi del seguente file è fallita:"
 msgstr[1] "RIASSUNTO: l'analisi dei seguenti file è fallita:"
+
+msgid "Package %s does not have a registered vignette engine"
+msgid_plural "None of packages %s have registered vignette engines"
+msgstr[0] "Il pacchetto %s non ha registratto engine per vignette"
+msgstr[1] "Nessuno dei pacchetti %s ha registratto engine per vignette"
 
 msgid "unable to re-encode %s line %s"
 msgid_plural "unable to re-encode %s lines %s"
